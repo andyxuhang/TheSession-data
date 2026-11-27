@@ -1,0 +1,150 @@
+{
+  "settings_checked": 55821,
+  "settings_flagged": 27264,
+  "settings_new_to_existing_scan": 3804,
+  "parsers": {
+    "abc2abc": {
+      "flagged": 25803,
+      "new_to_existing_scan": 3209
+    },
+    "abc2midi": {
+      "flagged": 13037,
+      "new_to_existing_scan": 2724
+    },
+    "abcjs": {
+      "flagged": 1646,
+      "new_to_existing_scan": 132
+    }
+  },
+  "categories": {
+    "Measure duration": {
+      "settings": 21854,
+      "new_to_existing_scan": 90,
+      "parsers": [
+        "abc2abc",
+        "abc2midi"
+      ]
+    },
+    "Repeat or ending structure": {
+      "settings": 7684,
+      "new_to_existing_scan": 3216,
+      "parsers": [
+        "abc2abc",
+        "abc2midi",
+        "abcjs"
+      ]
+    },
+    "Parser process or exception": {
+      "settings": 4096,
+      "new_to_existing_scan": 1022,
+      "parsers": [
+        "abc2abc",
+        "abc2midi"
+      ]
+    },
+    "Ignored or unsupported character": {
+      "settings": 923,
+      "new_to_existing_scan": 40,
+      "parsers": [
+        "abc2abc",
+        "abc2midi"
+      ]
+    },
+    "Chord or annotation syntax": {
+      "settings": 886,
+      "new_to_existing_scan": 218,
+      "parsers": [
+        "abc2midi",
+        "abcjs"
+      ]
+    },
+    "Note syntax": {
+      "settings": 752,
+      "new_to_existing_scan": 165,
+      "parsers": [
+        "abc2abc",
+        "abc2midi"
+      ]
+    },
+    "Other diagnostic": {
+      "settings": 588,
+      "new_to_existing_scan": 88,
+      "parsers": [
+        "abc2abc",
+        "abc2midi"
+      ]
+    },
+    "Decoration compatibility": {
+      "settings": 543,
+      "new_to_existing_scan": 11,
+      "parsers": [
+        "abcjs"
+      ]
+    },
+    "Tie target": {
+      "settings": 389,
+      "new_to_existing_scan": 60,
+      "parsers": [
+        "abc2midi"
+      ]
+    },
+    "Barline compatibility": {
+      "settings": 376,
+      "new_to_existing_scan": 71,
+      "parsers": [
+        "abcjs"
+      ]
+    },
+    "Broken rhythm": {
+      "settings": 316,
+      "new_to_existing_scan": 18,
+      "parsers": [
+        "abc2midi"
+      ]
+    },
+    "Grace-note syntax": {
+      "settings": 272,
+      "new_to_existing_scan": 22,
+      "parsers": [
+        "abc2abc",
+        "abc2midi",
+        "abcjs"
+      ]
+    },
+    "Display duration": {
+      "settings": 234,
+      "new_to_existing_scan": 30,
+      "parsers": [
+        "abcjs"
+      ]
+    },
+    "Tuplet notation": {
+      "settings": 104,
+      "new_to_existing_scan": 4,
+      "parsers": [
+        "abc2abc",
+        "abc2midi",
+        "abcjs"
+      ]
+    },
+    "Unclosed chord annotation": {
+      "settings": 9,
+      "new_to_existing_scan": 1,
+      "parsers": [
+        "abc2abc",
+        "abc2midi",
+        "abcjs"
+      ]
+    }
+  },
+  "confirmed_new_unclosed_annotations": [
+    "15843"
+  ],
+  "source_abc_modified": false,
+  "caveats": [
+    "abc2midi and abc2abc are part of the same abcmidi project.",
+    "Diagnostics are review candidates. Counts overlap and include valid pickups and parser limitations.",
+    "New means absent from the current findings.jsonl, not newly introduced by recent corrections.",
+    "Every parser received an explicit L:1/8 header, matching the existing library interpretation."
+  ]
+}
