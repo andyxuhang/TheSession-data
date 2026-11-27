@@ -1,23 +1,23 @@
 {
   "settings_checked": 55838,
   "tunes_checked": 23199,
-  "fixed_settings": 290,
-  "fixed_tunes": 253,
+  "fixed_settings": 311,
+  "fixed_tunes": 268,
   "fixed_edits_by_type": {
     "misplaced_barline": 7,
     "missing_barline": 230,
-    "note_length": 72,
+    "note_length": 94,
     "stray_control": 19
   },
   "categories": {
-    "fixed": 290,
-    "review": 3932,
+    "fixed": 311,
+    "review": 3917,
     "boundaries": 24421,
     "unsupported": 6515,
-    "playback": 3523
+    "playback": 3515
   },
-  "no_current_findings": 26102,
+  "no_current_findings": 26107,
   "rejected_settings": 3,
   "counts_overlap": true,
-  "fixed_with_remaining_review": 40
+  "fixed_with_remaining_review": 46
 }

@@ -42,7 +42,7 @@ class NotationTests(unittest.TestCase):
         from unittest.mock import patch
         from pathlib import Path
         from tempfile import TemporaryDirectory
-        from fix_notation import check_barlines
+        from fix_notation import check_measure_edits
 
         x, y = "DEFGABcd", "efgabagf"
         body = "|" + "|".join([x, y, x+y, y, x, x+y, x, y, x, y]) + "|"
@@ -51,7 +51,7 @@ class NotationTests(unittest.TestCase):
         checks = [{'variant':'1-0','passed':False,'reason':'pitch'},
                   {'variant':'1-1','passed':True,'all_event_timings_unchanged':True}]
         with TemporaryDirectory() as directory, patch('fix_notation.playback',return_value={'checks':checks}):
-            passed, failed = check_barlines(proposals,Path(directory),None)
+            passed, failed = check_measure_edits(proposals,Path(directory),None)
         self.assertEqual(len(passed[0]['evidence']), 1)
         self.assertEqual(passed[0]['after_abc'],(x+'|'+y).join(body.rsplit(x+y,1)))
         self.assertEqual(failed['1']['bars'][0]['edit']['bar'],3)

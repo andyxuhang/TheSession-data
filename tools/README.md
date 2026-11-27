@@ -20,6 +20,12 @@ These checks establish consistency with the stated rules, not the composer's int
 
 Add `--barlines` to the scan command to process missing and misplaced dividers. It tests each location independently with the playback parser, combines the passing edits within each setting, and tests that version again. The original setting must already have at least six full bars and at least three quarters of its bars must fit the meter. A plain divider can move in either direction. When the left bar is short, or the setting falls outside the usual dance-meter checks, both corrected measures must already appear in sequence elsewhere in the same tune, meter and key. Witness locations in the change file are pairs of setting ID and zero-based written bar index.
 
+## Note lengths
+
+Use `--lengths` with `tools/fix_notation.py` to look for an incorrect duration digit or slash in an internal bar. A reference must be a different setting of the same tune, type, meter and key whose ABC is identical to the upstream snapshot. The complete corrected bar must match its written notes, rhythm marks and ornaments (apart from spacing). The comparison requires a matching neighbor or four matching notes on either side. Competing rhythms in the matching context leave the bar for review.
+
+The tool checks every proposed suffix change alone, then checks the combined changes. A single edit must produce the expected audible duration change on a changed ABC token. The scanner records the reference setting and bar in the change file.
+
 ## Other checks
 
 ```bash

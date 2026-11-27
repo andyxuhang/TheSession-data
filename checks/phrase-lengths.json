@@ -1,0 +1,468 @@
+[
+  {
+    "tune_id": "24740",
+    "setting_id": "51662",
+    "source_url": "https://thesession.org/tunes/24740#setting51662",
+    "rule": "note_length",
+    "bar": 5,
+    "before": "B A-A2 B",
+    "after": "B2 A-A2 B",
+    "witnesses": [
+      [
+        "51696",
+        4
+      ],
+      [
+        "51696",
+        15
+      ],
+      [
+        "51696",
+        26
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "1039",
+    "setting_id": "1039",
+    "source_url": "https://thesession.org/tunes/1039#setting1039",
+    "rule": "note_length",
+    "bar": 30,
+    "before": "\"G\"B2\"A\"A2A",
+    "after": "\"G\"B2\"A\"A3A",
+    "witnesses": [
+      [
+        "57838",
+        13
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "1039",
+    "setting_id": "57838",
+    "source_url": "https://thesession.org/tunes/1039#setting57838",
+    "rule": "note_length",
+    "bar": 30,
+    "before": "\"G\"B2\"A\"A2A",
+    "after": "\"G\"B2\"A\"A3A",
+    "witnesses": [
+      [
+        "1039",
+        13
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.5
+  },
+  {
+    "tune_id": "4997",
+    "setting_id": "17362",
+    "source_url": "https://thesession.org/tunes/4997#setting17362",
+    "rule": "note_length",
+    "bar": 26,
+    "before": "E2 D C2",
+    "after": "E3 D C2",
+    "witnesses": [
+      [
+        "26116",
+        26
+      ],
+      [
+        "4997",
+        24
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.5
+  },
+  {
+    "tune_id": "13235",
+    "setting_id": "23023",
+    "source_url": "https://thesession.org/tunes/13235#setting23023",
+    "rule": "note_length",
+    "bar": 4,
+    "before": "\"C\"EG3E",
+    "after": "\"C\"EG3E2",
+    "witnesses": [
+      [
+        "30299",
+        11
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.5
+  },
+  {
+    "tune_id": "8742",
+    "setting_id": "19658",
+    "source_url": "https://thesession.org/tunes/8742#setting19658",
+    "rule": "note_length",
+    "bar": 5,
+    "before": "\r\nF2 G A3 B",
+    "after": "\r\nF3 G A3 B",
+    "witnesses": [
+      [
+        "19659",
+        4
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "1815",
+    "setting_id": "23158",
+    "source_url": "https://thesession.org/tunes/1815#setting23158",
+    "rule": "note_length",
+    "bar": 19,
+    "before": "GB/d/ f{fgf}e/d/",
+    "after": "GB/d/ f3{fgf}e/d/",
+    "witnesses": [
+      [
+        "25125",
+        7
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "1815",
+    "setting_id": "25125",
+    "source_url": "https://thesession.org/tunes/1815#setting25125",
+    "rule": "note_length",
+    "bar": 19,
+    "before": "GB/d/ f{fgf}e/d/",
+    "after": "GB/d/ f3{fgf}e/d/",
+    "witnesses": [
+      [
+        "23158",
+        7
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "441",
+    "setting_id": "57977",
+    "source_url": "https://thesession.org/tunes/441#setting57977",
+    "rule": "note_length",
+    "bar": 12,
+    "before": "faa2g/",
+    "after": "faa3/2g/",
+    "witnesses": [
+      [
+        "57417",
+        12
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": -0.25
+  },
+  {
+    "tune_id": "24164",
+    "setting_id": "50010",
+    "source_url": "https://thesession.org/tunes/24164#setting50010",
+    "rule": "note_length",
+    "bar": 22,
+    "before": "B A3 -A FA",
+    "after": "B A3 -A2 FA",
+    "witnesses": [
+      [
+        "50074",
+        29
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "24164",
+    "setting_id": "50074",
+    "source_url": "https://thesession.org/tunes/24164#setting50074",
+    "rule": "note_length",
+    "bar": 22,
+    "before": "B A3 -A FA",
+    "after": "B A3 -A2 FA",
+    "witnesses": [
+      [
+        "50010",
+        29
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "835",
+    "setting_id": "26662",
+    "source_url": "https://thesession.org/tunes/835#setting26662",
+    "rule": "note_length",
+    "bar": 23,
+    "before": "\r\nE>cG E2",
+    "after": "\r\nE>cG E3",
+    "witnesses": [
+      [
+        "24772",
+        10
+      ],
+      [
+        "24772",
+        22
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "13741",
+    "setting_id": "24467",
+    "source_url": "https://thesession.org/tunes/13741#setting24467",
+    "rule": "note_length",
+    "bar": 10,
+    "before": "f3 e ^d",
+    "after": "f3 e ^d2",
+    "witnesses": [
+      [
+        "24464",
+        25
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "1468",
+    "setting_id": "39797",
+    "source_url": "https://thesession.org/tunes/1468#setting39797",
+    "rule": "note_length",
+    "bar": 28,
+    "before": "fed2B",
+    "after": "fed3B",
+    "witnesses": [
+      [
+        "1468",
+        21
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.5
+  },
+  {
+    "tune_id": "790",
+    "setting_id": "58638",
+    "source_url": "https://thesession.org/tunes/790#setting58638",
+    "rule": "note_length",
+    "bar": 14,
+    "before": "\"Am\"a2b a2",
+    "after": "\"Am\"a3b a2",
+    "witnesses": [
+      [
+        "56580",
+        19
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "790",
+    "setting_id": "38560",
+    "source_url": "https://thesession.org/tunes/790#setting38560",
+    "rule": "note_length",
+    "bar": 20,
+    "before": "a2b a2",
+    "after": "a3b a2",
+    "witnesses": [
+      [
+        "57820",
+        19
+      ],
+      [
+        "42943",
+        19
+      ],
+      [
+        "44237",
+        20
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "1758",
+    "setting_id": "53401",
+    "source_url": "https://thesession.org/tunes/1758#setting53401",
+    "rule": "note_length",
+    "bar": 13,
+    "before": "G6ed",
+    "after": "G4ed",
+    "witnesses": [
+      [
+        "47757",
+        29
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": -1.0
+  },
+  {
+    "tune_id": "1758",
+    "setting_id": "53401",
+    "source_url": "https://thesession.org/tunes/1758#setting53401",
+    "rule": "note_length",
+    "bar": 45,
+    "before": "G6ed",
+    "after": "G4ed",
+    "witnesses": [
+      [
+        "47757",
+        29
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": -1.0
+  },
+  {
+    "tune_id": "2559",
+    "setting_id": "27318",
+    "source_url": "https://thesession.org/tunes/2559#setting27318",
+    "rule": "note_length",
+    "bar": 12,
+    "before": "ef g>f/",
+    "after": "ef g>f",
+    "witnesses": [
+      [
+        "44925",
+        12
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 0.25
+  },
+  {
+    "tune_id": "601",
+    "setting_id": "13609",
+    "source_url": "https://thesession.org/tunes/601#setting13609",
+    "rule": "note_length",
+    "bar": 5,
+    "before": "A2 dc",
+    "after": "A4 dc",
+    "witnesses": [
+      [
+        "32086",
+        4
+      ],
+      [
+        "32108",
+        4
+      ],
+      [
+        "37057",
+        4
+      ],
+      [
+        "23122",
+        4
+      ],
+      [
+        "23122",
+        12
+      ],
+      [
+        "601",
+        4
+      ],
+      [
+        "601",
+        12
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 2.0
+  },
+  {
+    "tune_id": "17448",
+    "setting_id": "33486",
+    "source_url": "https://thesession.org/tunes/17448#setting33486",
+    "rule": "note_length",
+    "bar": 45,
+    "before": "BD E4 ED/E/",
+    "after": "BD E2 ED/E/",
+    "witnesses": [
+      [
+        "33487",
+        4
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": -1.0
+  },
+  {
+    "tune_id": "17448",
+    "setting_id": "33487",
+    "source_url": "https://thesession.org/tunes/17448#setting33487",
+    "rule": "note_length",
+    "bar": 45,
+    "before": "BD E4 ED/E/",
+    "after": "BD E2 ED/E/",
+    "witnesses": [
+      [
+        "33486",
+        4
+      ]
+    ],
+    "method": "matching rhythm and neighboring phrase in another setting",
+    "scan_pass": 1,
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": -2.0
+  }
+]

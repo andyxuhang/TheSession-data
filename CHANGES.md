@@ -1,10 +1,14 @@
 # Changes
 
+## Note lengths in matching phrases
+
+Corrected 22 duration suffixes in 21 settings of 16 tunes and updated 126 matching set entries. Each corrected bar matches another upstream setting with the same key, meter and surrounding phrase. All 22 edits passed the individual and combined playback checks. See [the changed bars and their references](checks/phrase-lengths.json).
+
 ## Missing barlines
 
 Restored 19 missing dividers in 15 settings and 45 matching set entries. Each change splits a double-length measure into two full measures. Seven have the exact two-bar phrase in sequence in another setting of the tune. All 19 preserved the original pitches and timing individually and together within each setting. Three other proposed dividers changed a pitch and remain open. See the [individual checks](checks/barlines.json) and [current list](reports/status.md).
 
-The cumulative count is 328 fixes across 290 settings and 253 tunes.
+After the barline changes, the cumulative count was 328 fixes across 290 settings and 253 tunes.
 
 ## Earlier notation fixes
 

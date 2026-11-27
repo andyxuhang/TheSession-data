@@ -85,6 +85,29 @@ A2 AB ED D2|1 G6 AG| F3 A FABd:|2 G3 A F2 ED|E8||","|:E2 GB e3 d| de A2 AGAB  
 A2 AB ED D2|1 G6 AG|F3 A FAFD:|2 G3 A F2 ED|E4 z ABd||
 e4-edgf|d2 d2-dABd|gfdB e2 dB|de z E- EABd|e2 dB e2 dB|
 A2 AB ED D2|1 G6 AG F3 A FABd:|2 G3 A F2 ED|E8||"
+24740,51662,Amy's,John E Roche,https://thesession.org/tunes/24740#setting51662,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 5, ""before"": ""B A-A2 B"", ""after"": ""B2 A-A2 B"", ""witnesses"": [[""51696"", 4], [""51696"", 15], [""51696"", 26]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","|:D|G2 dB2 G|D2 E c2 B|B A2-A2 c|B2 A-A2 B|
+c2 B A2 G|F2 D E2 D|B,-B,4 E|D-D4 D|
+G2d B2G|D2E c2B|BA2-A2c|B2A-A2B|
+c2B A2G|F2D c2B|G-G4F|G-G4E|
+D2G F2A|GAB c2B|BA2-A2c|B2A-A2B|
+c2B A2G|FED E2D|B,-B,4E|D-D4E|
+D2G F2A|GAB c2B|BA2-A2c|B2A-A2B|
+c2B A2G|FED c2B|G-G4F|G-G4B|
+d2B e2B|d2B G2B|BA2-A2c|B2A-A2B|
+c2B A2G|F2D E2D|B,-B,4E|D-D4B|
+d2B e2B|d2B G2B|BA2-A2c|B2A-A2B|
+c2B A2G|F2D c2B|G-G4F|G-G4E:|","|:D|G2 dB2 G|D2 E c2 B|B A2-A2 c|B A-A2 B|
+c2 B A2 G|F2 D E2 D|B,-B,4 E|D-D4 D|
+G2d B2G|D2E c2B|BA2-A2c|B2A-A2B|
+c2B A2G|F2D c2B|G-G4F|G-G4E|
+D2G F2A|GAB c2B|BA2-A2c|B2A-A2B|
+c2B A2G|FED E2D|B,-B,4E|D-D4E|
+D2G F2A|GAB c2B|BA2-A2c|B2A-A2B|
+c2B A2G|FED c2B|G-G4F|G-G4B|
+d2B e2B|d2B G2B|BA2-A2c|B2A-A2B|
+c2B A2G|F2D E2D|B,-B,4E|D-D4B|
+d2B e2B|d2B G2B|BA2-A2c|B2A-A2B|
+c2B A2G|F2D c2B|G-G4F|G-G4E:|"
 7914,19188,An Cupan Tae,Will Harmon,https://thesession.org/tunes/7914#setting19188,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 4, ""witnesses"": [[""7914"", 3]], ""before"": ""dcA B2"", ""after"": ""dcA B3"", ""scan_pass"": 1}]","|:EFE GFE|dcA BAF|EFE GFE|dcA B3|
 EFE GFE|dcA BAd|EFE GFE|AFD E3:|
 eBB eBB|efg fed|eBB eBB|afd e3|
@@ -119,6 +142,28 @@ A3 G/A/|BA/B/ c/B/A/B/|G4|C2 D2|E3 D/E/|
 FE/F/ G/F/E/F/|D4|F2 G2|A3 GA|BA/B/ c/B/A/B/|
 G2 GG|:dc BA|G2 G/F/G/A/|G2 G/F/G/A/|G3 A/B/|
 c d Bc|A2 A/G/A/B/|AF/A/ GE/G/|1 F2 FF:|2 F||"
+1039,1039,Ar Éirinn Ní Neosfainn Cé Hí,cuchulain54,https://thesession.org/tunes/1039#setting1039,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 30, ""before"": ""\""G\""B2\""A\""A2A"", ""after"": ""\""G\""B2\""A\""A3A"", ""witnesses"": [[""57838"", 13]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","|:de|""D""f2A3A|""Em7""B2d3e|""D""f6-|f4de|f2A3A|
+""Bm""B2d3f|""A""e6-|e4de|""D""f2A3A|""G""B2g3e|
+""D""f6-|f3ded|""G""B2""A""A3A|""G""B2D3""A""e|""D""d6-|d4fg|
+""D""a2f2fe|d3fa2|""G""b6|""Bm""d'4b2|
+""D""a2f2fe|""Bm""d3efd|""A""e6-|e4ag|""D""f2A3A|
+""G""B2g3e|""D""f6-|f3ded|""G""B2""A""A3A|""Em7""Bd3""A""e2|""D""d6-|d4:|","|:de|""D""f2A3A|""Em7""B2d3e|""D""f6-|f4de|f2A3A|
+""Bm""B2d3f|""A""e6-|e4de|""D""f2A3A|""G""B2g3e|
+""D""f6-|f3ded|""G""B2""A""A3A|""G""B2D3""A""e|""D""d6-|d4fg|
+""D""a2f2fe|d3fa2|""G""b6|""Bm""d'4b2|
+""D""a2f2fe|""Bm""d3efd|""A""e6-|e4ag|""D""f2A3A|
+""G""B2g3e|""D""f6-|f3ded|""G""B2""A""A2A|""Em7""Bd3""A""e2|""D""d6-|d4:|"
+1039,57838,Ar Éirinn Ní Neosfainn Cé Hí,Arwen Lewis,https://thesession.org/tunes/1039#setting57838,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 30, ""before"": ""\""G\""B2\""A\""A2A"", ""after"": ""\""G\""B2\""A\""A3A"", ""witnesses"": [[""1039"", 13]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","de|""D""f2A3A|""Em7""B2d3e|""D""f6-|f4de|f2A3A|
+""Bm""B2d3f|""A""e6-|e4de|""D""f2A3A|""G""B2g3e|
+""D""f6-|f3ded|""G""B2""A""A3A|""G""B2d3""A""e|""D""d6-|d4fg|
+""D""a2f2fe|d3fa2|""G""b6|""Bm""d'4b2|
+""D""a2f2fe|""Bm""d3efd|""A""e6-|e4ag|""D""f2A3A|
+""G""B2g3e|""D""f6-|f3ded|""G""B2""A""A3A|""Em7""Bd3""A""e2|""D""d6-|d4|","de|""D""f2A3A|""Em7""B2d3e|""D""f6-|f4de|f2A3A|
+""Bm""B2d3f|""A""e6-|e4de|""D""f2A3A|""G""B2g3e|
+""D""f6-|f3ded|""G""B2""A""A3A|""G""B2d3""A""e|""D""d6-|d4fg|
+""D""a2f2fe|d3fa2|""G""b6|""Bm""d'4b2|
+""D""a2f2fe|""Bm""d3efd|""A""e6-|e4ag|""D""f2A3A|
+""G""B2g3e|""D""f6-|f3ded|""G""B2""A""A2A|""Em7""Bd3""A""e2|""D""d6-|d4|"
 26456,56958,Ardaigh,Mimi Greenford,https://thesession.org/tunes/26456#setting56958,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 10, ""witnesses"": [[""56958"", 15]], ""before"": "" D/E/G/A/ A//B//dA/G/ "", ""after"": "" D/E/G/A/ A//B//d/A/G/ "", ""scan_pass"": 1}]","Gd AB/A/ | G/B,/C/D/ E/G/A/F/ | Gd AB/A/ | G/E/D/B,/ G,/A,/B,/A,/ |
 G,[G,/D/] [A,D]B,/A,/ | G,/A,/B,/D/ E/G/A/F/ | Gd AB/A/ | G/B,/C/D/ E/G/A/G/ ||
 C/D/E/G/ G/A/E/D/ | D/E/G/A/ A//B//d/A/G/ | E/G/B/e/ d/B/A/G/ | A/G/F/A/ A/G/F/D/ |
@@ -126,6 +171,17 @@ C/D/E/G/ G/A/E/D/ | D/E/G/A/ B/d/A/G/ | C/D/E/G/ G/A/E/D/ | D/E/G/A/ A//B//d/ A/
 G,[G,/D/] [A,D]B,/A,/ | G,/A,/B,/D/ E/G/A/F/ | Gd AB/A/ | G/B,/C/D/ E/G/A/G/ ||
 C/D/E/G/ G/A/E/D/ | D/E/G/A/ A//B//dA/G/ | E/G/B/e/ d/B/A/G/ | A/G/F/A/ A/G/F/D/ |
 C/D/E/G/ G/A/E/D/ | D/E/G/A/ B/d/A/G/ | C/D/E/G/ G/A/E/D/ | D/E/G/A/ A//B//d/ A/G/ ||"
+4997,17362,Ashokan Farewell,Donough,https://thesession.org/tunes/4997#setting17362,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 26, ""before"": ""E2 D C2"", ""after"": ""E3 D C2"", ""witnesses"": [[""26116"", 26], [""4997"", 24]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","Ac|:d3 c BA|F4 EF|G3 F ED|B,2 D3 B,|A,2 D2 F2|
+A2 d2 f2|1 f3 g f2|e4 Ac:|2 A2 c2 e2|d4 FG||
+A3 F D2|d4 A2|B3 c d2|A F3 E2|
+F3 E D2|B,4 G,2|A,6|A4 FE|
+D2 F2 A2|=c6|B3 c d2|A2 F3 D|
+A,2 D2 F2|A2 d2 F2|E3 D C2|D4 Ac||","Ac|:d3 c BA|F4 EF|G3 F ED|B,2 D3 B,|A,2 D2 F2|
+A2 d2 f2|1 f3 g f2|e4 Ac:|2 A2 c2 e2|d4 FG||
+A3 F D2|d4 A2|B3 c d2|A F3 E2|
+F3 E D2|B,4 G,2|A,6|A4 FE|
+D2 F2 A2|=c6|B3 c d2|A2 F3 D|
+A,2 D2 F2|A2 d2 F2|E2 D C2|D4 Ac||"
 3813,16750,"Atlantic Roar, The",Nigel Gatherer,https://thesession.org/tunes/3813#setting16750,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 6, ""witnesses"": [[[""16750"", 1]], [[""16750"", 2]]], ""before"": ""\r\nG2 GF G2 Bd (3gag fd e^cAG"", ""after"": ""\r\nG2 GF G2 Bd| (3gag fd e^cAG"", ""scan_pass"": 1}]","(3DEF|G2 GF G2 Bd|(3gag fd e^cAG|F2 FE FAD>F|GB (3AGF GDB,D|
 G2 GF G2 Bd| (3gag fd e^cAG|F2 FE FAD>F|AB (3AGF GAB=c||
 ded^c dBB=c|(3d=cB gb afd^c|(3BdB GB (3AcA FA|A^GAB AFDF|
@@ -219,6 +275,13 @@ ged BcB|GED G2A|Bee dBG|BGG G3:|"
 ""G""BcdB ""Am""ce""D""dc|""G""BG""Am""cA ""D""defe|""D""d2 AG FADd|""D7""decA ""G"" G4:|
 ""G"" g2 de ""Dm""_fdce|""G"" d2 ""Am""(3efg ""D""fa d2|""G""gbag ""D""f2 AB|""D7""cAFA ""G""Gd""D7""fa|
 ""G"" g2 de ""Dm""_fdce|""G"" d2 ""Am""(3efg ""D""fa d2|""G""gaba ""Am7""gfdc ""G""Bd""D""AF ""G""G4:|"
+13235,23023,Belgarth,noelnorton,https://thesession.org/tunes/13235#setting23023,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 4, ""before"": ""\""C\""EG3E"", ""after"": ""\""C\""EG3E2"", ""witnesses"": [[""30299"", 11]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","D GA|""G""B3cB2|""D""A3 G F2|""C""EG3E2|""G""D3D GA|""Am""B3A G2|""D""d2c2B2|(A6|A4)GA|
+""G""B3cB2|""D""A2G2F2|""C""DG3E2|""G""D4D2|""Am""EG3c2|""D""A2G2F2|""G""(G4(G2)|""G""G3)G Bc||
+""G""d4d2|""C""e4e2|""G""Bd3BA|G3G Bc|d3 Bd|""Am""e3 d cB|""D""(A6|A4) GF|
+""C""EG3GE|""Em""DG3GD|""Am""C(G3G)C|""G""B,3B, GA|B3cB2|""D""AG3F2|""G""(G4""C""(G2)|""G""G6)||","D GA|""G""B3cB2|""D""A3 G F2|""C""EG3E|""G""D3D GA|""Am""B3A G2|""D""d2c2B2|(A6|A4)GA|
+""G""B3cB2|""D""A2G2F2|""C""DG3E2|""G""D4D2|""Am""EG3c2|""D""A2G2F2|""G""(G4(G2)|""G""G3)G Bc||
+""G""d4d2|""C""e4e2|""G""Bd3BA|G3G Bc|d3 Bd|""Am""e3 d cB|""D""(A6|A4) GF|
+""C""EG3GE|""Em""DG3GD|""Am""C(G3G)C|""G""B,3B, GA|B3cB2|""D""AG3F2|""G""(G4""C""(G2)|""G""G6)||"
 15175,28140,Big Sciote,pbsinclair42,https://thesession.org/tunes/15175#setting28140,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 7, ""witnesses"": [[""28140"", 15]], ""before"": ""e3(e e2)d"", ""after"": ""e3(e e2)d2"", ""scan_pass"": 1}]","DED|:G2B2 AGED|G3(G G)DED|G2B2 AGED|G3(G G)DED|
 G2A2 Bd3|e3(e e2)d2|BAGB AGED|1 G3(G G) DED:|2 G3(G G2)d2 ]|
 |:gg2g f2g2|a3(a a)(a3|a)bag eged|e3(e e)def|
@@ -392,6 +455,13 @@ d/e/|gag gfg|a2 g d2e|ged BGG|AGA BGE|
 gag gfg|a2 g d2e|ged BAG|AGF G2|
  gag gfg|a2 g d2e|ged BAG|AGA BGE|
 DGG BAG|A2B d2e|ged BAG|AGF G2||"
+8742,19658,Clee Hill,ceolachan,https://thesession.org/tunes/8742#setting19658,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 5, ""before"": ""\r\nF2 G A3 B"", ""after"": ""\r\nF3 G A3 B"", ""witnesses"": [[""19659"", 4]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","|:F2 G A3 B|AdcB A2 F2|E3 F G3 A|cBAG FdcB|
+F3 G A3 B|AdcB A2 F2|E3 F G3 A|cBGE D2 D2:|
+|:fAfA f3 F/G/|ABAd c2 B2|gAgA g3 F/G/|ABAc B2 A2|
+fAfA f3 F/G/|ABAd c2 B2|Bcdc/B/ Ad f2|feBc d4:|","|:F2 G A3 B|AdcB A2 F2|E3 F G3 A|cBAG FdcB|
+F2 G A3 B|AdcB A2 F2|E3 F G3 A|cBGE D2 D2:|
+|:fAfA f3 F/G/|ABAd c2 B2|gAgA g3 F/G/|ABAc B2 A2|
+fAfA f3 F/G/|ABAd c2 B2|Bcdc/B/ Ad f2|feBc d4:|"
 1218,58301,Cock O' The North,leprecawn,https://thesession.org/tunes/1218#setting58301,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 17, ""witnesses"": [[""1218"", 7]], ""before"": "" A3A2"", ""after"": "" A3A3"", ""scan_pass"": 1}]","|:A|c>dc cBA|Ace f2 e|c>dc cBA|B3 B2 A|
 c>dc cBA|Ace f2 e|c3 BAB|A3 A2:|
 |a2 e f2 e|a2 e f2 e|c>dc cBA| B3 B>cB |
@@ -458,6 +528,24 @@ fedf afef|dafe dBB2|AFAd BGBd|1 ceAc d3A:|2 ceAc d2z2||","A|:DFEG FDDd|Adfe dBB2
 DFEG EDDd|Adfe dBB2|AFAd fedB|AFEG FDDA:|
 |:fedf afef|dafe dBB2|Adfe dfaf|edef efge|
 fedf afef|dafe dBB2|AFAd BGBd|1 ceAc d3A:|2 ceAc d2z2||"
+1815,23158,"Coolin, The",JACKB,https://thesession.org/tunes/1815#setting23158,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 19, ""before"": ""GB/d/ f{fgf}e/d/"", ""after"": ""GB/d/ f3{fgf}e/d/"", ""witnesses"": [[""25125"", 7]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","de/f/|g2 g2 a>f|gd B2 (3GBd|g>f (3gab ag|g2 f2 gf/d/|
+e3 f/g/ a(3g/f/e/|d2 B>d g>G|GB/d/ f3{fgf}e/d/|dc/A/ B2 GA/B/|
+A2 G2 GF|G4 G2|dc B3A|GA Bc|d^c de fd|g>f (3gab a>g|
+g2 f2 g>f/d/|e3 f/g/ a(3g/f/e/|d2 B>d g>G|GB/d/ f3{fgf}e/d/|
+dc/A/ B2 GA/B/|A2 G2 GF|G4 G4|G4 z2||","de/f/|g2 g2 a>f|gd B2 (3GBd|g>f (3gab ag|g2 f2 gf/d/|
+e3 f/g/ a(3g/f/e/|d2 B>d g>G|GB/d/ f3{fgf}e/d/|dc/A/ B2 GA/B/|
+A2 G2 GF|G4 G2|dc B3A|GA Bc|d^c de fd|g>f (3gab a>g|
+g2 f2 g>f/d/|e3 f/g/ a(3g/f/e/|d2 B>d g>G|GB/d/ f{fgf}e/d/|
+dc/A/ B2 GA/B/|A2 G2 GF|G4 G4|G4 z2||"
+1815,25125,"Coolin, The",JACKB,https://thesession.org/tunes/1815#setting25125,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 19, ""before"": ""GB/d/ f{fgf}e/d/"", ""after"": ""GB/d/ f3{fgf}e/d/"", ""witnesses"": [[""23158"", 7]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","de/f/|(g2 g2) a>f|g>d B2 GB/d/|g>f ga/b/ ag|g2 f2 gf/d/|
+e3 f/g/ a(3g/f/e/|d2 B>d g>G|GB/d/ f3{fgf}e/d/|dc/A/ B2 GA/B/|
+A2 G2 G2|G4 G2|dc B3A|G>A B>c|d^c de fd|g>f ga/b/ a>g|
+g2 f2 g>f/d/|e3 f/g/ a(3g/f/e/|d2 B>d g>G|GB/d/ f3{fgf}e/d/|
+dc/A/ B2 GA/B/|A2 G2 G2|G4 G4|G4 z2||","de/f/|(g2 g2) a>f|g>d B2 GB/d/|g>f ga/b/ ag|g2 f2 gf/d/|
+e3 f/g/ a(3g/f/e/|d2 B>d g>G|GB/d/ f3{fgf}e/d/|dc/A/ B2 GA/B/|
+A2 G2 G2|G4 G2|dc B3A|G>A B>c|d^c de fd|g>f ga/b/ a>g|
+g2 f2 g>f/d/|e3 f/g/ a(3g/f/e/|d2 B>d g>G|GB/d/ f{fgf}e/d/|
+dc/A/ B2 GA/B/|A2 G2 G2|G4 G4|G4 z2||"
 18255,49967,Craigellachie Lassies,Fabian,https://thesession.org/tunes/18255#setting49967,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 46, ""witnesses"": [[[""35614"", 21]], [[""49967"", 13], [""49967"", 38]]], ""before"": "" ecA ecA\r\n~B3 GAB"", ""after"": "" ecA ecA|\r\n~B3 GAB"", ""scan_pass"": 1}]","|:d3 dcB| ABG FED|DAd dcd|efd cAc|
 ded dcB|ABG FED|ecA ABc|1 ded dAc:|2 ded de/f/g||
 |:afd def|gec cde|fdB Bcd|ecA ABc|
@@ -1302,6 +1390,35 @@ fd- de/f/|g/a/g/f/ ed/e/|fd ed/c/|1 d2 d>e:|2 d2 d2||","|:dd B/c/d/B/|AF AF|dd B
 dd B/c/d/B/|AF Ad/e/|fd ec|1 df d2:|2 df dd/e/||
 |:fd de/f/|g>f ed/e/|fd Ad|fd/f/ a>g|
 fd- de/f/|g/a/g/f ed/e/|fd ed/c/|1 d2 d>e:|2 d2 d2||"
+441,57977,John Ryan's,Chuk,https://thesession.org/tunes/441#setting57977,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 12, ""before"": ""faa2g/"", ""after"": ""faa3/2g/"", ""witnesses"": [[""57417"", 12]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","dd B/c/d/B/|AF ED|dd B/c/d/B/|AF A2|
+dd B/c/d/B/|AF Ad/e/|fd ec|d2 d2||
+fd de/f/|gf ed/e/|fd Ad|faa3/2g/|
+fd de/f/|gf ed/e/|fd ec|d2 d2||","dd B/c/d/B/|AF ED|dd B/c/d/B/|AF A2|
+dd B/c/d/B/|AF Ad/e/|fd ec|d2 d2||
+fd de/f/|gf ed/e/|fd Ad|faa2g/|
+fd de/f/|gf ed/e/|fd ec|d2 d2||"
+24164,50010,"Journey, The",Jim Flanagan,https://thesession.org/tunes/24164#setting50010,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 22, ""before"": ""B A3 -A FA"", ""after"": ""B A3 -A2 FA"", ""witnesses"": [[""50074"", 29]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","FE|:D6 FG|A6 FA|B d3 -d2 B2|B A3 -A2 FA|d6 FG|B6 FG|
+d4 A3 F|F2 E3 -E FE|D6 FG|A6 FA|B d3 -d2 B2|B A3 -A2 FA|
+d6 FA|B6 FD|E6 FE|1 D6 FE:|2 D4 F2 A2||
+|:d3 d d2 e2|f6 e2|d4 e3 d|B A3 -A2 FA|d3 d d2 e2|f3 f f2 g2|
+a2 b2 a3 f|f e3 -e2 fe|d3 d d2 e2|f6 e2|d4 e3 d|
+B A3 -A2 FA|d6 FA|B6 FD|E6 FE||1 D4 F2 A2:|2 D4 z2 ||","FE|:D6 FG|A6 FA|B d3 -d2 B2|B A3 -A2 FA|d6 FG|B6 FG|
+d4 A3 F|F2 E3 -E FE|D6 FG|A6 FA|B d3 -d2 B2|B A3 -A2 FA|
+d6 FA|B6 FD|E6 FE|1 D6 FE:|2 D4 F2 A2||
+|:d3 d d2 e2|f6 e2|d4 e3 d|B A3 -A FA|d3 d d2 e2|f3 f f2 g2|
+a2 b2 a3 f|f e3 -e2 fe|d3 d d2 e2|f6 e2|d4 e3 d|
+B A3 -A2 FA|d6 FA|B6 FD|E6 FE||1 D4 F2 A2:|2 D4 z2 ||"
+24164,50074,"Journey, The",Jim Flanagan,https://thesession.org/tunes/24164#setting50074,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 22, ""before"": ""B A3 -A FA"", ""after"": ""B A3 -A2 FA"", ""witnesses"": [[""50010"", 29]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","FE|:D6 FG|A6 FA|B2 d3 -d B2|B A3 -A2 FA|d6 FA|B6 FA|
+d4 A3 F|F2 E3 -E FE|D6 FG|A6 FA|B d3 -d2 B2|B A3 -A2 FA|
+d6 FA|B6 FD|E6 FE|1 D6 FE:|2 D4 F2 A2||
+|:d3 d d2 e2|f6 e2|d4 e3 d|B A3 -A2 FA|d3 d d2 e2|f3 f f2 g2|
+a2 b2 a3 f|f e3 -e2 fe|d3 d d2 e2|f6 e2|d4 e3 d|
+B A3 -A2 FA|d6 FA|B6 FD|E6 FE||1 D4 F2 A2:|2 D4 z2 ||","FE|:D6 FG|A6 FA|B2 d3 -d B2|B A3 -A2 FA|d6 FA|B6 FA|
+d4 A3 F|F2 E3 -E FE|D6 FG|A6 FA|B d3 -d2 B2|B A3 -A2 FA|
+d6 FA|B6 FD|E6 FE|1 D6 FE:|2 D4 F2 A2||
+|:d3 d d2 e2|f6 e2|d4 e3 d|B A3 -A FA|d3 d d2 e2|f3 f f2 g2|
+a2 b2 a3 f|f e3 -e2 fe|d3 d d2 e2|f6 e2|d4 e3 d|
+B A3 -A2 FA|d6 FA|B6 FD|E6 FE||1 D4 F2 A2:|2 D4 z2 ||"
 736,56915,Jump At The Sun,sandrobueno,https://thesession.org/tunes/736#setting56915,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 12, ""witnesses"": [[[""47561"", 12], [""45113"", 11], [""21016"", 13], [""13816"", 11]], [[""56915"", 8], [""56915"", 10], [""23656"", 9], [""23656"", 13]]], ""before"": "" fBB c2B\r\neBB efg "", ""after"": "" fBB c2B|\r\neBB efg "", ""scan_pass"": 1}]","|: EGB ^A2B | EBG ^A2B | eBB eBB | cBA GAG |
 EGB ^A2B | EBG ^A2B | eBB cBA | GAG E3 :|
 |: eBB efg | fBB agf | eBB efg | fBB c2B|
@@ -1533,6 +1650,17 @@ gB gB|g3 a/g/|fA fA|f3 g/f/|eA cd|eg fe|d2 dc |d2||","DFG|A2 de|f2 fd/|ed cB|A2A
 A2 de |f2 fd|ed cB|A2AF|G2 e>d|cA Bc|d2 dc | d2 ||
 e>f|gB gB|g3 a/g/|fA fA|f3 g/f/|eA cd|eg fe | dc/ de|f3 e/f/|
 gB gB|g3 a/g/|fA fA|f3 g/f/|eA cd|eg fe|d2 dc |d2||"
+835,26662,March Of The Kings Of Laois,JACKB,https://thesession.org/tunes/835#setting26662,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 23, ""before"": ""\r\nE>cG E2"", ""after"": ""\r\nE>cG E3"", ""witnesses"": [[""24772"", 10], [""24772"", 22]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","|:A2F A2D|A2F A2D|B2G A2F|G2F E2D|
+A2F A2D|A2F A2d|B2d A2G|F3 E2D|F2D G2E|
+A3 A>GF|E>cG E3|G>cG E3|D3 D3|D3 D3:|
+|:B2G d2G|B2G d2G|A2d A2F|A2d A>Bc|
+B2d d>BA|G>FG E>FG|F>ED G>AB|A3 AGF|
+E>cG E3|G>cG E3|D3 D3|D3 D3:|","|:A2F A2D|A2F A2D|B2G A2F|G2F E2D|
+A2F A2D|A2F A2d|B2d A2G|F3 E2D|F2D G2E|
+A3 A>GF|E>cG E3|G>cG E3|D3 D3|D3 D3:|
+|:B2G d2G|B2G d2G|A2d A2F|A2d A>Bc|
+B2d d>BA|G>FG E>FG|F>ED G>AB|A3 AGF|
+E>cG E2|G>cG E3|D3 D3|D3 D3:|"
 281,57671,Master Crowley's,lexwex,https://thesession.org/tunes/281#setting57671,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 7, ""witnesses"": [[[""57671"", 0], [""57671"", 2], [""57671"", 4]], [[""57671"", 3]]], ""before"": ""A,DDD A,DFD EGcG EDDC"", ""after"": ""A,DDD A,DFD| EGcG EDDC"", ""scan_pass"": 1}]","|:A,DDD A,DFD|A,CCC A,CG,C|A,DDD A,DFD|EGcG EDDC|
 A,DDD A,DFD|A,CCC A,CG,C|A,DDD A,DFD| EGcG EDDC:|
 |:Daga fadf|ecgc acgc|Aaga fadf|edcd eddd|
@@ -1800,6 +1928,9 @@ gfa gec|Ace a2f|gec ABc|1 dFB AFE:|2 dfe dAF||","|:D3F ABd|eff fec|edd dFA|AGG G
 A,CE Ace|~a3 a2f|gec ABc|1 dFB AFE:|2 dfe dag||
 |:~f3 fdB|AFB A3 B|AFB AFB|AGG G3g|
 gfa gec|Ace a3f|gec ABc|1 dFB AFE:|2 dfe dAF||"
+13741,24467,Näcken Valsen,Weejie,https://thesession.org/tunes/13741#setting24467,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 10, ""before"": ""f3 e ^d"", ""after"": ""f3 e ^d2"", ""witnesses"": [[""24464"", 25]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","|:E2 GB ef|g2 f2 e2|f2 e2 ^d2|ef ga b2|A2 ce ab|a2 g2 f2|B2 ^d2 d2|e6:|
+|:g3 f e2|f3 e ^d2|e3 e e2|e2 b2 g2|f3 f f2|f2 ^d2 f2|e3 e e2|e6:|","|:E2 GB ef|g2 f2 e2|f2 e2 ^d2|ef ga b2|A2 ce ab|a2 g2 f2|B2 ^d2 d2|e6:|
+|:g3 f e2|f3 e ^d|e3 e e2|e2 b2 g2|f3 f f2|f2 ^d2 f2|e3 e e2|e6:|"
 16592,31536,"New Whistle, The",Pablo Sosa,https://thesession.org/tunes/16592#setting31536,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 16, ""witnesses"": [[""31536"", 11]], ""before"": ""B3 dfdA"", ""after"": ""B3 dfdA2"", ""scan_pass"": 1}]","Bd|:fdgf egfe|feed cABd|fd g2e a2g|fgfe dBBd|
 fdgf egfe|feed cABd|fd g2e a2g|1 baag gfBd:|2 baag gfd2||
 |:fbaf fdBA|B3dfd A2|dBdf edc2|ffdf edBd|
@@ -2127,6 +2258,42 @@ efg f2 e|ded BAB|cde dcB|AGF E3:|","|:EGB EGB|cBA B3|cde dcB|AGA B3|
 EGB EGB|cBA B3|cde dcB|AGF E3:|
 |:efg f2 e|ded BAB|cde dcB AGA|B3|
 efg f2 e|ded BAB|cde dcB|AGF E3:|"
+1468,39797,Planxty Hewlett,Jim Nikora,https://thesession.org/tunes/1468#setting39797,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 28, ""before"": ""fed2B"", ""after"": ""fed3B"", ""witnesses"": [[""1468"", 21]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","D2D2FG|ABc2A2|d2f2fg|fed3B|A2F2F2|G2GBAG|AFD2D2|D4DA,|
+D2D2FG|ABc2A2|d2f2fg|f2ed2B|A2F2F2|G2GBAG|AFD2D2|D6|
+A2D2AB|A2D2AB|A2d2d2|dcBAG2|G,2G2GA|G2G,2GA|G2GABG|
+AFD3D|FEF2G2|ABc2A2|fefgag|fed3B|A2ABAF|G3ABG|AFD2D2|D3z3|","D2D2FG|ABc2A2|d2f2fg|fed3B|A2F2F2|G2GBAG|AFD2D2|D4DA,|
+D2D2FG|ABc2A2|d2f2fg|f2ed2B|A2F2F2|G2GBAG|AFD2D2|D6|
+A2D2AB|A2D2AB|A2d2d2|dcBAG2|G,2G2GA|G2G,2GA|G2GABG|
+AFD3D|FEF2G2|ABc2A2|fefgag|fed2B|A2ABAF|G3ABG|AFD2D2|D3z3|"
+790,58638,Planxty Irwin,irishmike,https://thesession.org/tunes/790#setting58638,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 14, ""before"": ""\""Am\""a2b a2"", ""after"": ""\""Am\""a3b a2"", ""witnesses"": [[""56580"", 19]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","d2|:""G""g4 f2|""C""e3f g2|""D7""d4 c2|""G""B3A G2|""D7""c4 A2|
+""G""B3c d2|1 ""D""F4 G2|""D7""A4 d2:|2 ""D7""G4 F2|""G""G4 ""D7""d2||
+|:""G""g4 g2|g3f g2|""Am""a3b a2|""D7""a2 f2 d2|
+""G""b4 b2|""D""a3b g2|f3g e2|d3e f2|
+""A7""g4 f2|""C""e3f g2|""D7""d4 c2|""G""B3A G2|
+""D7""c4 A2|""G""B3c d2|G4 F2|1 G4 d2:|2 G6||","d2|:""G""g4 f2|""C""e3f g2|""D7""d4 c2|""G""B3A G2|""D7""c4 A2|
+""G""B3c d2|1 ""D""F4 G2|""D7""A4 d2:|2 ""D7""G4 F2|""G""G4 ""D7""d2||
+|:""G""g4 g2|g3f g2|""Am""a2b a2|""D7""a2 f2 d2|
+""G""b4 b2|""D""a3b g2|f3g e2|d3e f2|
+""A7""g4 f2|""C""e3f g2|""D7""d4 c2|""G""B3A G2|
+""D7""c4 A2|""G""B3c d2|G4 F2|1 G4 d2:|2 G6||"
+790,38560,Planxty Irwin,Shablabar,https://thesession.org/tunes/790#setting38560,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 20, ""before"": ""a2b a2"", ""after"": ""a3b a2"", ""witnesses"": [[""57820"", 19], [""42943"", 19], [""44237"", 20]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","d2|:g4 f2|e3f g2|d4 c2|B3A G2|c4 A2|B3c d2|F4 G2|A4 d2|
+g4 f2|e3f g2|d4 c2|B3A G2|c4 A2|B3c d2|G4 F2|G4 d2:|
+|:g4 g2|g3f g2|a3b a2|a2 f2 d2|b4 b2|a3b g2|f3g e2|d3e f2|
+g4 f2|e3f g2|d4 c2|B3A G2|c4 A2|B3c d2|G4 F2|1 G4 d2:|2 G6||","d2|:g4 f2|e3f g2|d4 c2|B3A G2|c4 A2|B3c d2|F4 G2|A4 d2|
+g4 f2|e3f g2|d4 c2|B3A G2|c4 A2|B3c d2|G4 F2|G4 d2:|
+|:g4 g2|g3f g2|a2b a2|a2 f2 d2|b4 b2|a3b g2|f3g e2|d3e f2|
+g4 f2|e3f g2|d4 c2|B3A G2|c4 A2|B3c d2|G4 F2|1 G4 d2:|2 G6||"
+1758,53401,"Pretty Girl Milking Her Cow, The",DUHEM VERONIQUE,https://thesession.org/tunes/1758#setting53401,音长数字或斜线手误; 音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 13, ""before"": ""G6ed"", ""after"": ""G4ed"", ""witnesses"": [[""47757"", 29]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}, {""rule"": ""note_length"", ""bar"": 45, ""before"": ""G6ed"", ""after"": ""G4ed"", ""witnesses"": [[""47757"", 29]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","AB|c2e3c|ABd3B|A3 G3-|G4AB|c2e3c|ABd3B|A6-|A4AB|
+c2e3c|ABg3B|A3 G3-|G4ed|c3BA2|E3AB2|A6-|A4AB||
+c4(de)|g4dc|(AB)G4-|G4(AB)|c4(de)|g4(eg)|a6-|a4a2|
+b2'3ag3|dc AB g2|B2AAG4-|G4ee|c3BA2|E3AB2|A6-|A4AB||
+c2e3c|ABd3B|A3 G3-|G4AB|c2e3c|ABd3B|A6-|A4AB|
+c2e3c|ABg3B|A3 G3-|G4ed|c3BA2|E3AB2|A6-|A6||","AB|c2e3c|ABd3B|A3 G3-|G4AB|c2e3c|ABd3B|A6-|A4AB|
+c2e3c|ABg3B|A3 G3-|G6ed|c3BA2|E3AB2|A6-|A4AB||
+c4(de)|g4dc|(AB)G4-|G4(AB)|c4(de)|g4(eg)|a6-|a4a2|
+b2'3ag3|dc AB g2|B2AAG4-|G4ee|c3BA2|E3AB2|A6-|A4AB||
+c2e3c|ABd3B|A3 G3-|G4AB|c2e3c|ABd3B|A6-|A4AB|
+c2e3c|ABg3B|A3 G3-|G6ed|c3BA2|E3AB2|A6-|A6||"
 877,27187,"Priest In His Boots, The",Yvan,https://thesession.org/tunes/877#setting27187,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 15, ""witnesses"": [[[""27187"", 4]], [[""44345"", 8], [""44345"", 12]]], ""before"": ""ADE FGA\r\nd2B cBA"", ""after"": ""ADE FGA|\r\nd2B cBA"", ""scan_pass"": 1}]","A|:ABA Adc|B3 ADD|DGG GFG|ADE FGA|
 ABA Adc|B3 ADD|1 DGG BdB|cAF G3:|2 DGG BdB|cAF GBc||
 |:dDD cDD|BDD ADD|DGG GFG|ADE FGA|
@@ -2492,6 +2659,13 @@ eaag e3d|eaaB cBcd|eaag efga| bgaf g2 fg||","egfg egdg|eAAA eABd|egfg e2 dB|dGGG
 egfg egdg|eAAA eABd|egfg e2 dB|defg bgag||
 eaag e3d|eaaB cBcd|eaag e2 dB|dGGG dGBd|
 eaag e3d|eaaB cBcd|eaag efga bgaf g2 fg||"
+2559,27318,Shootin' The Bull,Moulouf,https://thesession.org/tunes/2559#setting27318,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 12, ""before"": ""ef g>f/"", ""after"": ""ef g>f"", ""witnesses"": [[""44925"", 12]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","|:eA Ad|ef gf|eA Ae|d2 dB/d/|
+eA Ad|ef gf|ef/e/ dB|A2 AB/d/:|
+|:ea ag|ed dB/d/|ea ag|ef g>f|
+ea ag|ed dB|ef/e/ dB|A2 AB/d/:|","|:eA Ad|ef gf|eA Ae|d2 dB/d/|
+eA Ad|ef gf|ef/e/ dB|A2 AB/d/:|
+|:ea ag|ed dB/d/|ea ag|ef g>f/|
+ea ag|ed dB|ef/e/ dB|A2 AB/d/:|"
 449,35186,Sí Bheag Sí Mhór,Connor Hickey,https://thesession.org/tunes/449#setting35186,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 29, ""witnesses"": [[[""49385"", 27], [""50444"", 27], [""51463"", 27], [""58467"", 28]], [[""49385"", 28], [""50444"", 28], [""51463"", 28], [""58467"", 29]]], ""before"": ""B4e2A4a2"", ""after"": ""B4e2|A4a2"", ""scan_pass"": 1}]","de|:fg fe d2|d3e d2|B4A2|F4A2|BA Bc d2|e4 de|
 f4e2|d4f2|B4e2|A4d2|F4E2|D4f2|B4e2|
 A4dc|d6-|1 d4de:|2 d4de||
@@ -2557,6 +2731,11 @@ A2c edc|B/c/dg fdB|1 ceg fdB|cBG AcB:|
 A2D DED|c/B/GA FDB|c3 edc|B/c/dB cBG|
 1 A2D D2D|c/B/GA FDB|c3 a2f|gfd cde:|
 [2 A2D D2D|c/B/GA cBG|A2A cBG|AFE D3||"
+601,13609,"South Wind, The",ceolachan,https://thesession.org/tunes/601#setting13609,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 5, ""before"": ""A2 dc"", ""after"": ""A4 dc"", ""witnesses"": [[""32086"", 4], [""32108"", 4], [""37057"", 4], [""23122"", 4], [""23122"", 12], [""601"", 4], [""601"", 12]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","|:dc|B3 A G2|B3 c d2|A6|A4 dc|B3 A G2|E3 D E2|G6|G4:|
+Bd|g4 gf|g2 f2 e2|d6|d4 c2|B3 A G2|B3 c d2|A6|A4 Bd|
+g4 gf|g2 f2 e2|d6|d4 c2|B3 A G2|Ac- c2 F2|G6|G4||","|:dc|B3 A G2|B3 c d2|A6|A2 dc|B3 A G2|E3 D E2|G6|G4:|
+Bd|g4 gf|g2 f2 e2|d6|d4 c2|B3 A G2|B3 c d2|A6|A4 Bd|
+g4 gf|g2 f2 e2|d6|d4 c2|B3 A G2|Ac- c2 F2|G6|G4||"
 1440,14821,"Sporting Days Of Easter, The",gian marco,https://thesession.org/tunes/1440#setting14821,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 3, ""witnesses"": [[""4326"", 2]], ""before"": ""ABAG ~A2B"", ""after"": ""ABAG ~A3B"", ""scan_pass"": 1}]","|:Bc|d2cA GE~E2|ABAG ~A3B|d2cA GE~E2|ABGE D4:|
 cBcd eg~g2|a2ag egge|cBcd eg~g2|abge d3c|
 cBcd eg~g2|a2ag egg2|fged cAGB|Add^c defe|","|:Bc|d2cA GE~E2|ABAG ~A2B|d2cA GE~E2|ABGE D4:|
@@ -2814,6 +2993,36 @@ f2 ef g2 eg|fedf e2 (3ABc|defa afbf|afed BddB||","A2 (3FED ADED|BDAD B2 dB|ADFD 
 AD (3FED AD (3FED|BDAD B2 dB|ADFD Ade|fded Bdde||
 f2 ef g2 eg|fedf e2 de|fd d a3 ab|afed Bdde|
 f2 ef g2 eg|fedf e2 (3ABc|defa afbf|afed BddB||"
+17448,33486,With A Love That's True,JACKB,https://thesession.org/tunes/17448#setting33486,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 45, ""before"": ""BD E4 ED/E/"", ""after"": ""BD E2 ED/E/"", ""witnesses"": [[""33487"", 4]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","e2|e2 dB d2|de B2 BA/G/|A2 AG/A/ B2|BD E2 ED/E/|G2 GA/F/ G2|G4 d2|
+e4 ge|d2 dB/A/ B2|BG/A/ B2 BB/G/|A2 AG/A/ B2|BD E2 Ee/f/|g2 gf e2|
+ee/d/ dg gf|f4 fg|e2 ed dB|BA/G/ g4|g4 e2|ed d4|
+eB BA/G/ A2|A2 AG/A/ B2|BD E4|ED/E/ G2 GA/F/|G4 e2|
+e2 ee/d/ Bd d2|de BA/G/ A2|AG/A/ BD E2|ED/E/ G2 GA/F/|G4 Gd|e4 eg|
+g2 ge dB/A/|B2 BG/A/|B2 BG A2|AG/A/ B2 BD E2|E4 Ee/f/|gg/e/ e2 ee/d/|
+d2 dg gf|f4 fg|e2 ed dB|BA/G/ g4|g4 e2|ed d4|
+eB BA/G/ A2|A2 AG/A/ B2|BD E2 ED/E/|G2 GA/F/ G2|G6||","e2|e2 dB d2|de B2 BA/G/|A2 AG/A/ B2|BD E2 ED/E/|G2 GA/F/ G2|G4 d2|
+e4 ge|d2 dB/A/ B2|BG/A/ B2 BB/G/|A2 AG/A/ B2|BD E2 Ee/f/|g2 gf e2|
+ee/d/ dg gf|f4 fg|e2 ed dB|BA/G/ g4|g4 e2|ed d4|
+eB BA/G/ A2|A2 AG/A/ B2|BD E4|ED/E/ G2 GA/F/|G4 e2|
+e2 ee/d/ Bd d2|de BA/G/ A2|AG/A/ BD E2|ED/E/ G2 GA/F/|G4 Gd|e4 eg|
+g2 ge dB/A/|B2 BG/A/|B2 BG A2|AG/A/ B2 BD E2|E4 Ee/f/|gg/e/ e2 ee/d/|
+d2 dg gf|f4 fg|e2 ed dB|BA/G/ g4|g4 e2|ed d4|
+eB BA/G/ A2|A2 AG/A/ B2|BD E4 ED/E/|G2 GA/F/ G2|G6||"
+17448,33487,With A Love That's True,JACKB,https://thesession.org/tunes/17448#setting33487,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 45, ""before"": ""BD E4 ED/E/"", ""after"": ""BD E2 ED/E/"", ""witnesses"": [[""33486"", 4]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","|:e2|e2 dB d2|de B2 BA/G/|A2 AG/A/ B2|BD E2 ED/E/|G2 GA/F/ G2|G4 d2|
+e4 ge|d2 dB/A/ B2|BG/A/ B2 BB/G/|A2 AG/A/ B2|BD E2 Ee/f/:|
+|:g2 gf e2|ee/d/ dg gf|f4 fg|e2 ed dB|BA/G/ g4|g4 e2|
+ed d4|eB BA/G/ A2|A2 AG/A/ B2|BD E4|ED/E/ G2 GA/F/|G4 e2|
+e2 ee/d/ Bd d2|de BA/G/ A2|AG/A/ BD E2|ED/E/ G2 GA/F/|G4 Gd|e4 eg|
+g2 ge dB/A/|B2 BG/A/|B2 BG A2|AG/A/ B2 BD E2|E4 Ee/f/|gg/e/ e2 ee/d/|
+d2 dg gf|f4 fg|e2 ed dB|BA/G/ g4|g4 e2|ed d4|
+eB BA/G/ A2|A2 AG/A/ B2|BD E2 ED/E/|G2 GA/F/ G2|G6:|","|:e2|e2 dB d2|de B2 BA/G/|A2 AG/A/ B2|BD E2 ED/E/|G2 GA/F/ G2|G4 d2|
+e4 ge|d2 dB/A/ B2|BG/A/ B2 BB/G/|A2 AG/A/ B2|BD E2 Ee/f/:|
+|:g2 gf e2|ee/d/ dg gf|f4 fg|e2 ed dB|BA/G/ g4|g4 e2|
+ed d4|eB BA/G/ A2|A2 AG/A/ B2|BD E4|ED/E/ G2 GA/F/|G4 e2|
+e2 ee/d/ Bd d2|de BA/G/ A2|AG/A/ BD E2|ED/E/ G2 GA/F/|G4 Gd|e4 eg|
+g2 ge dB/A/|B2 BG/A/|B2 BG A2|AG/A/ B2 BD E2|E4 Ee/f/|gg/e/ e2 ee/d/|
+d2 dg gf|f4 fg|e2 ed dB|BA/G/ g4|g4 e2|ed d4|
+eB BA/G/ A2|A2 AG/A/ B2|BD E4 ED/E/|G2 GA/F/ G2|G6:|"
 15794,29715,Woodcroft Lane,nicholas,https://thesession.org/tunes/15794#setting29715,漏写小节线; 漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 28, ""witnesses"": [[[""29715"", 19], [""29715"", 34]], [[""29715"", 20], [""29715"", 35]]], ""before"": ""d2g2f2d2 e6f2"", ""after"": ""d2g2f2d2| e6f2"", ""scan_pass"": 1}, {""rule"": ""missing_barline"", ""bar"": 43, ""witnesses"": [[[""29715"", 19], [""29715"", 34]], [[""29715"", 20], [""29715"", 35]]], ""before"": ""\r\nd2g2f2d2 e6f2"", ""after"": ""\r\nd2g2f2d2| e6f2"", ""scan_pass"": 1}]","E/F/||G6E2|A6F2|G4A2d2|B4e2f2|
 g2e2f2d2|e4g2e2|d2B2A2G2|A4E2F2|
 G4E4|A6F2|G4A2d2|B4e2f2|

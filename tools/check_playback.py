@@ -59,6 +59,9 @@ void main(List<String> args) {
       require((sb-sa-elapsedDelta).abs() < .00001, '$sid unplanned start-time change at $i');
       if ((da-db).abs() > .00001) {
         durationChanges++;
+        if (row['strict_length'] == true) {
+          require(a[i]['abc_text'] != b[i]['abc_text'], '$sid changed duration of an unedited token at $i');
+        }
         final pitch = RegExp(r"^(?:\^{1,2}|_{1,2}|=)?[A-Ga-gzZxX][,']*").firstMatch(a[i]['abc_text'] as String)?.group(0);
         final match = allowed.indexWhere((p) => p['pitch']==pitch &&
           ((p['before'] as num)-da).abs()<.00001 && ((p['after'] as num)-db).abs()<.00001);
