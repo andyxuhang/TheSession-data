@@ -1,0 +1,308 @@
+{
+  "base_commit": "32f7779c17b79d87a172d95f84bd5315e52bc7cc",
+  "method": "Original barline and slur witnesses with independent full playback checks",
+  "scanner_sha256": "495c269c2748ecdcb025558ca876b8ea96c58bdc00af9c6a7ee598316c8c61e0",
+  "corrections": [
+    {
+      "tune_id": "7338",
+      "setting_id": "18866",
+      "name": "Lac Amora",
+      "original_contributor": "wathgwen",
+      "source_url": "https://thesession.org/tunes/7338#setting18866",
+      "category": "slur_delimiter",
+      "before_abc": "|:EFED ~A2 Bc|BAdBAGFE|DEDC ~A2 Bc|GFED^C4:|\r\n.d2eff eda|agccfed^c|~d2effeda|1 agedg3 ^c:|2 fed^cd4||\r\naaf2gge2|fedfe3 ^c|df eg (3ege) fg|1 afef e3 z1:|2 fe d^cdAFE|D6z2||",
+      "after_abc": "|:EFED ~A2 Bc|BAdBAGFE|DEDC ~A2 Bc|GFED^C4:|\r\n.d2eff eda|agccfed^c|~d2effeda|1 agedg3 ^c:|2 fed^cd4||\r\naaf2gge2|fedfe3 ^c|df eg (3ege fg|1 afef e3 z1:|2 fe d^cdAFE|D6z2||",
+      "before_sha256": "e38c6f01d3337a806a00212c1a6babf9c3e8ecdb0ca91fc4e05c65aa4951c91e",
+      "after_sha256": "97742c6e7e020bbfca5b3d046e62236f392e43c616d153d1b2305d7ebb56be9a",
+      "evidence": [
+        {
+          "rule": "slur_delimiter",
+          "bar": 12,
+          "last_bar": 12,
+          "before": "df eg (3ege) fg",
+          "after": "df eg (3ege fg",
+          "reference_ranges": [
+            [
+              "7338",
+              12,
+              12
+            ]
+          ],
+          "method": "Matching original written measures and complete adjoining measures",
+          "preserve_playback": true,
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "18866",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 133,
+          "end": 134,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "7338",
+      "setting_id": "18867",
+      "name": "Lac Amora",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/7338#setting18867",
+      "category": "slur_delimiter",
+      "before_abc": "|:EFED ~A2 Bc|BAdB AGFE|DEDC ~A2 Bc|GFED ^C4:|\r\n|:d2 ef feda|agcc fed^c|~d2 ef feda|1 aged g3 ^c:|2 fed^c d4||\r\n|:aa f2 gg e2|fedf e3^c|dfeg (3ege) fg|1 afef e3 z:|2 fed^c- dAFE|D6 z2||",
+      "after_abc": "|:EFED ~A2 Bc|BAdB AGFE|DEDC ~A2 Bc|GFED ^C4:|\r\n|:d2 ef feda|agcc fed^c|~d2 ef feda|1 aged g3 ^c:|2 fed^c d4||\r\n|:aa f2 gg e2|fedf e3^c|dfeg (3ege fg|1 afef e3 z:|2 fed^c- dAFE|D6 z2||",
+      "before_sha256": "03332c6f19dc7ca218077410424615c4d5d12dc603c1382a10752ffc83765339",
+      "after_sha256": "894458da879e68e4113ff98aed1b120f45a0e65dd2aec1b62b6ea4b1b23641bf",
+      "evidence": [
+        {
+          "rule": "slur_delimiter",
+          "bar": 12,
+          "last_bar": 12,
+          "before": "dfeg (3ege) fg",
+          "after": "dfeg (3ege fg",
+          "reference_ranges": [
+            [
+              "7338",
+              12,
+              12
+            ]
+          ],
+          "method": "Matching original written measures and complete adjoining measures",
+          "preserve_playback": true,
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "18867",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 146,
+          "end": 147,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "16912",
+      "setting_id": "32253",
+      "name": "Cadgers, The",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/16912#setting32253",
+      "category": "redundant_barline",
+      "before_abc": "Aeed edBG|Aeed B2GB|Aeed efge|dedB cBAG|\r\nAeed edBG|Aeed B2 (3GAB|Aeed efge|dedB cBAG||\r\nA2 EA|ABcB|AEEA c2Bc|A2 EA ABce|dedB cBAG|\r\nA2 EA ABcB|AEEA c2Bc|dgfg efga|e3g edBG||",
+      "after_abc": "Aeed edBG|Aeed B2GB|Aeed efge|dedB cBAG|\r\nAeed edBG|Aeed B2 (3GAB|Aeed efge|dedB cBAG||\r\nA2 EA ABcB|AEEA c2Bc|A2 EA ABce|dedB cBAG|\r\nA2 EA ABcB|AEEA c2Bc|dgfg efga|e3g edBG||",
+      "before_sha256": "c0ff6baf0f980970d10c29071eed23ecfc911c66fb765e4589feaf59d1ee04f6",
+      "after_sha256": "7e8e38435a873d0b7ad6bcf5ff32affa95cc05bf2fb04491db32bab1c5444333",
+      "evidence": [
+        {
+          "rule": "redundant_barline",
+          "bar": 9,
+          "last_bar": 10,
+          "before": "\r\nA2 EA|ABcB",
+          "after": "\r\nA2 EA ABcB",
+          "reference_ranges": [
+            [
+              "58591",
+              9,
+              9
+            ]
+          ],
+          "method": "Matching original written measures and complete adjoining measures",
+          "preserve_playback": true,
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "32253",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 94,
+          "end": 95,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "tune_id": "18966",
+      "setting_id": "45116",
+      "name": "Miss Charlotte Stirling's Jigg",
+      "original_contributor": "Nigel Gatherer",
+      "source_url": "https://thesession.org/tunes/18966#setting45116",
+      "category": "missing_barline",
+      "before_abc": "|:B|AFD DFD|AFA d2 B|AFD DFD|ECA, A,2 B|\r\nAFD DFD|AFA d2A|BdB cec|d2 d d2:|\r\n|:g|faf d2 f|gbg e2 g|faf d2 f ecA A2g|\r\n[1 faf d2 f|gbg e2 g|fdf ece|d2 d d2:|\r\n[2 faf def|gbg efg|faf gec|d2 d d2||",
+      "after_abc": "|:B|AFD DFD|AFA d2 B|AFD DFD|ECA, A,2 B|\r\nAFD DFD|AFA d2A|BdB cec|d2 d d2:|\r\n|:g|faf d2 f|gbg e2 g|faf d2 f| ecA A2g|\r\n[1 faf d2 f|gbg e2 g|fdf ece|d2 d d2:|\r\n[2 faf def|gbg efg|faf gec|d2 d d2||",
+      "before_sha256": "6c402ce242b4bf374f44082fc3bcbf3721f1be49e61a050b56e8f4bbc6d25d97",
+      "after_sha256": "a8406856147b398f1ff6c7294b2339cfa36e8e9967c1a046743d6fedd65ea960",
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 13,
+          "last_bar": 13,
+          "before": "faf d2 f ecA A2g",
+          "after": "faf d2 f| ecA A2g",
+          "reference_ranges": [
+            [
+              "37176",
+              12,
+              13
+            ]
+          ],
+          "method": "Matching original written measures and complete adjoining measures",
+          "preserve_playback": true,
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "45116",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 107,
+          "end": 107,
+          "text": "|"
+        }
+      ]
+    },
+    {
+      "tune_id": "19115",
+      "setting_id": "37576",
+      "name": "Quarantine, The",
+      "original_contributor": "JB C'Ville",
+      "source_url": "https://thesession.org/tunes/19115#setting37576",
+      "category": "redundant_barline",
+      "before_abc": "F|:B2 B Bcd|cBA BAF|d2d def|fed ecA|\r\nB2B Bcd|cBA BAF|GAB ABc|dcA|B2A:|\r\n|:d2d def|afe dBA|B2B Bcd|efe cdA|\r\nd2d def|afe dBA|GAB ABc|1 dcA B2A:|2 dcA B3||",
+      "after_abc": "F|:B2 B Bcd|cBA BAF|d2d def|fed ecA|\r\nB2B Bcd|cBA BAF|GAB ABc|dcA B2A:|\r\n|:d2d def|afe dBA|B2B Bcd|efe cdA|\r\nd2d def|afe dBA|GAB ABc|1 dcA B2A:|2 dcA B3||",
+      "before_sha256": "2a422148a54c3b2f217206bff9dee3041cb9671db437f1673ee0043bf8434fdb",
+      "after_sha256": "d705199937e014ef1b794df4736cada93e08ed735b4a414bb63b1b855fe67998",
+      "evidence": [
+        {
+          "rule": "redundant_barline",
+          "bar": 9,
+          "last_bar": 10,
+          "before": "dcA|B2A",
+          "after": "dcA B2A",
+          "reference_ranges": [
+            [
+              "37572",
+              8,
+              8
+            ]
+          ],
+          "method": "Matching original written measures and complete adjoining measures",
+          "preserve_playback": true,
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "37576",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 65,
+          "end": 66,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "tune_id": "22036",
+      "setting_id": "44335",
+      "name": "Paddy Fahey's",
+      "original_contributor": "JWiseman",
+      "source_url": "https://thesession.org/tunes/22036#setting44335",
+      "category": "missing_barline",
+      "before_abc": "AEED CEB,E|A,EED E/F/G AB|cded ^cdfd eaag edcB|\r\nAE E2 CEB,E|A,EED EGAB|cded cBAG| EGDF EA, A,2||\r\nAEED cEBE|AEED E/F/G AB|cded ^cdfd|eaag edcB|\r\nAE E2 CEB,E|A,EED EGAB|cded cBAG|EGDF EA, A,2||\r\neaag edcB|AE E2 cBcd|eged cBcd| egdg egdg|\r\nea a2 edcB|AE E2 c3 d|eged cBcd eaag egdg||\r\neaag edcB|AE E2 cBcd|e/^f/g ed cBcd egdg egdg|\r\nea a2 edcB|AE E2 c3 d|eged cBcd|eaag edcB||",
+      "after_abc": "AEED CEB,E|A,EED E/F/G AB|cded ^cdfd| eaag edcB|\r\nAE E2 CEB,E|A,EED EGAB|cded cBAG| EGDF EA, A,2||\r\nAEED cEBE|AEED E/F/G AB|cded ^cdfd|eaag edcB|\r\nAE E2 CEB,E|A,EED EGAB|cded cBAG|EGDF EA, A,2||\r\neaag edcB|AE E2 cBcd|eged cBcd| egdg egdg|\r\nea a2 edcB|AE E2 c3 d|eged cBcd eaag egdg||\r\neaag edcB|AE E2 cBcd|e/^f/g ed cBcd egdg egdg|\r\nea a2 edcB|AE E2 c3 d|eged cBcd|eaag edcB||",
+      "before_sha256": "d9de4273c26df28696f2c0a5f672d235b566395f37af36044bb42e1e3950e155",
+      "after_sha256": "6cef629f92439fa1d5b32f825509d1538b11a0a268d976b31272a816aedb7ffd",
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 3,
+          "last_bar": 3,
+          "before": "cded ^cdfd eaag edcB",
+          "after": "cded ^cdfd| eaag edcB",
+          "reference_ranges": [
+            [
+              "44335",
+              9,
+              10
+            ]
+          ],
+          "method": "Exact repeated measures and matching following measure in the original setting",
+          "accidental_reset": {
+            "old_offset": 18,
+            "new_offset": 19,
+            "old_midi": 73,
+            "new_midi": 72,
+            "token": "c"
+          },
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 1,
+          "abcjs": {
+            "setting_id": "44335",
+            "passed": true,
+            "changed_played_pitches": 1,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 36,
+          "end": 36,
+          "text": "|"
+        }
+      ]
+    }
+  ],
+  "structure_scanner_sha256": "1f6a3d51002f43687abd24322251b1b48c6125612e9b8b752743515525d73322"
+}

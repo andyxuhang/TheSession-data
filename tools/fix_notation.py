@@ -14,6 +14,7 @@ import tempfile
 from matching_phrases import scan_phrases
 from missing_notes import scan_missing_notes
 from note_count_fixes import scan_note_counts
+from notation_structure import scan_structures
 from phrase_lengths import scan_lengths
 from pitch_fixes import PITCH_RULES, scan_pitches
 from reference_lengths import scan_reference_lengths
@@ -119,11 +120,13 @@ def main():
     mode.add_argument('--note-counts', action='store_true', help='Compare omitted and extra written notes')
     mode.add_argument('--reference-lengths', action='store_true', help='Check durations against matching phrases at section and repeat boundaries')
     mode.add_argument('--transposed-pitches', action='store_true', help='Compare isolated pitches across equivalent transposed phrases')
+    mode.add_argument('--structures', action='store_true', help='Match bar divisions and slur punctuation at written boundaries')
     args = parser.parse_args()
     pitch_mode = args.pitches or args.transposed_pitches
-    cross_checked = pitch_mode or args.syntax or args.note_counts or args.reference_lengths
+    cross_checked = pitch_mode or args.syntax or args.note_counts or args.reference_lengths or args.structures
     separate_scan = args.phrases or args.missing_notes or cross_checked
-    plan_name = ('written-rhythm' if args.reference_lengths else 'written-note' if args.note_counts
+    plan_name = ('written-structure' if args.structures else 'written-rhythm' if args.reference_lengths
+                 else 'written-note' if args.note_counts
                  else 'syntax' if args.syntax else 'pitch' if pitch_mode else 'notation')
     lengths = args.lengths or args.parallel_lengths
     current = unique_settings(rows(ROOT/'json/tunes.json'))
@@ -132,14 +135,17 @@ def main():
         baseline = json.loads((ROOT/'changes/initial-fixes.json').read_text())['upstream_commit']
         exported = subprocess.check_output(['git','show',baseline+':json/tunes.json'], cwd=ROOT)
         upstream = unique_settings(json.loads(exported))
-    earlier_rejections = json.loads((ROOT/'checks/rejected.json').read_text()) if args.reference_lengths else []
+    earlier_rejections = (json.loads((ROOT/'checks/rejected.json').read_text())
+                          if args.reference_lengths or args.structures else [])
     original = {r['setting_id']:r['abc'] for r in data}
     collected, rejected, history, seen_failures = {}, {}, [], set()
     with tempfile.TemporaryDirectory(prefix='session-notation-') as temporary:
         work = Path(temporary)
         for attempt in range(1, 16):
             if separate_scan:
-                if args.reference_lengths:
+                if args.structures:
+                    scanner = lambda records,refs: scan_structures(records,refs,earlier_rejections)
+                elif args.reference_lengths:
                     scanner = lambda records,refs: scan_reference_lengths(records,refs,earlier_rejections)
                 elif args.note_counts:
                     scanner = scan_note_counts
@@ -169,7 +175,8 @@ def main():
                 break
             structural = [p for p in candidates if all(
                 e['rule'] in {'misplaced_barline', 'missing_barline'} for e in p['evidence'])]
-            individual = candidates if lengths or args.phrases or pitch_mode or args.syntax else structural
+            individual = candidates if lengths or args.phrases or pitch_mode or args.syntax else (
+                [] if args.structures else structural)
             if individual:
                 structural_ids = {p['setting_id'] for p in individual}
                 passed, failures = check_measure_edits(individual, work, args, lengths=lengths)
@@ -202,6 +209,10 @@ def main():
                             evidence['primary_duration_already_normalized'] = True
                     if args.note_counts:
                         evidence['changed_note_occurrences'] = outcomes[sid]['changed_note_occurrences']
+                        evidence['abcjs'] = outcomes[sid]['abcjs']
+                    if args.structures:
+                        evidence['all_event_timings_unchanged'] = outcomes[sid]['all_event_timings_unchanged']
+                        evidence['changed_played_pitches'] = outcomes[sid].get('changed_played_pitches',0)
                         evidence['abcjs'] = outcomes[sid]['abcjs']
                 if sid in collected:
                     patch['evidence'] = collected[sid]['evidence'] + patch['evidence']
@@ -259,6 +270,9 @@ def main():
         if args.note_counts:
             plan['method'] = 'Matching written phrases and independent verification of an individual note count change'
             plan['written_note_scanner_sha256'] = hashlib.sha256((ROOT/'tools/note_count_fixes.py').read_bytes()).hexdigest()
+        if args.structures:
+            plan['method'] = 'Original barline and slur witnesses with independent full playback checks'
+            plan['structure_scanner_sha256'] = hashlib.sha256((ROOT/'tools/notation_structure.py').read_bytes()).hexdigest()
         if args.syntax:
             plan['method'] = 'Matching written measures and unchanged playback in independent parsers'
             plan['syntax_scanner_sha256'] = hashlib.sha256((ROOT/'tools/syntax_fixes.py').read_bytes()).hexdigest()
@@ -272,7 +286,7 @@ def main():
             if key.endswith('_scanner_sha256'):
                 plan.setdefault(key, value)
         dump(work/'fixes.json',plan)
-        final = playback(work/'fixes.json',work/'final-check.json',args,False)
+        final = playback(work/'fixes.json',work/'final-check.json',args,False,cross_check=args.structures)
         args.output.mkdir(parents=True,exist_ok=True)
         dump(args.output/'proposed-fixes.json',plan)
         if separate_scan:
@@ -297,6 +311,12 @@ def main():
             if args.barlines or lengths or separate_scan:
                 for old in json.loads((ROOT/'checks/rejected.json').read_text()):
                     rules = {e['rule'] for e in old.get('proposal', {}).get('evidence', [])}
+                    if args.structures and old['setting_id'] in collected and old.get('bars') and not old.get('proposal'):
+                        verified = {(e['rule'],e['bar'],e['before'],e['after'])
+                                    for e in collected[old['setting_id']]['evidence']}
+                        if all((e['rule'],e['bar'],e['before'],e['after']) in verified
+                               for e in (entry['edit'] for entry in old['bars'])):
+                            continue
                     if (args.note_counts or args.reference_lengths) and old['setting_id'] in collected:
                         accepted = collected[old['setting_id']]
                         earlier = old.get('proposal', {})

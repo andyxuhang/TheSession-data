@@ -162,32 +162,6 @@
     }
   },
   {
-    "setting_id": "44335",
-    "passed": false,
-    "reason": "individual phrase check",
-    "bars": [
-      {
-        "edit": {
-          "rule": "missing_barline",
-          "bar": 3,
-          "last_bar": 3,
-          "before": "cded ^cdfd eaag edcB",
-          "after": "cded ^cdfd| eaag edcB",
-          "reference_ranges": [
-            [
-              "44335",
-              9,
-              10
-            ]
-          ],
-          "transposed_references": [],
-          "method": "Matching uninterrupted written phrase in the original exports"
-        },
-        "reason": "Bad state: 44335 pitch at 31"
-      }
-    ]
-  },
-  {
     "setting_id": "31501",
     "passed": false,
     "reason": "individual barline check",

@@ -13,6 +13,7 @@ import tempfile
 from pitch_fixes import PITCH_RULES, key_signature, resolve_pitches
 from scan import NOTE, measures, rows as read_rows, unique_settings
 from syntax_fixes import SYNTAX_RULES
+from notation_structure import accidental_reset
 
 ROOT = Path(__file__).resolve().parents[1]
 REVISION = "823fbf4cb5941394d86b5dd476ba46cc6e891f47"
@@ -280,6 +281,20 @@ def prepare_note_count(patch, edit):
             'duration_quarter':float(Fraction(edit['duration_eighths'])/2)}
 
 
+def prepare_barline_reset(patch, edit, mode):
+    before, after = patch['before_abc'], patch['after_abc']
+    i = edit['bar']-1
+    old, new = edit['before'], edit['after']
+    start = measures(before)[0][i].start
+    reset = accidental_reset(old, new, mode)
+    if (reset is None or reset != edit['accidental_reset'] or before[start:start+len(old)] != old
+            or before[:start]+new+before[start+len(old):] != after):
+        raise ValueError('Barline edit differs from the reviewed accidental reset: '+patch['setting_id'])
+    return [dict(old_token=reset['token'], new_token=reset['token'], old_midi=reset['old_midi'],
+                 new_midi=reset['new_midi'], written_occurrences=1,
+                 locations=[dict(old_start=start+reset['old_offset'], new_start=start+reset['new_offset'])])]
+
+
 def prepare_reference_duration(patch, edit):
     before,_ = measures(patch['before_abc'])
     after,_ = measures(patch['after_abc'])
@@ -319,6 +334,9 @@ def main():
     for row in records.values():
         for patch in patches.get(row["setting_id"], ()):
             evidence = patch['evidence']
+            if isinstance(evidence,list) and len(evidence)==1 and 'accidental_reset' in evidence[0]:
+                rows.append({**row, **patch, 'pitch_changes':prepare_barline_reset(patch,evidence[0],row['mode'])})
+                continue
             if isinstance(evidence,list) and evidence and all(e['rule'] in PITCH_RULES for e in evidence):
                 rows.append({**row, **patch, 'pitch_changes':prepare_pitch_changes(patch,row['mode'])})
                 continue
@@ -328,7 +346,9 @@ def main():
                 rows.append({**row, **patch, 'duration_edits':edits,
                              'allowed_duration_changes':list(unique.values()), 'strict_length':True})
                 continue
-            if isinstance(evidence,list) and evidence and all(e['rule'] in SYNTAX_RULES for e in evidence):
+            if isinstance(evidence,list) and evidence and all(
+                e['rule'] in SYNTAX_RULES or e.get('preserve_playback') for e in evidence
+            ):
                 rows.append({**row, **patch, 'syntax_only':True, 'allowed_duration_changes':[]})
                 continue
             if isinstance(evidence,list) and len(evidence)==1 and 'note_count_change' in evidence[0]:
@@ -380,20 +400,25 @@ def main():
         if args.abcjs:
             library = repo/'third_party/abcjs/abcjs-basic-min.js'
             secondary_input = root/'abcjs-input.json'
-            secondary_input.write_text(json.dumps([
-                {**row, 'pitch_changes': row.get('pitch_changes', [])}
-                for row in rows if 'pitch_changes' in row or row.get('syntax_only')
+            # Different plans can check the same setting. Keep each result
+            # tied to its input position in the primary parser's output.
+            selected = [
+                (i, {**row, 'pitch_changes': row.get('pitch_changes', [])})
+                for i, row in enumerate(rows) if 'pitch_changes' in row or row.get('syntax_only')
                 or row.get('insertion',{}).get('positions') or 'duration_edits' in row
-            ]),encoding='utf8')
+            ]
+            secondary_input.write_text(json.dumps([row for _, row in selected]),encoding='utf8')
             output = subprocess.check_output(['node',str(ROOT/'tools/check_abcjs_pitches.js'),
                                               str(library),str(secondary_input)],text=True)
             comparison = json.loads(output)
-            secondary = {(r['setting_id'],r.get('variant')): r for r in comparison['results']}
             library_hash = hashlib.sha256(library.read_bytes()).hexdigest()
-            for check in checks:
-                other = secondary.get((check['setting_id'],check.get('variant')))
-                if other is None:
-                    continue
+            if len(checks) != len(rows) or len(comparison['results']) != len(selected):
+                raise ValueError('Unexpected number of playback results')
+            for (i, row), other in zip(selected, comparison['results']):
+                check = checks[i]
+                if any(row.get(key) != check.get(key) or row.get(key) != other.get(key)
+                       for key in ('setting_id', 'variant')):
+                    raise ValueError('Playback results do not match the correction order')
                 check['abcjs'] = {**other,'version':comparison['version'],
                                   'sha256':library_hash}
                 if check['passed'] and (

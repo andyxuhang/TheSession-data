@@ -13,6 +13,8 @@ from scan import ROOT, measures, rows, sha, unique_settings
 LABELS = {
     'missing_barline': 'Missing barline',
     'misplaced_barline': 'Misplaced barline',
+    'redundant_barline': 'Redundant barline',
+    'slur_delimiter': 'Unmatched slur mark',
     'note_length': 'Incorrect note length',
     'proven_long_note': 'Incorrect note length',
     'rhythm_mark': 'Incorrect broken-rhythm or tuplet mark',

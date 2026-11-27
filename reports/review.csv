@@ -3029,10 +3029,6 @@ G4 A2|G2 F2 G2|B2 A2 G2|F6|G6|c6|B2 G2 F2|G4||"
 16912,32225,"Cadgers, The",DomW,https://thesession.org/tunes/16912#setting32225,Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""32225"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""ABcB"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:Aeed edBG|Aeed B2GB|Aeed efge|dedB cBAG:|
 A2 EA|ABcB|AEEA c2Bc|A2 EA ABce|dedB cBAG|
 A2 EA ABcB|AEEA c2Bc|dgfg efgf|(3eee eg edBG||"
-16912,32253,"Cadgers, The",JACKB,https://thesession.org/tunes/16912#setting32253,Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""32253"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""ABcB"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","Aeed edBG|Aeed B2GB|Aeed efge|dedB cBAG|
-Aeed edBG|Aeed B2 (3GAB|Aeed efge|dedB cBAG||
-A2 EA|ABcB|AEEA c2Bc|A2 EA ABce|dedB cBAG|
-A2 EA ABcB|AEEA c2Bc|dgfg efga|e3g edBG||"
 25256,53103,Cahill's Wain,tom cahill,https://thesession.org/tunes/25256#setting53103,Overfull interior measure; Missing barline,"{""current_internal_bars"": [{""setting_id"": ""53103"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""ged cAG\r\nFEF GFG"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53103"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""Adc dg/2f/2e\r\ndDE FFG"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""missing_barline""]}","DE|:FEF GFG|Adc AGE|FGA def|ged cAG
 FEF GFG|Adc Aag|fed cBA|1 GFE D2 E:|2 GFE D2 D||
 |:FDA FdA|fgf edc|dAB =cAG|Adc dg/2f/2e
@@ -13322,11 +13318,6 @@ FAA BAA|FAA d2f|gfg B2c|1 d3 d3:|2 d3 d2||"
 a g3 gf|g4 AG|A e3 ed|e a3 ba|a g3 ed|e G3 AB|A e3 ed|e g4 G|
 E G3 AB|A4 ed||e a3 ag|b a3 ba|a g3 ed|e G3 ed|e a3 ag|b a3 ef|
 g6-|g3 z ed|e a3 ag|b a3 ba|a g3 ed|e G3 AB|A e3 ed|e g4 G|E G3 AB|A6||"
-18966,45116,Miss Charlotte Stirling's Jigg,Nigel Gatherer,https://thesession.org/tunes/18966#setting45116,Overfull interior measure,"{""current_internal_bars"": [{""setting_id"": ""45116"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""faf d2 f ecA A2g"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:B|AFD DFD|AFA d2 B|AFD DFD|ECA, A,2 B|
-AFD DFD|AFA d2A|BdB cec|d2 d d2:|
-|:g|faf d2 f|gbg e2 g|faf d2 f ecA A2g|
-[1 faf d2 f|gbg e2 g|fdf ece|d2 d d2:|
-[2 faf def|gbg efg|faf gec|d2 d d2||"
 18768,36721,Miss Clementina Stewart Of Garth's Jigg,suskin,https://thesession.org/tunes/18768#setting36721,Overfull interior measure,"{""current_internal_bars"": [{""setting_id"": ""36721"", ""bar"": 14, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""ecA (A2 g)\r\nfdf agf"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:A|d2 d def|ecA AcA|Bcd AGF|
 GEE E2 A|d2 d def|ecA AcA|BdB cec|d3 d2:|
 |:g|fdf agf|ece efg|fdf agf|ecA (A2 g)
@@ -15116,7 +15107,7 @@ B2 Ac BG (3A/G/F/G|AF (3G/F/E/F cFAc|B2 Ac Bdga ^fd^cd fdA=c|
 B3 d BG^FG|AF (3G/F/E/F cFAc|B2 Ac Bdga|^fdcA G4||
 bagb ag^fa|g^fdc BG (3A/G/F/G|B/c/d gb ag^fa|g^fdc dggf|
 g2 bg a^fde|faeg ^fdcA|G3 A =Bcde|^fgag fdAc||"
-22036,44335,Paddy Fahey's,JWiseman,https://thesession.org/tunes/22036#setting44335,Overfull interior measure; Playback check failed,"{""current_internal_bars"": [{""setting_id"": ""44335"", ""bar"": 3, ""category"": ""proposed"", ""duration_eighths"": ""16"", ""expected_eighths"": ""8"", ""fragment"": ""cded ^cdfd eaag edcB"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44335"", ""bar"": 25, ""category"": ""irregular"", ""duration_eighths"": ""16"", ""expected_eighths"": ""8"", ""fragment"": ""e/^f/g ed cBcd egdg egdg"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [], ""playback_rejection"": ""individual phrase check""}","AEED CEB,E|A,EED E/F/G AB|cded ^cdfd eaag edcB|
+22036,44335,Paddy Fahey's,JWiseman,https://thesession.org/tunes/22036#setting44335,Overfull interior measure,"{""current_internal_bars"": [{""setting_id"": ""44335"", ""bar"": 26, ""category"": ""irregular"", ""duration_eighths"": ""16"", ""expected_eighths"": ""8"", ""fragment"": ""e/^f/g ed cBcd egdg egdg"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","AEED CEB,E|A,EED E/F/G AB|cded ^cdfd| eaag edcB|
 AE E2 CEB,E|A,EED EGAB|cded cBAG| EGDF EA, A,2||
 AEED cEBE|AEED E/F/G AB|cded ^cdfd|eaag edcB|
 AE E2 CEB,E|A,EED EGAB|cded cBAG|EGDF EA, A,2||
@@ -16149,10 +16140,6 @@ Efec eAAc|efec BABc|efec efaf|ecBc A/A/A A:|"
 cd e2 f2dc B2 G2|A^GABcF E2 E4|DGABcA BAGDBG|AGFDA,D G6||
 g2 fece e2 d4|g2 fecA d6|e2 ecde BA G2 D2|EDEcBA G6|
 CB, A,2 D2 B,2 G,3 G,|A,B, C2 E2 D2 G4|AGA^FGA BAG=F E2|Ec B2 DA G6||"
-19115,37576,"Quarantine, The",JB C'Ville,https://thesession.org/tunes/19115#setting37576,Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""37576"", ""bar"": 9, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""dcA"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","F|:B2 B Bcd|cBA BAF|d2d def|fed ecA|
-B2B Bcd|cBA BAF|GAB ABc|dcA|B2A:|
-|:d2d def|afe dBA|B2B Bcd|efe cdA|
-d2d def|afe dBA|GAB ABc|1 dcA B2A:|2 dcA B3||"
 13851,24862,Queen Maeve Suite,Ediot,https://thesession.org/tunes/13851#setting24862,Overfull interior measure; Incorrect note length,"{""current_internal_bars"": [{""setting_id"": ""24862"", ""bar"": 42, ""category"": ""irregular"", ""duration_eighths"": ""9"", ""expected_eighths"": ""8"", ""fragment"": ""\r\nd3 AFGF D2"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""proven_long_note""]}","G2 AG F2 GF|D2 CF DG,B,D|G3 D FGAc|d2 cedc AF|G2 AG F2 GF|
 D2 CF DG,B,D|G2 FEDC B,A,|G,8||G3 D FGAc|d2 cAGF DF|
 G3 DFGA c|d2 cedc AF|G2 AG FGAc|d{e}dcA GFDC|{D}G2 FE DCB,A,|

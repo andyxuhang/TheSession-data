@@ -1,0 +1,22 @@
+{
+  "passes": [
+    {
+      "redundant_barline": 2,
+      "slur_delimiter": 2,
+      "missing_barline": 2,
+      "accidental_reset": 1,
+      "settings": 55821,
+      "settings_with_proposals": 6,
+      "pass": 1,
+      "accepted": 6,
+      "rejected": 0
+    },
+    {
+      "settings": 55821,
+      "settings_with_proposals": 0,
+      "pass": 2,
+      "accepted": 0
+    }
+  ],
+  "rejected_settings": 3
+}

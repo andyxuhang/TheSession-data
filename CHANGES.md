@@ -1,5 +1,13 @@
 # Changes
 
+## Bar divisions and unmatched slurs
+
+Restored two missing barlines, removed two extra barlines, and removed two unmatched slur endings. The changes cover six settings of five tunes and five matching set entries. Original written passages support every edit.
+
+TradMate and abcjs confirmed identical timings for all six settings. Playback was unchanged in five settings. In setting 44335, the restored barline ends an accidental's carry into the next bar and changes one played pitch to match the repeated passage.
+
+The [edit list](checks/written-structure-edits.json) identifies each source passage. The [full rescan](checks/written-structure-scan.json) found no further eligible changes of these types. The [current review](reports/status.md) includes the remaining playback disagreements.
+
 ## Corrections supported by matching and transposed phrases
 
 Corrected 36 places in 34 settings of 33 tunes and updated 193 matching set entries. This includes 16 duration corrections, 2 rejoined duration tokens, 5 restored notes, 11 accidentals and 2 octave marks. Sixteen changes have transposed reference settings. Two restored notes from the earlier review passed when the abcjs check matched by the original written position among repeated pitches.

@@ -4,19 +4,19 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 
 | Status | Settings | Details |
 |---|---:|---|
-| Corrected | 585 | [fixed.csv](fixed.csv) |
-| Needs review | 3752 | [review.csv](review.csv) |
-| Pickups, endings and repeats | 24407 | [boundaries.csv](boundaries.csv) |
+| Corrected | 588 | [fixed.csv](fixed.csv) |
+| Needs review | 3749 | [review.csv](review.csv) |
+| Pickups, endings and repeats | 24406 | [boundaries.csv](boundaries.csv) |
 | Unsupported syntax or empty melody | 6500 | [unsupported.csv](unsupported.csv) |
-| Playback or parser compatibility | 3470 | [playback.csv](playback.csv) |
+| Playback or parser compatibility | 3469 | [playback.csv](playback.csv) |
 
-83 corrected settings still have other findings. Settings can appear in multiple categories. Each CSV gives the source link and current ABC. The corrected list also gives the ABC before the changes.
+82 corrected settings still have other findings. Settings can appear in multiple categories. Each CSV gives the source link and current ABC. The corrected list also gives the ABC before the changes.
 
 ## Corrections by type
 
 | Type | Corrections |
 |---|---:|
-| Missing barline | 330 |
+| Missing barline | 332 |
 | Incorrect note length | 173 |
 | Misplaced barline | 64 |
 | Incorrect accidental | 33 |
@@ -28,6 +28,8 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 | Incorrect broken-rhythm or tuplet mark | 2 |
 | Surplus note | 2 |
 | Split note token | 2 |
+| Unmatched slur mark | 2 |
+| Redundant barline | 2 |
 
 ## How corrections are checked
 
@@ -38,7 +40,7 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 - Playback checks compare the original and corrected events with automatic repair disabled. Unexpected changes to pitch, duration, rests or ties block a correction.
 - After each round the scanner checks for further corrections. CSV, JSON and SQLite are compared record by record.
 
-Playback checks left candidates in 4 settings for review. See [rejected.json](../checks/rejected.json) for the recorded reasons.
+Playback checks left candidates in 3 settings for review. See [rejected.json](../checks/rejected.json) for the recorded reasons.
 
 ## Examples for review
 

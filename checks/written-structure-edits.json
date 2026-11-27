@@ -1,0 +1,194 @@
+[
+  {
+    "setting_id": "32253",
+    "tune_id": "16912",
+    "source_url": "https://thesession.org/tunes/16912#setting32253",
+    "rule": "redundant_barline",
+    "bar": 9,
+    "last_bar": 10,
+    "before": "\r\nA2 EA|ABcB",
+    "after": "\r\nA2 EA ABcB",
+    "reference_ranges": [
+      [
+        "58591",
+        9,
+        9
+      ]
+    ],
+    "method": "Matching original written measures and complete adjoining measures",
+    "preserve_playback": true,
+    "scan_pass": 1,
+    "all_event_timings_unchanged": true,
+    "changed_played_pitches": 0,
+    "abcjs": {
+      "setting_id": "32253",
+      "passed": true,
+      "changed_played_pitches": 0,
+      "before_warnings": 0,
+      "after_warnings": 0,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    }
+  },
+  {
+    "setting_id": "18866",
+    "tune_id": "7338",
+    "source_url": "https://thesession.org/tunes/7338#setting18866",
+    "rule": "slur_delimiter",
+    "bar": 12,
+    "last_bar": 12,
+    "before": "df eg (3ege) fg",
+    "after": "df eg (3ege fg",
+    "reference_ranges": [
+      [
+        "7338",
+        12,
+        12
+      ]
+    ],
+    "method": "Matching original written measures and complete adjoining measures",
+    "preserve_playback": true,
+    "scan_pass": 1,
+    "all_event_timings_unchanged": true,
+    "changed_played_pitches": 0,
+    "abcjs": {
+      "setting_id": "18866",
+      "passed": true,
+      "changed_played_pitches": 0,
+      "before_warnings": 0,
+      "after_warnings": 0,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    }
+  },
+  {
+    "setting_id": "18867",
+    "tune_id": "7338",
+    "source_url": "https://thesession.org/tunes/7338#setting18867",
+    "rule": "slur_delimiter",
+    "bar": 12,
+    "last_bar": 12,
+    "before": "dfeg (3ege) fg",
+    "after": "dfeg (3ege fg",
+    "reference_ranges": [
+      [
+        "7338",
+        12,
+        12
+      ]
+    ],
+    "method": "Matching original written measures and complete adjoining measures",
+    "preserve_playback": true,
+    "scan_pass": 1,
+    "all_event_timings_unchanged": true,
+    "changed_played_pitches": 0,
+    "abcjs": {
+      "setting_id": "18867",
+      "passed": true,
+      "changed_played_pitches": 0,
+      "before_warnings": 0,
+      "after_warnings": 0,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    }
+  },
+  {
+    "setting_id": "45116",
+    "tune_id": "18966",
+    "source_url": "https://thesession.org/tunes/18966#setting45116",
+    "rule": "missing_barline",
+    "bar": 13,
+    "last_bar": 13,
+    "before": "faf d2 f ecA A2g",
+    "after": "faf d2 f| ecA A2g",
+    "reference_ranges": [
+      [
+        "37176",
+        12,
+        13
+      ]
+    ],
+    "method": "Matching original written measures and complete adjoining measures",
+    "preserve_playback": true,
+    "scan_pass": 1,
+    "all_event_timings_unchanged": true,
+    "changed_played_pitches": 0,
+    "abcjs": {
+      "setting_id": "45116",
+      "passed": true,
+      "changed_played_pitches": 0,
+      "before_warnings": 0,
+      "after_warnings": 0,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    }
+  },
+  {
+    "setting_id": "44335",
+    "tune_id": "22036",
+    "source_url": "https://thesession.org/tunes/22036#setting44335",
+    "rule": "missing_barline",
+    "bar": 3,
+    "last_bar": 3,
+    "before": "cded ^cdfd eaag edcB",
+    "after": "cded ^cdfd| eaag edcB",
+    "reference_ranges": [
+      [
+        "44335",
+        9,
+        10
+      ]
+    ],
+    "method": "Exact repeated measures and matching following measure in the original setting",
+    "accidental_reset": {
+      "old_offset": 18,
+      "new_offset": 19,
+      "old_midi": 73,
+      "new_midi": 72,
+      "token": "c"
+    },
+    "scan_pass": 1,
+    "all_event_timings_unchanged": true,
+    "changed_played_pitches": 1,
+    "abcjs": {
+      "setting_id": "44335",
+      "passed": true,
+      "changed_played_pitches": 1,
+      "before_warnings": 0,
+      "after_warnings": 0,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    }
+  },
+  {
+    "setting_id": "37576",
+    "tune_id": "19115",
+    "source_url": "https://thesession.org/tunes/19115#setting37576",
+    "rule": "redundant_barline",
+    "bar": 9,
+    "last_bar": 10,
+    "before": "dcA|B2A",
+    "after": "dcA B2A",
+    "reference_ranges": [
+      [
+        "37572",
+        8,
+        8
+      ]
+    ],
+    "method": "Matching original written measures and complete adjoining measures",
+    "preserve_playback": true,
+    "scan_pass": 1,
+    "all_event_timings_unchanged": true,
+    "changed_played_pitches": 0,
+    "abcjs": {
+      "setting_id": "37576",
+      "passed": true,
+      "changed_played_pitches": 0,
+      "before_warnings": 0,
+      "after_warnings": 0,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    }
+  }
+]

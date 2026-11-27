@@ -2,11 +2,11 @@
   "settings_checked": 55821,
   "exported_tune_rows": 55838,
   "tunes_checked": 23199,
-  "fixed_settings": 585,
-  "fixed_tunes": 500,
+  "fixed_settings": 588,
+  "fixed_tunes": 502,
   "fixed_edits_by_type": {
     "misplaced_barline": 64,
-    "missing_barline": 330,
+    "missing_barline": 332,
     "note_length": 173,
     "stray_control": 19,
     "missing_note": 14,
@@ -16,17 +16,19 @@
     "note_typo": 3,
     "orphan_symbol": 10,
     "extra_note": 2,
-    "split_note_token": 2
+    "split_note_token": 2,
+    "slur_delimiter": 2,
+    "redundant_barline": 2
   },
   "categories": {
-    "fixed": 585,
-    "review": 3752,
-    "boundaries": 24407,
+    "fixed": 588,
+    "review": 3749,
+    "boundaries": 24406,
     "unsupported": 6500,
-    "playback": 3470
+    "playback": 3469
   },
-  "no_current_findings": 26170,
-  "rejected_settings": 4,
+  "no_current_findings": 26171,
+  "rejected_settings": 3,
   "counts_overlap": true,
-  "fixed_with_remaining_review": 83
+  "fixed_with_remaining_review": 82
 }

@@ -938,9 +938,9 @@ A2 EA|ABcB|AEEA c2Bc|A2 EA ABce|dedB cBAG|
 A2 EA ABcB|AEEA c2Bc|dgfg efgf|(3eee eg edBG||","|:Aeed edBG|Aeed B2GB|Aeed efge|dedB cBAG:|
 A2 EA|ABcB|AEEA c2Bc|A2 EA ABce|dedB cBAG|
 A2 EA|ABcB|AEEA c2Bc|dgfg efgf|(3eee eg edBG||"
-16912,32253,"Cadgers, The",JACKB,https://thesession.org/tunes/16912#setting32253,Misplaced barline,"[{""rule"": ""misplaced_barline"", ""bar"": 14, ""last_bar"": 15, ""before"": ""\r\nA2 EA|ABcB"", ""after"": ""\r\nA2 EA ABcB"", ""reference_ranges"": [[""58591"", 9, 9], [""58591"", 13, 13]], ""method"": ""Matching uninterrupted written phrase in the original exports"", ""scan_pass"": 1}]","Aeed edBG|Aeed B2GB|Aeed efge|dedB cBAG|
+16912,32253,"Cadgers, The",JACKB,https://thesession.org/tunes/16912#setting32253,Misplaced barline; Redundant barline,"[{""rule"": ""redundant_barline"", ""bar"": 9, ""last_bar"": 10, ""before"": ""\r\nA2 EA|ABcB"", ""after"": ""\r\nA2 EA ABcB"", ""reference_ranges"": [[""58591"", 9, 9]], ""method"": ""Matching original written measures and complete adjoining measures"", ""preserve_playback"": true, ""scan_pass"": 1, ""all_event_timings_unchanged"": true, ""changed_played_pitches"": 0, ""abcjs"": {""setting_id"": ""32253"", ""passed"": true, ""changed_played_pitches"": 0, ""before_warnings"": 0, ""after_warnings"": 0, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","Aeed edBG|Aeed B2GB|Aeed efge|dedB cBAG|
 Aeed edBG|Aeed B2 (3GAB|Aeed efge|dedB cBAG||
-A2 EA|ABcB|AEEA c2Bc|A2 EA ABce|dedB cBAG|
+A2 EA ABcB|AEEA c2Bc|A2 EA ABce|dedB cBAG|
 A2 EA ABcB|AEEA c2Bc|dgfg efga|e3g edBG||","Aeed edBG|Aeed B2GB|Aeed efge|dedB cBAG|
 Aeed edBG|Aeed B2 (3GAB|Aeed efge|dedB cBAG||
 A2 EA|ABcB|AEEA c2Bc|A2 EA ABce|dedB cBAG|
@@ -3116,9 +3116,14 @@ fed B2 d|A2 d F2 G|ABA F2 E|FDD D2:|","|:B|AFD DFA|BdB BAF|ABA F2 D|FEE E2 B|
 AFD DFA|BdB BAF|ABA F2 E|FDD D2:|
 |:e|fdd dcd|fdd dcd|~f3 def|~g3 efg
 fed B2 d|A2 d F2 G|ABA F2 E|FDD D2:|"
-7338,18867,Lac Amora,ceolachan,https://thesession.org/tunes/7338#setting18867,Split note token,"[{""rule"": ""split_note_token"", ""bar"": 11, ""before"": ""fedf e 3^c"", ""after"": ""fedf e3^c"", ""token_offset"": 5, ""old_token"": ""e"", ""new_token"": ""e3"", ""old_duration_eighths"": ""1"", ""new_duration_eighths"": ""3"", ""reference_ranges"": [[""18866"", 11, 11], [""7338"", 11, 11]], ""corroborating_contributors"": 1, ""written_repeat"": false, ""extra_matching_bar"": true, ""scan_pass"": 1, ""changed_played_durations"": 2, ""abcjs"": {""setting_id"": ""18867"", ""passed"": true, ""changed_note_durations"": 2, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","|:EFED ~A2 Bc|BAdB AGFE|DEDC ~A2 Bc|GFED ^C4:|
+7338,18866,Lac Amora,wathgwen,https://thesession.org/tunes/7338#setting18866,Unmatched slur mark,"[{""rule"": ""slur_delimiter"", ""bar"": 12, ""last_bar"": 12, ""before"": ""df eg (3ege) fg"", ""after"": ""df eg (3ege fg"", ""reference_ranges"": [[""7338"", 12, 12]], ""method"": ""Matching original written measures and complete adjoining measures"", ""preserve_playback"": true, ""scan_pass"": 1, ""all_event_timings_unchanged"": true, ""changed_played_pitches"": 0, ""abcjs"": {""setting_id"": ""18866"", ""passed"": true, ""changed_played_pitches"": 0, ""before_warnings"": 0, ""after_warnings"": 0, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","|:EFED ~A2 Bc|BAdBAGFE|DEDC ~A2 Bc|GFED^C4:|
+.d2eff eda|agccfed^c|~d2effeda|1 agedg3 ^c:|2 fed^cd4||
+aaf2gge2|fedfe3 ^c|df eg (3ege fg|1 afef e3 z1:|2 fe d^cdAFE|D6z2||","|:EFED ~A2 Bc|BAdBAGFE|DEDC ~A2 Bc|GFED^C4:|
+.d2eff eda|agccfed^c|~d2effeda|1 agedg3 ^c:|2 fed^cd4||
+aaf2gge2|fedfe3 ^c|df eg (3ege) fg|1 afef e3 z1:|2 fe d^cdAFE|D6z2||"
+7338,18867,Lac Amora,ceolachan,https://thesession.org/tunes/7338#setting18867,Unmatched slur mark; Split note token,"[{""rule"": ""slur_delimiter"", ""bar"": 12, ""last_bar"": 12, ""before"": ""dfeg (3ege) fg"", ""after"": ""dfeg (3ege fg"", ""reference_ranges"": [[""7338"", 12, 12]], ""method"": ""Matching original written measures and complete adjoining measures"", ""preserve_playback"": true, ""scan_pass"": 1, ""all_event_timings_unchanged"": true, ""changed_played_pitches"": 0, ""abcjs"": {""setting_id"": ""18867"", ""passed"": true, ""changed_played_pitches"": 0, ""before_warnings"": 0, ""after_warnings"": 0, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","|:EFED ~A2 Bc|BAdB AGFE|DEDC ~A2 Bc|GFED ^C4:|
 |:d2 ef feda|agcc fed^c|~d2 ef feda|1 aged g3 ^c:|2 fed^c d4||
-|:aa f2 gg e2|fedf e3^c|dfeg (3ege) fg|1 afef e3 z:|2 fed^c- dAFE|D6 z2||","|:EFED ~A2 Bc|BAdB AGFE|DEDC ~A2 Bc|GFED ^C4:|
+|:aa f2 gg e2|fedf e3^c|dfeg (3ege fg|1 afef e3 z:|2 fed^c- dAFE|D6 z2||","|:EFED ~A2 Bc|BAdB AGFE|DEDC ~A2 Bc|GFED ^C4:|
 |:d2 ef feda|agcc fed^c|~d2 ef feda|1 aged g3 ^c:|2 fed^c d4||
 |:aa f2 gg e2|fedf e 3^c|dfeg (3ege) fg|1 afef e3 z:|2 fed^c- dAFE|D6 z2||"
 8256,43442,"Lads Of Dunse, The",DaveF,https://thesession.org/tunes/8256#setting43442,Missing barline,"[{""rule"": ""missing_barline"", ""bar"": 14, ""last_bar"": 14, ""before"": ""BGE E2g\r\nf/g/af d2e"", ""after"": ""BGE E2g|\r\nf/g/af d2e"", ""reference_ranges"": [[""43442"", 11, 11]], ""transposed_references"": [], ""method"": ""Line break and matching adjacent measure"", ""scan_pass"": 1}]","B|:AFD DED|DED B2A|Bcd AFA|BGE E2d|
@@ -3772,6 +3777,15 @@ dfB dbB | dcB fdB | ceA caA | cBA edc|
 dfB dbB | dcB fdB | fgf edc | dBB B2c |
 dfB dbB | dfB dbB | ceA caA | ceA caA |
 BdB cec | dfd ege | fgf edc | dBB B3||"
+18966,45116,Miss Charlotte Stirling's Jigg,Nigel Gatherer,https://thesession.org/tunes/18966#setting45116,Missing barline,"[{""rule"": ""missing_barline"", ""bar"": 13, ""last_bar"": 13, ""before"": ""faf d2 f ecA A2g"", ""after"": ""faf d2 f| ecA A2g"", ""reference_ranges"": [[""37176"", 12, 13]], ""method"": ""Matching original written measures and complete adjoining measures"", ""preserve_playback"": true, ""scan_pass"": 1, ""all_event_timings_unchanged"": true, ""changed_played_pitches"": 0, ""abcjs"": {""setting_id"": ""45116"", ""passed"": true, ""changed_played_pitches"": 0, ""before_warnings"": 0, ""after_warnings"": 0, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","|:B|AFD DFD|AFA d2 B|AFD DFD|ECA, A,2 B|
+AFD DFD|AFA d2A|BdB cec|d2 d d2:|
+|:g|faf d2 f|gbg e2 g|faf d2 f| ecA A2g|
+[1 faf d2 f|gbg e2 g|fdf ece|d2 d d2:|
+[2 faf def|gbg efg|faf gec|d2 d d2||","|:B|AFD DFD|AFA d2 B|AFD DFD|ECA, A,2 B|
+AFD DFD|AFA d2A|BdB cec|d2 d d2:|
+|:g|faf d2 f|gbg e2 g|faf d2 f ecA A2g|
+[1 faf d2 f|gbg e2 g|fdf ece|d2 d d2:|
+[2 faf def|gbg efg|faf gec|d2 d d2||"
 14389,54639,Miss Edmonston,Moxhe,https://thesession.org/tunes/14389#setting54639,Incorrect octave,"[{""rule"": ""octave_typo"", ""bar"": 2, ""note"": 6, ""before"": ""AFcF dfcF"", ""after"": ""AFcF dFcF"", ""before_midi"": 77, ""after_midi"": 65, ""reference_ranges"": [[""26398"", 3, 3], [""54639"", 6, 6]], ""corroborating_contributors"": 1, ""written_repeat"": true, ""written_repetitions"": 1, ""extra_matching_bar"": false, ""isolated_jump"": false, ""playback_occurrences"": 2, ""abcjs"": {""setting_id"": ""54639"", ""variant"": ""54639-0"", ""passed"": true, ""changed_played_pitches"": 2, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""scan_pass"": 1}]","|:B2bg fdcB|AFcF dFcF|B2bg fdcB|FGBc dBB2| 
 B2bg fdcB|AFcF dFcF|B2bg fdcB|FGBc dBB2:|
 |:BFDF EDEF|AFcF dFcF|BFDF Bcde|fgfe dBB2| 
@@ -4435,7 +4449,7 @@ A3 GA3/2B/2 |A G3 ED|EG4 E| D2 E2 F2|G3 A B>d|
 A F3 ED|E G4 A|G2 B2 d2|e3 de3/2f/2|ed3 B>A|
 B d3 e2|d2 B2d2|e3 def|e d3 BA|B3 cBA |
 G2E2 D2 |C3 D EG|A3 GED|E2 G3A| G6||"
-22036,44335,Paddy Fahey's,JWiseman,https://thesession.org/tunes/22036#setting44335,Missing barline; Missing barline,"[{""rule"": ""missing_barline"", ""bar"": 6, ""witnesses"": [[[""44335"", 12]], [[""44335"", 13]]], ""before"": ""cded cBAG EGDF EA, A,2"", ""after"": ""cded cBAG| EGDF EA, A,2"", ""scan_pass"": 1}, {""rule"": ""missing_barline"", ""bar"": 17, ""witnesses"": [[[""44335"", 25]], [[""44334"", 11]]], ""before"": ""eged cBcd egdg egdg"", ""after"": ""eged cBcd| egdg egdg"", ""scan_pass"": 1}]","AEED CEB,E|A,EED E/F/G AB|cded ^cdfd eaag edcB|
+22036,44335,Paddy Fahey's,JWiseman,https://thesession.org/tunes/22036#setting44335,Missing barline,"[{""rule"": ""missing_barline"", ""bar"": 3, ""last_bar"": 3, ""before"": ""cded ^cdfd eaag edcB"", ""after"": ""cded ^cdfd| eaag edcB"", ""reference_ranges"": [[""44335"", 9, 10]], ""method"": ""Exact repeated measures and matching following measure in the original setting"", ""accidental_reset"": {""old_offset"": 18, ""new_offset"": 19, ""old_midi"": 73, ""new_midi"": 72, ""token"": ""c""}, ""scan_pass"": 1, ""all_event_timings_unchanged"": true, ""changed_played_pitches"": 1, ""abcjs"": {""setting_id"": ""44335"", ""passed"": true, ""changed_played_pitches"": 1, ""before_warnings"": 0, ""after_warnings"": 0, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","AEED CEB,E|A,EED E/F/G AB|cded ^cdfd| eaag edcB|
 AE E2 CEB,E|A,EED EGAB|cded cBAG| EGDF EA, A,2||
 AEED cEBE|AEED E/F/G AB|cded ^cdfd|eaag edcB|
 AE E2 CEB,E|A,EED EGAB|cded cBAG|EGDF EA, A,2||
@@ -4819,6 +4833,13 @@ edB BAF|EDB DEF|{A}GFE FED|BED E3:|","|:E2E GFE|DBE DBD|~E3 GFE|AB^G AFD|
 ~E3 GFE|DBE DEF|G2E FED|BED E3:|
 |:edB BAF|EDB d2e|edB BAF|ABc def|
 edB BAF|EDB DEF|{A}GFE FED|BED E3:|"
+19115,37576,"Quarantine, The",JB C'Ville,https://thesession.org/tunes/19115#setting37576,Redundant barline,"[{""rule"": ""redundant_barline"", ""bar"": 9, ""last_bar"": 10, ""before"": ""dcA|B2A"", ""after"": ""dcA B2A"", ""reference_ranges"": [[""37572"", 8, 8]], ""method"": ""Matching original written measures and complete adjoining measures"", ""preserve_playback"": true, ""scan_pass"": 1, ""all_event_timings_unchanged"": true, ""changed_played_pitches"": 0, ""abcjs"": {""setting_id"": ""37576"", ""passed"": true, ""changed_played_pitches"": 0, ""before_warnings"": 0, ""after_warnings"": 0, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","F|:B2 B Bcd|cBA BAF|d2d def|fed ecA|
+B2B Bcd|cBA BAF|GAB ABc|dcA B2A:|
+|:d2d def|afe dBA|B2B Bcd|efe cdA|
+d2d def|afe dBA|GAB ABc|1 dcA B2A:|2 dcA B3||","F|:B2 B Bcd|cBA BAF|d2d def|fed ecA|
+B2B Bcd|cBA BAF|GAB ABc|dcA|B2A:|
+|:d2d def|afe dBA|B2B Bcd|efe cdA|
+d2d def|afe dBA|GAB ABc|1 dcA B2A:|2 dcA B3||"
 772,57199,Queen Of The Fair,leprecawn,https://thesession.org/tunes/772#setting57199,Omitted note,"[{""rule"": ""missing_note"", ""bar"": 27, ""note_count_change"": 1, ""before"": ""FDD D2 "", ""after"": ""FDD D2B "", ""token"": ""B"", ""duration_eighths"": ""1"", ""midi"": 71, ""possible_offsets"": [6], ""reference_ranges"": [[""53347"", 26, 26]], ""corroborating_contributors"": 1, ""written_repeat"": false, ""extra_matching_bar"": true, ""scan_pass"": 1, ""changed_note_occurrences"": 1, ""abcjs"": {""setting_id"": ""57199"", ""passed"": true, ""changed_note_occurrences"": 1, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","|:E| FEF DA,A,|DFA dAF|GFG FGA|BGE EAG|
 FEF DA,A,|DFA dAF|GFG EAG| FDD D2:|
 |:g | fdf ece|dAG FEF|DFA dAF|GFG E2g|
