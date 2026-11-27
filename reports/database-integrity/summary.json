@@ -1,0 +1,366 @@
+{
+  "integrity_check": [
+    "ok"
+  ],
+  "tables": {
+    "aliases": {
+      "rows": 29603,
+      "columns": [
+        "tune_id",
+        "alias",
+        "name"
+      ],
+      "headers_equal": true,
+      "ordered_equal": true,
+      "logical_equal": true,
+      "digests": {
+        "csv": {
+          "rows": 29603,
+          "semantic_sha256": "be7ccfeb0247775d8271a30f445812c04f088b813ae75fac39a7a21417636a3e"
+        },
+        "json": {
+          "rows": 29603,
+          "semantic_sha256": "be7ccfeb0247775d8271a30f445812c04f088b813ae75fac39a7a21417636a3e"
+        },
+        "sqlite": {
+          "rows": 29603,
+          "semantic_sha256": "be7ccfeb0247775d8271a30f445812c04f088b813ae75fac39a7a21417636a3e"
+        }
+      }
+    },
+    "events": {
+      "rows": 9370,
+      "columns": [
+        "id",
+        "event",
+        "dtstart",
+        "dtend",
+        "venue",
+        "address",
+        "town",
+        "area",
+        "country",
+        "latitude",
+        "longitude"
+      ],
+      "headers_equal": true,
+      "ordered_equal": true,
+      "logical_equal": true,
+      "digests": {
+        "csv": {
+          "rows": 9370,
+          "semantic_sha256": "34bf50d53669a9b07c5df022b8971ca4fb5184a1051b9bc1cd8bf73dddc6c64b"
+        },
+        "json": {
+          "rows": 9370,
+          "semantic_sha256": "34bf50d53669a9b07c5df022b8971ca4fb5184a1051b9bc1cd8bf73dddc6c64b"
+        },
+        "sqlite": {
+          "rows": 9370,
+          "semantic_sha256": "34bf50d53669a9b07c5df022b8971ca4fb5184a1051b9bc1cd8bf73dddc6c64b"
+        }
+      }
+    },
+    "recordings": {
+      "rows": 203782,
+      "columns": [
+        "id",
+        "artist",
+        "recording",
+        "track",
+        "number",
+        "tune",
+        "tune_id"
+      ],
+      "headers_equal": true,
+      "ordered_equal": true,
+      "logical_equal": true,
+      "digests": {
+        "csv": {
+          "rows": 203782,
+          "semantic_sha256": "e06fc47bd751b83c2d78552d0eec59cfc2bae962602cd531b3323bf79e57091f"
+        },
+        "json": {
+          "rows": 203782,
+          "semantic_sha256": "e06fc47bd751b83c2d78552d0eec59cfc2bae962602cd531b3323bf79e57091f"
+        },
+        "sqlite": {
+          "rows": 203782,
+          "semantic_sha256": "e06fc47bd751b83c2d78552d0eec59cfc2bae962602cd531b3323bf79e57091f"
+        }
+      }
+    },
+    "sessions": {
+      "rows": 2195,
+      "columns": [
+        "id",
+        "name",
+        "address",
+        "town",
+        "area",
+        "country",
+        "latitude",
+        "longitude",
+        "date"
+      ],
+      "headers_equal": true,
+      "ordered_equal": true,
+      "logical_equal": true,
+      "digests": {
+        "csv": {
+          "rows": 2195,
+          "semantic_sha256": "8f07cc2f65c46700376410e018c875c6159aa1b714993ceb9b363b3d6331887b"
+        },
+        "json": {
+          "rows": 2195,
+          "semantic_sha256": "8f07cc2f65c46700376410e018c875c6159aa1b714993ceb9b363b3d6331887b"
+        },
+        "sqlite": {
+          "rows": 2195,
+          "semantic_sha256": "8f07cc2f65c46700376410e018c875c6159aa1b714993ceb9b363b3d6331887b"
+        }
+      }
+    },
+    "sets": {
+      "rows": 337510,
+      "columns": [
+        "tuneset",
+        "date",
+        "member_id",
+        "username",
+        "settingorder",
+        "name",
+        "tune_id",
+        "setting_id",
+        "type",
+        "meter",
+        "mode",
+        "abc"
+      ],
+      "headers_equal": true,
+      "ordered_equal": true,
+      "logical_equal": true,
+      "digests": {
+        "csv": {
+          "rows": 337510,
+          "semantic_sha256": "aef7364fd431bbd8f3d5cbbcae111b5de493963d77f180d6a3af2a49be7df1ad"
+        },
+        "json": {
+          "rows": 337510,
+          "semantic_sha256": "aef7364fd431bbd8f3d5cbbcae111b5de493963d77f180d6a3af2a49be7df1ad"
+        },
+        "sqlite": {
+          "rows": 337510,
+          "semantic_sha256": "aef7364fd431bbd8f3d5cbbcae111b5de493963d77f180d6a3af2a49be7df1ad"
+        }
+      }
+    },
+    "setting_ids": {
+      "rows": 55821,
+      "columns": [
+        "setting_id",
+        "tune_id"
+      ],
+      "headers_equal": true,
+      "ordered_equal": true,
+      "logical_equal": true,
+      "digests": {
+        "csv": {
+          "rows": 55821,
+          "semantic_sha256": "b0c9d1f80734f3e6cbbee6672bec5f48ef067d3fb8676d9e2231d3fb32a93cbe"
+        },
+        "json": {
+          "rows": 55821,
+          "semantic_sha256": "b0c9d1f80734f3e6cbbee6672bec5f48ef067d3fb8676d9e2231d3fb32a93cbe"
+        },
+        "sqlite": {
+          "rows": 55821,
+          "semantic_sha256": "b0c9d1f80734f3e6cbbee6672bec5f48ef067d3fb8676d9e2231d3fb32a93cbe"
+        }
+      }
+    },
+    "tune_ids": {
+      "rows": 23200,
+      "columns": [
+        "tune_id"
+      ],
+      "headers_equal": true,
+      "ordered_equal": true,
+      "logical_equal": true,
+      "digests": {
+        "csv": {
+          "rows": 23200,
+          "semantic_sha256": "57c7d6914914c5e71af0743ca65b902a3063a0145fa83f5571ffc9e2676ddf82"
+        },
+        "json": {
+          "rows": 23200,
+          "semantic_sha256": "57c7d6914914c5e71af0743ca65b902a3063a0145fa83f5571ffc9e2676ddf82"
+        },
+        "sqlite": {
+          "rows": 23200,
+          "semantic_sha256": "57c7d6914914c5e71af0743ca65b902a3063a0145fa83f5571ffc9e2676ddf82"
+        }
+      }
+    },
+    "tune_popularity": {
+      "rows": 11807,
+      "columns": [
+        "name",
+        "tune_id",
+        "tunebooks"
+      ],
+      "headers_equal": true,
+      "ordered_equal": true,
+      "logical_equal": true,
+      "digests": {
+        "csv": {
+          "rows": 11807,
+          "semantic_sha256": "87f8efb0e3975e6518e9be869bfeebd73101181a78e997b919c4e58eee17b421"
+        },
+        "json": {
+          "rows": 11807,
+          "semantic_sha256": "87f8efb0e3975e6518e9be869bfeebd73101181a78e997b919c4e58eee17b421"
+        },
+        "sqlite": {
+          "rows": 11807,
+          "semantic_sha256": "87f8efb0e3975e6518e9be869bfeebd73101181a78e997b919c4e58eee17b421"
+        }
+      }
+    },
+    "tunes": {
+      "rows": 55838,
+      "columns": [
+        "tune_id",
+        "setting_id",
+        "name",
+        "type",
+        "meter",
+        "mode",
+        "abc",
+        "date",
+        "username",
+        "composer"
+      ],
+      "headers_equal": true,
+      "ordered_equal": true,
+      "logical_equal": true,
+      "digests": {
+        "csv": {
+          "rows": 55838,
+          "semantic_sha256": "17bda1d01b049bc564a0d06e0c439f70998e48f5ce56162ca0563d50993a78c4"
+        },
+        "json": {
+          "rows": 55838,
+          "semantic_sha256": "17bda1d01b049bc564a0d06e0c439f70998e48f5ce56162ca0563d50993a78c4"
+        },
+        "sqlite": {
+          "rows": 55838,
+          "semantic_sha256": "17bda1d01b049bc564a0d06e0c439f70998e48f5ce56162ca0563d50993a78c4"
+        }
+      }
+    }
+  },
+  "all_exports_equal": true,
+  "foreign_key_check": [],
+  "derived_id_verification": {
+    "tune_ids": 23200,
+    "setting_ids": 55821,
+    "foreign_key_violations": 0,
+    "unresolved_recording_references": 0
+  },
+  "missing_or_mismatched_references": 0,
+  "setting_identity_conflicts": [],
+  "set_copy_comparison": {
+    "rows_checked": 337510,
+    "fields": [
+      "name",
+      "type",
+      "meter",
+      "mode",
+      "abc"
+    ],
+    "differing_rows": 0
+  },
+  "duplicate_record_keys": {
+    "events": {
+      "key": [
+        "id"
+      ],
+      "duplicate_groups": 0,
+      "rows": 0
+    },
+    "sessions": {
+      "key": [
+        "id"
+      ],
+      "duplicate_groups": 0,
+      "rows": 0
+    },
+    "aliases": {
+      "key": [
+        "tune_id",
+        "alias"
+      ],
+      "duplicate_groups": 0,
+      "rows": 0
+    },
+    "tune_popularity": {
+      "key": [
+        "tune_id"
+      ],
+      "duplicate_groups": 0,
+      "rows": 0
+    },
+    "recordings": {
+      "key": [
+        "id",
+        "track",
+        "number"
+      ],
+      "duplicate_groups": 0,
+      "rows": 0
+    },
+    "sets": {
+      "key": [
+        "tuneset",
+        "settingorder",
+        "setting_id"
+      ],
+      "duplicate_groups": 0,
+      "rows": 0
+    }
+  },
+  "composer_join_extra_rows": 17,
+  "optional_unlinked_recordings": 63623,
+  "external_reference_limits": {
+    "member_table_exported": false,
+    "distinct_set_member_ids": 11734,
+    "website_existence_checked": false
+  },
+  "set_position_observations": {
+    "shared_values": 1664,
+    "rows": 3937,
+    "affected_sets": 1660,
+    "gaps": [
+      {
+        "tuneset": "63950",
+        "positions": [
+          1,
+          3
+        ],
+        "missing_values": [
+          2
+        ]
+      }
+    ],
+    "owner_conflicts": []
+  },
+  "geojson": {
+    "features": 2194,
+    "unique_session_locations": 2194,
+    "shared_locations": 1,
+    "missing_points": [],
+    "extra_points": 0,
+    "geometry_property_conflicts": []
+  }
+}

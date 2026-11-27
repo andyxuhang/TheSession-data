@@ -13837,10 +13837,10 @@ gf e/f/g/e/|dB B/A/B|cA A/c/B/A/ GB G:|"
 .g.e c'>b|(ba/^g/) a(d/c/)|B/c/d/e/ f/g/a/b/|c'c' c':|
 .d.b .c.a|.Bg- g/d/B/G/|.Fe- e/d/c/A/|.Gg- g/(d/B/c/)|
 .d.b .c.a|.Bg- g/d/B/G/|.Fe- e/d/c/A/|G{A/}G/F/ G||"
-3880,52550,Jenny Nettles,Jeff Rowan,https://thesession.org/tunes/3880#setting52550,Unsupported syntax or empty melody,"[{""setting_id"": ""52550"", ""bar"": 18, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '^'"", ""fragment"": "" abag^ !tr!a AB ""}]","|:A/B/|{AB}c2.B2.A2.a2|(e^fg)e dBGB|{AB}c2.B2.A2.a2|ge^fd e2 A:|
-B|!tr!c>deA !tr!c>deA|d/c/B/A/ Gd BGdB|c>deA cdea | ge^fd e2 AB|
-!tr!c>deA !tr!c>dec|BAGd BGdB | !tr!c>deA c>dec|BcdB {b}e2 AB||
-!tr!c>de^f g>age | ga!tr!ge d/c/B/A/ GB | c>de^f gage | abag^ !tr!a AB | 
+3880,52550,Jenny Nettles,Jeff Rowan,https://thesession.org/tunes/3880#setting52550,Unsupported syntax or empty melody,"[{""setting_id"": ""52550"", ""bar"": 18, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '^'"", ""fragment"": "" abag^ !trill!a AB ""}]","|:A/B/|{AB}c2.B2.A2.a2|(e^fg)e dBGB|{AB}c2.B2.A2.a2|ge^fd e2 A:|
+B|!trill!c>deA !trill!c>deA|d/c/B/A/ Gd BGdB|c>deA cdea | ge^fd e2 AB|
+!trill!c>deA !trill!c>dec|BAGd BGdB | !trill!c>deA c>dec|BcdB {b}e2 AB||
+!trill!c>de^f g>age | ga!trill!ge d/c/B/A/ GB | c>de^f gage | abag^ !trill!a AB | 
 c>de^f g>age | gage {d}cB/A/ GB | c>de^f gag^f | eag^b a2 A ||"
 202,12865,Jenny Picking Cockles,mutatis mutandis,https://thesession.org/tunes/202#setting12865,Unsupported syntax or empty melody,"[{""setting_id"": ""12865"", ""category"": ""unsupported"", ""reason"": ""embedded field or voice""}]","~g2||fagf dc~c2|Bcde {a}fe{a}+A2.f2+|~g2fg dc~c2|Acfc AG~G2|
 [G,G]B~g2dc~c2|Bcde {a}fe{a}[A2.f2]|~g2fg dc~c2|Acfc AG~G2|

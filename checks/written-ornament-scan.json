@@ -1,12 +1,12 @@
 {
   "passes": [
     {
-      "roll_glyph": 18,
-      "decoration_case": 3,
+      "decoration_alias": 22,
+      "decoration_case": 1,
       "settings": 55821,
-      "settings_with_proposals": 7,
+      "settings_with_proposals": 4,
       "pass": 1,
-      "accepted": 7,
+      "accepted": 4,
       "rejected": 0
     },
     {
@@ -16,5 +16,5 @@
       "accepted": 0
     }
   ],
-  "rejected_settings": 5
+  "rejected_settings": 4
 }

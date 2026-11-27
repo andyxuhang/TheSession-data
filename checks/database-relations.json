@@ -1,0 +1,202 @@
+{
+  "before_schema": [
+    [
+      "table",
+      "aliases",
+      "aliases",
+      "CREATE TABLE \"aliases\" (\n   [tune_id] TEXT REFERENCES [tunes]([tune_id]),\n   [alias] TEXT,\n   [name] TEXT\n)"
+    ],
+    [
+      "table",
+      "events",
+      "events",
+      "CREATE TABLE [events] (\n   [id] TEXT,\n   [event] TEXT,\n   [dtstart] TEXT,\n   [dtend] TEXT,\n   [venue] TEXT,\n   [address] TEXT,\n   [town] TEXT,\n   [area] TEXT,\n   [country] TEXT,\n   [latitude] TEXT,\n   [longitude] TEXT\n)"
+    ],
+    [
+      "table",
+      "recordings",
+      "recordings",
+      "CREATE TABLE \"recordings\" (\n   [id] TEXT,\n   [artist] TEXT,\n   [recording] TEXT,\n   [track] TEXT,\n   [number] TEXT,\n   [tune] TEXT,\n   [tune_id] TEXT REFERENCES [tunes]([tune_id])\n)"
+    ],
+    [
+      "table",
+      "sessions",
+      "sessions",
+      "CREATE TABLE [sessions] (\n   [id] TEXT,\n   [name] TEXT,\n   [address] TEXT,\n   [town] TEXT,\n   [area] TEXT,\n   [country] TEXT,\n   [latitude] TEXT,\n   [longitude] TEXT,\n   [date] TEXT\n)"
+    ],
+    [
+      "table",
+      "sets",
+      "sets",
+      "CREATE TABLE \"sets\" (\n   [tuneset] TEXT,\n   [date] TEXT,\n   [member_id] TEXT,\n   [username] TEXT,\n   [settingorder] TEXT,\n   [name] TEXT,\n   [tune_id] TEXT REFERENCES [tunes]([tune_id]),\n   [setting_id] TEXT REFERENCES [tunes]([setting_id]),\n   [type] TEXT,\n   [meter] TEXT,\n   [mode] TEXT,\n   [abc] TEXT\n)"
+    ],
+    [
+      "table",
+      "tune_popularity",
+      "tune_popularity",
+      "CREATE TABLE \"tune_popularity\" (\n   [name] TEXT,\n   [tune_id] TEXT REFERENCES [tunes]([tune_id]),\n   [tunebooks] TEXT\n)"
+    ],
+    [
+      "table",
+      "tunes",
+      "tunes",
+      "CREATE TABLE [tunes] (\n   [tune_id] TEXT,\n   [setting_id] TEXT,\n   [name] TEXT,\n   [type] TEXT,\n   [meter] TEXT,\n   [mode] TEXT,\n   [abc] TEXT,\n   [date] TEXT,\n   [username] TEXT,\n   [composer] TEXT\n)"
+    ]
+  ],
+  "after_schema": [
+    [
+      "index",
+      "sqlite_autoindex_setting_ids_1",
+      "setting_ids",
+      null
+    ],
+    [
+      "index",
+      "sqlite_autoindex_setting_ids_2",
+      "setting_ids",
+      null
+    ],
+    [
+      "index",
+      "sqlite_autoindex_tune_ids_1",
+      "tune_ids",
+      null
+    ],
+    [
+      "table",
+      "aliases",
+      "aliases",
+      "CREATE TABLE \"aliases\" (\n   [tune_id] TEXT REFERENCES [tune_ids]([tune_id]),\n   [alias] TEXT,\n   [name] TEXT\n)"
+    ],
+    [
+      "table",
+      "events",
+      "events",
+      "CREATE TABLE [events] (\n   [id] TEXT,\n   [event] TEXT,\n   [dtstart] TEXT,\n   [dtend] TEXT,\n   [venue] TEXT,\n   [address] TEXT,\n   [town] TEXT,\n   [area] TEXT,\n   [country] TEXT,\n   [latitude] TEXT,\n   [longitude] TEXT\n)"
+    ],
+    [
+      "table",
+      "recordings",
+      "recordings",
+      "CREATE TABLE \"recordings\" (\n   [id] TEXT,\n   [artist] TEXT,\n   [recording] TEXT,\n   [track] TEXT,\n   [number] TEXT,\n   [tune] TEXT,\n   [tune_id] TEXT\n)"
+    ],
+    [
+      "table",
+      "sessions",
+      "sessions",
+      "CREATE TABLE [sessions] (\n   [id] TEXT,\n   [name] TEXT,\n   [address] TEXT,\n   [town] TEXT,\n   [area] TEXT,\n   [country] TEXT,\n   [latitude] TEXT,\n   [longitude] TEXT,\n   [date] TEXT\n)"
+    ],
+    [
+      "table",
+      "sets",
+      "sets",
+      "CREATE TABLE \"sets\" (\n   [tuneset] TEXT,\n   [date] TEXT,\n   [member_id] TEXT,\n   [username] TEXT,\n   [settingorder] TEXT,\n   [name] TEXT,\n   [tune_id] TEXT REFERENCES [tune_ids]([tune_id]),\n   [setting_id] TEXT REFERENCES [setting_ids]([setting_id]),\n   [type] TEXT,\n   [meter] TEXT,\n   [mode] TEXT,\n   [abc] TEXT\n,\n FOREIGN KEY(setting_id,tune_id) REFERENCES setting_ids(setting_id,tune_id)\n)"
+    ],
+    [
+      "table",
+      "setting_ids",
+      "setting_ids",
+      "CREATE TABLE setting_ids (\n        setting_id TEXT PRIMARY KEY NOT NULL,\n        tune_id TEXT NOT NULL REFERENCES tune_ids(tune_id),\n        UNIQUE(setting_id,tune_id))"
+    ],
+    [
+      "table",
+      "tune_ids",
+      "tune_ids",
+      "CREATE TABLE tune_ids (tune_id TEXT PRIMARY KEY NOT NULL)"
+    ],
+    [
+      "table",
+      "tune_popularity",
+      "tune_popularity",
+      "CREATE TABLE \"tune_popularity\" (\n   [name] TEXT,\n   [tune_id] TEXT REFERENCES [tune_ids]([tune_id]),\n   [tunebooks] TEXT\n)"
+    ],
+    [
+      "table",
+      "tunes",
+      "tunes",
+      "CREATE TABLE [tunes] (\n   [tune_id] TEXT,\n   [setting_id] TEXT,\n   [name] TEXT,\n   [type] TEXT,\n   [meter] TEXT,\n   [mode] TEXT,\n   [abc] TEXT,\n   [date] TEXT,\n   [username] TEXT,\n   [composer] TEXT\n,\n FOREIGN KEY(setting_id,tune_id) REFERENCES setting_ids(setting_id,tune_id)\n)"
+    ],
+    [
+      "trigger",
+      "recordings_tune_insert",
+      "recordings",
+      "CREATE TRIGGER recordings_tune_insert BEFORE INSERT ON recordings\n        WHEN NEW.tune_id IS NOT NULL AND NEW.tune_id <> ''\n        AND NOT EXISTS (SELECT 1 FROM tune_ids WHERE tune_id=NEW.tune_id)\n        BEGIN SELECT RAISE(ABORT,'Unknown recording tune_id'); END"
+    ],
+    [
+      "trigger",
+      "recordings_tune_update",
+      "recordings",
+      "CREATE TRIGGER recordings_tune_update BEFORE UPDATE OF tune_id ON recordings\n        WHEN NEW.tune_id IS NOT NULL AND NEW.tune_id <> ''\n        AND NOT EXISTS (SELECT 1 FROM tune_ids WHERE tune_id=NEW.tune_id)\n        BEGIN SELECT RAISE(ABORT,'Unknown recording tune_id'); END"
+    ],
+    [
+      "trigger",
+      "tune_ids_recordings_delete",
+      "tune_ids",
+      "CREATE TRIGGER tune_ids_recordings_delete BEFORE DELETE ON tune_ids\n        WHEN EXISTS (SELECT 1 FROM recordings WHERE tune_id=OLD.tune_id AND tune_id <> '')\n        BEGIN SELECT RAISE(ABORT,'Tune is referenced by recordings'); END"
+    ],
+    [
+      "trigger",
+      "tune_ids_recordings_update",
+      "tune_ids",
+      "CREATE TRIGGER tune_ids_recordings_update BEFORE UPDATE OF tune_id ON tune_ids\n        WHEN NEW.tune_id <> OLD.tune_id\n        AND EXISTS (SELECT 1 FROM recordings WHERE tune_id=OLD.tune_id AND tune_id <> '')\n        BEGIN SELECT RAISE(ABORT,'Tune is referenced by recordings'); END"
+    ]
+  ],
+  "source_tables_preserved": {
+    "aliases": {
+      "rows": 29603,
+      "semantic_sha256": "be7ccfeb0247775d8271a30f445812c04f088b813ae75fac39a7a21417636a3e"
+    },
+    "events": {
+      "rows": 9370,
+      "semantic_sha256": "34bf50d53669a9b07c5df022b8971ca4fb5184a1051b9bc1cd8bf73dddc6c64b"
+    },
+    "recordings": {
+      "rows": 203782,
+      "semantic_sha256": "e06fc47bd751b83c2d78552d0eec59cfc2bae962602cd531b3323bf79e57091f"
+    },
+    "sessions": {
+      "rows": 2195,
+      "semantic_sha256": "8f07cc2f65c46700376410e018c875c6159aa1b714993ceb9b363b3d6331887b"
+    },
+    "sets": {
+      "rows": 337510,
+      "semantic_sha256": "aef7364fd431bbd8f3d5cbbcae111b5de493963d77f180d6a3af2a49be7df1ad"
+    },
+    "tune_popularity": {
+      "rows": 11807,
+      "semantic_sha256": "87f8efb0e3975e6518e9be869bfeebd73101181a78e997b919c4e58eee17b421"
+    },
+    "tunes": {
+      "rows": 55838,
+      "semantic_sha256": "17bda1d01b049bc564a0d06e0c439f70998e48f5ce56162ca0563d50993a78c4"
+    }
+  },
+  "verification": {
+    "tune_ids": 23200,
+    "setting_ids": 55821,
+    "foreign_key_violations": 0,
+    "unresolved_recording_references": 0
+  },
+  "geojson_name_edits": [
+    {
+      "feature_index": 1105,
+      "session_ids": [
+        "7650"
+      ],
+      "before": "Bar Riviera Cassan",
+      "after": "Bar Riviera \"Cassan\"",
+      "start": 195699,
+      "end": 195719
+    },
+    {
+      "feature_index": 1893,
+      "session_ids": [
+        "9603"
+      ],
+      "before": "Kleingarten Und Freizeitverein Stromeyersdorf E.V.",
+      "after": "Kleingarten Und Freizeitverein \"Stromeyersdorf\" E.V.",
+      "start": 335549,
+      "end": 335601
+    }
+  ]
+}

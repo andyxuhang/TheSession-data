@@ -71,9 +71,15 @@ python3 tools/check_scope.py
 python3 -m unittest discover -s tools -p 'test_*.py'
 ```
 
-`apply.py --apply` applies all recorded change files; the default only checks the current exports. CSV and JSON are edited only inside the affected ABC fields. Set copies must match the reviewed ABC exactly; different arrangements are retained. SQLite schema and metadata are unchanged. Files are staged and cross-checked before replacement. The operation is repeatable; rerunning after a partial filesystem replacement completes the same changes.
+`apply.py --apply` applies all recorded notation change files; the default only checks the current notation exports. CSV and JSON are edited only inside the affected ABC fields. Set copies must match the reviewed ABC exactly; different arrangements are retained. Notation application preserves SQLite schema and metadata, and checks the repaired ID relationships when present. Files are staged and cross-checked before replacement. The operation is repeatable; rerunning after a partial filesystem replacement completes the same changes.
 
 `check_scope.py` compares every row of every table to the original upstream database. It expects that baseline's LFS object to be available locally, or accepts `--baseline-db /path/to/original/thesession.db`. It also verifies the baseline SHA-256 and unchanged license. This extra check does not download the baseline.
+
+The separately recorded schema repair in `checks/database-relations.json` adds unique ID parents while preserving the original seven tables' data. `check_scope.py` verifies that exact schema change and the derived parent rows instead of requiring the known broken original foreign keys.
+
+Run `python3 tools/database_relations.py` to verify the repaired relationships, or add `--apply` to perform the recorded repair. The repair stages the database and helper exports, compares all original rows, and rolls back published replacements if publication raises an exception. Run `python3 tools/audit_database.py` for the complete DB/CSV/JSON/GeoJSON comparison. Its report also lists unresolved ordering observations without treating them as proven missing records.
+
+`audit_abc2svg.js` accepts an external abc2svg core path and a JSON input of setting records. `report_further_review.py --abc2svg /path/to/abc2svg-1.js` combines the stored full scan, hash-checked earlier parser evidence, and fresh diagnostics for this batch. The pinned npm package is deprecated; core-only warnings do not alone establish a transcription error. Third-party source is not vendored.
 
 `scan.py --output /some/path` runs the fraction-based scanner alone. `status.py --findings /path/to/findings.jsonl` rebuilds the classified CSV lists from the current database exports and scan findings. `checks/previous-flags.json` retains the earlier parser's observations; a flag is used only while its source-body hash still matches. Those observations are not treated as proof of a source error.
 

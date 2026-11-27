@@ -47,6 +47,281 @@
       ]
     },
     {
+      "setting_id": "27608",
+      "tune_id": "1693",
+      "name": "Cheer Up Old Hag",
+      "original_contributor": "Moxhe",
+      "source_url": "https://thesession.org/tunes/1693#setting27608",
+      "category": "decoration_case",
+      "before_abc": "c|:SBGE EDE|GED D2c|BGE GAB|cBc edc|\r\nBGE EDE|GED D2c|BAG AGE|G3 G2||\r\nD|GAG G2B|ded d2c|BcA GBd|e2f g2D|\r\nGBd gfe|dec BcA|BGE GAB|1 c3B3:|2 dBc edc !Dacapo!||",
+      "after_abc": "c|:SBGE EDE|GED D2c|BGE GAB|cBc edc|\r\nBGE EDE|GED D2c|BAG AGE|G3 G2||\r\nD|GAG G2B|ded d2c|BcA GBd|e2f g2D|\r\nGBd gfe|dec BcA|BGE GAB|1 c3B3:|2 dBc edc !dacapo!||",
+      "before_sha256": "a2a8094c155a350ff47cb38f9ffb7453761c7170b0bea091c1d9dd38d48e4255",
+      "after_sha256": "b5340dc14d20de64ca2cc8fe75edbfe0f9e15867f1cd807a21034476dbecf705",
+      "evidence": [
+        {
+          "rule": "decoration_case",
+          "start": 149,
+          "end": 157,
+          "before": "!Dacapo!",
+          "after": "!dacapo!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "27608",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 150,
+          "end": 151,
+          "text": "d"
+        }
+      ]
+    },
+    {
+      "setting_id": "52550",
+      "tune_id": "3880",
+      "name": "Jenny Nettles",
+      "original_contributor": "Jeff Rowan",
+      "source_url": "https://thesession.org/tunes/3880#setting52550",
+      "category": "decoration_alias",
+      "before_abc": "|:A/B/|{AB}c2.B2.A2.a2|(e^fg)e dBGB|{AB}c2.B2.A2.a2|ge^fd e2 A:|\r\nB|!tr!c>deA !tr!c>deA|d/c/B/A/ Gd BGdB|c>deA cdea | ge^fd e2 AB|\r\n!tr!c>deA !tr!c>dec|BAGd BGdB | !tr!c>deA c>dec|BcdB {b}e2 AB||\r\n!tr!c>de^f g>age | ga!tr!ge d/c/B/A/ GB | c>de^f gage | abag^ !tr!a AB | \r\nc>de^f g>age | gage {d}cB/A/ GB | c>de^f gag^f | eag^b a2 A ||",
+      "after_abc": "|:A/B/|{AB}c2.B2.A2.a2|(e^fg)e dBGB|{AB}c2.B2.A2.a2|ge^fd e2 A:|\r\nB|!trill!c>deA !trill!c>deA|d/c/B/A/ Gd BGdB|c>deA cdea | ge^fd e2 AB|\r\n!trill!c>deA !trill!c>dec|BAGd BGdB | !trill!c>deA c>dec|BcdB {b}e2 AB||\r\n!trill!c>de^f g>age | ga!trill!ge d/c/B/A/ GB | c>de^f gage | abag^ !trill!a AB | \r\nc>de^f g>age | gage {d}cB/A/ GB | c>de^f gag^f | eag^b a2 A ||",
+      "before_sha256": "5094e549e42ed6681e70e9d6bc1a98843c1c27e73ca30457d2aa6cc398198ef2",
+      "after_sha256": "4de6581a890c9e3a8d38a91917b42d88c11f37e6f568f127c31a2970a25b483a",
+      "evidence": [
+        {
+          "rule": "decoration_alias",
+          "start": 68,
+          "end": 72,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "52550",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 78,
+          "end": 82,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "52550",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 132,
+          "end": 136,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "52550",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 142,
+          "end": 146,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "52550",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 164,
+          "end": 168,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "52550",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 197,
+          "end": 201,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "52550",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 218,
+          "end": 222,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "52550",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 259,
+          "end": 263,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "52550",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 71,
+          "end": 71,
+          "text": "ill"
+        },
+        {
+          "start": 81,
+          "end": 81,
+          "text": "ill"
+        },
+        {
+          "start": 135,
+          "end": 135,
+          "text": "ill"
+        },
+        {
+          "start": 145,
+          "end": 145,
+          "text": "ill"
+        },
+        {
+          "start": 167,
+          "end": 167,
+          "text": "ill"
+        },
+        {
+          "start": 200,
+          "end": 200,
+          "text": "ill"
+        },
+        {
+          "start": 221,
+          "end": 221,
+          "text": "ill"
+        },
+        {
+          "start": 262,
+          "end": 262,
+          "text": "ill"
+        }
+      ]
+    },
+    {
       "setting_id": "55279",
       "tune_id": "5430",
       "name": "Paddy Taylor's",
@@ -640,6 +915,416 @@
       ]
     },
     {
+      "setting_id": "40567",
+      "tune_id": "20486",
+      "name": "Bog Of Gight, The",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/20486#setting40567",
+      "category": "decoration_alias",
+      "before_abc": "c|e>fe<c A>cAE|!tr!F>EFA B/B/B (Bc)|e>fe<c A<cA>E|F<AE>C A,/A,/A, A,2|\r\n(e>f)(e>c) (A>c)(A>E)|!tr!F>EFA B/B/B ~B2|(ce)!tr!(fe) (dc)!tr!(BA)|G>AB>c A/A/A A||\r\ng|~a>ba>e ~a>ba>e|!tr!f>ef>a b/b/b b2|a>ba<e f<ac<a|!tr!B>AB<c A/A/A (Ag)|\r\n~a>ba>e ~a>ba>e|!tr!f>ef<a b/b/b b2|a>ef<a e<fc<e|!tr!B>AB<c A/A/A A||",
+      "after_abc": "c|e>fe<c A>cAE|!trill!F>EFA B/B/B (Bc)|e>fe<c A<cA>E|F<AE>C A,/A,/A, A,2|\r\n(e>f)(e>c) (A>c)(A>E)|!trill!F>EFA B/B/B ~B2|(ce)!trill!(fe) (dc)!trill!(BA)|G>AB>c A/A/A A||\r\ng|~a>ba>e ~a>ba>e|!trill!f>ef>a b/b/b b2|a>ba<e f<ac<a|!trill!B>AB<c A/A/A (Ag)|\r\n~a>ba>e ~a>ba>e|!trill!f>ef<a b/b/b b2|a>ef<a e<fc<e|!trill!B>AB<c A/A/A A||",
+      "before_sha256": "925fb1e0ed57679f97db3c6d75aa701b584e50a1285d7c444c4c96ec5e9b97b8",
+      "after_sha256": "41f66ecbeff61d954cfa1dd3351ab29c25dc71973812d9edce757a851c79c987",
+      "evidence": [
+        {
+          "rule": "decoration_alias",
+          "start": 15,
+          "end": 19,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "40567",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 94,
+          "end": 98,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "40567",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 118,
+          "end": 122,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "40567",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 131,
+          "end": 135,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "40567",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 176,
+          "end": 180,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "40567",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 210,
+          "end": 214,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "40567",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 250,
+          "end": 254,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "40567",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 284,
+          "end": 288,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "40567",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 18,
+          "end": 18,
+          "text": "ill"
+        },
+        {
+          "start": 97,
+          "end": 97,
+          "text": "ill"
+        },
+        {
+          "start": 121,
+          "end": 121,
+          "text": "ill"
+        },
+        {
+          "start": 134,
+          "end": 134,
+          "text": "ill"
+        },
+        {
+          "start": 179,
+          "end": 179,
+          "text": "ill"
+        },
+        {
+          "start": 213,
+          "end": 213,
+          "text": "ill"
+        },
+        {
+          "start": 253,
+          "end": 253,
+          "text": "ill"
+        },
+        {
+          "start": 287,
+          "end": 287,
+          "text": "ill"
+        }
+      ]
+    },
+    {
+      "setting_id": "40568",
+      "tune_id": "20486",
+      "name": "Bog Of Gight, The",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/20486#setting40568",
+      "category": "decoration_alias",
+      "before_abc": "|:e>f{gf}e>c A>cA<E|{G/}F>EF>A B/B/B !tr!B>c|1 e>f{gf}e>c A>cA<E|\r\nF>AE>C A,/A,/A, !tr!A2:|2 c<e!tr!f>e {c/}d>c{c/}B>A|G>AB>c A/A/A {cB}A2||\r\n|:{g/}(a>b)a<e {g/}a>ba<e|!tr!f>ef>a b/b/b b2|1 {g/}a>ba<e f<ac<a|\r\n!tr!B>AB<c A/A/A {cB}A2:|2 {f/}a>ef<a e>fc<e|!tr!B>AB>c A/A/A {cB}A2||",
+      "after_abc": "|:e>f{gf}e>c A>cA<E|{G/}F>EF>A B/B/B !trill!B>c|1 e>f{gf}e>c A>cA<E|\r\nF>AE>C A,/A,/A, !trill!A2:|2 c<e!trill!f>e {c/}d>c{c/}B>A|G>AB>c A/A/A {cB}A2||\r\n|:{g/}(a>b)a<e {g/}a>ba<e|!trill!f>ef>a b/b/b b2|1 {g/}a>ba<e f<ac<a|\r\n!trill!B>AB<c A/A/A {cB}A2:|2 {f/}a>ef<a e>fc<e|!trill!B>AB>c A/A/A {cB}A2||",
+      "before_sha256": "e1250d78cb51f104549133f7eb7536e8d4cce2f46c04341e68400f8c4f31b5ee",
+      "after_sha256": "d14d75ba7e58c7682aa1b1d7e9d40ac39159be33962f345f2e6515eb85a56d64",
+      "evidence": [
+        {
+          "rule": "decoration_alias",
+          "start": 37,
+          "end": 41,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "40568",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 83,
+          "end": 87,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "40568",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 96,
+          "end": 100,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "40568",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 168,
+          "end": 172,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "40568",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 210,
+          "end": 214,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "40568",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_alias",
+          "start": 255,
+          "end": 259,
+          "before": "!tr!",
+          "after": "!trill!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 ornament symbols and standard decoration spellings",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "40568",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 40,
+          "end": 40,
+          "text": "ill"
+        },
+        {
+          "start": 86,
+          "end": 86,
+          "text": "ill"
+        },
+        {
+          "start": 99,
+          "end": 99,
+          "text": "ill"
+        },
+        {
+          "start": 171,
+          "end": 171,
+          "text": "ill"
+        },
+        {
+          "start": 213,
+          "end": 213,
+          "text": "ill"
+        },
+        {
+          "start": 258,
+          "end": 258,
+          "text": "ill"
+        }
+      ]
+    },
+    {
       "setting_id": "55520",
       "tune_id": "26012",
       "name": "Minor Complications",
@@ -683,5 +1368,5 @@
       ]
     }
   ],
-  "ornament_scanner_sha256": "1510d595152950fdd185f78bdcb4b5046fd6805dc41ab01f880e76ac7a04289b"
+  "ornament_scanner_sha256": "f231ed019912548d83ece46a2cfec6e87def81fbc15dd633a9a43dcecf63f286"
 }

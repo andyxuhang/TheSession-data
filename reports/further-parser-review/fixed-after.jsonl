@@ -1,0 +1,4 @@
+{"setting_id":"27608","tune_id":"1693","models":1,"notes":90,"diagnostics":[]}
+{"setting_id":"52550","tune_id":"3880","models":1,"notes":153,"diagnostics":[{"severity":"error","message":"' ' is not a note","line":317}]}
+{"setting_id":"40567","tune_id":"20486","models":1,"notes":132,"diagnostics":[]}
+{"setting_id":"40568","tune_id":"20486","models":1,"notes":97,"diagnostics":[]}

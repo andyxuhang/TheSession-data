@@ -1,0 +1,20 @@
+{
+  "settings_checked": 23149,
+  "settings_with_diagnostics": 1794,
+  "base_commit": "fb32174bf7ace5aa8fe74fe8a36bf5026ffab378",
+  "parser": {
+    "checked": 23149,
+    "version": "1.22.1",
+    "date": "2022-09-13",
+    "sha256": "f2be35c13279fef44cf199fa79e16b5f3a6160a8b48b14163cb8d2af74bef5c6"
+  },
+  "new_fixed_settings": 4,
+  "new_fixed_tunes": 3,
+  "new_fixed_symbols": {
+    "decoration_case": 1,
+    "decoration_alias": 22
+  },
+  "abc2svg_messages_before": 24,
+  "abc2svg_messages_after": 1,
+  "cached_prior_parser_evidence": "Source hashes checked against reports/reassessment/input.json"
+}

@@ -1,0 +1,30 @@
+{
+  "verified_empty_tunes": [
+    {
+      "tune_id": "6692",
+      "name": "Traver's",
+      "type": "reel",
+      "settings_count": 0,
+      "url": "https://thesession.org/tunes/6692",
+      "api_url": "https://thesession.org/tunes/6692?format=json",
+      "http_status": 200,
+      "checked_date": "2026-11-28",
+      "response_sha256": "fb723537081053336e9e7db7b891b5a1020a3fa0eca37f28459a010825cfc3a8"
+    }
+  ],
+  "verified_set_examples": [
+    {
+      "tuneset": "353",
+      "url": "https://thesession.org/members/81825/sets/353",
+      "setting_ids": [
+        "284",
+        "322",
+        "3434",
+        "970",
+        "2050"
+      ],
+      "checked_date": "2026-11-28",
+      "response_sha256": "4743c43aae0262bf2441362152f73c9b575b6bfb19967e239e35cf1805b520bb"
+    }
+  ]
+}

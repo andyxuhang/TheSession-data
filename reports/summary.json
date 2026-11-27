@@ -2,8 +2,8 @@
   "settings_checked": 55821,
   "exported_tune_rows": 55838,
   "tunes_checked": 23199,
-  "fixed_settings": 651,
-  "fixed_tunes": 559,
+  "fixed_settings": 655,
+  "fixed_tunes": 562,
   "fixed_edits_by_type": {
     "misplaced_barline": 64,
     "missing_barline": 332,
@@ -17,7 +17,8 @@
     "orphan_symbol": 10,
     "extra_note": 2,
     "roll_glyph": 18,
-    "decoration_case": 3,
+    "decoration_case": 4,
+    "decoration_alias": 22,
     "split_note_token": 2,
     "slur_delimiter": 2,
     "redundant_barline": 2,
@@ -27,8 +28,8 @@
     "unicode_spacing": 104
   },
   "categories": {
-    "fixed": 651,
-    "review": 3459,
+    "fixed": 655,
+    "review": 3458,
     "boundaries": 19761,
     "unsupported": 4447,
     "playback": 2045,

@@ -16,6 +16,17 @@ python3 tools/fix_notation.py --tradmate-repo /path/to/TradMate --dart /path/to/
 
 The command checks repeated phrases, compares playback events, rescans until no further supported changes remain, updates all exports and rebuilds the issue lists. It does not push Git changes. Omitting `--apply` writes proposals and checks to `reports/` without changing the data. See [the tool notes](tools/README.md) for details and requirements.
 
+## Database and export checks
+
+The [full integrity report](reports/database-integrity/README.md) compares every table with its CSV and JSON exports and checks references, setting identities, set copies and map locations. SQLite now includes unique `tune_ids` and `setting_ids` parent tables, with corresponding exports. Original source-table metadata and row IDs are retained. Recording entries can retain empty optional tune references. See the report for the schema repair and unresolved set-position observations.
+
+```bash
+python3 tools/database_relations.py
+python3 tools/audit_database.py
+```
+
+The [further parser review](reports/further-parser-review/README.md) adds an independent abc2svg check of the remaining notation findings.
+
 ## Upstream project information
 
 CSV and JSON files of data from [The Session](https://thesession.org/):

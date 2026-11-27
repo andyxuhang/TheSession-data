@@ -10,6 +10,7 @@ import sqlite3
 import subprocess
 
 from scan import ROOT
+from database_relations import verify_relations
 
 BASE = '9106aa8e29b72c3affd954f48b259ea02a1fb418'
 
@@ -44,12 +45,23 @@ def main():
     changed_ids=set()
     with open_db(source) as a,open_db(ROOT/'thesession.db') as b:
         schema='SELECT type,name,tbl_name,sql FROM sqlite_master ORDER BY type,name'
-        assert list(map(tuple,a.execute(schema)))==list(map(tuple,b.execute(schema))), 'Schema changed'
+        before_schema=[list(row) for row in a.execute(schema)]
+        after_schema=[list(row) for row in b.execute(schema)]
+        relation_path=ROOT/'checks/database-relations.json'
+        if relation_path.exists():
+            relations=json.loads(relation_path.read_text())
+            assert before_schema==relations['before_schema'], 'Unexpected upstream schema'
+            assert after_schema==relations['after_schema'], 'Unrecorded schema change'
+            report['schema_changes_verified']=True
+            report['derived_id_tables']=verify_relations(b)
+        else:
+            assert before_schema==after_schema, 'Schema changed'
         for (table,) in a.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name"):
             changed=0;count=0
-            for ra,rb in itertools.zip_longest(a.execute('SELECT * FROM '+table+' ORDER BY rowid'),
-                                             b.execute('SELECT * FROM '+table+' ORDER BY rowid')):
+            for ra,rb in itertools.zip_longest(a.execute('SELECT rowid AS _rowid_,* FROM '+table+' ORDER BY rowid'),
+                                             b.execute('SELECT rowid AS _rowid_,* FROM '+table+' ORDER BY rowid')):
                 assert ra is not None and rb is not None, 'Row count changed'
+                assert ra['_rowid_']==rb['_rowid_'], 'Source row ID changed'
                 count+=1
                 if tuple(ra)!=tuple(rb):
                     assert table in ('tunes','sets'), 'Unrelated table changed'
@@ -58,9 +70,10 @@ def main():
                     assert {k:ra[k] for k in ra.keys() if k!='abc'}=={k:rb[k] for k in rb.keys() if k!='abc'}, 'Metadata changed'
                     changed+=1
                     if table=='tunes':changed_ids.add(ra['setting_id'])
-            report['tables'][table]={'rows':count,'changed_records':changed,'non_abc_fields_unchanged':True}
+            report['tables'][table]={'rows':count,'changed_records':changed,
+                                    'non_abc_fields_unchanged':True,'rowids_unchanged':True}
     assert changed_ids==set(patches), 'Correction plan and changed records differ'
-    report['schema_unchanged']=True
+    report['schema_unchanged']=before_schema==after_schema
     license_sha=subprocess.check_output(['git','hash-object','LICENSE.md'],cwd=ROOT,text=True).strip()
     assert license_sha==subprocess.check_output(['git','rev-parse',BASE+':LICENSE.md'],cwd=ROOT,text=True).strip()
     report['upstream_license_blob_sha1']=license_sha

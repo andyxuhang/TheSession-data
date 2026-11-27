@@ -1,0 +1,125 @@
+{
+  "settings": 4,
+  "results": [
+    {
+      "setting_id": "27608",
+      "before": {
+        "abc2midi": [
+          "Warning in line-char 9-42 : instruction !Dacapo! ignored"
+        ],
+        "abc2abc": [
+          "Error : Bar 8 is 5/8 not 6/8",
+          "Error : Bar 9 is 1/8 not 6/8"
+        ],
+        "abcjs": [
+          "Music Line:9:43: Unknown decoration: Dacapo:  GBd gfe|dec BcA|BGE GAB|1 c3B3:|2 dBc edc <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">!</span>Dacapo!||"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Warning in line-char 9-42 : instruction !dacapo! ignored"
+        ],
+        "abc2abc": [
+          "Error : Bar 8 is 5/8 not 6/8",
+          "Error : Bar 9 is 1/8 not 6/8"
+        ],
+        "abcjs": [
+          "Music Line:9:43: Unknown decoration: dacapo:  GBd gfe|dec BcA|BGE GAB|1 c3B3:|2 dBc edc <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">!</span>dacapo!||"
+        ]
+      }
+    },
+    {
+      "setting_id": "52550",
+      "before": {
+        "abc2midi": [
+          "Warning in line-char 7-2 : instruction !tr! ignored",
+          "Warning in line-char 7-12 : instruction !tr! ignored",
+          "Warning in line-char 8-0 : instruction !tr! ignored",
+          "Warning in line-char 8-10 : instruction !tr! ignored",
+          "Warning in line-char 8-32 : instruction !tr! ignored",
+          "Warning in line-char 9-0 : instruction !tr! ignored",
+          "Warning in line-char 9-21 : instruction !tr! ignored",
+          "Error in line-char 9-60 : Malformed note : expecting a-g or A-G",
+          "Warning in line-char 9-62 : instruction !tr! ignored",
+          "Warning in line-char 9-71 : Track 0 Bar 16 has 7/2 time units while the time signature has 4 in repeat",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 1/8 not 4/4",
+          "Error : Malformed note : expecting a-g or A-G",
+          "Error : Bar 18 is 7/8 not 4/4",
+          "Error : Bar 22 is 7/8 not 4/4"
+        ],
+        "abcjs": [
+          "Music Line:9:61: Unknown character ignored:  !tr!c&gt;de^f g&gt;age | ga!tr!ge d/c/B/A/ GB | c&gt;de^f gage | abag<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">^</span> !tr!a AB |"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Error in line-char 9-66 : Malformed note : expecting a-g or A-G",
+          "Warning in line-char 9-80 : Track 0 Bar 16 has 7/2 time units while the time signature has 4 in repeat",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 1/8 not 4/4",
+          "Error : Malformed note : expecting a-g or A-G",
+          "Error : Bar 18 is 7/8 not 4/4",
+          "Error : Bar 22 is 7/8 not 4/4"
+        ],
+        "abcjs": [
+          "Music Line:9:67: Unknown character ignored:  rill!c&gt;de^f g&gt;age | ga!trill!ge d/c/B/A/ GB | c&gt;de^f gage | abag<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">^</span> !trill!a AB |"
+        ]
+      }
+    },
+    {
+      "setting_id": "40567",
+      "before": {
+        "abc2midi": [
+          "Warning in line-char 6-15 : instruction !tr! ignored",
+          "Warning in line-char 7-22 : instruction !tr! ignored",
+          "Warning in line-char 7-46 : instruction !tr! ignored",
+          "Warning in line-char 7-59 : instruction !tr! ignored",
+          "Warning in line-char 8-18 : instruction !tr! ignored",
+          "Warning in line-char 8-52 : instruction !tr! ignored",
+          "Warning in line-char 9-16 : instruction !tr! ignored",
+          "Warning in line-char 9-50 : instruction !tr! ignored"
+        ],
+        "abc2abc": [
+          "Error : Bar 8 is 7/8 not 4/4",
+          "Error : Bar 9 is 1/8 not 4/4",
+          "Error : Bar 17 is 7/8 not 4/4"
+        ],
+        "abcjs": []
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Error : Bar 8 is 7/8 not 4/4",
+          "Error : Bar 9 is 1/8 not 4/4",
+          "Error : Bar 17 is 7/8 not 4/4"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "40568",
+      "before": {
+        "abc2midi": [
+          "Warning in line-char 6-37 : instruction !tr! ignored",
+          "Warning in line-char 7-16 : instruction !tr! ignored",
+          "Warning in line-char 7-29 : instruction !tr! ignored",
+          "Warning in line-char 8-26 : instruction !tr! ignored",
+          "Warning in line-char 9-0 : instruction !tr! ignored",
+          "Warning in line-char 9-45 : instruction !tr! ignored"
+        ],
+        "abc2abc": [],
+        "abcjs": []
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    }
+  ]
+}

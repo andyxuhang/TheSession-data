@@ -4,8 +4,8 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 
 | Status | Settings | Details |
 |---|---:|---|
-| Corrected | 651 | [fixed.csv](fixed.csv) |
-| Needs review | 3459 | [review.csv](review.csv) |
+| Corrected | 655 | [fixed.csv](fixed.csv) |
+| Needs review | 3458 | [review.csv](review.csv) |
 | Pickups, endings and repeats | 19761 | [boundaries.csv](boundaries.csv) |
 | Unsupported syntax or empty melody | 4447 | [unsupported.csv](unsupported.csv) |
 | Playback or parser compatibility | 2045 | [playback.csv](playback.csv) |
@@ -25,13 +25,14 @@ Parser-reviewed entries record their evidence in [reassessment](reassessment/REA
 | Misplaced barline | 64 |
 | Incorrect accidental | 33 |
 | Incorrect octave | 26 |
+| Abbreviated decoration name outside standard spelling | 22 |
 | Stray control character | 19 |
 | Non-ABC wave dash used for an Irish roll | 18 |
 | Omitted note | 15 |
 | Stray notation symbol | 10 |
 | Line break inside a numeric annotation | 5 |
+| Incorrect capitalization of a decoration name | 4 |
 | Incorrect melody note | 3 |
-| Incorrect capitalization of a decoration name | 3 |
 | Incorrect broken-rhythm or tuplet mark | 2 |
 | Surplus note | 2 |
 | Split note token | 2 |

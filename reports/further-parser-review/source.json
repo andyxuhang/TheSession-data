@@ -1,0 +1,11 @@
+{
+  "base_commit": "fb32174bf7ace5aa8fe74fe8a36bf5026ffab378",
+  "abc2svg": {
+    "checked": 23149,
+    "version": "1.22.1",
+    "date": "2022-09-13",
+    "sha256": "f2be35c13279fef44cf199fa79e16b5f3a6160a8b48b14163cb8d2af74bef5c6"
+  },
+  "package": "abc2svg@1.22.1",
+  "package_deprecated": true
+}

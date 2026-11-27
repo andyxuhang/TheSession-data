@@ -185,6 +185,9 @@ def patch_sqlite(source, target, patches):
             changes[table] = changed
         if db.execute("PRAGMA quick_check").fetchone()[0] != "ok":
             raise ValueError("SQLite quick_check failed")
+        if (ROOT/'checks/database-relations.json').exists():
+            from database_relations import verify_relations
+            verify_relations(db)
     return changes
 
 
@@ -204,6 +207,9 @@ def verify(paths, patches):
         db.row_factory = sqlite3.Row
         if db.execute("PRAGMA quick_check").fetchone()[0] != "ok":
             raise ValueError("SQLite quick_check failed")
+        if (ROOT/'checks/database-relations.json').exists():
+            from database_relations import verify_relations
+            results['relations'] = verify_relations(db)
         for table in ("tunes", "sets"):
             with paths["csv/" + table + ".csv"].open(newline="") as stream:
                 csv_digest = record_digest(csv.DictReader(stream))

@@ -1,5 +1,13 @@
 # Changes
 
+## Standard ornament names and database references
+
+Corrected 22 abbreviated trill decorations and one capitalized full-word Da Capo decoration in four settings of three tunes, including six matching set entries. TradMate and abcjs preserved full playback. The additional abc2svg core check covered all 23,149 remaining settings; its diagnostics in the four corrected settings decreased from 24 to one. The remaining message is retained for review. See the [parser report](reports/further-parser-review/README.md) for versions, limits and fresh checks. There are now 655 corrected settings across 562 tunes.
+
+Repaired SQLite foreign keys that previously pointed at non-unique columns. Added unique tune and setting identity tables and their exports, including the officially verified tune 6692 with no settings. Optional blank recording references retain their original values and nonempty references are guarded. The schema rebuild preserved every source-table field and row ID. Restored two venue-name quotes in the GeoJSON map.
+
+The full [database integrity audit](reports/database-integrity/README.md) finds matching SQLite, CSV and JSON data across all nine tables, no missing or mismatched references, and matching set copies and map locations. The report lists 1,664 shared set-position values and a position gap in set 63950 for review. No unsupported reordering or deletion was applied.
+
 ## Independent review of pending settings
 
 Rechecked all 29,641 settings in the pending reports with TradMate, abcjs, abc2midi and abc2abc. Confirmed valid source notation in 6,601 settings. A total of 6,492 settings leave every pending category, with 109 retaining playback compatibility observations.

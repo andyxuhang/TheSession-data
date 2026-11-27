@@ -1,0 +1,19 @@
+{
+  "changed": false,
+  "verification": {
+    "tune_ids": 23200,
+    "setting_ids": 55821,
+    "foreign_key_violations": 0,
+    "unresolved_recording_references": 0
+  },
+  "files_byte_identical": true,
+  "sha256": {
+    "thesession.db": "acb5ac06f68efa160dcc6d7161384be2d9d16f01cb8c4a0c19678890703c8ff9",
+    "checks/database-relations.json": "e7e752884913223b1681b5aaab8aa65db3a51e23a8a61e370b9254ebf177a3a3",
+    "json/sessions.geojson": "06eb556a91c015e5b5328249230fff30a0e66dd9baf7307ec606d46e12998f45",
+    "csv/tune_ids.csv": "5e761ee3dd1bffb03f2b139626e0dd04d86b994a0224664bc6184baf9c9c39ae",
+    "csv/setting_ids.csv": "c86742d63cbe612a9e7a9537a54a0898547055033893378ad45fe35052abe8a1",
+    "json/tune_ids.json": "2ae517550f84128d2dc2f16cf57e99a998a6aeddaf698199aa7fe95d4cc868fb",
+    "json/setting_ids.json": "f42fb441a3480c79e9a616025cc04333cc102dba6fe0863632842edb45e4b141"
+  }
+}

@@ -10,13 +10,19 @@
     }
   },
   "verified": {
+    "relations": {
+      "tune_ids": 23200,
+      "setting_ids": 55821,
+      "foreign_key_violations": 0,
+      "unresolved_recording_references": 0
+    },
     "tunes": {
       "rows": 55838,
-      "semantic_sha256": "3bf3d2911eff71376e9b43a3fe4a7d49adf58e623a80c39172d626dd2721851a"
+      "semantic_sha256": "17bda1d01b049bc564a0d06e0c439f70998e48f5ce56162ca0563d50993a78c4"
     },
     "sets": {
       "rows": 337510,
-      "semantic_sha256": "9f1a85700f8fb7dc0d926a778074ea721603ded252990f72eb3397b715899047"
+      "semantic_sha256": "aef7364fd431bbd8f3d5cbbcae111b5de493963d77f180d6a3af2a49be7df1ad"
     }
   }
 }
