@@ -1,5 +1,5 @@
 {
-  "settings": 20,
+  "settings": 21,
   "results": [
     {
       "setting_id": "52652",
@@ -507,6 +507,86 @@
           "Error : Bad pitch specifier , after note g"
         ],
         "abcjs": []
+      }
+    },
+    {
+      "setting_id": "30786",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-8 : Unrecognized chord name \"o\"",
+          "Error in line-char 8-0 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 11-0 : Guitar chord name not properly closed",
+          "Error in line-char 12-4 : Guitar chord does not start with A-G or a-g",
+          "Warning in line-char 12-27 : Ignoring reserved character m",
+          "Warning in line-char 12-50 : Ignoring reserved character m",
+          "Error in line-char 12-51 : Guitar chord does not start with A-G or a-g",
+          "Warning in line-char 12-73 : Ignoring reserved character m",
+          "Error in line-char 12-74 : Guitar chord name not properly closed",
+          "Error in line-char 17-0 : Guitar chord name not properly closed",
+          "Warning in line-char 18-3 : Ignoring reserved character m",
+          "Error in line-char 18-4 : Unrecognized chord name \"-A\"",
+          "Error in line-char 18-43 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 18-65 : Guitar chord name not properly closed",
+          "Error in line-char 21-25 : Unrecognized character: 2",
+          "Error in line-char 7-43 : Bad tie: possibly two ties in a row",
+          "Error in line-char 8-43 : Cannot find note before tie",
+          "Error in line-char 22-43 : Missing :| at end of tune",
+          "Warning in line-char 8-68 : Track 1 Bar 10 has 9/4 time units while the time signature has 2",
+          "Warning in line-char 8-68 : Track 1 Bar 10 has 9/4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 13-25 : Track 1 Bar 19 has 7 time units while the time signature has 2",
+          "Warning in line-char 13-25 : Track 1 Bar 19 has 7 time units while the time signature has 2 in repeat",
+          "Warning in line-char 19-16 : Track 1 Bar 34 has 10 time units while the time signature has 2",
+          "Error in line-char 22-43 : Missing :| at end of tune",
+          "Error in line-char 22-43 : Missing :| at end of tune",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bar 11 is 9/16 not 2/4",
+          "Error : Guitar chord name not properly closed",
+          "Error : Guitar chord name not properly closed",
+          "Error : Bar 20 is 7/4 not 2/4",
+          "Error : Guitar chord name not properly closed",
+          "Error : Guitar chord name not properly closed",
+          "Error : Bar 36 is 5/2 not 2/4",
+          "Error : Unrecognized character: 2"
+        ],
+        "abcjs": [
+          "Music Line:11:1: Missing the closing quote while parsing the chord symbol:  <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\"</span>2",
+          "Music Line:12:28: Unknown character ignored:  \"\"E7\"z/=d/d/d/ d/d/d/d/-|\"A<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">m</span>\"d/c/A/E/-E/ E/A/c/|\"Am\"z/c/c/c/ c/d/c/c/-|\"Em\"c/B/G/E/-E/ E/G/B",
+          "Music Line:12:51: Unknown character ignored:  \"\"E7\"z/=d/d/d/ d/d/d/d/-|\"Am\"d/c/A/E/-E/ E/A/c/|\"A<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">m</span>\"z/c/c/c/ c/d/c/c/-|\"Em\"c/B/G/E/-E/ E/G/B/|",
+          "Music Line:12:74: Unknown character ignored:  /d/d/ d/d/d/d/-|\"Am\"d/c/A/E/-E/ E/A/c/|\"Am\"z/c/c/c/ c/d/c/c/-|\"E<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">m</span>\"c/B/G/E/-E/ E/G/B/|",
+          "Music Line:12:75: Missing the closing quote while parsing the chord symbol:  d/d/ d/d/d/d/-|\"Am\"d/c/A/E/-E/ E/A/c/|\"Am\"z/c/c/c/ c/d/c/c/-|\"Em<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\"</span>c/B/G/E/-E/ E/G/B/|",
+          "Music Line:12:81: Unknown character ignored:  /d/d/d/-|\"Am\"d/c/A/E/-E/ E/A/c/|\"Am\"z/c/c/c/ c/d/c/c/-|\"Em\"c/B/G<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">/</span>E/-E/ E/G/B/|",
+          "Music Line:17:1: Missing the closing quote while parsing the chord symbol:  <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\"</span>4",
+          "Music Line:18:4: Unknown character ignored:  \"\"D<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">m</span>\"A-A/B/ c/B/c/A/|\"G7\"c/B ^E/A-A/^G/|\"G7\"=G-G/A/ B/=c/d/^d/|\"C\"e/",
+          "Music Line:18:66: Missing the closing quote while parsing the chord symbol:  \"Dm\"A-A/B/ c/B/c/A/|\"G7\"c/B ^E/A-A/^G/|\"G7\"=G-G/A/ B/=c/d/^d/|\"C<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\"</span>e/c A/G/ E/G/c/|",
+          "Music Line:18:72: Unknown character ignored:  A/B/ c/B/c/A/|\"G7\"c/B ^E/A-A/^G/|\"G7\"=G-G/A/ B/=c/d/^d/|\"C\"e/c A<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">/</span>G/ E/G/c/|",
+          "Music Line:21:23: Unknown bar symbol:  [1\"C\"c/A/G/e/ c/E/G/c/<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">:</span>]|2 \"C\"c/d/e/g/c'2]||",
+          "Music Line:21:23: Unknown bar type:  [1\"C\"c/A/G/e/ c/E/G/c/<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">:</span>]|2 \"C\"c/d/e/g/c'2]||"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Error in line-char 6-8 : Unrecognized chord name \"o\"",
+          "Error in line-char 8-0 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 19-25 : Unrecognized character: 2",
+          "Error in line-char 7-43 : Bad tie: possibly two ties in a row",
+          "Error in line-char 8-43 : Cannot find note before tie",
+          "Error in line-char 20-43 : Missing :| at end of tune",
+          "Warning in line-char 8-68 : Track 1 Bar 10 has 9/4 time units while the time signature has 2",
+          "Warning in line-char 8-68 : Track 1 Bar 10 has 9/4 time units while the time signature has 2 in repeat",
+          "Error in line-char 20-43 : Missing :| at end of tune",
+          "Error in line-char 20-43 : Missing :| at end of tune",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bar 11 is 9/16 not 2/4",
+          "Error : Unrecognized character: 2"
+        ],
+        "abcjs": [
+          "Music Line:19:23: Unknown bar symbol:  [1\"C\"c/A/G/e/ c/E/G/c/<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">:</span>]|2 \"C\"c/d/e/g/c'2]||",
+          "Music Line:19:23: Unknown bar type:  [1\"C\"c/A/G/e/ c/E/G/c/<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">:</span>]|2 \"C\"c/d/e/g/c'2]||"
+        ]
       }
     },
     {

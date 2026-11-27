@@ -4,13 +4,13 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 
 | Status | Settings | Details |
 |---|---:|---|
-| Corrected | 649 | [fixed.csv](fixed.csv) |
-| Needs review | 3749 | [review.csv](review.csv) |
+| Corrected | 651 | [fixed.csv](fixed.csv) |
+| Needs review | 3748 | [review.csv](review.csv) |
 | Pickups, endings and repeats | 24404 | [boundaries.csv](boundaries.csv) |
 | Unsupported syntax or empty melody | 6492 | [unsupported.csv](unsupported.csv) |
-| Playback or parser compatibility | 3461 | [playback.csv](playback.csv) |
+| Playback or parser compatibility | 3460 | [playback.csv](playback.csv) |
 
-85 corrected settings still have other findings. Settings can appear in multiple categories. Each CSV gives the source link and current ABC. The corrected list also gives the ABC before the changes.
+86 corrected settings still have other findings. Settings can appear in multiple categories. Each CSV gives the source link and current ABC. The corrected list also gives the ABC before the changes.
 
 ## Corrections by type
 
@@ -18,7 +18,7 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 |---|---:|
 | Missing barline | 332 |
 | Incorrect note length | 174 |
-| Invisible layout character in melody | 92 |
+| Invisible layout character in melody | 104 |
 | Extra closing parenthesis after tuplet number | 66 |
 | Misplaced barline | 64 |
 | Incorrect accidental | 33 |
@@ -27,9 +27,9 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 | Non-ABC wave dash used for an Irish roll | 18 |
 | Omitted note | 15 |
 | Stray notation symbol | 10 |
+| Line break inside a numeric annotation | 5 |
 | Incorrect melody note | 3 |
 | Incorrect capitalization of a decoration name | 3 |
-| Line break inside a numeric annotation | 3 |
 | Incorrect broken-rhythm or tuplet mark | 2 |
 | Surplus note | 2 |
 | Split note token | 2 |
@@ -46,7 +46,7 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 - Playback checks compare the original and corrected events with automatic repair disabled. Unexpected changes to pitch, duration, rests or ties block a correction.
 - After each round the scanner checks for further corrections. CSV, JSON and SQLite are compared record by record.
 
-Playback checks left candidates in 5 settings for review. See [rejected.json](../checks/rejected.json) for the recorded reasons.
+Playback checks left candidates in 4 settings for review. See [rejected.json](../checks/rejected.json) for the recorded reasons.
 
 ## Examples for review
 

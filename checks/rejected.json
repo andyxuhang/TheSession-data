@@ -2,24 +2,33 @@
   {
     "setting_id": "57220",
     "passed": false,
-    "event_count": 181,
-    "pitch_and_tie_sequence_unchanged": true,
-    "all_event_timings_unchanged": true,
-    "changed_note_durations": 0,
-    "before_duration_quarter": 139.0,
-    "after_duration_quarter": 139.0,
-    "approved_written_changes": [],
-    "played_occurrences": [],
-    "parser_normalized_or_unplayed_change": false,
-    "duration_delta_quarter": 0.0,
-    "abcjs": {
-      "setting_id": "57220",
-      "passed": false,
-      "reason": "Note timing changed",
-      "version": "abcjs-basic v6.5.2",
-      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
-    },
-    "reason": "abcjs: Note timing changed",
+    "reason": "Individual Unicode layout check",
+    "source_edits": [
+      {
+        "edit": {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 244,
+          "end": 245,
+          "text": "",
+          "codepoint": "U+200E"
+        },
+        "reason": "abcjs: Note timing changed"
+      },
+      {
+        "edit": {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 262,
+          "end": 263,
+          "text": "",
+          "codepoint": "U+200E"
+        },
+        "reason": "abcjs: Note timing changed"
+      }
+    ],
     "proposal": {
       "setting_id": "57220",
       "tune_id": "103",
@@ -27,17 +36,17 @@
       "original_contributor": "Jammin’Cellist",
       "source_url": "https://thesession.org/tunes/103#setting57220",
       "category": "unicode_spacing",
-      "before_abc": "GA|:B2(Bc) BA GE|D2 ‎[D2.B,2.‎[D2.B,2.‎] D2|E2‎[E2.C2.‎[E2.C2.‎]E2|E2[D2.B,2.‎[D2.B,2.‎](GA)|\r\nB2(Bc) BA GE|D2 ‎[D2.B,2.‎[D2.B,2.‎] D2|E2EGF2FA|G2[G2B2‎]G2(GA):|\r\n|:B2G2B2G2|d2c2c2(cB) | AG FE DE Fd|e2d2d2(dc)|\r\nB2G2B2G2|d2c2c2(cB) | AG FE (DE)F2|1 G2[G2B2‎G2(GA):|2 G2[G2B2‎G2z2|",
+      "before_abc": "GA|:B2(Bc) BA GE|D2 [D2.B,2.[D2.B,2.] D2|E2[E2.C2.[E2.C2.]E2|E2[D2.B,2.[D2.B,2.](GA)|\r\nB2(Bc) BA GE|D2 [D2.B,2.[D2.B,2.] D2|E2EGF2FA|G2[G2B2]G2(GA):|\r\n|:B2G2B2G2|d2c2c2(cB) | AG FE DE Fd|e2d2d2(dc)|\r\nB2G2B2G2|d2c2c2(cB) | AG FE (DE)F2|1 G2[G2B2‎G2(GA):|2 G2[G2B2‎G2z2|",
       "after_abc": "GA|:B2(Bc) BA GE|D2 [D2.B,2.[D2.B,2.] D2|E2[E2.C2.[E2.C2.]E2|E2[D2.B,2.[D2.B,2.](GA)|\r\nB2(Bc) BA GE|D2 [D2.B,2.[D2.B,2.] D2|E2EGF2FA|G2[G2B2]G2(GA):|\r\n|:B2G2B2G2|d2c2c2(cB) | AG FE DE Fd|e2d2d2(dc)|\r\nB2G2B2G2|d2c2c2(cB) | AG FE (DE)F2|1 G2[G2B2G2(GA):|2 G2[G2B2G2z2|",
-      "before_sha256": "6cdb6680f127a109c869aabcd7f6e8a072b00fb0a4484fd8064acba8acb778a5",
+      "before_sha256": "7ee4458ccce0fc65d14335d53469ea94de95ab85d9a2ed6e778e5754593d15d0",
       "after_sha256": "9c803bb99968481f6a16a1e083609ddeb58639510316f09248f244749e451205",
       "evidence": [
         {
           "rule": "unicode_spacing",
           "preserve_playback": true,
           "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
-          "start": 20,
-          "end": 21,
+          "start": 244,
+          "end": 245,
           "text": "",
           "codepoint": "U+200E"
         },
@@ -45,170 +54,10 @@
           "rule": "unicode_spacing",
           "preserve_playback": true,
           "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
-          "start": 29,
-          "end": 30,
+          "start": 262,
+          "end": 263,
           "text": "",
           "codepoint": "U+200E"
-        },
-        {
-          "rule": "unicode_spacing",
-          "preserve_playback": true,
-          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
-          "start": 38,
-          "end": 39,
-          "text": "",
-          "codepoint": "U+200E"
-        },
-        {
-          "rule": "unicode_spacing",
-          "preserve_playback": true,
-          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
-          "start": 46,
-          "end": 47,
-          "text": "",
-          "codepoint": "U+200E"
-        },
-        {
-          "rule": "unicode_spacing",
-          "preserve_playback": true,
-          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
-          "start": 54,
-          "end": 55,
-          "text": "",
-          "codepoint": "U+200E"
-        },
-        {
-          "rule": "unicode_spacing",
-          "preserve_playback": true,
-          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
-          "start": 62,
-          "end": 63,
-          "text": "",
-          "codepoint": "U+200E"
-        },
-        {
-          "rule": "unicode_spacing",
-          "preserve_playback": true,
-          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
-          "start": 77,
-          "end": 78,
-          "text": "",
-          "codepoint": "U+200E"
-        },
-        {
-          "rule": "unicode_spacing",
-          "preserve_playback": true,
-          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
-          "start": 86,
-          "end": 87,
-          "text": "",
-          "codepoint": "U+200E"
-        },
-        {
-          "rule": "unicode_spacing",
-          "preserve_playback": true,
-          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
-          "start": 111,
-          "end": 112,
-          "text": "",
-          "codepoint": "U+200E"
-        },
-        {
-          "rule": "unicode_spacing",
-          "preserve_playback": true,
-          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
-          "start": 120,
-          "end": 121,
-          "text": "",
-          "codepoint": "U+200E"
-        },
-        {
-          "rule": "unicode_spacing",
-          "preserve_playback": true,
-          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
-          "start": 129,
-          "end": 130,
-          "text": "",
-          "codepoint": "U+200E"
-        },
-        {
-          "rule": "unicode_spacing",
-          "preserve_playback": true,
-          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
-          "start": 151,
-          "end": 152,
-          "text": "",
-          "codepoint": "U+200E"
-        },
-        {
-          "rule": "unicode_spacing",
-          "preserve_playback": true,
-          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
-          "start": 256,
-          "end": 257,
-          "text": "",
-          "codepoint": "U+200E"
-        },
-        {
-          "rule": "unicode_spacing",
-          "preserve_playback": true,
-          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
-          "start": 274,
-          "end": 275,
-          "text": "",
-          "codepoint": "U+200E"
-        }
-      ]
-    }
-  },
-  {
-    "setting_id": "30786",
-    "passed": false,
-    "reason": "Bad state: 30786 event count",
-    "abcjs": {
-      "setting_id": "30786",
-      "passed": true,
-      "changed_played_pitches": 0,
-      "before_warnings": 2,
-      "after_warnings": 2,
-      "reference": "Original melody with only the malformed numeric labels removed",
-      "generated_chords_excluded": true,
-      "reference_note_events": 432,
-      "corrected_note_events": 432,
-      "version": "abcjs-basic v6.5.2",
-      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
-    },
-    "proposal": {
-      "setting_id": "30786",
-      "tune_id": "16267",
-      "name": "Vou Vivendo",
-      "original_contributor": "alangraham",
-      "source_url": "https://thesession.org/tunes/16267#setting30786",
-      "category": "annotation_linebreak",
-      "before_abc": "|:\"G\"B2-\"G#o\"B/dc/|\"D7\"B/A^G/ Ad|\"Em\"G2-G/BA/|\r\n\"4\"\"Am\"G/F^E/ \"B7\"FB|\"C\"E2-E/\"Cm\"GE/|\"G\"D/EF/ \"Em\"G2-|\"A7\"G/ E/F/G/ B/A/E/G/-|\r\n\"8\"\"D7\"-G/F A/ E/D _B/-|\"Gm\"B2-B/ dc/|\"D7\"_B/A^G/Ad|\"C\"G2-G \"C7\"_BA/|\r\n\"12\"\"F7\"G/=FE/ \"Bb7\"F_B|\"Cm\"_E2-E/GE/|\"G\"D/=EF/ \"Em\"G/A/B/ d/-|\"Am\"d/cE/ \"D7\"B/A/D/G/-|\r\n[1\"16\"\"G\"G/Bd/g-g/B/:|2 \"G\"G/Bd/ g2|:\"Em\"z/e/e/e/ e/e/e/^d/-|\"B7\"d/^d/B/A/ F/A/B/d/|\r\n\"2\r\n\"\"E7\"z/=d/d/d/ d/d/d/d/-|\"Am\"d/c/A/E/-E/ E/A/c/|\"Am\"z/c/c/c/ c/d/c/c/-|\"Em\"c/B/G/E/-E/ E/G/B/|\r\n\"24\"\"F#7\"z/^A^c/ e/g/f/e/|\"B7\"^d/af/ d/c/B/A/|\"Em\"G/g/g/g/ g/g/g/g/-|\"B7\"g/f/^d/B/ A/B/d/f/|\r\n\"28\"\"E7\"z/=f/f/f/ f/f/f/f/-|\"Am\"f/e/c/A/ E/A/c/e/|\"Am\"z/AB/ c/B/c/d/|\"Em\"c/Bg/-g/e/B/G/|\r\n\"32\"\"F#7\"F/G/A/B/ \"B7\"c/BE/-|1 \"Em\"E/F/G/B/ e2:|2 \"Em\"E/F/G/B/ \"G\"e2||\r\n[K:C]|:\"36\"\"C\"e2-e/ Ge/|\"E7\"e2-e/ Ae/|\"A7\"e2-e/fe/|\"Dm\"g/f d/A-A/ D/|\r\n\"4\r\n\"\"Dm\"A-A/B/ c/B/c/A/|\"G7\"c/B ^E/A-A/^G/|\"G7\"=G-G/A/ B/=c/d/^d/|\"C\"e/c A/G/ E/G/c/|\r\n\"44\"\"C\"e2-e/ Ge/|\"E7\"e2-e/ Ae/|\"A7\"e2-e/a\"Dm\"e/|g/ fd/A2|\r\n\"48\"\"Dm7\"z/c/d/^d/e/=dc/-|\"C\"c/G/G/A/ \"A7\"B/AE/|\"Dm\"G/=F/A/c/ \"G7\"e/dG/|\r\n[1\"C\"c/A/G/e/ c/E/G/c/:]|2 \"C\"c/d/e/g/c'2]||",
-      "after_abc": "|:\"G\"B2-\"G#o\"B/dc/|\"D7\"B/A^G/ Ad|\"Em\"G2-G/BA/|\r\n\"4\"\"Am\"G/F^E/ \"B7\"FB|\"C\"E2-E/\"Cm\"GE/|\"G\"D/EF/ \"Em\"G2-|\"A7\"G/ E/F/G/ B/A/E/G/-|\r\n\"8\"\"D7\"-G/F A/ E/D _B/-|\"Gm\"B2-B/ dc/|\"D7\"_B/A^G/Ad|\"C\"G2-G \"C7\"_BA/|\r\n\"12\"\"F7\"G/=FE/ \"Bb7\"F_B|\"Cm\"_E2-E/GE/|\"G\"D/=EF/ \"Em\"G/A/B/ d/-|\"Am\"d/cE/ \"D7\"B/A/D/G/-|\r\n[1\"16\"\"G\"G/Bd/g-g/B/:|2 \"G\"G/Bd/ g2|:\"Em\"z/e/e/e/ e/e/e/^d/-|\"B7\"d/^d/B/A/ F/A/B/d/|\r\n\"^2\"\"E7\"z/=d/d/d/ d/d/d/d/-|\"Am\"d/c/A/E/-E/ E/A/c/|\"Am\"z/c/c/c/ c/d/c/c/-|\"Em\"c/B/G/E/-E/ E/G/B/|\r\n\"24\"\"F#7\"z/^A^c/ e/g/f/e/|\"B7\"^d/af/ d/c/B/A/|\"Em\"G/g/g/g/ g/g/g/g/-|\"B7\"g/f/^d/B/ A/B/d/f/|\r\n\"28\"\"E7\"z/=f/f/f/ f/f/f/f/-|\"Am\"f/e/c/A/ E/A/c/e/|\"Am\"z/AB/ c/B/c/d/|\"Em\"c/Bg/-g/e/B/G/|\r\n\"32\"\"F#7\"F/G/A/B/ \"B7\"c/BE/-|1 \"Em\"E/F/G/B/ e2:|2 \"Em\"E/F/G/B/ \"G\"e2||\r\n[K:C]|:\"36\"\"C\"e2-e/ Ge/|\"E7\"e2-e/ Ae/|\"A7\"e2-e/fe/|\"Dm\"g/f d/A-A/ D/|\r\n\"^4\"\"Dm\"A-A/B/ c/B/c/A/|\"G7\"c/B ^E/A-A/^G/|\"G7\"=G-G/A/ B/=c/d/^d/|\"C\"e/c A/G/ E/G/c/|\r\n\"44\"\"C\"e2-e/ Ge/|\"E7\"e2-e/ Ae/|\"A7\"e2-e/a\"Dm\"e/|g/ fd/A2|\r\n\"48\"\"Dm7\"z/c/d/^d/e/=dc/-|\"C\"c/G/G/A/ \"A7\"B/AE/|\"Dm\"G/=F/A/c/ \"G7\"e/dG/|\r\n[1\"C\"c/A/G/e/ c/E/G/c/:]|2 \"C\"c/d/e/g/c'2]||",
-      "before_sha256": "6a283135190bfdae7e5c4beac65df8b7b8db492b54c2405611be25a991cce430",
-      "after_sha256": "58e5dd5a021f02b65a3a66cfb9314eef244db26e8987aa91b5d9f799c3e5cafd",
-      "evidence": [
-        {
-          "rule": "annotation_linebreak",
-          "start": 374,
-          "end": 379,
-          "before": "\"2\r\n\"",
-          "after": "\"^2\"",
-          "preserve_playback": true,
-          "method": "Preserved numeric label as a single-line ABC text annotation",
-          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#annotations"
-        },
-        {
-          "rule": "annotation_linebreak",
-          "start": 801,
-          "end": 806,
-          "before": "\"4\r\n\"",
-          "after": "\"^4\"",
-          "preserve_playback": true,
-          "method": "Preserved numeric label as a single-line ABC text annotation",
-          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#annotations"
         }
       ]
     }

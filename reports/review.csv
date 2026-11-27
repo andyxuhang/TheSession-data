@@ -17130,8 +17130,8 @@ GF|G2G, G,DC|B,DGF GBAG|A2A,2 A,2AG|FAd2 d2ef|
 gfed edcB|cBAG GFED|EGFA GBAc|B2G2 G2:|
 |:DC|B,DGD B,DGD|E2C2 C2ED|^CEAE CEAE|F2D2 D2AB|
 cBcd edcB|cBAG GFED|EGFA GBAc|B2G2 G2:|"
-103,57220,Saint Anne's,Jammin’Cellist,https://thesession.org/tunes/103#setting57220,Playback check failed,"{""current_internal_bars"": [], ""previous_source_flags"": [], ""playback_rejection"": ""abcjs: Note timing changed""}","GA|:B2(Bc) BA GE|D2 ‎[D2.B,2.‎[D2.B,2.‎] D2|E2‎[E2.C2.‎[E2.C2.‎]E2|E2[D2.B,2.‎[D2.B,2.‎](GA)|
-B2(Bc) BA GE|D2 ‎[D2.B,2.‎[D2.B,2.‎] D2|E2EGF2FA|G2[G2B2‎]G2(GA):|
+103,57220,Saint Anne's,Jammin’Cellist,https://thesession.org/tunes/103#setting57220,Playback check failed,"{""current_internal_bars"": [], ""previous_source_flags"": [], ""playback_rejection"": ""Individual Unicode layout check""}","GA|:B2(Bc) BA GE|D2 [D2.B,2.[D2.B,2.] D2|E2[E2.C2.[E2.C2.]E2|E2[D2.B,2.[D2.B,2.](GA)|
+B2(Bc) BA GE|D2 [D2.B,2.[D2.B,2.] D2|E2EGF2FA|G2[G2B2]G2(GA):|
 |:B2G2B2G2|d2c2c2(cB) | AG FE DE Fd|e2d2d2(dc)|
 B2G2B2G2|d2c2c2(cB) | AG FE (DE)F2|1 G2[G2B2‎G2(GA):|2 G2[G2B2‎G2z2|"
 103,49127,Saint Anne's,PietroJonovich,https://thesession.org/tunes/103#setting49127,Possible short interior measure; Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""49127"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": ""e2 \""C\""fed \""C\""cA"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""49127"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": ""e2 \""C\""fed \""C\""cA"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","|:c2 ""C""G2c2 ""C""cd|e2 ""C""fed ""C""cA|G2 ""C""G2E2 ""C""Gc|A2 ""F""A2F2 ""F""AA|
@@ -19963,22 +19963,6 @@ F2D2 FGAd|c2B2 AGEG|F2D2 FGAF|GBAF G4:|"
 |:""F""[a2c2]c/c/c[a2c2]a(b<a)|""G""g2c/c/gg2(=f/e)""G7""d3/2
 [1 ""Am""c2A/A/c""C""e2e(g<a)|""D""f2(g/f)f2(d/c2):|
 [2 ""Am""cA/A/c""C""e2e>(dB2)|""Ador""A3(B<A)A4||"
-16267,30786,Vou Vivendo,alangraham,https://thesession.org/tunes/16267#setting30786,Playback check failed,"{""current_internal_bars"": [], ""previous_source_flags"": [], ""playback_rejection"": ""Bad state: 30786 event count""}","|:""G""B2-""G#o""B/dc/|""D7""B/A^G/ Ad|""Em""G2-G/BA/|
-""4""""Am""G/F^E/ ""B7""FB|""C""E2-E/""Cm""GE/|""G""D/EF/ ""Em""G2-|""A7""G/ E/F/G/ B/A/E/G/-|
-""8""""D7""-G/F A/ E/D _B/-|""Gm""B2-B/ dc/|""D7""_B/A^G/Ad|""C""G2-G ""C7""_BA/|
-""12""""F7""G/=FE/ ""Bb7""F_B|""Cm""_E2-E/GE/|""G""D/=EF/ ""Em""G/A/B/ d/-|""Am""d/cE/ ""D7""B/A/D/G/-|
-[1""16""""G""G/Bd/g-g/B/:|2 ""G""G/Bd/ g2|:""Em""z/e/e/e/ e/e/e/^d/-|""B7""d/^d/B/A/ F/A/B/d/|
-""2
-""""E7""z/=d/d/d/ d/d/d/d/-|""Am""d/c/A/E/-E/ E/A/c/|""Am""z/c/c/c/ c/d/c/c/-|""Em""c/B/G/E/-E/ E/G/B/|
-""24""""F#7""z/^A^c/ e/g/f/e/|""B7""^d/af/ d/c/B/A/|""Em""G/g/g/g/ g/g/g/g/-|""B7""g/f/^d/B/ A/B/d/f/|
-""28""""E7""z/=f/f/f/ f/f/f/f/-|""Am""f/e/c/A/ E/A/c/e/|""Am""z/AB/ c/B/c/d/|""Em""c/Bg/-g/e/B/G/|
-""32""""F#7""F/G/A/B/ ""B7""c/BE/-|1 ""Em""E/F/G/B/ e2:|2 ""Em""E/F/G/B/ ""G""e2||
-[K:C]|:""36""""C""e2-e/ Ge/|""E7""e2-e/ Ae/|""A7""e2-e/fe/|""Dm""g/f d/A-A/ D/|
-""4
-""""Dm""A-A/B/ c/B/c/A/|""G7""c/B ^E/A-A/^G/|""G7""=G-G/A/ B/=c/d/^d/|""C""e/c A/G/ E/G/c/|
-""44""""C""e2-e/ Ge/|""E7""e2-e/ Ae/|""A7""e2-e/a""Dm""e/|g/ fd/A2|
-""48""""Dm7""z/c/d/^d/e/=dc/-|""C""c/G/G/A/ ""A7""B/AE/|""Dm""G/=F/A/c/ ""G7""e/dG/|
-[1""C""c/A/G/e/ c/E/G/c/:]|2 ""C""c/d/e/g/c'2]||"
 21308,42513,Wade's Welcome To Inverness,🎻 Melody Player 🎻,https://thesession.org/tunes/21308#setting42513,Meter or form to review,"{""current_internal_bars"": [], ""previous_source_flags"": [""meter_signature""]}","M:6/8
 |:a/g/|f>ed d>BA|(B<dA) B>cd|(f<af) A>Bd|e3 e a/g/|
 f>ed d>BA|(B<dA) B>cd|(f<af) A>fe|d3 d2:|

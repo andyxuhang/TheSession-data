@@ -711,6 +711,29 @@
       }
     },
     {
+      "setting_id": "57220",
+      "passed": true,
+      "event_count": 181,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": true,
+      "changed_note_durations": 0,
+      "before_duration_quarter": 139.0,
+      "after_duration_quarter": 139.0,
+      "approved_written_changes": [],
+      "played_occurrences": [],
+      "parser_normalized_or_unplayed_change": false,
+      "duration_delta_quarter": 0.0,
+      "abcjs": {
+        "setting_id": "57220",
+        "passed": true,
+        "changed_played_pitches": 0,
+        "before_warnings": 25,
+        "after_warnings": 8,
+        "version": "abcjs-basic v6.5.2",
+        "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+      }
+    },
+    {
       "setting_id": "35828",
       "passed": true,
       "event_count": 223,

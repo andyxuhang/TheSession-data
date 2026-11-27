@@ -1,20 +1,22 @@
 {
   "passes": [
     {
-      "unicode_spacing": 106,
-      "settings": 55821,
-      "settings_with_proposals": 35,
-      "pass": 1,
-      "accepted": 34,
-      "rejected": 1
-    },
-    {
       "unicode_spacing": 14,
       "settings": 55821,
       "settings_with_proposals": 1,
+      "pass": 1,
+      "individual_rejections": 2,
+      "accepted": 1,
+      "rejected": 0
+    },
+    {
+      "unicode_spacing": 2,
+      "settings": 55821,
+      "settings_with_proposals": 1,
       "pass": 2,
+      "individual_rejections": 2,
       "accepted": 0
     }
   ],
-  "rejected_settings": 5
+  "rejected_settings": 4
 }

@@ -142,7 +142,9 @@ void main(List<String> args) {
   final result = <Map>[];
   for (final row in rows) {
     try {
-    final before = compile(row, row['before_abc']);
+    final rawBefore = compile(row, row['before_abc']);
+    final before = row.containsKey('annotation_reference')
+        ? compile(row, row['annotation_reference']) : rawBefore;
     final after = compile(row, row['after_abc']);
     final a = before['events'] as List, b = after['events'] as List;
     final sid = row['setting_id'];
@@ -205,6 +207,12 @@ void main(List<String> args) {
     result.add({
       if (row.containsKey('variant')) 'variant':row['variant'],
       'setting_id': sid, 'passed': true, 'event_count': a.length,
+      if (row.containsKey('annotation_reference')) ...{
+        'reference': 'Original melody with only the malformed numeric labels removed',
+        'original_event_count': (rawBefore['events'] as List).length,
+        'reference_event_count': a.length,
+        'corrected_event_count': b.length,
+      },
       'pitch_and_tie_sequence_unchanged': true,
       'all_event_timings_unchanged': durationChanges==0,
       'changed_note_durations': durationChanges,

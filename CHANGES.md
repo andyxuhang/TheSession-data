@@ -1,5 +1,13 @@
 # Changes
 
+## Labels and individually checked direction marks
+
+Repaired two numeric labels split across lines in setting 30786. The label-only source transformation is checked against an exact melody reference obtained by removing only those malformed labels. Both parsers match the complete reference. TradMate reads 497 score events after correction, compared with 441 from the damaged source.
+
+Removed 12 direction marks in setting 57220 after checking each character separately and then checking the combined edit. Two other direction marks still require review because they affect abcjs timing.
+
+The 14 corrections cover two settings of two tunes. abcjs diagnostics in those settings decreased from 37 to ten. See the [label edits](checks/written-token-edits.json), [character edits](checks/written-whitespace-edits.json), [label diagnostic comparison](checks/parser-diagnostics.json), and [direction-mark diagnostic comparison](checks/spacing-diagnostics.json).
+
 ## Ornament symbols
 
 Replaced 18 U+301C wave dashes before notes with the ABC Irish-roll shorthand. Corrected three capitalized Segno/Coda decoration names to their standard lowercase spelling. The 21 edits cover seven settings of seven tunes and 13 matching set entries.

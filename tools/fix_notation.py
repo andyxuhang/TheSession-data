@@ -61,6 +61,42 @@ def measure_edits(patch):
         yield start, end, evidence, f"{patch['setting_id']}-{n}"
 
 
+def check_spacing_edits(proposals, work, args):
+    singles = []
+    for patch in proposals:
+        body = patch['before_abc']
+        for i,ev in enumerate(patch['evidence']):
+            start,end = ev['start'],ev['end']
+            if end!=start+1 or ord(body[start:end])!=int(ev['codepoint'][2:],16):
+                raise ValueError('Unicode edit differs from its source character')
+            after = body[:start]+ev['text']+body[end:]
+            singles.append({**patch,'variant':f"{patch['setting_id']}-{i}",
+                            'evidence':[ev],'after_abc':after,'after_sha256':sha(after),
+                            'edits':source_edits(body,after)})
+    dump(work/'spacing-individual.json',{'corrections':singles})
+    report = playback(work/'spacing-individual.json',work/'spacing-individual-check.json',
+                      args,True,cross_check=True)
+    checks = {r['variant']:r for r in report['checks']}
+    accepted,failures = [],{}
+    for patch in proposals:
+        body = patch['before_abc']
+        evidence,failed = [],[]
+        for i,ev in reversed(list(enumerate(patch['evidence']))):
+            result = checks[f"{patch['setting_id']}-{i}"]
+            if result['passed'] and result.get('all_event_timings_unchanged'):
+                body = body[:ev['start']]+ev['text']+body[ev['end']:]
+                evidence.append({**ev,'individual_abcjs':result['abcjs']})
+            else:
+                failed.append(dict(edit=ev,reason=result.get('reason','Timing changed')))
+        if failed:
+            failures[patch['setting_id']] = dict(setting_id=patch['setting_id'],passed=False,
+                reason='Individual Unicode layout check',source_edits=failed[::-1],proposal=patch)
+        if evidence:
+            accepted.append({**patch,'after_abc':body,'after_sha256':sha(body),
+                'edits':source_edits(patch['before_abc'],body),'evidence':evidence[::-1]})
+    return accepted,failures
+
+
 def check_measure_edits(proposals, work, args, lengths=False):
     cross_checked_rules = PITCH_RULES | SYNTAX_RULES
     singles = []
@@ -194,6 +230,14 @@ def main():
                 stats['accepted'] = 0
                 history.append(stats)
                 break
+            if args.spacing:
+                candidates, failures = check_spacing_edits(candidates,work,args)
+                rejected.update(failures)
+                stats['individual_rejections'] = sum(len(r['source_edits']) for r in failures.values())
+                if not candidates:
+                    stats['accepted'] = 0
+                    history.append(stats)
+                    break
             structural = [p for p in candidates if all(
                 e['rule'] in {'misplaced_barline', 'missing_barline'} for e in p['evidence'])]
             individual = candidates if lengths or args.phrases or pitch_mode or args.syntax else (
@@ -348,7 +392,7 @@ def main():
                         if all((e['rule'],e['bar'],e['before'],e['after']) in verified
                                for e in (entry['edit'] for entry in old['bars'])):
                             continue
-                    if (note_counts or args.reference_lengths) and old['setting_id'] in collected:
+                    if (note_counts or args.reference_lengths or args.parser_syntax) and old['setting_id'] in collected:
                         accepted = collected[old['setting_id']]
                         earlier = old.get('proposal', {})
                         if (earlier.get('after_sha256') == accepted['after_sha256']

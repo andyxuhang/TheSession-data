@@ -91704,11 +91704,11 @@
 {"setting_id": "56944", "bar": 10, "category": "irregular", "duration_eighths": "2", "expected_eighths": "8", "fragment": "AG", "reason": "No unique supported correction"}
 {"setting_id": "56944", "bar": 18, "category": "irregular", "duration_eighths": "6", "expected_eighths": "8", "fragment": "f2d2 d2", "reason": "No unique supported correction"}
 {"setting_id": "57220", "bar": 1, "category": "irregular", "duration_eighths": "2", "expected_eighths": "8", "fragment": "GA", "reason": "No unique supported correction"}
-{"setting_id": "57220", "bar": 3, "category": "unsupported", "reason": "unsupported syntax '\\u200e'", "fragment": "D2 ‎[D2.B,2.‎[D2.B,2.‎] D2"}
-{"setting_id": "57220", "bar": 4, "category": "unsupported", "reason": "unsupported syntax '\\u200e'", "fragment": "E2‎[E2.C2.‎[E2.C2.‎]E2"}
-{"setting_id": "57220", "bar": 5, "category": "unsupported", "reason": "unsupported syntax '['", "fragment": "E2[D2.B,2.‎[D2.B,2.‎](GA)"}
-{"setting_id": "57220", "bar": 7, "category": "unsupported", "reason": "unsupported syntax '\\u200e'", "fragment": "D2 ‎[D2.B,2.‎[D2.B,2.‎] D2"}
-{"setting_id": "57220", "bar": 9, "category": "unsupported", "reason": "unsupported syntax '['", "fragment": "G2[G2B2‎]G2(GA)"}
+{"setting_id": "57220", "bar": 3, "category": "unsupported", "reason": "unsupported syntax '['", "fragment": "D2 [D2.B,2.[D2.B,2.] D2"}
+{"setting_id": "57220", "bar": 4, "category": "unsupported", "reason": "unsupported syntax '['", "fragment": "E2[E2.C2.[E2.C2.]E2"}
+{"setting_id": "57220", "bar": 5, "category": "unsupported", "reason": "unsupported syntax '['", "fragment": "E2[D2.B,2.[D2.B,2.](GA)"}
+{"setting_id": "57220", "bar": 7, "category": "unsupported", "reason": "unsupported syntax '['", "fragment": "D2 [D2.B,2.[D2.B,2.] D2"}
+{"setting_id": "57220", "bar": 9, "category": "unsupported", "reason": "unsupported syntax '['", "fragment": "G2[G2B2]G2(GA)"}
 {"setting_id": "57220", "bar": 17, "category": "unsupported", "reason": "unsupported syntax '['", "fragment": " G2[G2B2‎G2(GA)"}
 {"setting_id": "57220", "bar": 18, "category": "unsupported", "reason": "unsupported syntax '['", "fragment": " G2[G2B2‎G2z2"}
 {"setting_id": "57860", "bar": 1, "category": "irregular", "duration_eighths": "2", "expected_eighths": "8", "fragment": "de", "reason": "No unique supported correction"}
