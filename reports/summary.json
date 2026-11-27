@@ -28,12 +28,13 @@
   },
   "categories": {
     "fixed": 651,
-    "review": 3748,
-    "boundaries": 24404,
-    "unsupported": 6492,
-    "playback": 3460
+    "review": 3459,
+    "boundaries": 19761,
+    "unsupported": 4447,
+    "playback": 2045,
+    "accepted": 6601
   },
-  "no_current_findings": 26180,
+  "no_current_findings": 32672,
   "rejected_settings": 4,
   "counts_overlap": true,
   "fixed_with_remaining_review": 86

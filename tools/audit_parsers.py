@@ -47,13 +47,16 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--jobs', type=int, default=8)
+    parser.add_argument('--input',type=Path,help='Optional JSON array of settings to check')
     args = parser.parse_args()
     executables = {name:shutil.which(name) for name in ('abc2midi', 'abc2abc')}
     if not all(executables.values()):
         raise SystemExit('abc2midi and abc2abc are required')
     versions = {name:subprocess.check_output([path,'-ver'],text=True).strip()
                 for name,path in executables.items()}
-    data = sorted(unique_settings(rows(ROOT/'json/tunes.json')).values(), key=lambda r:int(r['setting_id']))
+    source = args.input or ROOT/'json/tunes.json'
+    records = json.loads(source.read_text()) if args.input else rows(source)
+    data = sorted(unique_settings(records).values(), key=lambda r:int(r['setting_id']))
     known = {json.loads(line)['setting_id'] for line in (ROOT/'reports/findings.jsonl').open()}
     args.output.mkdir(parents=True, exist_ok=True)
     counts, types = Counter(), Counter()
@@ -74,7 +77,7 @@ def main():
                         types[d['parser'],kind] += 1
                     if i % 5000 == 0:
                         print(json.dumps(dict(checked=i,total=len(data))),flush=True)
-    summary = dict(settings=len(data),input_sha256=hashlib.sha256((ROOT/'json/tunes.json').read_bytes()).hexdigest(),
+    summary = dict(settings=len(data),input_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),
                    parser_versions=versions,settings_with_diagnostics=dict(counts),
                    flagged_settings=len(flagged),newly_flagged_settings=len(flagged-known),
                    messages=[dict(parser=p,message=m,count=n) for (p,m),n in types.most_common()],

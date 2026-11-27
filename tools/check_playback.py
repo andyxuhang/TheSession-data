@@ -324,6 +324,27 @@ def prepare_reference_duration(patch, edit):
             'old_start':a.start+at,'new_start':b.start+at}
 
 
+def write_compiler(repo, root):
+    pending, hashes = [COMPILER], {}
+    while pending:
+        name = pending.pop()
+        if name in hashes:
+            continue
+        code = subprocess.check_output(["git", "show", REVISION + ":" + name], cwd=repo)
+        hashes[name] = hashlib.sha256(code).hexdigest()
+        target = root / name
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(code)
+        for uri in re.findall(r"(?:import|export|part)\s+'([^']+)'", code.decode()):
+            if uri.startswith("dart:"):
+                continue
+            if uri.startswith("package:"):
+                raise ValueError("Unexpected external package: " + uri)
+            path = (repo / Path(name).parent / uri).resolve().relative_to(repo)
+            pending.append(str(path))
+    return hashes
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--tradmate-repo", type=Path, required=True)
@@ -388,23 +409,7 @@ def main():
     assert len(rows) == sum(map(len, patches.values()))
     with tempfile.TemporaryDirectory(prefix="session-playback-") as temporary:
         root = Path(temporary)
-        pending, hashes = [COMPILER], {}
-        while pending:
-            name = pending.pop()
-            if name in hashes:
-                continue
-            code = subprocess.check_output(["git", "show", REVISION + ":" + name], cwd=repo)
-            hashes[name] = hashlib.sha256(code).hexdigest()
-            target = root / name
-            target.parent.mkdir(parents=True, exist_ok=True)
-            target.write_bytes(code)
-            for uri in re.findall(r"(?:import|export|part)\s+'([^']+)'", code.decode()):
-                if uri.startswith("dart:"):
-                    continue
-                if uri.startswith("package:"):
-                    raise ValueError("Unexpected external package: " + uri)
-                path = (repo / Path(name).parent / uri).resolve().relative_to(repo)
-                pending.append(str(path))
+        hashes = write_compiler(repo, root)
         (root / "input.json").write_text(json.dumps(rows))
         (root / "check.dart").write_text(RUNNER)
         output = subprocess.check_output([args.dart, str(root / "check.dart"), str(root / "input.json")], text=True)

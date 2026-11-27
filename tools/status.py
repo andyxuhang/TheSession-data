@@ -8,6 +8,7 @@ import json
 from pathlib import Path
 
 from scan import ROOT, measures, rows, sha, unique_settings
+from review_common import review_state
 
 
 LABELS = {
@@ -56,6 +57,17 @@ def write_csv(path, records, fields):
         writer.writerows(records)
 
 
+def load_previous_flags(byid):
+    flags = {}
+    path = ROOT/'checks/previous-flags.json'
+    if path.exists():
+        for flag in json.loads(path.read_text())['settings']:
+            row = byid.get(flag['setting_id'])
+            if row and sha(row['abc'].replace('\r\n','\n').strip()) == flag['body_sha256']:
+                flags[row['setting_id']] = flag
+    return flags
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--findings',type=Path,default=ROOT/'reports/findings.jsonl')
@@ -79,16 +91,20 @@ def main():
                 patch={**patch,'before_abc':fixed[sid]['before_abc']}
                 rules=sorted(set(rules+fixed[sid]['rules']))
             fixed[sid]={**patch,'rules':rules}
-    old_flags={}
-    flagpath=ROOT/'checks/previous-flags.json'
-    if flagpath.exists():
-        for flag in json.loads(flagpath.read_text())['settings']:
-            r=byid.get(flag['setting_id'])
-            if r and sha(r['abc'].replace('\r\n','\n').strip())==flag['body_sha256']:
-                old_flags[r['setting_id']]=flag
+    old_flags=load_previous_flags(byid)
     rejectedpath=ROOT/'checks/rejected.json'
     rejected={r['setting_id']:r for r in json.loads(rejectedpath.read_text())} if rejectedpath.exists() else {}
     groups={k:[] for k in ('fixed','review','boundaries','unsupported','playback')}
+    groups['accepted']=[]
+    decisions={}
+    reviewed_path=ROOT/'checks/reviewed-settings.json'
+    if reviewed_path.exists():
+        for decision in json.loads(reviewed_path.read_text())['settings']:
+            sid=decision['setting_id']
+            row=byid.get(sid)
+            if (row and sid not in rejected and decision['review_state_sha256'] ==
+                    review_state(row,findings[sid],old_flags.get(sid,{}))):
+                decisions[sid]=decision
     common=['tune_id','setting_id','name','contributor','source_url','types','details','current_abc']
     for row in data:
         sid=row['setting_id']
@@ -136,9 +152,24 @@ def main():
             groups['playback'].append({**base,'types':'; '.join(sorted(set(compatibility))),
                                         'details':'Playback or parser compatibility observation.'})
     out=ROOT/'reports';out.mkdir(exist_ok=True)
+    for name in ('review','boundaries','unsupported','playback'):
+        groups[name]=[row for row in groups[name]
+                      if name not in decisions.get(row['setting_id'],{}).get('cleared_categories',[])]
+    playback_ids={row['setting_id'] for row in groups['playback']}
+    for sid,decision in decisions.items():
+        row=byid[sid]
+        groups['accepted'].append(dict(tune_id=row['tune_id'],setting_id=sid,name=row['name'],
+            contributor=row['username'],source_url=f"https://thesession.org/tunes/{row['tune_id']}#setting{sid}",
+            types=decision['reason'],details=json.dumps(decision,ensure_ascii=False),current_abc=row['abc']))
+        if not decision.get('original_signature_supported',True) and sid not in playback_ids:
+            groups['playback'].append(dict(tune_id=row['tune_id'],setting_id=sid,name=row['name'],
+                contributor=row['username'],source_url=f"https://thesession.org/tunes/{row['tune_id']}#setting{sid}",
+                types='TradMate additive-meter compatibility',
+                details=json.dumps(decision['additive_meter_evidence'],ensure_ascii=False),current_abc=row['abc']))
+            playback_ids.add(sid)
     for name,records in groups.items():
         write_csv(out/(name+'.csv'),records,common+(['before_abc'] if name=='fixed' else []))
-    flagged={r['setting_id'] for k,v in groups.items() if k!='fixed' for r in v}
+    flagged={r['setting_id'] for k,v in groups.items() if k not in ('fixed','accepted') for r in v}
     summary={'settings_checked':len(data),'exported_tune_rows':len(exported),'tunes_checked':len({r['tune_id'] for r in data}),
              'fixed_settings':len(groups['fixed']),'fixed_tunes':len({r['tune_id'] for r in groups['fixed']}),
              'fixed_edits_by_type':dict(types), 'categories':{k:len(v) for k,v in groups.items()},
@@ -159,10 +190,13 @@ def main():
         f"| Pickups, endings and repeats | {len(groups['boundaries'])} | [boundaries.csv](boundaries.csv) |",
         f"| Unsupported syntax or empty melody | {len(groups['unsupported'])} | [unsupported.csv](unsupported.csv) |",
         f"| Playback or parser compatibility | {len(groups['playback'])} | [playback.csv](playback.csv) |",
+        f"| Parser-reviewed valid notation | {len(groups['accepted'])} | [accepted.csv](accepted.csv) |",
         '',
         f"{summary['fixed_with_remaining_review']} corrected settings still have other findings. "
         "Settings can appear in multiple categories. Each CSV gives the source link and current ABC. "
         "The corrected list also gives the ABC before the changes.",
+        "Parser-reviewed entries record their evidence in [reassessment](reassessment/README.md). "
+        "A change to the ABC, meter, key, tune type or recorded findings invalidates the review.",
         '',
         '## Corrections by type', '',
         '| Type | Corrections |', '|---|---:|',

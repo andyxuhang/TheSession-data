@@ -1,0 +1,37 @@
+{
+  "base_commit": "65d541c2da4bc3aad802d20a855468a06840015d",
+  "settings_checked": 29641,
+  "parser_families": [
+    "TradMate",
+    "abcjs",
+    "abcmidi (abc2midi and abc2abc)"
+  ],
+  "comparison": "Decorations excluded, ties joined, onsets and durations rounded to 0.001 quarter notes",
+  "accepted_by_reason": {
+    "No parser diagnostics": 6177,
+    "Standard implicit repeat with matching melody": 423,
+    "Two independent parsers accept the source; equivalent numeric meter matches TradMate": 1
+  },
+  "cleared_categories": {
+    "unsupported": 2045,
+    "boundaries": 4643,
+    "playback": 1416,
+    "review": 289
+  },
+  "categories_before": {
+    "boundaries": 24404,
+    "unsupported": 6492,
+    "review": 3748,
+    "playback": 3460
+  },
+  "categories_after": {
+    "boundaries": 19761,
+    "review": 3459,
+    "playback": 2045,
+    "unsupported": 4447
+  },
+  "removed_from_all_pending_categories": 6492,
+  "accepted_formats": 6601,
+  "matching_base_melody": 5879,
+  "playback_comparison_to_review": 722
+}

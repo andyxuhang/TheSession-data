@@ -5,12 +5,14 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 | Status | Settings | Details |
 |---|---:|---|
 | Corrected | 651 | [fixed.csv](fixed.csv) |
-| Needs review | 3748 | [review.csv](review.csv) |
-| Pickups, endings and repeats | 24404 | [boundaries.csv](boundaries.csv) |
-| Unsupported syntax or empty melody | 6492 | [unsupported.csv](unsupported.csv) |
-| Playback or parser compatibility | 3460 | [playback.csv](playback.csv) |
+| Needs review | 3459 | [review.csv](review.csv) |
+| Pickups, endings and repeats | 19761 | [boundaries.csv](boundaries.csv) |
+| Unsupported syntax or empty melody | 4447 | [unsupported.csv](unsupported.csv) |
+| Playback or parser compatibility | 2045 | [playback.csv](playback.csv) |
+| Parser-reviewed valid notation | 6601 | [accepted.csv](accepted.csv) |
 
 86 corrected settings still have other findings. Settings can appear in multiple categories. Each CSV gives the source link and current ABC. The corrected list also gives the ABC before the changes.
+Parser-reviewed entries record their evidence in [reassessment](reassessment/README.md). A change to the ABC, meter, key, tune type or recorded findings invalidates the review.
 
 ## Corrections by type
 

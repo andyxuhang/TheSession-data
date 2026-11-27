@@ -1,0 +1,84 @@
+{
+  "phrases": {
+    "settings": 1,
+    "candidates": [
+      {
+        "setting_id": "31295",
+        "types": {
+          "note_length": 3
+        }
+      }
+    ],
+    "scanner": {
+      "interior_phrases_compared": 2263,
+      "no_matching_phrase": 2153,
+      "boundary_or_run_too_long": 20681,
+      "unsupported": 3292,
+      "short_phrase": 258,
+      "no_supported_edit": 100,
+      "conflicting_phrases": 7,
+      "note_length": 3
+    }
+  },
+  "missing_notes": {
+    "settings": 0,
+    "candidates": [],
+    "scanner": {
+      "interior_bars_compared": 148,
+      "matching_insertions": 1,
+      "independently_confirmed_insertions": 0
+    }
+  },
+  "note_counts": {
+    "settings": 0,
+    "candidates": [],
+    "scanner": {
+      "short_measures": 1481,
+      "long_measures": 319
+    }
+  },
+  "final_notes": {
+    "settings": 0,
+    "candidates": [],
+    "scanner": {
+      "final_measures_compared": 96
+    }
+  },
+  "reference_lengths": {
+    "settings": 0,
+    "candidates": [],
+    "scanner": {
+      "deferred_settings_compared": 0
+    }
+  },
+  "opening_lengths": {
+    "settings": 0,
+    "candidates": [],
+    "scanner": {
+      "opening_measures_compared": 6
+    }
+  },
+  "pitches": {
+    "settings": 0,
+    "candidates": [],
+    "scanner": {
+      "octave_typo_exact_candidates": 287,
+      "note_typo_exact_candidates": 3364,
+      "accidental_typo_exact_candidates": 313
+    }
+  },
+  "syntax": {
+    "settings": 0,
+    "candidates": [],
+    "scanner": {
+      "marked_measures": 290,
+      "orphan_symbol_matching_measure": 4,
+      "invalid_tie_matching_measure": 1
+    }
+  },
+  "transposed_pitches": {
+    "settings": 0,
+    "candidates": [],
+    "scanner": {}
+  }
+}

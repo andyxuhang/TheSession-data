@@ -1,0 +1,30 @@
+[
+  {
+    "setting_id": "34752",
+    "body_sha256": "13c06c873ae63ce5aa255e0fc5faedb06acf1dfc6f6435c0727b9aa21aaff396",
+    "normalized_fields": [
+      {
+        "before": "[M:2 + 5/8]",
+        "after": "[M:7/8]"
+      },
+      {
+        "before": "[M:4 + 6/8]",
+        "after": "[M:10/8]"
+      }
+    ],
+    "numeric_meter_result": {
+      "setting_id": "34752",
+      "compiled": true,
+      "events": 106,
+      "note_events": 105,
+      "valid_timing": true,
+      "normalized_events": 0,
+      "repair_flags": [],
+      "healthy": true,
+      "comparison_sha256": "52aff7574eac30e878e3c2768ebde23c0e642a00e9e6b74a734805cb59d006e2",
+      "comparison_notes": 90
+    },
+    "validated": true,
+    "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#m_meter"
+  }
+]

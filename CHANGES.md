@@ -1,5 +1,13 @@
 # Changes
 
+## Independent review of pending settings
+
+Rechecked all 29,641 settings in the pending reports with TradMate, abcjs, abc2midi and abc2abc. Confirmed valid source notation in 6,601 settings. A total of 6,492 settings leave every pending category, with 109 retaining playback compatibility observations.
+
+The source-format review clears 289 historical meter flags, 2,045 simple-scanner syntax limitations, and 4,643 pickup or repeat observations. Base-melody comparisons resolve 1,416 previous playback observations. Setting 34752 moves to playback compatibility because its additive meters are valid ABC and the equivalent numeric meters match the external parser's melody.
+
+The [review report](reports/reassessment/README.md) records the parser versions, comparison limits and correction search. [Accepted settings](reports/accepted.csv) retain their source links and evidence. Review decisions are bound to the source text, meter, key, tune type and original findings, so changed inputs automatically return to review.
+
 ## Labels and individually checked direction marks
 
 Repaired two numeric labels split across lines in setting 30786. The label-only source transformation is checked against an exact melody reference obtained by removing only those malformed labels. Both parsers match the complete reference. TradMate reads 497 score events after correction, compared with 441 from the damaged source.

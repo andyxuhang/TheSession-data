@@ -1,0 +1,2108 @@
+{
+  "settings": 29641,
+  "input_sha256": "8d027595091690ad1f2e40bb28098d9809d71e1074151340a4d3104900229871",
+  "parser_versions": {
+    "abc2midi": "5.03 April 26 2025 abc2midi",
+    "abc2abc": "2.22 April 30 2024 abc2abc"
+  },
+  "settings_with_diagnostics": {
+    "abc2abc": 22590,
+    "abc2midi": 10302
+  },
+  "flagged_settings": 23378,
+  "newly_flagged_settings": 10,
+  "messages": [
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bar N is N not N",
+      "count": 61224
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Track N Bar N has N time units while the time signature has N",
+      "count": 28612
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Track N Bar N has N time units while the time signature has N in repeat",
+      "count": 27099
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Assuming repeat",
+      "count": 3313
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Warning : Unexpected :| found",
+      "count": 3289
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Process exit code N",
+      "count": 3053
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : replacing |: with double repeat (::)",
+      "count": 2804
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character J",
+      "count": 1872
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Too many notes in chord - probably missing ']' or '+'",
+      "count": 1513
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Malformed note : expecting a-g or A-G",
+      "count": 1290
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Malformed note : expecting a-g or A-G",
+      "count": 1290
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Cannot apply broken rhythm. Notes not equal durations",
+      "count": 1060
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Warning : Unexpected :|N found",
+      "count": 970
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : unequal notes in chord N versus N",
+      "count": 967
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized character: N",
+      "count": 967
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unrecognized character: N",
+      "count": 967
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Guitar chord does not start with A-G or a-g",
+      "count": 758
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Could not find note to be tied",
+      "count": 580
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N :  found [N or like before |:",
+      "count": 450
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Cannot find note before tie",
+      "count": 409
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Bad tie: possibly two ties in a row",
+      "count": 358
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Missing :| at end of tune",
+      "count": 356
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Different length notes in tuple",
+      "count": 338
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : stray / not in grace sequence",
+      "count": 294
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : stray / not in grace sequence",
+      "count": 294
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !>! ignored",
+      "count": 287
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Grace sequence exceeds host note. Grace sequence cut off.",
+      "count": 280
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Warning : Missing repeat at start ? Unexpected :| found",
+      "count": 271
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Warning : Expecting repeat, found |:",
+      "count": 254
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N :  found another |: after a |:",
+      "count": 250
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : replacing with double repeat (::)",
+      "count": 250
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !slide! ignored",
+      "count": 238
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Need || |: :| or ::  to mark end of variant ending",
+      "count": 231
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized character: ,",
+      "count": 220
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unrecognized character: ,",
+      "count": 220
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Bad pitch specifier ' after note D",
+      "count": 193
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bad pitch specifier ' after note D",
+      "count": 193
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Line of music without lyrics",
+      "count": 169
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : N b is not a power of N",
+      "count": 162
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : N b is not a power of N",
+      "count": 162
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Slur within slur",
+      "count": 158
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Bad pitch specifier ' after note E",
+      "count": 157
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bad pitch specifier ' after note E",
+      "count": 157
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !roll! ignored",
+      "count": 147
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"min\"",
+      "count": 139
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Chord already finished",
+      "count": 136
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Bad pitch specifier ' after note C",
+      "count": 132
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bad pitch specifier ' after note C",
+      "count": 132
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : *'s in middle of line ignored",
+      "count": 120
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : *'s in middle of line ignored",
+      "count": 120
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Bad pitch specifier ' after note F",
+      "count": 107
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bad pitch specifier ' after note F",
+      "count": 107
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Warning : Missing repeat at start ? Unexpected :|N found",
+      "count": 103
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Bad pitch specifier , after note c",
+      "count": 95
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bad pitch specifier , after note c",
+      "count": 95
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character m",
+      "count": 92
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Bad pitch specifier , after note d",
+      "count": 92
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bad pitch specifier , after note d",
+      "count": 92
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Expected end repeat not found at |:",
+      "count": 91
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Bad pitch specifier ' after note A",
+      "count": 90
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bad pitch specifier ' after note A",
+      "count": 90
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"maj\"",
+      "count": 87
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character r",
+      "count": 86
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \",\"",
+      "count": 86
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !tenuto! ignored",
+      "count": 86
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Bad pitch specifier ' after note G",
+      "count": 81
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bad pitch specifier ' after note G",
+      "count": 81
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Bad pitch specifier , after note f",
+      "count": 77
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bad pitch specifier , after note f",
+      "count": 77
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized character: #",
+      "count": 77
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unrecognized character: #",
+      "count": 77
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Bad pitch specifier , after note b",
+      "count": 77
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bad pitch specifier , after note b",
+      "count": 77
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bar N is N not N/-N",
+      "count": 75
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Track N Bar N has -N time units while the time signature has N in repeat",
+      "count": 72
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Rolls and trills not supported in chords",
+      "count": 71
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character t",
+      "count": 69
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Bad pitch specifier , after note g",
+      "count": 65
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bad pitch specifier , after note g",
+      "count": 65
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character `",
+      "count": 64
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : tuple within tuple not allowed",
+      "count": 63
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !uppermordent! ignored",
+      "count": 60
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character n",
+      "count": 59
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Bad pitch specifier , after note e",
+      "count": 56
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bad pitch specifier , after note e",
+      "count": 56
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Bad pitch specifier , after note a",
+      "count": 56
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bad pitch specifier , after note a",
+      "count": 56
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character h",
+      "count": 51
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Track N is N.N quarter notes long not N.N",
+      "count": 50
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : nested tuples",
+      "count": 48
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !N! ignored",
+      "count": 48
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Broken rhythm not allowed in chord",
+      "count": 47
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character i",
+      "count": 47
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character w",
+      "count": 47
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \",m\"",
+      "count": 44
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : } without matching {",
+      "count": 43
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized character: �",
+      "count": 42
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unrecognized character: �",
+      "count": 42
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Intervening note needed between grace notes",
+      "count": 42
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"N\"",
+      "count": 41
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N :  / must be followed by A-G or a-g in gchord",
+      "count": 40
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Attempt to nest chords",
+      "count": 39
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character o",
+      "count": 38
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character j",
+      "count": 38
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character l",
+      "count": 37
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Track N Bar N has -N time units while the time signature has N",
+      "count": 36
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Sustained notes beyond end of track",
+      "count": 35
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : '!' or '+' in middle of line ignored",
+      "count": 34
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : '!' or '+' in middle of line ignored",
+      "count": 34
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : missing closing ]",
+      "count": 26
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : No / found, assuming denominator of N",
+      "count": 26
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : missing closing ]",
+      "count": 26
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Warning : No / found, assuming denominator of N",
+      "count": 26
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Bad pitch specifier ' after note B",
+      "count": 24
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bad pitch specifier ' after note B",
+      "count": 24
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character p",
+      "count": 23
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \",N\"",
+      "count": 22
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"mi\"",
+      "count": 22
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !coda! ignored",
+      "count": 20
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"addN\"",
+      "count": 19
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bar N is -N not N",
+      "count": 19
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"^m\"",
+      "count": 18
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"MajN\"",
+      "count": 18
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !-(! ignored",
+      "count": 18
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !-)! ignored",
+      "count": 18
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Bar N is N/-N not N",
+      "count": 17
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"c\"",
+      "count": 17
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized character: ;",
+      "count": 16
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unrecognized character: ;",
+      "count": 16
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character U",
+      "count": 16
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character V",
+      "count": 16
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"minN\"",
+      "count": 16
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !tr! ignored",
+      "count": 16
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"-\"",
+      "count": 16
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"inal\"",
+      "count": 13
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : no default gchord string for this meter",
+      "count": 13
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Grace notes not allowed in chord",
+      "count": 13
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"e\"",
+      "count": 12
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !open! ignored",
+      "count": 12
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !D.S.! ignored",
+      "count": 12
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !sliGA! ignored",
+      "count": 12
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character k",
+      "count": 11
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !D.C.! ignored",
+      "count": 11
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"d\"",
+      "count": 11
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"NnoN\"",
+      "count": 11
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"a\"",
+      "count": 10
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"Nsus\"",
+      "count": 10
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \".S.\"",
+      "count": 10
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized character: ",
+      "count": 10
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unrecognized character: ",
+      "count": 10
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"M\"",
+      "count": 10
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized character: ?",
+      "count": 9
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unrecognized character: ?",
+      "count": 9
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"+N\"",
+      "count": 9
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Track N Bar N has N/-N time units while the time signature has N in repeat",
+      "count": 8
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : No note found to follow grace notes",
+      "count": 8
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \".C.\"",
+      "count": 8
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !segno! ignored",
+      "count": 8
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Guitar chord name not properly closed",
+      "count": 8
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Guitar chord name not properly closed",
+      "count": 8
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"nd\"",
+      "count": 8
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !c'rfbth! ignored",
+      "count": 8
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"♭\"",
+      "count": 8
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !fine! ignored",
+      "count": 8
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"a-sh\"",
+      "count": 8
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"gmfjN\"",
+      "count": 8
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"oda\"",
+      "count": 7
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Track N Bar N has N/-N time units while the time signature has N",
+      "count": 7
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Expecting fraction in form A/B",
+      "count": 7
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Invalid time signature ignored",
+      "count": 7
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Expecting fraction in form A/B",
+      "count": 7
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Warning : Invalid time signature ignored",
+      "count": 7
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"dor\"",
+      "count": 7
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Cannot find :| || [| or |] to close variant ending",
+      "count": 7
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !invisible! ignored",
+      "count": 7
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"maN\"",
+      "count": 7
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"mNgN\"",
+      "count": 7
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !caesura! ignored",
+      "count": 7
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"alt\"",
+      "count": 6
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character K",
+      "count": 6
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Not a valid microtone",
+      "count": 6
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Not a valid microtone",
+      "count": 6
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"mbN\"",
+      "count": 6
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !marcato! ignored",
+      "count": 6
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"horus\"",
+      "count": 5
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"nding\"",
+      "count": 5
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"flat\"",
+      "count": 5
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : First V: field occurs past body; will combine this body with this voice.",
+      "count": 5
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Process exit code -N",
+      "count": 5
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Process exit code -N",
+      "count": 5
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"N#N\"",
+      "count": 5
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"f#m\"",
+      "count": 5
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"'\"",
+      "count": 5
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"horus:\"",
+      "count": 5
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Number not found for M: denominator",
+      "count": 4
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Warning : Number not found for M: denominator",
+      "count": 4
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !GB! ignored",
+      "count": 4
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"?\"",
+      "count": 4
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Field not allowed in tune body",
+      "count": 4
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Field not allowed in tune body",
+      "count": 4
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"g\"",
+      "count": 4
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : note length denominator is zero or less",
+      "count": 4
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Only tuples (N - (N allowed",
+      "count": 4
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"o\"",
+      "count": 4
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"-F-C\"",
+      "count": 4
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !upbow! ignored",
+      "count": 4
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !glissando! ignored",
+      "count": 4
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"N+N\"",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"mNsusN\"",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : do not use integer microtone without calling %%MIDI temperamentequal",
+      "count": 3
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Warning : do not use integer microtone without calling %%MIDI temperamentequal",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ODA\"",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character I",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character N",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : %%MIDI command \"\" not recognized",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"°\"",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"eN\"",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \",#m\"",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"Dim\"",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Default length must be N/X",
+      "count": 3
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Default length must be N/X",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"NbN\"",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Nested grace notes not allowed",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"majN#N\"",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"maiN\"",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"-D\"",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ine\"",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"mNaddN\"",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !+! ignored",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !lowermordent! ignored",
+      "count": 3
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"jN\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"irst\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"s\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"addG\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !GNBN! ignored",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"NM\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"reak\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character Q",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"+F#\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"f\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : extended overlay not implemented in abcNabc",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ance\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"|\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"tc\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"mB\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"razioso\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \",#\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"♯m\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"efore\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"d'\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !turnx! ignored",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"B\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"apoN:\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"aN\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"f'aim\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ridge\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"lute\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"lt\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"olce.\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"res:\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Potentially ambiguous line - either a :| repeat or a field command -- cannot distinguish.",
+      "count": 2
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Warning : Potentially ambiguous line - either a :| repeat or a field command -- cannot distinguish.",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character Y",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !courtesy! ignored",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !invertedfermata! ignored",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"nat\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"*\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"INE\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"gN\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized character: ",
+      "count": 2
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unrecognized character: ",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"mdjN\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \",dlt\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"an\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"r\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"us\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"-G-D\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !dacoda! ignored",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"mN\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"N♭N\"",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !gfrmbtb! ignored",
+      "count": 2
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"lternate\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"dim.\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !ENcN! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"aCapo\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"N?\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring string 'N' in K: field",
+      "count": 1
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Warning : Ignoring string 'N' in K: field",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !A,NAN! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ndantino\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"llegro\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ndante\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"dd\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"in\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !=cNcEN! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !=cNEN! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"lternativ\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !AN.fN! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : expecting SINGLE_BAR or REP_BAR preceding PLAY_ON_REP instead found MUSICLINE at N",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"m#N\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unknown mode 'Adf|aNaN'",
+      "count": 1
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unknown mode 'Adf|aNaN'",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"mjN\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized character: \u0014",
+      "count": 1
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unrecognized character: \u0014",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring string 'minor' in K: field",
+      "count": 1
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Warning : Ignoring string 'minor' in K: field",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"cGc\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"cag|^fdAd\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !gN! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"onald\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"irks\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"uld\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"liss\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unknown mode '\"C\"cBcd'",
+      "count": 1
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unknown mode '\"C\"cBcd'",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"al\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unknown mode ','",
+      "count": 1
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unknown mode ','",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !cNAc! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ontinues\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !AN)! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !AN! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !BN|{d}! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !eN! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !aN)! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !Dacapo! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized character: @",
+      "count": 1
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unrecognized character: @",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !eN-dBA/B/A-|AN-|! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !AN|zBcddJe-|! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !azN(Ng/a/a/JbN-|bNJb/>a/gN-|g{a}geJaN-|! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !BA/G/E/D/E/G/JAN-|AN-|! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"Ngf|\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"NANB|\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ran\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"fm\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"e'ud'\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !eN|zNf{a}g-|gfe{de}dcBAN|JBN-|BN-BNJcN-|! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !ezN{a}fNJ{a}g-|g{a}gfJg{a}gNf{a}f|eNf/e/de! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ack\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !pppp! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ND\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unknown mode 'mbj'",
+      "count": 1
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unknown mode 'mbj'",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : '\\' in middle of line ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : '\\' in middle of line ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring string '=B^f^c||' in K: field",
+      "count": 1
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Warning : Ignoring string '=B^f^c||' in K: field",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unknown mode 'A|(d/e/)(f/a/)'",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unknown mode 'N'",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unknown mode '|'",
+      "count": 1
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unknown mode 'A|(d/e/)(f/a/)'",
+      "count": 1
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unknown mode 'N'",
+      "count": 1
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : Unknown mode '|'",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"NsusN\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ABBABC\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"C..\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"EE\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"oN\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ODA:\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : Ignoring reserved character q",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \".S\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction !dcrmftf! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Broken rhythm not allowed in grace notes",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"reely\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"l\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \",mN\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"low'r\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ought\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ied\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"or\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"it\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"len\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ainst\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"d-\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"r-\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"á\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ird\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"huain\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"he\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"'an-\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ul\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"uairt\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"leann\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"cu\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ch\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"é-\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"omhnaigh\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"hí\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"éin\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"-bhann\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"oin\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"héill\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"n\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"háin\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ha\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"án\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"horn\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ubh\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"hroí\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"ro-\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"♯dim\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"tc.\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : nested { not allowed",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : whitespace in field declaration",
+      "count": 1
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Warning : whitespace in field declaration",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : invalid character `=' in Voice ID",
+      "count": 1
+    },
+    {
+      "parser": "abc2abc",
+      "message": "Error : invalid character `=' in Voice ID",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"majN\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Warning in line-char N-N : instruction ! roll! ignored",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"suN\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"NF\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"F\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"mNC\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"mn\"",
+      "count": 1
+    },
+    {
+      "parser": "abc2midi",
+      "message": "Error in line-char N-N : Unrecognized chord name \"G\"",
+      "count": 1
+    }
+  ],
+  "writes_to_source": false,
+  "unit_note_length": "1/8"
+}
