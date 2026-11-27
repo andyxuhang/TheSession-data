@@ -1,0 +1,34 @@
+[
+  {
+    "setting_id": "13158",
+    "tune_id": "357",
+    "source_url": "https://thesession.org/tunes/357#setting13158",
+    "rule": "note_length",
+    "bar": 1,
+    "before": "f/g/f/e d>B",
+    "after": "f/g/f/e/ d>B",
+    "old_token": "e",
+    "new_token": "e/",
+    "token_offset": 6,
+    "old_duration_eighths": "1",
+    "new_duration_eighths": "1/2",
+    "reference_ranges": [
+      [
+        "36839",
+        1,
+        1
+      ]
+    ],
+    "method": "Matching repeat structure and three following written measures",
+    "scan_pass": 1,
+    "changed_played_durations": 0,
+    "abcjs": {
+      "setting_id": "13158",
+      "passed": true,
+      "changed_note_durations": 2,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    },
+    "primary_duration_already_normalized": true
+  }
+]

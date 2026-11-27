@@ -1,0 +1,58 @@
+{
+  "base_commit": "a15ae414cbbbe5d29f5f001520beb58a3d34c164",
+  "method": "Matching written measures and independent checks of the intended note duration",
+  "scanner_sha256": "495c269c2748ecdcb025558ca876b8ea96c58bdc00af9c6a7ee598316c8c61e0",
+  "corrections": [
+    {
+      "tune_id": "357",
+      "setting_id": "13158",
+      "name": "Denis Murphy's",
+      "original_contributor": "chansherly212",
+      "source_url": "https://thesession.org/tunes/357#setting13158",
+      "category": "note_length",
+      "before_abc": "|:f/g/f/e d>B|AD FA|GE e>f|ed BA|\r\nf/g/f/e/ d>B|AD FA|GEe>f|ed d2:|\r\n|:Af f/e/f|Bg g/f/g|Af f/e/f|e/f/e/d/ BA|\r\nAf f/e/f|Bg ga|ba gc|ed d2:|",
+      "after_abc": "|:f/g/f/e/ d>B|AD FA|GE e>f|ed BA|\r\nf/g/f/e/ d>B|AD FA|GEe>f|ed d2:|\r\n|:Af f/e/f|Bg g/f/g|Af f/e/f|e/f/e/d/ BA|\r\nAf f/e/f|Bg ga|ba gc|ed d2:|",
+      "before_sha256": "ae0453c79ac9c2337434971be1021c2a8bca660dc19af01848113eca82688456",
+      "after_sha256": "df12c5bd93ce68297821779cd20e814d4405dba3e076b0ee182134bd2d7b43f3",
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 1,
+          "before": "f/g/f/e d>B",
+          "after": "f/g/f/e/ d>B",
+          "old_token": "e",
+          "new_token": "e/",
+          "token_offset": 6,
+          "old_duration_eighths": "1",
+          "new_duration_eighths": "1/2",
+          "reference_ranges": [
+            [
+              "36839",
+              1,
+              1
+            ]
+          ],
+          "method": "Matching repeat structure and three following written measures",
+          "scan_pass": 1,
+          "changed_played_durations": 0,
+          "abcjs": {
+            "setting_id": "13158",
+            "passed": true,
+            "changed_note_durations": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "primary_duration_already_normalized": true
+        }
+      ],
+      "edits": [
+        {
+          "start": 9,
+          "end": 9,
+          "text": "/"
+        }
+      ]
+    }
+  ],
+  "reference_lengths_sha256": "b36a100e3d12787865234f506647f876539bea85ac7b017d601cf745b4003f1c"
+}

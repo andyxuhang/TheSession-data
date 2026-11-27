@@ -1,7 +1,7 @@
 import unittest
 
 from check_playback import prepare_reference_duration
-from reference_lengths import scan_reference_lengths
+from reference_lengths import scan_opening_lengths, scan_reference_lengths
 from test_scan import row
 
 
@@ -9,6 +9,16 @@ class ReferenceLengthTests(unittest.TestCase):
     def scan(self, original, reference):
         data = [original,reference]
         return scan_reference_lengths(data,{r['setting_id']:r for r in data})[0]
+
+    def test_opening_reference_survives_a_later_correction(self):
+        body = '|:A2BCDEFGa|BCDEFGAB|CDEFGABc|DEFGABcd|EFGABcde|FGABcdef|GABcdefg|ABcdefga:|'
+        source = row(body,'1')
+        earlier = {**source,'abc':body.replace('FGABcdef|','FGABcdef2|',1)}
+        witness = {**row(body.replace('A2B','AB',1),'2'),'username':'witness'}
+        patches,_ = scan_opening_lengths([source,witness],{'1':earlier,'2':witness})
+        patch, = patches
+        self.assertEqual(patch['after_abc'],witness['abc'])
+        self.assertEqual(patch['evidence'][0]['bar'],1)
 
     def test_detached_duration_has_a_proven_playback_change(self):
         left = '|DEFGABcd|GABcdefg|'

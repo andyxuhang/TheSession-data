@@ -1,0 +1,21 @@
+{
+  "passes": [
+    {
+      "final_measures_compared": 97,
+      "missing_note": 1,
+      "settings": 55821,
+      "settings_with_proposals": 1,
+      "pass": 1,
+      "accepted": 1,
+      "rejected": 0
+    },
+    {
+      "final_measures_compared": 96,
+      "settings": 55821,
+      "settings_with_proposals": 0,
+      "pass": 2,
+      "accepted": 0
+    }
+  ],
+  "rejected_settings": 3
+}

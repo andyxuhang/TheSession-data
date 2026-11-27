@@ -27426,10 +27426,6 @@ gf ge|BB AB|zE>F G|1 A B/c/B/A/ B :|2 A B/c/B/A/ G | EF/E/ DB, ||"
 fdAD D/D/D FA|GECD EFGB|AGFD D/D/D FA|Bde^c d2 d:|
 |:f|gaba ad d/d/d|gc c/c/c gfeg|faba adfa|gceg fddf|
 gaba ad d/d/d|gc c/c/c gfeg|f2 af gceg|afge fdd:|"
-357,13158,Denis Murphy's,chansherly212,https://thesession.org/tunes/357#setting13158,"Pickup, ending or repeat boundary","[{""setting_id"": ""13158"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""9/2"", ""expected_eighths"": ""4"", ""fragment"": ""f/g/f/e d>B"", ""reason"": ""No unique supported correction""}]","|:f/g/f/e d>B|AD FA|GE e>f|ed BA|
-f/g/f/e/ d>B|AD FA|GEe>f|ed d2:|
-|:Af f/e/f|Bg g/f/g|Af f/e/f|e/f/e/d/ BA|
-Af f/e/f|Bg ga|ba gc|ed d2:|"
 357,13160,Denis Murphy's,ceolachan,https://thesession.org/tunes/357#setting13160,"Pickup, ending or repeat boundary","[{""setting_id"": ""13160"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""1/2"", ""expected_eighths"": ""4"", ""fragment"": ""e/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""13160"", ""bar"": 9, ""category"": ""irregular"", ""duration_eighths"": ""7/2"", ""expected_eighths"": ""4"", ""fragment"": ""ed d3/2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""13160"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""1/2"", ""expected_eighths"": ""4"", ""fragment"": ""B/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""13160"", ""bar"": 18, ""category"": ""irregular"", ""duration_eighths"": ""7/2"", ""expected_eighths"": ""4"", ""fragment"": ""ed d3/2"", ""reason"": ""No unique supported correction""}]","|:e/|f/g/f/e/ d/c/d/B/|AD FA|GE e>d|cB BA|
 f/g/f/e/ d/c/d/B/|AD FA|GE e>f|ed d3/2:|
 |:B/|Af f/^e/f|Ag g/f/g|Af f/^e/f|e/f/e/d/ BA|
@@ -96587,10 +96583,6 @@ F2E EDE|FEF DEF|AFE EFA|1 B3 BAG:|2 B3 d2B||
 |:ABd e2f|d2c B2A|AB/c/d edf|d2A B3|
 [1 ABd ede|fdB BAF|AFE EFA|B3 d2B:|
 [2 ABd efg|fdB BAF|FED EFA|d2e fdA||"
-515,31259,"Rolling Waves, The",JACKB,https://thesession.org/tunes/515#setting31259,"Pickup, ending or repeat boundary","[{""setting_id"": ""31259"", ""bar"": 17, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": "" d2 fdA"", ""reason"": ""No unique supported correction""}]","|:F2E EDE|F2D D3|F2E EFA|d2e fdA|
-F2E EDE|F2D D3|AFE EFA|B3 d2A:|
-|:ABd e2f|d2A B2A|ABd e2f|d2A B2A|
-ABd ede|fdB BAF|AFE EFA|1 B3 d3:|2 d2 fdA||"
 88,50076,"Rolling Waves, The",UPipes & harp,https://thesession.org/tunes/88#setting50076,"Pickup, ending or repeat boundary","[{""setting_id"": ""50076"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""6"", ""fragment"": ""AG"", ""reason"": ""No unique supported correction""}]","AG|:{A}FE{A}F ~D3 | {A}D2 d .cAG | {A}FE{A}F ~D3 | A{c}AF {A}GFE |
 {A}FE{A}F ~D3 | {A}D2 d .cAG | F3 GFG | A2 F {A}GFE :|
 {A} D2 d cAd | cAd cAG | ~F2 d cAd | ~A2 F {A}GFE |

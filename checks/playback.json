@@ -2689,6 +2689,45 @@
       }
     },
     {
+      "setting_id": "13158",
+      "passed": true,
+      "event_count": 144,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": true,
+      "changed_note_durations": 0,
+      "primary_duration_already_normalized": true,
+      "before_duration_quarter": 64.0,
+      "after_duration_quarter": 64.0,
+      "approved_written_changes": [
+        {
+          "note_index": 3,
+          "note_count": 6,
+          "before_measure": "f/g/f/e d>B",
+          "after_measure": "f/g/f/e/ d>B",
+          "pitch": "e",
+          "old_token": "e",
+          "new_token": "e/",
+          "before": 0.5,
+          "after": 0.25,
+          "written_occurrences": 1,
+          "old_start": 8,
+          "new_start": 8
+        }
+      ],
+      "played_occurrences": [
+        0
+      ],
+      "parser_normalized_or_unplayed_change": true,
+      "duration_delta_quarter": 0.0,
+      "abcjs": {
+        "setting_id": "13158",
+        "passed": true,
+        "changed_note_durations": 2,
+        "version": "abcjs-basic v6.5.2",
+        "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+      }
+    },
+    {
       "setting_id": "33582",
       "passed": true,
       "event_count": 215,
@@ -9446,6 +9485,23 @@
         "changed_played_pitches": 2,
         "before_warnings": 0,
         "after_warnings": 0,
+        "version": "abcjs-basic v6.5.2",
+        "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+      }
+    },
+    {
+      "setting_id": "31259",
+      "passed": true,
+      "event_count": 149,
+      "changed_note_occurrences": 1,
+      "inserted_playback_events": 1,
+      "inserted_token": "e",
+      "duration_delta_quarter": 0.5,
+      "abcjs": {
+        "setting_id": "31259",
+        "passed": true,
+        "changed_note_occurrences": 1,
+        "generated_chords_excluded": true,
         "version": "abcjs-basic v6.5.2",
         "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
       }

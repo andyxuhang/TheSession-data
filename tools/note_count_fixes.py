@@ -109,6 +109,12 @@ def supported_edit(score, i, index, transposed_index):
         return None
     if (target.left,target.right)!=('|','|') and not (contributors and longer_phrase):
         return None
+    return note_count_evidence(score, i, fragment, token, duration, refs, longer_phrase)
+
+
+def note_count_evidence(score, i, fragment, token, duration, refs, longer_phrase):
+    target = score.bars[i]
+    insert = target.duration < score.unit
     # Use an unambiguous whole-token change. Adjacent identical notes may
     # give two equivalent offsets, and the playback check accepts either.
     original = score.body[target.start:target.end]
@@ -130,9 +136,21 @@ def supported_edit(score, i, index, transposed_index):
         'midi':next(iter(midis)), 'possible_offsets':positions,
         'reference_ranges':sorted({(ref.id,j+1,j+1) for ref,j,_ in refs}),
         'transposed_references':sorted({ref.id for ref,_,transposed in refs if transposed}),
-        'corroborating_contributors':len(contributors),
-        'written_repeat':written_repeat, 'extra_matching_bar':longer_phrase,
+        'corroborating_contributors':len({ref.row['username'] for ref,_,_ in refs
+                                        if ref.row['username']!=score.row['username']}),
+        'written_repeat':any(ref.id==score.id for ref,_,_ in refs), 'extra_matching_bar':longer_phrase,
     }
+
+
+def single_bar_proposal(score, bar, evidence):
+    body = score.body
+    after = body[:bar.start]+evidence['after']+body[bar.end:]
+    row = score.row
+    return dict(tune_id=row['tune_id'],setting_id=score.id,name=row['name'],
+                original_contributor=row['username'],
+                source_url=f"https://thesession.org/tunes/{row['tune_id']}#setting{score.id}",
+                category=evidence['rule'],before_abc=body,after_abc=after,
+                before_sha256=sha(body),after_sha256=sha(after),evidence=[evidence])
 
 
 def scan_note_counts(data, upstream):
@@ -176,13 +194,64 @@ def scan_note_counts(data, upstream):
             if len(corrections)!=1:
                 continue
             bar,ev = corrections[0]
-            body = score.body
-            after = body[:bar.start]+ev['after']+body[bar.end:]
-            row = score.row
-            proposals.append(dict(tune_id=row['tune_id'],setting_id=score.id,name=row['name'],
-                original_contributor=row['username'],
-                source_url=f"https://thesession.org/tunes/{row['tune_id']}#setting{score.id}",
-                category=ev['rule'],before_abc=body,after_abc=after,
-                before_sha256=sha(body),after_sha256=sha(after),evidence=[ev]))
+            proposals.append(single_bar_proposal(score,bar,ev))
             stats[ev['rule']]+=1
     return proposals,dict(stats)
+
+
+def scan_final_notes(data, upstream):
+    """Check explicit endings with the same form and three exact preceding bars."""
+    groups = defaultdict(list)
+    for row in data:
+        original = upstream.get(row['setting_id'])
+        if (key_signature(row['mode']) is not None and original
+                and all(row[k] == original[k] for k in ('tune_id','mode','meter','type','abc'))):
+            groups[row['tune_id'],row['meter'],row['mode'],row['type']].append(row)
+    proposals, counts = [], Counter()
+    for group in groups.values():
+        if len({row['username'] for row in group}) < 2:
+            continue
+        index, targets = defaultdict(list), []
+        for row in group:
+            score = Score(row)
+            if not score.unit or len(score.bars) < 8 or not all(score.full[:-1]):
+                continue
+            bar = score.bars[-1]
+            if bar.error or bar.right not in ('||','|]',':|') or len(bar.events) < 3 or not plain_events(bar):
+                continue
+            preceding = tuple(compact(score.body[b.start:b.end]) for b in score.bars[-4:-1])
+            markers = tuple((b.left,b.right) for b in score.bars)
+            key = markers, preceding
+            if score.full[-1]:
+                index[key].append(score)
+            elif 0 < abs(bar.duration-score.unit) <= 2:
+                targets.append((score,key))
+        for score,key in targets:
+            i = len(score.bars)-1
+            bar = score.bars[i]
+            counts['final_measures_compared'] += 1
+            options, competing_duration = defaultdict(list), False
+            for ref in index.get(key, ()):
+                if ref.row['username'] == score.row['username']:
+                    continue
+                other = ref.bars[i]
+                if (tuple(e.pitch for e in bar.events) == tuple(e.pitch for e in other.events)
+                        and sum(a.duration!=b.duration for a,b in zip(bar.events,other.events)) == 1):
+                    competing_duration = True
+                    break
+                insert = bar.duration < score.unit
+                if len(other.events) != len(bar.events)+(1 if insert else -1):
+                    continue
+                edits = restore_note(score, bar, ref, other) if insert else trim_note(score, bar, ref, other)
+                for edit in edits:
+                    options[edit].append((ref,i,False))
+            if competing_duration or len(options) != 1:
+                continue
+            (fragment,token,duration),refs = next(iter(options.items()))
+            ev = note_count_evidence(score,i,fragment,token,duration,refs,True)
+            if ev is None:
+                continue
+            ev['method'] = 'Matching explicit ending, repeat structure, and three preceding written measures'
+            proposals.append(single_bar_proposal(score,bar,ev))
+            counts[ev['rule']] += 1
+    return proposals,dict(counts)

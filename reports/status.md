@@ -4,9 +4,9 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 
 | Status | Settings | Details |
 |---|---:|---|
-| Corrected | 588 | [fixed.csv](fixed.csv) |
+| Corrected | 589 | [fixed.csv](fixed.csv) |
 | Needs review | 3749 | [review.csv](review.csv) |
-| Pickups, endings and repeats | 24406 | [boundaries.csv](boundaries.csv) |
+| Pickups, endings and repeats | 24404 | [boundaries.csv](boundaries.csv) |
 | Unsupported syntax or empty melody | 6500 | [unsupported.csv](unsupported.csv) |
 | Playback or parser compatibility | 3469 | [playback.csv](playback.csv) |
 
@@ -17,12 +17,12 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 | Type | Corrections |
 |---|---:|
 | Missing barline | 332 |
-| Incorrect note length | 173 |
+| Incorrect note length | 174 |
 | Misplaced barline | 64 |
 | Incorrect accidental | 33 |
 | Incorrect octave | 26 |
 | Stray control character | 19 |
-| Omitted note | 14 |
+| Omitted note | 15 |
 | Stray notation symbol | 10 |
 | Incorrect melody note | 3 |
 | Incorrect broken-rhythm or tuplet mark | 2 |

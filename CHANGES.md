@@ -1,5 +1,11 @@
 # Changes
 
+## Opening and closing measures
+
+Shortened one note in the overfull opening measure of setting 13158 and restored a missing eighth note in the second ending of setting 31259. Each original reference has the same repeat structure and three neighboring measures. TradMate and abcjs confirmed the intended edits in full playback.
+
+See the [opening measure](checks/written-tune-start-edits.json) and [second ending](checks/written-tune-end-edits.json) for the original and corrected ABC and the reference setting numbers.
+
 ## Bar divisions and unmatched slurs
 
 Restored two missing barlines, removed two extra barlines, and removed two unmatched slur endings. The changes cover six settings of five tunes and five matching set entries. Original written passages support every edit.

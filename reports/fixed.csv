@@ -1444,7 +1444,7 @@ fg fg|eB c/B/A|Bz EE/F/|1 GA Bz:|2 GA B/c/B/A/||","|:F/G/E F/E/D|B,E Ez/G/|F/G/A
 GE F/E/D|B,E Ez/F/|GA B/c/B/A/|1 GF dF:|2 GF dz||
 |:Be e/f/e/d/|Be e/f/e/d/|Bd ef-|fg ef-|
 fg fg|eB c/B/A|Bz EE/F/|1 GA Bz:|2 GA B/c/B/A/||"
-357,13158,Denis Murphy's,chansherly212,https://thesession.org/tunes/357#setting13158,Incorrect note length,"[{""rule"": ""note_length"", ""bar"": 5, ""before"": ""\r\nf/g/f/e d>B"", ""after"": ""\r\nf/g/f/e/ d>B"", ""token_offset"": 8, ""old_token"": ""e"", ""new_token"": ""e/"", ""old_duration_eighths"": ""1"", ""new_duration_eighths"": ""1/2"", ""reference_ranges"": [[""36839"", 5, 5]], ""transposed_references"": [], ""corroborating_contributors"": 1, ""written_repeat"": false, ""extra_matching_bar"": true, ""scan_pass"": 1, ""changed_played_durations"": 0, ""abcjs"": {""setting_id"": ""13158"", ""passed"": true, ""changed_note_durations"": 2, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""primary_duration_already_normalized"": true}]","|:f/g/f/e d>B|AD FA|GE e>f|ed BA|
+357,13158,Denis Murphy's,chansherly212,https://thesession.org/tunes/357#setting13158,Incorrect note length,"[{""rule"": ""note_length"", ""bar"": 1, ""before"": ""f/g/f/e d>B"", ""after"": ""f/g/f/e/ d>B"", ""old_token"": ""e"", ""new_token"": ""e/"", ""token_offset"": 6, ""old_duration_eighths"": ""1"", ""new_duration_eighths"": ""1/2"", ""reference_ranges"": [[""36839"", 1, 1]], ""method"": ""Matching repeat structure and three following written measures"", ""scan_pass"": 1, ""changed_played_durations"": 0, ""abcjs"": {""setting_id"": ""13158"", ""passed"": true, ""changed_note_durations"": 2, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""primary_duration_already_normalized"": true}]","|:f/g/f/e/ d>B|AD FA|GE e>f|ed BA|
 f/g/f/e/ d>B|AD FA|GEe>f|ed d2:|
 |:Af f/e/f|Bg g/f/g|Af f/e/f|e/f/e/d/ BA|
 Af f/e/f|Bg ga|ba gc|ed d2:|","|:f/g/f/e d>B|AD FA|GE e>f|ed BA|
@@ -5084,6 +5084,13 @@ D2d cAe|fed =cAG|FAF GBG|A3 GFE:|","|:F3 D3|D2d cAG|F3 D3|ABA GFE|
 F3 D3|D2d cAG|FAF GBG|A2F GFE:|
 |:D2d cAd|cAd =cAG|F2d cAG|FAF GFE|
 D2d cAe|fed =cAG|FAF GBG|A3 GFE:|"
+515,31259,"Rolling Waves, The",JACKB,https://thesession.org/tunes/515#setting31259,Omitted note,"[{""rule"": ""missing_note"", ""bar"": 17, ""note_count_change"": 1, ""before"": "" d2 fdA"", ""after"": "" d2 efdA"", ""token"": ""e"", ""duration_eighths"": ""1"", ""midi"": 76, ""possible_offsets"": [4], ""reference_ranges"": [[""39019"", 17, 17]], ""transposed_references"": [], ""corroborating_contributors"": 1, ""written_repeat"": false, ""extra_matching_bar"": true, ""method"": ""Matching explicit ending, repeat structure, and three preceding written measures"", ""scan_pass"": 1, ""changed_note_occurrences"": 1, ""abcjs"": {""setting_id"": ""31259"", ""passed"": true, ""changed_note_occurrences"": 1, ""generated_chords_excluded"": true, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","|:F2E EDE|F2D D3|F2E EFA|d2e fdA|
+F2E EDE|F2D D3|AFE EFA|B3 d2A:|
+|:ABd e2f|d2A B2A|ABd e2f|d2A B2A|
+ABd ede|fdB BAF|AFE EFA|1 B3 d3:|2 d2 efdA||","|:F2E EDE|F2D D3|F2E EFA|d2e fdA|
+F2E EDE|F2D D3|AFE EFA|B3 d2A:|
+|:ABd e2f|d2A B2A|ABd e2f|d2A B2A|
+ABd ede|fdB BAF|AFE EFA|1 B3 d3:|2 d2 fdA||"
 4037,35537,Roly Gentle,Ian Varley,https://thesession.org/tunes/4037#setting35537,Incorrect accidental; Incorrect accidental,"[{""rule"": ""accidental_typo"", ""bar"": 11, ""note"": 2, ""before"": ""e^c A2 AG"", ""after"": ""ec A2 AG"", ""before_midi"": 73, ""after_midi"": 72, ""reference_ranges"": [[""10467"", 12, 12], [""10467"", 20, 20], [""16858"", 12, 12], [""16858"", 20, 20], [""4037"", 10, 10], [""4037"", 18, 18]], ""corroborating_contributors"": 2, ""written_repeat"": false, ""extra_matching_bar"": true, ""isolated_octave_jump"": false, ""scan_pass"": 1}, {""rule"": ""accidental_typo"", ""bar"": 19, ""note"": 2, ""before"": ""e^c A2 AG"", ""after"": ""ec A2 AG"", ""before_midi"": 73, ""after_midi"": 72, ""reference_ranges"": [[""10467"", 12, 12], [""10467"", 20, 20], [""16858"", 12, 12], [""16858"", 20, 20], [""4037"", 10, 10], [""4037"", 18, 18]], ""corroborating_contributors"": 2, ""written_repeat"": false, ""extra_matching_bar"": true, ""isolated_octave_jump"": false, ""scan_pass"": 1}]","D2 DE FA|:f2 fe dc|A2 AG Ac|E2 ED EF|
 D2 DF Ad|^c2 cA GE|A2 dA GE|1 D3 E FA:|2 D2 DA B^c||
 d2 de fd|ec A2 AG|F2 FEFA|EA FA EA|

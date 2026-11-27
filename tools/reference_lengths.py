@@ -5,7 +5,7 @@ import re
 
 from matching_phrases import (Score, compact, matches_more_transposed_music, normalize_note_names,
                               relative_phrase_key, separate_occurrence)
-from note_count_fixes import phrase_key
+from note_count_fixes import phrase_key, single_bar_proposal
 from scan import NOTE, measures, parse_bar, sha
 from syntax_fixes import edits_for_measure, extends_phrase
 from pitch_fixes import key_signature
@@ -194,3 +194,54 @@ def scan_reference_lengths(data, upstream, rejected=()):
     revisited = revisit_duration_edits(data,rejected,{p['setting_id'] for p in proposals})
     stats['deferred_settings_compared'] = len(revisited)
     return proposals+revisited,dict(stats)
+
+
+def scan_opening_lengths(data, upstream):
+    """Resolve overfull opening measures using the same written form and phrase."""
+    groups = defaultdict(list)
+    for row in data:
+        original = upstream.get(row['setting_id'])
+        if (key_signature(row['mode']) is not None and original
+                and all(row[k] == original[k] for k in ('tune_id','mode','meter','type'))):
+            groups[row['tune_id'],row['meter'],row['mode'],row['type']].append(row)
+    proposals, counts = [], Counter()
+    for group in groups.values():
+        if len({row['username'] for row in group}) < 2:
+            continue
+        index, targets = defaultdict(list), []
+        for row in group:
+            score = Score(row)
+            if not score.unit or len(score.bars) < 8 or not all(score.full[1:]):
+                continue
+            bar = score.bars[0]
+            if bar.error or bar.left not in ('','|','|:') or len(bar.events) < 3:
+                continue
+            original = upstream[score.id]['abc']
+            following = tuple(compact(score.body[b.start:b.end]) for b in score.bars[1:4])
+            markers = tuple((b.left,b.right) for b in score.bars)
+            key = markers, following
+            if score.full[0]:
+                if original == score.body:
+                    index[key].append(score)
+            elif (0 < bar.duration-score.unit <= 2
+                  and original.startswith(score.body[:score.bars[3].end])):
+                targets.append((score,key))
+        for score,key in targets:
+            bar = score.bars[0]
+            counts['opening_measures_compared'] += 1
+            options = defaultdict(list)
+            for ref in index.get(key, ()):
+                if ref.row['username'] == score.row['username']:
+                    continue
+                for edit in recognized_readings(score,0,ref,0):
+                    options[edit].append(ref)
+            if len(options) != 1:
+                continue
+            (fragment,old,new,at,before,after,rule),refs = next(iter(options.items()))
+            evidence = dict(rule=rule,bar=1,before=score.body[bar.start:bar.end],after=fragment,
+                old_token=old,new_token=new,token_offset=at,old_duration_eighths=before,new_duration_eighths=after,
+                reference_ranges=sorted((ref.id,1,1) for ref in refs),
+                method='Matching repeat structure and three following written measures')
+            proposals.append(single_bar_proposal(score,bar,evidence))
+            counts[rule] += 1
+    return proposals,dict(counts)

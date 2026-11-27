@@ -1,0 +1,40 @@
+[
+  {
+    "setting_id": "31259",
+    "tune_id": "515",
+    "source_url": "https://thesession.org/tunes/515#setting31259",
+    "rule": "missing_note",
+    "bar": 17,
+    "note_count_change": 1,
+    "before": " d2 fdA",
+    "after": " d2 efdA",
+    "token": "e",
+    "duration_eighths": "1",
+    "midi": 76,
+    "possible_offsets": [
+      4
+    ],
+    "reference_ranges": [
+      [
+        "39019",
+        17,
+        17
+      ]
+    ],
+    "transposed_references": [],
+    "corroborating_contributors": 1,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "method": "Matching explicit ending, repeat structure, and three preceding written measures",
+    "scan_pass": 1,
+    "changed_note_occurrences": 1,
+    "abcjs": {
+      "setting_id": "31259",
+      "passed": true,
+      "changed_note_occurrences": 1,
+      "generated_chords_excluded": true,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    }
+  }
+]

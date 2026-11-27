@@ -1,0 +1,64 @@
+{
+  "base_commit": "a15ae414cbbbe5d29f5f001520beb58a3d34c164",
+  "method": "Matching written phrases and independent verification of an individual note count change",
+  "scanner_sha256": "495c269c2748ecdcb025558ca876b8ea96c58bdc00af9c6a7ee598316c8c61e0",
+  "corrections": [
+    {
+      "tune_id": "515",
+      "setting_id": "31259",
+      "name": "Rolling Waves, The",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/515#setting31259",
+      "category": "missing_note",
+      "before_abc": "|:F2E EDE|F2D D3|F2E EFA|d2e fdA|\r\nF2E EDE|F2D D3|AFE EFA|B3 d2A:|\r\n|:ABd e2f|d2A B2A|ABd e2f|d2A B2A|\r\nABd ede|fdB BAF|AFE EFA|1 B3 d3:|2 d2 fdA||",
+      "after_abc": "|:F2E EDE|F2D D3|F2E EFA|d2e fdA|\r\nF2E EDE|F2D D3|AFE EFA|B3 d2A:|\r\n|:ABd e2f|d2A B2A|ABd e2f|d2A B2A|\r\nABd ede|fdB BAF|AFE EFA|1 B3 d3:|2 d2 efdA||",
+      "before_sha256": "69699504b7c81005f8a7f7669a91d77c397b01ea5e208dcdcd004502239bbd2e",
+      "after_sha256": "b78f253faa13d97020f979f9c28703ab4e61685791b607f6a2bf98dc439c9182",
+      "evidence": [
+        {
+          "rule": "missing_note",
+          "bar": 17,
+          "note_count_change": 1,
+          "before": " d2 fdA",
+          "after": " d2 efdA",
+          "token": "e",
+          "duration_eighths": "1",
+          "midi": 76,
+          "possible_offsets": [
+            4
+          ],
+          "reference_ranges": [
+            [
+              "39019",
+              17,
+              17
+            ]
+          ],
+          "transposed_references": [],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "method": "Matching explicit ending, repeat structure, and three preceding written measures",
+          "scan_pass": 1,
+          "changed_note_occurrences": 1,
+          "abcjs": {
+            "setting_id": "31259",
+            "passed": true,
+            "changed_note_occurrences": 1,
+            "generated_chords_excluded": true,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 142,
+          "end": 142,
+          "text": "e"
+        }
+      ]
+    }
+  ],
+  "written_note_scanner_sha256": "27d7859bd48ca99cbb4963534a434eabea839080490c872315b7975ba733b44a"
+}

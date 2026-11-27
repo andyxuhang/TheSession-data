@@ -13,11 +13,11 @@ import tempfile
 
 from matching_phrases import scan_phrases
 from missing_notes import scan_missing_notes
-from note_count_fixes import scan_note_counts
+from note_count_fixes import scan_final_notes, scan_note_counts
 from notation_structure import scan_structures
 from phrase_lengths import scan_lengths
 from pitch_fixes import PITCH_RULES, scan_pitches
-from reference_lengths import scan_reference_lengths
+from reference_lengths import scan_opening_lengths, scan_reference_lengths
 from syntax_fixes import SYNTAX_RULES, scan_syntax
 from transposed_pitches import scan_transposed_pitches
 from scan import ROOT, measures, rows, scan, sha, unique_settings
@@ -118,14 +118,19 @@ def main():
     mode.add_argument('--pitches', action='store_true', help='Check accidentals and octaves in fully metered passages')
     mode.add_argument('--syntax', action='store_true', help='Check stray notation and split note tokens')
     mode.add_argument('--note-counts', action='store_true', help='Compare omitted and extra written notes')
+    mode.add_argument('--final-notes', action='store_true', help='Check omitted and extra notes in explicit tune endings')
     mode.add_argument('--reference-lengths', action='store_true', help='Check durations against matching phrases at section and repeat boundaries')
+    mode.add_argument('--opening-lengths', action='store_true', help='Check durations in overfull opening measures')
     mode.add_argument('--transposed-pitches', action='store_true', help='Compare isolated pitches across equivalent transposed phrases')
     mode.add_argument('--structures', action='store_true', help='Match bar divisions and slur punctuation at written boundaries')
     args = parser.parse_args()
     pitch_mode = args.pitches or args.transposed_pitches
-    cross_checked = pitch_mode or args.syntax or args.note_counts or args.reference_lengths or args.structures
+    note_counts = args.note_counts or args.final_notes
+    reference_lengths = args.reference_lengths or args.opening_lengths
+    cross_checked = pitch_mode or args.syntax or note_counts or reference_lengths or args.structures
     separate_scan = args.phrases or args.missing_notes or cross_checked
-    plan_name = ('written-structure' if args.structures else 'written-rhythm' if args.reference_lengths
+    plan_name = ('written-tune-start' if args.opening_lengths else 'written-tune-end' if args.final_notes
+                 else 'written-structure' if args.structures else 'written-rhythm' if args.reference_lengths
                  else 'written-note' if args.note_counts
                  else 'syntax' if args.syntax else 'pitch' if pitch_mode else 'notation')
     lengths = args.lengths or args.parallel_lengths
@@ -145,8 +150,12 @@ def main():
             if separate_scan:
                 if args.structures:
                     scanner = lambda records,refs: scan_structures(records,refs,earlier_rejections)
+                elif args.opening_lengths:
+                    scanner = scan_opening_lengths
                 elif args.reference_lengths:
                     scanner = lambda records,refs: scan_reference_lengths(records,refs,earlier_rejections)
+                elif args.final_notes:
+                    scanner = scan_final_notes
                 elif args.note_counts:
                     scanner = scan_note_counts
                 elif args.syntax:
@@ -202,12 +211,12 @@ def main():
                 accepted += 1
                 for evidence in patch['evidence']:
                     evidence['scan_pass'] = attempt
-                    if args.reference_lengths:
+                    if reference_lengths:
                         evidence['changed_played_durations'] = outcomes[sid]['changed_note_durations']
                         evidence['abcjs'] = outcomes[sid]['abcjs']
                         if outcomes[sid].get('primary_duration_already_normalized'):
                             evidence['primary_duration_already_normalized'] = True
-                    if args.note_counts:
+                    if note_counts:
                         evidence['changed_note_occurrences'] = outcomes[sid]['changed_note_occurrences']
                         evidence['abcjs'] = outcomes[sid]['abcjs']
                     if args.structures:
@@ -264,10 +273,10 @@ def main():
         if pitch_mode:
             plan['method'] = 'Independent matching written phrases and verified single-note pitch changes'
             plan['pitch_scanner_sha256'] = hashlib.sha256((ROOT/'tools/pitch_fixes.py').read_bytes()).hexdigest()
-        if args.reference_lengths:
+        if reference_lengths:
             plan['method'] = 'Matching written measures and independent checks of the intended note duration'
             plan['reference_lengths_sha256'] = hashlib.sha256((ROOT/'tools/reference_lengths.py').read_bytes()).hexdigest()
-        if args.note_counts:
+        if note_counts:
             plan['method'] = 'Matching written phrases and independent verification of an individual note count change'
             plan['written_note_scanner_sha256'] = hashlib.sha256((ROOT/'tools/note_count_fixes.py').read_bytes()).hexdigest()
         if args.structures:
@@ -286,7 +295,8 @@ def main():
             if key.endswith('_scanner_sha256'):
                 plan.setdefault(key, value)
         dump(work/'fixes.json',plan)
-        final = playback(work/'fixes.json',work/'final-check.json',args,False,cross_check=args.structures)
+        final = playback(work/'fixes.json',work/'final-check.json',args,False,
+                         cross_check=args.structures or args.final_notes or args.opening_lengths)
         args.output.mkdir(parents=True,exist_ok=True)
         dump(args.output/'proposed-fixes.json',plan)
         if separate_scan:
@@ -317,7 +327,7 @@ def main():
                         if all((e['rule'],e['bar'],e['before'],e['after']) in verified
                                for e in (entry['edit'] for entry in old['bars'])):
                             continue
-                    if (args.note_counts or args.reference_lengths) and old['setting_id'] in collected:
+                    if (note_counts or args.reference_lengths) and old['setting_id'] in collected:
                         accepted = collected[old['setting_id']]
                         earlier = old.get('proposal', {})
                         if (earlier.get('after_sha256') == accepted['after_sha256']
