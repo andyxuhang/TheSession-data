@@ -6530,8 +6530,8 @@ Bee edB|def afd|edB AFA|BEE E3:|"
 ged B2 A|BGE G2 A|(3Bcd B AGA|1 BGF G2 f:|2 BGF G2 B||
 |:def gfg|eaa eaa|bag e2d|egg egf|
 ged B2 A|BGE G2 A|(3Bcd B AGA|1 BGF G2 B:|2 BGF G2 f||"
-901,"2016-03-03 14:09:16",100920,piccolopete,3,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+901,"2016-03-03 14:09:16",100920,piccolopete,3,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 902,"2016-03-03 14:29:55",102550,giuthas,1,"Waltz For Kylin",13266,23147,waltz,3/4,Dmajor,"|:FE|D3F A>B|A4 d>e|f>e d>f e>d|B4 Bc|
@@ -62683,8 +62683,8 @@ Bee fee|aee fee|Bee fee|a2g fed|
 Bee fee|aee fee|gfe d2A|BAG FGA|
 Bee fee|aee fee|Bee fee|faf def|
 g3 gfe|def g2d|edc d2A|BAG FED|"
-7245,"2017-04-20 12:27:02",102930,"Alister Thomson",2,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+7245,"2017-04-20 12:27:02",102930,"Alister Thomson",2,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 7246,"2017-04-20 12:44:58",102930,"Alister Thomson",1,"Kerfunten, The",139,139,jig,6/8,Dmajor,"|:F3 FED|FGA Bcd|A2 B BAF|~E3 EDE|
@@ -64725,7 +64725,7 @@ e2 f fge|d2 B BAG|A2 B cBA|Bee dBA:|"
 7463,"2017-05-07 03:00:49",88040,CarolynF,1,"New Broom, The",1726,15152,barndance,4/4,Gmajor,"|:G3 B d2 Bd|e/g/e dB d2 BA|GFGA B2 AG|A2 E2 E2 (3DEF|
 G3 B d2 Bd|e/g/e dB d2 Bd|edge dBAc|B2 G2 G2:|
 b2 ba g3 a|bgag e/g/e d2|edge dBGA|
-1 BAAG A2 ga|b2 ba g3 a|bgag e/g/e d2|edge dBAc|B2 G2 G2:|
+ BAAG A2 ga|b2 ba g3 a|bgag e/g/e d2|edge dBAc|B2 G2 G2:|
 2 BAAG AcBA|G3 B d2 Bd|e/g/e dB d2Bd|edge dBAc|B2 G2 G2||
 |:G2 G2 d2 B>d|e2 d>B d2 B>A|G2 G>A B2 A>G|A2 E2 E4|
 G2 G>B (3ded (3Bcd|e2 d>B d2 (3Bcd|e>dg>e d>BA>d|B2 G2 G4:|
@@ -81475,7 +81475,7 @@ d2 d>c d>A (3Bcd|(3efe e>^d e2 (3gfe|(3ded c>A B>AF>E|F2 D2 D2:|
 9339,"2017-09-12 12:21:10",47281,"Séamus (Uill Wind)",2,"New Broom, The",1726,15152,barndance,4/4,Gmajor,"|:G3 B d2 Bd|e/g/e dB d2 BA|GFGA B2 AG|A2 E2 E2 (3DEF|
 G3 B d2 Bd|e/g/e dB d2 Bd|edge dBAc|B2 G2 G2:|
 b2 ba g3 a|bgag e/g/e d2|edge dBGA|
-1 BAAG A2 ga|b2 ba g3 a|bgag e/g/e d2|edge dBAc|B2 G2 G2:|
+ BAAG A2 ga|b2 ba g3 a|bgag e/g/e d2|edge dBAc|B2 G2 G2:|
 2 BAAG AcBA|G3 B d2 Bd|e/g/e dB d2Bd|edge dBAc|B2 G2 G2||
 |:G2 G2 d2 B>d|e2 d>B d2 B>A|G2 G>A B2 A>G|A2 E2 E4|
 G2 G>B (3ded (3Bcd|e2 d>B d2 (3Bcd|e>dg>e d>BA>d|B2 G2 G4:|
@@ -219884,10 +219884,10 @@ Gfge ~d2Bd|gfge fgag|(3bag (3agf gedB|cBAG FGAB||
 Bdgd edgd|(3Bcd gd BG (3GGG|(3ABc gc acgc|(3ABc gc BG (3GGG|
 Bdgd edgd|(3Bcd ef ~g3a|(3bag (3agf gedB|cBAG FGAB||[B,4G4]||"
 23900,"2020-02-29 13:39:38",116473,"Eric M",1,"Black Frog, The",5370,17554,jig,6/8,Dmajor,"|:DD/D/D DEF|ED/D/B, DB,/B,/A,|DE/D/D DEF|ABA =F^FA|
-1 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|
+ d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|
 2 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DBc||
 [Dd]fa gec|fdB ecA|GAB AB/B/c|def ecA|
-1 aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|
+ aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|
 2 aa/a/a agf|gg/g/g gfe|fdB ecA|dA/A/F BGE||"
 23900,"2020-02-29 13:39:38",116473,"Eric M",2,"Sanctuary, The",5374,21620,jig,6/8,Amajor,"|:EFA ABc|ecA gaf|ecA ABc|~B3 BAF|
 EFA ABc|ecA gaf|ecA ABc|~B3 AAF:|
@@ -223502,8 +223502,8 @@ fdA DFA|GBd g2g|fef gec|1 edc dfg:|2 edc d3||"
 d2A A2F|GAB A2A|Bcd efg|Adc d2d:|
 |:e2A A2f|efg ~f2f|efg fed|cde A2A|
 BGB AFA|BGB AFA|Bcd efg|Adc d2d:|"
-24312,"2020-03-19 12:19:44",86879,nervouswoman,1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+24312,"2020-03-19 12:19:44",86879,nervouswoman,1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 24312,"2020-03-19 12:19:44",86879,nervouswoman,2,"Humours Of Glendart, The",45,27793,jig,6/8,Dmajor,"|:BAF ADD|FEF DFA|BAF ADD|FEE EFA|
@@ -226635,7 +226635,7 @@ FGGF GdcA|G2AG FGAc|dg~g2 fgag|fdcA G4:|"
 (3ggg (3aaa bgaf|gfed BcdB|(3ccc cA (3BBB BG|ABcd edBd|
 [1 (3ggg (3aaa bgaf|gfed BcdB|cBAc BAGB|AGFA G3:|
 [2 (3GGG GD EGDE|(3GGG (3BBB (3ddd gd|eged BcdB|cAFA G3||"
-24655,"2020-04-02 14:51:10",133390,"Jude C",3,Breakout,2283,2283,jig,6/8,Dminor,"|:D2 A AGF|E2 c c3|DAA AGF|/E/F/GE EDC|
+24655,"2020-04-02 14:51:10",133390,"Jude C",3,Breakout,2283,2283,jig,6/8,Dminor,"|:D2 A AGF|E2 c c3|DAA AGF|E/F/GE EDC|
 D2 A AGF|E2 c c2 d/e/|fed cAe|1 ~d3 d2z:|2 ~d3 d2 d/e/||
 f2 f fgf|e^cA e^cA|~d3 dcB|ABG A3|
 Add def|Aee efg|afd ^cAe|~d3 d2 d/e/|
@@ -231277,8 +231277,8 @@ gfg e/f/ge|dBG AGE|DEG AGA|BGG G2:|
 |:d|edd gdd|edd gdB|def gfg|edB AGE|
 [1 gfg e/f/ge|dBG AGE|DGG A/B/cA|BGG G2:|
 [2 gfg aga|bge edB|GFG A/B/cA|BGG G2||"
-25200,"2020-05-01 08:54:00",86879,nervouswoman,2,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+25200,"2020-05-01 08:54:00",86879,nervouswoman,2,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 25202,"2020-05-01 09:50:06",86879,nervouswoman,1,"Humours Of Lisheen, The",1600,1600,jig,6/8,Gmajor,"d|:efg edB|c2A BGE|GFG BdB|BAG ABd|
@@ -240132,8 +240132,8 @@ e>dc2ca|fed2A2|e>fg2gB|cA d2 A2:|
 e>dc2ca|fed2A2|e>fg2gB|1 cA d2 A2:|2 cA d2 d2||
 |:c>B A2 Ac|eg f2 d2|c>B A2 Ac|e<a f2 eA|
 d>f a2 fa|g/>f/e/>d/ c2 B2|e>f g2 gB|cA d2 d2:|"
-25844,"2020-06-01 16:03:48",82016,Harbo,2,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+25844,"2020-06-01 16:03:48",82016,Harbo,2,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 25844,"2020-06-01 16:03:48",82016,Harbo,3,"Kenny Gilles Of Portnalong",1875,1875,jig,6/8,Amajor,"|:e|AAA e2c|efa f2e|faa AAA|fec cBB|
@@ -253826,8 +253826,8 @@ e3 A3|d2e fed|A2e efg|dBG A3:|"
 fga efg|~f3 dBA|Bdd d2 A|1 Bdc d3:|2 Bdc d2 e||
 |:~f3 ede|~f3 dBA|Bee e2 (d|B)ee (efg)|
 ~f3 ede|~f3 dBA|Bdd d2 (A|B)dc d2e:|"
-27270,"2020-08-22 13:01:46",59459,"Groft van Moor",3,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+27270,"2020-08-22 13:01:46",59459,"Groft van Moor",3,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 27271,"2020-08-22 14:50:26",98205,GarryR,1,"Coen's Memories",558,558,reel,4/4,Edorian,"|:B,EED EFGA|B2 ec dBAF|D3 F EFDB,|A,DFD EDB,A,|
@@ -260274,8 +260274,8 @@ bf f2 af f2|afef dB B2|A2 FA dfef|1 dBAF ADD2:|2 dBAF ADDB||"
 E2A ABc|Bee e2d|cBA BA^G|1 A3 A2D:|2 A3 A2B||
 |:c2c cBA|Bgg g2^g|aed cBA|^GAB E2E|
 AEA BEB|cde fed|cBA E^FG|1 A3 A2B:|2 A3 A2D||"
-28008,"2020-10-09 20:35:16",132953,Fermate,2,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+28008,"2020-10-09 20:35:16",132953,Fermate,2,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 28008,"2020-10-09 20:35:16",132953,Fermate,3,"Mac's Fancy",2724,2724,jig,6/8,Amixolydian,"|:eAA fed|eAA A2f|eAA gfe|dBG GBd|
@@ -384756,8 +384756,8 @@ fdfa (3ggg ag|fdfa (3ggg ag|fd=cA BG (3GGG|1 ABcA [d3DA3] g:|2 ABcA dBAF||"
 41391,"2022-05-31 08:55:35",142609,"Technik Honk",3,"Farewell To Whalley Range",2410,2410,"slip jig",9/8,Amajor,"|:F2c BA~F- F2E|F2c BAc fec|B3 BAB c2A|1 ~B3 BAB cBA:|2 ~B3 BAB cef||
 a3 fec fec|B3 BAB cef|a3 baf afe|fec Bce fec|
 a2f fec fec|B3 BAB cef|a3 baf afe|fec fec BAB||"
-41392,"2022-05-31 09:16:26",142609,"Technik Honk",1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+41392,"2022-05-31 09:16:26",142609,"Technik Honk",1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 41393,"2022-05-31 09:28:59",146235,Maïté,1,"Tam Lin",248,248,reel,4/4,Dminor,"|:A,2DA, FA,DA,|B,2DB, FB,DB,|C2EC GCEC|FEDC A,DDC|
@@ -400528,7 +400528,7 @@ d2fd c2ec|defg afge|afge fded|BABc dAFD|"
 G2 GD EDB,D|GFGB d2 Bd|eged BAGA|1 BAGE EDDE:|2 BAGE ED D2||
 |:eaag efge|dBBA B2 Bd|eB ~B2 gBfB|eBBA B2 Bd|
 eaag efge|dBBA B2 Bd|eged BAGA|1 BAGE EDD2:|2 BAGE EDDE||"
-42999,"2022-07-22 19:15:23",6980,"Cach Mhor Fiddler",1,Breakout,2283,2283,jig,6/8,Dminor,"|:D2 A AGF|E2 c c3|DAA AGF|/E/F/GE EDC|
+42999,"2022-07-22 19:15:23",6980,"Cach Mhor Fiddler",1,Breakout,2283,2283,jig,6/8,Dminor,"|:D2 A AGF|E2 c c3|DAA AGF|E/F/GE EDC|
 D2 A AGF|E2 c c2 d/e/|fed cAe|1 ~d3 d2z:|2 ~d3 d2 d/e/||
 f2 f fgf|e^cA e^cA|~d3 dcB|ABG A3|
 Add def|Aee efg|afd ^cAe|~d3 d2 d/e/|
@@ -525698,8 +525698,8 @@ e3 A3|d2e fed|A2e efg|dBG A3:|"
 fga efg|~f3 dBA|Bdd d2 A|1 Bdc d3:|2 Bdc d2 e||
 |:~f3 ede|~f3 dBA|Bee e2 (d|B)ee (efg)|
 ~f3 ede|~f3 dBA|Bdd d2 (A|B)dc d2e:|"
-56137,"2023-04-20 06:31:29",158620,"A McColl",3,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+56137,"2023-04-20 06:31:29",158620,"A McColl",3,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 56138,"2023-04-20 07:43:29",142652,"Carlo Hilsdorf",1,"Johnny's Wedding",5713,5713,reel,4/4,Dminor,"|:DE|FDAD FDDF|ECGC ECCE|FDAD FDDF|E^CG,C D2 DE|
@@ -583229,8 +583229,8 @@ DED DFA|BAF d2e|faf ede|1 fdd d2 e:|2 fdd d2 D||"
 dBG AGE|D3 GED|GAB dBA|BGF G2 e:|
 |:ded dB/c/d|efe e2d|e3 b2g|aba aef|
 g2e dBA|B3 GED|GAB dBA|BGF G2:|"
-62150,"2023-08-14 12:40:51",22964,harryon,4,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+62150,"2023-08-14 12:40:51",22964,harryon,4,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 62151,"2023-08-14 13:14:06",142086,Bigben73,1,"Three Little Steps",9907,9907,jig,6/8,Dmajor,"|:dcA ~F2A|GAD ~D2A|DED ABB|AFE EFA|
@@ -614356,10 +614356,10 @@ Bc|""G""d2 d2 d2|de dB AB|""C""G2 g2 g2|""D7""g4 ed|
 |:""Am""eaa age|""G""dBA G2A|""Em"" Bee edB|""D""def ""G""gfg|
 ""Am""eaa age|""G""dBA G2A|""Em""Bee edB|1 ""G""dBA ""Am""A2d:|2 ""G""dBA ""A""A3||"
 65395,"2023-10-07 14:34:36",145153,Makenzie,1,"Black Frog, The",5370,17554,jig,6/8,Dmajor,"|:DD/D/D DEF|ED/D/B, DB,/B,/A,|DE/D/D DEF|ABA =F^FA|
-1 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|
+ d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|
 2 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DBc||
 [Dd]fa gec|fdB ecA|GAB AB/B/c|def ecA|
-1 aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|
+ aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|
 2 aa/a/a agf|gg/g/g gfe|fdB ecA|dA/A/F BGE||"
 65395,"2023-10-07 14:34:36",145153,Makenzie,2,"Sanctuary, The",5374,21620,jig,6/8,Amajor,"|:EFA ABc|ecA gaf|ecA ABc|~B3 BAF|
 EFA ABc|ecA gaf|ecA ABc|~B3 AAF:|
@@ -640517,10 +640517,10 @@ FAAB AFED|FAAB ABde|fBBA BcdB|AFEF D4:|
 |:faab afde|fdad fd d2|efga beef|gebe gfeg|
 fgaf bfaf|defd e2 de|fBBA BcdB|AFEF D4:|"
 68117,"2023-11-25 16:22:05",70924,Cushla,1,"Black Frog, The",5370,17554,jig,6/8,Dmajor,"|:DD/D/D DEF|ED/D/B, DB,/B,/A,|DE/D/D DEF|ABA =F^FA|
-1 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|
+ d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|
 2 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DBc||
 [Dd]fa gec|fdB ecA|GAB AB/B/c|def ecA|
-1 aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|
+ aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|
 2 aa/a/a agf|gg/g/g gfe|fdB ecA|dA/A/F BGE||"
 68117,"2023-11-25 16:22:05",70924,Cushla,2,"Lisnagun, The",3842,16770,jig,6/8,Amajor,"AFE A3|Bce c3|Bce cBA|BAF AFE|
 AFE A3|Bce c3|Bce cBA|1 BAF A3:|2 BAF ABe||
@@ -705248,8 +705248,8 @@ dcA AGE|GED D2E|GEE cEE|GED D3:|
 dcA ecA|dcA ecA|GEE cBc|GAB cde|
 [1 dcA ecA|dcA ecA|GEE cEE|GED D3:|
 [2 dcA AGE|GED D2E|GEE cEE|GED D3||"
-74500,"2024-03-02 20:31:09",144635,maevecw,3,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+74500,"2024-03-02 20:31:09",144635,maevecw,3,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 74501,"2024-03-02 20:33:51",144635,maevecw,1,"Çhyndaa Yn Bwoailley",12952,22209,polka,2/4,Dmajor,"A|AFAF A2 AF|AdAF A3A|AFGE FDDF|EDDC DEFG|
@@ -738803,8 +738803,8 @@ d2 g gfg|a2 g fga|g2 f d2 e|fed c2 e|
 d2 c Bcd|c2 B G2 A|BAG GFG|A2 G F2 E|
 D2 G GFG|A2 G FGA|B2 G GFG|Ade f2 e|
 d2 e c2 A|BAG FGA|BdB cAF|~G3 G2 E||"
-77794,"2024-04-24 18:34:19",142152,"Nick W",24,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+77794,"2024-04-24 18:34:19",142152,"Nick W",24,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 77795,"2024-04-24 19:03:44",10097,"Thierry Masure",1,"Michael Gaffney's",3567,3567,barndance,4/4,Dmajor,"|:e/|(3fed A2 (3fed (3ABc|(3dcd b>f a4|(3gfe B2 (3gfe B2|c>d (3edc A4|
@@ -742955,7 +742955,7 @@ eaag ageg|ageg a3 f|gd d2 eggd|^cdgd eggd|
 eaag ageg|ageg a3 f|gd d2 efge|dBgB A4|
 eaag ageg|ageg a3 f|gd d2 eggd|^cdgd eggd|
 cA A2 A2 cA|A2 cA agef|gd d2 efge|dBgB A4||"
-78263,"2024-05-02 13:13:50",155613,whitleybayboy,1,Breakout,2283,2283,jig,6/8,Dminor,"|:D2 A AGF|E2 c c3|DAA AGF|/E/F/GE EDC|
+78263,"2024-05-02 13:13:50",155613,whitleybayboy,1,Breakout,2283,2283,jig,6/8,Dminor,"|:D2 A AGF|E2 c c3|DAA AGF|E/F/GE EDC|
 D2 A AGF|E2 c c2 d/e/|fed cAe|1 ~d3 d2z:|2 ~d3 d2 d/e/||
 f2 f fgf|e^cA e^cA|~d3 dcB|ABG A3|
 Add def|Aee efg|afd ^cAe|~d3 d2 d/e/|
@@ -761286,8 +761286,8 @@ Adde f2ge|dged cAA2|fefa g2g2|eage d3z:|"
 ~B3 d edge|dGBG AGEG|~B2GB ABGB|dBAd BG~G2:|
 |:BABd eg~g2|ea~a2 gedB|GBdB eBdB|~A2BG AGEG|
 ~B3d eg~g2|ezab gedc|BDGB A{B}AGB|dBAd BG~G2:|"
-80143,"2024-06-08 09:47:19",79298,scotchy,17,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+80143,"2024-06-08 09:47:19",79298,scotchy,17,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 80145,"2024-06-08 10:02:05",86879,nervouswoman,1,"Tommy Maguire's",17059,32596,jig,6/8,Emixolydian,"F|:GFE dcd|Bec d2 B|AFA DdA|BAF EGA|
@@ -770420,8 +770420,8 @@ dfaf dfaf|cege cege|dfeg fB B2|f3e fedc:|"
 eAAG A2Bd|eaaf gedB|cBcd eged|cABG A2Bd:|
 |:eaag abag|eaag egdg|egdg egdg|eaaf gedg|
 eaag a2ag|eaaf gedB|c2cd e2ed|cABG A2Bd:|"
-80833,"2024-06-19 13:07:06",146344,"Aoife Maguire",1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+80833,"2024-06-19 13:07:06",146344,"Aoife Maguire",1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 80833,"2024-06-19 13:07:06",146344,"Aoife Maguire",2,"Miss Johnson",2411,2411,reel,4/4,Gmajor,"|:BcdB G2 BG|DGBG dGBG|BcdB GBAG|FGAB cAdc|
@@ -786948,8 +786948,8 @@ Ad fe/f/|gf e>d|cA Bc|d2 d2:|"
 dd B/c/d/B/|AF Ad|fd ec|d2 d2||
 fd de/f/|gf ed|fd de/f/|gf a2|
 fd de/f/|gf ed|fd ec|d2 d2||"
-82463,"2024-07-18 18:23:43",148281,"Peter Croft",1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+82463,"2024-07-18 18:23:43",148281,"Peter Croft",1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 82463,"2024-07-18 18:23:43",148281,"Peter Croft",2,"Dan Collins' Father's",2217,2217,jig,6/8,Dmajor,"|:d2A BAB|def a3|aba f2e|d2B BAB|
@@ -789295,7 +789295,7 @@ aea aea|aea b2a|g2g efg|dBA G3|
 eAAG A2Bd|eaaf gedB|cBcd eged|cABG A2Bd:|
 |:eaag abag|eaag egdg|egdg egdg|eaaf gedg|
 eaag a2ag|eaaf gedB|c2cd e2ed|cABG A2Bd:|"
-82711,"2024-07-22 19:14:35",140824,"Thom Moore",2,"Ships Are Sailing, The",543,47707,reel,4/4,Edorian,"|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|#
+82711,"2024-07-22 19:14:35",140824,"Thom Moore",2,"Ships Are Sailing, The",543,47707,reel,4/4,Edorian,"|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|
 Beed BcdB|AD (3FED AD (3FED|EDEF GFGA|Beed e3f:|
 |:~g3a bgeg|~f3g afdf|~g3a bgeg|fedf e2ef|
 ~g3a bgeg|~f3g afdf|g2bg f2af|edef gfef:|"
@@ -802748,8 +802748,8 @@ ea a2 efgf|eBBA B2 Bd|eged BAGA|BAGE EDD2:|"
 84108,"2024-08-18 08:52:11",121944,JoakimK,3,"Sailor's Bonnet, The",570,570,reel,4/4,Dmajor,"|:A2 FA d~f3|dfef d~B3|A2 FA dfef|1 dBAF ADDB:|2 dBAF ADD2||
 |:~a3 a afef|afef d~B3|fb (3bbb bafa|bfaf feef|
 b~f3 afed|afef d~B3|(3ABA FA dfef|1 dBAF ADD2:|2 dBAF ADDB||"
-84109,"2024-08-18 08:55:50",13596,"Thomas Fairhurst",1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+84109,"2024-08-18 08:55:50",13596,"Thomas Fairhurst",1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 84109,"2024-08-18 08:55:50",13596,"Thomas Fairhurst",2,"Dan Collins' Father's",2217,2217,jig,6/8,Dmajor,"|:d2A BAB|def a3|aba f2e|d2B BAB|
@@ -850806,7 +850806,7 @@ dB G>A|BG ED|BG D/E/F/G/|1 AG GB/c/:|2 AG GF||"
 A2 AB/d/|ed Bd|e/f/g/e dB|A2:|
 |:Bd|ea ag/a/|ba ge|ef ga|ge ed|
 ea ag/a/|ba gd|e/f/g/e/ dB|A2:|"
-89078,"2024-11-06 00:16:16",159666,"Kenneth Maher",18,"Scartaglen, The",1764,52009,polka,2/4,Gmajor,"|: G2 G>A | Bd de/f/ | gB /B/A/G/A/ | BA AB/A/ | 
+89078,"2024-11-06 00:16:16",159666,"Kenneth Maher",18,"Scartaglen, The",1764,52009,polka,2/4,Gmajor,"|: G2 G>A | Bd de/f/ | gB B/A/G/A/ | BA AB/A/ | 
 G2 G>A | Bd de/f/| gB AB/A/ | G2 G2 :|
 |: Gg g2 | fe /e/f/g/e/ | dB /B/A/G/A/ | BA A>B |
 dg g>g | fe /e/f/g/e/ | dB AB/A/ | G2 G2 :|
@@ -865187,8 +865187,8 @@ g2d edB|def gfe|dcB cBA|1 GAG Gef:|2 GAG GdB||"
 ~G3 GBd|gdB GAB|cGE AFD|1 GAG G2D:|2 GAG G2d||
 |:dBd ece|fdf gfe|dBd efg|fd^c d2d|
 dBd ece|fdf gfe|dcB Agf|1 gdB G2d:|2 gdB G2D||"
-90379,"2024-11-23 13:06:50",159666,"Kenneth Maher",8,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+90379,"2024-11-23 13:06:50",159666,"Kenneth Maher",8,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 90379,"2024-11-23 13:06:50",159666,"Kenneth Maher",9,"Piper's Chair, The",1255,1255,jig,6/8,Gmajor,"|:DGG GFD|Dcc {d}cBc|ded c/B/AG|FAG FED|
@@ -894713,8 +894713,8 @@ b~f3 afed|afef d~B3|(3ABA FA dfef|1 dBAF ADD2:|2 dBAF ADDB||"
 Add dcB|ABA AFA|ABd ede|1 fdc d2 B:|2 fdc dfg||
 |:afd dcd|BGF G2 g|bge efd|cAA ABG|
 FAd fdB|ABA AFA|ABd ede|1 fdc dfg:|2 fdc d2 B||"
-93221,"2025-01-03 17:32:09",180460,"Juan Gomez-Perales",2,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+93221,"2025-01-03 17:32:09",180460,"Juan Gomez-Perales",2,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 93221,"2025-01-03 17:32:09",180460,"Juan Gomez-Perales",3,"Creel Of Turf, The",537,52796,jig,6/8,Eminor,"|:E|EBB BAG|FDF AGF|EBB Bcd|AGF E2 E|
@@ -936776,7 +936776,7 @@ F2 A FAF|G2 B BAG|AFA dAF|FEc d3:|"
 {E}D2ED FAAd|~B3A FABc|d2dB ABdB|(3AGF EG FDD2:|
 |:faab afdf|gefd edBc|~d3B ABde|fede fee2|
 faab afdf|g2fd edBc|d2dB ABdB|AFEG FDD2:|"
-97357,"2025-02-22 14:15:12",142307,"Lesley Webb",2,"Ships Are Sailing, The",543,47707,reel,4/4,Edorian,"|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|#
+97357,"2025-02-22 14:15:12",142307,"Lesley Webb",2,"Ships Are Sailing, The",543,47707,reel,4/4,Edorian,"|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|
 Beed BcdB|AD (3FED AD (3FED|EDEF GFGA|Beed e3f:|
 |:~g3a bgeg|~f3g afdf|~g3a bgeg|fedf e2ef|
 ~g3a bgeg|~f3g afdf|g2bg f2af|edef gfef:|"
@@ -946322,7 +946322,7 @@ GEDE GABA|GEDE GABc|dBeB dBGB|A2G2 G2:|"
 {E}D2ED FAAd|~B3A FABc|d2dB ABdB|(3AGF EG FDD2:|
 |:faab afdf|gefd edBc|~d3B ABde|fede fee2|
 faab afdf|g2fd edBc|d2dB ABdB|AFEG FDD2:|"
-98362,"2025-03-05 16:16:22",166300,"Lauren Vesely",2,"Ships Are Sailing, The",543,47707,reel,4/4,Edorian,"|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|#
+98362,"2025-03-05 16:16:22",166300,"Lauren Vesely",2,"Ships Are Sailing, The",543,47707,reel,4/4,Edorian,"|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|
 Beed BcdB|AD (3FED AD (3FED|EDEF GFGA|Beed e3f:|
 |:~g3a bgeg|~f3g afdf|~g3a bgeg|fedf e2ef|
 ~g3a bgeg|~f3g afdf|g2bg f2af|edef gfef:|"
@@ -969219,8 +969219,8 @@ f2fd g2ge|f2fd Bcde|defg a2ab|afed BcdB||"
 100772,"2025-03-31 01:24:39",180548,"Chad Yost",2,"Drowsy Maggie",27,27,reel,4/4,Edorian,"|:E2BE dEBE|E2BE AFDF|E2BE dEBE|BABc dAFD:|
 d2fd c2ec|defg afge|d2fd c2ec|BABc dAFA|
 d2fd c2ec|defg afge|afge fded|BABc dAFD|"
-100773,"2025-03-31 01:29:49",26966,Bregolas,1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+100773,"2025-03-31 01:29:49",26966,Bregolas,1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 100773,"2025-03-31 01:29:49",26966,Bregolas,2,"Tom Connor's",7947,7947,jig,6/8,Dmajor,"|:B|ABA A2D|FAd ~f3|efe ede|gfe dcB|
@@ -986237,8 +986237,8 @@ ee B2|ee B2|A>F DF|AF DF|
 ee B2|ee B2|A>F DF|E2 E2|
 ee B2|ee B2|A>F DF|AF DF|
 E>F GA|Be B2|A>F DF|E2 E2|"
-102467,"2025-04-23 18:51:30",26966,Bregolas,1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+102467,"2025-04-23 18:51:30",26966,Bregolas,1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 102467,"2025-04-23 18:51:30",26966,Bregolas,2,"Lilting Fisherman, The",3369,34037,jig,6/8,Gmajor,"Bc|:dBG GBd|~g3 ege|dBG GFG|AFD cBA|
@@ -1048094,8 +1048094,8 @@ geee gede|geee a2ga|bgab gabg|efge dBAG||"
 ~E3F ABce|f2af fece|efec dBcA|BAGB cAec:|
 |:A2ce fece|fA A/A/A fAeA|fA A/A/A fAef|aefa eAce|
 effe cBAF|~E3F ABce|f2ec dBcA|BAGB cAec:|"
-108619,"2025-07-13 06:56:57",179479,Barpers,1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+108619,"2025-07-13 06:56:57",179479,Barpers,1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 108620,"2025-07-13 07:52:58",141885,"Steve Knight",1,"Fairy, The",2944,21991,reel,4/4,Gmajor,"|:B2 BA GBdB|cBAG FGAc|BG G2 dcAG|FGAF GFED|
@@ -1061935,8 +1061935,8 @@ age^c ~d2 ef|cAGE G2 EG|A2 cA GAcd|egdB BA ~A2|"
 DGGF G2 BG|G2 BG AGEG|DGGF GABd|gedB c2 Bc||
 d2 gd edgd|d2 gd BABc|d2 gd edef|gedB c2 Bc|
 d2 gd edgd|d2 gd BABd|c3A B3A|GABd egdB||"
-109945,"2025-07-28 12:38:24",157620,"Dave Haynes",1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+109945,"2025-07-28 12:38:24",157620,"Dave Haynes",1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 109945,"2025-07-28 12:38:24",157620,"Dave Haynes",2,"Trip To Windsor, The",1074,1074,reel,4/4,Amajor,"|:A/A/A (AB) Ace=g|f/f/f (fg) fef^g|agfe fgaf|1 ecBc AFEF:|2 ecBd cA A2||
@@ -1162615,8 +1162615,8 @@ fdB ABd|f2a afa|bag fge|1 fdc d2e:|2 fdc d2A||"
 FEF DFA|BAF d2e|fdf edB|BAF AFE:|
 |:cdc eAA|fAA eAA|cdc eAA|BAF AFE|
 cdc eAA|fAA e2f|gfe dfe|dcB AFE:|"
-120230,"2025-11-14 19:53:31",118481,"Jaki G ",1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+120230,"2025-11-14 19:53:31",118481,"Jaki G ",1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 120230,"2025-11-14 19:53:31",118481,"Jaki G ",2,"Dan Collins' Father's",2217,2217,jig,6/8,Dmajor,"|:d2A BAB|def a3|aba f2e|d2B BAB|
@@ -1181614,8 +1181614,8 @@ EAA cAA|BAB cAA|Bcd e2d|cAA A2F:|
 DED DFA|BAF d2e|faf ede|1 fdd d2 D:|2 fdd d2 e||
 faa fbb|afe ~f3|~f3 dBA|(3Bcd B AFE|
 DED DFA|BAF d2e|faf ede|1 fdd d2 e:|2 fdd d2 D||"
-122055,"2025-12-06 14:00:09",104645,"Michael Probst-Neumann",3,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+122055,"2025-12-06 14:00:09",104645,"Michael Probst-Neumann",3,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 122056,"2025-12-06 14:02:47",11895,ndlxs,1,"High Caul Cap",1524,1524,polka,2/4,Gmajor,"|:G>A BB|cA B2|BA AG/A/|BA A2|
@@ -1181709,8 +1181709,8 @@ gdg gdg|gdg a2 g|fef ded|cAG F2 A|
 gdg gdg|gdg a2 g|fed cAF|G3 G3|
 gdg gdg|gdg a2 g|fef ded|cAG F2 G|
 B3 BAG|ABc d2 e|fec cAF|G3 G3|"
-122065,"2025-12-06 16:29:31",138873,"Julien Leroy",1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+122065,"2025-12-06 16:29:31",138873,"Julien Leroy",1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 122065,"2025-12-06 16:29:31",138873,"Julien Leroy",2,"Tom Connor's",7947,7947,jig,6/8,Dmajor,"|:B|ABA A2D|FAd ~f3|efe ede|gfe dcB|
@@ -1182677,10 +1182677,10 @@ A>B c2 cA|cd e2 ef|cf e>c B2|BA c>B A2:|
 |:ce a2 a2|gf fe e2|e>f ed d2|d>e dc c2|
 ce a2 a2|gf fe e2|e>f e2 ed|c>d e2 e2:|"
 122178,"2025-12-08 05:45:44",92793,"Brett Greenland",1,"Black Frog, The",5370,17554,jig,6/8,Dmajor,"|:DD/D/D DEF|ED/D/B, DB,/B,/A,|DE/D/D DEF|ABA =F^FA|
-1 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|
+ d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|
 2 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DBc||
 [Dd]fa gec|fdB ecA|GAB AB/B/c|def ecA|
-1 aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|
+ aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|
 2 aa/a/a agf|gg/g/g gfe|fdB ecA|dA/A/F BGE||"
 122178,"2025-12-08 05:45:44",92793,"Brett Greenland",2,"Sanctuary, The",5374,21620,jig,6/8,Amajor,"|:EFA ABc|ecA gaf|ecA ABc|~B3 BAF|
 EFA ABc|ecA gaf|ecA ABc|~B3 AAF:|
@@ -1202916,7 +1202916,7 @@ Bd/d/d edB BAG|Bd/d/d edB A3|Bd/d/d edB BAG|GED DEF G3:|"
 ""Em""Beed BcdB|""D""ADFD ADFD|""Em""EDEF GFGA| ""D""Beed ""Em""e2 :|
 |:ef|""Em""gfga bgeg|""D""fefg afdf|""Em""gfga bgeg|""D""fedf ""Em""e2ef|
 ""Em""gfga bgeg|""D""fefg afdf|""Em""g2bg ""D""f2af| ""C""edef ""D""gf :|"
-124110,"2026-01-02 21:54:23",163754,"John Greaves",2,"Ships Are Sailing, The",543,47707,reel,4/4,Edorian,"|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|#
+124110,"2026-01-02 21:54:23",163754,"John Greaves",2,"Ships Are Sailing, The",543,47707,reel,4/4,Edorian,"|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|
 Beed BcdB|AD (3FED AD (3FED|EDEF GFGA|Beed e3f:|
 |:~g3a bgeg|~f3g afdf|~g3a bgeg|fedf e2ef|
 ~g3a bgeg|~f3g afdf|g2bg f2af|edef gfef:|"
@@ -1261244,10 +1261244,10 @@ Bed cBA|GFE B,EG|FBB cBA|1 GEE E2 A:|2 GEE E2 g||
 |:gec Gce|gaf gec|cBA EAc|Be^d eBG|
 FBB GBB|FBA GFE|B,EG cBA|1 GEE E2 g:|2 GEE E2 A||"
 129859,"2026-02-25 13:38:19",181445,"Michael Scullin",1,"Black Frog, The",5370,17554,jig,6/8,Dmajor,"|:DD/D/D DEF|ED/D/B, DB,/B,/A,|DE/D/D DEF|ABA =F^FA|
-1 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|
+ d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|
 2 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DBc||
 [Dd]fa gec|fdB ecA|GAB AB/B/c|def ecA|
-1 aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|
+ aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|
 2 aa/a/a agf|gg/g/g gfe|fdB ecA|dA/A/F BGE||"
 129870,"2026-02-25 13:57:25",156819,"Andy Holbert",1,"House Of Hamill, The",2677,2677,reel,4/4,Edorian,"EBBA BFAF|E2 (3ABc dAFD|EBBA (3Bcd ef|gfec dAFD|
 EBBA BFAF|E2 (3ABc dAFD|EBBA (3Bcd ef|gfec dAFA|
@@ -1297730,8 +1297730,8 @@ gab age|deg B3|dBd gfe|dBa g3:|"
 G,B,D EG/E/D|DB,D GAB|d3 ~B3|1 AGF GDB,:|2 AGF GBd||
 |:efe d2 B|BAG GBd|efe d2 B|BAG ABd|
 efe d2 B|BAG GAB|~c3 ~B3|1 AGF GBd:|2 AGF GDB,||"
-133340,"2026-03-29 15:46:53",191835,"S. Allié",3,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+133340,"2026-03-29 15:46:53",191835,"S. Allié",3,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 133340,"2026-03-29 15:46:53",191835,"S. Allié",4,Whelan's,1447,1447,jig,6/8,Edorian,"|:~E3 BAF|FEB AFD|~E3 BAF|dAF FED|
@@ -1305064,8 +1305064,8 @@ gdB gdB AFD|g2g def g2d|ege dcB AFD|E2c BcA G2||"
 EDE G2A|BeB dBd|edB GAB|AGF G2B:|
 |:~d3 def|fge fdB|~A3 ABd|egf e2f|
 g2e fed|edB {f}~g3|edB AGA|BGF G3:|"
-134052,"2026-04-04 11:07:34",171485,"Stephen Fiddle Mulholland",2,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+134052,"2026-04-04 11:07:34",171485,"Stephen Fiddle Mulholland",2,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 134052,"2026-04-04 11:07:34",171485,"Stephen Fiddle Mulholland",3,"Tumble The Tinker",4175,45649,jig,6/8,Gmajor,"A|:B/c/dB G2G|GBd gdc|B/c/dB GED|E2A ABc|
@@ -1311392,8 +1311392,8 @@ f2 df afde|fgaf geef|g3 b af f2|1 e2 ag efde:|2 e2 ag ed d2||"
 dBB2 dBGB|dAA2 dAFA|DEFG ABcA|1 dBcA G3B:|2 dBcA G3e||
 |:f2fe defg|addc dcAB|c2cB cdeg|aged caae|
 f2fe defg|addc dcAB|c2cB cBAB|1 cAFA G3e:|2 cAFA G3||"
-134653,"2026-04-10 09:06:09",191613,Dorni,1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+134653,"2026-04-10 09:06:09",191613,Dorni,1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 134653,"2026-04-10 09:06:09",191613,Dorni,2,"Humours Of Whiskey, The",46,46,"slip jig",9/8,Bminor,"|:""G""gfe ""Bm""fBB fBB|""G""gfe ""Bm""fBB ""A""fga|""G""gfe ""Bm""fBB ""G""efg|""A""agf efd cBA:|
@@ -1349610,8 +1349610,8 @@ e3 A3|d2e fed|A2e efg|dBG A3:|"
 |:a/g/|""D""faa ""A""eaa|""D""daa ""A""caa|""G""Bdd ""D""AAA|
 [1""Em""fee ""A""eag|""D""faa ""A""eaa|""Bm""daa ""F#m""caa|""G""Bdd ""D""Aff|""A""edd ""D""d2:|
 [2""Em""fee ""A""efe|""D""d2d BAA|FAA BAA|""G""Bdd ""D""Aff|""A7""edd ""D""d3||"
-138389,"2026-05-20 16:53:47",188529,sophieambeusfhìdhlear,5,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+138389,"2026-05-20 16:53:47",188529,sophieambeusfhìdhlear,5,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 138390,"2026-05-20 17:03:05",188529,sophieambeusfhìdhlear,1,"Banish Misfortune",9,9,jig,6/8,Dmixolydian,"|:fed cAG|A2d cAG|F2D DED|FEF GFG|
@@ -1385384,8 +1385384,8 @@ e3 A3|d2e fed|A2e efg|dBG A3:|"
 |:a/g/|""D""faa ""A""eaa|""D""daa ""A""caa|""G""Bdd ""D""AAA|
 [1""Em""fee ""A""eag|""D""faa ""A""eaa|""Bm""daa ""F#m""caa|""G""Bdd ""D""Aff|""A""edd ""D""d2:|
 [2""Em""fee ""A""efe|""D""d2d BAA|FAA BAA|""G""Bdd ""D""Aff|""A7""edd ""D""d3||"
-141796,"2026-06-30 07:05:04",85004,"Jane F",4,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+141796,"2026-06-30 07:05:04",85004,"Jane F",4,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 141797,"2026-06-30 07:07:45",85004,"Jane F",1,"Lilting Banshee, The",60,60,jig,6/8,Adorian,"|:EAA EAA|BAB G2A|Bee edB|def gfg|
@@ -1443509,8 +1443509,8 @@ A3D FGAc|B3F GABd|cAFA DFAF|G2 GF G2:|"
 B2 BA ~B3 c|dcdc ~B3 A|BcBA BcAc|1 B2 BA BAFA:|2 B2 BA Bcde||
 |:f2 fe d3 a|effe d3 c|d ~A3 dAfd|efed c2 BA|
 B ~d3 A ~d3|cedc B2 ed|cBAB BccB|1 cedc Bcde:|2 cedc BAFA||"
-147568,"2026-08-24 19:59:48",52482,Axel,1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+147568,"2026-08-24 19:59:48",52482,Axel,1,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 147569,"2026-08-24 20:04:02",172652,"The Wild Swans ",1,"Young Tom Ennis",131,131,jig,6/8,Edorian,"F|:G3 FGF|EDB, DEF|G3 FBA|FEE E2F|
@@ -1472354,7 +1472354,7 @@ fef afd|~g3 bag|fga efg|fdc d3:|
 DG ~G2 BddB|dedB dgfg|e3 d (3Bcd ef|gedB AGEG:|
 d ~g3 bgge|dBBA Bdef|g2 bg abge|d2 BG AGEG|
 d ~g3 bgge|dBBA Bdgf|e3d (3Bcd ef|gedB AGEG:|"
-150234,"2026-09-23 01:41:55",167336,"Eileen Velez",2,"Ships Are Sailing, The",543,47707,reel,4/4,Edorian,"|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|#
+150234,"2026-09-23 01:41:55",167336,"Eileen Velez",2,"Ships Are Sailing, The",543,47707,reel,4/4,Edorian,"|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|
 Beed BcdB|AD (3FED AD (3FED|EDEF GFGA|Beed e3f:|
 |:~g3a bgeg|~f3g afdf|~g3a bgeg|fedf e2ef|
 ~g3a bgeg|~f3g afdf|g2bg f2af|edef gfef:|"
@@ -1502150,8 +1502150,8 @@ d2 g gfg|a2 g fga|g2 f d2 e|fed c2 e|
 d2 c Bcd|c2 B G2 A|BAG GFG|A2 G F2 E|
 D2 G GFG|A2 G FGA|B2 G GFG|Ade f2 e|
 d2 e c2 A|BAG FGA|BdB cAF|~G3 G2 E||"
-152982,"2026-10-20 11:49:06",198272,"Anna Chagina",24,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+152982,"2026-10-20 11:49:06",198272,"Anna Chagina",24,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 152983,"2026-10-20 11:49:33",67989,"Maurice Judge",1,"I Was Born For Sport",4895,4895,jig,6/8,Gmajor,"|:B|dgg fdd|cAB c2A|dgg fdd|cAF G2B|
@@ -1533383,8 +1533383,8 @@ cAeA fAed|cAeA fece|ddde feaf|ecdB AAA||"
 EAA ABc|""A""e2f ecc|""F#m""a2f fed|""E7""cdBA3:|
 |:""A""e3""A7""c2e|""D""faa ""E7""fed|""D""a3""E7""f2e|""Bm""faa ""E7""fed|
 ""A""e3""A7""c2e|""D""faa ""E7""fed|""F#m""a2f ""Bm""fed|""E7""cdB""A""A3:|"
-155965,"2026-11-18 17:37:23",92963,Dolphin24,2,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+155965,"2026-11-18 17:37:23",92963,Dolphin24,2,"Hearty Boys Of Ballymote, The",5808,5808,jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 155965,"2026-11-18 17:37:23",92963,Dolphin24,3,"Old Favourite, The",56,56,jig,6/8,Gmajor,"|:B3 BAB|dBA G2B|ded d2 B|ded B2A|

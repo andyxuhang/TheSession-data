@@ -10004,7 +10004,7 @@ d|""Em""e3 edB|""A""AFA ""D""d2A|""D""def afa|""Bm""baf ""D""afa|
 GFE BEF|~G3 BAG|FAd AFD|1 E3 E2:|2 E3 DEF||
 |:GBd d2 A/G/|FAd AFD|GBd dB/c/d|e2z edB|
 GBd d2 A/G/|FAd AFD|GBG AFD|1 E3 E2D:|2 E3 E3||"
-3835,30297,John Brosnan's,Ian Varley,https://thesession.org/tunes/3835#setting30297,Possible short interior measure,"{""current_internal_bars"": [], ""previous_source_flags"": [""interior_short_bar""]}","|:D>D DB|AF 2B|AF D>E|FE E2|
+3835,30297,John Brosnan's,Ian Varley,https://thesession.org/tunes/3835#setting30297,Possible short interior measure; Playback check failed,"{""current_internal_bars"": [], ""previous_source_flags"": [""interior_short_bar""], ""playback_rejection"": ""individual phrase check""}","|:D>D DB|AF 2B|AF D>E|FE E2|
 D>D DB|AF2B|AF EF|D3A:|
 |:d2 cd|BA FA|d2 cd|B3c|
 d2 cd|BA FB|AF EF|D3A:|

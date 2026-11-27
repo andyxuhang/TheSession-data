@@ -12,13 +12,22 @@ function offset(body, codepointIndex) {
 function playback(body, header) {
     const tunes = abcjs.parseOnly(header + normalize(body) + '\n');
     if (tunes.length !== 1) throw new Error('Expected one parsed tune');
-    return tunes[0].setUpAudio({}).tracks.map(track => track.filter(event => event.cmd === 'note'));
+    const tune = tunes[0];
+    return {
+        tracks: tune.setUpAudio({}).tracks.map(track => track.filter(event => event.cmd === 'note')),
+        warnings: tune.warnings?.length ?? 0,
+    };
 }
 
 function check(row) {
     const header = `X:${row.setting_id}\nT:${row.name}\nR:${row.type}\nM:${row.meter}\nL:1/8\nK:${row.mode}\n`;
-    const before = playback(row.before_abc, header);
-    const after = playback(row.after_abc, header);
+    const original = playback(row.before_abc, header);
+    const corrected = playback(row.after_abc, header);
+    const before = original.tracks;
+    const after = corrected.tracks;
+    if (row.syntax_only && corrected.warnings > original.warnings) {
+        throw new Error('Notation warnings increased');
+    }
     if (before.length !== after.length) throw new Error('Track count changed');
     const expected = row.pitch_changes.flatMap(change => change.locations.map(location => ({
         ...change,
@@ -47,7 +56,12 @@ function check(row) {
         }
     }
     if (heard.size !== expected.length) throw new Error('A reviewed note was not heard');
-    return { passed: true, changed_played_pitches: occurrences };
+    return {
+        passed: true,
+        changed_played_pitches: occurrences,
+        before_warnings: original.warnings,
+        after_warnings: corrected.warnings,
+    };
 }
 
 const rows = JSON.parse(fs.readFileSync(process.argv[3], 'utf8'));

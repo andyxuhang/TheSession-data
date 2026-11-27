@@ -2,8 +2,8 @@
   "settings_checked": 55821,
   "exported_tune_rows": 55838,
   "tunes_checked": 23199,
-  "fixed_settings": 535,
-  "fixed_tunes": 454,
+  "fixed_settings": 542,
+  "fixed_tunes": 461,
   "fixed_edits_by_type": {
     "misplaced_barline": 64,
     "missing_barline": 330,
@@ -13,17 +13,18 @@
     "rhythm_mark": 2,
     "octave_typo": 24,
     "accidental_typo": 22,
-    "note_typo": 3
+    "note_typo": 3,
+    "orphan_symbol": 10
   },
   "categories": {
-    "fixed": 535,
+    "fixed": 542,
     "review": 3764,
     "boundaries": 24410,
-    "unsupported": 6505,
-    "playback": 3483
+    "unsupported": 6502,
+    "playback": 3482
   },
-  "no_current_findings": 26160,
-  "rejected_settings": 5,
+  "no_current_findings": 26162,
+  "rejected_settings": 6,
   "counts_overlap": true,
   "fixed_with_remaining_review": 78
 }

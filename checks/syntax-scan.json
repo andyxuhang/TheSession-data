@@ -1,0 +1,40 @@
+{
+  "passes": [
+    {
+      "marked_measures": 302,
+      "orphan_symbol_matching_measure": 14,
+      "split_note_token_matching_measure": 1,
+      "invalid_tie_matching_measure": 1,
+      "settings": 55821,
+      "settings_with_proposals": 8,
+      "pass": 1,
+      "individual_rejections": 1,
+      "accepted": 7,
+      "rejected": 0
+    },
+    {
+      "marked_measures": 293,
+      "orphan_symbol_matching_measure": 5,
+      "split_note_token_matching_measure": 1,
+      "invalid_tie_matching_measure": 1,
+      "settings": 55821,
+      "settings_with_proposals": 2,
+      "pass": 2,
+      "individual_rejections": 1,
+      "accepted": 1,
+      "rejected": 0
+    },
+    {
+      "marked_measures": 292,
+      "orphan_symbol_matching_measure": 4,
+      "split_note_token_matching_measure": 1,
+      "invalid_tie_matching_measure": 1,
+      "settings": 55821,
+      "settings_with_proposals": 1,
+      "pass": 3,
+      "individual_rejections": 1,
+      "accepted": 0
+    }
+  ],
+  "rejected_settings": 6
+}

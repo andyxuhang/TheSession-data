@@ -1,5 +1,31 @@
 [
   {
+    "setting_id": "30297",
+    "passed": false,
+    "reason": "individual phrase check",
+    "bars": [
+      {
+        "edit": {
+          "rule": "split_note_token",
+          "bar": 2,
+          "before": "AF 2B",
+          "after": "AF2B",
+          "reference_ranges": [
+            [
+              "4430",
+              2,
+              2
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repetitions": 0,
+          "extra_matching_bar": true
+        },
+        "reason": "Bad state: 30297 unplanned duration change at 5"
+      }
+    ]
+  },
+  {
     "setting_id": "32000",
     "passed": false,
     "reason": "individual phrase check",

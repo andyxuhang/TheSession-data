@@ -4,11 +4,11 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 
 | Status | Settings | Details |
 |---|---:|---|
-| Corrected | 535 | [fixed.csv](fixed.csv) |
+| Corrected | 542 | [fixed.csv](fixed.csv) |
 | Needs review | 3764 | [review.csv](review.csv) |
 | Pickups, endings and repeats | 24410 | [boundaries.csv](boundaries.csv) |
-| Unsupported syntax or empty melody | 6505 | [unsupported.csv](unsupported.csv) |
-| Playback or parser compatibility | 3483 | [playback.csv](playback.csv) |
+| Unsupported syntax or empty melody | 6502 | [unsupported.csv](unsupported.csv) |
+| Playback or parser compatibility | 3482 | [playback.csv](playback.csv) |
 
 78 corrected settings still have other findings. Settings can appear in multiple categories. Each CSV gives the source link and current ABC. The corrected list also gives the ABC before the changes.
 
@@ -22,6 +22,7 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 | Incorrect octave | 24 |
 | Incorrect accidental | 22 |
 | Stray control character | 19 |
+| Stray notation symbol | 10 |
 | Incorrect melody note | 3 |
 | Omitted note | 2 |
 | Incorrect broken-rhythm or tuplet mark | 2 |
@@ -35,7 +36,7 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 - Playback checks compare the original and corrected events with automatic repair disabled. Unexpected changes to pitch, duration, rests or ties block a correction.
 - After each round the scanner checks for further corrections. CSV, JSON and SQLite are compared record by record.
 
-Playback checks left candidates in 5 settings for review. See [rejected.json](../checks/rejected.json) for the recorded reasons.
+Playback checks left candidates in 6 settings for review. See [rejected.json](../checks/rejected.json) for the recorded reasons.
 
 ## Examples for review
 

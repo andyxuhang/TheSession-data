@@ -1,0 +1,352 @@
+[
+  {
+    "setting_id": "17554",
+    "tune_id": "5370",
+    "source_url": "https://thesession.org/tunes/5370#setting17554",
+    "rule": "orphan_symbol",
+    "bar": 5,
+    "before": "\r\n1 d/d/dB AFE",
+    "after": "\r\n d/d/dB AFE",
+    "reference_ranges": [
+      [
+        "5370",
+        5,
+        5
+      ],
+      [
+        "5370",
+        37,
+        37
+      ]
+    ],
+    "corroborating_contributors": 1,
+    "written_repetitions": 0,
+    "extra_matching_bar": true,
+    "playback_unchanged": true,
+    "abcjs": {
+      "setting_id": "17554",
+      "variant": "17554-0",
+      "passed": true,
+      "changed_played_pitches": 0,
+      "before_warnings": 4,
+      "after_warnings": 3,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    },
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "17554",
+    "tune_id": "5370",
+    "source_url": "https://thesession.org/tunes/5370#setting17554",
+    "rule": "orphan_symbol",
+    "bar": 17,
+    "before": "\r\n1 aa/a/a agf",
+    "after": "\r\n aa/a/a agf",
+    "reference_ranges": [
+      [
+        "5370",
+        21,
+        21
+      ]
+    ],
+    "corroborating_contributors": 1,
+    "written_repetitions": 0,
+    "extra_matching_bar": true,
+    "playback_unchanged": true,
+    "abcjs": {
+      "setting_id": "17554",
+      "variant": "17554-1",
+      "passed": true,
+      "changed_played_pitches": 0,
+      "before_warnings": 4,
+      "after_warnings": 3,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    },
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "2283",
+    "tune_id": "2283",
+    "source_url": "https://thesession.org/tunes/2283#setting2283",
+    "rule": "orphan_symbol",
+    "bar": 4,
+    "before": "/E/F/GE EDC",
+    "after": "E/F/GE EDC",
+    "reference_ranges": [
+      [
+        "32392",
+        4,
+        4
+      ]
+    ],
+    "corroborating_contributors": 1,
+    "written_repetitions": 0,
+    "extra_matching_bar": true,
+    "playback_unchanged": true,
+    "abcjs": {
+      "setting_id": "2283",
+      "variant": "2283-0",
+      "passed": true,
+      "changed_played_pitches": 0,
+      "before_warnings": 1,
+      "after_warnings": 0,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    },
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "5808",
+    "tune_id": "5808",
+    "source_url": "https://thesession.org/tunes/5808#setting5808",
+    "rule": "orphan_symbol",
+    "bar": 4,
+    "before": "GEE ,BEE",
+    "after": "GEE BEE",
+    "reference_ranges": [
+      [
+        "17744",
+        4,
+        4
+      ],
+      [
+        "17745",
+        4,
+        4
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repetitions": 0,
+    "extra_matching_bar": false,
+    "playback_unchanged": true,
+    "abcjs": {
+      "setting_id": "5808",
+      "variant": "5808-0",
+      "passed": true,
+      "changed_played_pitches": 0,
+      "before_warnings": 3,
+      "after_warnings": 2,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    },
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "5808",
+    "tune_id": "5808",
+    "source_url": "https://thesession.org/tunes/5808#setting5808",
+    "rule": "orphan_symbol",
+    "bar": 6,
+    "before": "\r\nGEE ,BEE",
+    "after": "\r\nGEE BEE",
+    "reference_ranges": [
+      [
+        "17744",
+        6,
+        6
+      ],
+      [
+        "17745",
+        6,
+        6
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repetitions": 0,
+    "extra_matching_bar": true,
+    "playback_unchanged": true,
+    "abcjs": {
+      "setting_id": "5808",
+      "variant": "5808-1",
+      "passed": true,
+      "changed_played_pitches": 0,
+      "before_warnings": 3,
+      "after_warnings": 2,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    },
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "15152",
+    "tune_id": "1726",
+    "source_url": "https://thesession.org/tunes/1726#setting15152",
+    "rule": "orphan_symbol",
+    "bar": 12,
+    "before": "\r\n1 BAAG A2 ga",
+    "after": "\r\n BAAG A2 ga",
+    "reference_ranges": [
+      [
+        "1726",
+        13,
+        13
+      ]
+    ],
+    "corroborating_contributors": 1,
+    "written_repetitions": 0,
+    "extra_matching_bar": true,
+    "playback_unchanged": true,
+    "abcjs": {
+      "setting_id": "15152",
+      "variant": "15152-0",
+      "passed": true,
+      "changed_played_pitches": 0,
+      "before_warnings": 3,
+      "after_warnings": 2,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    },
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "52033",
+    "tune_id": "17116",
+    "source_url": "https://thesession.org/tunes/17116#setting52033",
+    "rule": "orphan_symbol",
+    "bar": 14,
+    "before": " /c/B/c/d/e dBG ",
+    "after": " c/B/c/d/e dBG ",
+    "reference_ranges": [
+      [
+        "32741",
+        14,
+        14
+      ]
+    ],
+    "corroborating_contributors": 1,
+    "written_repetitions": 0,
+    "extra_matching_bar": true,
+    "playback_unchanged": true,
+    "abcjs": {
+      "setting_id": "52033",
+      "variant": "52033-0",
+      "passed": true,
+      "changed_played_pitches": 0,
+      "before_warnings": 2,
+      "after_warnings": 1,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    },
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "52033",
+    "tune_id": "17116",
+    "source_url": "https://thesession.org/tunes/17116#setting52033",
+    "rule": "orphan_symbol",
+    "bar": 12,
+    "before": " /f/e/f/g/a gec ",
+    "after": " f/e/f/g/a gec ",
+    "reference_ranges": [
+      [
+        "32741",
+        12,
+        12
+      ]
+    ],
+    "corroborating_contributors": 1,
+    "written_repetitions": 0,
+    "extra_matching_bar": true,
+    "playback_unchanged": true,
+    "abcjs": {
+      "setting_id": "52033",
+      "variant": "52033-0",
+      "passed": true,
+      "changed_played_pitches": 0,
+      "before_warnings": 1,
+      "after_warnings": 0,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    },
+    "scan_pass": 2
+  },
+  {
+    "setting_id": "52009",
+    "tune_id": "1764",
+    "source_url": "https://thesession.org/tunes/1764#setting52009",
+    "rule": "orphan_symbol",
+    "bar": 3,
+    "before": " gB /B/A/G/A/ ",
+    "after": " gB B/A/G/A/ ",
+    "reference_ranges": [
+      [
+        "15210",
+        4,
+        4
+      ],
+      [
+        "15211",
+        3,
+        3
+      ],
+      [
+        "1764",
+        3,
+        3
+      ],
+      [
+        "37317",
+        3,
+        3
+      ],
+      [
+        "53783",
+        4,
+        4
+      ]
+    ],
+    "corroborating_contributors": 4,
+    "written_repetitions": 0,
+    "extra_matching_bar": true,
+    "playback_unchanged": true,
+    "abcjs": {
+      "setting_id": "52009",
+      "variant": "52009-0",
+      "passed": true,
+      "changed_played_pitches": 0,
+      "before_warnings": 6,
+      "after_warnings": 5,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    },
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "47707",
+    "tune_id": "543",
+    "source_url": "https://thesession.org/tunes/543#setting47707",
+    "rule": "orphan_symbol",
+    "bar": 5,
+    "before": "#\r\nBeed BcdB",
+    "after": "\r\nBeed BcdB",
+    "reference_ranges": [
+      [
+        "26706",
+        5,
+        5
+      ],
+      [
+        "47026",
+        5,
+        5
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repetitions": 0,
+    "extra_matching_bar": false,
+    "playback_unchanged": true,
+    "abcjs": {
+      "setting_id": "47707",
+      "variant": "47707-0",
+      "passed": true,
+      "changed_played_pitches": 0,
+      "before_warnings": 1,
+      "after_warnings": 0,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    },
+    "scan_pass": 1
+  }
+]

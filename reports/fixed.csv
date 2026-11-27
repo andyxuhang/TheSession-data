@@ -571,6 +571,17 @@ eg2 eg2 eg|aged cAGB | ABAG EGAB |cAGE DC C2:|","|:C2CD EGAB|c2cd cBAG|A2AB AGAB
 C2CD EGAB|c2cd cBAG|A2AB AGAB|cAGE DC C2:|
 |:eg2 eg2 eg |aged cA G2|ea2 ga2 eg|agab ge d2|
 eg2 eg2 eg|aged cAGB | ABAG EGAB |cAGE DC C2:|"
+5370,17554,"Black Frog, The",Chris Hasty,https://thesession.org/tunes/5370#setting17554,Stray notation symbol; Stray notation symbol,"[{""rule"": ""orphan_symbol"", ""bar"": 5, ""before"": ""\r\n1 d/d/dB AFE"", ""after"": ""\r\n d/d/dB AFE"", ""reference_ranges"": [[""5370"", 5, 5], [""5370"", 37, 37]], ""corroborating_contributors"": 1, ""written_repetitions"": 0, ""extra_matching_bar"": true, ""playback_unchanged"": true, ""abcjs"": {""setting_id"": ""17554"", ""variant"": ""17554-0"", ""passed"": true, ""changed_played_pitches"": 0, ""before_warnings"": 4, ""after_warnings"": 3, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""scan_pass"": 1}, {""rule"": ""orphan_symbol"", ""bar"": 17, ""before"": ""\r\n1 aa/a/a agf"", ""after"": ""\r\n aa/a/a agf"", ""reference_ranges"": [[""5370"", 21, 21]], ""corroborating_contributors"": 1, ""written_repetitions"": 0, ""extra_matching_bar"": true, ""playback_unchanged"": true, ""abcjs"": {""setting_id"": ""17554"", ""variant"": ""17554-1"", ""passed"": true, ""changed_played_pitches"": 0, ""before_warnings"": 4, ""after_warnings"": 3, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""scan_pass"": 1}]","|:DD/D/D DEF|ED/D/B, DB,/B,/A,|DE/D/D DEF|ABA =F^FA|
+ d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|
+2 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DBc||
+[Dd]fa gec|fdB ecA|GAB AB/B/c|def ecA|
+ aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|
+2 aa/a/a agf|gg/g/g gfe|fdB ecA|dA/A/F BGE||","|:DD/D/D DEF|ED/D/B, DB,/B,/A,|DE/D/D DEF|ABA =F^FA|
+1 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|
+2 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DBc||
+[Dd]fa gec|fdB ecA|GAB AB/B/c|def ecA|
+1 aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|
+2 aa/a/a agf|gg/g/g gfe|fdB ecA|dA/A/F BGE||"
 3636,30901,"Blacksmith's Daughter, The",JACKB,https://thesession.org/tunes/3636#setting30901,Incorrect octave; Incorrect octave,"[{""rule"": ""octave_typo"", ""bar"": 10, ""note"": 6, ""before"": ""D2 FA GEcE"", ""after"": ""D2 FA GECE"", ""before_midi"": 73, ""after_midi"": 61, ""reference_ranges"": [[""50812"", 2, 2]], ""corroborating_contributors"": 1, ""written_repeat"": false, ""written_repetitions"": 0, ""extra_matching_bar"": true, ""isolated_jump"": true, ""playback_occurrences"": 1, ""abcjs"": {""setting_id"": ""30901"", ""variant"": ""30901-0"", ""passed"": true, ""changed_played_pitches"": 1, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""scan_pass"": 1}, {""rule"": ""octave_typo"", ""bar"": 14, ""note"": 6, ""before"": ""D2 FA GEcE"", ""after"": ""D2 FA GECE"", ""before_midi"": 73, ""after_midi"": 61, ""reference_ranges"": [[""50812"", 6, 6]], ""corroborating_contributors"": 1, ""written_repeat"": false, ""written_repetitions"": 0, ""extra_matching_bar"": true, ""isolated_jump"": true, ""playback_occurrences"": 1, ""abcjs"": {""setting_id"": ""30901"", ""variant"": ""30901-1"", ""passed"": true, ""changed_played_pitches"": 1, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""scan_pass"": 1}]","AF F2 AFDF|AF F2 EFGE|AF F2 AFDF|GEFD EFGE|
 AF F2 AFDF|AF F2 EFGE|AF F2 AFDF|GEFD EFGE||
 D2 FD ADFD|D2 FA GECE|D2 FD ADFD|GEFD EFGE|
@@ -682,6 +693,17 @@ d3 c BAFA|BABc defg|agfe fcag|fece f4:|","|:agfe fc c/c/c|ec A B2 A GA|FAcA BAFG
 agfe fc c/c/c|ec A B2 A GA|FAcA BAFA|EAcB A4:|
 |:d3 c BAFA|BABc defg|afge fdec|dBcA BAFA
 d3 c BAFA|BABc defg|agfe fcag|fece f4:|"
+2283,2283,Breakout,Erik-Fiddler,https://thesession.org/tunes/2283#setting2283,Stray notation symbol,"[{""rule"": ""orphan_symbol"", ""bar"": 4, ""before"": ""/E/F/GE EDC"", ""after"": ""E/F/GE EDC"", ""reference_ranges"": [[""32392"", 4, 4]], ""corroborating_contributors"": 1, ""written_repetitions"": 0, ""extra_matching_bar"": true, ""playback_unchanged"": true, ""abcjs"": {""setting_id"": ""2283"", ""variant"": ""2283-0"", ""passed"": true, ""changed_played_pitches"": 0, ""before_warnings"": 1, ""after_warnings"": 0, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""scan_pass"": 1}]","|:D2 A AGF|E2 c c3|DAA AGF|E/F/GE EDC|
+D2 A AGF|E2 c c2 d/e/|fed cAe|1 ~d3 d2z:|2 ~d3 d2 d/e/||
+f2 f fgf|e^cA e^cA|~d3 dcB|ABG A3|
+Add def|Aee efg|afd ^cAe|~d3 d2 d/e/|
+f2 f fgf|e^cA e^cA|~d3 dcB|ABG A3|
+FGA ABc|^cde efg|afd ge^c|~d3 d2z||","|:D2 A AGF|E2 c c3|DAA AGF|/E/F/GE EDC|
+D2 A AGF|E2 c c2 d/e/|fed cAe|1 ~d3 d2z:|2 ~d3 d2 d/e/||
+f2 f fgf|e^cA e^cA|~d3 dcB|ABG A3|
+Add def|Aee efg|afd ^cAe|~d3 d2 d/e/|
+f2 f fgf|e^cA e^cA|~d3 dcB|ABG A3|
+FGA ABc|^cde efg|afd ge^c|~d3 d2z||"
 18339,35853,Bright Skies,Connor Hickey,https://thesession.org/tunes/18339#setting35853,Incorrect octave,"[{""rule"": ""octave_typo"", ""bar"": 6, ""note"": 4, ""before"": ""DGBD gdBG"", ""after"": ""DGBd gdBG"", ""before_midi"": 62, ""after_midi"": 74, ""reference_ranges"": [[""54623"", 7, 7]], ""corroborating_contributors"": 1, ""written_repeat"": false, ""written_repetitions"": 0, ""extra_matching_bar"": true, ""isolated_jump"": true, ""playback_occurrences"": 2, ""abcjs"": {""setting_id"": ""35853"", ""variant"": ""35853-0"", ""passed"": true, ""changed_played_pitches"": 2, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""scan_pass"": 1}]","|:dGBG dGBG|DGBd gdBG|ecc2dBB2|ceag faef|
 gGBG dGBG|DGBd gdBG|ecc2dBB2|cdfag2z2:|
 |:dgfg egfg|afdf gdBd|ecc2dBB2|ceag faef|
@@ -2110,6 +2132,13 @@ f2 ef dcAB|c2 dc A~c3|~d3e dcAc|dfec dcAG||
 ~G3B A2 GA|B~E3 GEDE|~G3A BABd|egfd e3 f||
 g2 fg edBc|d2 ed Bdef|g2 fg edBd|egfd e3f|
 g2 fg edBc|d2 ed B~d3|e3f edBd|egfd edBA||"
+5808,5808,"Hearty Boys Of Ballymote, The",fiddle?hockey?,https://thesession.org/tunes/5808#setting5808,Stray notation symbol; Stray notation symbol,"[{""rule"": ""orphan_symbol"", ""bar"": 4, ""before"": ""GEE ,BEE"", ""after"": ""GEE BEE"", ""reference_ranges"": [[""17744"", 4, 4], [""17745"", 4, 4]], ""corroborating_contributors"": 2, ""written_repetitions"": 0, ""extra_matching_bar"": false, ""playback_unchanged"": true, ""abcjs"": {""setting_id"": ""5808"", ""variant"": ""5808-0"", ""passed"": true, ""changed_played_pitches"": 0, ""before_warnings"": 3, ""after_warnings"": 2, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""scan_pass"": 1}, {""rule"": ""orphan_symbol"", ""bar"": 6, ""before"": ""\r\nGEE ,BEE"", ""after"": ""\r\nGEE BEE"", ""reference_ranges"": [[""17744"", 6, 6], [""17745"", 6, 6]], ""corroborating_contributors"": 2, ""written_repetitions"": 0, ""extra_matching_bar"": true, ""playback_unchanged"": true, ""abcjs"": {""setting_id"": ""5808"", ""variant"": ""5808-1"", ""passed"": true, ""changed_played_pitches"": 0, ""before_warnings"": 3, ""after_warnings"": 2, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""scan_pass"": 1}]","|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+|:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
+d3 dcB|AFD FGA|Bee BdB|AFD E2:|","|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
+GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+|:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
+d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 13890,40751,High Road To Fort Augustus,munro,https://thesession.org/tunes/13890#setting40751,Missing barline,"[{""rule"": ""missing_barline"", ""bar"": 9, ""witnesses"": [[[""40751"", 4]], [[""40751"", 10]]], ""before"": ""AFEC B,/B,/B, A2\r\nBFBc dBFd"", ""after"": ""AFEC B,/B,/B, A2|\r\nBFBc dBFd"", ""scan_pass"": 1}]","F|c,FF^G A2 AF|A,>A, E2 CA,A,E|c,FF^G A2 Ac|AFEC B,/B,/B, A2|
 c,FF^G A2 AF|A,A, E2 CA,A,E|c,FF^G A2 Ac|AFEC B,/B,/B, A2|
 BFBc dBFd|cAeA cAAc|BFBc dBFd|caec B/B/B f2|
@@ -3679,6 +3708,35 @@ gfa gec|Ace a3f|gec ABc|1 dFB AFE:|2 dfe dAF||"
 13741,24467,Näcken Valsen,Weejie,https://thesession.org/tunes/13741#setting24467,Incorrect note length,"[{""rule"": ""note_length"", ""bar"": 10, ""before"": ""f3 e ^d"", ""after"": ""f3 e ^d2"", ""witnesses"": [[""24464"", 25]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","|:E2 GB ef|g2 f2 e2|f2 e2 ^d2|ef ga b2|A2 ce ab|a2 g2 f2|B2 ^d2 d2|e6:|
 |:g3 f e2|f3 e ^d2|e3 e e2|e2 b2 g2|f3 f f2|f2 ^d2 f2|e3 e e2|e6:|","|:E2 GB ef|g2 f2 e2|f2 e2 ^d2|ef ga b2|A2 ce ab|a2 g2 f2|B2 ^d2 d2|e6:|
 |:g3 f e2|f3 e ^d|e3 e e2|e2 b2 g2|f3 f f2|f2 ^d2 f2|e3 e e2|e6:|"
+1726,15152,"New Broom, The",ceolachan,https://thesession.org/tunes/1726#setting15152,Stray notation symbol,"[{""rule"": ""orphan_symbol"", ""bar"": 12, ""before"": ""\r\n1 BAAG A2 ga"", ""after"": ""\r\n BAAG A2 ga"", ""reference_ranges"": [[""1726"", 13, 13]], ""corroborating_contributors"": 1, ""written_repetitions"": 0, ""extra_matching_bar"": true, ""playback_unchanged"": true, ""abcjs"": {""setting_id"": ""15152"", ""variant"": ""15152-0"", ""passed"": true, ""changed_played_pitches"": 0, ""before_warnings"": 3, ""after_warnings"": 2, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""scan_pass"": 1}]","|:G3 B d2 Bd|e/g/e dB d2 BA|GFGA B2 AG|A2 E2 E2 (3DEF|
+G3 B d2 Bd|e/g/e dB d2 Bd|edge dBAc|B2 G2 G2:|
+b2 ba g3 a|bgag e/g/e d2|edge dBGA|
+ BAAG A2 ga|b2 ba g3 a|bgag e/g/e d2|edge dBAc|B2 G2 G2:|
+2 BAAG AcBA|G3 B d2 Bd|e/g/e dB d2Bd|edge dBAc|B2 G2 G2||
+|:G2 G2 d2 B>d|e2 d>B d2 B>A|G2 G>A B2 A>G|A2 E2 E4|
+G2 G>B (3ded (3Bcd|e2 d>B d2 (3Bcd|e>dg>e d>BA>d|B2 G2 G4:|
+|:b2 b2 g3 a|b>ga>g e2 d2|e2 e2 d>BG>A|B2 A2 A4|
+[1 b2 b>a (3gag (3fga|b>ga>g (3ege (3def|g3 e d>BA>d|B2 G2 G4:|
+[2 G2 G2 d2 B>d|e2 d>B d4|e2 g>e d>BA>d|B2 G2 G4||
+G>D (3GAB d2 (3Bcd|(3ege d>B d>gB>A|G>D (3FGA B>GA>G|A>BE>D (3EGE (3DEF|
+G>DG>B d>GB>d|e>Gd>B d>GB>d|g>f (3gfe d>BA>d|B>G (3GGG G2:|
+b>^ab>=a (3gbg (3fga|b>g (3agf (3ege d>G|e>Gg>G d>GG>A|
+[1 B>AA>^G (3ABA (3Bd=g|b2 b>a g>fg>a|b2 a>g e>g (3def|g>e (3gfe d>BA>d|B>G (3GGG G2:|
+2 B>A (3AAA A2 (3cBA|G>DG>B (3dgd (3Bcd|(3ege d>^c d2 e>f|g>f (3gfe d>BA>d|B>GG>F G2||","|:G3 B d2 Bd|e/g/e dB d2 BA|GFGA B2 AG|A2 E2 E2 (3DEF|
+G3 B d2 Bd|e/g/e dB d2 Bd|edge dBAc|B2 G2 G2:|
+b2 ba g3 a|bgag e/g/e d2|edge dBGA|
+1 BAAG A2 ga|b2 ba g3 a|bgag e/g/e d2|edge dBAc|B2 G2 G2:|
+2 BAAG AcBA|G3 B d2 Bd|e/g/e dB d2Bd|edge dBAc|B2 G2 G2||
+|:G2 G2 d2 B>d|e2 d>B d2 B>A|G2 G>A B2 A>G|A2 E2 E4|
+G2 G>B (3ded (3Bcd|e2 d>B d2 (3Bcd|e>dg>e d>BA>d|B2 G2 G4:|
+|:b2 b2 g3 a|b>ga>g e2 d2|e2 e2 d>BG>A|B2 A2 A4|
+[1 b2 b>a (3gag (3fga|b>ga>g (3ege (3def|g3 e d>BA>d|B2 G2 G4:|
+[2 G2 G2 d2 B>d|e2 d>B d4|e2 g>e d>BA>d|B2 G2 G4||
+G>D (3GAB d2 (3Bcd|(3ege d>B d>gB>A|G>D (3FGA B>GA>G|A>BE>D (3EGE (3DEF|
+G>DG>B d>GB>d|e>Gd>B d>GB>d|g>f (3gfe d>BA>d|B>G (3GGG G2:|
+b>^ab>=a (3gbg (3fga|b>g (3agf (3ege d>G|e>Gg>G d>GG>A|
+[1 B>AA>^G (3ABA (3Bd=g|b2 b>a g>fg>a|b2 a>g e>g (3def|g>e (3gfe d>BA>d|B>G (3GGG G2:|
+2 B>A (3AAA A2 (3cBA|G>DG>B (3dgd (3Bcd|(3ege d>^c d2 e>f|g>f (3gfe d>BA>d|B>GG>F G2||"
 7114,7114,"New Concertina, The",Seán Micheál Ó Riain,https://thesession.org/tunes/7114#setting7114,Missing barline,"[{""rule"": ""missing_barline"", ""bar"": 12, ""last_bar"": 12, ""before"": ""edfd ed^cd\r\nBdd2 Bdd2"", ""after"": ""edfd ed^cd|\r\nBdd2 Bdd2"", ""reference_ranges"": [[""7114"", 4, 4]], ""transposed_references"": [], ""method"": ""Line break and matching adjacent measure"", ""scan_pass"": 1}]","|:g2fg g2fg|g2fg ed^cd|edfd edfd|edfd ed^cd|
 g2fg g2fg|g2fg edBA|Bdef g2ge|dBAB G4:|
 |:Bdd2 edd2|Bdd2 edd2|edfd edfd|edfd ed^cd|
@@ -3770,6 +3828,13 @@ fAA eAA | dBB g3 | agf g2 e | dBA A3 :|","f |: fga efd | e2 d AB e | fga efe | c
 fga efd e2 d ABe | ABA fge | dBA A3 :|
 |: fAA eAA | dBB Bde | fAA eAA dBA Ade |
 fAA eAA | dBB g3 | agf g2 e | dBA A3 :|"
+17116,52033,O Carrolans 174,Greg McLaughlin,https://thesession.org/tunes/17116#setting52033,Stray notation symbol; Stray notation symbol,"[{""rule"": ""orphan_symbol"", ""bar"": 14, ""before"": "" /c/B/c/d/e dBG "", ""after"": "" c/B/c/d/e dBG "", ""reference_ranges"": [[""32741"", 14, 14]], ""corroborating_contributors"": 1, ""written_repetitions"": 0, ""extra_matching_bar"": true, ""playback_unchanged"": true, ""abcjs"": {""setting_id"": ""52033"", ""variant"": ""52033-0"", ""passed"": true, ""changed_played_pitches"": 0, ""before_warnings"": 2, ""after_warnings"": 1, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""scan_pass"": 1}, {""rule"": ""orphan_symbol"", ""bar"": 12, ""before"": "" /f/e/f/g/a gec "", ""after"": "" f/e/f/g/a gec "", ""reference_ranges"": [[""32741"", 12, 12]], ""corroborating_contributors"": 1, ""written_repetitions"": 0, ""extra_matching_bar"": true, ""playback_unchanged"": true, ""abcjs"": {""setting_id"": ""52033"", ""variant"": ""52033-0"", ""passed"": true, ""changed_played_pitches"": 0, ""before_warnings"": 1, ""after_warnings"": 0, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""scan_pass"": 2}]","|: G | ECC EFG | cA/B/c/A/ GAF | ECE GEG | AFA BGB |
+cBc def | eag fed | edc GcB | c3 c2 :|
+|: ef | gec gec | f/e/f/g/a gec | dBG dBG | c/B/c/d/e dBG |
+cBc GAF | ECE GEG | AFA BGB | cBc def | edc GcB | c3 c2 :|","|: G | ECC EFG | cA/B/c/A/ GAF | ECE GEG | AFA BGB |
+cBc def | eag fed | edc GcB | c3 c2 :|
+|: ef | gec gec | /f/e/f/g/a gec | dBG dBG | /c/B/c/d/e dBG |
+cBc GAF | ECE GEG | AFA BGB | cBc def | edc GcB | c3 c2 :|"
 5680,5680,O Savinao,Avery,https://thesession.org/tunes/5680#setting5680,Missing barline,"[{""rule"": ""missing_barline"", ""bar"": 4, ""last_bar"": 4, ""before"": ""BA BG\r\ndd GG"", ""after"": ""BA BG|\r\ndd GG"", ""reference_ranges"": [[""5680"", 1, 1]], ""transposed_references"": [], ""method"": ""Line break and matching adjacent measure"", ""scan_pass"": 1}]","|:dd GG|dd GG|G/A/B/c/ dB/B/|BA BG|
 dd GG|dd GG|G/A/B/c/ dB/B/|BA G2:|
 G/A/B/c/ d>e|d>e d/B/B|B>A B<c|AA G<A|BG G
@@ -4678,6 +4743,17 @@ G2 GA|Bc d2|F2 ED|D3 D|GB dB|AF ED|E2 D2|D3:|","|:B,A,||D2 DD|D2 DD|ED EF|GF EF
 D2 B,A,|D2 B,A,|ED EF|GF EF|GA Bc|d2 AG|F2 D2|D2:|
 A||AB cd|cB AF|AB cd|B2 AF|AB dB|AF ED|F2 E2|E2 EF|
 G2 GA|Bc d2|F2 ED|D3 D|GB dB|AF ED|E2 D2|D3:|"
+1764,52009,"Scartaglen, The",Greg McLaughlin,https://thesession.org/tunes/1764#setting52009,Stray notation symbol,"[{""rule"": ""orphan_symbol"", ""bar"": 3, ""before"": "" gB /B/A/G/A/ "", ""after"": "" gB B/A/G/A/ "", ""reference_ranges"": [[""15210"", 4, 4], [""15211"", 3, 3], [""1764"", 3, 3], [""37317"", 3, 3], [""53783"", 4, 4]], ""corroborating_contributors"": 4, ""written_repetitions"": 0, ""extra_matching_bar"": true, ""playback_unchanged"": true, ""abcjs"": {""setting_id"": ""52009"", ""variant"": ""52009-0"", ""passed"": true, ""changed_played_pitches"": 0, ""before_warnings"": 6, ""after_warnings"": 5, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""scan_pass"": 1}]","|: G2 G>A | Bd de/f/ | gB B/A/G/A/ | BA AB/A/ | 
+G2 G>A | Bd de/f/| gB AB/A/ | G2 G2 :|
+|: Gg g2 | fe /e/f/g/e/ | dB /B/A/G/A/ | BA A>B |
+dg g>g | fe /e/f/g/e/ | dB AB/A/ | G2 G2 :|
+|: g2 a2 | ab ba | gf/g/ ag/a/ | b2 ba | 
+gb /e/f/g/e/ | dB /g/a/g/e/ | dB AB/A/ | G2 G2 :|","|: G2 G>A | Bd de/f/ | gB /B/A/G/A/ | BA AB/A/ | 
+G2 G>A | Bd de/f/| gB AB/A/ | G2 G2 :|
+|: Gg g2 | fe /e/f/g/e/ | dB /B/A/G/A/ | BA A>B |
+dg g>g | fe /e/f/g/e/ | dB AB/A/ | G2 G2 :|
+|: g2 a2 | ab ba | gf/g/ ag/a/ | b2 ba | 
+gb /e/f/g/e/ | dB /g/a/g/e/ | dB AB/A/ | G2 G2 :|"
 728,728,Scatter The Mud,seara,https://thesession.org/tunes/728#setting728,Missing barline,"[{""rule"": ""missing_barline"", ""bar"": 14, ""witnesses"": [[[""728"", 9], [""728"", 11], [""728"", 16], [""44117"", 8]], [[""728"", 21], [""44117"", 13], [""44117"", 21], [""13800"", 11]]], ""before"": ""\r\neaa g2e dBG AGE"", ""after"": ""\r\neaa g2e| dBG AGE"", ""scan_pass"": 1}]","Bd|:eAA BAG|EAA ABd|eAA BAB|d2A Bcd|
 eAA BAG|~E3 AGE|GAB dge|dBA ABd:|
 eaa g2e|dBG GBd|eaa g2e|dBG ABd|
@@ -4776,6 +4852,13 @@ eaag e3d|eaaB cBcd|eaag efga| bgaf g2 fg||","egfg egdg|eAAA eABd|egfg e2 dB|dGGG
 egfg egdg|eAAA eABd|egfg e2 dB|defg bgag||
 eaag e3d|eaaB cBcd|eaag e2 dB|dGGG dGBd|
 eaag e3d|eaaB cBcd|eaag efga bgaf g2 fg||"
+543,47707,"Ships Are Sailing, The",TJ,https://thesession.org/tunes/543#setting47707,Stray notation symbol,"[{""rule"": ""orphan_symbol"", ""bar"": 5, ""before"": ""#\r\nBeed BcdB"", ""after"": ""\r\nBeed BcdB"", ""reference_ranges"": [[""26706"", 5, 5], [""47026"", 5, 5]], ""corroborating_contributors"": 2, ""written_repetitions"": 0, ""extra_matching_bar"": false, ""playback_unchanged"": true, ""abcjs"": {""setting_id"": ""47707"", ""variant"": ""47707-0"", ""passed"": true, ""changed_played_pitches"": 0, ""before_warnings"": 1, ""after_warnings"": 0, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""scan_pass"": 1}]","|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|
+Beed BcdB|AD (3FED AD (3FED|EDEF GFGA|Beed e3f:|
+|:~g3a bgeg|~f3g afdf|~g3a bgeg|fedf e2ef|
+~g3a bgeg|~f3g afdf|g2bg f2af|edef gfef:|","|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|#
+Beed BcdB|AD (3FED AD (3FED|EDEF GFGA|Beed e3f:|
+|:~g3a bgeg|~f3g afdf|~g3a bgeg|fedf e2ef|
+~g3a bgeg|~f3g afdf|g2bg f2af|edef gfef:|"
 2559,27318,Shootin' The Bull,Moulouf,https://thesession.org/tunes/2559#setting27318,Incorrect note length,"[{""rule"": ""note_length"", ""bar"": 12, ""before"": ""ef g>f/"", ""after"": ""ef g>f"", ""witnesses"": [[""44925"", 12]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","|:eA Ad|ef gf|eA Ae|d2 dB/d/|
 eA Ad|ef gf|ef/e/ dB|A2 AB/d/:|
 |:ea ag|ed dB/d/|ea ag|ef g>f|

@@ -1,5 +1,11 @@
 # Changes
 
+## Stray notation symbols
+
+Corrected 10 notation errors in 7 settings of 7 tunes and updated 49 matching set entries. The revised measures match original written references with the same adjacent phrases. TradMate and abcjs both preserved the played notes and timings. A proposed change that altered note timing was left for review.
+
+See the [before-and-after measures](checks/syntax-edits.json) and the [playback results](checks/playback.json).
+
 ## Isolated pitch jumps and accidentals
 
 Corrected 28 pitches across 24 settings of 24 tunes, with the same changes applied to 77 matching set entries. The batch contains 22 octave slips, 3 accidentals and 3 other incorrect melody notes. Each change is supported by a matching written phrase. TradMate and abcjs agreed on every intended pitch change and preserved all other pitches, note counts and timings.

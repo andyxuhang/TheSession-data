@@ -12,6 +12,7 @@ import subprocess
 import tempfile
 from pitch_fixes import PITCH_RULES, key_signature, resolve_pitches
 from scan import measures, rows as read_rows, unique_settings
+from syntax_fixes import SYNTAX_RULES
 
 ROOT = Path(__file__).resolve().parents[1]
 REVISION = "823fbf4cb5941394d86b5dd476ba46cc6e891f47"
@@ -226,7 +227,7 @@ def main():
     parser.add_argument("--dart", required=True, help="Path to a standalone Dart SDK executable")
     parser.add_argument("--plan", type=Path, action="append", help="Change file (repeatable); defaults to changes/*.json")
     parser.add_argument("--allow-failures", action="store_true", help="Report rejected proposals without a failing exit status")
-    parser.add_argument("--abcjs", action="store_true", help="Cross-check pitch edits with the vendored abcjs")
+    parser.add_argument("--abcjs", action="store_true", help="Cross-check pitch and notation edits with the vendored abcjs")
     args = parser.parse_args()
     repo = args.tradmate_repo.resolve()
     files = args.plan or sorted((ROOT / "changes").glob("*.json"))
@@ -241,6 +242,9 @@ def main():
             evidence = patch['evidence']
             if isinstance(evidence,list) and evidence and all(e['rule'] in PITCH_RULES for e in evidence):
                 rows.append({**row, **patch, 'pitch_changes':prepare_pitch_changes(patch,row['mode'])})
+                continue
+            if isinstance(evidence,list) and evidence and all(e['rule'] in SYNTAX_RULES for e in evidence):
+                rows.append({**row, **patch, 'syntax_only':True, 'allowed_duration_changes':[]})
                 continue
             grouped = {}
             before = [e for b in measures(patch['before_abc'])[0] for e in b.events]
@@ -288,7 +292,10 @@ def main():
         if args.abcjs:
             library = repo/'third_party/abcjs/abcjs-basic-min.js'
             secondary_input = root/'abcjs-input.json'
-            secondary_input.write_text(json.dumps([row for row in rows if 'pitch_changes' in row]),encoding='utf8')
+            secondary_input.write_text(json.dumps([
+                {**row, 'pitch_changes': row.get('pitch_changes', [])}
+                for row in rows if 'pitch_changes' in row or row.get('syntax_only')
+            ]),encoding='utf8')
             output = subprocess.check_output(['node',str(ROOT/'tools/check_abcjs_pitches.js'),
                                               str(library),str(secondary_input)],text=True)
             comparison = json.loads(output)
@@ -301,7 +308,7 @@ def main():
                 check['abcjs'] = {**other,'version':comparison['version'],
                                   'sha256':library_hash}
                 if check['passed'] and (
-                    not other['passed'] or other.get('changed_played_pitches') != check['changed_played_pitches']
+                    not other['passed'] or other.get('changed_played_pitches') != check.get('changed_played_pitches',0)
                 ):
                     check['passed'] = False
                     check['reason'] = 'abcjs: '+other.get('reason','played pitch-change counts differ')

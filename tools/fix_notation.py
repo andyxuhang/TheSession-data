@@ -15,6 +15,7 @@ from matching_phrases import scan_phrases
 from missing_notes import scan_missing_notes
 from phrase_lengths import scan_lengths
 from pitch_fixes import PITCH_RULES, scan_pitches
+from syntax_fixes import SYNTAX_RULES, scan_syntax
 from scan import ROOT, measures, rows, scan, sha, unique_settings
 
 
@@ -54,15 +55,16 @@ def measure_edits(patch):
 
 
 def check_measure_edits(proposals, work, args, lengths=False):
+    cross_checked_rules = PITCH_RULES | SYNTAX_RULES
     singles = []
     for patch in proposals:
         body = patch['before_abc']
         for start, end, ev, variant in measure_edits(patch):
             is_length = lengths or ev['rule'] == 'note_length'
-            evidence = [ev] if ev['rule'] in PITCH_RULES else patch['evidence']
+            evidence = [ev] if ev['rule'] in cross_checked_rules else patch['evidence']
             singles.append({**patch, 'evidence':evidence, 'variant':variant, 'strict_length':is_length, 'after_abc':body[:start]+ev['after']+body[end:]})
     dump(work/'individual.json', {'corrections':singles})
-    cross_check = any(ev['rule'] in PITCH_RULES for p in proposals for ev in p['evidence'])
+    cross_check = any(ev['rule'] in cross_checked_rules for p in proposals for ev in p['evidence'])
     report = playback(work/'individual.json', work/'individual-check.json', args, True, cross_check=cross_check)
     checks = {r['variant']:r for r in report['checks']}
     accepted, failures = [], {}
@@ -82,6 +84,8 @@ def check_measure_edits(proposals, work, args, lengths=False):
                 body = body[:start]+ev['after']+body[end:]
                 if ev['rule'] in PITCH_RULES:
                     ev = {**ev, 'playback_occurrences':result['changed_played_pitches'],'abcjs':result['abcjs']}
+                elif ev['rule'] in SYNTAX_RULES:
+                    ev = {**ev, 'playback_unchanged':True, 'abcjs':result['abcjs']}
                 evidence.append(ev)
             else:
                 sid = patch['setting_id']
@@ -108,8 +112,11 @@ def main():
     mode.add_argument('--phrases', action='store_true', help='Compare damaged interior phrases with intact written passages')
     mode.add_argument('--missing-notes', action='store_true', help='Restore a missing note supported by independent settings')
     mode.add_argument('--pitches', action='store_true', help='Check accidentals and octaves in fully metered passages')
+    mode.add_argument('--syntax', action='store_true', help='Check stray notation and split note tokens')
     args = parser.parse_args()
-    separate_scan = args.phrases or args.missing_notes or args.pitches
+    cross_checked = args.pitches or args.syntax
+    separate_scan = args.phrases or args.missing_notes or cross_checked
+    plan_name = 'syntax' if args.syntax else 'pitch' if args.pitches else 'notation'
     lengths = args.lengths or args.parallel_lengths
     current = unique_settings(rows(ROOT/'json/tunes.json'))
     data = list(current.values())
@@ -123,7 +130,14 @@ def main():
         work = Path(temporary)
         for attempt in range(1, 16):
             if separate_scan:
-                scanner = scan_pitches if args.pitches else (scan_missing_notes if args.missing_notes else scan_phrases)
+                if args.syntax:
+                    scanner = scan_syntax
+                elif args.pitches:
+                    scanner = scan_pitches
+                elif args.missing_notes:
+                    scanner = scan_missing_notes
+                else:
+                    scanner = scan_phrases
                 proposals, stats = scanner(data, upstream)
                 stats.update(settings=len(data), settings_with_proposals=len(proposals))
             elif lengths:
@@ -140,7 +154,7 @@ def main():
                 break
             structural = [p for p in candidates if all(
                 e['rule'] in {'misplaced_barline', 'missing_barline'} for e in p['evidence'])]
-            individual = candidates if lengths or args.phrases or args.pitches else structural
+            individual = candidates if lengths or args.phrases or cross_checked else structural
             if individual:
                 structural_ids = {p['setting_id'] for p in individual}
                 passed, failures = check_measure_edits(individual, work, args, lengths=lengths)
@@ -154,7 +168,7 @@ def main():
                     history.append(stats)
                     break
             dump(work/'proposals.json', {'corrections':candidates})
-            checked = playback(work/'proposals.json', work/'playback.json', args, True, cross_check=args.pitches)
+            checked = playback(work/'proposals.json', work/'playback.json', args, True, cross_check=cross_checked)
             outcomes = {r['setting_id']:r for r in checked['checks']}
             accepted = 0
             for patch in candidates:
@@ -188,11 +202,11 @@ def main():
             batch = [{'setting_id':patch['setting_id'], 'tune_id':patch['tune_id'],
                       'source_url':patch['source_url'], **ev}
                      for patch in collected.values() for ev in patch['evidence']]
-            detail_file = ('pitch-edits.json' if args.pitches else
+            detail_file = (f'{plan_name}-edits.json' if cross_checked else
                            'missing-notes.json' if args.missing_notes else 'matching-phrases.json')
         # Retain the complete original of any earlier run. Never overwrite the
         # history with an empty plan when the data are already corrected.
-        stored = ROOT/'changes'/('pitch-fixes.json' if args.pitches else 'notation-fixes.json')
+        stored = ROOT/'changes'/f'{plan_name}-fixes.json'
         previous = json.loads(stored.read_text()) if stored.exists() else {'corrections':[]}
         combined = {p['setting_id']:p for p in previous['corrections']}
         for sid,patch in collected.items():
@@ -214,6 +228,9 @@ def main():
         if args.pitches:
             plan['method'] = 'Independent matching written phrases and verified single-note pitch changes'
             plan['pitch_scanner_sha256'] = hashlib.sha256((ROOT/'tools/pitch_fixes.py').read_bytes()).hexdigest()
+        if args.syntax:
+            plan['method'] = 'Matching written measures and unchanged playback in independent parsers'
+            plan['syntax_scanner_sha256'] = hashlib.sha256((ROOT/'tools/syntax_fixes.py').read_bytes()).hexdigest()
         if args.phrases:
             plan['matching_phrases_sha256'] = hashlib.sha256((ROOT/'tools/matching_phrases.py').read_bytes()).hexdigest()
         if args.missing_notes:
@@ -238,9 +255,9 @@ def main():
                 stream.write(json.dumps(finding,ensure_ascii=False)+'\n')
         if args.apply:
             dump(stored,plan)
-            playback_file = 'pitch-playback.json' if args.pitches else 'notation-playback.json'
+            playback_file = f'{plan_name}-playback.json'
             dump(ROOT/'checks'/playback_file,final)
-            if args.pitches:
+            if cross_checked:
                 batch = [{'setting_id':patch['setting_id'],'tune_id':patch['tune_id'],
                           'source_url':patch['source_url'],**ev}
                          for patch in combined.values() for ev in patch['evidence']]
@@ -262,7 +279,7 @@ def main():
                     if lengths or separate_scan or rules - {'missing_barline','misplaced_barline'}:
                         rejected.setdefault(old['setting_id'],old)
             dump(ROOT/'checks/rejected.json',list(rejected.values()))
-            scan_file = 'pitch-scan.json' if args.pitches else 'scan.json'
+            scan_file = f'{plan_name}-scan.json' if cross_checked else 'scan.json'
             dump(ROOT/'checks'/scan_file,{'passes':history,'rejected_settings':len(rejected)})
             with (ROOT/'checks/data.json').open('w') as stream:
                 subprocess.run([sys.executable,str(ROOT/'tools/apply.py'),'--apply'],stdout=stream,check=True)

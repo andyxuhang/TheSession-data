@@ -1,0 +1,490 @@
+{
+  "base_commit": "94d60f743bcbcfc50e52883bd031c470d77cc336",
+  "method": "Matching written measures and unchanged playback in independent parsers",
+  "scanner_sha256": "495c269c2748ecdcb025558ca876b8ea96c58bdc00af9c6a7ee598316c8c61e0",
+  "corrections": [
+    {
+      "tune_id": "543",
+      "setting_id": "47707",
+      "name": "Ships Are Sailing, The",
+      "original_contributor": "TJ",
+      "source_url": "https://thesession.org/tunes/543#setting47707",
+      "category": "orphan_symbol",
+      "before_abc": "|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|#\r\nBeed BcdB|AD (3FED AD (3FED|EDEF GFGA|Beed e3f:|\r\n|:~g3a bgeg|~f3g afdf|~g3a bgeg|fedf e2ef|\r\n~g3a bgeg|~f3g afdf|g2bg f2af|edef gfef:|",
+      "after_abc": "|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|\r\nBeed BcdB|AD (3FED AD (3FED|EDEF GFGA|Beed e3f:|\r\n|:~g3a bgeg|~f3g afdf|~g3a bgeg|fedf e2ef|\r\n~g3a bgeg|~f3g afdf|g2bg f2af|edef gfef:|",
+      "before_sha256": "efe844f41a678c25bde48d3e65a21ffcd257c4cc61c875eaaf4707ef61f3c531",
+      "after_sha256": "c64598cc53c8b3e151b3ff5c9273aa1790387ab1efbfa3d9fc7c1100a4ab9ee3",
+      "evidence": [
+        {
+          "rule": "orphan_symbol",
+          "bar": 5,
+          "before": "#\r\nBeed BcdB",
+          "after": "\r\nBeed BcdB",
+          "reference_ranges": [
+            [
+              "26706",
+              5,
+              5
+            ],
+            [
+              "47026",
+              5,
+              5
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repetitions": 0,
+          "extra_matching_bar": false,
+          "playback_unchanged": true,
+          "abcjs": {
+            "setting_id": "47707",
+            "variant": "47707-0",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 50,
+          "end": 51,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "1726",
+      "setting_id": "15152",
+      "name": "New Broom, The",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/1726#setting15152",
+      "category": "orphan_symbol",
+      "before_abc": "|:G3 B d2 Bd|e/g/e dB d2 BA|GFGA B2 AG|A2 E2 E2 (3DEF|\r\nG3 B d2 Bd|e/g/e dB d2 Bd|edge dBAc|B2 G2 G2:|\r\nb2 ba g3 a|bgag e/g/e d2|edge dBGA|\r\n1 BAAG A2 ga|b2 ba g3 a|bgag e/g/e d2|edge dBAc|B2 G2 G2:|\r\n2 BAAG AcBA|G3 B d2 Bd|e/g/e dB d2Bd|edge dBAc|B2 G2 G2||\r\n|:G2 G2 d2 B>d|e2 d>B d2 B>A|G2 G>A B2 A>G|A2 E2 E4|\r\nG2 G>B (3ded (3Bcd|e2 d>B d2 (3Bcd|e>dg>e d>BA>d|B2 G2 G4:|\r\n|:b2 b2 g3 a|b>ga>g e2 d2|e2 e2 d>BG>A|B2 A2 A4|\r\n[1 b2 b>a (3gag (3fga|b>ga>g (3ege (3def|g3 e d>BA>d|B2 G2 G4:|\r\n[2 G2 G2 d2 B>d|e2 d>B d4|e2 g>e d>BA>d|B2 G2 G4||\r\nG>D (3GAB d2 (3Bcd|(3ege d>B d>gB>A|G>D (3FGA B>GA>G|A>BE>D (3EGE (3DEF|\r\nG>DG>B d>GB>d|e>Gd>B d>GB>d|g>f (3gfe d>BA>d|B>G (3GGG G2:|\r\nb>^ab>=a (3gbg (3fga|b>g (3agf (3ege d>G|e>Gg>G d>GG>A|\r\n[1 B>AA>^G (3ABA (3Bd=g|b2 b>a g>fg>a|b2 a>g e>g (3def|g>e (3gfe d>BA>d|B>G (3GGG G2:|\r\n2 B>A (3AAA A2 (3cBA|G>DG>B (3dgd (3Bcd|(3ege d>^c d2 e>f|g>f (3gfe d>BA>d|B>GG>F G2||",
+      "after_abc": "|:G3 B d2 Bd|e/g/e dB d2 BA|GFGA B2 AG|A2 E2 E2 (3DEF|\r\nG3 B d2 Bd|e/g/e dB d2 Bd|edge dBAc|B2 G2 G2:|\r\nb2 ba g3 a|bgag e/g/e d2|edge dBGA|\r\n BAAG A2 ga|b2 ba g3 a|bgag e/g/e d2|edge dBAc|B2 G2 G2:|\r\n2 BAAG AcBA|G3 B d2 Bd|e/g/e dB d2Bd|edge dBAc|B2 G2 G2||\r\n|:G2 G2 d2 B>d|e2 d>B d2 B>A|G2 G>A B2 A>G|A2 E2 E4|\r\nG2 G>B (3ded (3Bcd|e2 d>B d2 (3Bcd|e>dg>e d>BA>d|B2 G2 G4:|\r\n|:b2 b2 g3 a|b>ga>g e2 d2|e2 e2 d>BG>A|B2 A2 A4|\r\n[1 b2 b>a (3gag (3fga|b>ga>g (3ege (3def|g3 e d>BA>d|B2 G2 G4:|\r\n[2 G2 G2 d2 B>d|e2 d>B d4|e2 g>e d>BA>d|B2 G2 G4||\r\nG>D (3GAB d2 (3Bcd|(3ege d>B d>gB>A|G>D (3FGA B>GA>G|A>BE>D (3EGE (3DEF|\r\nG>DG>B d>GB>d|e>Gd>B d>GB>d|g>f (3gfe d>BA>d|B>G (3GGG G2:|\r\nb>^ab>=a (3gbg (3fga|b>g (3agf (3ege d>G|e>Gg>G d>GG>A|\r\n[1 B>AA>^G (3ABA (3Bd=g|b2 b>a g>fg>a|b2 a>g e>g (3def|g>e (3gfe d>BA>d|B>G (3GGG G2:|\r\n2 B>A (3AAA A2 (3cBA|G>DG>B (3dgd (3Bcd|(3ege d>^c d2 e>f|g>f (3gfe d>BA>d|B>GG>F G2||",
+      "before_sha256": "e1e6078ff9e059fda58e489c7f77cc83be6d1243cfd5092454fd62df39df300e",
+      "after_sha256": "aae3c58844a72e8273b53ee07e05f4c401a74fcff34fb4e48c1813e0eb587b42",
+      "evidence": [
+        {
+          "rule": "orphan_symbol",
+          "bar": 12,
+          "before": "\r\n1 BAAG A2 ga",
+          "after": "\r\n BAAG A2 ga",
+          "reference_ranges": [
+            [
+              "1726",
+              13,
+              13
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repetitions": 0,
+          "extra_matching_bar": true,
+          "playback_unchanged": true,
+          "abcjs": {
+            "setting_id": "15152",
+            "variant": "15152-0",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 141,
+          "end": 142,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "1764",
+      "setting_id": "52009",
+      "name": "Scartaglen, The",
+      "original_contributor": "Greg McLaughlin",
+      "source_url": "https://thesession.org/tunes/1764#setting52009",
+      "category": "orphan_symbol",
+      "before_abc": "|: G2 G>A | Bd de/f/ | gB /B/A/G/A/ | BA AB/A/ | \r\nG2 G>A | Bd de/f/| gB AB/A/ | G2 G2 :|\r\n|: Gg g2 | fe /e/f/g/e/ | dB /B/A/G/A/ | BA A>B |\r\ndg g>g | fe /e/f/g/e/ | dB AB/A/ | G2 G2 :|\r\n|: g2 a2 | ab ba | gf/g/ ag/a/ | b2 ba | \r\ngb /e/f/g/e/ | dB /g/a/g/e/ | dB AB/A/ | G2 G2 :|",
+      "after_abc": "|: G2 G>A | Bd de/f/ | gB B/A/G/A/ | BA AB/A/ | \r\nG2 G>A | Bd de/f/| gB AB/A/ | G2 G2 :|\r\n|: Gg g2 | fe /e/f/g/e/ | dB /B/A/G/A/ | BA A>B |\r\ndg g>g | fe /e/f/g/e/ | dB AB/A/ | G2 G2 :|\r\n|: g2 a2 | ab ba | gf/g/ ag/a/ | b2 ba | \r\ngb /e/f/g/e/ | dB /g/a/g/e/ | dB AB/A/ | G2 G2 :|",
+      "before_sha256": "16bd7c797a028e3f99a81b2df885c388fc9e3544f192e9dc32e85dda3dfc50c3",
+      "after_sha256": "2ca859c0dee3a0eb397a47ed43164878bcf908874db6eb6df4ecfaf493d7377f",
+      "evidence": [
+        {
+          "rule": "orphan_symbol",
+          "bar": 3,
+          "before": " gB /B/A/G/A/ ",
+          "after": " gB B/A/G/A/ ",
+          "reference_ranges": [
+            [
+              "15210",
+              4,
+              4
+            ],
+            [
+              "15211",
+              3,
+              3
+            ],
+            [
+              "1764",
+              3,
+              3
+            ],
+            [
+              "37317",
+              3,
+              3
+            ],
+            [
+              "53783",
+              4,
+              4
+            ]
+          ],
+          "corroborating_contributors": 4,
+          "written_repetitions": 0,
+          "extra_matching_bar": true,
+          "playback_unchanged": true,
+          "abcjs": {
+            "setting_id": "52009",
+            "variant": "52009-0",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 6,
+            "after_warnings": 5,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 26,
+          "end": 27,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "2283",
+      "setting_id": "2283",
+      "name": "Breakout",
+      "original_contributor": "Erik-Fiddler",
+      "source_url": "https://thesession.org/tunes/2283#setting2283",
+      "category": "orphan_symbol",
+      "before_abc": "|:D2 A AGF|E2 c c3|DAA AGF|/E/F/GE EDC|\r\nD2 A AGF|E2 c c2 d/e/|fed cAe|1 ~d3 d2z:|2 ~d3 d2 d/e/||\r\nf2 f fgf|e^cA e^cA|~d3 dcB|ABG A3|\r\nAdd def|Aee efg|afd ^cAe|~d3 d2 d/e/|\r\nf2 f fgf|e^cA e^cA|~d3 dcB|ABG A3|\r\nFGA ABc|^cde efg|afd ge^c|~d3 d2z||",
+      "after_abc": "|:D2 A AGF|E2 c c3|DAA AGF|E/F/GE EDC|\r\nD2 A AGF|E2 c c2 d/e/|fed cAe|1 ~d3 d2z:|2 ~d3 d2 d/e/||\r\nf2 f fgf|e^cA e^cA|~d3 dcB|ABG A3|\r\nAdd def|Aee efg|afd ^cAe|~d3 d2 d/e/|\r\nf2 f fgf|e^cA e^cA|~d3 dcB|ABG A3|\r\nFGA ABc|^cde efg|afd ge^c|~d3 d2z||",
+      "before_sha256": "694b98862529079b985fb647c3341c5dfc91a33c554e14d19a0ca01529ea9ba2",
+      "after_sha256": "e800546ada2c761542390afe3c3db1bb524b9c5f52223c061a1960797f3ab053",
+      "evidence": [
+        {
+          "rule": "orphan_symbol",
+          "bar": 4,
+          "before": "/E/F/GE EDC",
+          "after": "E/F/GE EDC",
+          "reference_ranges": [
+            [
+              "32392",
+              4,
+              4
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repetitions": 0,
+          "extra_matching_bar": true,
+          "playback_unchanged": true,
+          "abcjs": {
+            "setting_id": "2283",
+            "variant": "2283-0",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 27,
+          "end": 28,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "5370",
+      "setting_id": "17554",
+      "name": "Black Frog, The",
+      "original_contributor": "Chris Hasty",
+      "source_url": "https://thesession.org/tunes/5370#setting17554",
+      "category": "orphan_symbol",
+      "before_abc": "|:DD/D/D DEF|ED/D/B, DB,/B,/A,|DE/D/D DEF|ABA =F^FA|\r\n1 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|\r\n2 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DBc||\r\n[Dd]fa gec|fdB ecA|GAB AB/B/c|def ecA|\r\n1 aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|\r\n2 aa/a/a agf|gg/g/g gfe|fdB ecA|dA/A/F BGE||",
+      "after_abc": "|:DD/D/D DEF|ED/D/B, DB,/B,/A,|DE/D/D DEF|ABA =F^FA|\r\n d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|\r\n2 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DBc||\r\n[Dd]fa gec|fdB ecA|GAB AB/B/c|def ecA|\r\n aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|\r\n2 aa/a/a agf|gg/g/g gfe|fdB ecA|dA/A/F BGE||",
+      "before_sha256": "76b07d26739d39184d34f6fe75dcc3c325c03e7621f7278aa59406e609f1684a",
+      "after_sha256": "a4e022fdc91f4fd8292352a333775ed3eb876e228d4893ff258db85222a3ad9f",
+      "evidence": [
+        {
+          "rule": "orphan_symbol",
+          "bar": 5,
+          "before": "\r\n1 d/d/dB AFE",
+          "after": "\r\n d/d/dB AFE",
+          "reference_ranges": [
+            [
+              "5370",
+              5,
+              5
+            ],
+            [
+              "5370",
+              37,
+              37
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repetitions": 0,
+          "extra_matching_bar": true,
+          "playback_unchanged": true,
+          "abcjs": {
+            "setting_id": "17554",
+            "variant": "17554-0",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 3,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        },
+        {
+          "rule": "orphan_symbol",
+          "bar": 17,
+          "before": "\r\n1 aa/a/a agf",
+          "after": "\r\n aa/a/a agf",
+          "reference_ranges": [
+            [
+              "5370",
+              21,
+              21
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repetitions": 0,
+          "extra_matching_bar": true,
+          "playback_unchanged": true,
+          "abcjs": {
+            "setting_id": "17554",
+            "variant": "17554-1",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 3,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 54,
+          "end": 55,
+          "text": ""
+        },
+        {
+          "start": 190,
+          "end": 191,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "5808",
+      "setting_id": "5808",
+      "name": "Hearty Boys Of Ballymote, The",
+      "original_contributor": "fiddle?hockey?",
+      "source_url": "https://thesession.org/tunes/5808#setting5808",
+      "category": "orphan_symbol",
+      "before_abc": "|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|\r\nGEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|\r\n|:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|\r\nd3 dcB|AFD FGA|Bee BdB|AFD E2:|",
+      "after_abc": "|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|\r\nGEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|\r\n|:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|\r\nd3 dcB|AFD FGA|Bee BdB|AFD E2:|",
+      "before_sha256": "ccafdc1b0e65aefd7e18564dda05a107b02d5b0c86a0c064de84f2320c01c724",
+      "after_sha256": "934280878f88e570f50ae750228e91c9a5f2ca05fb21e2d3f4aad65ce4338910",
+      "evidence": [
+        {
+          "rule": "orphan_symbol",
+          "bar": 4,
+          "before": "GEE ,BEE",
+          "after": "GEE BEE",
+          "reference_ranges": [
+            [
+              "17744",
+              4,
+              4
+            ],
+            [
+              "17745",
+              4,
+              4
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repetitions": 0,
+          "extra_matching_bar": false,
+          "playback_unchanged": true,
+          "abcjs": {
+            "setting_id": "5808",
+            "variant": "5808-0",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        },
+        {
+          "rule": "orphan_symbol",
+          "bar": 6,
+          "before": "\r\nGEE ,BEE",
+          "after": "\r\nGEE BEE",
+          "reference_ranges": [
+            [
+              "17744",
+              6,
+              6
+            ],
+            [
+              "17745",
+              6,
+              6
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repetitions": 0,
+          "extra_matching_bar": true,
+          "playback_unchanged": true,
+          "abcjs": {
+            "setting_id": "5808",
+            "variant": "5808-1",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 25,
+          "end": 26,
+          "text": ""
+        },
+        {
+          "start": 45,
+          "end": 46,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "17116",
+      "setting_id": "52033",
+      "name": "O Carrolans 174",
+      "original_contributor": "Greg McLaughlin",
+      "source_url": "https://thesession.org/tunes/17116#setting52033",
+      "category": "orphan_symbol",
+      "before_abc": "|: G | ECC EFG | cA/B/c/A/ GAF | ECE GEG | AFA BGB |\r\ncBc def | eag fed | edc GcB | c3 c2 :|\r\n|: ef | gec gec | /f/e/f/g/a gec | dBG dBG | /c/B/c/d/e dBG |\r\ncBc GAF | ECE GEG | AFA BGB | cBc def | edc GcB | c3 c2 :|",
+      "after_abc": "|: G | ECC EFG | cA/B/c/A/ GAF | ECE GEG | AFA BGB |\r\ncBc def | eag fed | edc GcB | c3 c2 :|\r\n|: ef | gec gec | f/e/f/g/a gec | dBG dBG | c/B/c/d/e dBG |\r\ncBc GAF | ECE GEG | AFA BGB | cBc def | edc GcB | c3 c2 :|",
+      "before_sha256": "a8557a50998602bbb15a79d4ab8bfad2eed53c712c78d6661c216a4581054fdf",
+      "after_sha256": "0434e7b7da79a577c528e1a5532eed30e530846fec5f19c6848057e7510b322e",
+      "evidence": [
+        {
+          "rule": "orphan_symbol",
+          "bar": 14,
+          "before": " /c/B/c/d/e dBG ",
+          "after": " c/B/c/d/e dBG ",
+          "reference_ranges": [
+            [
+              "32741",
+              14,
+              14
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repetitions": 0,
+          "extra_matching_bar": true,
+          "playback_unchanged": true,
+          "abcjs": {
+            "setting_id": "52033",
+            "variant": "52033-0",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        },
+        {
+          "rule": "orphan_symbol",
+          "bar": 12,
+          "before": " /f/e/f/g/a gec ",
+          "after": " f/e/f/g/a gec ",
+          "reference_ranges": [
+            [
+              "32741",
+              12,
+              12
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repetitions": 0,
+          "extra_matching_bar": true,
+          "playback_unchanged": true,
+          "abcjs": {
+            "setting_id": "52033",
+            "variant": "52033-0",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 2
+        }
+      ],
+      "edits": [
+        {
+          "start": 112,
+          "end": 113,
+          "text": ""
+        },
+        {
+          "start": 139,
+          "end": 140,
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "syntax_scanner_sha256": "d16872b7e15ac1337744d8842b75367d0e7a16fa9f1e830eee8607e15982c747"
+}

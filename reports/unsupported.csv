@@ -4152,11 +4152,11 @@ dd/d/B AFE|F/F/ED B,DA,|DEF AFE|Dd/d/d dec||
 aa/a/a agf|g/g/gg gfe|f/g/af edc|dAF DBc|
 dfa gec|fdB ecA|GAB AB/B/c|def ecA|
 ^gaa a=gf|g/g/gg gfe|fdB ecA|dAF DDD||"
-5370,17554,"Black Frog, The",Chris Hasty,https://thesession.org/tunes/5370#setting17554,Unsupported syntax or empty melody,"[{""setting_id"": ""17554"", ""bar"": 5, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '1'"", ""fragment"": ""\r\n1 d/d/dB AFE""}, {""setting_id"": ""17554"", ""bar"": 9, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '2'"", ""fragment"": ""\r\n2 d/d/dB AFE""}, {""setting_id"": ""17554"", ""bar"": 13, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""\r\n[Dd]fa gec""}, {""setting_id"": ""17554"", ""bar"": 17, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '1'"", ""fragment"": ""\r\n1 aa/a/a agf""}, {""setting_id"": ""17554"", ""bar"": 21, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '2'"", ""fragment"": ""\r\n2 aa/a/a agf""}]","|:DD/D/D DEF|ED/D/B, DB,/B,/A,|DE/D/D DEF|ABA =F^FA|
-1 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|
+5370,17554,"Black Frog, The",Chris Hasty,https://thesession.org/tunes/5370#setting17554,Unsupported syntax or empty melody,"[{""setting_id"": ""17554"", ""bar"": 9, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '2'"", ""fragment"": ""\r\n2 d/d/dB AFE""}, {""setting_id"": ""17554"", ""bar"": 13, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""\r\n[Dd]fa gec""}, {""setting_id"": ""17554"", ""bar"": 21, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '2'"", ""fragment"": ""\r\n2 aa/a/a agf""}]","|:DD/D/D DEF|ED/D/B, DB,/B,/A,|DE/D/D DEF|ABA =F^FA|
+ d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|
 2 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DBc||
 [Dd]fa gec|fdB ecA|GAB AB/B/c|def ecA|
-1 aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|
+ aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|
 2 aa/a/a agf|gg/g/g gfe|fdB ecA|dA/A/F BGE||"
 7454,31668,Black Is The Colour,BenH,https://thesession.org/tunes/7454#setting31668,Unsupported syntax or empty melody,"[{""setting_id"": ""31668"", ""category"": ""unsupported"", ""reason"": ""embedded field or voice""}]","BB/E/|""C"" G<(G (G2)|""D"" G)F/G/ AF|""Em"" E4|z B Be|
 w: Black is the colour__ of my true love's hair. His lips are
@@ -5505,12 +5505,6 @@ K: bass
 z2v.[A,,2D,2]z2v.[A,,2D,2]|z2v.[A,,2D,2]z2v.[A,,2D,2]|1 z2v.[E,,2A,,2]z2v.[A,,2D,2]:|2 [2z2v.[E,,2A,,2]z2v.[A,,2D,2]|:z2v.[A,,2D,2]z2v.[A,,2D,2]|
 z2v.[A,,2D,2]z2v.[A,,2D,2]|z2v.[A,,2D,2]z2v.[A,,2D,2]|z2v.[E,,2A,,2]z2v.[A,,2D,2]|z2v.[A,,2D,2]z2v.[A,,2D,2]|z2v.[A,,2D,2]z2v.[A,,2D,2]|
 z2v.[A,,2D,2]z2v.[A,,2D,2]|1 z2v.[E,,2A,,2]z2v.[A,,2D,2]:|z2u[E,,A,,]2v[A,,D,]2z2|z8||"
-2283,2283,Breakout,Erik-Fiddler,https://thesession.org/tunes/2283#setting2283,Unsupported syntax or empty melody,"[{""setting_id"": ""2283"", ""bar"": 4, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": ""/E/F/GE EDC""}]","|:D2 A AGF|E2 c c3|DAA AGF|/E/F/GE EDC|
-D2 A AGF|E2 c c2 d/e/|fed cAe|1 ~d3 d2z:|2 ~d3 d2 d/e/||
-f2 f fgf|e^cA e^cA|~d3 dcB|ABG A3|
-Add def|Aee efg|afd ^cAe|~d3 d2 d/e/|
-f2 f fgf|e^cA e^cA|~d3 dcB|ABG A3|
-FGA ABc|^cde efg|afd ge^c|~d3 d2z||"
 20185,39946,"Breast Of St Marc, The",DaveF,https://thesession.org/tunes/20185#setting39946,Unsupported syntax or empty melody,"[{""setting_id"": ""39946"", ""bar"": 16, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": ""/B/c/ddB cAAa""}]","|:B2 B/B/B fBBe|eBdB ABBd|B2 B/B/B fggf|eddB ABBd|
 B2 B/B/B fBBe|eBdB ABBd|gffe fd d/d/d|1 eddB ABBd:|2 eddB ABBf||
 |:affd eddB|ABBd c2 c/c/c|BccB ccBc|dccB c2 c/c/c|
@@ -17152,8 +17146,8 @@ c|d3 dcB|AFD D2 A|B2 e e^de|fec d2 B/c/|
 ded d2 B|AFD DFA|Bee Bdd|AFD E2 c|
 d2 d dcB|AFD D2 A|B2 e e^de|fed B2 c|
 dfe dcB|AFD DF/G/A|B2 e B/c/dB|AFD E2||"
-5808,5808,"Hearty Boys Of Ballymote, The",fiddle?hockey?,https://thesession.org/tunes/5808#setting5808,Unsupported syntax or empty melody,"[{""setting_id"": ""5808"", ""bar"": 2, ""category"": ""unsupported"", ""reason"": ""unsupported syntax ','"", ""fragment"": ""GEE ,BEE""}, {""setting_id"": ""5808"", ""bar"": 4, ""category"": ""unsupported"", ""reason"": ""unsupported syntax ','"", ""fragment"": ""GEE ,BEE""}, {""setting_id"": ""5808"", ""bar"": 6, ""category"": ""unsupported"", ""reason"": ""unsupported syntax ','"", ""fragment"": ""\r\nGEE ,BEE""}]","|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+5808,5808,"Hearty Boys Of Ballymote, The",fiddle?hockey?,https://thesession.org/tunes/5808#setting5808,Unsupported syntax or empty melody,"[{""setting_id"": ""5808"", ""bar"": 2, ""category"": ""unsupported"", ""reason"": ""unsupported syntax ','"", ""fragment"": ""GEE ,BEE""}]","|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|"
 411,53927,"Heather Breeze, The",benhockenberry,https://thesession.org/tunes/411#setting53927,Unsupported syntax or empty melody,"[{""setting_id"": ""53927"", ""bar"": 4, ""category"": ""unsupported"", ""reason"": ""unsupported syntax ','"", ""fragment"": "" FAEG FDD2,""}]","|:A,DFD ADFD|A,CEC GCEC|A,DFD ADFD|1 FAEG FDD2,:|2 FAEG FDAB||
@@ -29313,10 +29307,10 @@ FBA FEF|ABc eAe|bae f2a|fec e3|
 FBA FEF|ABc eAe|fg/a/f ecA|BcB A2F:|
 E2F A2B|cAF FcE|E2F A2B|cea faf|
 E2F A2B|c2B cae|baf ecA|BcB AAF:|"
-1726,15152,"New Broom, The",ceolachan,https://thesession.org/tunes/1726#setting15152,Unsupported syntax or empty melody,"[{""setting_id"": ""15152"", ""bar"": 12, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '1'"", ""fragment"": ""\r\n1 BAAG A2 ga""}, {""setting_id"": ""15152"", ""bar"": 17, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '2'"", ""fragment"": ""\r\n2 BAAG AcBA""}, {""setting_id"": ""15152"", ""bar"": 58, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '2'"", ""fragment"": ""\r\n2 B>A (3AAA A2 (3cBA""}]","|:G3 B d2 Bd|e/g/e dB d2 BA|GFGA B2 AG|A2 E2 E2 (3DEF|
+1726,15152,"New Broom, The",ceolachan,https://thesession.org/tunes/1726#setting15152,Unsupported syntax or empty melody,"[{""setting_id"": ""15152"", ""bar"": 17, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '2'"", ""fragment"": ""\r\n2 BAAG AcBA""}, {""setting_id"": ""15152"", ""bar"": 58, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '2'"", ""fragment"": ""\r\n2 B>A (3AAA A2 (3cBA""}]","|:G3 B d2 Bd|e/g/e dB d2 BA|GFGA B2 AG|A2 E2 E2 (3DEF|
 G3 B d2 Bd|e/g/e dB d2 Bd|edge dBAc|B2 G2 G2:|
 b2 ba g3 a|bgag e/g/e d2|edge dBGA|
-1 BAAG A2 ga|b2 ba g3 a|bgag e/g/e d2|edge dBAc|B2 G2 G2:|
+ BAAG A2 ga|b2 ba g3 a|bgag e/g/e d2|edge dBAc|B2 G2 G2:|
 2 BAAG AcBA|G3 B d2 Bd|e/g/e dB d2Bd|edge dBAc|B2 G2 G2||
 |:G2 G2 d2 B>d|e2 d>B d2 B>A|G2 G>A B2 A>G|A2 E2 E4|
 G2 G>B (3ded (3Bcd|e2 d>B d2 (3Bcd|e>dg>e d>BA>d|B2 G2 G4:|
@@ -29811,10 +29805,6 @@ BAGA B/2c/2dgd|cAEA ceag|fdad ceag|1 fdBA GABc:|2 fdBA GABA||"
 Aa ga f>a|a/g/b/g/ e2 B2|cc/d/ ee/f/ ge|g/f/e/^d/ e4:|
 |:e/c/e/c/ B/d/B/G/ AA/B/|c/A/c/e/ d/c/d/f/ e>(e|e)/c/e/c/ B/d/B/G/ AA/B/|
 c/A/c/e/ d/c/d/f/ e>g|a/g/f/g/ a/f/d/f/ f/e/c/e/|e/d/B/G/ A4:|"
-17116,52033,O Carrolans 174,Greg McLaughlin,https://thesession.org/tunes/17116#setting52033,Unsupported syntax or empty melody,"[{""setting_id"": ""52033"", ""bar"": 12, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": "" /f/e/f/g/a gec ""}, {""setting_id"": ""52033"", ""bar"": 14, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": "" /c/B/c/d/e dBG ""}]","|: G | ECC EFG | cA/B/c/A/ GAF | ECE GEG | AFA BGB |
-cBc def | eag fed | edc GcB | c3 c2 :|
-|: ef | gec gec | /f/e/f/g/a gec | dBG dBG | /c/B/c/d/e dBG |
-cBc GAF | ECE GEG | AFA BGB | cBc def | edc GcB | c3 c2 :|"
 17245,33043,O Mother What Shall I Do,suskin,https://thesession.org/tunes/17245#setting33043,Unsupported syntax or empty melody,"[{""setting_id"": ""33043"", ""bar"": 1, ""category"": ""unsupported"", ""reason"": ""unsupported syntax ']'"", ""fragment"": ""]""}]","]|:D3 E D2|F2 A2 B2|d3 ef>e|""tr""{e}d3 B A2|d2 B>d A>d|B4 b2|a2 ba gf|
 ""tr""e4 {de}d2|""tr""{G}F3 E D2|F2 A2 B2|d2 d>e f>e|""tr""d3 B A2|~B3 c d2|
 ""tr""A2 {G}F2 A2|B>c d2 F>G|""tr""{F}E4 D2:|:f>g a2 a2|ag f2 a2|b2 a2 g>a|
@@ -35890,7 +35880,7 @@ F E/F/ GF/G/|Ad d>B|AG FE|D3:|
 K:G
 |:B/c/|dG BA/B/|cE A>B|ce dc|B2 B>c|
 dG BA/B/|cE A>B|cd/c/ BA|G3:|"
-1764,52009,"Scartaglen, The",Greg McLaughlin,https://thesession.org/tunes/1764#setting52009,Unsupported syntax or empty melody,"[{""setting_id"": ""52009"", ""bar"": 3, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": "" gB /B/A/G/A/ ""}, {""setting_id"": ""52009"", ""bar"": 10, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": "" fe /e/f/g/e/ ""}, {""setting_id"": ""52009"", ""bar"": 11, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": "" dB /B/A/G/A/ ""}, {""setting_id"": ""52009"", ""bar"": 14, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": "" fe /e/f/g/e/ ""}, {""setting_id"": ""52009"", ""bar"": 21, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": "" \r\ngb /e/f/g/e/ ""}, {""setting_id"": ""52009"", ""bar"": 22, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": "" dB /g/a/g/e/ ""}]","|: G2 G>A | Bd de/f/ | gB /B/A/G/A/ | BA AB/A/ | 
+1764,52009,"Scartaglen, The",Greg McLaughlin,https://thesession.org/tunes/1764#setting52009,Unsupported syntax or empty melody,"[{""setting_id"": ""52009"", ""bar"": 10, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": "" fe /e/f/g/e/ ""}, {""setting_id"": ""52009"", ""bar"": 11, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": "" dB /B/A/G/A/ ""}, {""setting_id"": ""52009"", ""bar"": 14, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": "" fe /e/f/g/e/ ""}, {""setting_id"": ""52009"", ""bar"": 21, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": "" \r\ngb /e/f/g/e/ ""}, {""setting_id"": ""52009"", ""bar"": 22, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": "" dB /g/a/g/e/ ""}]","|: G2 G>A | Bd de/f/ | gB B/A/G/A/ | BA AB/A/ | 
 G2 G>A | Bd de/f/| gB AB/A/ | G2 G2 :|
 |: Gg g2 | fe /e/f/g/e/ | dB /B/A/G/A/ | BA A>B |
 dg g>g | fe /e/f/g/e/ | dB AB/A/ | G2 G2 :|
@@ -36700,10 +36690,6 @@ F/G/|Ad B/A/G/F/ Be d/c/B/A/|d>B AF BE EF/G/|
 Ad B/A/G/F/ Be d//B/A/|d>B AG F/A/D D||
 |:d/e/|fd ec d/c/B/A/ dF|GB Ad/e/ fe ed/e/|
 fd ec d/c/B/A/ dF|GB Ad/e/ fd d:|"
-543,47707,"Ships Are Sailing, The",TJ,https://thesession.org/tunes/543#setting47707,Unsupported syntax or empty melody,"[{""setting_id"": ""47707"", ""bar"": 5, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '#'"", ""fragment"": ""#\r\nBeed BcdB""}]","|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|#
-Beed BcdB|AD (3FED AD (3FED|EDEF GFGA|Beed e3f:|
-|:~g3a bgeg|~f3g afdf|~g3a bgeg|fedf e2ef|
-~g3a bgeg|~f3g afdf|g2bg f2af|edef gfef:|"
 543,51888,"Ships Are Sailing, The",RobSheldrick,https://thesession.org/tunes/543#setting51888,Unsupported syntax or empty melody,"[{""setting_id"": ""51888"", ""bar"": 1, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""~[A,E]2AE EDGE""}, {""setting_id"": ""51888"", ""bar"": 5, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""\r\n[A,E][A,E][A,EA]E EDGE""}, {""setting_id"": ""51888"", ""bar"": 9, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""\r\n[A,E][A,E] cB BAGE""}, {""setting_id"": ""51888"", ""bar"": 13, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""\r\n[A,E][A,E][A,EA]E EDGE""}]","|~[A,E]2AE EDGE|DzA,G, B,A,G,B,|A,3B, CB,CD|EGAB cBAE1/2E1/2|
 [A,E][A,E][A,EA]E EDGE|DG,A,G, B,A,G,B,|A,3B, CB,CD|EDGBA4|
 [A,E][A,E] cB BAGE|DCB,G, CB,G,B,|A,G,A,B, CB,CD|EGAB cBAE1/2E1/2|

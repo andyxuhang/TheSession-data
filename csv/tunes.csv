@@ -24573,10 +24573,10 @@ a (3aaa gf| g (3ggg gfe|1 faf edc|dAF DBc:|2 fdB ecA|dAF BGE||","2026-05-19 20:1
 |:dfa gec|fdB ecA|GAB ABc|def ecA|
 a (3aaa gf| g (3ggg gfe| faf edc|dAF D3 :||","2026-05-19 22:59:41",leprecawn,"Enda Scahill"
 5370,17554,"Black Frog, The",jig,6/8,Dmajor,"|:DD/D/D DEF|ED/D/B, DB,/B,/A,|DE/D/D DEF|ABA =F^FA|
-1 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|
+ d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DFE:|
 2 d/d/dB AFE|F/F/ED B,DA,|DEF AFE|DE/D/D DBc||
 [Dd]fa gec|fdB ecA|GAB AB/B/c|def ecA|
-1 aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|
+ aa/a/a agf|gg/g/g gfe|f/g/af edc|dAF DBc:|
 2 aa/a/a agf|gg/g/g gfe|fdB ecA|dA/A/F BGE||","2009-12-24 23:11:42","Chris Hasty","Enda Scahill"
 5370,17555,"Black Frog, The",jig,6/8,Dmajor,"|:DDD DEF|EDB, DB,A,|DED DEF|ABA F2 A|
 ~d2 B AFE|FED B,DA,|DEF AFE|1 DED DFE:|2 DED DBA||
@@ -31659,7 +31659,7 @@ D2A AGF|E2c c2d/e/|fed cAe|1 d2d d3:|2 d2d d2d/e/||
 |:f2f fgf|e^cA ecA|d2d dcB|ABG A3|
 [1 Add def|Aee efg|afd ^cAe|d2d d2d/e/:|
 [2 FGA ABc|^cde efg|afd ge^c|d2d d3||","2018-05-05 06:49:25","Luba Yairi","Ronan Hardiman"
-2283,2283,Breakout,jig,6/8,Dminor,"|:D2 A AGF|E2 c c3|DAA AGF|/E/F/GE EDC|
+2283,2283,Breakout,jig,6/8,Dminor,"|:D2 A AGF|E2 c c3|DAA AGF|E/F/GE EDC|
 D2 A AGF|E2 c c2 d/e/|fed cAe|1 ~d3 d2z:|2 ~d3 d2 d/e/||
 f2 f fgf|e^cA e^cA|~d3 dcB|ABG A3|
 Add def|Aee efg|afd ^cAe|~d3 d2 d/e/|
@@ -107090,8 +107090,8 @@ e/f/gg gfe|dBG Bcd|eaa aga|bag e2 d|
 gag gfe|dBG Bcd|eag ege|dBG A2 B|
 e/f/gg gfe|dBG Bcd|eaa aga|bag e2 d|
 gfg bge|dBG Bcd|eag egf|gdB A2 B||","2019-06-01 10:13:55",nervouswoman,
-5808,5808,"Hearty Boys Of Ballymote, The",jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE ,BEE|FED E2 F|
-GEE ,BEE|FEF DFA|Bee B/c/dB|AFD E2:|
+5808,5808,"Hearty Boys Of Ballymote, The",jig,6/8,Edorian,"|:F|GEE ,BEE|FEF DFA|GEE BEE|FED E2 F|
+GEE BEE|FEF DFA|Bee B/c/dB|AFD E2:|
 |:c|d3 dcB|AFD FGA|Bee ede|fed B2 c|
 d3 dcB|AFD FGA|Bee BdB|AFD E2:|","2006-05-28 15:14:13",fiddle?hockey?,
 17764,34394,"Heath And Bernie's",reel,4/4,Edorian,"|:B2 EF GABA|FAEB edBA|d2 fe dcBA|FAdc BAGA|
@@ -183130,7 +183130,7 @@ ga|b2 ba g3 a|bg ag e2 d2|e2 ge dB GA|B2 A2 A2|
 1726,15152,"New Broom, The",barndance,4/4,Gmajor,"|:G3 B d2 Bd|e/g/e dB d2 BA|GFGA B2 AG|A2 E2 E2 (3DEF|
 G3 B d2 Bd|e/g/e dB d2 Bd|edge dBAc|B2 G2 G2:|
 b2 ba g3 a|bgag e/g/e d2|edge dBGA|
-1 BAAG A2 ga|b2 ba g3 a|bgag e/g/e d2|edge dBAc|B2 G2 G2:|
+ BAAG A2 ga|b2 ba g3 a|bgag e/g/e d2|edge dBAc|B2 G2 G2:|
 2 BAAG AcBA|G3 B d2 Bd|e/g/e dB d2Bd|edge dBAc|B2 G2 G2||
 |:G2 G2 d2 B>d|e2 d>B d2 B>A|G2 G>A B2 A>G|A2 E2 E4|
 G2 G>B (3ded (3Bcd|e2 d>B d2 (3Bcd|e>dg>e d>BA>d|B2 G2 G4:|
@@ -186825,11 +186825,11 @@ ABA AFG|ABA AFG|A/A/Ac BGF|1 EGB eFG:|2 E3 E2B||","2014-03-24 14:12:13",MarcusDi
 ""D""d""d""c""d""d ""D""A""d""B""d""G|""D""F""d""D""d""F ""D""A""d""F""d""A|""G""B""g""G""g""B ""A""c""a""A""a""c|""D""d""d""c""d""d ""G""e""g""f""g""g|""D""f""d""e""d""d ""A""A""a""d""a""c|""D""(d""d""d""d""d) ""D""(dd):|","2021-02-13 19:40:06","Michael Eskin","O Carrolan"
 17116,52033,"O Carrolans 174",jig,6/8,Cmajor,"|: G | ECC EFG | cA/B/c/A/ GAF | ECE GEG | AFA BGB |
 cBc def | eag fed | edc GcB | c3 c2 :|
-|: ef | gec gec | /f/e/f/g/a gec | dBG dBG | /c/B/c/d/e dBG |
+|: ef | gec gec | f/e/f/g/a gec | dBG dBG | c/B/c/d/e dBG |
 cBc GAF | ECE GEG | AFA BGB | cBc def | edc GcB | c3 c2 :|","2024-10-15 00:21:11","Greg McLaughlin","Turlough O'Carolan"
 17116,52033,"O Carrolans 174",jig,6/8,Cmajor,"|: G | ECC EFG | cA/B/c/A/ GAF | ECE GEG | AFA BGB |
 cBc def | eag fed | edc GcB | c3 c2 :|
-|: ef | gec gec | /f/e/f/g/a gec | dBG dBG | /c/B/c/d/e dBG |
+|: ef | gec gec | f/e/f/g/a gec | dBG dBG | c/B/c/d/e dBG |
 cBc GAF | ECE GEG | AFA BGB | cBc def | edc GcB | c3 c2 :|","2024-10-15 00:21:11","Greg McLaughlin","O Carrolan"
 17116,55923,"O Carrolans 174",jig,6/8,Cmajor,"|:ECC EFG|cA/B/c/A/ GAF|ECE GEG|AFA BGB|
 cBc def|eag fed|edc GcB|1 c>dc c2 G:|2 c>dc c>de/f/|
@@ -225600,7 +225600,7 @@ A2 A>B|ce ef/g/|ac Bc/B/|A2 A2:|
 ce a>a|gf f/g/a/f/|ec Bc/B/|A2 A2:|
 |:a2 ba/b/|c'2 c'>b|aa ba/b/|c'2 c'>b|
 af f/g/a/f/|ec a>f|ec Bc/B/|A2 A2:|","2026-05-15 09:27:38",magnus,
-1764,52009,"Scartaglen, The",polka,2/4,Gmajor,"|: G2 G>A | Bd de/f/ | gB /B/A/G/A/ | BA AB/A/ | 
+1764,52009,"Scartaglen, The",polka,2/4,Gmajor,"|: G2 G>A | Bd de/f/ | gB B/A/G/A/ | BA AB/A/ | 
 G2 G>A | Bd de/f/| gB AB/A/ | G2 G2 :|
 |: Gg g2 | fe /e/f/g/e/ | dB /B/A/G/A/ | BA A>B |
 dg g>g | fe /e/f/g/e/ | dB AB/A/ | G2 G2 :|
@@ -230546,7 +230546,7 @@ cdef g2eg|aged cAAB|cAB^G A=GED|EAA^G A2||","2011-05-25 15:41:47",Daemco,
 Beed BcdB|AD (3FED AD (3FED|~E3F GFGA|Beed e3z:|
 |:~g3a bgeg|~f3g afdf|gfga bgeg|fedf e3 f|
 ~g3a bgeg|~f3g afdf|g2bg f2af|1 edef gfef:|2 edef gfed||","2023-05-05 16:10:09","Benjamin Glauser",
-543,47707,"Ships Are Sailing, The",reel,4/4,Edorian,"|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|#
+543,47707,"Ships Are Sailing, The",reel,4/4,Edorian,"|:Beed BcdB|AD (3FED AD (3FED|~E3F ~G3A|Beef gfed|
 Beed BcdB|AD (3FED AD (3FED|EDEF GFGA|Beed e3f:|
 |:~g3a bgeg|~f3g afdf|~g3a bgeg|fedf e2ef|
 ~g3a bgeg|~f3g afdf|g2bg f2af|edef gfef:|","2023-07-20 13:05:25",TJ,

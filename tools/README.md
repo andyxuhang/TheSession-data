@@ -44,6 +44,10 @@ An accidental correction needs either two other contributors and a fourth matchi
 
 The scanner resolves accidentals across each measure and allows one sounding pitch change per correction. New pitch edits are checked in TradMate and the vendored abcjs, using Node for the latter. Both must preserve timing and agree on the expected played changes. The abcjs check also matches the exact written locations. See [pitch edits](../checks/pitch-edits.json) for the original and corrected measures and the reference setting and measure numbers.
 
+## Local notation syntax
+
+Run `tools/fix_notation.py --syntax` to check isolated notation symbols, split note tokens and invalid ties between different pitches. A correction needs a matching complete measure and matching adjacent measures. Support comes from independent contributors, a longer matching phrase, or a separate written repetition. Both playback engines must preserve the sounding pitches, note count and timing. The abcjs check also checks for new notation warnings. The [notation syntax edits](../checks/syntax-edits.json) record the exact changes and reference measures.
+
 ## Other checks
 
 ```bash
