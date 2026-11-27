@@ -38,6 +38,42 @@ class NotationTests(unittest.TestCase):
         data[0]["abc"] = data[0]["abc"].replace("DEFGABcd efgabagf", "DEFGABcd edcBAGFE")
         self.assertFalse(scan(data)[0])
 
+    def test_rejecting_one_divider_keeps_its_neighbor(self):
+        from unittest.mock import patch
+        from pathlib import Path
+        from tempfile import TemporaryDirectory
+        from fix_notation import check_barlines
+
+        x, y = "DEFGABcd", "efgabagf"
+        body = "|" + "|".join([x, y, x+y, y, x, x+y, x, y, x, y]) + "|"
+        proposals, _, _ = scan([row(body)], barlines_only=True)
+        self.assertEqual(len(proposals[0]['evidence']), 2)
+        checks = [{'variant':'1-0','passed':False,'reason':'pitch'},
+                  {'variant':'1-1','passed':True,'all_event_timings_unchanged':True}]
+        with TemporaryDirectory() as directory, patch('fix_notation.playback',return_value={'checks':checks}):
+            passed, failed = check_barlines(proposals,Path(directory),None)
+        self.assertEqual(len(passed[0]['evidence']), 1)
+        self.assertEqual(passed[0]['after_abc'],(x+'|'+y).join(body.rsplit(x+y,1)))
+        self.assertEqual(failed['1']['bars'][0]['edit']['bar'],3)
+
+    def test_early_divider_uses_an_adjacent_witness(self):
+        source = row("|A8|B8|C8|D8|E8|F8|G8|DEFGAB|cdefgabagf|B8|")
+        reference = row("|DEFGABcd|efgabagf|", "2")
+        fixes, _, _ = scan([source, reference], barlines_only=True)
+        self.assertEqual([p['after_abc'] for p in fixes], ["|A8|B8|C8|D8|E8|F8|G8|DEFGAB cd|efgabagf|B8|"])
+        reference['abc'] = "|DEFGABcd|B8|efgabagf|"
+        self.assertFalse(scan([source, reference], barlines_only=True)[0])
+
+    def test_do_not_move_across_a_comment_or_empty_bar(self):
+        source = row("|A8|B8|C8|D8|E8|F8|G8|DEFGAB| |cdefgabagf|B8|")
+        reference = row("|DEFGABcd|efgabagf|", "2")
+        self.assertFalse(scan([source, reference], barlines_only=True)[0])
+
+    def test_consistently_long_measures_keep_their_grouping(self):
+        source = row("|" + "DEFGABcd efgabagf|" * 8)
+        reference = row("|DEFGABcd|efgabagf|", "2")
+        self.assertFalse(scan([source, reference], barlines_only=True)[0])
+
     def test_duration_needs_phrase_context(self):
         body = "|DEFGABcd|efgabagf|ABcdABcd|DEFGABcd|efgabagf2|ABcdABcd|DEFGABcd|efgabagf|"
         fixes, _, _ = scan([row(body)])

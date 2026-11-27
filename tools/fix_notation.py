@@ -6,11 +6,12 @@ import difflib
 import hashlib
 import json
 from pathlib import Path
+import shutil
 import subprocess
 import sys
 import tempfile
 
-from scan import ROOT, rows, scan, sha
+from scan import ROOT, measures, rows, scan, sha
 
 
 def dump(path, value):
@@ -34,12 +35,54 @@ def playback(plan, report, args, allow_failures):
     return json.loads(report.read_text())
 
 
+def structural_parts(patch):
+    body = patch['before_abc']
+    bars, _ = measures(body)
+    for n, evidence in enumerate(patch['evidence']):
+        i = evidence['bar'] - 1
+        last = i + (evidence['rule'] == 'misplaced_barline')
+        start, end = bars[i].start, bars[last].end
+        if body[start:end] != evidence['before']:
+            raise ValueError('Bar offset mismatch for ' + patch['setting_id'])
+        yield start, end, evidence, f"{patch['setting_id']}-{n}"
+
+
+def check_barlines(proposals, work, args):
+    singles = []
+    for patch in proposals:
+        body = patch['before_abc']
+        for start, end, ev, variant in structural_parts(patch):
+            singles.append({**patch, 'variant':variant, 'after_abc':body[:start]+ev['after']+body[end:]})
+    dump(work/'individual.json', {'corrections':singles})
+    report = playback(work/'individual.json', work/'individual-check.json', args, True)
+    checks = {r['variant']:r for r in report['checks']}
+    accepted, failures = [], {}
+    for patch in proposals:
+        evidence = []
+        body = patch['before_abc']
+        for start, end, ev, variant in reversed(list(structural_parts(patch))):
+            result = checks[variant]
+            if result['passed'] and result['all_event_timings_unchanged']:
+                body = body[:start]+ev['after']+body[end:]
+                evidence.append(ev)
+            else:
+                sid = patch['setting_id']
+                failures.setdefault(sid, {'setting_id':sid, 'passed':False, 'reason':'individual barline check', 'bars':[]})
+                failures[sid]['bars'].append({'edit':ev, 'reason':result.get('reason','timing changed')})
+        if evidence:
+            rules = sorted({item['rule'] for item in evidence})
+            accepted.append({**patch, 'category':'+'.join(rules), 'evidence':evidence[::-1], 'after_abc':body, 'after_sha256':sha(body),
+                             'edits':source_edits(patch['before_abc'],body)})
+    return accepted, failures
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--tradmate-repo', type=Path, required=True)
     parser.add_argument('--dart', required=True)
     parser.add_argument('--output', type=Path, default=ROOT/'reports')
     parser.add_argument('--apply', action='store_true', help='Write validated changes to the data exports')
+    parser.add_argument('--barlines', action='store_true', help='Check each structural edit separately before combining it')
     args = parser.parse_args()
     data = list(rows(ROOT/'json/tunes.json'))
     current = {r['setting_id']:r for r in data}
@@ -48,13 +91,27 @@ def main():
     with tempfile.TemporaryDirectory(prefix='session-notation-') as temporary:
         work = Path(temporary)
         for attempt in range(1, 16):
-            proposals, findings, stats = scan(data)
+            proposals, findings, stats = scan(data, barlines_only=args.barlines)
             candidates = [p for p in proposals if (p['before_sha256'], p['after_sha256']) not in seen_failures]
             stats['pass'] = attempt
             if not candidates:
                 stats['accepted'] = 0
                 history.append(stats)
                 break
+            structural = [p for p in candidates if all(
+                e['rule'] in {'misplaced_barline', 'missing_barline'} for e in p['evidence'])]
+            if structural:
+                structural_ids = {p['setting_id'] for p in structural}
+                passed, failures = check_barlines(structural, work, args)
+                for sid in structural_ids:
+                    rejected.pop(sid, None)
+                rejected.update(failures)
+                candidates = passed + [p for p in candidates if p['setting_id'] not in structural_ids]
+                stats['individual_rejections'] = sum(len(r['bars']) for r in failures.values())
+                if not candidates:
+                    stats['accepted'] = 0
+                    history.append(stats)
+                    break
             dump(work/'proposals.json', {'corrections':candidates})
             checked = playback(work/'proposals.json', work/'playback.json', args, True)
             outcomes = {r['setting_id']:r for r in checked['checks']}
@@ -119,11 +176,21 @@ def main():
         if args.apply:
             dump(stored,plan)
             dump(ROOT/'checks/notation-playback.json',final)
+            if args.barlines:
+                for old in json.loads((ROOT/'checks/rejected.json').read_text()):
+                    rules = {e['rule'] for e in old.get('proposal', {}).get('evidence', [])}
+                    if rules - {'missing_barline','misplaced_barline'}:
+                        rejected.setdefault(old['setting_id'],old)
             dump(ROOT/'checks/rejected.json',list(rejected.values()))
             dump(ROOT/'checks/scan.json',{'passes':history,'rejected_settings':len(rejected)})
             with (ROOT/'checks/data.json').open('w') as stream:
                 subprocess.run([sys.executable,str(ROOT/'tools/apply.py'),'--apply'],stdout=stream,check=True)
-            subprocess.run([sys.executable,str(ROOT/'tools/status.py'),'--findings',str(args.output/'findings.jsonl')],check=True)
+            findings_file = args.output / 'findings.jsonl'
+            published = ROOT / 'reports/findings.jsonl'
+            if findings_file.resolve() != published.resolve():
+                published.parent.mkdir(exist_ok=True)
+                shutil.copyfile(findings_file, published)
+            subprocess.run([sys.executable, str(ROOT/'tools/status.py'), '--findings', str(published)], check=True)
         print(json.dumps({'new_settings_fixed':len(collected),'all_notation_fixes':len(combined),
                           'rejected_settings':len(rejected),'applied':args.apply},indent=2))
 

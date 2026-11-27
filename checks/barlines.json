@@ -1,0 +1,222 @@
+[
+  {
+    "setting_id": "51995",
+    "bar": 46,
+    "rule": "missing_barline",
+    "before": "f4e2d2\r\ncE3e3c",
+    "after": "f4e2d2|\r\ncE3e3c",
+    "passed": true,
+    "event_count": 216,
+    "reason": null
+  },
+  {
+    "setting_id": "38045",
+    "bar": 9,
+    "rule": "missing_barline",
+    "before": "E4 DE\r\nG4 G2",
+    "after": "E4 DE|\r\nG4 G2",
+    "passed": true,
+    "event_count": 80,
+    "reason": null
+  },
+  {
+    "setting_id": "49372",
+    "bar": 2,
+    "rule": "missing_barline",
+    "before": "d6 d4) (a2",
+    "after": "d6| d4) (a2",
+    "passed": true,
+    "event_count": 41,
+    "reason": null
+  },
+  {
+    "setting_id": "31318",
+    "bar": 36,
+    "rule": "missing_barline",
+    "before": "\r\nDE FG A^A (B6",
+    "after": "\r\nDE FG A^A| (B6",
+    "passed": true,
+    "event_count": 274,
+    "reason": null
+  },
+  {
+    "setting_id": "35369",
+    "bar": 5,
+    "rule": "missing_barline",
+    "before": "cBA B2E\r\ncdc BAG",
+    "after": "cBA B2E|\r\ncdc BAG",
+    "passed": true,
+    "event_count": 174,
+    "reason": null
+  },
+  {
+    "setting_id": "35369",
+    "bar": 19,
+    "rule": "missing_barline",
+    "before": "FGA B2E\r\ncdc BAG",
+    "after": "FGA B2E|\r\ncdc BAG",
+    "passed": true,
+    "event_count": 174,
+    "reason": null
+  },
+  {
+    "setting_id": "43620",
+    "bar": 13,
+    "rule": "missing_barline",
+    "before": "e3A Bd\r\ne3f ed",
+    "after": "e3A Bd|\r\ne3f ed",
+    "passed": true,
+    "event_count": 133,
+    "reason": null
+  },
+  {
+    "setting_id": "43620",
+    "bar": 16,
+    "rule": "missing_barline",
+    "before": "G3A Bd\r\ne3f ed",
+    "after": "G3A Bd|\r\ne3f ed",
+    "passed": true,
+    "event_count": 133,
+    "reason": null
+  },
+  {
+    "setting_id": "43620",
+    "bar": 19,
+    "rule": "missing_barline",
+    "before": "e3A Bd\r\ne3f ed",
+    "after": "e3A Bd|\r\ne3f ed",
+    "passed": true,
+    "event_count": 133,
+    "reason": null
+  },
+  {
+    "setting_id": "23956",
+    "bar": 16,
+    "rule": "missing_barline",
+    "before": "B6\r\ne2^d2=d2",
+    "after": "B6|\r\ne2^d2=d2",
+    "passed": true,
+    "event_count": 130,
+    "reason": null
+  },
+  {
+    "setting_id": "49812",
+    "bar": 6,
+    "rule": "missing_barline",
+    "before": "e3 de3/2f/2\r\ned3 B>A",
+    "after": "e3 de3/2f/2|\r\ned3 B>A",
+    "passed": true,
+    "event_count": 226,
+    "reason": null
+  },
+  {
+    "setting_id": "44335",
+    "bar": 3,
+    "rule": "missing_barline",
+    "before": "cded ^cdfd eaag edcB",
+    "after": "cded ^cdfd| eaag edcB",
+    "passed": false,
+    "event_count": null,
+    "reason": "Bad state: 44335 pitch at 31"
+  },
+  {
+    "setting_id": "44335",
+    "bar": 6,
+    "rule": "missing_barline",
+    "before": "cded cBAG EGDF EA, A,2",
+    "after": "cded cBAG| EGDF EA, A,2",
+    "passed": true,
+    "event_count": 245,
+    "reason": null
+  },
+  {
+    "setting_id": "44335",
+    "bar": 17,
+    "rule": "missing_barline",
+    "before": "eged cBcd egdg egdg",
+    "after": "eged cBcd| egdg egdg",
+    "passed": true,
+    "event_count": 245,
+    "reason": null
+  },
+  {
+    "setting_id": "31501",
+    "bar": 17,
+    "rule": "missing_barline",
+    "before": "Af f2 agfa g2 ea fdcA",
+    "after": "Af f2 agfa| g2 ea fdcA",
+    "passed": true,
+    "event_count": 457,
+    "reason": null
+  },
+  {
+    "setting_id": "31501",
+    "bar": 20,
+    "rule": "missing_barline",
+    "before": "A=feg ^fa^ga fdcA G2 GB",
+    "after": "A=feg ^fa^ga| fdcA G2 GB",
+    "passed": false,
+    "event_count": null,
+    "reason": "Bad state: 31501 pitch at 199"
+  },
+  {
+    "setting_id": "31501",
+    "bar": 34,
+    "rule": "missing_barline",
+    "before": "d^cde fdeg fdcA GBdc",
+    "after": "d^cde fdeg| fdcA GBdc",
+    "passed": false,
+    "event_count": null,
+    "reason": "Bad state: 31501 pitch at 324"
+  },
+  {
+    "setting_id": "58111",
+    "bar": 13,
+    "rule": "missing_barline",
+    "before": "\"G\"e2G2G2 ed\r\n\"Am\"c2A2A2GA",
+    "after": "\"G\"e2G2G2 ed|\r\n\"Am\"c2A2A2GA",
+    "passed": true,
+    "event_count": 85,
+    "reason": null
+  },
+  {
+    "setting_id": "35186",
+    "bar": 29,
+    "rule": "missing_barline",
+    "before": "B4e2A4a2",
+    "after": "B4e2|A4a2",
+    "passed": true,
+    "event_count": 170,
+    "reason": null
+  },
+  {
+    "setting_id": "43889",
+    "bar": 4,
+    "rule": "missing_barline",
+    "before": "d2G2 gfed\r\ne2 dg e2 A2",
+    "after": "d2G2 gfed|\r\ne2 dg e2 A2",
+    "passed": true,
+    "event_count": 194,
+    "reason": null
+  },
+  {
+    "setting_id": "18090",
+    "bar": 11,
+    "rule": "missing_barline",
+    "before": "Bcdc B2 B2 g2 f2 e4",
+    "after": "Bcdc B2 B2| g2 f2 e4",
+    "passed": true,
+    "event_count": 120,
+    "reason": null
+  },
+  {
+    "setting_id": "47306",
+    "bar": 5,
+    "rule": "missing_barline",
+    "before": "\"G\"Bd-d4 Bd\r\n\"C\"e4 \"G\"d3 B",
+    "after": "\"G\"Bd-d4 Bd|\r\n\"C\"e4 \"G\"d3 B",
+    "passed": true,
+    "event_count": 79,
+    "reason": null
+  }
+]

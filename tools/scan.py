@@ -181,7 +181,7 @@ def sha(text):
     return hashlib.sha256(text.encode()).hexdigest()
 
 
-def scan(data):
+def scan(data, barlines_only=False):
     parsed, witnesses = {}, defaultdict(list)
     for row in data:
         sid = row["setting_id"]
@@ -208,11 +208,22 @@ def scan(data):
             key = (row["tune_id"], row["meter"], row["mode"], signature)
             return [(s, i) for s, i in witnesses[key] if (s, i) not in exclude]
 
+        def supported_pair(left, right, ordinary):
+            first, second = witness(left), witness(right)
+            successors = set(second)
+            adjacent = [(s, j) for s, j in first if (s, j+1) in successors
+                        and parsed[s][0][j].right == "|" and parsed[s][0][j+1].left == "|"
+                        and parsed[s][0][j].end + 1 == parsed[s][0][j+1].start]
+            if adjacent:
+                return adjacent, [(s, j+1) for s,j in adjacent]
+            return (first, second) if ordinary else ([], [])
+
         full = sum(not b.error and b.duration == unit for b in bars)
-        eligible = row["type"].lower() in TYPES and full >= 6 and full / len(bars) >= .75
+        regular = full >= 6 and full / len(bars) >= .75
+        eligible = regular and row["type"].lower() in TYPES
         edits, evidence, used = [], [], set()
         masked_body = MASK.sub(lambda m: " " * len(m[0]), body)
-        for control in CONTROL.finditer(masked_body):
+        for control in (() if barlines_only else CONTROL.finditer(masked_body)):
             edits.append((control.start(), control.end(), ""))
             evidence.append({"rule": "stray_control", "offset": control.start(),
                              "before": control[0], "after": "", "codepoint": f"U+{ord(control[0]):04X}"})
@@ -227,11 +238,11 @@ def scan(data):
                       "duration_eighths": str(bar.duration), "expected_eighths": str(unit),
                       "fragment": body[bar.start:bar.end], "reason": "No unique supported correction"}
             issues.append(detail)
-            if not eligible or i in used:
+            if not regular or i in used:
                 continue
             # A double-length measure can lose a divider, provided both halves
             # already occur as complete measures of this tune in the same key.
-            if bar.duration == 2 * unit and bar.left and bar.right:
+            if bar.duration == 2 * unit:
                 total, split = F(), None
                 for k, event in enumerate(bar.events[:-1], 1):
                     total += event.duration
@@ -240,7 +251,7 @@ def scan(data):
                         break
                 if split:
                     left, right = bar.events[:split], bar.events[split:]
-                    a, b = witness(left), witness(right)
+                    a, b = supported_pair(left, right, eligible and bar.left and bar.right)
                     if a and b:
                         at = left[-1].end
                         edits.append((at, at, "|"))
@@ -254,7 +265,9 @@ def scan(data):
             if (i + 1 < len(bars) and bar.right == "|" and bars[i+1].left == "|"
                     and not bars[i+1].error and i+1 not in used):
                 nxt = bars[i+1]
-                if bar.duration + nxt.duration == 2*unit and bar.duration > unit and nxt.duration < unit:
+                internal = i > 0 and i+2 < len(bars) and bar.left == "|" and nxt.right == "|"
+                if (bar.duration + nxt.duration == 2*unit and nxt.start == bar.end+1
+                        and (bar.duration > unit or internal)):
                     events = bar.events + nxt.events
                     total, split = F(), None
                     for k, event in enumerate(events[:-1], 1):
@@ -263,16 +276,24 @@ def scan(data):
                             split = k
                             break
                     if split:
-                        a, b = witness(events[:split]), witness(events[split:])
+                        a, b = supported_pair(events[:split], events[split:], eligible and bar.duration > unit)
                         if a and b:
                             at = events[split-1].end
-                            edits.extend([(bar.end, nxt.start, ""), (at, at, "|")])
+                            if at in (bar.end, nxt.start):
+                                continue
+                            divider = "" if body[bar.end-1].isspace() or body[nxt.start].isspace() else " "
+                            edits.extend([(bar.end, nxt.start, divider), (at, at, "|")])
+                            fragment = body[bar.start:nxt.end]
+                            for x, y, value in sorted(edits[-2:], reverse=True):
+                                fragment = fragment[:x-bar.start]+value+fragment[y-bar.start:]
                             evidence.append({"rule": "misplaced_barline", "bar": i+1, "witnesses": [a[:4], b[:4]],
                                              "before": body[bar.start:nxt.end],
-                                             "after": body[bar.start:at]+"|"+body[at:bar.end]+body[nxt.start:nxt.end]})
+                                             "after": fragment})
                             used.update((i, i+1))
                             detail["category"] = "proposed"
                             continue
+            if barlines_only or not eligible:
+                continue
             # A one-character length typo needs a matching complete bar and a
             # matching adjacent bar in that witness's phrase. Never alter a
             # pickup, cadence, repeat ending, tuplet, tie or broken rhythm.

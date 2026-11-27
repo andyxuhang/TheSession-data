@@ -1,7 +1,7 @@
 {
   "base_commit": "201f85c3c1f6dd1eb596cae99a51a2398aebc511",
   "method": "Exact bar durations, complete-bar phrase witnesses, and independent playback comparison",
-  "scanner_sha256": "82ab48a848fe673b331e8226dfa15148ae07bab91980f4325d84c8502ec94a2e",
+  "scanner_sha256": "276859a2a7f8bff88743a6cd30179bc4cdfefc632b279f005df9da41e56c5891",
   "corrections": [
     {
       "tune_id": "2",
@@ -672,6 +672,90 @@
       ]
     },
     {
+      "tune_id": "135",
+      "setting_id": "35369",
+      "name": "Genevieve's",
+      "original_contributor": "Ian Varley",
+      "source_url": "https://thesession.org/tunes/135#setting35369",
+      "category": "missing_barline",
+      "before_abc": "E|:cdc BAG|ABc E2E|FAd cEc|cBA B2E\r\ncdc BAG|ABc E2E|FAd cEc|1 BAG A2E:|2 BAG A2e||\r\nf2f fga|e2d cBA|ded cBA|FGA B2e\r\nf2f fga|e2d cBA|ded cBA|FAG A2e\r\nf2f fga|e2d cBA|df/g/a ecA|FGA B2E\r\ncdc BAG|ABc E2E|FAd cEc|BAG A3||",
+      "after_abc": "E|:cdc BAG|ABc E2E|FAd cEc|cBA B2E|\r\ncdc BAG|ABc E2E|FAd cEc|1 BAG A2E:|2 BAG A2e||\r\nf2f fga|e2d cBA|ded cBA|FGA B2e\r\nf2f fga|e2d cBA|ded cBA|FAG A2e\r\nf2f fga|e2d cBA|df/g/a ecA|FGA B2E|\r\ncdc BAG|ABc E2E|FAd cEc|BAG A3||",
+      "before_sha256": "fdae2721085ed455d4df64ba9ab4fcc9d97ac71cbef2d801a8499eabbf02d69d",
+      "after_sha256": "d6eae09f733a0ca12f72aaeaa984a8ba7bafa9699332e0f0bf9b26c1964472b6",
+      "edits": [
+        {
+          "start": 34,
+          "end": 34,
+          "text": "|"
+        },
+        {
+          "start": 184,
+          "end": 184,
+          "text": "|"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 5,
+          "witnesses": [
+            [
+              [
+                "12751",
+                4
+              ],
+              [
+                "53954",
+                4
+              ]
+            ],
+            [
+              [
+                "12751",
+                5
+              ],
+              [
+                "53954",
+                5
+              ]
+            ]
+          ],
+          "before": "cBA B2E\r\ncdc BAG",
+          "after": "cBA B2E|\r\ncdc BAG",
+          "scan_pass": 1
+        },
+        {
+          "rule": "missing_barline",
+          "bar": 19,
+          "witnesses": [
+            [
+              [
+                "12751",
+                21
+              ],
+              [
+                "53954",
+                21
+              ]
+            ],
+            [
+              [
+                "12751",
+                22
+              ],
+              [
+                "53954",
+                22
+              ]
+            ]
+          ],
+          "before": "FGA B2E\r\ncdc BAG",
+          "after": "FGA B2E|\r\ncdc BAG",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "138",
       "setting_id": "12700",
       "name": "Toss The Feathers",
@@ -1313,6 +1397,124 @@
           ],
           "before": "cBcd e/f/g/ ed",
           "after": "cBcd e/f/g ed",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "211",
+      "setting_id": "43620",
+      "name": "Inisheer",
+      "original_contributor": "shawnthesheeple@gmail.com",
+      "source_url": "https://thesession.org/tunes/211#setting43620",
+      "category": "missing_barline",
+      "before_abc": "|:B3A Bd|B3A Bd|E3B AB|D3B AG|\r\nB3A Bd|B3A Bd|G3B A/G/F|1 G3E DG:|2 G3A Bd||\r\ne3f ed|B3A Bd|ef ed Bd|e3A Bd\r\ne3f ed|B3A Bd|G3B A/G/F|G3A Bd\r\ne3f ed|B3A Bd|gf ed Bd|e3A Bd\r\ne3f ed|B3A Bd|D3B A/G/F|G6||",
+      "after_abc": "|:B3A Bd|B3A Bd|E3B AB|D3B AG|\r\nB3A Bd|B3A Bd|G3B A/G/F|1 G3E DG:|2 G3A Bd||\r\ne3f ed|B3A Bd|ef ed Bd|e3A Bd|\r\ne3f ed|B3A Bd|G3B A/G/F|G3A Bd|\r\ne3f ed|B3A Bd|gf ed Bd|e3A Bd|\r\ne3f ed|B3A Bd|D3B A/G/F|G6||",
+      "before_sha256": "aa485618f2b8ea3ef997f7819830fbf2fc3af8e9d05a48198d0ecc781d182b5f",
+      "after_sha256": "0dcc17c063f0d3383d52990c86d06c5d375d23e621f490cd2bd0e6488d79cdee",
+      "edits": [
+        {
+          "start": 107,
+          "end": 107,
+          "text": "|"
+        },
+        {
+          "start": 139,
+          "end": 139,
+          "text": "|"
+        },
+        {
+          "start": 170,
+          "end": 170,
+          "text": "|"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 13,
+          "witnesses": [
+            [
+              [
+                "55957",
+                13
+              ],
+              [
+                "55957",
+                21
+              ]
+            ],
+            [
+              [
+                "55957",
+                14
+              ],
+              [
+                "55957",
+                22
+              ]
+            ]
+          ],
+          "before": "e3A Bd\r\ne3f ed",
+          "after": "e3A Bd|\r\ne3f ed",
+          "scan_pass": 1
+        },
+        {
+          "rule": "missing_barline",
+          "bar": 16,
+          "witnesses": [
+            [
+              [
+                "55957",
+                17
+              ],
+              [
+                "26333",
+                17
+              ]
+            ],
+            [
+              [
+                "55957",
+                18
+              ],
+              [
+                "26333",
+                18
+              ]
+            ]
+          ],
+          "before": "G3A Bd\r\ne3f ed",
+          "after": "G3A Bd|\r\ne3f ed",
+          "scan_pass": 1
+        },
+        {
+          "rule": "missing_barline",
+          "bar": 19,
+          "witnesses": [
+            [
+              [
+                "55957",
+                13
+              ],
+              [
+                "55957",
+                21
+              ]
+            ],
+            [
+              [
+                "55957",
+                14
+              ],
+              [
+                "55957",
+                22
+              ]
+            ]
+          ],
+          "before": "e3A Bd\r\ne3f ed",
+          "after": "e3A Bd|\r\ne3f ed",
           "scan_pass": 1
         }
       ]
@@ -2137,6 +2339,72 @@
           ],
           "before": "\"Dm\"A4 A2",
           "after": "\"Dm\"A6 A2",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "449",
+      "setting_id": "35186",
+      "name": "Sí Bheag Sí Mhór",
+      "original_contributor": "Connor Hickey",
+      "source_url": "https://thesession.org/tunes/449#setting35186",
+      "category": "missing_barline",
+      "before_abc": "de|:fg fe d2|d3e d2|B4A2|F4A2|BA Bc d2|e4 de|\r\nf4e2|d4f2|B4e2|A4d2|F4E2|D4f2|B4e2|\r\nA4dc|d6-|1 d4de:|2 d4de||\r\n|:f3ed2|ed ef a2|b4a2|f3ed2|\r\ne4a2|f3ed2|d4B2|A4BA|\r\nF4E2|D4f2|B4e2A4a2|\r\nba gf ed|e4dc|d6-|1 d4de:|d4||",
+      "after_abc": "de|:fg fe d2|d3e d2|B4A2|F4A2|BA Bc d2|e4 de|\r\nf4e2|d4f2|B4e2|A4d2|F4E2|D4f2|B4e2|\r\nA4dc|d6-|1 d4de:|2 d4de||\r\n|:f3ed2|ed ef a2|b4a2|f3ed2|\r\ne4a2|f3ed2|d4B2|A4BA|\r\nF4E2|D4f2|B4e2|A4a2|\r\nba gf ed|e4dc|d6-|1 d4de:|d4||",
+      "before_sha256": "9509b9c9686c20850b639af57ad346fc8abdcdb7c36fa4f68f2d5c4d1454a128",
+      "after_sha256": "915dcb65bdf229b354c0ce224ba0945fd304494cc52d1abfc42b4bd6abe1d59a",
+      "edits": [
+        {
+          "start": 178,
+          "end": 178,
+          "text": "|"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 29,
+          "witnesses": [
+            [
+              [
+                "49385",
+                27
+              ],
+              [
+                "50444",
+                27
+              ],
+              [
+                "51463",
+                27
+              ],
+              [
+                "58467",
+                28
+              ]
+            ],
+            [
+              [
+                "49385",
+                28
+              ],
+              [
+                "50444",
+                28
+              ],
+              [
+                "51463",
+                28
+              ],
+              [
+                "58467",
+                29
+              ]
+            ]
+          ],
+          "before": "B4e2A4a2",
+          "after": "B4e2|A4a2",
           "scan_pass": 1
         }
       ]
@@ -6875,6 +7143,48 @@
       ]
     },
     {
+      "tune_id": "5422",
+      "setting_id": "49812",
+      "name": "Ookpik",
+      "original_contributor": "leprecawn",
+      "source_url": "https://thesession.org/tunes/5422#setting49812",
+      "category": "missing_barline",
+      "before_abc": "|:D z E|G3 A B>d|A F3 ED|E G4 A|G2 B2d2|e3 de3/2f/2\r\ned3 B>A|B d3 e2|d2 B2d2|e3 def|e d3 BA|B3 cBA |\r\n G2E2 D2|C3 D EG|A3GED|E2 G3A|1 G3DE :|2 G3 A B>d||\r\ne2 B3 A|B4 Bd |e2 B3 A|B4 B2|A4 A>B|A G3 ED|\r\nE6| DE GA Bd| e2 B3 A|B4 Bd |e2 B3 A|B4 B2|\r\nA3 GA3/2B/2 |A G3 ED|EG4 E| D2 E2 F2|G3 A B>d|\r\nA F3 ED|E G4 A|G2 B2 d2|e3 de3/2f/2|ed3 B>A|\r\nB d3 e2|d2 B2d2|e3 def|e d3 BA|B3 cBA |\r\nG2E2 D2 |C3 D EG|A3 GED|E2 G3A| G6||",
+      "after_abc": "|:D z E|G3 A B>d|A F3 ED|E G4 A|G2 B2d2|e3 de3/2f/2|\r\ned3 B>A|B d3 e2|d2 B2d2|e3 def|e d3 BA|B3 cBA |\r\n G2E2 D2|C3 D EG|A3GED|E2 G3A|1 G3DE :|2 G3 A B>d||\r\ne2 B3 A|B4 Bd |e2 B3 A|B4 B2|A4 A>B|A G3 ED|\r\nE6| DE GA Bd| e2 B3 A|B4 Bd |e2 B3 A|B4 B2|\r\nA3 GA3/2B/2 |A G3 ED|EG4 E| D2 E2 F2|G3 A B>d|\r\nA F3 ED|E G4 A|G2 B2 d2|e3 de3/2f/2|ed3 B>A|\r\nB d3 e2|d2 B2d2|e3 def|e d3 BA|B3 cBA |\r\nG2E2 D2 |C3 D EG|A3 GED|E2 G3A| G6||",
+      "before_sha256": "ef32fcdafd92797b3fe761d0b2dfa51c3c0b447e69f2a0e21a04f47c696970f5",
+      "after_sha256": "cec569719102d87edd795e46c3cab412f17b820ab5469710587cf4e99626a1ab",
+      "edits": [
+        {
+          "start": 51,
+          "end": 51,
+          "text": "|"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 6,
+          "witnesses": [
+            [
+              [
+                "49812",
+                37
+              ]
+            ],
+            [
+              [
+                "49812",
+                38
+              ]
+            ]
+          ],
+          "before": "e3 de3/2f/2\r\ned3 B>A",
+          "after": "e3 de3/2f/2|\r\ned3 B>A",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "5610",
       "setting_id": "35011",
       "name": "Ewe Wi' The Crookit Horn, The",
@@ -7346,6 +7656,90 @@
       ]
     },
     {
+      "tune_id": "6275",
+      "setting_id": "58111",
+      "name": "Parting Glass, The",
+      "original_contributor": "ceili",
+      "source_url": "https://thesession.org/tunes/6275#setting58111",
+      "category": "missing_barline",
+      "before_abc": "ed|\"Am\"c2A2A2GA|\"C\"c2c2d2cd|\"Am\"e2e2edcd|\"G\"e2G2G2ed|\r\n\"Am\"c2A2A2GA|\"C\"c2c2d2cd|\"Am\"e2a2\"G\"gede|\"Am\"c2A2A2 zg||\r\n\"C\"gega g3g|\"C\"gega g3e|\"Am\"f2e2d2cd|\"G\"e2G2G2 ed\r\n\"Am\"c2A2A2GA|\"C\" c2c2\"G\"d2cd|\"Am\"e2a2\"G\"gede|\"Am\" c2A2A4||",
+      "after_abc": "ed|\"Am\"c2A2A2GA|\"C\"c2c2d2cd|\"Am\"e2e2edcd|\"G\"e2G2G2ed|\r\n\"Am\"c2A2A2GA|\"C\"c2c2d2cd|\"Am\"e2a2\"G\"gede|\"Am\"c2A2A2 zg||\r\n\"C\"gega g3g|\"C\"gega g3e|\"Am\"f2e2d2cd|\"G\"e2G2G2 ed|\r\n\"Am\"c2A2A2GA|\"C\" c2c2\"G\"d2cd|\"Am\"e2a2\"G\"gede|\"Am\" c2A2A4||",
+      "before_sha256": "92f53773d33fd544ff71542fe3c73c633f4a30d717545a1d3c75854f55e2162b",
+      "after_sha256": "c4a19951a345343fdc9e61d253f2ce4952d20eed0ba8754775bdf79e4acfcece",
+      "edits": [
+        {
+          "start": 162,
+          "end": 162,
+          "text": "|"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 13,
+          "witnesses": [
+            [
+              [
+                "58111",
+                4
+              ]
+            ],
+            [
+              [
+                "58111",
+                5
+              ]
+            ]
+          ],
+          "before": "\"G\"e2G2G2 ed\r\n\"Am\"c2A2A2GA",
+          "after": "\"G\"e2G2G2 ed|\r\n\"Am\"c2A2A2GA",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "6330",
+      "setting_id": "18090",
+      "name": "Weavers', The",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/6330#setting18090",
+      "category": "missing_barline",
+      "before_abc": "ABAG F2 GA|B2 B2 A4|Bcdc B2 B2|g2 f2 e4|\r\nABAG F2 GA|B2 B2 A4|BcdB c2 de|E4 d4||\r\n|:f2 gf e2 fe|dfed c2 BA|Bcdc B2 B2 g2 f2 e4|\r\nGBAG F2 GA|B2 B2 A4|BcdB c2 de|e4 d4:|",
+      "after_abc": "ABAG F2 GA|B2 B2 A4|Bcdc B2 B2|g2 f2 e4|\r\nABAG F2 GA|B2 B2 A4|BcdB c2 de|E4 d4||\r\n|:f2 gf e2 fe|dfed c2 BA|Bcdc B2 B2| g2 f2 e4|\r\nGBAG F2 GA|B2 B2 A4|BcdB c2 de|e4 d4:|",
+      "before_sha256": "fd432fa43fa948e6079c2effffb998fb8d13a36da8b456be033b41adcfdd6275",
+      "after_sha256": "c995f9365ee6f9c535bfb365a08cc48a32f4433633f9efdff0479acb00197607",
+      "edits": [
+        {
+          "start": 117,
+          "end": 117,
+          "text": "|"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 11,
+          "witnesses": [
+            [
+              [
+                "18090",
+                2
+              ]
+            ],
+            [
+              [
+                "18090",
+                3
+              ]
+            ]
+          ],
+          "before": "Bcdc B2 B2 g2 f2 e4",
+          "after": "Bcdc B2 B2| g2 f2 e4",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "6887",
       "setting_id": "18462",
       "name": "Lochiel's Awa' Tae France",
@@ -7437,6 +7831,48 @@
           ],
           "before": "F3- F2d\r\nfed cBA",
           "after": "F3- F2d|\r\nfed cBA",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "7105",
+      "setting_id": "31501",
+      "name": "Paddy Fahey's",
+      "original_contributor": "JWiseman",
+      "source_url": "https://thesession.org/tunes/7105#setting31501",
+      "category": "missing_barline",
+      "before_abc": "BGA/4G/4F/G DG A/4G/4F/G|B/c/d fa gdBG|A=FG/4F/4E/F CFA,F Bceg fd^cd|\r\nBGA/4G/4F/G G3 c|BGFD GABc|d^cde fdeg|fdcA GBdc3/2|\r\nBGA/4G/4F/G DG A/4G/4F/G|B/c/d fa gdBG|A=FG/4F/4E/F CFA,F Bceg fd^cd|\r\nBGA/4G/4F/G G3 c|BGFD GABc|d^cde fdeg|fdcA G2 GB||\r\ndg a/4g/4f/g afga|gfgd BG G2|Af f2 agfa g2 ea fdcA|\r\ndg g2 afga|gfgd BgdB|A=feg ^fa^ga fdcA G2 GB|\r\ndga/4g/4f/g afga|gfgd BG G2|Af g/4f/4e/f agfa|g2 ea fdcA|\r\ndg g2 afga|gfgd BG G2|A=feg ^fa^ga|fdcA G4||\r\nB/c/d ^cd DGFG|B/c/d fa gdBG|AB c/d/c GcEc Gceg fd^cd|\r\nBG A/4G/4F/G G3 c|BGFD GABc|d^cde fdeg fdcA GBdc|\r\nB/c/d ^cd DGFG|B/c/d fa gdBG|A=F F2 CFA,F|Bceg fd^cd|\r\nBG A/4G/4F/G G3 c|BGFD GABc|d^cde f3 g|fdcA G4||\r\ndg a/4g/4f/g afga|gfgd BG A/4G/4F/G|Af g/4f/4e/f agfa|g2 ea fecA|\r\ndg g2 afga|gfgd BG A/4G/4F/G|Afeg faga|fdcA G4||",
+      "after_abc": "BGA/4G/4F/G DG A/4G/4F/G|B/c/d fa gdBG|A=FG/4F/4E/F CFA,F Bceg fd^cd|\r\nBGA/4G/4F/G G3 c|BGFD GABc|d^cde fdeg|fdcA GBdc3/2|\r\nBGA/4G/4F/G DG A/4G/4F/G|B/c/d fa gdBG|A=FG/4F/4E/F CFA,F Bceg fd^cd|\r\nBGA/4G/4F/G G3 c|BGFD GABc|d^cde fdeg|fdcA G2 GB||\r\ndg a/4g/4f/g afga|gfgd BG G2|Af f2 agfa| g2 ea fdcA|\r\ndg g2 afga|gfgd BgdB|A=feg ^fa^ga fdcA G2 GB|\r\ndga/4g/4f/g afga|gfgd BG G2|Af g/4f/4e/f agfa|g2 ea fdcA|\r\ndg g2 afga|gfgd BG G2|A=feg ^fa^ga|fdcA G4||\r\nB/c/d ^cd DGFG|B/c/d fa gdBG|AB c/d/c GcEc Gceg fd^cd|\r\nBG A/4G/4F/G G3 c|BGFD GABc|d^cde fdeg fdcA GBdc|\r\nB/c/d ^cd DGFG|B/c/d fa gdBG|A=F F2 CFA,F|Bceg fd^cd|\r\nBG A/4G/4F/G G3 c|BGFD GABc|d^cde f3 g|fdcA G4||\r\ndg a/4g/4f/g afga|gfgd BG A/4G/4F/G|Af g/4f/4e/f agfa|g2 ea fecA|\r\ndg g2 afga|gfgd BG A/4G/4F/G|Afeg faga|fdcA G4||",
+      "before_sha256": "ef1eda6941ac92dd10d4682d40046086bdffd32abbe20c6cc17cf1231f89ce06",
+      "after_sha256": "b8da316e01ddd951bc0d447e17e7ba1f9e587a028953ec87dbb62965292b63cd",
+      "edits": [
+        {
+          "start": 286,
+          "end": 286,
+          "text": "|"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 17,
+          "witnesses": [
+            [
+              [
+                "7105",
+                11
+              ]
+            ],
+            [
+              [
+                "31501",
+                23
+              ]
+            ]
+          ],
+          "before": "Af f2 agfa g2 ea fdcA",
+          "after": "Af f2 agfa| g2 ea fdcA",
           "scan_pass": 1
         }
       ]
@@ -7773,6 +8209,48 @@
           ],
           "before": "age6c d2 fg",
           "after": "agec d2 fg",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "8919",
+      "setting_id": "49372",
+      "name": "Fear A' Bhàta",
+      "original_contributor": "coppers and brass",
+      "source_url": "https://thesession.org/tunes/8919#setting49372",
+      "category": "missing_barline",
+      "before_abc": "(A4 B2||d6 d4) (a2|f2>e2 d2)|(c6|e6|f6)|\r\n(B6|B4 c>d)|(c4 B2|A4) (F2|F6)|F4 A2|B6-|-B6|\r\n(A4 B2|d6)|e6-|-e4 (f2|b4 a2)|(f6|e4 d2)|(c2>B2 A2)|B6-|-B6-|B4||",
+      "after_abc": "(A4 B2||d6| d4) (a2|f2>e2 d2)|(c6|e6|f6)|\r\n(B6|B4 c>d)|(c4 B2|A4) (F2|F6)|F4 A2|B6-|-B6|\r\n(A4 B2|d6)|e6-|-e4 (f2|b4 a2)|(f6|e4 d2)|(c2>B2 A2)|B6-|-B6-|B4||",
+      "before_sha256": "33282faa9134e8a5cf07f0f2e71ff69dd61cb948907a89c4e91cedcc0e7a2809",
+      "after_sha256": "17e426ac129b9b8b1b3a3fba964f58e123cf199393ce61bc5208e88cf6d0d1b2",
+      "edits": [
+        {
+          "start": 10,
+          "end": 10,
+          "text": "|"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 2,
+          "witnesses": [
+            [
+              [
+                "24771",
+                1
+              ]
+            ],
+            [
+              [
+                "24771",
+                2
+              ]
+            ]
+          ],
+          "before": "d6 d4) (a2",
+          "after": "d6| d4) (a2",
           "scan_pass": 1
         }
       ]
@@ -8669,6 +9147,48 @@
           ],
           "before": "\"Em\" _E=EBE \"Am\" cE \"B\" BD\r\n\"Em\" E2 EFGE GA",
           "after": "\"Em\" _E=EBE \"Am\" cE \"B\" BD|\r\n\"Em\" E2 EFGE GA",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "10655",
+      "setting_id": "47306",
+      "name": "Wild Mountain Thyme",
+      "original_contributor": "Aaron Bergen",
+      "source_url": "https://thesession.org/tunes/10655#setting47306",
+      "category": "missing_barline",
+      "before_abc": "GE|\"G\"D2 D2 \"C\"E<G-GA|\"G\"G6 Bd|\"C\"e3 e e3 d|\"G\"Bd-d4 Bd\r\n\"C\"e4 \"G\"d3 B|\"Em\"A<G-G4AB|\"Am\"c3B A3G|\"C\"EG-G4 GE|\"G\"D2 D2 \"C\"E<G-GA|\r\n\"G\"G6 Bd|\"C\"e3 e e3 d|\"G\"Bd-d4 Bd|\"C\"e4 \"G\"d3 B|\"Em\"A<G-G4AB|\r\n\"Am\"c3B A3G|\"C\"EG-G4 GE|\"G\"D2 D2 \"C\"E<G-GA|\"G\"G6|",
+      "after_abc": "GE|\"G\"D2 D2 \"C\"E<G-GA|\"G\"G6 Bd|\"C\"e3 e e3 d|\"G\"Bd-d4 Bd|\r\n\"C\"e4 \"G\"d3 B|\"Em\"A<G-G4AB|\"Am\"c3B A3G|\"C\"EG-G4 GE|\"G\"D2 D2 \"C\"E<G-GA|\r\n\"G\"G6 Bd|\"C\"e3 e e3 d|\"G\"Bd-d4 Bd|\"C\"e4 \"G\"d3 B|\"Em\"A<G-G4AB|\r\n\"Am\"c3B A3G|\"C\"EG-G4 GE|\"G\"D2 D2 \"C\"E<G-GA|\"G\"G6|",
+      "before_sha256": "921e5b7f1ec39245ca029457bdb209360bfea5fea62bfc41abd5eec12fe6051c",
+      "after_sha256": "2072bda40d2369ef743906033ed03016728ea97876dfbe6cd212dfb3c8253e13",
+      "edits": [
+        {
+          "start": 55,
+          "end": 55,
+          "text": "|"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 5,
+          "witnesses": [
+            [
+              [
+                "47306",
+                11
+              ]
+            ],
+            [
+              [
+                "47306",
+                12
+              ]
+            ]
+          ],
+          "before": "\"G\"Bd-d4 Bd\r\n\"C\"e4 \"G\"d3 B",
+          "after": "\"G\"Bd-d4 Bd|\r\n\"C\"e4 \"G\"d3 B",
           "scan_pass": 1
         }
       ]
@@ -9709,6 +10229,48 @@
           "before": "\u0014",
           "after": "",
           "codepoint": "U+0014",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "13541",
+      "setting_id": "23956",
+      "name": "Mo Mhàthair",
+      "original_contributor": "Iain Bulloch",
+      "source_url": "https://thesession.org/tunes/13541#setting23956",
+      "category": "missing_barline",
+      "before_abc": "e2^d2=d2|c2A4|c4(3e^de|c'4a2|b4c'2|a4b2|a4f2|f2e4|\r\ne2f2g2|a4A2|A4A2|f6|e4c2|B6|B4c2|B6\r\ne2^d2=d2|c2A4|c4(3e^de|c'4a2|b4c'2|a4b2|a4f2|f2e4|\r\ne2f2g2|a4A2|f4a2|e2c4|B4c2|A6|A6|A6|\r\na4b2|c'4e2|c'4b2|a4A2|c2e4|f4a2|a4f2|f2e4|\r\ne2a2b2|c'4b2|a4f2|e2c4|B4A2|B6|B4c2|B6|\r\ne2^d2=d2|c2A4|c4(3e^de|c'4a2|b4c'2|a4b2|a4f2|f2e4|\r\ne2f2g2|a4A2|f4a2|e2c4|B4c2|A6|A6|A6|",
+      "after_abc": "e2^d2=d2|c2A4|c4(3e^de|c'4a2|b4c'2|a4b2|a4f2|f2e4|\r\ne2f2g2|a4A2|A4A2|f6|e4c2|B6|B4c2|B6|\r\ne2^d2=d2|c2A4|c4(3e^de|c'4a2|b4c'2|a4b2|a4f2|f2e4|\r\ne2f2g2|a4A2|f4a2|e2c4|B4c2|A6|A6|A6|\r\na4b2|c'4e2|c'4b2|a4A2|c2e4|f4a2|a4f2|f2e4|\r\ne2a2b2|c'4b2|a4f2|e2c4|B4A2|B6|B4c2|B6|\r\ne2^d2=d2|c2A4|c4(3e^de|c'4a2|b4c'2|a4b2|a4f2|f2e4|\r\ne2f2g2|a4A2|f4a2|e2c4|B4c2|A6|A6|A6|",
+      "before_sha256": "b2bf75cd1db40b4739f0a45a8155eea809b3747b33ebbaef7470d23ca24705ab",
+      "after_sha256": "73c092d3be51a5c81a8234edf7f65a91f5e4128864d6f2c00e356b94986d14cf",
+      "edits": [
+        {
+          "start": 87,
+          "end": 87,
+          "text": "|"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 16,
+          "witnesses": [
+            [
+              [
+                "23956",
+                46
+              ]
+            ],
+            [
+              [
+                "23956",
+                47
+              ]
+            ]
+          ],
+          "before": "B6\r\ne2^d2=d2",
+          "after": "B6|\r\ne2^d2=d2",
           "scan_pass": 1
         }
       ]
@@ -10942,6 +11504,48 @@
       ]
     },
     {
+      "tune_id": "16503",
+      "setting_id": "31318",
+      "name": "Gan Ainm",
+      "original_contributor": "kd7flc",
+      "source_url": "https://thesession.org/tunes/16503#setting31318",
+      "category": "missing_barline",
+      "before_abc": "|:d ^cd|ed Bd GB|D2G2B2|E4_E2|D4G2|F4A2|d4c2|\r\nB2 BA Bc|B3 d ^cd|ed Bd GB|D2G2B2|E4_E2|D4G2|\r\nF4A2|d4F2|G2 FG Bd|G3d ^cd|G2B2c2|d6|g6|g2f3e|\r\nB4c2|d3ed2|c2B2A2|G2GF GA|B2BA Bc|d6|g6|g2f3e|\r\nB4c2|d3ed2|(3ded (3BdB (3ABA|1 (3GdG FG Bd:|2 g2B2c2:|3 G4DD||\r\nDE FG A^A (B6|B6)|(G6|G6)|B,2D2G2|B2d2 ^c|(e6|e6)|\r\nc6|A4G2|(F6|F4) E2|D6|d4 c2|B4DD|DE FG A^A|\r\n(B6|B6)|(G6|G6)|B,2D2G2|B2d3^d|(e6|e6)|66|\r\nf4 e2|d4 B2|G2F2E2|D6|A6|G6||",
+      "after_abc": "|:d ^cd|ed Bd GB|D2G2B2|E4_E2|D4G2|F4A2|d4c2|\r\nB2 BA Bc|B3 d ^cd|ed Bd GB|D2G2B2|E4_E2|D4G2|\r\nF4A2|d4F2|G2 FG Bd|G3d ^cd|G2B2c2|d6|g6|g2f3e|\r\nB4c2|d3ed2|c2B2A2|G2GF GA|B2BA Bc|d6|g6|g2f3e|\r\nB4c2|d3ed2|(3ded (3BdB (3ABA|1 (3GdG FG Bd:|2 g2B2c2:|3 G4DD||\r\nDE FG A^A| (B6|B6)|(G6|G6)|B,2D2G2|B2d2 ^c|(e6|e6)|\r\nc6|A4G2|(F6|F4) E2|D6|d4 c2|B4DD|DE FG A^A|\r\n(B6|B6)|(G6|G6)|B,2D2G2|B2d3^d|(e6|e6)|66|\r\nf4 e2|d4 B2|G2F2E2|D6|A6|G6||",
+      "before_sha256": "f8ec6e9d8e61d75ac3e8bda07c749ff0473e393d26e9aac4f0f5c3dccf379bf7",
+      "after_sha256": "37346815493dfac4e998b41ad709dfc57cd7da3774d8590cff5300540e156d2a",
+      "edits": [
+        {
+          "start": 263,
+          "end": 263,
+          "text": "|"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 36,
+          "witnesses": [
+            [
+              [
+                "31318",
+                50
+              ]
+            ],
+            [
+              [
+                "31318",
+                51
+              ]
+            ]
+          ],
+          "before": "\r\nDE FG A^A (B6",
+          "after": "\r\nDE FG A^A| (B6",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "16550",
       "setting_id": "31437",
       "name": "Am Monadh Ruadh",
@@ -11948,6 +12552,48 @@
       ]
     },
     {
+      "tune_id": "19328",
+      "setting_id": "38045",
+      "name": "Down In The Willow Garden",
+      "original_contributor": "Alan Lightly",
+      "source_url": "https://thesession.org/tunes/19328#setting38045",
+      "category": "missing_barline",
+      "before_abc": "DE|G4 G2|B2 A2 G2|B2 d2 d2|e4 dB|G4 G2|B2A2 G2|E6-|E4 DE\r\nG4 G2|B2 A2 G2|B2 d2 d2|e4 dB|G4 G2|D2E2 BA|G6-|G2 B2d2|\r\ne6|e2d2B2|d4 d2|e4dB|G4 G2|B2 A2 G2|E6-|E4 DE|\r\nG4 G2|B2 A2 G2|B2 d2 d2|e4 dB|G4 G2|D2E2 BA|G6-|G6||",
+      "after_abc": "DE|G4 G2|B2 A2 G2|B2 d2 d2|e4 dB|G4 G2|B2A2 G2|E6-|E4 DE|\r\nG4 G2|B2 A2 G2|B2 d2 d2|e4 dB|G4 G2|D2E2 BA|G6-|G2 B2d2|\r\ne6|e2d2B2|d4 d2|e4dB|G4 G2|B2 A2 G2|E6-|E4 DE|\r\nG4 G2|B2 A2 G2|B2 d2 d2|e4 dB|G4 G2|D2E2 BA|G6-|G6||",
+      "before_sha256": "9a5e19970bc8d69bb670f55cef80e0da12d1142cbce9bf8bc39cc31b74d70416",
+      "after_sha256": "27b4ff08a58c283698897cc55ae54c228f35b9401fc3fdecb855e976b5799958",
+      "edits": [
+        {
+          "start": 56,
+          "end": 56,
+          "text": "|"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 9,
+          "witnesses": [
+            [
+              [
+                "38045",
+                23
+              ]
+            ],
+            [
+              [
+                "38045",
+                24
+              ]
+            ]
+          ],
+          "before": "E4 DE\r\nG4 G2",
+          "after": "E4 DE|\r\nG4 G2",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "19740",
       "setting_id": "38991",
       "name": "Bonnie Tammie Scolla",
@@ -12802,6 +13448,48 @@
       ]
     },
     {
+      "tune_id": "21861",
+      "setting_id": "43889",
+      "name": "Strong Stands The Black Tower",
+      "original_contributor": "James",
+      "source_url": "https://thesession.org/tunes/21861#setting43889",
+      "category": "missing_barline",
+      "before_abc": "|:e2 dg e2 A2|BABd edef|g2 ea gedB|d2G2 gfed\r\ne2 dg e2 A2|BABd edef|g2 ea gedB|e2 A2 A2 g2:|\r\ne2 dB g3 a|agfa g2 dB|G2 Bd g2 dB|d2 G2 gfed|\r\ne2 dB g3 a|agfa g2 dB|G2 Bd g2 dB|e2 A2 A2 Bd|\r\ne2 dB g3 a|agfa g2 dB|G2 Bd g2 dB|d2 G2 gfed|\r\ne2 dg e2 A2|BABd edef|g2 ea gedB|e2 A2 A4||",
+      "after_abc": "|:e2 dg e2 A2|BABd edef|g2 ea gedB|d2G2 gfed|\r\ne2 dg e2 A2|BABd edef|g2 ea gedB|e2 A2 A2 g2:|\r\ne2 dB g3 a|agfa g2 dB|G2 Bd g2 dB|d2 G2 gfed|\r\ne2 dB g3 a|agfa g2 dB|G2 Bd g2 dB|e2 A2 A2 Bd|\r\ne2 dB g3 a|agfa g2 dB|G2 Bd g2 dB|d2 G2 gfed|\r\ne2 dg e2 A2|BABd edef|g2 ea gedB|e2 A2 A4||",
+      "before_sha256": "f42a307c8f4b0c425fb3cfdc9a07cd747f49a751c021e3814774ff3106ca46dd",
+      "after_sha256": "3cf9354ba3f9f586bec31bff08c2c232cc088a9d3cc1402ae636e9185bd60002",
+      "edits": [
+        {
+          "start": 44,
+          "end": 44,
+          "text": "|"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 4,
+          "witnesses": [
+            [
+              [
+                "43889",
+                18
+              ]
+            ],
+            [
+              [
+                "43889",
+                19
+              ]
+            ]
+          ],
+          "before": "d2G2 gfed\r\ne2 dg e2 A2",
+          "after": "d2G2 gfed|\r\ne2 dg e2 A2",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "21938",
       "setting_id": "44066",
       "name": "Allan Dewar's",
@@ -12839,6 +13527,74 @@
           ],
           "before": "\r\nE2 ED E2 eA B2 dA BEEG",
           "after": "\r\nE2 ED E2 eA| B2 dA BEEG",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "22036",
+      "setting_id": "44335",
+      "name": "Paddy Fahey's",
+      "original_contributor": "JWiseman",
+      "source_url": "https://thesession.org/tunes/22036#setting44335",
+      "category": "missing_barline",
+      "before_abc": "AEED CEB,E|A,EED E/F/G AB|cded ^cdfd eaag edcB|\r\nAE E2 CEB,E|A,EED EGAB|cded cBAG EGDF EA, A,2||\r\nAEED cEBE|AEED E/F/G AB|cded ^cdfd|eaag edcB|\r\nAE E2 CEB,E|A,EED EGAB|cded cBAG|EGDF EA, A,2||\r\neaag edcB|AE E2 cBcd|eged cBcd egdg egdg|\r\nea a2 edcB|AE E2 c3 d|eged cBcd eaag egdg||\r\neaag edcB|AE E2 cBcd|e/^f/g ed cBcd egdg egdg|\r\nea a2 edcB|AE E2 c3 d|eged cBcd|eaag edcB||",
+      "after_abc": "AEED CEB,E|A,EED E/F/G AB|cded ^cdfd eaag edcB|\r\nAE E2 CEB,E|A,EED EGAB|cded cBAG| EGDF EA, A,2||\r\nAEED cEBE|AEED E/F/G AB|cded ^cdfd|eaag edcB|\r\nAE E2 CEB,E|A,EED EGAB|cded cBAG|EGDF EA, A,2||\r\neaag edcB|AE E2 cBcd|eged cBcd| egdg egdg|\r\nea a2 edcB|AE E2 c3 d|eged cBcd eaag egdg||\r\neaag edcB|AE E2 cBcd|e/^f/g ed cBcd egdg egdg|\r\nea a2 edcB|AE E2 c3 d|eged cBcd|eaag edcB||",
+      "before_sha256": "b7a36c80649f3922e60760833c1605c689125572e3946a958343df78886dea85",
+      "after_sha256": "d9de4273c26df28696f2c0a5f672d235b566395f37af36044bb42e1e3950e155",
+      "edits": [
+        {
+          "start": 81,
+          "end": 81,
+          "text": "|"
+        },
+        {
+          "start": 224,
+          "end": 224,
+          "text": "|"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 6,
+          "witnesses": [
+            [
+              [
+                "44335",
+                12
+              ]
+            ],
+            [
+              [
+                "44335",
+                13
+              ]
+            ]
+          ],
+          "before": "cded cBAG EGDF EA, A,2",
+          "after": "cded cBAG| EGDF EA, A,2",
+          "scan_pass": 1
+        },
+        {
+          "rule": "missing_barline",
+          "bar": 17,
+          "witnesses": [
+            [
+              [
+                "44335",
+                25
+              ]
+            ],
+            [
+              [
+                "44334",
+                11
+              ]
+            ]
+          ],
+          "before": "eged cBcd egdg egdg",
+          "after": "eged cBcd| egdg egdg",
           "scan_pass": 1
         }
       ]
@@ -13455,6 +14211,48 @@
           ],
           "before": "cAce f2(ea)afge fdec",
           "after": "cAce f2(ea|)afge fdec",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "24839",
+      "setting_id": "51995",
+      "name": "Aylesbury Fiddle Rally Anniversary",
+      "original_contributor": "Jacqui Brown",
+      "source_url": "https://thesession.org/tunes/24839#setting51995",
+      "category": "missing_barline",
+      "before_abc": "AB|:c4B2A2 |d4c2B2|e2a2g2a2|f4e2d2|\r\nc4B2A2|AE3d2c2|B4B3c|B4A2B2|\r\nc4B2A2 |d4c2B2|e2a2g2a2|f4e2d2|\r\ncE3e3c|B2E2c2B2|A4A3B|1 A4A2B2:|2 A4G2A2||\r\nBE3e3d|c4A2e2|fa3d2f2|e4c2A2|\r\nd3ef2d2|e2c2A2E2|F4B3c|B4G2A2|\r\nBE3e3d|c4A2e2|fa3d2f2|e4c2A2|\r\nE4e3c|BE3c3B|A4A3B|A4G2A2|\r\nBE3e3d|c4A2e2|fa3d2f2|e4c2A2|\r\nd3ef2d2|e2c2A2E2|F4B3c|B4A2B2|\r\nc4B2A2 |d4c2B2|e2a2g2a2|f4e2d2\r\ncE3e3c|B2E2c2B2|A4A3B|A4||",
+      "after_abc": "AB|:c4B2A2 |d4c2B2|e2a2g2a2|f4e2d2|\r\nc4B2A2|AE3d2c2|B4B3c|B4A2B2|\r\nc4B2A2 |d4c2B2|e2a2g2a2|f4e2d2|\r\ncE3e3c|B2E2c2B2|A4A3B|1 A4A2B2:|2 A4G2A2||\r\nBE3e3d|c4A2e2|fa3d2f2|e4c2A2|\r\nd3ef2d2|e2c2A2E2|F4B3c|B4G2A2|\r\nBE3e3d|c4A2e2|fa3d2f2|e4c2A2|\r\nE4e3c|BE3c3B|A4A3B|A4G2A2|\r\nBE3e3d|c4A2e2|fa3d2f2|e4c2A2|\r\nd3ef2d2|e2c2A2E2|F4B3c|B4A2B2|\r\nc4B2A2 |d4c2B2|e2a2g2a2|f4e2d2|\r\ncE3e3c|B2E2c2B2|A4A3B|A4||",
+      "before_sha256": "15980e5d56708e650e1145539af2b0afd1efe9c029779cd0e55ad089a05d1052",
+      "after_sha256": "5aabcafcc0cd8c9011d93a150b650d31c13f1fbb684c5544df22066eda5d4efd",
+      "edits": [
+        {
+          "start": 359,
+          "end": 359,
+          "text": "|"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "missing_barline",
+          "bar": 46,
+          "witnesses": [
+            [
+              [
+                "51995",
+                12
+              ]
+            ],
+            [
+              [
+                "51995",
+                13
+              ]
+            ]
+          ],
+          "before": "f4e2d2\r\ncE3e3c",
+          "after": "f4e2d2|\r\ncE3e3c",
           "scan_pass": 1
         }
       ]

@@ -1,6 +1,12 @@
 # Changes
 
-## Notation fixes
+## Missing barlines
+
+Restored 19 missing dividers in 15 settings and 45 matching set entries. Each change splits a double-length measure into two full measures. Seven have the exact two-bar phrase in sequence in another setting of the tune. All 19 preserved the original pitches and timing individually and together within each setting. Three other proposed dividers changed a pitch and remain open. See the [individual checks](checks/barlines.json) and [current list](reports/status.md).
+
+The cumulative count is 328 fixes across 290 settings and 253 tunes.
+
+## Earlier notation fixes
 
 The automated pass fixes 303 places in 269 settings across 233 tunes:
 
@@ -11,7 +17,7 @@ The automated pass fixes 303 places in 269 settings across 233 tunes:
 
 Each musical change has a complete-bar witness from the same tune and key. A note-length change also needs a matching adjacent phrase. Playback comparisons keep pitches, ties and rests unchanged and allow only the expected duration changes. Three proposals did not pass that comparison and remain in the issue list. Two scan passes found supported changes; a third found no further acceptable changes.
 
-Together with the initial fixes below, this brings the total to 309 places in 275 settings across 238 tunes. All three export formats are updated, including exact matching copies embedded in sets. No notes or rests are added and the contributor metadata is retained.
+Together with the initial fixes below, the total at that revision was 309 places in 275 settings across 238 tunes. All three export formats are updated, including exact matching copies embedded in sets. No notes or rests are added and the contributor metadata is retained.
 
 See [the current issue list](reports/status.md), [the changes](changes/notation-fixes.json), [playback checks](checks/notation-playback.json), and [data checks](checks/data.json). The entries below describe the earlier six-setting change and its original checks.
 

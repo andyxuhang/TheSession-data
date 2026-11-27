@@ -13337,7 +13337,7 @@ c2c cag|f2f fga|efe dcB|BAA [1A:|2 A2||"
 DE GEGE DED B,2 z|DEDB, A,G, B,2 z| DEDB, A,G,A,2 z|
 A,B,DE DEGE | G/E/G/E/ E/D/ B,DB, E2 z2 | G/A/G/E/ D E2| 
 D/E/G/B/ G/B/A AB|d/B/A/B/ AG z2 G g||"
-8919,49372,Fear A' Bhàta,coppers and brass,https://thesession.org/tunes/8919#setting49372,检查器不支持的语法或无旋律音符；未判错,"[{""setting_id"": ""49372"", ""bar"": 14, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '-'"", ""fragment"": ""-B6""}, {""setting_id"": ""49372"", ""bar"": 18, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '-'"", ""fragment"": ""-e4 (f2""}, {""setting_id"": ""49372"", ""bar"": 24, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '-'"", ""fragment"": ""-B6-""}]","(A4 B2||d6 d4) (a2|f2>e2 d2)|(c6|e6|f6)|
+8919,49372,Fear A' Bhàta,coppers and brass,https://thesession.org/tunes/8919#setting49372,检查器不支持的语法或无旋律音符；未判错,"[{""setting_id"": ""49372"", ""bar"": 15, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '-'"", ""fragment"": ""-B6""}, {""setting_id"": ""49372"", ""bar"": 19, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '-'"", ""fragment"": ""-e4 (f2""}, {""setting_id"": ""49372"", ""bar"": 25, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '-'"", ""fragment"": ""-B6-""}]","(A4 B2||d6| d4) (a2|f2>e2 d2)|(c6|e6|f6)|
 (B6|B4 c>d)|(c4 B2|A4) (F2|F6)|F4 A2|B6-|-B6|
 (A4 B2|d6)|e6-|-e4 (f2|b4 a2)|(f6|e4 d2)|(c2>B2 A2)|B6-|-B6-|B4||"
 9492,9492,"Feather Hammer, The",walterbracht,https://thesession.org/tunes/9492#setting9492,检查器不支持的语法或无旋律音符；未判错,"[{""setting_id"": ""9492"", ""bar"": 1, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""\""Am\""AGA [c3e]""}]","|:""Am""AGA [c3e]|AGA ~c3|""C""EDE ~G3|EDE ~G3|""Am""AGA ~c3|
@@ -15072,12 +15072,12 @@ fccc fg a2-|acfg abag|fccc fgac|BA G/A/B AFFe|
 fccc fg a2-|acfg abag|feed dc c/d/e|dccB BA G/A/B||
 AGBG AFFG|AGBG A/B/c FG|AGBA cBce|efba agge|
 AGBG AFFG|AGBG A/B/c F2|feed dc c/d/e|dccB BABc||"
-16503,31318,Gan Ainm,kd7flc,https://thesession.org/tunes/16503#setting31318,检查器不支持的语法或无旋律音符；未判错,"[{""setting_id"": ""31318"", ""bar"": 60, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '6'"", ""fragment"": ""6""}]","|:d ^cd|ed Bd GB|D2G2B2|E4_E2|D4G2|F4A2|d4c2|
+16503,31318,Gan Ainm,kd7flc,https://thesession.org/tunes/16503#setting31318,检查器不支持的语法或无旋律音符；未判错,"[{""setting_id"": ""31318"", ""bar"": 61, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '6'"", ""fragment"": ""6""}]","|:d ^cd|ed Bd GB|D2G2B2|E4_E2|D4G2|F4A2|d4c2|
 B2 BA Bc|B3 d ^cd|ed Bd GB|D2G2B2|E4_E2|D4G2|
 F4A2|d4F2|G2 FG Bd|G3d ^cd|G2B2c2|d6|g6|g2f3e|
 B4c2|d3ed2|c2B2A2|G2GF GA|B2BA Bc|d6|g6|g2f3e|
 B4c2|d3ed2|(3ded (3BdB (3ABA|1 (3GdG FG Bd:|2 g2B2c2:|3 G4DD||
-DE FG A^A (B6|B6)|(G6|G6)|B,2D2G2|B2d2 ^c|(e6|e6)|
+DE FG A^A| (B6|B6)|(G6|G6)|B,2D2G2|B2d2 ^c|(e6|e6)|
 c6|A4G2|(F6|F4) E2|D6|d4 c2|B4DD|DE FG A^A|
 (B6|B6)|(G6|G6)|B,2D2G2|B2d3^d|(e6|e6)|66|
 f4 e2|d4 B2|G2F2E2|D6|A6|G6||"

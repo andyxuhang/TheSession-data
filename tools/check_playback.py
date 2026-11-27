@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Compare reviewed ABC using an unmodified, pinned TradMate compiler snapshot."""
 
+from collections import defaultdict
 import argparse
 import hashlib
 import json
@@ -71,6 +72,7 @@ void main(List<String> args) {
     }
     require((afterDuration-beforeDuration-elapsedDelta).abs() < .00001, '$sid total duration');
     result.add({
+      if (row.containsKey('variant')) 'variant':row['variant'],
       'setting_id': sid, 'passed': true, 'event_count': a.length,
       'pitch_and_tie_sequence_unchanged': true,
       'all_event_timings_unchanged': durationChanges==0,
@@ -83,7 +85,7 @@ void main(List<String> args) {
       'duration_delta_quarter': elapsedDelta,
     });
     } catch (error) {
-      result.add({'setting_id':row['setting_id'], 'passed':false, 'reason':'$error'});
+      result.add({if (row.containsKey('variant')) 'variant':row['variant'], 'setting_id':row['setting_id'], 'passed':false, 'reason':'$error'});
     }
   }
   print(jsonEncode(result));
@@ -100,15 +102,17 @@ def main():
     args = parser.parse_args()
     repo = args.tradmate_repo.resolve()
     files = args.plan or sorted((ROOT / "changes").glob("*.json"))
-    patches = {row["setting_id"]: row for path in files for row in json.loads(path.read_text())["corrections"]}
+    patches = defaultdict(list)
+    for path in files:
+        for patch in json.loads(path.read_text())["corrections"]:
+            patches[patch['setting_id']].append(patch)
     rows = []
     with (ROOT / "json/tunes.json").open() as stream:
         for line in stream:
             text = line.strip().rstrip(",")
             if text and text not in ("[", "]"):
                 row = json.loads(text)
-                if row["setting_id"] in patches:
-                    patch = patches[row["setting_id"]]
+                for patch in patches.get(row["setting_id"], ()):
                     grouped = {}
                     before = [e for b in measures(patch['before_abc'])[0] for e in b.events]
                     after = [e for b in measures(patch['after_abc'])[0] for e in b.events]
@@ -121,7 +125,7 @@ def main():
                     allowed = [{'pitch':p, 'before':a, 'after':b, 'written_occurrences':count}
                                for (p,a,b),count in grouped.items()]
                     rows.append({**row, **patch, 'allowed_duration_changes':allowed})
-    assert len(rows) == len(patches)
+    assert len(rows) == sum(map(len, patches.values()))
     with tempfile.TemporaryDirectory(prefix="session-playback-") as temporary:
         root = Path(temporary)
         pending, hashes = [COMPILER], {}

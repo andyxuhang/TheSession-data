@@ -16,6 +16,10 @@ Each proposed setting is compiled before and after with automatic repair disable
 
 These checks establish consistency with the stated rules, not the composer's intent. They cannot identify a wrong pitch that happens to fill a bar, reconstruct missing notes, or settle an unusual meter or deliberate variation. The report keeps such questions separate from applied fixes. New upstream ABC must match the recorded source text; a changed target setting stops the application for review.
 
+## Barline fixes
+
+Add `--barlines` to the scan command to process missing and misplaced dividers. It tests each location independently with the playback parser, combines the passing edits within each setting, and tests that version again. The original setting must already have at least six full bars and at least three quarters of its bars must fit the meter. A plain divider can move in either direction. When the left bar is short, or the setting falls outside the usual dance-meter checks, both corrected measures must already appear in sequence elsewhere in the same tune, meter and key. Witness locations in the change file are pairs of setting ID and zero-based written bar index.
+
 ## Other checks
 
 ```bash

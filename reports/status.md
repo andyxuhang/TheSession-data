@@ -6,20 +6,20 @@
 
 | 分类 | Setting 数 | 完整明细 |
 |---|---:|---|
-| 已修正 | 275 | [fixed.csv](fixed.csv) |
-| 尚需核对 | 3942 | [review.csv](review.csv) |
+| 已修正 | 290 | [fixed.csv](fixed.csv) |
+| 尚需核对 | 3932 | [review.csv](review.csv) |
 | 弱起、段尾与反复边界记录 | 24421 | [boundaries.csv](boundaries.csv) |
 | 暂不支持的语法或空旋律 | 6515 | [unsupported.csv](unsupported.csv) |
-| 播放或解析兼容记录 | 3529 | [playback.csv](playback.csv) |
+| 播放或解析兼容记录 | 3523 | [playback.csv](playback.csv) |
 
-已修正的 setting 中，有 36 份还包含其他待核对项。因此各类数量不能相加当作独立曲谱总数。所有 CSV 均包含原网站链接和当前完整 ABC；fixed.csv 另有修改前 ABC。
+已修正的 setting 中，有 40 份还包含其他待核对项。因此各类数量不能相加当作独立曲谱总数。所有 CSV 均包含原网站链接和当前完整 ABC；fixed.csv 另有修改前 ABC。
 
 ## 已修正的类型
 
 | 类型 | 处数 |
 |---|---:|
 | 小节线错位 | 7 |
-| 漏写小节线 | 211 |
+| 漏写小节线 | 230 |
 | 音长数字或斜线手误 | 72 |
 | 误入的控制字符 | 19 |
 
