@@ -1,12 +1,20 @@
 # The Session data
 
-## Independent curated edition
+## Notation fixes
 
-This fork is maintained by [andyxuhang](https://github.com/andyxuhang) and contains reviewed ABC notation corrections. The first round corrects six settings across five tunes. See [the review and evidence](REVIEW.md), [the exact correction manifest](corrections/round-001.json), and [the validation results](corrections/round-001-validation.json).
+This fork fixes small notation errors in the ABC data. The [current issue list](reports/status.md) separates applied fixes, unresolved findings, pickup and ending cases, and syntax the checker does not handle. See [CHANGES.md](CHANGES.md) for the changes and [changes/](changes/) for the complete ABC before and after each fix.
 
-The source baseline is [adactio/TheSession-data at 9106aa8](https://github.com/adactio/TheSession-data/tree/9106aa8e29b72c3affd954f48b259ea02a1fb418). This is an independent edition. Original contributors are credited in the data. The database continues under ODbL 1.0, with the full upstream content terms preserved in [LICENSE.md](LICENSE.md).
+The source is [adactio/TheSession-data at 9106aa8](https://github.com/adactio/TheSession-data/tree/9106aa8e29b72c3affd954f48b259ea02a1fb418). Original contributors, IDs and metadata are retained. The database continues under ODbL 1.0, with the full upstream content terms preserved in [LICENSE.md](LICENSE.md).
 
-CSV, JSON and SQLite exports include the same corrections. The [reproduction tool](tools/apply_corrections.py) applies only the exact reviewed changes and validates the representations. Each future upstream update should be checked against the recorded source hashes before reapplying a correction.
+CSV, JSON and SQLite contain the same fixes. To check them, materialize Git LFS files and run `python3 tools/apply.py`. Run `python3 tools/apply.py --apply` to reapply the recorded changes to their exact source text. An unexpected source edit stops the operation.
+
+To find and verify further typos using a local TradMate checkout and its pinned Dart parser:
+
+```bash
+python3 tools/fix_notation.py --tradmate-repo /path/to/TradMate --dart /path/to/dart --apply
+```
+
+The command checks repeated phrases, compares playback events, rescans until no further supported changes remain, updates all exports and rebuilds the issue lists. It does not push Git changes. Omitting `--apply` writes proposals and checks to `reports/` without changing the data. See [the tool notes](tools/README.md) for details and requirements.
 
 ## Upstream project information
 

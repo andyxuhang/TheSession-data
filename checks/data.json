@@ -1,0 +1,22 @@
+{
+  "updated_records": {
+    "csv/tunes.csv": 269,
+    "json/tunes.json": 269,
+    "csv/sets.csv": 2080,
+    "json/sets.json": 2080,
+    "thesession.db": {
+      "tunes": 269,
+      "sets": 2080
+    }
+  },
+  "verified": {
+    "tunes": {
+      "rows": 55838,
+      "semantic_sha256": "3ad17bc5005d68b606e985894eb0634a747241a0b4a84880f48397cbd601f19f"
+    },
+    "sets": {
+      "rows": 337510,
+      "semantic_sha256": "e03bba8b0c4718b115b443f100bb6228cc9813a9bdeaa9a54ae6b0a5117be444"
+    }
+  }
+}

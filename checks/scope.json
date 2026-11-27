@@ -1,0 +1,43 @@
+{
+  "baseline_commit": "9106aa8e29b72c3affd954f48b259ea02a1fb418",
+  "baseline_database_sha256": "d99f94468e0f54f5cc3c2bde3691d897a3279e8c99d3246805aa4ecc710c7dec",
+  "tables": {
+    "aliases": {
+      "rows": 29603,
+      "changed_records": 0,
+      "non_abc_fields_unchanged": true
+    },
+    "events": {
+      "rows": 9370,
+      "changed_records": 0,
+      "non_abc_fields_unchanged": true
+    },
+    "recordings": {
+      "rows": 203782,
+      "changed_records": 0,
+      "non_abc_fields_unchanged": true
+    },
+    "sessions": {
+      "rows": 2195,
+      "changed_records": 0,
+      "non_abc_fields_unchanged": true
+    },
+    "sets": {
+      "rows": 337510,
+      "changed_records": 2113,
+      "non_abc_fields_unchanged": true
+    },
+    "tune_popularity": {
+      "rows": 11807,
+      "changed_records": 0,
+      "non_abc_fields_unchanged": true
+    },
+    "tunes": {
+      "rows": 55838,
+      "changed_records": 275,
+      "non_abc_fields_unchanged": true
+    }
+  },
+  "schema_unchanged": true,
+  "upstream_license_blob_sha1": "6cdc586e0cfc42c78dfffc1aefaa7b34eb6ec128"
+}

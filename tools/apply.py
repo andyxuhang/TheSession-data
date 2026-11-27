@@ -3,6 +3,7 @@
 
 import argparse
 import csv
+import filecmp
 import hashlib
 import json
 from pathlib import Path
@@ -13,26 +14,43 @@ import tempfile
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PLAN = ROOT / "corrections/round-001.json"
 ABC_VALUE = re.compile(r'("abc"\s*:\s*)("(?:[^"\\]|\\.)*")')
 
 
-def read_plan():
-    plan = json.loads(PLAN.read_text())
-    patches = {item["setting_id"]: item for item in plan["corrections"]}
-    if len(patches) != len(plan["corrections"]):
-        raise ValueError("Duplicate setting ID in correction plan")
-    for item in patches.values():
+def read_plan(files=None):
+    files = files or sorted((ROOT / "changes").glob("*.json"))
+    items = [item for path in files for item in json.loads(path.read_text())["corrections"]]
+    patches = {}
+    for item in items:
         for side in ("before", "after"):
             actual = hashlib.sha256(item[side + "_abc"].encode()).hexdigest()
             if actual != item[side + "_sha256"]:
                 raise ValueError("Correction plan content/hash mismatch")
-        edit = item["replace"]
-        if item["before_abc"].count(edit["before"]) != edit["count"]:
-            raise ValueError("Unexpected number of reviewed source fragments")
-        if item["before_abc"].replace(edit["before"], edit["after"]) != item["after_abc"]:
+        if "replace" in item:
+            edit = item["replace"]
+            if item["before_abc"].count(edit["before"]) != edit["count"]:
+                raise ValueError("Unexpected number of reviewed source fragments")
+            corrected = item["before_abc"].replace(edit["before"], edit["after"])
+        else:
+            corrected = item["before_abc"]
+            boundary = len(corrected) + 1
+            for edit in sorted(item["edits"], key=lambda e: (e["start"], e["end"]), reverse=True):
+                start, end = edit["start"], edit["end"]
+                if not 0 <= start <= end <= len(item["before_abc"]) or end > boundary:
+                    raise ValueError("Invalid or overlapping source edits")
+                corrected = corrected[:start] + edit["text"] + corrected[end:]
+                boundary = start
+        if corrected != item["after_abc"]:
             raise ValueError("Correction differs from its reviewed replacement")
-    return plan, patches
+        sid = item['setting_id']
+        states = list(item.get('source_states', [item['before_abc']]))
+        if sid in patches:
+            old = patches[sid]
+            if old['tune_id'] != item['tune_id'] or old['after_abc'] != item['before_abc']:
+                raise ValueError('Conflicting correction history for '+sid)
+            states = old['source_states'] + [old['after_abc']] + states
+        patches[sid] = {**item, 'source_states':list(dict.fromkeys(states))}
+    return files, patches
 
 
 def replacement(row, patches, strict):
@@ -43,7 +61,7 @@ def replacement(row, patches, strict):
         raise ValueError("Setting/tune identity mismatch")
     if row["abc"] == patch["after_abc"]:
         return None
-    if row["abc"] == patch["before_abc"]:
+    if row["abc"] in patch["source_states"]:
         return patch["after_abc"]
     if strict:
         raise ValueError("Source changed since review for setting " + row["setting_id"])
@@ -151,18 +169,17 @@ def patch_sqlite(source, target, patches):
         db.row_factory = sqlite3.Row
         for table in ("tunes", "sets"):
             changed = 0
-            for patch in patches.values():
-                rows = db.execute(
-                    "SELECT * FROM " + table + " WHERE setting_id=?",
-                    (patch["setting_id"],),
-                ).fetchall()
-                if table == "tunes" and len(rows) != 1:
-                    raise ValueError("Setting missing or duplicated in SQLite")
-                for row in rows:
-                    replacement(row, patches, table == "tunes")
+            rows = db.execute("SELECT rowid AS _rowid_,* FROM " + table + " WHERE setting_id IN ("+
+                              ",".join("?" for _ in patches)+")", tuple(patches)).fetchall()
+            if table == "tunes" and len(rows) != len(patches):
+                raise ValueError("Setting missing or duplicated in SQLite")
+            for row in rows:
+                patch = patches[row["setting_id"]]
+                if replacement(row, patches, table == "tunes") is None:
+                    continue
                 result = db.execute(
-                    "UPDATE " + table + " SET abc=? WHERE setting_id=? AND tune_id=? AND abc=?",
-                    (patch["after_abc"], patch["setting_id"], patch["tune_id"], patch["before_abc"]),
+                    "UPDATE " + table + " SET abc=? WHERE rowid=?",
+                    (patch["after_abc"], row["_rowid_"]),
                 )
                 changed += result.rowcount
             changes[table] = changed
@@ -195,12 +212,16 @@ def verify(paths, patches):
             if csv_digest != json_digest or csv_digest != sql_digest:
                 raise ValueError("Representations differ for " + table)
             results[table] = csv_digest
-        for patch in patches.values():
-            row = db.execute("SELECT * FROM tunes WHERE setting_id=?", (patch["setting_id"],)).fetchone()
-            if row is None or row["abc"] != patch["after_abc"]:
+        selected = " WHERE setting_id IN (" + ",".join("?" for _ in patches) + ")"
+        tune_rows = db.execute("SELECT * FROM tunes" + selected, tuple(patches)).fetchall()
+        if len(tune_rows) != len(patches):
+            raise ValueError("Setting missing or duplicated")
+        for row in tune_rows:
+            patch = patches[row["setting_id"]]
+            if row["abc"] != patch["after_abc"]:
                 raise ValueError("Reviewed setting is not corrected")
-            pending = db.execute("SELECT COUNT(*) FROM sets WHERE setting_id=? AND abc=?", (patch["setting_id"], patch["before_abc"])).fetchone()[0]
-            if pending:
+        for row in db.execute("SELECT * FROM sets" + selected, tuple(patches)):
+            if row["abc"] in patches[row["setting_id"]]["source_states"]:
                 raise ValueError("An exact matching set copy is still uncorrected")
     return results
 
@@ -208,8 +229,9 @@ def verify(paths, patches):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--apply", action="store_true", help="Apply reviewed replacements, then verify")
+    parser.add_argument("--plan", type=Path, action="append", help="Use an explicit change file (repeatable)")
     args = parser.parse_args()
-    plan, patches = read_plan()
+    files, patches = read_plan(args.plan)
     names = ["csv/tunes.csv", "json/tunes.json", "csv/sets.csv", "json/sets.json", "thesession.db"]
     paths = {name: ROOT / name for name in names}
     if args.apply:
@@ -227,12 +249,12 @@ def main():
             changed["thesession.db"] = patch_sqlite(paths["thesession.db"], staged["thesession.db"], patches)
             result = verify(staged, patches)
             for name in names:
-                if staged[name].read_bytes() != paths[name].read_bytes():
+                if not filecmp.cmp(staged[name], paths[name], shallow=False):
                     staged[name].replace(paths[name])
             print(json.dumps({"updated_records": changed, "verified": result}, indent=2))
     else:
         result = verify(paths, patches)
-        print(json.dumps({"verified": result, "round": plan["round"]}, indent=2))
+        print(json.dumps({"verified": result, "change_files": [p.name for p in files]}, indent=2))
 
 
 if __name__ == "__main__":

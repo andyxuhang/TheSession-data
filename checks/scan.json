@@ -1,0 +1,37 @@
+{
+  "passes": [
+    {
+      "settings": 55838,
+      "bars": 1075100,
+      "settings_with_proposals": 272,
+      "note_length": 69,
+      "missing_barline": 216,
+      "stray_control": 21,
+      "misplaced_barline": 4,
+      "pass": 1,
+      "accepted": 269,
+      "rejected": 3
+    },
+    {
+      "settings": 55838,
+      "bars": 1075310,
+      "settings_with_proposals": 4,
+      "note_length": 1,
+      "stray_control": 2,
+      "missing_barline": 6,
+      "pass": 2,
+      "accepted": 1,
+      "rejected": 0
+    },
+    {
+      "settings": 55838,
+      "bars": 1075310,
+      "settings_with_proposals": 3,
+      "stray_control": 2,
+      "missing_barline": 6,
+      "pass": 3,
+      "accepted": 0
+    }
+  ],
+  "rejected_settings": 3
+}
