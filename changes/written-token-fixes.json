@@ -1,0 +1,2272 @@
+{
+  "base_commit": "df40d6454c14d75fe1568ef32577df667ecfb5fb",
+  "method": "ABC tuplet punctuation rules with unchanged playback in independent parsers",
+  "scanner_sha256": "495c269c2748ecdcb025558ca876b8ea96c58bdc00af9c6a7ee598316c8c61e0",
+  "corrections": [
+    {
+      "setting_id": "52652",
+      "tune_id": "436",
+      "name": "Ballyoran, The",
+      "original_contributor": "Sean Perry",
+      "source_url": "https://thesession.org/tunes/436#setting52652",
+      "category": "tuplet_closer",
+      "before_abc": "|:Bc|dB (3)cBA BGAF | DGGF GABc|dg ~g2 bgdB|(3cBA BG A2Bc|\r\ndB (3)cBA BGAF | DGGF GABc|dg ~g2 fgaf|dggf g2 :|\r\n|:Bc|dg ~g2 bg ~g2|dggd ecAG | FGAB cBce|agfe d2 Bc|\r\ndg ~g2 bg ~g2|dggd ecAG | FGAB cAFG |AGGF G2 :|\r\n|:Bc|dDGB dgfg| ec ~c2 Aceg |fdde fg (3agf|dg ~g2 bgdc|\r\ndDGB dgfg| ec ~c2 Aceg |fdde fg (3agf|dggf f2 :|",
+      "after_abc": "|:Bc|dB (3cBA BGAF | DGGF GABc|dg ~g2 bgdB|(3cBA BG A2Bc|\r\ndB (3cBA BGAF | DGGF GABc|dg ~g2 fgaf|dggf g2 :|\r\n|:Bc|dg ~g2 bg ~g2|dggd ecAG | FGAB cBce|agfe d2 Bc|\r\ndg ~g2 bg ~g2|dggd ecAG | FGAB cAFG |AGGF G2 :|\r\n|:Bc|dDGB dgfg| ec ~c2 Aceg |fdde fg (3agf|dg ~g2 bgdc|\r\ndDGB dgfg| ec ~c2 Aceg |fdde fg (3agf|dggf f2 :|",
+      "before_sha256": "dde500c948b329bfe39ecf65586533033092cc6c58286fc3679f228a8428641d",
+      "after_sha256": "2691b15de09cdb823af9c58889d2715d961455019d853f7ef1df4094d4519e1d",
+      "evidence": [
+        {
+          "rule": "tuplet_closer",
+          "start": 10,
+          "end": 11,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "52652",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 65,
+          "end": 66,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "52652",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 10,
+          "end": 11,
+          "text": ""
+        },
+        {
+          "start": 65,
+          "end": 66,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "32089",
+      "tune_id": "553",
+      "name": "Drunken Sailor's, The",
+      "original_contributor": "Bazza",
+      "source_url": "https://thesession.org/tunes/553#setting32089",
+      "category": "annotation_linebreak",
+      "before_abc": "GF|\"1\"DG{A}GF GABc|dg{a}g^f gabg|fdbg f=edc|BGEC G,B,EF|\r\nG2 {A}GF GABG|D=E{G}FE FB,DF|GABc dcAc|{Bc}B2 G2 G2 (3DEF||\"2\"~G3 A ~B3 c|\r\ndg ~g2 dgbg|fdbg f=edc|BcAF GFDC|DG (3GGG cGBG|DF{G}F=E FGAF|\r\nGABc dcAc|(3BdB G2 G2 z2||\"3\"gfdf gabg|gfdc GF D2|~B3 c ~d3 =e|\r\nfcdB AGFD|G,CDG G,CDG|G,B,DG FAGD|GABG EFGE|CDEC A,D G,2-||\r\n\"4\"G,A,B,D GABc|dg{a}gf gabg|fdbg f=edc|~B3 A GFDC|DG (3GGG cGBG|\r\nDF{G}F=E FGA^F|GABc dcAc|(3BdB G2 G2 (3DEF||\"5\"G3 A B3 c|dg g2 dgbg|\r\nfdbg f=edc|BGEC G,B,EF|(G2 {A}G)F GABG|D=E{G}FE FB,DF|GABc dcAc|\r\n(3BcB G2 G2 z2||\"6\"gfdf gabg|gfdc GF D2|~B3 c ~d3 =e|fcdB AGFD|\r\nG,2 GF GABG|D=EFE FB,DF|GABG EFGE|CDEC A,D G,2||\"7\"G2 GF GABc|\r\ndcBA GFD=E|F2 F=E FGAB|cAFA dcBA|GDB,D GABc|dcBA GFD=E|\r\nFGgf dcBA|(3BcB G2 G2 z2||\"8\"{A}B2 BA Bcd=e|fcAB cAFG|AFcF dFcF|\r\nAFcF dcBA|B2 BA Bcd=e|fcAB cAFA|GAgf dcBA|(3BcB G2 G2 z2||\r\n\"9\"B2 BA Bcd=e|fcAB cAFA|AFcF dFcF|AFcF dcBA|B2 BA Bcd=e|\r\nfcAB cAFA|GAgf dcBA|(3BcB G2 G2 Bd||\"1\r\n\"gfga g2 fg|agf=e d2 de|\r\nfcgc acgc|fcgc agf=e|dg (3gfg dgbg|agf=e dFAc|df=eg fdcA|\r\n(3BcB G2 GABd||\"11\"g2 gf g2 {a}gf|gabg gfd=e|fcgc acgc|fcgc agf=e|\r\ndg ~g2 dgbg|agf=e dFAc|df=eg fdcA|(3BcB G2 GDEF||\"12\"GBdB GBdB|\r\nFAcA FAcD|(3FGA Bc dcAA|cBGD C^FAF|GBdB GBdB|(3cdc A^F DA,B,D|\r\ndf=eg fdcA|(3BdB G2 GDEF||\"13\"GBdB GBdB|FAcA FAcd|(3FGA Bc dcAD|\r\ncBGD C^FAF|GBdB GBdB|(3cdc A^F DA,B,D|df=eg fdcA|(3BdB G2 G2 g/a/g/f/||\r\n\"14\"gdgb gdgb|fcfa fcfa|gdgb gdbg|fdcA BGEC|G,B,DG B,DGF|\r\nDGBG FAcA|df=eg fdcA|G2 DB, G,2 z2||\"15\"gdgb gdgb|fcfa fcfa|\r\ngdga b2 ag|fdcA dBcA|BGDG AFDA|BDGD EAcA|(3Bcd =eg fdcA|\r\nG2 DB, G,2 D/D/D/D/||\"16\"DGAd DGAd|DFAd DFAd|DGBd DGBd|dedc ADFA|\r\nGBdB GBdB|(3cdc AF DA,B,D|df=eg fdcA|(3BcB G2 G3 D||\r\n\"17\"DGBd DGBd|DFAc DFAc|DGBd DGBd|dedc ADFA|\r\nGBdB GBdB|(3cdc AF DA,B,D|df=eg fdcA|G2 DB, HG,4||",
+      "after_abc": "GF|\"1\"DG{A}GF GABc|dg{a}g^f gabg|fdbg f=edc|BGEC G,B,EF|\r\nG2 {A}GF GABG|D=E{G}FE FB,DF|GABc dcAc|{Bc}B2 G2 G2 (3DEF||\"2\"~G3 A ~B3 c|\r\ndg ~g2 dgbg|fdbg f=edc|BcAF GFDC|DG (3GGG cGBG|DF{G}F=E FGAF|\r\nGABc dcAc|(3BdB G2 G2 z2||\"3\"gfdf gabg|gfdc GF D2|~B3 c ~d3 =e|\r\nfcdB AGFD|G,CDG G,CDG|G,B,DG FAGD|GABG EFGE|CDEC A,D G,2-||\r\n\"4\"G,A,B,D GABc|dg{a}gf gabg|fdbg f=edc|~B3 A GFDC|DG (3GGG cGBG|\r\nDF{G}F=E FGA^F|GABc dcAc|(3BdB G2 G2 (3DEF||\"5\"G3 A B3 c|dg g2 dgbg|\r\nfdbg f=edc|BGEC G,B,EF|(G2 {A}G)F GABG|D=E{G}FE FB,DF|GABc dcAc|\r\n(3BcB G2 G2 z2||\"6\"gfdf gabg|gfdc GF D2|~B3 c ~d3 =e|fcdB AGFD|\r\nG,2 GF GABG|D=EFE FB,DF|GABG EFGE|CDEC A,D G,2||\"7\"G2 GF GABc|\r\ndcBA GFD=E|F2 F=E FGAB|cAFA dcBA|GDB,D GABc|dcBA GFD=E|\r\nFGgf dcBA|(3BcB G2 G2 z2||\"8\"{A}B2 BA Bcd=e|fcAB cAFG|AFcF dFcF|\r\nAFcF dcBA|B2 BA Bcd=e|fcAB cAFA|GAgf dcBA|(3BcB G2 G2 z2||\r\n\"9\"B2 BA Bcd=e|fcAB cAFA|AFcF dFcF|AFcF dcBA|B2 BA Bcd=e|\r\nfcAB cAFA|GAgf dcBA|(3BcB G2 G2 Bd||\"^1\"gfga g2 fg|agf=e d2 de|\r\nfcgc acgc|fcgc agf=e|dg (3gfg dgbg|agf=e dFAc|df=eg fdcA|\r\n(3BcB G2 GABd||\"11\"g2 gf g2 {a}gf|gabg gfd=e|fcgc acgc|fcgc agf=e|\r\ndg ~g2 dgbg|agf=e dFAc|df=eg fdcA|(3BcB G2 GDEF||\"12\"GBdB GBdB|\r\nFAcA FAcD|(3FGA Bc dcAA|cBGD C^FAF|GBdB GBdB|(3cdc A^F DA,B,D|\r\ndf=eg fdcA|(3BdB G2 GDEF||\"13\"GBdB GBdB|FAcA FAcd|(3FGA Bc dcAD|\r\ncBGD C^FAF|GBdB GBdB|(3cdc A^F DA,B,D|df=eg fdcA|(3BdB G2 G2 g/a/g/f/||\r\n\"14\"gdgb gdgb|fcfa fcfa|gdgb gdbg|fdcA BGEC|G,B,DG B,DGF|\r\nDGBG FAcA|df=eg fdcA|G2 DB, G,2 z2||\"15\"gdgb gdgb|fcfa fcfa|\r\ngdga b2 ag|fdcA dBcA|BGDG AFDA|BDGD EAcA|(3Bcd =eg fdcA|\r\nG2 DB, G,2 D/D/D/D/||\"16\"DGAd DGAd|DFAd DFAd|DGBd DGBd|dedc ADFA|\r\nGBdB GBdB|(3cdc AF DA,B,D|df=eg fdcA|(3BcB G2 G3 D||\r\n\"17\"DGBd DGBd|DFAc DFAc|DGBd DGBd|dedc ADFA|\r\nGBdB GBdB|(3cdc AF DA,B,D|df=eg fdcA|G2 DB, HG,4||",
+      "before_sha256": "5de3b2dff927e9a406762da897a9e632013f9cdc50b4d0e748226dc17fb3258d",
+      "after_sha256": "639cea47e642915fb81d4c8148dd833cede9f4b2f51c1f7b79befbc34289b1ba",
+      "evidence": [
+        {
+          "rule": "annotation_linebreak",
+          "start": 933,
+          "end": 938,
+          "before": "\"1\r\n\"",
+          "after": "\"^1\"",
+          "preserve_playback": true,
+          "method": "Preserved numeric label as a single-line ABC text annotation",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#annotations",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "32089",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "reference": "Original melody with only the malformed numeric labels removed",
+            "generated_chords_excluded": true,
+            "reference_note_events": 1049,
+            "corrected_note_events": 1049,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 934,
+          "end": 934,
+          "text": "^"
+        },
+        {
+          "start": 935,
+          "end": 937,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "37512",
+      "tune_id": "560",
+      "name": "Tarbolton, The",
+      "original_contributor": "Hugus",
+      "source_url": "https://thesession.org/tunes/560#setting37512",
+      "category": "incomplete_tuplet",
+      "before_abc": "|:EB ed eB BA|GB AF GF EF|DA dc dA AG|FD AG FD D2|\r\nEB ed ef ge|fe df ed BA|~G2 BG FG A=c|BG AF GE E2:|\r\n|:gf ef (3:gfe be|ge be gf ef|d2 fd Ad fd|Bd AG FD D2|\r\n~G2 BG ~F2 AF|E2 ef gf ed|B=c BA GF GA|BG AF GE E2:|",
+      "after_abc": "|:EB ed eB BA|GB AF GF EF|DA dc dA AG|FD AG FD D2|\r\nEB ed ef ge|fe df ed BA|~G2 BG FG A=c|BG AF GE E2:|\r\n|:gf ef (3gfe be|ge be gf ef|d2 fd Ad fd|Bd AG FD D2|\r\n~G2 BG ~F2 AF|E2 ef gf ed|B=c BA GF GA|BG AF GE E2:|",
+      "before_sha256": "b43dfbd7e40631927f3d5e717976d0c4ccd43e7309c043e50e9d61a0e63bfff9",
+      "after_sha256": "6d2d387a8f8a9a1fd3e793a05378f25eb358d94a63927f3e20ae22fd71d06ec8",
+      "evidence": [
+        {
+          "rule": "incomplete_tuplet",
+          "start": 115,
+          "end": 116,
+          "before": "(3:",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "37512",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 115,
+          "end": 116,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "33901",
+      "tune_id": "833",
+      "name": "A Trip To The Cottage",
+      "original_contributor": "leprecawn",
+      "source_url": "https://thesession.org/tunes/833#setting33901",
+      "category": "tuplet_closer",
+      "before_abc": "|:B|d(3)dcd BGB|c(3)cBc AFD|DGG FAA|GBB ABc|\r\nd(3)dcd BGB|c(3)cBc AFD|DGG FGA|BGG G2:|\r\nd|gfe d(3)dcd|ecA Bcd|eAA eAA|fag fed|\r\ngfe d(3)dcd|eAA Bcd|efg eag|f(3)fef g2||",
+      "after_abc": "|:B|d(3dcd BGB|c(3cBc AFD|DGG FAA|GBB ABc|\r\nd(3dcd BGB|c(3cBc AFD|DGG FGA|BGG G2:|\r\nd|gfe d(3dcd|ecA Bcd|eAA eAA|fag fed|\r\ngfe d(3dcd|eAA Bcd|efg eag|f(3fef g2||",
+      "before_sha256": "d1442a46a3f9f2adca8d030ad98d22263eb802803046365154804cf84adef8c6",
+      "after_sha256": "9920efaf57fa59c02a893654ad2d109124c27986c51f463a0e194cf6ac92977f",
+      "evidence": [
+        {
+          "rule": "tuplet_closer",
+          "start": 7,
+          "end": 8,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "33901",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 7,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 19,
+          "end": 20,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "33901",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 7,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 49,
+          "end": 50,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "33901",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 7,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 61,
+          "end": 62,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "33901",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 7,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 97,
+          "end": 98,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "33901",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 7,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 135,
+          "end": 136,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "33901",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 7,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 159,
+          "end": 160,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "33901",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 7,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 7,
+          "end": 8,
+          "text": ""
+        },
+        {
+          "start": 19,
+          "end": 20,
+          "text": ""
+        },
+        {
+          "start": 49,
+          "end": 50,
+          "text": ""
+        },
+        {
+          "start": 61,
+          "end": 62,
+          "text": ""
+        },
+        {
+          "start": 97,
+          "end": 98,
+          "text": ""
+        },
+        {
+          "start": 135,
+          "end": 136,
+          "text": ""
+        },
+        {
+          "start": 159,
+          "end": 160,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "58116",
+      "tune_id": "877",
+      "name": "Priest In His Boots, The",
+      "original_contributor": "Juan Gomez-Perales",
+      "source_url": "https://thesession.org/tunes/877#setting58116",
+      "category": "tuplet_closer",
+      "before_abc": "L:1/16\r\n|:cd|e4e2e4e2|e2f2d2 c2B2A2|d2c2d2 f2e2d2|c2A2c2 e4cd|\r\ne2f2e2 e2f2e2|e2f2d2 c2B2A2|d2c2d2 (3)(f2g2a2) f2|g2e2c2 d4:|\r\n|:fg|a2f2a2 g2e2g2|f2d2f2 e2c2A2|d2c2d2 f2e2d2|c2A2c2 e4 fg|\r\na4f2 {a}g4 e2|{g}f4 d2 e2c2A2|d2c2d2 (3)(f2g2a2) f2|g2e2c2 d4:|",
+      "after_abc": "L:1/16\r\n|:cd|e4e2e4e2|e2f2d2 c2B2A2|d2c2d2 f2e2d2|c2A2c2 e4cd|\r\ne2f2e2 e2f2e2|e2f2d2 c2B2A2|d2c2d2 (3(f2g2a2) f2|g2e2c2 d4:|\r\n|:fg|a2f2a2 g2e2g2|f2d2f2 e2c2A2|d2c2d2 f2e2d2|c2A2c2 e4 fg|\r\na4f2 {a}g4 e2|{g}f4 d2 e2c2A2|d2c2d2 (3(f2g2a2) f2|g2e2c2 d4:|",
+      "before_sha256": "a0b57087ff0b60d453c05dd6373a883817cd7722d8bf856dcbb28d15c39c9807",
+      "after_sha256": "c51a1c2f0ff660244cdd17bedf368434576c6ef6b86be89b2255d5fa25630b4a",
+      "evidence": [
+        {
+          "rule": "tuplet_closer",
+          "start": 101,
+          "end": 102,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "58116",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 228,
+          "end": 229,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "58116",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 101,
+          "end": 102,
+          "text": ""
+        },
+        {
+          "start": 228,
+          "end": 229,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "58117",
+      "tune_id": "877",
+      "name": "Priest In His Boots, The",
+      "original_contributor": "Juan Gomez-Perales",
+      "source_url": "https://thesession.org/tunes/877#setting58117",
+      "category": "tuplet_closer",
+      "before_abc": "L:1/16\r\n|:cd|e4e2e4e2|e2f2d2 c2B2A2|d2c2d2 f2e2d2|c2A2c2 e4cd|\r\ne2f2e2 e2f2e2|e2f2d2 c2B2A2|d2c2d2 (3)(f2g2a2) f2|g2e2c2 d4:|\r\n|:fg|a2f2a2 g2e2g2|f2d2f2 e2c2A2|d2c2d2 f2e2d2|c2A2c2 e4 fg|\r\na4f2 {a}g4 e2|{g}f4 d2 e2c2A2|d2c2d2 (3)(f2g2a2) f2|g2e2c2 d4:|",
+      "after_abc": "L:1/16\r\n|:cd|e4e2e4e2|e2f2d2 c2B2A2|d2c2d2 f2e2d2|c2A2c2 e4cd|\r\ne2f2e2 e2f2e2|e2f2d2 c2B2A2|d2c2d2 (3(f2g2a2) f2|g2e2c2 d4:|\r\n|:fg|a2f2a2 g2e2g2|f2d2f2 e2c2A2|d2c2d2 f2e2d2|c2A2c2 e4 fg|\r\na4f2 {a}g4 e2|{g}f4 d2 e2c2A2|d2c2d2 (3(f2g2a2) f2|g2e2c2 d4:|",
+      "before_sha256": "a0b57087ff0b60d453c05dd6373a883817cd7722d8bf856dcbb28d15c39c9807",
+      "after_sha256": "c51a1c2f0ff660244cdd17bedf368434576c6ef6b86be89b2255d5fa25630b4a",
+      "evidence": [
+        {
+          "rule": "tuplet_closer",
+          "start": 101,
+          "end": 102,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "58117",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 228,
+          "end": 229,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "58117",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 101,
+          "end": 102,
+          "text": ""
+        },
+        {
+          "start": 228,
+          "end": 229,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "32663",
+      "tune_id": "1062",
+      "name": "Martin Rochford's",
+      "original_contributor": "DavidT",
+      "source_url": "https://thesession.org/tunes/1062#setting32663",
+      "category": "tuplet_closer",
+      "before_abc": "EFFE FGAB|=BcAG Ad~d2|cAGA EFFd|cAGc AD ~D2|\r\nFACD FGAc|~c2 AG Ad~d2|cAGA F3d|cAGc AD~D2||\r\neffd edce|dAAG Acde|efdf edcA|cAGc AD~D2|\r\neffd edce|dAAG (3)A=Bc de|fage fedA|cAGc ACDE||",
+      "after_abc": "EFFE FGAB|=BcAG Ad~d2|cAGA EFFd|cAGc AD ~D2|\r\nFACD FGAc|~c2 AG Ad~d2|cAGA F3d|cAGc AD~D2||\r\neffd edce|dAAG Acde|efdf edcA|cAGc AD~D2|\r\neffd edce|dAAG (3A=Bc de|fage fedA|cAGc ACDE||",
+      "before_sha256": "0562af14bde47bad99e0ad43c8b6ac151c5df2f80128c929a0aefe078e69b736",
+      "after_sha256": "01b9605e225496a57837ba261b64756059300297db87b0c09af2e3ecfcdfbe18",
+      "evidence": [
+        {
+          "rule": "tuplet_closer",
+          "start": 152,
+          "end": 153,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "32663",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 152,
+          "end": 153,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "25580",
+      "tune_id": "1640",
+      "name": "Siege Of Ennis, The",
+      "original_contributor": "niall_kenny",
+      "source_url": "https://thesession.org/tunes/1640#setting25580",
+      "category": "tuplet_closer",
+      "before_abc": "|:D>E DB,|DE GA|Bd AB/A/|GE cE|\r\nD>E DB,|DE GA|Bd AB/A/|G2 G2:|\r\n{A}Bd d>B|ce e>B|Bd AB/A/|GE cE|\r\n{A}Bd d>B|ce e>f|ge (3)fed|e<e e<g|\r\nge fd|ed BA|Bd AB/A/|GE cE|\r\nD>E DB,|DE GA|Bd AB/A/|G2 G2||\r\nBd Bd|Bd d2|ed Bd|ed BA|\r\nBd Bd|Bd d2|ed BA|AG G2:|\r\nGB d2|ed c2|dB G>A|BA A>B|\r\nGB d2|ed c2|dB GE|ED D2:|",
+      "after_abc": "|:D>E DB,|DE GA|Bd AB/A/|GE cE|\r\nD>E DB,|DE GA|Bd AB/A/|G2 G2:|\r\n{A}Bd d>B|ce e>B|Bd AB/A/|GE cE|\r\n{A}Bd d>B|ce e>f|ge (3fed|e<e e<g|\r\nge fd|ed BA|Bd AB/A/|GE cE|\r\nD>E DB,|DE GA|Bd AB/A/|G2 G2||\r\nBd Bd|Bd d2|ed Bd|ed BA|\r\nBd Bd|Bd d2|ed BA|AG G2:|\r\nGB d2|ed c2|dB G>A|BA A>B|\r\nGB d2|ed c2|dB GE|ED D2:|",
+      "before_sha256": "ade5fb3b0333995ca1dbb89e9aa3c80fc1c307d2f21d8d8a224768386bbb7a5c",
+      "after_sha256": "3cd92e2dac0515e7ebbfa1debb29bfca9f890ac060d837be27b7b222d1490e3f",
+      "evidence": [
+        {
+          "rule": "tuplet_closer",
+          "start": 121,
+          "end": 122,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25580",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 121,
+          "end": 122,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "15843",
+      "tune_id": "2576",
+      "name": "Sheep In The Boat, The",
+      "original_contributor": "Moritz Haas",
+      "source_url": "https://thesession.org/tunes/2576#setting15843",
+      "category": "annotation_linebreak",
+      "before_abc": "\"1\"BEF {A}GFE|~F3 def|{g}edB BAF|{B}AFE FED|\r\nBEF G2 A|~F3 def|{g}edB BAF|{B}AFE E2 z|\r\nBEF {A}G2E|~F3 d3|{g}edB BAF|{B}AFE {F}FED|\r\nBEF .G2 A|FEF .d2f|{g}edB BAF|{B}AFE E2 z|\r\n\"5\"{c}B2 e ede|~f3 .d2 f|{g}edB BAF|{B}AFE {G}FED|\r\nBBe ede|.f2f def|{g}edB BAF|{B}AFE E2 z|\r\nBeB ~e3|{g}fef Adf|{g}edB BAF|{B}AFE {G}FED|\r\nBEF .G2A|~F3 .d2f|{g}edB BAF|{B}AFE E2 z|\r\nBEF GFE|~F3 def|{g}edB BAF|{B}AFE {G}FED|\r\n\"1\r\n\"BEF G2 A|~F3 Adf|{g}edB BAF|{B}AFE E2 z|\r\nBEF .G2 E|~F3 dcd|{g}edB BAF|{B}AFE {G}FED|\r\nBEF G2 A|FEF .d2 f|{g}edB BAF|{B}AFE E2 z|\r\nB2e ede|.f2f def|{g}edB BAF|{B}AFE {G}FED|\r\nBee .ede|fef .d2f|edB BAF|{B}AFE E2 z|\r\n\"15\"B2e ede|~f3 Adf|{g}edB BAF|{B}AFE {G}FED|\r\nBEF .G2A|~F3 .d2f|{g}edB BAF|{B}AFE E2 z|\r\nBEF {A}G2E|~F3 d2f|{g}edB BAF|{B}AFE {G}FED|\r\nBEF .G2 A|FEF def|{g}edB BAF|{B}AFE E2 z|\r\nBEF ~G3|~F3 Adf|{g}edB BAF|{B}AFE {G}FED|\r\n\"2\r\n\"BEF .G2 A|~F3 Adf|{g}edB BAF|{B}AFE E2 z|\r\nBB e ede|~f3 .d2 f|{g}edB BAF|{B}AFE {G}FED|\r\nBee .ede|.f2f def|{g}edB BAF|{B}AFE E2 z|\r\n~B3 eBe|~f3 .d2 f|{g}edB BAF|{B}AFE {G}FED|\r\nBEF .G2 A|~F3 .d2 f|{g}edB BAF|{B}AFE E2 z||",
+      "after_abc": "\"1\"BEF {A}GFE|~F3 def|{g}edB BAF|{B}AFE FED|\r\nBEF G2 A|~F3 def|{g}edB BAF|{B}AFE E2 z|\r\nBEF {A}G2E|~F3 d3|{g}edB BAF|{B}AFE {F}FED|\r\nBEF .G2 A|FEF .d2f|{g}edB BAF|{B}AFE E2 z|\r\n\"5\"{c}B2 e ede|~f3 .d2 f|{g}edB BAF|{B}AFE {G}FED|\r\nBBe ede|.f2f def|{g}edB BAF|{B}AFE E2 z|\r\nBeB ~e3|{g}fef Adf|{g}edB BAF|{B}AFE {G}FED|\r\nBEF .G2A|~F3 .d2f|{g}edB BAF|{B}AFE E2 z|\r\nBEF GFE|~F3 def|{g}edB BAF|{B}AFE {G}FED|\r\n\"^1\"BEF G2 A|~F3 Adf|{g}edB BAF|{B}AFE E2 z|\r\nBEF .G2 E|~F3 dcd|{g}edB BAF|{B}AFE {G}FED|\r\nBEF G2 A|FEF .d2 f|{g}edB BAF|{B}AFE E2 z|\r\nB2e ede|.f2f def|{g}edB BAF|{B}AFE {G}FED|\r\nBee .ede|fef .d2f|edB BAF|{B}AFE E2 z|\r\n\"15\"B2e ede|~f3 Adf|{g}edB BAF|{B}AFE {G}FED|\r\nBEF .G2A|~F3 .d2f|{g}edB BAF|{B}AFE E2 z|\r\nBEF {A}G2E|~F3 d2f|{g}edB BAF|{B}AFE {G}FED|\r\nBEF .G2 A|FEF def|{g}edB BAF|{B}AFE E2 z|\r\nBEF ~G3|~F3 Adf|{g}edB BAF|{B}AFE {G}FED|\r\n\"^2\"BEF .G2 A|~F3 Adf|{g}edB BAF|{B}AFE E2 z|\r\nBB e ede|~f3 .d2 f|{g}edB BAF|{B}AFE {G}FED|\r\nBee .ede|.f2f def|{g}edB BAF|{B}AFE E2 z|\r\n~B3 eBe|~f3 .d2 f|{g}edB BAF|{B}AFE {G}FED|\r\nBEF .G2 A|~F3 .d2 f|{g}edB BAF|{B}AFE E2 z||",
+      "before_sha256": "45de2b13cd4f56a388fe26a94f9f24bed4e14aed89f6436eb187dd3190d18fb4",
+      "after_sha256": "3f1e68e9198634f0b79870953cc9ef7a82bc0850a35071d119fc088a04b0454e",
+      "evidence": [
+        {
+          "rule": "annotation_linebreak",
+          "start": 403,
+          "end": 408,
+          "before": "\"1\r\n\"",
+          "after": "\"^1\"",
+          "preserve_playback": true,
+          "method": "Preserved numeric label as a single-line ABC text annotation",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#annotations",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "15843",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "reference": "Original melody with only the malformed numeric labels removed",
+            "generated_chords_excluded": true,
+            "reference_note_events": 547,
+            "corrected_note_events": 547,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "annotation_linebreak",
+          "start": 845,
+          "end": 850,
+          "before": "\"2\r\n\"",
+          "after": "\"^2\"",
+          "preserve_playback": true,
+          "method": "Preserved numeric label as a single-line ABC text annotation",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#annotations",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "15843",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "reference": "Original melody with only the malformed numeric labels removed",
+            "generated_chords_excluded": true,
+            "reference_note_events": 547,
+            "corrected_note_events": 547,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 404,
+          "end": 404,
+          "text": "^"
+        },
+        {
+          "start": 405,
+          "end": 407,
+          "text": ""
+        },
+        {
+          "start": 846,
+          "end": 846,
+          "text": "^"
+        },
+        {
+          "start": 847,
+          "end": 849,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "31745",
+      "tune_id": "2711",
+      "name": "250 To Vigo",
+      "original_contributor": "Rachael",
+      "source_url": "https://thesession.org/tunes/2711#setting31745",
+      "category": "tuplet_closer",
+      "before_abc": "|:fBBA BdF(G|G)BdB Acec|fBBA BdF(G|G)ABd cBBg|\r\nfBBA BdF(G|G)BdB Acec|fBBA BdF(G|G)Bfe defg|\r\naffe dec(d|d)ecd ed (3)cBA|affe dec(d|d)faf feef|\r\naffe dec(d|d)ecd ed (3)cBA|fBBA Bfc(d|1 d)fec dcBA:|2 d)fec dcBd||\r\ncFFc dGGd|cFFe dBBd|cFFc dGGd|cfec dcBd|\r\ncFFc dGGd|cFFe dBBd|cFFc dGGd|cfec defg||\r\naffd caB(c|c)aBc dcBA|affd caB(c|c)aaf feef|\r\naffd caB(c|c)aBc dcBA|fBBA Bfc(d|d)fec dcBA||",
+      "after_abc": "|:fBBA BdF(G|G)BdB Acec|fBBA BdF(G|G)ABd cBBg|\r\nfBBA BdF(G|G)BdB Acec|fBBA BdF(G|G)Bfe defg|\r\naffe dec(d|d)ecd ed (3cBA|affe dec(d|d)faf feef|\r\naffe dec(d|d)ecd ed (3cBA|fBBA Bfc(d|1 d)fec dcBA:|2 d)fec dcBd||\r\ncFFc dGGd|cFFe dBBd|cFFc dGGd|cfec dcBd|\r\ncFFc dGGd|cFFe dBBd|cFFc dGGd|cfec defg||\r\naffd caB(c|c)aBc dcBA|affd caB(c|c)aaf feef|\r\naffd caB(c|c)aBc dcBA|fBBA Bfc(d|d)fec dcBA||",
+      "before_sha256": "01470269239f9ccdb278d58a3bee7e85d4003a342caf47349d9e7ab7d936e9e6",
+      "after_sha256": "57fac20d4318209eeaa6eb16807c20f122955f98fe380067927f5da2fcfe8892",
+      "evidence": [
+        {
+          "rule": "tuplet_closer",
+          "start": 116,
+          "end": 117,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "31745",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 167,
+          "end": 168,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "31745",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 116,
+          "end": 117,
+          "text": ""
+        },
+        {
+          "start": 167,
+          "end": 168,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "25343",
+      "tune_id": "2903",
+      "name": "Salmon Tails Up The Water",
+      "original_contributor": "Rachael",
+      "source_url": "https://thesession.org/tunes/2903#setting25343",
+      "category": "tuplet_closer",
+      "before_abc": "|:D>E DB,|DE GA|Bd AB/A/|GE cE|\r\nD>E DB,|DE GA|Bd AB/A/|G2 G2:|\r\n{A}Bd d>B|ce e>B|Bd AB/A/|GE cE|\r\n{A}Bd d>B|ce e>f|ge (3)fed|ef g>A|\r\nBd d>B|ce e>A|Bd AB/A/|GE cE|\r\nD>E DB,|DE GA|Bd AB/A/|G2 G2||",
+      "after_abc": "|:D>E DB,|DE GA|Bd AB/A/|GE cE|\r\nD>E DB,|DE GA|Bd AB/A/|G2 G2:|\r\n{A}Bd d>B|ce e>B|Bd AB/A/|GE cE|\r\n{A}Bd d>B|ce e>f|ge (3fed|ef g>A|\r\nBd d>B|ce e>A|Bd AB/A/|GE cE|\r\nD>E DB,|DE GA|Bd AB/A/|G2 G2||",
+      "before_sha256": "5cb73035d2923e32580328fb3d5acfae9d6f9ee72c7d2e4bdc37059102e57fd5",
+      "after_sha256": "4e6e8c5d3106c982a283c829a7a704bb2b90bbf82154ddfcd49ecfd5d26ab23c",
+      "evidence": [
+        {
+          "rule": "tuplet_closer",
+          "start": 121,
+          "end": 122,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25343",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 121,
+          "end": 122,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "16846",
+      "tune_id": "4009",
+      "name": "Burnt Leg, The",
+      "original_contributor": "Weejie",
+      "source_url": "https://thesession.org/tunes/4009#setting16846",
+      "category": "tuplet_closer",
+      "before_abc": "|:Beef \"tr\"e2 d<B|defd eBAd|Beef \"tr\"e2 d<B|dBAF E/E/E E2:|\r\n|:F2 \"tr\"F>E DEFA|B/B/B \"tr\"B>A Bdef|dBAF DEFA|BdAF E/E/E E2:|\r\n|:B<e e2 \"tr\"e>dBe|d<fB<d DEFD|E<e \"tr\"e<d B<e\"tr\"e<d|\"tr\"B>AdF E/E/E E2:|\r\n|:B<d \"tr\"F<E D<d \"tr\"F>A|B2 (3)dBA Ba \"tr\"f>e|d>fe>d \"tr\"B>AF<d|D>d A>F \"tr\"E/E/E E2:|\r\n|:B>e\"tr\"e>d \"tr\"e>dB>e|d>e (3)fed A>FD>F|E>e \"tr\"e>d b>a\"tr\"f>e|\"tr\"d>B \"tr\"A>F E/E/E E2:|\r\n|:F>d D>d F>d D>d|B/B/B \"tr\"B>A b>a\"tr\"f>e|d>f\"tr\"e>d B>d (3)AFD|E>F d>F E/E/E E2:|",
+      "after_abc": "|:Beef \"tr\"e2 d<B|defd eBAd|Beef \"tr\"e2 d<B|dBAF E/E/E E2:|\r\n|:F2 \"tr\"F>E DEFA|B/B/B \"tr\"B>A Bdef|dBAF DEFA|BdAF E/E/E E2:|\r\n|:B<e e2 \"tr\"e>dBe|d<fB<d DEFD|E<e \"tr\"e<d B<e\"tr\"e<d|\"tr\"B>AdF E/E/E E2:|\r\n|:B<d \"tr\"F<E D<d \"tr\"F>A|B2 (3dBA Ba \"tr\"f>e|d>fe>d \"tr\"B>AF<d|D>d A>F \"tr\"E/E/E E2:|\r\n|:B>e\"tr\"e>d \"tr\"e>dB>e|d>e (3fed A>FD>F|E>e \"tr\"e>d b>a\"tr\"f>e|\"tr\"d>B \"tr\"A>F E/E/E E2:|\r\n|:F>d D>d F>d D>d|B/B/B \"tr\"B>A b>a\"tr\"f>e|d>f\"tr\"e>d B>d (3AFD|E>F d>F E/E/E E2:|",
+      "before_sha256": "237cca2991c000b067d0bf0b8c1e8be0f0eb3161c4eaee51048945a37459b40b",
+      "after_sha256": "cf9a9c6be1ee8d22f4d11304fc57788028fd24a702bcd19611f530ed312a7b67",
+      "evidence": [
+        {
+          "rule": "tuplet_closer",
+          "start": 232,
+          "end": 233,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "16846",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 320,
+          "end": 321,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "16846",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 443,
+          "end": 444,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "16846",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 232,
+          "end": 233,
+          "text": ""
+        },
+        {
+          "start": 320,
+          "end": 321,
+          "text": ""
+        },
+        {
+          "start": 443,
+          "end": 444,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "35531",
+      "tune_id": "4507",
+      "name": "Morning Mist, The",
+      "original_contributor": "Indi",
+      "source_url": "https://thesession.org/tunes/4507#setting35531",
+      "category": "tuplet_closer",
+      "before_abc": "|:d2BG dG (3BAG|dGBG DGBd|c/e/cA=F cF~F2|c=FAF CFAc|\r\n(3ded BG dG (3BAG|DGBG dGBd|ceAB cedc|1 (3)Bcd AF G2Bc:|2 BdAF G2Bd||\r\n|:~g2dg Bgdc|BG~G2 DGBd|agea abag|fdad bdad|\r\n[1 ~g2dg Bgdc|BGGF GBdB|(3cec AB cedc|(3Bcd AF G2Bd:|\r\n[2 ~g2dg Bgdc|BG~G2 DGBd|(3cec AB cedc|BdAF G2Bc||",
+      "after_abc": "|:d2BG dG (3BAG|dGBG DGBd|c/e/cA=F cF~F2|c=FAF CFAc|\r\n(3ded BG dG (3BAG|DGBG dGBd|ceAB cedc|1 (3Bcd AF G2Bc:|2 BdAF G2Bd||\r\n|:~g2dg Bgdc|BG~G2 DGBd|agea abag|fdad bdad|\r\n[1 ~g2dg Bgdc|BGGF GBdB|(3cec AB cedc|(3Bcd AF G2Bd:|\r\n[2 ~g2dg Bgdc|BG~G2 DGBd|(3cec AB cedc|BdAF G2Bc||",
+      "before_sha256": "a45be27c3773b99ec8d28189f8727e3265faf5f3610f61637563b024e049e08e",
+      "after_sha256": "f83bae74a40471aa711f54e7291f0a1ceacef31f7a2e5eabf32cdd29852f1bf1",
+      "evidence": [
+        {
+          "rule": "tuplet_closer",
+          "start": 96,
+          "end": 97,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "35531",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 96,
+          "end": 97,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "20630",
+      "tune_id": "12376",
+      "name": "Barry's Hug",
+      "original_contributor": "Francesco Brusco",
+      "source_url": "https://thesession.org/tunes/12376#setting20630",
+      "category": "tuplet_closer",
+      "before_abc": "|d2 D2 dcdB|A2D2 z2 (3)ABc|d2D2dfed|c2A2z2(3)ABc|\r\nd2df edcB|dcdB ^A4|=A^GAB A=GFE|F2 D2 z2 (3)ABc|\r\nd2 D2 dcdB|A2D2 z2 (3)ABc|d2D2dfed|c2A2z2(3)ABc|\r\nd2df edcB|dcdB ^A4|=A^GAB A=GFE|Dfef dfcf||\r\nBF (3)F^EF BdcB|cF (3)F^EF cedc|B^ABc dcde|ffef dfcf|\r\nB2 B^A BdcB|c2 AF E4|E^GBd f^e=ed|cfef dfcf|\r\nBF (3)F^EF BdcB|cF (3)F^EF cedc|B^ABc dcde|f2 fe defd|\r\ngfge A2 z2|f^efd A2 z2|Aceg abag|f2d2d2z2||",
+      "after_abc": "|d2 D2 dcdB|A2D2 z2 (3ABc|d2D2dfed|c2A2z2(3ABc|\r\nd2df edcB|dcdB ^A4|=A^GAB A=GFE|F2 D2 z2 (3ABc|\r\nd2 D2 dcdB|A2D2 z2 (3ABc|d2D2dfed|c2A2z2(3ABc|\r\nd2df edcB|dcdB ^A4|=A^GAB A=GFE|Dfef dfcf||\r\nBF (3F^EF BdcB|cF (3F^EF cedc|B^ABc dcde|ffef dfcf|\r\nB2 B^A BdcB|c2 AF E4|E^GBd f^e=ed|cfef dfcf|\r\nBF (3F^EF BdcB|cF (3F^EF cedc|B^ABc dcde|f2 fe defd|\r\ngfge A2 z2|f^efd A2 z2|Aceg abag|f2d2d2z2||",
+      "before_sha256": "fc2c888edeb7bb3bc07771ae5893dbfe881bdc9e45c244f07c17f2ba658c40d5",
+      "after_sha256": "2e5689b3dfba5f4f21b5940170749f970fae6bfbcbb1599883ac05325aa6635e",
+      "evidence": [
+        {
+          "rule": "tuplet_closer",
+          "start": 22,
+          "end": 23,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20630",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 9,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 44,
+          "end": 45,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20630",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 9,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 94,
+          "end": 95,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20630",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 9,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 122,
+          "end": 123,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20630",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 9,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 144,
+          "end": 145,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20630",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 9,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 201,
+          "end": 202,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20630",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 9,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 217,
+          "end": 218,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20630",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 9,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 302,
+          "end": 303,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20630",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 9,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 318,
+          "end": 319,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20630",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 9,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 22,
+          "end": 23,
+          "text": ""
+        },
+        {
+          "start": 44,
+          "end": 45,
+          "text": ""
+        },
+        {
+          "start": 94,
+          "end": 95,
+          "text": ""
+        },
+        {
+          "start": 122,
+          "end": 123,
+          "text": ""
+        },
+        {
+          "start": 144,
+          "end": 145,
+          "text": ""
+        },
+        {
+          "start": 201,
+          "end": 202,
+          "text": ""
+        },
+        {
+          "start": 217,
+          "end": 218,
+          "text": ""
+        },
+        {
+          "start": 302,
+          "end": 303,
+          "text": ""
+        },
+        {
+          "start": 318,
+          "end": 319,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "20632",
+      "tune_id": "12378",
+      "name": "Delaney's",
+      "original_contributor": "Francesco Brusco",
+      "source_url": "https://thesession.org/tunes/12378#setting20632",
+      "category": "tuplet_closer",
+      "before_abc": "\"E\"(3)BEE B^A \"D\"=A2 BA|\"E\"GFED EFGA|\"E\"Beed e2 fe|\"B\"dB~BA B2 (3)^ABd|\r\n\"C\"e2 ef gfed|\"A7\"B^A=AB d2 B^A|\"E\"B2 ed \"D\"AdBA|\"E\"GFED E2 \"D\" (3)FGA|\r\n\"E\"(3)BEE B^A \"D\"=A2 BA|\"E\"GFED EFGA|\"E\"Beed e2 fe|\"B\"dB~BA B2 (3)^ABd|\r\n\"C\"e2 ef gfed|\"A7\"B^A=AB d2 B^A|\"E\"B2 ed \"D\"AdBA|\"E\"GF\"D\"ED \"E\"E2 z2||\r\n\"C\"eaag a2 ab|\"D\"(3)egf ed cB A2|\"A7\"eaag a2 Bc|d^dea ec A2|\r\n\"Fmaj\"eaag a2 ab|\"D\"(3)egf ed cB A2|\"E\"B2 ed \"D\"AdBA|\"E\"GF\"D\"ED \"E\"E2 z2|\r\n\"C\"eaag a2 ab|\"D\"(3)egf ed cB A2|\"A7\"eaag a2 Bc|d^dea ec A2|\r\n\"E\"(3)b=c'b ag \"B\"f2 ef|\"C\"(3)gag fe \"A\"c2 BA|\"E\"B2 ed \"D\"AdBA|\"E\"GF\"D\"ED \"E\"E2 z2||",
+      "after_abc": "\"E\"(3BEE B^A \"D\"=A2 BA|\"E\"GFED EFGA|\"E\"Beed e2 fe|\"B\"dB~BA B2 (3^ABd|\r\n\"C\"e2 ef gfed|\"A7\"B^A=AB d2 B^A|\"E\"B2 ed \"D\"AdBA|\"E\"GFED E2 \"D\" (3FGA|\r\n\"E\"(3BEE B^A \"D\"=A2 BA|\"E\"GFED EFGA|\"E\"Beed e2 fe|\"B\"dB~BA B2 (3^ABd|\r\n\"C\"e2 ef gfed|\"A7\"B^A=AB d2 B^A|\"E\"B2 ed \"D\"AdBA|\"E\"GF\"D\"ED \"E\"E2 z2||\r\n\"C\"eaag a2 ab|\"D\"(3egf ed cB A2|\"A7\"eaag a2 Bc|d^dea ec A2|\r\n\"Fmaj\"eaag a2 ab|\"D\"(3egf ed cB A2|\"E\"B2 ed \"D\"AdBA|\"E\"GF\"D\"ED \"E\"E2 z2|\r\n\"C\"eaag a2 ab|\"D\"(3egf ed cB A2|\"A7\"eaag a2 Bc|d^dea ec A2|\r\n\"E\"(3b=c'b ag \"B\"f2 ef|\"C\"(3gag fe \"A\"c2 BA|\"E\"B2 ed \"D\"AdBA|\"E\"GF\"D\"ED \"E\"E2 z2||",
+      "before_sha256": "615a2c7e3edf9b4fcdbb8d66a1514503d6546d12dc242f103bde3ac6d922cfd8",
+      "after_sha256": "d94dd7cabf223747bd4bd08674c83ef71f6436c9bcf3918b4736798f9b37f345",
+      "evidence": [
+        {
+          "rule": "tuplet_closer",
+          "start": 5,
+          "end": 6,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20632",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 10,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 65,
+          "end": 66,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20632",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 10,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 139,
+          "end": 140,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20632",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 10,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 151,
+          "end": 152,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20632",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 10,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 211,
+          "end": 212,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20632",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 10,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 310,
+          "end": 311,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20632",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 10,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 375,
+          "end": 376,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20632",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 10,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 447,
+          "end": 448,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20632",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 10,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 495,
+          "end": 496,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20632",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 10,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 519,
+          "end": 520,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20632",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 10,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": ""
+        },
+        {
+          "start": 65,
+          "end": 66,
+          "text": ""
+        },
+        {
+          "start": 139,
+          "end": 140,
+          "text": ""
+        },
+        {
+          "start": 151,
+          "end": 152,
+          "text": ""
+        },
+        {
+          "start": 211,
+          "end": 212,
+          "text": ""
+        },
+        {
+          "start": 310,
+          "end": 311,
+          "text": ""
+        },
+        {
+          "start": 375,
+          "end": 376,
+          "text": ""
+        },
+        {
+          "start": 447,
+          "end": 448,
+          "text": ""
+        },
+        {
+          "start": 495,
+          "end": 496,
+          "text": ""
+        },
+        {
+          "start": 519,
+          "end": 520,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "20633",
+      "tune_id": "12379",
+      "name": "Wishing Steps",
+      "original_contributor": "Francesco Brusco",
+      "source_url": "https://thesession.org/tunes/12379#setting20633",
+      "category": "tuplet_closer",
+      "before_abc": "|:\"E\"e2 edeg|\"F\"B2 B2 AG|\"F#\"A2 (3)BAG Ad|\"G\"AG E2 \"AB\"z2|\r\n\"C\"z2 E2 GA|\"D\"dA (3)GAB A2|\"D#\"GA B2 B2|\"E\"ge de e2:|\r\n|:\"E\"gf eB GB|\"D#\"A2 Bc B2|\"D\"f2 dB A^G|\"C\"=GA G2 \"BA\"z2|\r\n\"G\"z2 G2 AG|\"F#\"^GA Bd f2|\"F\"B2 cB A2|\"E\"BG Be fg:|",
+      "after_abc": "|:\"E\"e2 edeg|\"F\"B2 B2 AG|\"F#\"A2 (3BAG Ad|\"G\"AG E2 \"AB\"z2|\r\n\"C\"z2 E2 GA|\"D\"dA (3GAB A2|\"D#\"GA B2 B2|\"E\"ge de e2:|\r\n|:\"E\"gf eB GB|\"D#\"A2 Bc B2|\"D\"f2 dB A^G|\"C\"=GA G2 \"BA\"z2|\r\n\"G\"z2 G2 AG|\"F#\"^GA Bd f2|\"F\"B2 cB A2|\"E\"BG Be fg:|",
+      "before_sha256": "d4b7f711244bd82f26eccf5179c8769ad3d348c911bac1ebf02164f5ede4037b",
+      "after_sha256": "3630bffcfdeab679dcd40559856e7879929baf13f4070bff0e37cbc821a1efef",
+      "evidence": [
+        {
+          "rule": "tuplet_closer",
+          "start": 34,
+          "end": 35,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20633",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 80,
+          "end": 81,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20633",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 34,
+          "end": 35,
+          "text": ""
+        },
+        {
+          "start": 80,
+          "end": 81,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "20640",
+      "tune_id": "12379",
+      "name": "Wishing Steps",
+      "original_contributor": "Dr. Tøm",
+      "source_url": "https://thesession.org/tunes/12379#setting20640",
+      "category": "tuplet_closer",
+      "before_abc": "|:e2 ed eg|B2 B2 AG|A2 (3)BAG Ad|AG E2 z2|\r\nz2 E2 GA|dA (3)GAB A2|GA B2 B2|ge de e2:|\r\n|:gf eB GB|A2 Bc B2|f2 dB A^G|=GA G2 z2|\r\nz2 G2 AG|^GA Bd f2|B2 cB A2|BG Be fg:|",
+      "after_abc": "|:e2 ed eg|B2 B2 AG|A2 (3BAG Ad|AG E2 z2|\r\nz2 E2 GA|dA (3GAB A2|GA B2 B2|ge de e2:|\r\n|:gf eB GB|A2 Bc B2|f2 dB A^G|=GA G2 z2|\r\nz2 G2 AG|^GA Bd f2|B2 cB A2|BG Be fg:|",
+      "before_sha256": "f3cfecb67357ca83726f3ba9f7a504ce4a2b5f1b06c612808efe793110e7fb4b",
+      "after_sha256": "15306a4ee94c84b9ec763885a4be9a19fb1f2ab4b64ce749df768306fae604ec",
+      "evidence": [
+        {
+          "rule": "tuplet_closer",
+          "start": 25,
+          "end": 26,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20640",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 58,
+          "end": 59,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "20640",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 25,
+          "end": 26,
+          "text": ""
+        },
+        {
+          "start": 58,
+          "end": 59,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "25133",
+      "tune_id": "13937",
+      "name": "Lament For Joe Scurfield",
+      "original_contributor": "Rachael",
+      "source_url": "https://thesession.org/tunes/13937#setting25133",
+      "category": "tuplet_closer",
+      "before_abc": "|:(3)DEF|G2 B>d c>c (3)AGF|G6 G>A|B2 B>d d>g (3)gfe|d6 d>e|\r\nf2 f>g (3)afd (3)dec|d4- d>e (3)dcA|B>d (3)cAF G>A (3)GFD|D6:|\r\n(3)GBd|g2 (3)gab a2 (3)gab|a2- a>f g2 (3)gfd|e2 (3)efg e2 (3)edc|e4 d2 (3)dcB|\r\nc2 (3)cBA B2 (3)gdB|c2 (3)AFD F2 (2)DEF|G2 B>d c>c AGF|G6:|",
+      "after_abc": "|:(3DEF|G2 B>d c>c (3AGF|G6 G>A|B2 B>d d>g (3gfe|d6 d>e|\r\nf2 f>g (3afd (3dec|d4- d>e (3dcA|B>d (3cAF G>A (3GFD|D6:|\r\n(3GBd|g2 (3gab a2 (3gab|a2- a>f g2 (3gfd|e2 (3efg e2 (3edc|e4 d2 (3dcB|\r\nc2 (3cBA B2 (3gdB|c2 (3AFD F2 (2DEF|G2 B>d c>c AGF|G6:|",
+      "before_sha256": "29337a6031a71c093622adc21d36d04f02a654fb10e96ac9276a100f924919f8",
+      "after_sha256": "67192a7ecc72589e3b0dd804f1728ac1df0ce16a4840c5a20ab64f2ad818b59b",
+      "evidence": [
+        {
+          "rule": "tuplet_closer",
+          "start": 4,
+          "end": 5,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 22,
+          "end": 23,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 47,
+          "end": 48,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 70,
+          "end": 71,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 77,
+          "end": 78,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 92,
+          "end": 93,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 103,
+          "end": 104,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 114,
+          "end": 115,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 127,
+          "end": 128,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 137,
+          "end": 138,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 147,
+          "end": 148,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 165,
+          "end": 166,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 175,
+          "end": 176,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 185,
+          "end": 186,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 198,
+          "end": 199,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 210,
+          "end": 211,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 220,
+          "end": 221,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 230,
+          "end": 231,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 240,
+          "end": 241,
+          "before": "(2)",
+          "after": "(2",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "25133",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 19,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": ""
+        },
+        {
+          "start": 22,
+          "end": 23,
+          "text": ""
+        },
+        {
+          "start": 47,
+          "end": 48,
+          "text": ""
+        },
+        {
+          "start": 70,
+          "end": 71,
+          "text": ""
+        },
+        {
+          "start": 77,
+          "end": 78,
+          "text": ""
+        },
+        {
+          "start": 92,
+          "end": 93,
+          "text": ""
+        },
+        {
+          "start": 103,
+          "end": 104,
+          "text": ""
+        },
+        {
+          "start": 114,
+          "end": 115,
+          "text": ""
+        },
+        {
+          "start": 127,
+          "end": 128,
+          "text": ""
+        },
+        {
+          "start": 137,
+          "end": 138,
+          "text": ""
+        },
+        {
+          "start": 147,
+          "end": 148,
+          "text": ""
+        },
+        {
+          "start": 165,
+          "end": 166,
+          "text": ""
+        },
+        {
+          "start": 175,
+          "end": 176,
+          "text": ""
+        },
+        {
+          "start": 185,
+          "end": 186,
+          "text": ""
+        },
+        {
+          "start": 198,
+          "end": 199,
+          "text": ""
+        },
+        {
+          "start": 210,
+          "end": 211,
+          "text": ""
+        },
+        {
+          "start": 220,
+          "end": 221,
+          "text": ""
+        },
+        {
+          "start": 230,
+          "end": 231,
+          "text": ""
+        },
+        {
+          "start": 240,
+          "end": 241,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "27323",
+      "tune_id": "14804",
+      "name": "Mykines",
+      "original_contributor": "Pangur Bán",
+      "source_url": "https://thesession.org/tunes/14804#setting27323",
+      "category": "incomplete_tuplet",
+      "before_abc": "(3B^cd|:\"Em\"e2 ef ed|\"G\"B2 d3 B|\"D\"A2 AG AB|\"Bm\"D3 E/F/ GF|\"C\"E3 D (3B,A,g,,|\"Bm\"B,2 G3 A/B/|\r\n\"Am\"c2 cd (3BAG|\"D\"A3 G Bd|\"C\"e2 fe (3dBA|\"Bm\"B2 g2 e/d/B|\"D\"A3 G AB|\"Bm\"D3 E/F/ GF|\"C\"E3 D (3B,A,G,|\r\n\"Bm\"D2 B2 AF|\"Am\"G2 E2 ED|\"Em\"E4 (3B^cd|\"Em\"e2 ed BA|\"G\"B2 g3 b|\"D\"a2 ag ab|\"Bm\"d3 e/f/ gf|\r\n\"C\"e2 ed (3BAB|\"Bm\"d2 D3 E/F/|\"Am\"G2 B2 A2|\"Bm\"F4 GF|\"C\"E2 ED B,A,|\"Em\"B,2 G3 B|\"D\"A2 AG Bd|\r\n\"C\"e4 ge|\"Bm\"d2 ed (3:BAG|\"G\"(3ABd B2 AF|\"C\"G2 E2 ED|\"Em\"E4 (3B^cd|\"Em\"e2 fe (3dBA|\"G\"B2 g3 b|\r\n\"D\"a2 ag ab|\"Bm\"d3 e/f/ gf|\"C\"e2 ed (3BAB|\"Bm\"d2 D3 E/F/|\"Am\"G2 B2 A2|\"Bm\"F4 GF|\"C\"E2 ED B,A,|\r\n\"Em\"B,2 G3 B|\"D\"A2 AG Bd|\"C\"e4 ge|\"Bm\"d2 ed (3BAG|\"G\"(3ABd B2 AF|\"C\"G2 E2 ED|1 \"Em\"E4 (3B^cd:|2 \"Em\"E6|",
+      "after_abc": "(3B^cd|:\"Em\"e2 ef ed|\"G\"B2 d3 B|\"D\"A2 AG AB|\"Bm\"D3 E/F/ GF|\"C\"E3 D (3B,A,g,,|\"Bm\"B,2 G3 A/B/|\r\n\"Am\"c2 cd (3BAG|\"D\"A3 G Bd|\"C\"e2 fe (3dBA|\"Bm\"B2 g2 e/d/B|\"D\"A3 G AB|\"Bm\"D3 E/F/ GF|\"C\"E3 D (3B,A,G,|\r\n\"Bm\"D2 B2 AF|\"Am\"G2 E2 ED|\"Em\"E4 (3B^cd|\"Em\"e2 ed BA|\"G\"B2 g3 b|\"D\"a2 ag ab|\"Bm\"d3 e/f/ gf|\r\n\"C\"e2 ed (3BAB|\"Bm\"d2 D3 E/F/|\"Am\"G2 B2 A2|\"Bm\"F4 GF|\"C\"E2 ED B,A,|\"Em\"B,2 G3 B|\"D\"A2 AG Bd|\r\n\"C\"e4 ge|\"Bm\"d2 ed (3BAG|\"G\"(3ABd B2 AF|\"C\"G2 E2 ED|\"Em\"E4 (3B^cd|\"Em\"e2 fe (3dBA|\"G\"B2 g3 b|\r\n\"D\"a2 ag ab|\"Bm\"d3 e/f/ gf|\"C\"e2 ed (3BAB|\"Bm\"d2 D3 E/F/|\"Am\"G2 B2 A2|\"Bm\"F4 GF|\"C\"E2 ED B,A,|\r\n\"Em\"B,2 G3 B|\"D\"A2 AG Bd|\"C\"e4 ge|\"Bm\"d2 ed (3BAG|\"G\"(3ABd B2 AF|\"C\"G2 E2 ED|1 \"Em\"E4 (3B^cd:|2 \"Em\"E6|",
+      "before_sha256": "439200e9d7ee86c8584321b865ff42f10e9fefc079959e773a0e78a71d3c0880",
+      "after_sha256": "84a979d0771e44e49b7cb5a4996bbc5fdbfa7bc622469887e7cedac6ef1050fc",
+      "evidence": [
+        {
+          "rule": "incomplete_tuplet",
+          "start": 406,
+          "end": 407,
+          "before": "(3:",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "27323",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 406,
+          "end": 407,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "55820",
+      "tune_id": "26104",
+      "name": "Piobaire An Cheide",
+      "original_contributor": "CarolineFiddles",
+      "source_url": "https://thesession.org/tunes/26104#setting55820",
+      "category": "tuplet_closer",
+      "before_abc": "|:c3 e dBBd| cAAc efed|cdec dBcd|1 (3)efe dB cAAB:|2 (3)efe dB cAAe || \r\na2 ^ga efec|d2 B=G BcdB|a2 ^ga efec|dB =gB BAAe|\r\na2 ^ga efec|d2B=G BcdB| Aa^ga e=gfa| gedB BAAB||",
+      "after_abc": "|:c3 e dBBd| cAAc efed|cdec dBcd|1 (3efe dB cAAB:|2 (3efe dB cAAe || \r\na2 ^ga efec|d2 B=G BcdB|a2 ^ga efec|dB =gB BAAe|\r\na2 ^ga efec|d2B=G BcdB| Aa^ga e=gfa| gedB BAAB||",
+      "before_sha256": "5af635ea94ea122ee23e0cfe87f555357e233cb462e46eb16d96e5b60ea8fba5",
+      "after_sha256": "9bc8ca3c567569d5f8b58f655c781aabbc6889240afca29481664749645788f2",
+      "evidence": [
+        {
+          "rule": "tuplet_closer",
+          "start": 37,
+          "end": 38,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55820",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "tuplet_closer",
+          "start": 55,
+          "end": 56,
+          "before": "(3)",
+          "after": "(3",
+          "preserve_playback": true,
+          "method": "ABC 2.1 section 4.13 tuplet syntax and unmatched-slur check",
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#duplets_triplets_quadruplets_etc",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55820",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 37,
+          "end": 38,
+          "text": ""
+        },
+        {
+          "start": 55,
+          "end": 56,
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "parser_syntax_scanner_sha256": "7be2db95606aa3b03bacb7c7494b4f1d1831fa3e0c74b10e884addec2107483f"
+}

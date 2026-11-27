@@ -1,0 +1,20 @@
+{
+  "passes": [
+    {
+      "annotation_linebreak": 5,
+      "settings": 55821,
+      "settings_with_proposals": 3,
+      "pass": 1,
+      "accepted": 2,
+      "rejected": 1
+    },
+    {
+      "annotation_linebreak": 2,
+      "settings": 55821,
+      "settings_with_proposals": 1,
+      "pass": 2,
+      "accepted": 0
+    }
+  ],
+  "rejected_settings": 4
+}

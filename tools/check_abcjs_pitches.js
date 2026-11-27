@@ -91,8 +91,8 @@ function check(row) {
     // A duration change can reschedule generated accompaniment. For
     // note-count repairs compare the written melody, leaving chord text intact.
     const writtenNotesOnly = Boolean(row.insertion?.positions);
-    const options = writtenNotesOnly ? { chordsOff: true } : {};
-    const original = playback(row.before_abc, header, options);
+    const options = writtenNotesOnly || row.annotation_reference !== undefined ? { chordsOff: true } : {};
+    const original = playback(row.annotation_reference ?? row.before_abc, header, options);
     const corrected = playback(row.after_abc, header, options);
     const before = original.tracks;
     const after = corrected.tracks;
@@ -134,6 +134,12 @@ function check(row) {
         changed_played_pitches: occurrences,
         before_warnings: original.warnings,
         after_warnings: corrected.warnings,
+        ...(row.annotation_reference !== undefined ? {
+            reference: 'Original melody with only the malformed numeric labels removed',
+            generated_chords_excluded: true,
+            reference_note_events: before.reduce((sum, track) => sum + track.length, 0),
+            corrected_note_events: after.reduce((sum, track) => sum + track.length, 0),
+        } : {}),
     };
 }
 

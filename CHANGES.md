@@ -1,5 +1,13 @@
 # Changes
 
+## Tuplet punctuation and numeric labels
+
+Corrected 71 notation defects in 20 settings of 18 tunes. Removed 66 unmatched closing parentheses after tuplet numbers, removed two empty tuplet fields, and repaired three numeric labels split across source lines.
+
+TradMate preserved full melody playback for all 20 settings. abcjs preserved playback for the tuplet fixes. For the two label settings, the abcjs check compared the corrected melody with the original source after removing only the malformed numeric labels. It preserved every remaining note, pitch and timing. The labels are now single-line text annotations.
+
+See the [edits](checks/written-token-edits.json), [playback checks](checks/written-token-playback.json), and [native and abcjs diagnostic comparison](checks/parser-diagnostics.json). Setting 30786 remains under review because its proposed label repair changed the primary parser's event count.
+
 ## Opening and closing measures
 
 Shortened one note in the overfull opening measure of setting 13158 and restored a missing eighth note in the second ending of setting 31259. Each original reference has the same repeat structure and three neighboring measures. TradMate and abcjs confirmed the intended edits in full playback.

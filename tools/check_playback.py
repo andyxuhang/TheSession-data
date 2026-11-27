@@ -14,6 +14,7 @@ from pitch_fixes import PITCH_RULES, key_signature, resolve_pitches
 from scan import NOTE, measures, rows as read_rows, unique_settings
 from syntax_fixes import SYNTAX_RULES
 from notation_structure import accidental_reset
+from parser_syntax import annotation_reference
 
 ROOT = Path(__file__).resolve().parents[1]
 REVISION = "823fbf4cb5941394d86b5dd476ba46cc6e891f47"
@@ -349,7 +350,10 @@ def main():
             if isinstance(evidence,list) and evidence and all(
                 e['rule'] in SYNTAX_RULES or e.get('preserve_playback') for e in evidence
             ):
-                rows.append({**row, **patch, 'syntax_only':True, 'allowed_duration_changes':[]})
+                checked = {**row, **patch, 'syntax_only':True, 'allowed_duration_changes':[]}
+                if all(e['rule'] == 'annotation_linebreak' for e in evidence):
+                    checked['annotation_reference'] = annotation_reference(patch)
+                rows.append(checked)
                 continue
             if isinstance(evidence,list) and len(evidence)==1 and 'note_count_change' in evidence[0]:
                 rows.append({**row, **patch, 'insertion':prepare_note_count(patch,evidence[0])})

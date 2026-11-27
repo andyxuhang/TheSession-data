@@ -1,0 +1,529 @@
+{
+  "settings": 20,
+  "results": [
+    {
+      "setting_id": "52652",
+      "before": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Error : Bar 1 is 1/4 not 4/4"
+        ],
+        "abcjs": [
+          "Music Line:6:11: Unknown character ignored:  |:Bc|dB (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>cBA BGAF | DGGF GABc|dg ~g2 bgdB|(3cBA BG A2Bc|",
+          "Music Line:7:6: Unknown character ignored:  dB (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>cBA BGAF | DGGF GABc|dg ~g2 fgaf|dggf g2 :|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Error : Bar 1 is 1/4 not 4/4"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "32089",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 14-16 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 15-48 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 17-26 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 19-0 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 20-36 : Guitar chord name not properly closed",
+          "Error in line-char 21-0 : Guitar chord name not properly closed",
+          "Error in line-char 21-0 : Unrecognized chord name \"fga\"",
+          "Warning in line-char 34-48 : Track 0 Bar 134 has 6 time units while the time signature has 4",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Guitar chord name not properly closed",
+          "Error : Guitar chord name not properly closed"
+        ],
+        "abcjs": [
+          "Music Line:20:37: Missing the closing quote while parsing the chord symbol:  fcAB cAFA|GAgf dcBA|(3BcB G2 G2 Bd||<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\"</span>1",
+          "Music Line:21:1: Missing the closing quote while parsing the chord symbol:  <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\"</span>gfga g2 fg|agf=e d2 de|"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Error in line-char 14-16 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 15-48 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 17-26 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 19-0 : Guitar chord does not start with A-G or a-g",
+          "Warning in line-char 33-48 : Track 0 Bar 136 has 6 time units while the time signature has 4",
+          "Process exit code 1"
+        ],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "37512",
+      "before": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": [
+          "Music Line:8:9: expected number after the triplet to mark the duration:  |:gf ef <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">(</span>3:gfe be|ge be gf ef|d2 fd Ad fd|Bd AG FD D2|",
+          "Music Line:8:11: Unknown bar symbol:  |:gf ef (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">:</span>gfe be|ge be gf ef|d2 fd Ad fd|Bd AG FD D2|",
+          "Music Line:8:11: Unknown bar type:  |:gf ef (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">:</span>gfe be|ge be gf ef|d2 fd Ad fd|Bd AG FD D2|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "33901",
+      "before": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Error : Bar 1 is 1/8 not 6/8",
+          "Error : Bar 18 is 5/8 not 6/8"
+        ],
+        "abcjs": [
+          "Music Line:6:8: Unknown character ignored:  |:B|d(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>dcd BGB|c(3)cBc AFD|DGG FAA|GBB ABc|",
+          "Music Line:6:20: Unknown character ignored:  |:B|d(3)dcd BGB|c(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>cBc AFD|DGG FAA|GBB ABc|",
+          "Music Line:7:4: Unknown character ignored:  d(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>dcd BGB|c(3)cBc AFD|DGG FGA|BGG G2:|",
+          "Music Line:7:16: Unknown character ignored:  d(3)dcd BGB|c(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>cBc AFD|DGG FGA|BGG G2:|",
+          "Music Line:8:10: Unknown character ignored:  d|gfe d(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>dcd|ecA Bcd|eAA eAA|fag fed|",
+          "Music Line:9:8: Unknown character ignored:  gfe d(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>dcd|eAA Bcd|efg eag|f(3)fef g2||",
+          "Music Line:9:32: Unknown character ignored:  gfe d(3)dcd|eAA Bcd|efg eag|f(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>fef g2||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Error : Bar 1 is 1/8 not 6/8",
+          "Error : Bar 18 is 5/8 not 6/8"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "58116",
+      "before": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Error : Bar 1 is 1/8 not 6/8"
+        ],
+        "abcjs": [
+          "Music Line:8:38: Unknown character ignored:  e2f2e2 e2f2e2|e2f2d2 c2B2A2|d2c2d2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>(f2g2a2) f2|g2e2c2 d4:|",
+          "Music Line:10:40: Unknown character ignored:  a4f2 {a}g4 e2|{g}f4 d2 e2c2A2|d2c2d2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>(f2g2a2) f2|g2e2c2 d4:|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Error : Bar 1 is 1/8 not 6/8"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "58117",
+      "before": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Error : Bar 1 is 1/8 not 6/8"
+        ],
+        "abcjs": [
+          "Music Line:8:38: Unknown character ignored:  e2f2e2 e2f2e2|e2f2d2 c2B2A2|d2c2d2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>(f2g2a2) f2|g2e2c2 d4:|",
+          "Music Line:10:40: Unknown character ignored:  a4f2 {a}g4 e2|{g}f4 d2 e2c2A2|d2c2d2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>(f2g2a2) f2|g2e2c2 d4:|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Error : Bar 1 is 1/8 not 6/8"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "32663",
+      "before": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": [
+          "Music Line:9:18: Unknown character ignored:  effd edce|dAAG (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>A=Bc de|fage fedA|cAGc ACDE||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "25580",
+      "before": {
+        "abc2midi": [
+          "Warning in line-char 16-23 : Assuming repeat",
+          "Warning in line-char 16-23 : Assuming repeat",
+          "Warning in line-char 16-23 : replacing |: with double repeat (::)"
+        ],
+        "abc2abc": [
+          "Warning : Unexpected :| found",
+          "Warning : Unexpected :| found"
+        ],
+        "abcjs": [
+          "Music Line:9:23: Unknown character ignored:  {A}Bd d&gt;B|ce e&gt;f|ge (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>fed|e&lt;e e&lt;g|"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Warning in line-char 16-23 : Assuming repeat",
+          "Warning in line-char 16-23 : Assuming repeat",
+          "Warning in line-char 16-23 : replacing |: with double repeat (::)"
+        ],
+        "abc2abc": [
+          "Warning : Unexpected :| found",
+          "Warning : Unexpected :| found"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "15843",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 15-0 : Guitar chord name not properly closed",
+          "Error in line-char 16-0 : Guitar chord name not properly closed",
+          "Error in line-char 16-0 : Unrecognized chord name \"EF\"",
+          "Error in line-char 26-0 : Guitar chord name not properly closed",
+          "Error in line-char 27-0 : Guitar chord name not properly closed",
+          "Error in line-char 27-0 : Unrecognized chord name \"EF\"",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Guitar chord name not properly closed",
+          "Error : Guitar chord name not properly closed",
+          "Error : Guitar chord name not properly closed",
+          "Error : Guitar chord name not properly closed"
+        ],
+        "abcjs": [
+          "Music Line:15:1: Missing the closing quote while parsing the chord symbol:  <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\"</span>1",
+          "Music Line:16:1: Missing the closing quote while parsing the chord symbol:  <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\"</span>BEF G2 A|~F3 Adf|{g}edB BAF|{B}AFE E2 z|",
+          "Music Line:16:7: Unknown character ignored:  \"BEF G<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">2</span> A|~F3 Adf|{g}edB BAF|{B}AFE E2 z|",
+          "Music Line:26:1: Missing the closing quote while parsing the chord symbol:  <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\"</span>2",
+          "Music Line:27:1: Missing the closing quote while parsing the chord symbol:  <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\"</span>BEF .G2 A|~F3 Adf|{g}edB BAF|{B}AFE E2 z|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "31745",
+      "before": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": [
+          "Music Line:8:23: Unknown character ignored:  affe dec(d|d)ecd ed (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>cBA|affe dec(d|d)faf feef|",
+          "Music Line:9:23: Unknown character ignored:  affe dec(d|d)ecd ed (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>cBA|fBBA Bfc(d|1 d)fec dcBA:|2 d)fec dcBd||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "25343",
+      "before": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": [
+          "Music Line:9:23: Unknown character ignored:  {A}Bd d&gt;B|ce e&gt;f|ge (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>fed|ef g&gt;A|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "16846",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-7 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 6-33 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 7-5 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 7-24 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 8-9 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 8-35 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 8-46 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 8-54 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 9-6 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 9-18 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 9-39 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 9-54 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 9-73 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 10-5 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 10-13 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 10-46 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 10-57 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 10-65 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 10-73 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 11-24 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 11-35 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 11-46 : Guitar chord does not start with A-G or a-g",
+          "Process exit code 1"
+        ],
+        "abc2abc": [],
+        "abcjs": [
+          "Music Line:9:32: Unknown character ignored:  |:B&lt;d \"tr\"F&lt;E D&lt;d \"tr\"F&gt;A|B2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>dBA Ba \"tr\"f&gt;e|d&gt;fe&gt;d \"tr\"B&gt;AF&lt;d|D&gt;d A&gt;F \"tr\"E/E/E E2:|",
+          "Music Line:10:31: Unknown character ignored:  |:B&gt;e\"tr\"e&gt;d \"tr\"e&gt;dB&gt;e|d&gt;e (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>fed A&gt;FD&gt;F|E&gt;e \"tr\"e&gt;d b&gt;a\"tr\"f&gt;e|\"tr\"d&gt;B \"tr\"A&gt;F E/E/E E2:|",
+          "Music Line:11:61: Unknown character ignored:  |:F&gt;d D&gt;d F&gt;d D&gt;d|B/B/B \"tr\"B&gt;A b&gt;a\"tr\"f&gt;e|d&gt;f\"tr\"e&gt;d B&gt;d (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>AFD|E&gt;F d&gt;F E/E/E E2:|"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Error in line-char 6-7 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 6-33 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 7-5 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 7-24 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 8-9 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 8-35 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 8-46 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 8-54 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 9-6 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 9-18 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 9-38 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 9-53 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 9-72 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 10-5 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 10-13 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 10-45 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 10-56 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 10-64 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 10-72 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 11-24 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 11-35 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 11-46 : Guitar chord does not start with A-G or a-g",
+          "Process exit code 1"
+        ],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "35531",
+      "before": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": [
+          "Music Line:7:43: Unknown character ignored:  (3ded BG dG (3BAG|DGBG dGBd|ceAB cedc|1 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>Bcd AF G2Bc:|2 BdAF G2Bd||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "20630",
+      "before": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": [
+          "Music Line:6:23: Unknown character ignored:  |d2 D2 dcdB|A2D2 z2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>ABc|d2D2dfed|c2A2z2(3)ABc|",
+          "Music Line:6:45: Unknown character ignored:  |d2 D2 dcdB|A2D2 z2 (3)ABc|d2D2dfed|c2A2z2(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>ABc|",
+          "Music Line:7:44: Unknown character ignored:  d2df edcB|dcdB ^A4|=A^GAB A=GFE|F2 D2 z2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>ABc|",
+          "Music Line:8:22: Unknown character ignored:  d2 D2 dcdB|A2D2 z2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>ABc|d2D2dfed|c2A2z2(3)ABc|",
+          "Music Line:8:44: Unknown character ignored:  d2 D2 dcdB|A2D2 z2 (3)ABc|d2D2dfed|c2A2z2(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>ABc|",
+          "Music Line:10:6: Unknown character ignored:  BF (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>F^EF BdcB|cF (3)F^EF cedc|B^ABc dcde|ffef dfcf|",
+          "Music Line:10:22: Unknown character ignored:  BF (3)F^EF BdcB|cF (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>F^EF cedc|B^ABc dcde|ffef dfcf|",
+          "Music Line:12:6: Unknown character ignored:  BF (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>F^EF BdcB|cF (3)F^EF cedc|B^ABc dcde|f2 fe defd|",
+          "Music Line:12:22: Unknown character ignored:  BF (3)F^EF BdcB|cF (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>F^EF cedc|B^ABc dcde|f2 fe defd|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "20632",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 11-0 : Unrecognized chord name \"maj\"",
+          "Process exit code 1"
+        ],
+        "abc2abc": [],
+        "abcjs": [
+          "Music Line:6:6: Unknown character ignored:  \"E\"(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>BEE B^A \"D\"=A2 BA|\"E\"GFED EFGA|\"E\"Beed e2 fe|\"B\"dB~BA B2 (3)^ABd",
+          "Music Line:6:66: Unknown character ignored:  E\"(3)BEE B^A \"D\"=A2 BA|\"E\"GFED EFGA|\"E\"Beed e2 fe|\"B\"dB~BA B2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>^ABd|",
+          "Music Line:7:67: Unknown character ignored:  \"e2 ef gfed|\"A7\"B^A=AB d2 B^A|\"E\"B2 ed \"D\"AdBA|\"E\"GFED E2 \"D\" (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>FGA|",
+          "Music Line:8:6: Unknown character ignored:  \"E\"(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>BEE B^A \"D\"=A2 BA|\"E\"GFED EFGA|\"E\"Beed e2 fe|\"B\"dB~BA B2 (3)^ABd",
+          "Music Line:8:66: Unknown character ignored:  E\"(3)BEE B^A \"D\"=A2 BA|\"E\"GFED EFGA|\"E\"Beed e2 fe|\"B\"dB~BA B2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>^ABd|",
+          "Music Line:10:20: Unknown character ignored:  \"C\"eaag a2 ab|\"D\"(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>egf ed cB A2|\"A7\"eaag a2 Bc|d^dea ec A2|",
+          "Music Line:11:23: Unknown character ignored:  \"Fmaj\"eaag a2 ab|\"D\"(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>egf ed cB A2|\"E\"B2 ed \"D\"AdBA|\"E\"GF\"D\"ED \"E\"E2 z2|",
+          "Music Line:12:20: Unknown character ignored:  \"C\"eaag a2 ab|\"D\"(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>egf ed cB A2|\"A7\"eaag a2 Bc|d^dea ec A2|",
+          "Music Line:13:6: Unknown character ignored:  \"E\"(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>b=c'b ag \"B\"f2 ef|\"C\"(3)gag fe \"A\"c2 BA|\"E\"B2 ed \"D\"AdBA|\"E\"GF\"D",
+          "Music Line:13:30: Unknown character ignored:  \"E\"(3)b=c'b ag \"B\"f2 ef|\"C\"(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>gag fe \"A\"c2 BA|\"E\"B2 ed \"D\"AdBA|\"E\"GF\"D\"ED \"E\"E2 z2||"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Error in line-char 11-0 : Unrecognized chord name \"maj\"",
+          "Process exit code 1"
+        ],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "20633",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-51 : Unrecognized chord name \"B\"",
+          "Error in line-char 8-50 : Unrecognized chord name \"A\"",
+          "Process exit code 1"
+        ],
+        "abc2abc": [],
+        "abcjs": [
+          "Music Line:6:35: Unknown character ignored:  |:\"E\"e2 edeg|\"F\"B2 B2 AG|\"F#\"A2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>BAG Ad|\"G\"AG E2 \"AB\"z2|",
+          "Music Line:7:21: Unknown character ignored:  \"C\"z2 E2 GA|\"D\"dA (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>GAB A2|\"D#\"GA B2 B2|\"E\"ge de e2:|"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Error in line-char 6-50 : Unrecognized chord name \"B\"",
+          "Error in line-char 8-50 : Unrecognized chord name \"A\"",
+          "Process exit code 1"
+        ],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "20640",
+      "before": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": [
+          "Music Line:6:26: Unknown character ignored:  |:e2 ed eg|B2 B2 AG|A2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>BAG Ad|AG E2 z2|",
+          "Music Line:7:15: Unknown character ignored:  z2 E2 GA|dA (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>GAB A2|GA B2 B2|ge de e2:|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "25133",
+      "before": {
+        "abc2midi": [
+          "Warning in line-char 10-57 : Assuming repeat",
+          "Warning in line-char 10-57 : replacing |: with double repeat (::)",
+          "Warning in line-char 9-39 : Track 0 Bar 14 has 5 time units while the time signature has 4",
+          "Warning in line-char 9-54 : Track 0 Bar 15 has 9/2 time units while the time signature has 4",
+          "Warning in line-char 9-39 : Track 0 Bar 14 has 5 time units while the time signature has 4 in repeat",
+          "Warning in line-char 9-54 : Track 0 Bar 15 has 9/2 time units while the time signature has 4 in repeat"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 1/4 not 4/4",
+          "Error : Bar 16 is 5/4 not 4/4",
+          "Error : Bar 17 is 9/8 not 4/4",
+          "Warning : Unexpected :| found"
+        ],
+        "abcjs": [
+          "Music Line:6:5: Unknown character ignored:  |:(3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>DEF|G2 B&gt;d c&gt;c (3)AGF|G6 G&gt;A|B2 B&gt;d d&gt;g (3)gfe|d6 d&gt;e|",
+          "Music Line:6:23: Unknown character ignored:  |:(3)DEF|G2 B&gt;d c&gt;c (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>AGF|G6 G&gt;A|B2 B&gt;d d&gt;g (3)gfe|d6 d&gt;e|",
+          "Music Line:6:48: Unknown character ignored:  |:(3)DEF|G2 B&gt;d c&gt;c (3)AGF|G6 G&gt;A|B2 B&gt;d d&gt;g (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>gfe|d6 d&gt;e|",
+          "Music Line:7:10: Unknown character ignored:  f2 f&gt;g (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>afd (3)dec|d4- d&gt;e (3)dcA|B&gt;d (3)cAF G&gt;A (3)GFD|D6:|",
+          "Music Line:7:17: Unknown character ignored:  f2 f&gt;g (3)afd (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>dec|d4- d&gt;e (3)dcA|B&gt;d (3)cAF G&gt;A (3)GFD|D6:|",
+          "Music Line:7:32: Unknown character ignored:  f2 f&gt;g (3)afd (3)dec|d4- d&gt;e (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>dcA|B&gt;d (3)cAF G&gt;A (3)GFD|D6:|",
+          "Music Line:7:43: Unknown character ignored:  f2 f&gt;g (3)afd (3)dec|d4- d&gt;e (3)dcA|B&gt;d (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>cAF G&gt;A (3)GFD|D6:|",
+          "Music Line:7:54: Unknown character ignored:  f2 f&gt;g (3)afd (3)dec|d4- d&gt;e (3)dcA|B&gt;d (3)cAF G&gt;A (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>GFD|D6:|",
+          "Music Line:8:3: Unknown character ignored:  (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>GBd|g2 (3)gab a2 (3)gab|a2- a&gt;f g2 (3)gfd|e2 (3)efg e2 (3)edc|e4",
+          "Music Line:8:13: Unknown character ignored:  (3)GBd|g2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>gab a2 (3)gab|a2- a&gt;f g2 (3)gfd|e2 (3)efg e2 (3)edc|e4 d2 (3)dcB",
+          "Music Line:8:23: Unknown character ignored:  (3)GBd|g2 (3)gab a2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>gab|a2- a&gt;f g2 (3)gfd|e2 (3)efg e2 (3)edc|e4 d2 (3)dcB|",
+          "Music Line:8:41: Unknown character ignored:  (3)GBd|g2 (3)gab a2 (3)gab|a2- a&gt;f g2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>gfd|e2 (3)efg e2 (3)edc|e4 d2 (3)dcB|",
+          "Music Line:8:51: Unknown character ignored:  (3)GBd|g2 (3)gab a2 (3)gab|a2- a&gt;f g2 (3)gfd|e2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>efg e2 (3)edc|e4 d2 (3)dcB|",
+          "Music Line:8:61: Unknown character ignored:  (3)GBd|g2 (3)gab a2 (3)gab|a2- a&gt;f g2 (3)gfd|e2 (3)efg e2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>edc|e4 d2 (3)dcB|",
+          "Music Line:8:74: Unknown character ignored:   (3)gab a2 (3)gab|a2- a&gt;f g2 (3)gfd|e2 (3)efg e2 (3)edc|e4 d2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>dcB|",
+          "Music Line:9:6: Unknown character ignored:  c2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>cBA B2 (3)gdB|c2 (3)AFD F2 (2)DEF|G2 B&gt;d c&gt;c AGF|G6:|",
+          "Music Line:9:16: Unknown character ignored:  c2 (3)cBA B2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>gdB|c2 (3)AFD F2 (2)DEF|G2 B&gt;d c&gt;c AGF|G6:|",
+          "Music Line:9:26: Unknown character ignored:  c2 (3)cBA B2 (3)gdB|c2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>AFD F2 (2)DEF|G2 B&gt;d c&gt;c AGF|G6:|",
+          "Music Line:9:36: Unknown character ignored:  c2 (3)cBA B2 (3)gdB|c2 (3)AFD F2 (2<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>DEF|G2 B&gt;d c&gt;c AGF|G6:|"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Warning in line-char 10-53 : Assuming repeat",
+          "Warning in line-char 10-53 : replacing |: with double repeat (::)",
+          "Warning in line-char 9-35 : Track 0 Bar 14 has 5 time units while the time signature has 4",
+          "Warning in line-char 9-50 : Track 0 Bar 15 has 9/2 time units while the time signature has 4",
+          "Warning in line-char 9-35 : Track 0 Bar 14 has 5 time units while the time signature has 4 in repeat",
+          "Warning in line-char 9-50 : Track 0 Bar 15 has 9/2 time units while the time signature has 4 in repeat"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 1/4 not 4/4",
+          "Error : Bar 16 is 5/4 not 4/4",
+          "Error : Bar 17 is 9/8 not 4/4",
+          "Warning : Unexpected :| found"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "27323",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-73 : Bad pitch specifier , after note g",
+          "Error in line-char 6-73 : Bad pitch specifier , after note g",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bad pitch specifier , after note g",
+          "Error : Bad pitch specifier , after note g"
+        ],
+        "abcjs": [
+          "Music Line:10:20: expected number after the triplet to mark the duration:  \"C\"e4 ge|\"Bm\"d2 ed <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">(</span>3:BAG|\"G\"(3ABd B2 AF|\"C\"G2 E2 ED|\"Em\"E4 (3B^cd|\"Em\"e2 fe (3dBA|\"",
+          "Music Line:10:22: Unknown bar symbol:  \"C\"e4 ge|\"Bm\"d2 ed (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">:</span>BAG|\"G\"(3ABd B2 AF|\"C\"G2 E2 ED|\"Em\"E4 (3B^cd|\"Em\"e2 fe (3dBA|\"G\"",
+          "Music Line:10:22: Unknown bar type:  \"C\"e4 ge|\"Bm\"d2 ed (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">:</span>BAG|\"G\"(3ABd B2 AF|\"C\"G2 E2 ED|\"Em\"E4 (3B^cd|\"Em\"e2 fe (3dBA|\"G\""
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Error in line-char 6-73 : Bad pitch specifier , after note g",
+          "Error in line-char 6-73 : Bad pitch specifier , after note g",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bad pitch specifier , after note g",
+          "Error : Bad pitch specifier , after note g"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "55820",
+      "before": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": [
+          "Music Line:6:38: Unknown character ignored:  |:c3 e dBBd| cAAc efed|cdec dBcd|1 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>efe dB cAAB:|2 (3)efe dB cAAe ||",
+          "Music Line:6:56: Unknown character ignored:  |:c3 e dBBd| cAAc efed|cdec dBcd|1 (3)efe dB cAAB:|2 (3<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">)</span>efe dB cAAe ||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    }
+  ]
+}
