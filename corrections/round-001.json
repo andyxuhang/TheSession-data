@@ -1,0 +1,128 @@
+{
+  "round": "001",
+  "upstream_commit": "9106aa8e29b72c3affd954f48b259ea02a1fb418",
+  "upstream_repository": "https://github.com/adactio/TheSession-data",
+  "date": "2026-11-27",
+  "corrections": [
+    {
+      "tune_id": "4990",
+      "setting_id": "26073",
+      "name": "Plane Tree, The",
+      "original_contributor": "Mix O'Lydian",
+      "source_url": "https://thesession.org/tunes/4990#setting26073",
+      "category": "misplaced_barline",
+      "before_abc": "|:EGB EGB|cBA B3|cde dcB|AGA B3|\r\nEGB EGB|cBA B3|cde dcB|AGF E3:|\r\n|:efg f2 e|ded BAB|cde dcB AGA|B3|\r\nefg f2 e|ded BAB|cde dcB|AGF E3:|",
+      "after_abc": "|:EGB EGB|cBA B3|cde dcB|AGA B3|\r\nEGB EGB|cBA B3|cde dcB|AGF E3:|\r\n|:efg f2 e|ded BAB|cde dcB|AGA B3|\r\nefg f2 e|ded BAB|cde dcB|AGF E3:|",
+      "before_sha256": "021b9f2972360314c74b60d0b04444513548c21c9e042dc029e0a9a8ab23338a",
+      "after_sha256": "be3ef449b19d46df9c0e8dd68214417c1a08b44cea41da6af69de04e1bcdad3b",
+      "replace": {
+        "before": "cde dcB AGA|B3|",
+        "after": "cde dcB|AGA B3|",
+        "count": 1
+      },
+      "evidence": "Moves the divider from a 9+3 eighth-note grouping to 6+6. Note order and durations are preserved.",
+      "reviewed_at": "2026-11-27",
+      "review_method": "Deterministic bar-duration checks and manual comparison with the public setting and its comments; see REVIEW.md."
+    },
+    {
+      "tune_id": "501",
+      "setting_id": "13420",
+      "name": "Fox On The Prowl, The",
+      "original_contributor": "TracyKingsley",
+      "source_url": "https://thesession.org/tunes/501#setting13420",
+      "category": "misplaced_barline",
+      "before_abc": "|:A|d2 fd eA~A2|BAFA BAFA|AFde faaf|g2 fg|egfe|\r\ndeed eA~A2|BAFA BAFA|AFde fbaf|edef d3:|\r\ne|faaf dcde|faaf eA~A2|BAFA defab|faf e3 A|\r\nbF~F2 afef|deed edBA|FA~A2 FAdf|edef d3:|",
+      "after_abc": "|:A|d2 fd eA~A2|BAFA BAFA|AFde faaf|g2 fg|egfe|\r\ndeed eA~A2|BAFA BAFA|AFde fbaf|edef d3:|\r\ne|faaf dcde|faaf eA~A2|BAFA defa|bfaf e3 A|\r\nbF~F2 afef|deed edBA|FA~A2 FAdf|edef d3:|",
+      "before_sha256": "e4bc886b559009c519cebda8729eaebc1c7f43ef1929e2fc0c038d4ac035de3a",
+      "after_sha256": "2cdf218e3468cf42ed64dd1ec4959d2bc58e2d33fb7b12d54d6728ad38f5f4df",
+      "replace": {
+        "before": "BAFA defab|faf e3 A|",
+        "after": "BAFA defa|bfaf e3 A|",
+        "count": 1
+      },
+      "evidence": "Moves the divider from 9+7 eighth notes to 8+8 in 4/4, preserving every note and duration.",
+      "reviewed_at": "2026-11-27",
+      "review_method": "Deterministic bar-duration checks and manual comparison with the public setting and its comments; see REVIEW.md."
+    },
+    {
+      "tune_id": "501",
+      "setting_id": "13421",
+      "name": "Fox On The Prowl, The",
+      "original_contributor": "irishflute93",
+      "source_url": "https://thesession.org/tunes/501#setting13421",
+      "category": "misplaced_barline",
+      "before_abc": "|:A|d2 fd eA~A2|BAFA BAFA|AFde faaf|g2 fg|egfe|\r\nd2 fd eA~A2|BAFA BAFA|AFde fbaf|edef d3:|\r\ndefd A2 AB|defd e~A3|BAFA defab|faf e3 a|\r\nbf~f2 afef|deed edBA|FA~A2 FAdf|edef d3:|",
+      "after_abc": "|:A|d2 fd eA~A2|BAFA BAFA|AFde faaf|g2 fg|egfe|\r\nd2 fd eA~A2|BAFA BAFA|AFde fbaf|edef d3:|\r\ndefd A2 AB|defd e~A3|BAFA defa|bfaf e3 a|\r\nbf~f2 afef|deed edBA|FA~A2 FAdf|edef d3:|",
+      "before_sha256": "96e700f8652b33aca737da5632a9162961ebbdcebf5b50d2d0009a1dac85216d",
+      "after_sha256": "1e7440f23692bed6c8851f1e0ba302c54e9d90249328c10c068e5d26bd2f9e82",
+      "replace": {
+        "before": "BAFA defab|faf e3 a|",
+        "after": "BAFA defa|bfaf e3 a|",
+        "count": 1
+      },
+      "evidence": "Moves the divider from 9+7 eighth notes to 8+8 in 4/4, preserving every note and duration.",
+      "reviewed_at": "2026-11-27",
+      "review_method": "Deterministic bar-duration checks and manual comparison with the public setting and its comments; see REVIEW.md."
+    },
+    {
+      "tune_id": "585",
+      "setting_id": "13579",
+      "name": "Flower Of The Flock, The",
+      "original_contributor": "Will Harmon",
+      "source_url": "https://thesession.org/tunes/585#setting13579",
+      "category": "missing_barline",
+      "before_abc": "DEGA B (3BBB|cABG AGEG|DEGA BGGB|c2 Bc AGEG|\r\nDEGA BDGB|(3cdc BG A~E3DEGA BGBd|(3cBA BG ABGE|",
+      "after_abc": "DEGA B (3BBB|cABG AGEG|DEGA BGGB|c2 Bc AGEG|\r\nDEGA BDGB|(3cdc BG A~E3|DEGA BGBd|(3cBA BG ABGE|",
+      "before_sha256": "1e5afd00a87bcc500ff8ff700395454dc4e943907abde936db156e1974c259a8",
+      "after_sha256": "f6572015f18c5636f823b2ddab20343d9ddcd8d3877378687da66474ebb514a4",
+      "replace": {
+        "before": "A~E3DEGA BGBd|",
+        "after": "A~E3|DEGA BGBd|",
+        "count": 1
+      },
+      "evidence": "Separates two complete 4/4 bars. The triplet and ornament are retained.",
+      "reviewed_at": "2026-11-27",
+      "review_method": "Deterministic bar-duration checks and manual comparison with the public setting and its comments; see REVIEW.md."
+    },
+    {
+      "tune_id": "2097",
+      "setting_id": "25362",
+      "name": "O'Connor's",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/2097#setting25362",
+      "category": "missing_note_length_slash",
+      "before_abc": "|:A>B df|A>B d/e/f/e/|dB BA/B/|dB B/c/d/B/|\r\nAA/B/ df|A>B df|eB cd|ed d2:|\r\n|:af fe/f/|af f>e|dB BA/B/|dB B/c/d/f/|\r\naf f/e/d/f/|af fe/f|eB cd|ed d2:|",
+      "after_abc": "|:A>B df|A>B d/e/f/e/|dB BA/B/|dB B/c/d/B/|\r\nAA/B/ df|A>B df|eB cd|ed d2:|\r\n|:af fe/f/|af f>e|dB BA/B/|dB B/c/d/f/|\r\naf f/e/d/f/|af fe/f/|eB cd|ed d2:|",
+      "before_sha256": "a366319b6e58716b709e8e9aaa0fb6c7cbb85b2030c13e2803e9e7e0b8c61600",
+      "after_sha256": "bed6bea2c83f23a7528954dd5569bc542cdc2949af3fb9def764facef1d715e8",
+      "replace": {
+        "before": "|af fe/f|",
+        "after": "|af fe/f/|",
+        "count": 1
+      },
+      "evidence": "Restores the final sixteenth-note slash. The first bar of the same B part explicitly gives af fe/f/.",
+      "reviewed_at": "2026-11-27",
+      "review_method": "Deterministic bar-duration checks and manual comparison with the public setting and its comments; see REVIEW.md."
+    },
+    {
+      "tune_id": "706",
+      "setting_id": "1797",
+      "name": "Mairi's Wedding",
+      "original_contributor": "Aoife",
+      "source_url": "https://thesession.org/tunes/706#setting1797",
+      "category": "extra_note_length_digit",
+      "before_abc": "|:DE DE|GA B2|AG EG|BA Bd|\r\nDE DE|GA B2|AG EG|D2 D2:|\r\n|:dd de|dc^ B2|AG EG|BA Bd2|\r\ndd de|dc^ B2|AG EG|D2 D2:|",
+      "after_abc": "|:DE DE|GA B2|AG EG|BA Bd|\r\nDE DE|GA B2|AG EG|D2 D2:|\r\n|:dd de|dc^ B2|AG EG|BA Bd|\r\ndd de|dc^ B2|AG EG|D2 D2:|",
+      "before_sha256": "29248a36542dfd1ff7db203ac0b8366d616414d2befeb62da083066497c08a24",
+      "after_sha256": "c8918ba480e4d0f4c8c509fa9bf9e2b8da8fb7553736865aabbbc15acff921be",
+      "replace": {
+        "before": "|BA Bd2|",
+        "after": "|BA Bd|",
+        "count": 1
+      },
+      "evidence": "Removes a surplus eighth-note unit in a 2/4 bar. The same setting gives the complete parallel bar BA Bd in its A part.",
+      "reviewed_at": "2026-11-27",
+      "review_method": "Deterministic bar-duration checks and manual comparison with the public setting and its comments; see REVIEW.md."
+    }
+  ]
+}
