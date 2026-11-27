@@ -296,6 +296,89 @@ C/D/E/G/ G/A/E/D/ | D/E/G/A/ B/d/A/G/ | C/D/E/G/ G/A/E/D/ | D/E/G/A/ A//B//d/ A/
 G,[G,/D/] [A,D]B,/A,/ | G,/A,/B,/D/ E/G/A/F/ | Gd AB/A/ | G/B,/C/D/ E/G/A/G/ ||
 C/D/E/G/ G/A/E/D/ | D/E/G/A/ A//B//dA/G/ | E/G/B/e/ d/B/A/G/ | A/G/F/A/ A/G/F/D/ |
 C/D/E/G/ G/A/E/D/ | D/E/G/A/ B/d/A/G/ | C/D/E/G/ G/A/E/D/ | D/E/G/A/ A//B//d/ A/G/ ||"
+15342,28605,"Arrival Of The Queen Of Sheba, The",JACKB,https://thesession.org/tunes/15342#setting28605,Omitted note,"[{""rule"": ""missing_note"", ""bar"": 74, ""note_count_change"": 1, ""before"": ""AB A BA GB/d/"", ""after"": ""AB cA BA GB/d/"", ""token"": ""c"", ""duration_eighths"": ""1"", ""midi"": 72, ""possible_offsets"": [3], ""reference_ranges"": [[""28605"", 139, 139]], ""corroborating_contributors"": 0, ""written_repeat"": true, ""extra_matching_bar"": true, ""scan_pass"": 1, ""changed_note_occurrences"": 1, ""abcjs"": {""setting_id"": ""28605"", ""passed"": true, ""changed_note_occurrences"": 1, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","gdBd gdBd |gdBd gdBd|Agfe dcBA |BGAB cdef|
+gdBd gdBd |g^cAc geAe|fede A2^c2 |d2AB ABAB|
+AFDF AFDF |dBGB dBGB|cAFA cAFA |BDEF GABc|
+dBGB dBGB |dAFA dAFA|BGEG BGEG |BAdA BAdA|
+gece gece |gdBd gdBd|cded cBAG |AGFG FEDc|
+BDcE DFEG |FAGB AcBd|cdcd edcB |ABAB cdcd|
+eded cBcB |ABAB cdcd|eded cBcB |ABAB cBcA|
+Bdce dfeg |f2ed g2c2|B2AG D2F2 |G2G2 G4|
+GABc B2A2 |G2d4 c2|B2cB c2A2 |Bcde d2c2|
+B2cB c2A2 |B2A2 G4|gdBd gdBd |gdBd gdBd|
+Agfe dcBA |BGAB G4|d4 edcB |c2e4 e2|
+dcBd cBAc |B2d4 d2|cBAc BAGB |A2d2 FGAB|
+A2d2 FGAB |A2d2d2d2|dAFA dAFA| dAFA dAdf|
+ed^cB AGFE |FDEF GABc|d2 (3efg fe dA|AGF2 EFGE |
+FGAB A^c d2 |egfe d^c A2|AFDF AFDF |GE^cE GE^cE|
+fdAd fdAd |e^cA^c e^cA^c|dAFA dAFA |dBGB dBGB|
+AB^cd ed^cB |=c4 feed |gffe fgfe |fedc dedc |
+dcBA cdcB |cBAG BcBA |BAGF GAGF |GFED Bcde |
+dcBd dcB2 |AB cA BA GB/d/|gdBd gdBd |gdBd gdBd|
+Agfe dcBA |BGAB GBcB|BAdc cBcd|cBcB AcBc|
+BABA GBGA|BcBA G2 g=f| e2 de eBGB|eBGB eBGB |
+eBGB eBGB|eded cBcB |ABAB cdcd|e4z4 |
+ecAc ecAc|d4z4 |dBGB dBGB|c4z4 |
+cAFA cAFA|B4z4 |eBGB eBGB|^d4z4 |
+BGEG BGEG|c4z4 |f^dBd fdBd|eBGB eBGB |
+e2dc B2A2|G4F4 |E4z4|gdBd gdBd |
+gdBd gdBd|Agfe dcBA |BGAB G4|d4 edcB |
+c2e4 e2|dcBd cBAc |B2d4 d2|cBAc BAGB |
+A2d2 FGAB|A2d2 FGAB |A2d2d2d2|dAFA dAFA |
+dAFA dAdf|ed^cB AGFE |FDEF GABc|d2 (3efg fedA |
+AGF2 EFGE |FGAB A^cd2 |egfe d^c A2|
+AFDF AFDF |GE^cE GE^cE|fdAd fdAd |e^cA^c e^cA^c||
+dAFA dAFA |dBGB dBGB|AB^cd ed^cB |=c4 feed |
+gffe fgfe |fedc dedc |dcBA cdcB |cBAG BcBA |
+BAGF GAGF |GFED Bcde |dcBd dcB2 |ABcA BA GB/d/|
+gdBd gdBd |gdBd gdBd|Agfe dcBA |BGAB GBcB|
+BAdc cBcd|cBcB AcBc|BABA GBGA|BcBA G2 g=f |
+e2 de eBGB|eBGB eBGB |eBGB eBGB|eded cBcB |
+ABAB cdcd|e4z4 |ecAc ecAc|d4z4 |
+dBGB dBGB|c4z4 |cAFA cAFA|B4z4 |
+eBGB eBGB|^d4z4 |BGEG BGEG|c4z4 |
+f^dBd fdBd|eBGB eBGB |e2dc B2A2|G4F4 |E4z4||","gdBd gdBd |gdBd gdBd|Agfe dcBA |BGAB cdef|
+gdBd gdBd |g^cAc geAe|fede A2^c2 |d2AB ABAB|
+AFDF AFDF |dBGB dBGB|cAFA cAFA |BDEF GABc|
+dBGB dBGB |dAFA dAFA|BGEG BGEG |BAdA BAdA|
+gece gece |gdBd gdBd|cded cBAG |AGFG FEDc|
+BDcE DFEG |FAGB AcBd|cdcd edcB |ABAB cdcd|
+eded cBcB |ABAB cdcd|eded cBcB |ABAB cBcA|
+Bdce dfeg |f2ed g2c2|B2AG D2F2 |G2G2 G4|
+GABc B2A2 |G2d4 c2|B2cB c2A2 |Bcde d2c2|
+B2cB c2A2 |B2A2 G4|gdBd gdBd |gdBd gdBd|
+Agfe dcBA |BGAB G4|d4 edcB |c2e4 e2|
+dcBd cBAc |B2d4 d2|cBAc BAGB |A2d2 FGAB|
+A2d2 FGAB |A2d2d2d2|dAFA dAFA| dAFA dAdf|
+ed^cB AGFE |FDEF GABc|d2 (3efg fe dA|AGF2 EFGE |
+FGAB A^c d2 |egfe d^c A2|AFDF AFDF |GE^cE GE^cE|
+fdAd fdAd |e^cA^c e^cA^c|dAFA dAFA |dBGB dBGB|
+AB^cd ed^cB |=c4 feed |gffe fgfe |fedc dedc |
+dcBA cdcB |cBAG BcBA |BAGF GAGF |GFED Bcde |
+dcBd dcB2 |AB A BA GB/d/|gdBd gdBd |gdBd gdBd|
+Agfe dcBA |BGAB GBcB|BAdc cBcd|cBcB AcBc|
+BABA GBGA|BcBA G2 g=f| e2 de eBGB|eBGB eBGB |
+eBGB eBGB|eded cBcB |ABAB cdcd|e4z4 |
+ecAc ecAc|d4z4 |dBGB dBGB|c4z4 |
+cAFA cAFA|B4z4 |eBGB eBGB|^d4z4 |
+BGEG BGEG|c4z4 |f^dBd fdBd|eBGB eBGB |
+e2dc B2A2|G4F4 |E4z4|gdBd gdBd |
+gdBd gdBd|Agfe dcBA |BGAB G4|d4 edcB |
+c2e4 e2|dcBd cBAc |B2d4 d2|cBAc BAGB |
+A2d2 FGAB|A2d2 FGAB |A2d2d2d2|dAFA dAFA |
+dAFA dAdf|ed^cB AGFE |FDEF GABc|d2 (3efg fedA |
+AGF2 EFGE |FGAB A^cd2 |egfe d^c A2|
+AFDF AFDF |GE^cE GE^cE|fdAd fdAd |e^cA^c e^cA^c||
+dAFA dAFA |dBGB dBGB|AB^cd ed^cB |=c4 feed |
+gffe fgfe |fedc dedc |dcBA cdcB |cBAG BcBA |
+BAGF GAGF |GFED Bcde |dcBd dcB2 |ABcA BA GB/d/|
+gdBd gdBd |gdBd gdBd|Agfe dcBA |BGAB GBcB|
+BAdc cBcd|cBcB AcBc|BABA GBGA|BcBA G2 g=f |
+e2 de eBGB|eBGB eBGB |eBGB eBGB|eded cBcB |
+ABAB cdcd|e4z4 |ecAc ecAc|d4z4 |
+dBGB dBGB|c4z4 |cAFA cAFA|B4z4 |
+eBGB eBGB|^d4z4 |BGEG BGEG|c4z4 |
+f^dBd fdBd|eBGB eBGB |e2dc B2A2|G4F4 |E4z4||"
 4997,17362,Ashokan Farewell,Donough,https://thesession.org/tunes/4997#setting17362,Incorrect note length,"[{""rule"": ""note_length"", ""bar"": 26, ""before"": ""E2 D C2"", ""after"": ""E3 D C2"", ""witnesses"": [[""26116"", 26], [""4997"", 24]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","Ac|:d3 c BA|F4 EF|G3 F ED|B,2 D3 B,|A,2 D2 F2|
 A2 d2 f2|1 f3 g f2|e4 Ac:|2 A2 c2 e2|d4 FG||
 A3 F D2|d4 A2|B3 c d2|A F3 E2|
@@ -668,6 +751,15 @@ afd bge|afd FAd|GBd FAd|cee efg|
 afd bge|afd FAd|GBd FAd|cec dfg|
 afd bge|afd FAd|GBd FAd|cee e3
 DFA GBd|FAd fed|afd FAd|cec d2||"
+1035,14261,"Boys Of The Town, The",ceolachan,https://thesession.org/tunes/1035#setting14261,Omitted note,"[{""rule"": ""missing_note"", ""bar"": 16, ""note_count_change"": 1, ""before"": ""BGG G2"", ""after"": ""BGG G2B"", ""token"": ""B"", ""duration_eighths"": ""1"", ""midi"": 71, ""possible_offsets"": [6], ""reference_ranges"": [[""1035"", 18, 18]], ""corroborating_contributors"": 1, ""written_repeat"": false, ""extra_matching_bar"": true, ""scan_pass"": 1, ""changed_note_occurrences"": 1, ""abcjs"": {""setting_id"": ""14261"", ""passed"": true, ""changed_note_occurrences"": 1, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","|:GFG GBd|edB dBA|GFG GBd|edB AFD|
+GFG GBd|edB gfg|edB AGA|BGG G2:|
+def gfg|afd edB|def gfg|afd e2 d|
+[1 def gfg|afd efg|edB AGA|BGG G2B:|
+[2 def gbb|faa efg|edB AGA|BGG G2||","|:GFG GBd|edB dBA|GFG GBd|edB AFD|
+GFG GBd|edB gfg|edB AGA|BGG G2:|
+def gfg|afd edB|def gfg|afd e2 d|
+[1 def gfg|afd efg|edB AGA|BGG G2:|
+[2 def gbb|faa efg|edB AGA|BGG G2||"
 25032,52523,Brady's Breakaway,jmeme,https://thesession.org/tunes/25032#setting52523,Missing barline; Missing barline,"[{""rule"": ""missing_barline"", ""bar"": 4, ""last_bar"": 4, ""before"": ""EGG/G/G FDEF\r\nG2 FG B,DG,B,"", ""after"": ""EGG/G/G FDEF|\r\nG2 FG B,DG,B,"", ""reference_ranges"": [[""52523"", 1, 1]], ""transposed_references"": [], ""method"": ""Line break and matching adjacent measure"", ""scan_pass"": 1}, {""rule"": ""missing_barline"", ""bar"": 12, ""last_bar"": 12, ""before"": ""GBA/B/c d/e/fg/a/b\r\nc'eec' acca"", ""after"": ""GBA/B/c d/e/fg/a/b|\r\nc'eec' acca"", ""reference_ranges"": [[""52523"", 9, 9]], ""transposed_references"": [], ""method"": ""Line break and matching adjacent measure"", ""scan_pass"": 1}]","|: G2 FG B,DG,B,|B,CCB, A,G,A,B,|C2B,C A,B,CD|EGG/G/G FDEF|
 G2 FG B,DG,B,|B,CCB, A,G,A,B,|C2B,C A,B,CD|1 EGFA GDEF :|2 EGFA G2 g/a/b||
 |: c'eec' acca|bddb gBgB|fde/d/c dcAF|GBA/B/c d/e/fg/a/b|
@@ -2378,6 +2470,21 @@ e3f ed|B3A Bd|ef ed Bd|e3A Bd
 e3f ed|B3A Bd|G3B A/G/F|G3A Bd
 e3f ed|B3A Bd|gf ed Bd|e3A Bd
 e3f ed|B3A Bd|D3B A/G/F|G6||"
+20116,39799,"International Appalachian Trail, The",Eli,https://thesession.org/tunes/20116#setting39799,Omitted note,"[{""rule"": ""missing_note"", ""bar"": 26, ""note_count_change"": 1, ""before"": ""B3 B2 B d"", ""after"": ""B3 B2 B dB"", ""token"": ""B"", ""duration_eighths"": ""1"", ""midi"": 71, ""possible_offsets"": [9], ""reference_ranges"": [[""45114"", 27, 27]], ""corroborating_contributors"": 1, ""written_repeat"": false, ""extra_matching_bar"": true, ""scan_pass"": 1, ""changed_note_occurrences"": 2, ""abcjs"": {""setting_id"": ""39799"", ""passed"": true, ""changed_note_occurrences"": 2, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","|:E3 E3 G2|E2 D2 B,2 D2|E3 E G2 A2|B6 FG|
+A3 A3 G2|F2 E2 D4|F3 F3 E2|D2 B,2 A,2 D2|
+E3 E3 G2|E2 D2 B,2 D2|E3 E G2 A2|B3 d BA G2|A8|
+B, D3 F4|B, D2 F2 G FD|F2 E2 E2 D2|1 E3 B,2 B, D2:|2 E3 B2 B d2||
+|:e3 e3 ed|ed B2 B2 c2|d3 d2 c BA|F2 E2 D4|
+C2 E2 A2 B2|c3 c2 d cA|c2 B2 B2 A2|B3 B2 B dB|
+e3 e3 ed|ed B2 B2 c2|d3 d2 c BA|F2 E2 D4|
+B, D3 F4|B, D2 F2 G FD|F2 E2 E2 D2:|","|:E3 E3 G2|E2 D2 B,2 D2|E3 E G2 A2|B6 FG|
+A3 A3 G2|F2 E2 D4|F3 F3 E2|D2 B,2 A,2 D2|
+E3 E3 G2|E2 D2 B,2 D2|E3 E G2 A2|B3 d BA G2|A8|
+B, D3 F4|B, D2 F2 G FD|F2 E2 E2 D2|1 E3 B,2 B, D2:|2 E3 B2 B d2||
+|:e3 e3 ed|ed B2 B2 c2|d3 d2 c BA|F2 E2 D4|
+C2 E2 A2 B2|c3 c2 d cA|c2 B2 B2 A2|B3 B2 B d|
+e3 e3 ed|ed B2 B2 c2|d3 d2 c BA|F2 E2 D4|
+B, D3 F4|B, D2 F2 G FD|F2 E2 E2 D2:|"
 4241,4241,"Irish Tradition, The",Limeretti Lumeretti Hillhocker,https://thesession.org/tunes/4241#setting4241,Missing barline,"[{""rule"": ""missing_barline"", ""bar"": 4, ""last_bar"": 4, ""before"": ""GBAG EFGA\r\nBd(3ddd edBe"", ""after"": ""GBAG EFGA|\r\nBd(3ddd edBe"", ""reference_ranges"": [[""4241"", 1, 1]], ""transposed_references"": [], ""method"": ""Line break and matching adjacent measure"", ""scan_pass"": 1}]","|:Bd(3ddd edBe|dBAB AGED|B,EDB, ~B,2~B,2|GBAG EFGA|
 Bd(3ddd edBe|dBAB AGED|B,EDB, ~B,2~B,2|GBAF GAcA:|
 Bd(3ddd edBd|gb(3bbb agef|~g3e dBGB|cABG AE(3EEE
@@ -2889,6 +2996,17 @@ DEF {G/}FEF|AFA d2 d|cBA BAF|AFE E2:|
 ecA fdB|ecA agf|ecA BAF|AFE E2:|
 |:d|dAA {G/}FEF|AFF F2 d|dFF {G/}FEF|AFE E2 d|
 dAA {G/}FEF|AFA d2 d|cBA BAF|AFE E2:|"
+699,699,Laura Lynn Cunningham,Josh Kane,https://thesession.org/tunes/699#setting699,Omitted note,"[{""rule"": ""missing_note"", ""bar"": 11, ""note_count_change"": 1, ""before"": ""FB2 FBBc"", ""after"": ""FBB2 FBBc"", ""token"": ""B"", ""duration_eighths"": ""1"", ""midi"": 71, ""possible_offsets"": [1], ""reference_ranges"": [[""41173"", 11, 11]], ""corroborating_contributors"": 1, ""written_repeat"": false, ""extra_matching_bar"": true, ""scan_pass"": 1, ""changed_note_occurrences"": 1, ""abcjs"": {""setting_id"": ""699"", ""passed"": true, ""changed_note_occurrences"": 1, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","FB~B2 Ac~c2|d2fd eAcA|FB(3BBB FBBc|Acef c2BA|
+FB~B2 ABc|d2fd eAcA|B2fB ecAB|BAdc ~B2BA|
+FBBB Ac~c2|d2fd eAcA|FBB2 FBBc|Acef c2ba|
+bfab efaf|eAcd dcBA|BF~F2 ABcf|~f2ec B3z|
+|:~B2 c/B/A BF~F2|EFAB ceae|f B~B2 FBBc|Acef c2BA|
+BbbB a2fe|cfec ecAc|B~F2F ABce|~f2ec ~B2BA:|","FB~B2 Ac~c2|d2fd eAcA|FB(3BBB FBBc|Acef c2BA|
+FB~B2 ABc|d2fd eAcA|B2fB ecAB|BAdc ~B2BA|
+FBBB Ac~c2|d2fd eAcA|FB2 FBBc|Acef c2ba|
+bfab efaf|eAcd dcBA|BF~F2 ABcf|~f2ec B3z|
+|:~B2 c/B/A BF~F2|EFAB ceae|f B~B2 FBBc|Acef c2BA|
+BbbB a2fe|cfec ecAc|B~F2F ABce|~f2ec ~B2BA:|"
 883,14067,"Laurel Tree, The",gian marco,https://thesession.org/tunes/883#setting14067,Stray control character,"[{""rule"": ""stray_control"", ""offset"": 2, ""before"": ""\u0014"", ""after"": """", ""codepoint"": ""U+0014"", ""scan_pass"": 1}]","|:eA ~A2 e2ed|BG~G2 Bcdg|eA ~A2 e2dc|BGdG BAA2|
 eA ~A2 e2dc|BG~G2 BcdB|e3f gbag|gedB BAA2:|
 eaag e2dc|BG~G2 Bcdf|ea~a2 a2ga|bagb a3g|
@@ -2914,6 +3032,25 @@ eab/a/g egdc|BAGA Bcdg|eab/a/g egdc|BAGB ABcd|
 eab/a/g egdc|BAGA Bcdg|ee/e/ef gbaf|gedB ABcd|
 eab/a/g egdc|BAGA Bcdg|eab/a/b ab/a/ga|bagb abag|
 eab/a/g egdc|BAGA Bcdg|ee/e/ef gbaf|gedB ABcd||"
+8085,19299,Leaving Uist,justjim,https://thesession.org/tunes/8085#setting19299,Omitted note,"[{""rule"": ""missing_note"", ""bar"": 19, ""note_count_change"": 1, ""before"": ""age2c"", ""after"": ""age2ec"", ""token"": ""e"", ""duration_eighths"": ""1"", ""midi"": 76, ""possible_offsets"": [4], ""reference_ranges"": [[""29636"", 19, 19]], ""corroborating_contributors"": 1, ""written_repeat"": false, ""extra_matching_bar"": true, ""scan_pass"": 1, ""changed_note_occurrences"": 1, ""abcjs"": {""setting_id"": ""19299"", ""passed"": true, ""changed_note_occurrences"": 1, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","ed||B3 BAG|AGE2EG|A3 BA2|e3 ede|
+g3 aag|edB2BA|G3 AAG|E3 eed|
+B3 BAG|AGE2EG|A3 BA2|e3 ede|
+g3 aag|edB2BA|G3 Bde|A3 aa2|
+a3 bb2|age2ec|d3 eg2|g3 aag|
+deg aed|ABd eAG|G3 dB2|E3 eed|
+B3 BAG|AGE2EG|A3 dB2|e3 ede|
+g3 aag|edB2BA|G3 ABd|A3 eed|
+B3 BAG|AGE2EG|A3 BA2|e3 ede|
+g3 aag|edB2BA|G3 AAG|E3||","ed||B3 BAG|AGE2EG|A3 BA2|e3 ede|
+g3 aag|edB2BA|G3 AAG|E3 eed|
+B3 BAG|AGE2EG|A3 BA2|e3 ede|
+g3 aag|edB2BA|G3 Bde|A3 aa2|
+a3 bb2|age2c|d3 eg2|g3 aag|
+deg aed|ABd eAG|G3 dB2|E3 eed|
+B3 BAG|AGE2EG|A3 dB2|e3 ede|
+g3 aag|edB2BA|G3 ABd|A3 eed|
+B3 BAG|AGE2EG|A3 BA2|e3 ede|
+g3 aag|edB2BA|G3 AAG|E3||"
 4076,43435,Leitrim Clog Dance,swisspiper,https://thesession.org/tunes/4076#setting43435,Incorrect octave,"[{""rule"": ""octave_typo"", ""bar"": 15, ""note"": 5, ""before"": ""\r\ndA FA DA FA"", ""after"": ""\r\ndA FA dA FA"", ""before_midi"": 62, ""after_midi"": 74, ""reference_ranges"": [[""4076"", 15, 15], [""43435"", 23, 23], [""43435"", 49, 49]], ""corroborating_contributors"": 1, ""written_repeat"": true, ""written_repetitions"": 2, ""extra_matching_bar"": true, ""isolated_jump"": false, ""playback_occurrences"": 1, ""abcjs"": {""setting_id"": ""43435"", ""variant"": ""43435-0"", ""passed"": true, ""changed_played_pitches"": 1, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}, ""scan_pass"": 1}]","|:A2|D2 FA dA FA|G2 .B2 G2 B2|D2 FA DA FA|E2 .c2 E2 .c2|
 D2 FA dA FA|G2 .B2 G2 B2|Ad cB AG FE|1 (3DED CE D2:|2 (3DED CE D2>c||
 dA FA DA FA|G2 .B2 G2 Bc|dA FA DA FA|E2 .c2 E2 .c2|
@@ -3894,6 +4031,53 @@ c2e ecA|cde fga|ece dBG|1 ABA A2B:|2 ABA A2E||","|:ABA cBA|d2 e fga|ABA cBA|dB=G
 ecA Ace|d2e fga|ece dBG|1 ABA A2E:|2 ABA A2B||
 c2e ecA|Aca ecA|c2e ecA|Bcd dcB|
 c2e ecA|cde fga|ece dBG|1 ABA A2B:|2 ABA A2E||"
+1499,23587,"Old Bush, The",JACKB,https://thesession.org/tunes/1499#setting23587,Surplus note,"[{""rule"": ""extra_note"", ""bar"": 83, ""note_count_change"": -1, ""before"": ""c)fge g2 fage"", ""after"": ""c)fge  fage"", ""token"": ""g2"", ""duration_eighths"": ""2"", ""midi"": 79, ""possible_offsets"": [6], ""reference_ranges"": [[""23587"", 59, 59]], ""corroborating_contributors"": 0, ""written_repeat"": true, ""extra_matching_bar"": true, ""scan_pass"": 1, ""changed_note_occurrences"": 1, ""abcjs"": {""setting_id"": ""23587"", ""passed"": true, ""changed_note_occurrences"": 1, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","AAGA cA A2|dcde fdec|AAGA cA A2|dfed cAdc|
+A2 GA cA A2|dcde fd (3efg|afge fdec|dfed cAdc|
+{G}A2 GA cA A2|dcde fdec|A2 GA cA A2|dfed cAdc|
+{G}A2 GA cA A2|Dcde fd (3efg|af (3gfe fdec|dfed cA A2||
+eg g2 ed (3Bcd|efge c3d|eg g2 afge|dfed cA A2|
+eg g2 ag g2|fdec defg|af (3gfe fdec|dfed cA A2|
+eg g2 ed (3Bcd|efge c3d|eg g2 afge|dfed cA A2|
+eg g2 agbg|fd (3Bcd ed (3efg|af (3gfe fdec|dfed cAcd||
+A3B cA A2|(3Bcd de fdec|A2 GA cA A2|(3Bcd ed cAdc|
+ADGA cA A2|Dcde fd (3efg|afge fdec|dfed cAdc|
+{G}A2 DA cA A2|Dcde fdec|A2 DA cA A2|DdcA GcAG|
+A3B cA A2|D2 de fd (3efg|af (3gfe fdec|dfed cA A2||
+g3e dG (3Bcd|efge c3d|eggg aage|dfed cA A2|
+eg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed (3Bcd ef|
+g3e dG (3Bcd|efge (c4|c)fge fage|dfed cA A2|
+eg g2 agbg|fd ed (3Bcd (3efg|af (3gfe fdec|dfed cAcd||
+gA GA cA A2|Dcde fdec|ADGA cA A2|ADGA (3Bcd BG|
+A2 GA cA A2|(3Bcd eA fA g2|abga fgef|dfed cAdc|
+{G}A2 GA cA A2|(3Bcd de fdec|ADGA cA A2|(3Bcd ed cAdc|
+GAAB cA A2|D2 de fd (3efg|df (3gfe fdec|dfed cdef||
+g3e dG (3Bcd|efge (c4|c)fge  fage|dfed cA A2|
+eg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed cA A2|
+eg g2 ed (3Bcd|efge c3d|eg g2 abge|dfed cA A2|
+eg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed cAdc||","AAGA cA A2|dcde fdec|AAGA cA A2|dfed cAdc|
+A2 GA cA A2|dcde fd (3efg|afge fdec|dfed cAdc|
+{G}A2 GA cA A2|dcde fdec|A2 GA cA A2|dfed cAdc|
+{G}A2 GA cA A2|Dcde fd (3efg|af (3gfe fdec|dfed cA A2||
+eg g2 ed (3Bcd|efge c3d|eg g2 afge|dfed cA A2|
+eg g2 ag g2|fdec defg|af (3gfe fdec|dfed cA A2|
+eg g2 ed (3Bcd|efge c3d|eg g2 afge|dfed cA A2|
+eg g2 agbg|fd (3Bcd ed (3efg|af (3gfe fdec|dfed cAcd||
+A3B cA A2|(3Bcd de fdec|A2 GA cA A2|(3Bcd ed cAdc|
+ADGA cA A2|Dcde fd (3efg|afge fdec|dfed cAdc|
+{G}A2 DA cA A2|Dcde fdec|A2 DA cA A2|DdcA GcAG|
+A3B cA A2|D2 de fd (3efg|af (3gfe fdec|dfed cA A2||
+g3e dG (3Bcd|efge c3d|eggg aage|dfed cA A2|
+eg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed (3Bcd ef|
+g3e dG (3Bcd|efge (c4|c)fge fage|dfed cA A2|
+eg g2 agbg|fd ed (3Bcd (3efg|af (3gfe fdec|dfed cAcd||
+gA GA cA A2|Dcde fdec|ADGA cA A2|ADGA (3Bcd BG|
+A2 GA cA A2|(3Bcd eA fA g2|abga fgef|dfed cAdc|
+{G}A2 GA cA A2|(3Bcd de fdec|ADGA cA A2|(3Bcd ed cAdc|
+GAAB cA A2|D2 de fd (3efg|df (3gfe fdec|dfed cdef||
+g3e dG (3Bcd|efge (c4|c)fge g2 fage|dfed cA A2|
+eg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed cA A2|
+eg g2 ed (3Bcd|efge c3d|eg g2 abge|dfed cA A2|
+eg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed cAdc||"
 15605,30488,Old French,JACKB,https://thesession.org/tunes/15605#setting30488,Incorrect note length,"[{""rule"": ""note_length"", ""bar"": 29, ""before"": ""A4 GG AB"", ""after"": ""A2 GG AB"", ""witnesses"": [[""30488"", 11]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","D|:G2 G2 d2|B2 B2 A2|A2 GG AB|E2 D2 G2|
 G2 d2 B2|B2 AG A2|A6|A2 D2 E2|
 G2 G2 d2|B2 B2 A2|A2 GG AB|E2 D2 d2|
@@ -4783,6 +4967,13 @@ cBc A2G|FGA ^cde|dcA AGE|^cde ged|
 cBc A2G|FGA ^cde|dcA AGE|EDD D2||
 |:efg ged|^cAB =c2d|eaa age|ed^c d3|
 efg ged|^cAB =c2e|dB^c AGE|EDD D2:|"
+8467,22468,Seamus Ennis',ceolachan,https://thesession.org/tunes/8467#setting22468,Omitted note,"[{""rule"": ""missing_note"", ""bar"": 16, ""note_count_change"": 1, ""before"": ""AG FED"", ""after"": ""dAG FED"", ""token"": ""d"", ""duration_eighths"": ""1"", ""midi"": 74, ""possible_offsets"": [0], ""reference_ranges"": [[""57205"", 14, 14]], ""corroborating_contributors"": 1, ""written_repeat"": false, ""extra_matching_bar"": true, ""scan_pass"": 1, ""changed_note_occurrences"": 2, ""abcjs"": {""setting_id"": ""22468"", ""passed"": true, ""changed_note_occurrences"": 2, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","|:AG|FDF ABc|dAG FED|~G3 FGA|BGE EAG|
+FDF ABc|dAG FED|dfa gec|dAF D:|
+|:df|afd gec|dAG FED|~G3 FGA|BGE E2 f|
+afd gec|dAG FED|dfa gec|dAF D:|","|:AG|FDF ABc|dAG FED|~G3 FGA|BGE EAG|
+FDF ABc|dAG FED|dfa gec|dAF D:|
+|:df|afd gec|dAG FED|~G3 FGA|BGE E2 f|
+afd gec|AG FED|dfa gec|dAF D:|"
 8467,56987,Seamus Ennis',Loughcurra,https://thesession.org/tunes/8467#setting56987,Missing barline,"[{""rule"": ""missing_barline"", ""bar"": 12, ""witnesses"": [[[""56987"", 3]], [[""50082"", 1], [""50082"", 5], [""50082"", 9], [""50082"", 13]]], ""before"": "" ~A3 ABc\r\nBGB def "", ""after"": "" ~A3 ABc|\r\nBGB def "", ""scan_pass"": 1}]","B2G def | gdc .B/2.d/2BG | GBd gdB | ~A3 ABc |
 ~B3 def | gdc BAG | GBd gdB | cAF G3 |
 B3 def | gdc .B/2.d/2BG | GBd gdB | ~A3 ABc|
@@ -5147,6 +5338,21 @@ A(a^ga) =ge cA|d6:|(fg)|a2 (^ga) f d2z|uggzud B2 (dB)|A2 a2 gf ed|ef ec
 A2 (fg)|a2 (^ga) f d2z|uggzud B2 (dB)|A(a ^ga) =ge BA|d3 (fg)|a2 (^ga) f
 d2z|uggzud B2 (dB)|A2 a2 gf ed|ef ec AGFE|D2 FA (BA) FD|G2 GB d2 cB|A(a
 ^ga) =ge cA|d6||"
+2450,2450,Tea Gardens,George Seto,https://thesession.org/tunes/2450#setting2450,Omitted note,"[{""rule"": ""missing_note"", ""bar"": 14, ""note_count_change"": 1, ""before"": ""\r\nDF A2 d"", ""after"": ""\r\nFDF A2 d"", ""token"": ""F"", ""duration_eighths"": ""1"", ""midi"": 66, ""possible_offsets"": [2], ""reference_ranges"": [[""2450"", 6, 6]], ""corroborating_contributors"": 0, ""written_repeat"": true, ""extra_matching_bar"": true, ""scan_pass"": 1, ""changed_note_occurrences"": 2, ""abcjs"": {""setting_id"": ""2450"", ""passed"": true, ""changed_note_occurrences"": 2, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","|:B2 c|d^cd b2 a|g2 d B2 d|cBc ezc|A3- A2 G|
+FDF A2 d|f2 d A2 B|cBc edc|B3 B2 c|
+d^cd b2 a|g2 d B2 d|cBc ezc|A3- A2 G|
+FDF A2 d|f2 d A2 B|cBc bfa|1 g3:|2 g3 g2||
+z|B,DG BGD|B,DG Bdg|e^de B2 =d|c3- c2 B|
+ABc ABc|a2 g f2 e|d^cd ed=c|B3 d3|
+B,DG BGD|B,DG Bdg|e^de B2 =d|c3- c2 B|
+ABc a2 g|f2 e A2b|c'bc' e2 f|g3||","|:B2 c|d^cd b2 a|g2 d B2 d|cBc ezc|A3- A2 G|
+FDF A2 d|f2 d A2 B|cBc edc|B3 B2 c|
+d^cd b2 a|g2 d B2 d|cBc ezc|A3- A2 G|
+DF A2 d|f2 d A2 B|cBc bfa|1 g3:|2 g3 g2||
+z|B,DG BGD|B,DG Bdg|e^de B2 =d|c3- c2 B|
+ABc ABc|a2 g f2 e|d^cd ed=c|B3 d3|
+B,DG BGD|B,DG Bdg|e^de B2 =d|c3- c2 B|
+ABc a2 g|f2 e A2b|c'bc' e2 f|g3||"
 5100,32562,Teelin Bay,jmbolton,https://thesession.org/tunes/5100#setting32562,Misplaced barline,"[{""rule"": ""misplaced_barline"", ""bar"": 41, ""last_bar"": 42, ""before"": ""d4|\r\nDF"", ""after"": ""d4 \r\nDF"", ""reference_ranges"": [[""5100"", 41, 41], [""27624"", 41, 41]], ""method"": ""Matching uninterrupted written phrase in the original exports"", ""scan_pass"": 1}]","|:DF|GF G2B2|d4gf|ef g3e|
 dB G2gf|ef g3e|dB G2AB|cB d2D2|E4DF|GF G2B2|d4gf|
 ef g3f/e/|dB G2gf|ef g3e|dB G2c2|BA G2FG|G6-|G4:|
@@ -5164,6 +5370,13 @@ d4 gf|e2d4-|d4 AB|cB A2G2|E6-|E4 AB|cBAGEC|D6-|d4|
 DF|GF G2B2|d4gf|ef g3e|
 dB G2gf|ef g3e|dB G2AB|cB d2D2|E4DF|GF G2B2|d4gf|
 ef g3f/e/|dB G2gf|ef g3e|dB G2c2|BA G2FG|G6-|G4|"
+114,48896,"Teetotaller's, The",leprecawn,https://thesession.org/tunes/114#setting48896,Surplus note,"[{""rule"": ""extra_note"", ""bar"": 5, ""note_count_change"": -1, ""before"": ""BGAGF GFED"", ""after"": ""BGAF GFED"", ""token"": ""G"", ""duration_eighths"": ""1"", ""midi"": 67, ""possible_offsets"": [3], ""reference_ranges"": [[""40745"", 5, 5], [""53702"", 4, 4]], ""corroborating_contributors"": 2, ""written_repeat"": false, ""extra_matching_bar"": false, ""scan_pass"": 1, ""changed_note_occurrences"": 2, ""abcjs"": {""setting_id"": ""48896"", ""passed"": true, ""changed_note_occurrences"": 2, ""version"": ""abcjs-basic v6.5.2"", ""sha256"": ""9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9""}}]","|:(3DEF|G2GF GABc|d2eB dBAc|BEED EFGA|BGAF GFED|
+DGGF GABc|d2eB dBAc|BEED EFGA|BcAF G2:|
+|:A2|Beed e2 ef|geaf gfed|Bdd^c d2 de|fdaf gfed|
+Beed e2 ef|geaf gfed|BEED EFGA|BcAF G2:|","|:(3DEF|G2GF GABc|d2eB dBAc|BEED EFGA|BGAGF GFED|
+DGGF GABc|d2eB dBAc|BEED EFGA|BcAF G2:|
+|:A2|Beed e2 ef|geaf gfed|Bdd^c d2 de|fdaf gfed|
+Beed e2 ef|geaf gfed|BEED EFGA|BcAF G2:|"
 16384,37200,Tempus Fugit,Alpinerabbit,https://thesession.org/tunes/16384#setting37200,Missing barline,"[{""rule"": ""missing_barline"", ""bar"": 24, ""last_bar"": 24, ""before"": ""AD FA FD\r\nB3 B AG"", ""after"": ""AD FA FD|\r\nB3 B AG"", ""reference_ranges"": [[""31031"", 24, 25], [""54416"", 24, 25]], ""method"": ""Matching uninterrupted written phrase in the original exports"", ""scan_pass"": 1}]","d3 B GD|GB A3 B|G3 A BD|E_G Ac eg|d3 B GD|G2 BG cB|d2 B2 G2|F3 E DE|
 d3 B GD|GB A3 B|G^F G B2 E|(3EEE EA ef|d3 B GD|G2 BG cB|d2 B3 G|FD EG cA|
 BF BB AG|B3 B AG|A3 B A_D|D_G Ac BA|G2 B,G B,G|G2 B,G B,G|FD FA FD|AD FA FD|

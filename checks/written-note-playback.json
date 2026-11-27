@@ -1,0 +1,105 @@
+{
+  "compiler_repository": "TradMate",
+  "compiler_commit": "823fbf4cb5941394d86b5dd476ba46cc6e891f47",
+  "compiler_files_sha256": {
+    "lib/features/library/data/user_abc_import.dart": "f57617682fd2926c97fc9bd78a352a557b3ff26c0e68dbc934033114762ea573",
+    "lib/features/library/data/abc_part_structure.dart": "55205cfa334dd68d76b15f426819e1c95a78152cd02ba37807fcf3b1d1a02e47",
+    "lib/features/library/data/abc_playback_repair.dart": "fba58767ce1bbbcd15d88b0bc796b0873a515c01bb1d634b815ffc4e41053f16",
+    "lib/features/library/data/abc_bar_timeline.dart": "f6e5b3319968a8d9885c74bb1ea232fc5f6751024eee6d3ab21ee8a0a891bc7d",
+    "lib/features/library/data/abc_parser.dart": "0c4eceb29c7d952a821bab150d824b39c021bb03b59c998519f1f13362f87ed7",
+    "lib/features/library/domain/tune.dart": "b79899ed47064ec7415fa506b7ca198a286f0fca20c1fbf17b22b662e856a33b",
+    "lib/core/audio/midi_file_parser.dart": "3e45035c005d64b6655bf9c2b7d30247ba7957d3bb6df89debf6c31678bbbaf5",
+    "lib/core/audio/tempo_policy.dart": "9ad0c675b2c5b91783e300a8d2df6ac04a37bbe3d27b541a649c5f95e9173f4f",
+    "lib/core/audio/musical_context.dart": "5fe2d12b988715c9b53280d14a20bd586f92e2c9b82f8b8145395476f11ea578",
+    "lib/core/audio/dance_tempo_profiles.dart": "f45c683622d1a67953aea0c523fedf0348c290b09e0e5e13c3b95c91886eb581",
+    "lib/core/audio/harmony_key.dart": "0b1a8b940ad2f16af996fb42353a91973a5cd7b69d6d173011844016098209a9",
+    "lib/core/audio/abc_tempo.dart": "d21c95fd47fa8c03992bd2492a25d6c431ebcd1f9dfe3461f8cd5c8f387fa8d3",
+    "lib/core/audio/harmony_analyzer.dart": "27cdef7981763618697db9f35329d263e2817187d977c242da391a56720223ef"
+  },
+  "compiler_modifications": [],
+  "automatic_repairs": false,
+  "setting_specific_patches": false,
+  "checks": [
+    {
+      "setting_id": "28605",
+      "passed": true,
+      "event_count": 1144,
+      "changed_note_occurrences": 1,
+      "inserted_playback_events": 1,
+      "inserted_token": "c",
+      "duration_delta_quarter": 0.5
+    },
+    {
+      "setting_id": "14261",
+      "passed": true,
+      "event_count": 183,
+      "changed_note_occurrences": 1,
+      "inserted_playback_events": 1,
+      "inserted_token": "B",
+      "duration_delta_quarter": 0.5
+    },
+    {
+      "setting_id": "39799",
+      "passed": true,
+      "event_count": 252,
+      "changed_note_occurrences": 2,
+      "inserted_playback_events": 2,
+      "inserted_token": "B",
+      "duration_delta_quarter": 1.0
+    },
+    {
+      "setting_id": "699",
+      "passed": true,
+      "event_count": 226,
+      "changed_note_occurrences": 1,
+      "inserted_playback_events": 1,
+      "inserted_token": "B",
+      "duration_delta_quarter": 0.5
+    },
+    {
+      "setting_id": "19299",
+      "passed": true,
+      "event_count": 164,
+      "changed_note_occurrences": 1,
+      "inserted_playback_events": 1,
+      "inserted_token": "e",
+      "duration_delta_quarter": 0.5
+    },
+    {
+      "setting_id": "23587",
+      "passed": true,
+      "event_count": 725,
+      "changed_note_occurrences": 1,
+      "duration_delta_quarter": -1.0,
+      "removed_playback_events": 1,
+      "removed_token": "g2"
+    },
+    {
+      "setting_id": "22468",
+      "passed": true,
+      "event_count": 182,
+      "changed_note_occurrences": 2,
+      "inserted_playback_events": 2,
+      "inserted_token": "d",
+      "duration_delta_quarter": 1.0
+    },
+    {
+      "setting_id": "2450",
+      "passed": true,
+      "event_count": 219,
+      "changed_note_occurrences": 2,
+      "inserted_playback_events": 2,
+      "inserted_token": "F",
+      "duration_delta_quarter": 1.0
+    },
+    {
+      "setting_id": "48896",
+      "passed": true,
+      "event_count": 240,
+      "changed_note_occurrences": 2,
+      "duration_delta_quarter": -1.0,
+      "removed_playback_events": 2,
+      "removed_token": "G"
+    }
+  ]
+}

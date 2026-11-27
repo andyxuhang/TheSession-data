@@ -12590,7 +12590,7 @@ FGAB A^c d2 |egfe d^c A2|AFDF AFDF |GE^cE GE^cE|
 fdAd fdAd |e^cA^c e^cA^c|dAFA dAFA |dBGB dBGB|
 AB^cd ed^cB |=c4 feed |gffe fgfe |fedc dedc |
 dcBA cdcB |cBAG BcBA |BAGF GAGF |GFED Bcde |
-dcBd dcB2 |AB A BA GB/d/|gdBd gdBd |gdBd gdBd|
+dcBd dcB2 |AB cA BA GB/d/|gdBd gdBd |gdBd gdBd|
 Agfe dcBA |BGAB GBcB|BAdc cBcd|cBcB AcBc|
 BABA GBGA|BcBA G2 g=f| e2 de eBGB|eBGB eBGB |
 eBGB eBGB|eded cBcB |ABAB cdcd|e4z4 |
@@ -30858,7 +30858,7 @@ GFG Bdg|edB dgb|age ged|1 edB AFD:|2 edB ABA||
 1035,14261,"Boys Of The Town, The",jig,6/8,Gmajor,"|:GFG GBd|edB dBA|GFG GBd|edB AFD|
 GFG GBd|edB gfg|edB AGA|BGG G2:|
 def gfg|afd edB|def gfg|afd e2 d|
-[1 def gfg|afd efg|edB AGA|BGG G2:|
+[1 def gfg|afd efg|edB AGA|BGG G2B:|
 [2 def gbb|faa efg|edB AGA|BGG G2||","2011-02-11 05:30:12",ceolachan,
 1035,14262,"Boys Of The Town, The",jig,6/8,Gmajor,"|:GDG GB/c/d|edB dBF|GAF GBd|edB A2 D|
 ~G3 GBd|edB gfg|edB A^GA|BGF G2:|
@@ -119193,7 +119193,7 @@ A3 A3 G2|F2 E2 D4|F3 F3 E2|D2 B,2 A,2 D2|
 E3 E3 G2|E2 D2 B,2 D2|E3 E G2 A2|B3 d BA G2|A8|
 B, D3 F4|B, D2 F2 G FD|F2 E2 E2 D2|1 E3 B,2 B, D2:|2 E3 B2 B d2||
 |:e3 e3 ed|ed B2 B2 c2|d3 d2 c BA|F2 E2 D4|
-C2 E2 A2 B2|c3 c2 d cA|c2 B2 B2 A2|B3 B2 B d|
+C2 E2 A2 B2|c3 c2 d cA|c2 B2 B2 A2|B3 B2 B dB|
 e3 e3 ed|ed B2 B2 c2|d3 d2 c BA|F2 E2 D4|
 B, D3 F4|B, D2 F2 G FD|F2 E2 E2 D2:|","2020-12-08 20:18:56",Eli,"Nicholas Williams"
 20116,45114,"International Appalachian Trail, The",march,4/4,Bminor,"|B, DB,|:""Em""E3 E2 B, G2|E2 D2 B,2 D2|E3 E G2 A2|""G""B6 FG|
@@ -144600,7 +144600,7 @@ dafd afda|bagf efed|cgec gecg|agfe fedc|
 ABfB BgBB|_aB B/B/B gBfB|e^de^g a=gfe|fgef dD|","2002-05-18 20:10:08",WilkietheMound,
 699,699,"Laura Lynn Cunningham",reel,4/4,Bminor,"FB~B2 Ac~c2|d2fd eAcA|FB(3BBB FBBc|Acef c2BA|
 FB~B2 ABc|d2fd eAcA|B2fB ecAB|BAdc ~B2BA|
-FBBB Ac~c2|d2fd eAcA|FB2 FBBc|Acef c2ba|
+FBBB Ac~c2|d2fd eAcA|FBB2 FBBc|Acef c2ba|
 bfab efaf|eAcd dcBA|BF~F2 ABcf|~f2ec B3z|
 |:~B2 c/B/A BF~F2|EFAB ceae|f B~B2 FBBc|Acef c2BA|
 BbbB a2fe|cfec ecAc|B~F2F ABce|~f2ec ~B2BA:|","2002-05-24 03:53:51","Josh Kane","Phil Cunningham"
@@ -146049,7 +146049,7 @@ Em|Em|Dadd9|A/C#|G/D|A/C#|Em/B|Aadd9|","2010-08-31 19:42:14","Bob MacLean","Fred
 g3 aag|edB2BA|G3 AAG|E3 eed|
 B3 BAG|AGE2EG|A3 BA2|e3 ede|
 g3 aag|edB2BA|G3 Bde|A3 aa2|
-a3 bb2|age2c|d3 eg2|g3 aag|
+a3 bb2|age2ec|d3 eg2|g3 aag|
 deg aed|ABd eAG|G3 dB2|E3 eed|
 B3 BAG|AGE2EG|A3 dB2|e3 ede|
 g3 aag|edB2BA|G3 ABd|A3 eed|
@@ -189001,7 +189001,7 @@ gA GA cA A2|Dcde fdec|ADGA cA A2|ADGA (3Bcd BG|
 A2 GA cA A2|(3Bcd eA fA g2|abga fgef|dfed cAdc|
 {G}A2 GA cA A2|(3Bcd de fdec|ADGA cA A2|(3Bcd ed cAdc|
 GAAB cA A2|D2 de fd (3efg|df (3gfe fdec|dfed cdef||
-g3e dG (3Bcd|efge (c4|c)fge g2 fage|dfed cA A2|
+g3e dG (3Bcd|efge (c4|c)fge  fage|dfed cA A2|
 eg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed cA A2|
 eg g2 ed (3Bcd|efge c3d|eg g2 abge|dfed cA A2|
 eg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed cAdc||","2014-02-18 03:19:24",JACKB,
@@ -227067,7 +227067,7 @@ d2 B e2 B|d2 B e2 B|def gdc|BGG G:|","2012-10-22 15:38:24",ceolachan,
 8467,22468,"Seamus Ennis'",jig,6/8,Dmajor,"|:AG|FDF ABc|dAG FED|~G3 FGA|BGE EAG|
 FDF ABc|dAG FED|dfa gec|dAF D:|
 |:df|afd gec|dAG FED|~G3 FGA|BGE E2 f|
-afd gec|AG FED|dfa gec|dAF D:|","2013-10-12 18:04:59",ceolachan,
+afd gec|dAG FED|dfa gec|dAF D:|","2013-10-12 18:04:59",ceolachan,
 8467,56126,"Seamus Ennis'",jig,6/8,Gmajor,"|:BGB def|gdc BAB|GBd gdB|ecA Adc|
 BGB def|gdc BAB|GBd gdc|1 BGG G2 d:|2 BGG GBc||
 |:ded G/c/GG|ded G/c/GG|ede A/B/AA|ede A/B/AA|
@@ -247563,7 +247563,7 @@ ABc AA/B/c|a2 g f2 e|1 d^cd ed=c|B3- B:|2 c'bc' e2 f|g3||","2012-07-13 04:51:15"
 2450,2450,"Tea Gardens",jig,6/8,Gmajor,"|:B2 c|d^cd b2 a|g2 d B2 d|cBc ezc|A3- A2 G|
 FDF A2 d|f2 d A2 B|cBc edc|B3 B2 c|
 d^cd b2 a|g2 d B2 d|cBc ezc|A3- A2 G|
-DF A2 d|f2 d A2 B|cBc bfa|1 g3:|2 g3 g2||
+FDF A2 d|f2 d A2 B|cBc bfa|1 g3:|2 g3 g2||
 z|B,DG BGD|B,DG Bdg|e^de B2 =d|c3- c2 B|
 ABc ABc|a2 g f2 e|d^cd ed=c|B3 d3|
 B,DG BGD|B,DG Bdg|e^de B2 =d|c3- c2 B|
@@ -247959,7 +247959,7 @@ Beed e3f|geaf gfed|BEED EFGA|BGAF G2:|","2014-12-27 02:54:09",JACKB,
 G2 GF GABc|dBge dBAG|BEED EFGA|1 BGAF G2GF:|2 BGAF G2GA||
 |:Beed e2ef|gfaf gfed|Bdde d2ef|gfaf gfed|
 Beed e2ef|gfaf gfed|BEED EFGA|1 BGAF G2GA:|2 BGAF G2GF||","2019-09-02 02:28:40",NfldWhistler,
-114,48896,"Teetotaller's, The",reel,4/4,Gmajor,"|:(3DEF|G2GF GABc|d2eB dBAc|BEED EFGA|BGAGF GFED|
+114,48896,"Teetotaller's, The",reel,4/4,Gmajor,"|:(3DEF|G2GF GABc|d2eB dBAc|BEED EFGA|BGAF GFED|
 DGGF GABc|d2eB dBAc|BEED EFGA|BcAF G2:|
 |:A2|Beed e2 ef|geaf gfed|Bdd^c d2 de|fdaf gfed|
 Beed e2 ef|geaf gfed|BEED EFGA|BcAF G2:|","2023-12-04 21:07:31",leprecawn,

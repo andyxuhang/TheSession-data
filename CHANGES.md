@@ -1,5 +1,11 @@
 # Changes
 
+## Omitted and surplus notes
+
+Restored 7 omitted notes and removed 2 surplus notes in 9 settings of 9 tunes. Updated 36 matching set entries. Each resulting measure matches a written reference with matching adjacent phrases. TradMate and abcjs agreed on the written positions and preserved the other notes after accounting for the intended timing shift.
+
+The [changes and reference measures](checks/written-note-edits.json) include the expected pitch and duration of each inserted or removed note. Three other candidates remain under review because abcjs did not confirm an isolated change at the expected written position.
+
 ## Stray notation symbols
 
 Corrected 10 notation errors in 7 settings of 7 tunes and updated 49 matching set entries. The revised measures match original written references with the same adjacent phrases. TradMate and abcjs both preserved the played notes and timings. A proposed change that altered note timing was left for review.

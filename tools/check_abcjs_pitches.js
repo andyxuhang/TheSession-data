@@ -19,6 +19,40 @@ function playback(body, header) {
     };
 }
 
+function checkNoteCount(row, header, before, after) {
+    const edit = row.insertion;
+    const originalIsShorter = edit.direction === 1;
+    const [shorter, longer] = originalIsShorter ? [before, after] : [after, before];
+    const body = originalIsShorter ? row.after_abc : row.before_abc;
+    const positions = edit.positions.map(at => header.length + offset(body, at));
+    const duration = edit.duration_quarter / 4;
+    const locations = new Set();
+    let occurrences = 0;
+    for (let t = 0; t < shorter.length; t++) {
+        let n = 0;
+        let elapsed = 0;
+        for (const event of longer[t]) {
+            const expected = shorter[t][n];
+            if (expected && event.pitch === expected.pitch &&
+                Math.abs(event.start - expected.start - elapsed) < 1e-8 &&
+                Math.abs(event.duration - expected.duration) < 1e-8 && event.gap === expected.gap) {
+                n++;
+                continue;
+            }
+            const at = positions.find(p => event.startChar <= p && p < event.endChar);
+            if (at === undefined || event.pitch !== edit.midi || Math.abs(event.duration - duration) >= 1e-8) {
+                throw new Error('Unexpected note or timing change');
+            }
+            locations.add(at);
+            elapsed += duration;
+            occurrences++;
+        }
+        if (n !== shorter[t].length) throw new Error('An original note is missing');
+    }
+    if (!occurrences || locations.size !== 1) throw new Error('Expected note count change was not heard at one written location');
+    return { passed: true, changed_note_occurrences: occurrences };
+}
+
 function check(row) {
     const header = `X:${row.setting_id}\nT:${row.name}\nR:${row.type}\nM:${row.meter}\nL:1/8\nK:${row.mode}\n`;
     const original = playback(row.before_abc, header);
@@ -29,6 +63,7 @@ function check(row) {
         throw new Error('Notation warnings increased');
     }
     if (before.length !== after.length) throw new Error('Track count changed');
+    if (row.insertion?.positions) return checkNoteCount(row, header, before, after);
     const expected = row.pitch_changes.flatMap(change => change.locations.map(location => ({
         ...change,
         beforeOffset: header.length + offset(row.before_abc, location.old_start),

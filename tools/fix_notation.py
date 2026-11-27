@@ -13,6 +13,7 @@ import tempfile
 
 from matching_phrases import scan_phrases
 from missing_notes import scan_missing_notes
+from note_count_fixes import scan_note_counts
 from phrase_lengths import scan_lengths
 from pitch_fixes import PITCH_RULES, scan_pitches
 from syntax_fixes import SYNTAX_RULES, scan_syntax
@@ -113,10 +114,11 @@ def main():
     mode.add_argument('--missing-notes', action='store_true', help='Restore a missing note supported by independent settings')
     mode.add_argument('--pitches', action='store_true', help='Check accidentals and octaves in fully metered passages')
     mode.add_argument('--syntax', action='store_true', help='Check stray notation and split note tokens')
+    mode.add_argument('--note-counts', action='store_true', help='Compare omitted and extra written notes')
     args = parser.parse_args()
-    cross_checked = args.pitches or args.syntax
+    cross_checked = args.pitches or args.syntax or args.note_counts
     separate_scan = args.phrases or args.missing_notes or cross_checked
-    plan_name = 'syntax' if args.syntax else 'pitch' if args.pitches else 'notation'
+    plan_name = 'written-note' if args.note_counts else 'syntax' if args.syntax else 'pitch' if args.pitches else 'notation'
     lengths = args.lengths or args.parallel_lengths
     current = unique_settings(rows(ROOT/'json/tunes.json'))
     data = list(current.values())
@@ -130,7 +132,9 @@ def main():
         work = Path(temporary)
         for attempt in range(1, 16):
             if separate_scan:
-                if args.syntax:
+                if args.note_counts:
+                    scanner = scan_note_counts
+                elif args.syntax:
                     scanner = scan_syntax
                 elif args.pitches:
                     scanner = scan_pitches
@@ -154,7 +158,7 @@ def main():
                 break
             structural = [p for p in candidates if all(
                 e['rule'] in {'misplaced_barline', 'missing_barline'} for e in p['evidence'])]
-            individual = candidates if lengths or args.phrases or cross_checked else structural
+            individual = candidates if lengths or args.phrases or args.pitches or args.syntax else structural
             if individual:
                 structural_ids = {p['setting_id'] for p in individual}
                 passed, failures = check_measure_edits(individual, work, args, lengths=lengths)
@@ -180,6 +184,9 @@ def main():
                 accepted += 1
                 for evidence in patch['evidence']:
                     evidence['scan_pass'] = attempt
+                    if args.note_counts:
+                        evidence['changed_note_occurrences'] = outcomes[sid]['changed_note_occurrences']
+                        evidence['abcjs'] = outcomes[sid]['abcjs']
                 if sid in collected:
                     patch['evidence'] = collected[sid]['evidence'] + patch['evidence']
                 patch['before_abc'] = original[sid]
@@ -228,6 +235,9 @@ def main():
         if args.pitches:
             plan['method'] = 'Independent matching written phrases and verified single-note pitch changes'
             plan['pitch_scanner_sha256'] = hashlib.sha256((ROOT/'tools/pitch_fixes.py').read_bytes()).hexdigest()
+        if args.note_counts:
+            plan['method'] = 'Matching written phrases and independent verification of an individual note count change'
+            plan['written_note_scanner_sha256'] = hashlib.sha256((ROOT/'tools/note_count_fixes.py').read_bytes()).hexdigest()
         if args.syntax:
             plan['method'] = 'Matching written measures and unchanged playback in independent parsers'
             plan['syntax_scanner_sha256'] = hashlib.sha256((ROOT/'tools/syntax_fixes.py').read_bytes()).hexdigest()

@@ -24,7 +24,7 @@
     },
     "sets": {
       "rows": 337510,
-      "changed_records": 3635,
+      "changed_records": 3671,
       "non_abc_fields_unchanged": true
     },
     "tune_popularity": {
@@ -34,7 +34,7 @@
     },
     "tunes": {
       "rows": 55838,
-      "changed_records": 543,
+      "changed_records": 552,
       "non_abc_fields_unchanged": true
     }
   },

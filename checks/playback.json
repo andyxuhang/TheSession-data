@@ -579,6 +579,22 @@
       "duration_delta_quarter": -0.25
     },
     {
+      "setting_id": "28605",
+      "passed": true,
+      "event_count": 1144,
+      "changed_note_occurrences": 1,
+      "inserted_playback_events": 1,
+      "inserted_token": "c",
+      "duration_delta_quarter": 0.5,
+      "abcjs": {
+        "setting_id": "28605",
+        "passed": true,
+        "changed_note_occurrences": 1,
+        "version": "abcjs-basic v6.5.2",
+        "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+      }
+    },
+    {
       "setting_id": "17362",
       "passed": true,
       "event_count": 96,
@@ -1212,6 +1228,22 @@
       "played_occurrences": [],
       "parser_normalized_or_unplayed_change": false,
       "duration_delta_quarter": 0.0
+    },
+    {
+      "setting_id": "14261",
+      "passed": true,
+      "event_count": 183,
+      "changed_note_occurrences": 1,
+      "inserted_playback_events": 1,
+      "inserted_token": "B",
+      "duration_delta_quarter": 0.5,
+      "abcjs": {
+        "setting_id": "14261",
+        "passed": true,
+        "changed_note_occurrences": 1,
+        "version": "abcjs-basic v6.5.2",
+        "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+      }
     },
     {
       "setting_id": "52523",
@@ -3448,6 +3480,7 @@
       "setting_id": "49504",
       "passed": true,
       "event_count": 176,
+      "changed_note_occurrences": 2,
       "inserted_playback_events": 2,
       "inserted_token": "g",
       "duration_delta_quarter": 1.0
@@ -3612,6 +3645,7 @@
       "setting_id": "44250",
       "passed": true,
       "event_count": 297,
+      "changed_note_occurrences": 2,
       "inserted_playback_events": 2,
       "inserted_token": "c2",
       "duration_delta_quarter": 2.0
@@ -4365,6 +4399,22 @@
       "played_occurrences": [],
       "parser_normalized_or_unplayed_change": false,
       "duration_delta_quarter": 0.0
+    },
+    {
+      "setting_id": "39799",
+      "passed": true,
+      "event_count": 252,
+      "changed_note_occurrences": 2,
+      "inserted_playback_events": 2,
+      "inserted_token": "B",
+      "duration_delta_quarter": 1.0,
+      "abcjs": {
+        "setting_id": "39799",
+        "passed": true,
+        "changed_note_occurrences": 2,
+        "version": "abcjs-basic v6.5.2",
+        "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+      }
     },
     {
       "setting_id": "4241",
@@ -5292,6 +5342,22 @@
       }
     },
     {
+      "setting_id": "699",
+      "passed": true,
+      "event_count": 226,
+      "changed_note_occurrences": 1,
+      "inserted_playback_events": 1,
+      "inserted_token": "B",
+      "duration_delta_quarter": 0.5,
+      "abcjs": {
+        "setting_id": "699",
+        "passed": true,
+        "changed_note_occurrences": 1,
+        "version": "abcjs-basic v6.5.2",
+        "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+      }
+    },
+    {
       "setting_id": "14067",
       "passed": true,
       "event_count": 210,
@@ -5332,6 +5398,22 @@
       "played_occurrences": [],
       "parser_normalized_or_unplayed_change": false,
       "duration_delta_quarter": 0.0
+    },
+    {
+      "setting_id": "19299",
+      "passed": true,
+      "event_count": 164,
+      "changed_note_occurrences": 1,
+      "inserted_playback_events": 1,
+      "inserted_token": "e",
+      "duration_delta_quarter": 0.5,
+      "abcjs": {
+        "setting_id": "19299",
+        "passed": true,
+        "changed_note_occurrences": 1,
+        "version": "abcjs-basic v6.5.2",
+        "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+      }
     },
     {
       "setting_id": "43435",
@@ -6949,6 +7031,22 @@
       }
     },
     {
+      "setting_id": "23587",
+      "passed": true,
+      "event_count": 725,
+      "changed_note_occurrences": 1,
+      "duration_delta_quarter": -1.0,
+      "removed_playback_events": 1,
+      "removed_token": "g2",
+      "abcjs": {
+        "setting_id": "23587",
+        "passed": true,
+        "changed_note_occurrences": 1,
+        "version": "abcjs-basic v6.5.2",
+        "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+      }
+    },
+    {
       "setting_id": "30488",
       "passed": true,
       "event_count": 153,
@@ -8528,6 +8626,22 @@
       "duration_delta_quarter": 0.5
     },
     {
+      "setting_id": "22468",
+      "passed": true,
+      "event_count": 182,
+      "changed_note_occurrences": 2,
+      "inserted_playback_events": 2,
+      "inserted_token": "d",
+      "duration_delta_quarter": 1.0,
+      "abcjs": {
+        "setting_id": "22468",
+        "passed": true,
+        "changed_note_occurrences": 2,
+        "version": "abcjs-basic v6.5.2",
+        "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+      }
+    },
+    {
       "setting_id": "56987",
       "passed": true,
       "event_count": 171,
@@ -9128,6 +9242,22 @@
       "duration_delta_quarter": 0.0
     },
     {
+      "setting_id": "2450",
+      "passed": true,
+      "event_count": 219,
+      "changed_note_occurrences": 2,
+      "inserted_playback_events": 2,
+      "inserted_token": "F",
+      "duration_delta_quarter": 1.0,
+      "abcjs": {
+        "setting_id": "2450",
+        "passed": true,
+        "changed_note_occurrences": 2,
+        "version": "abcjs-basic v6.5.2",
+        "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+      }
+    },
+    {
       "setting_id": "32562",
       "passed": true,
       "event_count": 274,
@@ -9140,6 +9270,22 @@
       "played_occurrences": [],
       "parser_normalized_or_unplayed_change": false,
       "duration_delta_quarter": 0.0
+    },
+    {
+      "setting_id": "48896",
+      "passed": true,
+      "event_count": 240,
+      "changed_note_occurrences": 2,
+      "duration_delta_quarter": -1.0,
+      "removed_playback_events": 2,
+      "removed_token": "G",
+      "abcjs": {
+        "setting_id": "48896",
+        "passed": true,
+        "changed_note_occurrences": 2,
+        "version": "abcjs-basic v6.5.2",
+        "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+      }
     },
     {
       "setting_id": "37200",

@@ -1,0 +1,322 @@
+[
+  {
+    "setting_id": "28605",
+    "tune_id": "15342",
+    "source_url": "https://thesession.org/tunes/15342#setting28605",
+    "rule": "missing_note",
+    "bar": 74,
+    "note_count_change": 1,
+    "before": "AB A BA GB/d/",
+    "after": "AB cA BA GB/d/",
+    "token": "c",
+    "duration_eighths": "1",
+    "midi": 72,
+    "possible_offsets": [
+      3
+    ],
+    "reference_ranges": [
+      [
+        "28605",
+        139,
+        139
+      ]
+    ],
+    "corroborating_contributors": 0,
+    "written_repeat": true,
+    "extra_matching_bar": true,
+    "scan_pass": 1,
+    "changed_note_occurrences": 1,
+    "abcjs": {
+      "setting_id": "28605",
+      "passed": true,
+      "changed_note_occurrences": 1,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    }
+  },
+  {
+    "setting_id": "14261",
+    "tune_id": "1035",
+    "source_url": "https://thesession.org/tunes/1035#setting14261",
+    "rule": "missing_note",
+    "bar": 16,
+    "note_count_change": 1,
+    "before": "BGG G2",
+    "after": "BGG G2B",
+    "token": "B",
+    "duration_eighths": "1",
+    "midi": 71,
+    "possible_offsets": [
+      6
+    ],
+    "reference_ranges": [
+      [
+        "1035",
+        18,
+        18
+      ]
+    ],
+    "corroborating_contributors": 1,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "scan_pass": 1,
+    "changed_note_occurrences": 1,
+    "abcjs": {
+      "setting_id": "14261",
+      "passed": true,
+      "changed_note_occurrences": 1,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    }
+  },
+  {
+    "setting_id": "39799",
+    "tune_id": "20116",
+    "source_url": "https://thesession.org/tunes/20116#setting39799",
+    "rule": "missing_note",
+    "bar": 26,
+    "note_count_change": 1,
+    "before": "B3 B2 B d",
+    "after": "B3 B2 B dB",
+    "token": "B",
+    "duration_eighths": "1",
+    "midi": 71,
+    "possible_offsets": [
+      9
+    ],
+    "reference_ranges": [
+      [
+        "45114",
+        27,
+        27
+      ]
+    ],
+    "corroborating_contributors": 1,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "scan_pass": 1,
+    "changed_note_occurrences": 2,
+    "abcjs": {
+      "setting_id": "39799",
+      "passed": true,
+      "changed_note_occurrences": 2,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    }
+  },
+  {
+    "setting_id": "699",
+    "tune_id": "699",
+    "source_url": "https://thesession.org/tunes/699#setting699",
+    "rule": "missing_note",
+    "bar": 11,
+    "note_count_change": 1,
+    "before": "FB2 FBBc",
+    "after": "FBB2 FBBc",
+    "token": "B",
+    "duration_eighths": "1",
+    "midi": 71,
+    "possible_offsets": [
+      1
+    ],
+    "reference_ranges": [
+      [
+        "41173",
+        11,
+        11
+      ]
+    ],
+    "corroborating_contributors": 1,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "scan_pass": 1,
+    "changed_note_occurrences": 1,
+    "abcjs": {
+      "setting_id": "699",
+      "passed": true,
+      "changed_note_occurrences": 1,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    }
+  },
+  {
+    "setting_id": "19299",
+    "tune_id": "8085",
+    "source_url": "https://thesession.org/tunes/8085#setting19299",
+    "rule": "missing_note",
+    "bar": 19,
+    "note_count_change": 1,
+    "before": "age2c",
+    "after": "age2ec",
+    "token": "e",
+    "duration_eighths": "1",
+    "midi": 76,
+    "possible_offsets": [
+      4
+    ],
+    "reference_ranges": [
+      [
+        "29636",
+        19,
+        19
+      ]
+    ],
+    "corroborating_contributors": 1,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "scan_pass": 1,
+    "changed_note_occurrences": 1,
+    "abcjs": {
+      "setting_id": "19299",
+      "passed": true,
+      "changed_note_occurrences": 1,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    }
+  },
+  {
+    "setting_id": "23587",
+    "tune_id": "1499",
+    "source_url": "https://thesession.org/tunes/1499#setting23587",
+    "rule": "extra_note",
+    "bar": 83,
+    "note_count_change": -1,
+    "before": "c)fge g2 fage",
+    "after": "c)fge  fage",
+    "token": "g2",
+    "duration_eighths": "2",
+    "midi": 79,
+    "possible_offsets": [
+      6
+    ],
+    "reference_ranges": [
+      [
+        "23587",
+        59,
+        59
+      ]
+    ],
+    "corroborating_contributors": 0,
+    "written_repeat": true,
+    "extra_matching_bar": true,
+    "scan_pass": 1,
+    "changed_note_occurrences": 1,
+    "abcjs": {
+      "setting_id": "23587",
+      "passed": true,
+      "changed_note_occurrences": 1,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    }
+  },
+  {
+    "setting_id": "22468",
+    "tune_id": "8467",
+    "source_url": "https://thesession.org/tunes/8467#setting22468",
+    "rule": "missing_note",
+    "bar": 16,
+    "note_count_change": 1,
+    "before": "AG FED",
+    "after": "dAG FED",
+    "token": "d",
+    "duration_eighths": "1",
+    "midi": 74,
+    "possible_offsets": [
+      0
+    ],
+    "reference_ranges": [
+      [
+        "57205",
+        14,
+        14
+      ]
+    ],
+    "corroborating_contributors": 1,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "scan_pass": 1,
+    "changed_note_occurrences": 2,
+    "abcjs": {
+      "setting_id": "22468",
+      "passed": true,
+      "changed_note_occurrences": 2,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    }
+  },
+  {
+    "setting_id": "2450",
+    "tune_id": "2450",
+    "source_url": "https://thesession.org/tunes/2450#setting2450",
+    "rule": "missing_note",
+    "bar": 14,
+    "note_count_change": 1,
+    "before": "\r\nDF A2 d",
+    "after": "\r\nFDF A2 d",
+    "token": "F",
+    "duration_eighths": "1",
+    "midi": 66,
+    "possible_offsets": [
+      2
+    ],
+    "reference_ranges": [
+      [
+        "2450",
+        6,
+        6
+      ]
+    ],
+    "corroborating_contributors": 0,
+    "written_repeat": true,
+    "extra_matching_bar": true,
+    "scan_pass": 1,
+    "changed_note_occurrences": 2,
+    "abcjs": {
+      "setting_id": "2450",
+      "passed": true,
+      "changed_note_occurrences": 2,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    }
+  },
+  {
+    "setting_id": "48896",
+    "tune_id": "114",
+    "source_url": "https://thesession.org/tunes/114#setting48896",
+    "rule": "extra_note",
+    "bar": 5,
+    "note_count_change": -1,
+    "before": "BGAGF GFED",
+    "after": "BGAF GFED",
+    "token": "G",
+    "duration_eighths": "1",
+    "midi": 67,
+    "possible_offsets": [
+      3
+    ],
+    "reference_ranges": [
+      [
+        "40745",
+        5,
+        5
+      ],
+      [
+        "53702",
+        4,
+        4
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": false,
+    "scan_pass": 1,
+    "changed_note_occurrences": 2,
+    "abcjs": {
+      "setting_id": "48896",
+      "passed": true,
+      "changed_note_occurrences": 2,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    }
+  }
+]

@@ -41,7 +41,7 @@ Map verifyInsertion(Map row, List before, List after) {
   final token = insertion['token'];
   var i = 0, j = 0;
   var inserted = 0;
-  String? writtenBar;
+  String? writtenLocation;
   while (j < after.length) {
     final event = after[j];
     final original = i < before.length ? before[i] : null;
@@ -55,18 +55,25 @@ Map verifyInsertion(Map row, List before, List after) {
       j++;
       continue;
     }
-    final bar = (event['written_id'] as String).split(':').first;
+    final writtenId = event['written_id'] as String;
+    final location = insertion.containsKey('midi') ? writtenId : writtenId.split(':').first;
     require(event['abc_text'] == token && !event['is_rest'] && !event['is_tie'],
         'Unexpected inserted playback event');
     require(((event['duration_quarter'] as num) - duration).abs() < .00001,
         'Unexpected inserted duration');
-    require(writtenBar == null || writtenBar == bar, 'Insertions at different written bars');
-    writtenBar = bar;
+    if (insertion.containsKey('midi')) {
+      require(jsonEncode(event['midi_pitches']) == jsonEncode([insertion['midi']]), 'Unexpected edited pitch');
+    }
+    require(writtenLocation == null || writtenLocation == location, 'Note count changed at another written position');
+    writtenLocation = location;
     inserted++;
     j++;
   }
   require(i == before.length && inserted > 0, 'Original notes did not align after insertion');
-  return {'setting_id': row['setting_id'], 'passed': true, 'event_count': after.length,
+  return {
+    if (row.containsKey('variant')) 'variant':row['variant'],
+    'setting_id':row['setting_id'], 'passed':true, 'event_count':after.length,
+    'changed_note_occurrences':inserted,
     'inserted_playback_events': inserted, 'inserted_token': token,
     'duration_delta_quarter': inserted * duration};
 }
@@ -127,7 +134,15 @@ void main(List<String> args) {
       continue;
     }
     if (row.containsKey('insertion')) {
-      result.add(verifyInsertion(row, a, b));
+      final deletion = row['insertion']['direction'] == -1;
+      final report = deletion ? verifyInsertion(row, b, a) : verifyInsertion(row, a, b);
+      if (deletion) {
+        report['event_count'] = b.length;
+        report['removed_playback_events'] = report.remove('inserted_playback_events');
+        report['removed_token'] = report.remove('inserted_token');
+        report['duration_delta_quarter'] = -report['duration_delta_quarter'];
+      }
+      result.add(report);
       continue;
     }
     require(a.length == b.length, '$sid event count');
@@ -221,6 +236,27 @@ def prepare_pitch_changes(patch, mode):
             for (a,b,x,y),locations in deltas.items()]
 
 
+def prepare_note_count(patch, edit):
+    """Convert reviewed measure offsets to positions in the longer ABC body."""
+    direction = edit['note_count_change']
+    longer, shorter = ('after_abc','before_abc') if direction==1 else ('before_abc','after_abc')
+    before, error = measures(patch[longer])
+    if error or direction not in (-1,1):
+        raise ValueError('Invalid reviewed note-count edit: '+patch['setting_id'])
+    bar = before[edit['bar']-1]
+    fragment = edit['after'] if direction==1 else edit['before']
+    token = edit['token']
+    positions = [bar.start+offset for offset in edit['possible_offsets']]
+    if (patch[longer][bar.start:bar.end]!=fragment or not positions or any(
+        patch[longer][at:at+len(token)]!=token or
+        patch[longer][:at]+patch[longer][at+len(token):]!=patch[shorter]
+        for at in positions
+    )):
+        raise ValueError('Note-count offsets differ from the reviewed change: '+patch['setting_id'])
+    return {'direction':direction,'token':token,'midi':edit['midi'],'positions':positions,
+            'duration_quarter':float(Fraction(edit['duration_eighths'])/2)}
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--tradmate-repo", type=Path, required=True)
@@ -245,6 +281,9 @@ def main():
                 continue
             if isinstance(evidence,list) and evidence and all(e['rule'] in SYNTAX_RULES for e in evidence):
                 rows.append({**row, **patch, 'syntax_only':True, 'allowed_duration_changes':[]})
+                continue
+            if isinstance(evidence,list) and len(evidence)==1 and 'note_count_change' in evidence[0]:
+                rows.append({**row, **patch, 'insertion':prepare_note_count(patch,evidence[0])})
                 continue
             grouped = {}
             before = [e for b in measures(patch['before_abc'])[0] for e in b.events]
@@ -294,7 +333,7 @@ def main():
             secondary_input = root/'abcjs-input.json'
             secondary_input.write_text(json.dumps([
                 {**row, 'pitch_changes': row.get('pitch_changes', [])}
-                for row in rows if 'pitch_changes' in row or row.get('syntax_only')
+                for row in rows if 'pitch_changes' in row or row.get('syntax_only') or row.get('insertion',{}).get('positions')
             ]),encoding='utf8')
             output = subprocess.check_output(['node',str(ROOT/'tools/check_abcjs_pitches.js'),
                                               str(library),str(secondary_input)],text=True)
@@ -308,7 +347,9 @@ def main():
                 check['abcjs'] = {**other,'version':comparison['version'],
                                   'sha256':library_hash}
                 if check['passed'] and (
-                    not other['passed'] or other.get('changed_played_pitches') != check.get('changed_played_pitches',0)
+                    not other['passed']
+                    or other.get('changed_played_pitches',0) != check.get('changed_played_pitches',0)
+                    or other.get('changed_note_occurrences',0) != check.get('changed_note_occurrences',0)
                 ):
                     check['passed'] = False
                     check['reason'] = 'abcjs: '+other.get('reason','played pitch-change counts differ')

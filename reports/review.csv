@@ -1328,48 +1328,6 @@ z|:g>g a/b/|g>g a/b/|ga>b|bag|f>f g/a/|
 f>f g/a/|gfe|d3|e3/2ef/|
 g3/2fe/|d>cB|g>g f/e/|d>cB|
 g>g f/e/|d>cB|Bcd|e3:|"
-15342,28605,"Arrival Of The Queen Of Sheba, The",JACKB,https://thesession.org/tunes/15342#setting28605,Possible short interior measure; Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""28605"", ""bar"": 74, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": ""AB A BA GB/d/"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","gdBd gdBd |gdBd gdBd|Agfe dcBA |BGAB cdef|
-gdBd gdBd |g^cAc geAe|fede A2^c2 |d2AB ABAB|
-AFDF AFDF |dBGB dBGB|cAFA cAFA |BDEF GABc|
-dBGB dBGB |dAFA dAFA|BGEG BGEG |BAdA BAdA|
-gece gece |gdBd gdBd|cded cBAG |AGFG FEDc|
-BDcE DFEG |FAGB AcBd|cdcd edcB |ABAB cdcd|
-eded cBcB |ABAB cdcd|eded cBcB |ABAB cBcA|
-Bdce dfeg |f2ed g2c2|B2AG D2F2 |G2G2 G4|
-GABc B2A2 |G2d4 c2|B2cB c2A2 |Bcde d2c2|
-B2cB c2A2 |B2A2 G4|gdBd gdBd |gdBd gdBd|
-Agfe dcBA |BGAB G4|d4 edcB |c2e4 e2|
-dcBd cBAc |B2d4 d2|cBAc BAGB |A2d2 FGAB|
-A2d2 FGAB |A2d2d2d2|dAFA dAFA| dAFA dAdf|
-ed^cB AGFE |FDEF GABc|d2 (3efg fe dA|AGF2 EFGE |
-FGAB A^c d2 |egfe d^c A2|AFDF AFDF |GE^cE GE^cE|
-fdAd fdAd |e^cA^c e^cA^c|dAFA dAFA |dBGB dBGB|
-AB^cd ed^cB |=c4 feed |gffe fgfe |fedc dedc |
-dcBA cdcB |cBAG BcBA |BAGF GAGF |GFED Bcde |
-dcBd dcB2 |AB A BA GB/d/|gdBd gdBd |gdBd gdBd|
-Agfe dcBA |BGAB GBcB|BAdc cBcd|cBcB AcBc|
-BABA GBGA|BcBA G2 g=f| e2 de eBGB|eBGB eBGB |
-eBGB eBGB|eded cBcB |ABAB cdcd|e4z4 |
-ecAc ecAc|d4z4 |dBGB dBGB|c4z4 |
-cAFA cAFA|B4z4 |eBGB eBGB|^d4z4 |
-BGEG BGEG|c4z4 |f^dBd fdBd|eBGB eBGB |
-e2dc B2A2|G4F4 |E4z4|gdBd gdBd |
-gdBd gdBd|Agfe dcBA |BGAB G4|d4 edcB |
-c2e4 e2|dcBd cBAc |B2d4 d2|cBAc BAGB |
-A2d2 FGAB|A2d2 FGAB |A2d2d2d2|dAFA dAFA |
-dAFA dAdf|ed^cB AGFE |FDEF GABc|d2 (3efg fedA |
-AGF2 EFGE |FGAB A^cd2 |egfe d^c A2|
-AFDF AFDF |GE^cE GE^cE|fdAd fdAd |e^cA^c e^cA^c||
-dAFA dAFA |dBGB dBGB|AB^cd ed^cB |=c4 feed |
-gffe fgfe |fedc dedc |dcBA cdcB |cBAG BcBA |
-BAGF GAGF |GFED Bcde |dcBd dcB2 |ABcA BA GB/d/|
-gdBd gdBd |gdBd gdBd|Agfe dcBA |BGAB GBcB|
-BAdc cBcd|cBcB AcBc|BABA GBGA|BcBA G2 g=f |
-e2 de eBGB|eBGB eBGB |eBGB eBGB|eded cBcB |
-ABAB cdcd|e4z4 |ecAc ecAc|d4z4 |
-dBGB dBGB|c4z4 |cAFA cAFA|B4z4 |
-eBGB eBGB|^d4z4 |BGEG BGEG|c4z4 |
-f^dBd fdBd|eBGB eBGB |e2dc B2A2|G4F4 |E4z4||"
 417,13271,Arthur Darley's,Cap'n H,https://thesession.org/tunes/417#setting13271,Overfull interior measure,"{""current_internal_bars"": [{""setting_id"": ""13271"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""9"", ""expected_eighths"": ""6"", ""fragment"": ""EDC DA,B, CDE"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:A2A AGF|EDC D2A|d2e f2f|edc d2 A|
 d2e fed|edc d2A|BAG FED|EDC DA,B, CDE|
 Ddd Aee|Aff Agg|fed edc|1 d2d dcB:|2 d2d d=c_B||
@@ -7451,6 +7409,11 @@ dg ~g2 bggd|BcdB GBAG|FGAB cAag|fdcA G2:|"
 EF GE|C>D EC|EF GE|D>C D2|EF GE|
 C>D EC|cB AB|e2 Hc2|FE DC|CB, C2:|
 AB c2|DE F2|EF G>A|GF E2|ed f2|cA G2|c2 {B}c2||"
+448,23871,"Frost Is All Over, The",Lucy Rietmann,https://thesession.org/tunes/448#setting23871,Playback check failed,"{""current_internal_bars"": [], ""previous_source_flags"": [], ""playback_rejection"": ""abcjs: Unexpected note or timing change""}","|:A|d2f edc|dAF GFE|DFA DFA|Bcd efg|
+fed edc|dAF GFE|DFA DFA|BAF d2:|
+|:e|faa afd|gfg bag|faa afd|gfg efg|
+[1 faa afd|gfg bag|fga efg|fdc d2:|
+[2 fga efg|fdB AFA|Bcd efg|faf gfe||d2||"
 14407,26440,"Fruit And The Snoot, The",Scout,https://thesession.org/tunes/14407#setting26440,Overfull interior measure,"{""current_internal_bars"": [{""setting_id"": ""26440"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""6"", ""fragment"": ""Ffed cBd"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""26440"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""6"", ""fragment"": ""eAA cABc"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""26440"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""6"", ""fragment"": ""eAA ^fA^gA"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""26440"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""6"", ""fragment"": ""ab^g a=g^fe"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:EAA cABc|Ffed cBd|eAA cABc|FE_E=E ^GEB:|
 |:eAA eA^fA|eAA ^fA^gA|ab^g a=g^fe|^de^fg fed:|"
 18665,36626,Fuck The Tories,mkenneth,https://thesession.org/tunes/18665#setting36626,Overfull interior measure,"{""current_internal_bars"": [{""setting_id"": ""36626"", ""bar"": 11, ""category"": ""irregular"", ""duration_eighths"": ""10"", ""expected_eighths"": ""8"", ""fragment"": ""c3 dcd cBAB"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:GABc|d2 de dcBA|GABG D2 EF|G2 GA BABc|d2 A2 dcBA|
@@ -9446,14 +9409,6 @@ c/B/c/d/ e/c/B/A/|B/A/B/c/ d/e/f/g/|A/B/c/A/ G/F/E/D/|GBGz:|"
 ~F3G ~A4~|defg f2ed|c2cA BAG2|1 E2ED E2FE:|2 E2ED E2D2||
 |:dAde f2fg|a2ag f2ed|g2ga gfed|e2ed e2fe
 dAde f2fg|fdAB d2 (3def|e2c2 A2e2|d4 dBAF:|"
-20116,39799,"International Appalachian Trail, The",Eli,https://thesession.org/tunes/20116#setting39799,Possible short interior measure; Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""39799"", ""bar"": 26, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": ""B3 B2 B d"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","|:E3 E3 G2|E2 D2 B,2 D2|E3 E G2 A2|B6 FG|
-A3 A3 G2|F2 E2 D4|F3 F3 E2|D2 B,2 A,2 D2|
-E3 E3 G2|E2 D2 B,2 D2|E3 E G2 A2|B3 d BA G2|A8|
-B, D3 F4|B, D2 F2 G FD|F2 E2 E2 D2|1 E3 B,2 B, D2:|2 E3 B2 B d2||
-|:e3 e3 ed|ed B2 B2 c2|d3 d2 c BA|F2 E2 D4|
-C2 E2 A2 B2|c3 c2 d cA|c2 B2 B2 A2|B3 B2 B d|
-e3 e3 ed|ed B2 B2 c2|d3 d2 c BA|F2 E2 D4|
-B, D3 F4|B, D2 F2 G FD|F2 E2 E2 D2:|"
 6398,21154,"International Schottische, The",Sol Foster,https://thesession.org/tunes/6398#setting21154,Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""21154"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""db ca"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""Bg g/d/B/G/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""Fe e/d/c/A/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""Gg g/d/B/c/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""\r\ndb ca"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""Bg g/d/B/G/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""Fe e/d/c/A/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 12, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""fe d((3d/^c/d/)"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""eB ^cA"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 14, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""d/e/f/g/ aA/A/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""\r\ngf e((3A/^c/e/)"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""fe e{e}((3d/^c/d/)"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 17, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""eB ^cA"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 20, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""GA/B/ c/d/e/f/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 21, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""gB d2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 22, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""eA c2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 23, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""dG B2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 24, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""\r\nGA/B/ c/d/e/f/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 25, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""gB d2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""21154"", ""bar"": 26, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""eA cF"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","B/c/ +segno+|db ca|Bg g/d/B/G/|Fe e/d/c/A/|Gg g/d/B/c/|
 db ca|Bg g/d/B/G/|Fe e/d/c/A/|G{A}G/F/ +fermata+ G||
 A/A/|gf e*((3A/^c/e/)|fe d((3d/^c/d/)|eB ^cA|d/e/f/g/ aA/A/|
@@ -11339,9 +11294,9 @@ e2d2g2|d2B2g2|c2A2c2|B3cd2|e3fg2|G3AB2|D2A2F2|G6|"
 eAAB AGEF|GAGE DEGA|eAAB AGEF|GAGE D2||
 cdeaaf gfed|efed gBBg|eaaf gfed|efed g2 fg|
 eaaf gfed|efed gBBg|eaaf gfed|=cA BG A2|"
-699,699,Laura Lynn Cunningham,Josh Kane,https://thesession.org/tunes/699#setting699,Possible short interior measure; Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""699"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": ""\r\nFB~B2 ABc"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""699"", ""bar"": 11, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": ""FB2 FBBc"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","FB~B2 Ac~c2|d2fd eAcA|FB(3BBB FBBc|Acef c2BA|
+699,699,Laura Lynn Cunningham,Josh Kane,https://thesession.org/tunes/699#setting699,Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""699"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": ""\r\nFB~B2 ABc"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","FB~B2 Ac~c2|d2fd eAcA|FB(3BBB FBBc|Acef c2BA|
 FB~B2 ABc|d2fd eAcA|B2fB ecAB|BAdc ~B2BA|
-FBBB Ac~c2|d2fd eAcA|FB2 FBBc|Acef c2ba|
+FBBB Ac~c2|d2fd eAcA|FBB2 FBBc|Acef c2ba|
 bfab efaf|eAcd dcBA|BF~F2 ABcf|~f2ec B3z|
 |:~B2 c/B/A BF~F2|EFAB ceae|f B~B2 FBBc|Acef c2BA|
 BbbB a2fe|cfec ecAc|B~F2F ABce|~f2ec ~B2BA:|"
@@ -11458,16 +11413,6 @@ ag de ga|ed AB de|AG EG3|BA G (E3|E3):|"
 8085,19298,Leaving Uist,Bob MacLean,https://thesession.org/tunes/8085#setting19298,Overfull interior measure; Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""19298"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""Dadd9"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19298"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""3/2"", ""expected_eighths"": ""6"", ""fragment"": ""G/D"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19298"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""Aadd9"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19298"", ""bar"": 9, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nDadd9"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19298"", ""bar"": 12, ""category"": ""irregular"", ""duration_eighths"": ""1"", ""expected_eighths"": ""6"", ""fragment"": ""G"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19298"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""1"", ""expected_eighths"": ""6"", ""fragment"": ""G"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19298"", ""bar"": 14, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""Dadd9"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19298"", ""bar"": 18, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""Dadd9"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19298"", ""bar"": 20, ""category"": ""irregular"", ""duration_eighths"": ""3/2"", ""expected_eighths"": ""6"", ""fragment"": ""G/D"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","Em|Em|Dadd9|A/C#|G/D|A/C#|Em/B|Aadd9|
 Dadd9|Em|D/F#|G|G|Dadd9|Em|Aadd9
 Em|Em|Dadd9|A/C#|G/D|A/C#|Em/B|Aadd9|"
-8085,19299,Leaving Uist,justjim,https://thesession.org/tunes/8085#setting19299,Possible short interior measure; Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""19299"", ""bar"": 19, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""age2c"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","ed||B3 BAG|AGE2EG|A3 BA2|e3 ede|
-g3 aag|edB2BA|G3 AAG|E3 eed|
-B3 BAG|AGE2EG|A3 BA2|e3 ede|
-g3 aag|edB2BA|G3 Bde|A3 aa2|
-a3 bb2|age2c|d3 eg2|g3 aag|
-deg aed|ABd eAG|G3 dB2|E3 eed|
-B3 BAG|AGE2EG|A3 dB2|e3 ede|
-g3 aag|edB2BA|G3 ABd|A3 eed|
-B3 BAG|AGE2EG|A3 BA2|e3 ede|
-g3 aag|edB2BA|G3 AAG|E3||"
 5552,40516,Leddy From Cavan,Shelley,https://thesession.org/tunes/5552#setting40516,Overfull interior measure; Missing barline,"{""current_internal_bars"": [{""setting_id"": ""40516"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""16"", ""expected_eighths"": ""8"", ""fragment"": ""defd Adfd\r\ncdef g2 fg"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""missing_barline""]}","DE|:=FEDF EDCE|Dddc defd|=c2 cB cAGE|=FEDF EDCE|
 DE=FE DA,B,A,|FGAF G2 FG|Addc defd|1 =cAGE D2 EG:|2 =cAGE DEFA||
 |:d2 fd Adfd|=c2 ec Gcec|d2 fd Adfa|gfge fddc|defd Adfd
@@ -14820,30 +14765,6 @@ ABA GEC|D3 ^F/E/DF|A3 A z2:|
 ""D""d>e dB AF DF|""G""G>E F>D B,>B, B,|
 d|""D""A>B d>e ""G""f>e df|""Em""e>d ef e>d ""G""B>d|
 ""D""A>B d>e f>e d>f|""Em""e>d ""G""g>f e>e d||"
-1499,23587,"Old Bush, The",JACKB,https://thesession.org/tunes/1499#setting23587,Overfull interior measure,"{""current_internal_bars"": [{""setting_id"": ""23587"", ""bar"": 83, ""category"": ""irregular"", ""duration_eighths"": ""10"", ""expected_eighths"": ""8"", ""fragment"": ""c)fge g2 fage"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","AAGA cA A2|dcde fdec|AAGA cA A2|dfed cAdc|
-A2 GA cA A2|dcde fd (3efg|afge fdec|dfed cAdc|
-{G}A2 GA cA A2|dcde fdec|A2 GA cA A2|dfed cAdc|
-{G}A2 GA cA A2|Dcde fd (3efg|af (3gfe fdec|dfed cA A2||
-eg g2 ed (3Bcd|efge c3d|eg g2 afge|dfed cA A2|
-eg g2 ag g2|fdec defg|af (3gfe fdec|dfed cA A2|
-eg g2 ed (3Bcd|efge c3d|eg g2 afge|dfed cA A2|
-eg g2 agbg|fd (3Bcd ed (3efg|af (3gfe fdec|dfed cAcd||
-A3B cA A2|(3Bcd de fdec|A2 GA cA A2|(3Bcd ed cAdc|
-ADGA cA A2|Dcde fd (3efg|afge fdec|dfed cAdc|
-{G}A2 DA cA A2|Dcde fdec|A2 DA cA A2|DdcA GcAG|
-A3B cA A2|D2 de fd (3efg|af (3gfe fdec|dfed cA A2||
-g3e dG (3Bcd|efge c3d|eggg aage|dfed cA A2|
-eg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed (3Bcd ef|
-g3e dG (3Bcd|efge (c4|c)fge fage|dfed cA A2|
-eg g2 agbg|fd ed (3Bcd (3efg|af (3gfe fdec|dfed cAcd||
-gA GA cA A2|Dcde fdec|ADGA cA A2|ADGA (3Bcd BG|
-A2 GA cA A2|(3Bcd eA fA g2|abga fgef|dfed cAdc|
-{G}A2 GA cA A2|(3Bcd de fdec|ADGA cA A2|(3Bcd ed cAdc|
-GAAB cA A2|D2 de fd (3efg|df (3gfe fdec|dfed cdef||
-g3e dG (3Bcd|efge (c4|c)fge g2 fage|dfed cA A2|
-eg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed cA A2|
-eg g2 ed (3Bcd|efge c3d|eg g2 abge|dfed cA A2|
-eg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed cAdc||"
 4137,33082,"Old Claddagh Ring, The",Ash O'Rourke,https://thesession.org/tunes/4137#setting33082,Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""33082"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""GAG"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""EDE"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""ded"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""dBd"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""ege"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""dBA"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""GAB"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 9, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""A2 D"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nGAG"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 11, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""EDE"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 12, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""ded"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""dBd"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 14, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""ege"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""dBG"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""ABA"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 17, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""G2 d"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 18, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\r\ndBc"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 19, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""def"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 20, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""gfg"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 21, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""edd"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 22, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""ege"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 23, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""dBA"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 24, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""GAB"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 25, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""A2D"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 26, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\r\ndBc"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 27, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""def"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 28, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""gfg"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 29, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""edd"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 30, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""ege"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 31, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""dBG"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""33082"", ""bar"": 32, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""ABA"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","D2|GAG|EDE|ded|dBd|ege|dBA|GAB|A2 D|
 GAG|EDE|ded|dBd|ege|dBG|ABA|G2 d|
 dBc|def|gfg|edd|ege|dBA|GAB|A2D|
@@ -16278,6 +16199,13 @@ d3 c AGFE|D (3DDD D3||d3 A cdeg|a3 ecdc A|c d2 e dcdg|
 a2 gbag ec|d2 ed c2 c'b|aged dcAc|d2 cBAG FE|D3 EFDF A||d3 A c2 eg|
 a3 ecdc A2|d3 A cdeg|a2 gb agec|d2 ad c3 e|ag e2 dc A2|
 (dcBA GFED|D8)||"
+772,57199,Queen Of The Fair,leprecawn,https://thesession.org/tunes/772#setting57199,Playback check failed,"{""current_internal_bars"": [], ""previous_source_flags"": [], ""playback_rejection"": ""abcjs: Unexpected note or timing change""}","|:E| FEF DA,A,|DFA dAF|GFG FGA|BGE EAG|
+FEF DA,A,|DFA dAF|GFG EAG| FDD D2:|
+|:g | fdf ece|dAG FEF|DFA dAF|GFG E2g|
+fdf ece|dAG FED|EFG BAG|FDD D2 :|
+|:B|Add fdd|add fdd|Bef ~g2 e|fdf ecA|
+[1 Add fdd|add fdd|EFG BAG|FDD D2 :|
+[2 afa geg|fdf ecA|EFG BAG|FDD D2||"
 10215,22810,Queen Of The Fairies,Lucy Rietmann,https://thesession.org/tunes/10215#setting22810,Overfull interior measure; Incorrect note length,"{""current_internal_bars"": [{""setting_id"": ""22810"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""9"", ""expected_eighths"": ""8"", ""fragment"": ""e'3 a2 c'b a2"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""proven_long_note""]}","|:~A3B ~c3d|e2a2 g2 a2|(3efe d2 (3cdc B2|ABAG E2 D2|
 E2 ~A3 Bcd|e2a2 g2 a2|(3efe de g2 B2|1 B2 A2 A2 E2:|2 B2 A2 A4||
 |:e2 a2 c'2 a2|e'2 a2 c'b a2|e2 g2 d2 g2|Bdge dBGB|
@@ -17548,10 +17476,6 @@ e2ag ed B/c/d|edef g2 fg|a/g/fge fded|Bgec d2 B/c/d||"
 G2 A2 B3A|B2 B>A G2 F2|G4 G3A|B2 E2 E4|e4 B3A|G2 E2 E4|
 G2 A2 B3A|B2 B>A G2 F2|G2 B2 e3B|B2 A2 G2 F2
 B3A B3A|B2 B>A G2 F2|G4 G3A|B2 E2 E4|e4 B3A|G2 E2 E4||"
-8467,22468,Seamus Ennis',ceolachan,https://thesession.org/tunes/8467#setting22468,Possible short interior measure; Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""22468"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""AG FED"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","|:AG|FDF ABc|dAG FED|~G3 FGA|BGE EAG|
-FDF ABc|dAG FED|dfa gec|dAF D:|
-|:df|afd gec|dAG FED|~G3 FGA|BGE E2 f|
-afd gec|AG FED|dfa gec|dAF D:|"
 10503,29692,Seamus Mor McKenna's,Tuney McGoony,https://thesession.org/tunes/10503#setting29692,Overfull interior measure,"{""current_internal_bars"": [{""setting_id"": ""29692"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""8"", ""fragment"": ""BdAG FDAD GE(3EEE"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:BdAG FDAD|FDAD BDAD|BdAG FDAD GE(3EEE|GABc:|
 defg afdf|(3gagfg edce|1 defg afdf|
 gabg e2 (3ABc:|2 dABA FAdf|gabg eABA||"
@@ -19094,14 +19018,6 @@ d>e d>B|A>B A>F|E>D E>F|D4:|
 [2d>e d>B|A2 A>F|E>D E>F|d4||"
 7279,18805,Taylor's Quickstep,The Merry Highlander,https://thesession.org/tunes/7279#setting18805,Overfull interior measure,"{""current_internal_bars"": [{""setting_id"": ""18805"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""G2BG dGBG"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""18805"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""ABcd eaba"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""18805"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""d2fd adfd"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""18805"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""edef gfed"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:ABcd efge|G2BG dGBG|ABcd eaba|gfgB BAA2:|
 |:geef gee2|d2fd adfd|edef gfed|BAGB BAA2:|"
-2450,2450,Tea Gardens,George Seto,https://thesession.org/tunes/2450#setting2450,Possible short interior measure; Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""2450"", ""bar"": 14, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nDF A2 d"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","|:B2 c|d^cd b2 a|g2 d B2 d|cBc ezc|A3- A2 G|
-FDF A2 d|f2 d A2 B|cBc edc|B3 B2 c|
-d^cd b2 a|g2 d B2 d|cBc ezc|A3- A2 G|
-DF A2 d|f2 d A2 B|cBc bfa|1 g3:|2 g3 g2||
-z|B,DG BGD|B,DG Bdg|e^de B2 =d|c3- c2 B|
-ABc ABc|a2 g f2 e|d^cd ed=c|B3 d3|
-B,DG BGD|B,DG Bdg|e^de B2 =d|c3- c2 B|
-ABc a2 g|f2 e A2b|c'bc' e2 f|g3||"
 26337,56751,Tea Picking Song,JACKB,https://thesession.org/tunes/26337#setting56751,Overfull interior measure,"{""current_internal_bars"": [{""setting_id"": ""56751"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""FGAc G4"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""cdAc GAFG"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""CDED C4"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""FGFD C4"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""4"", ""fragment"": ""F>G AGAc"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""c8"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""FGFD C4"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 11, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""4"", ""fragment"": ""F>G AGAc"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 12, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""G8"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""4"", ""fragment"": ""\r\nGE DEDC"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 14, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""AcGA C4"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""4"", ""fragment"": ""C8\r\nDD/F/ C C"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 18, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""4"", ""fragment"": ""FGAc G2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 19, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""4"", ""fragment"": ""dcAc G/F/G"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 22, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""4"", ""fragment"": ""C/C/D C4"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 23, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""4"", ""fragment"": ""DFGA C/D/C"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 25, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""4"", ""fragment"": ""FGAc G2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 33, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""4"", ""fragment"": ""cdcA G2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 34, ""category"": ""irregular"", ""duration_eighths"": ""9/2"", ""expected_eighths"": ""4"", ""fragment"": ""A>c FD/F"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 37, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""4"", ""fragment"": ""D>F C4"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 42, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""cccc cccc"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 43, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""dedc Acde"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 44, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""\r\nGGGG GGGG"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 47, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""4"", ""fragment"": ""cded c2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""56751"", ""bar"": 48, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""4"", ""fragment"": ""\r\nB>c dcdf"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","fgdf cdAc|FGAc G4|cdAc GAFG|CDED C4|
 F>D Fc/A/|FGFD C4|F>G AGAc|c8|
 AA/c/ GF|FGFD C4|F>G AGAc|G8|
@@ -19141,10 +19057,6 @@ a2 e<a f<a e>a|c>A {c}B>A c<e e>^g|a2 e>a f<d f>a|g>e d>B {AB}A2 A>G|"
 23566,48278,Teen,Michael Tyson,https://thesession.org/tunes/23566#setting48278,Overfull interior measure,"{""current_internal_bars"": [{""setting_id"": ""48278"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""19/2"", ""expected_eighths"": ""9"", ""fragment"": ""DD/D/D EFG FA>-A2"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:DD/D/D EFG FA>-A2|B,B,/B,/B, DEF FGE|DD/D/D EFG FA>-A2|ABD EFG EDC:|
 |:B,2B Bcd -dc/B/A|G2B Bcd edc|B,2B Bcd -dc/B/A|ABD EFG EDC:|
 |:D2d def dBA|GBd gaf edc|D2d def dBA|ABD EFG EDC:|"
-114,48896,"Teetotaller's, The",leprecawn,https://thesession.org/tunes/114#setting48896,Overfull interior measure,"{""current_internal_bars"": [{""setting_id"": ""48896"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""9"", ""expected_eighths"": ""8"", ""fragment"": ""BGAGF GFED"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:(3DEF|G2GF GABc|d2eB dBAc|BEED EFGA|BGAGF GFED|
-DGGF GABc|d2eB dBAc|BEED EFGA|BcAF G2:|
-|:A2|Beed e2 ef|geaf gfed|Bdd^c d2 de|fdaf gfed|
-Beed e2 ef|geaf gfed|BEED EFGA|BcAF G2:|"
 1004,23275,"Tempest, The",Lucy Rietmann,https://thesession.org/tunes/1004#setting23275,Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""23275"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": ""DEGE c (3EEE"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""23275"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": ""DEGE c (3EEE"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:d2 cA GE (3EEE|DEGE c (3EEE|d2cA GEcE|EDCD ED2A|
 d2 cA GE (3EEE|DEGE c (3EEE|AdcA GEcE|EDCD ED (3DDD:|
 |:d2 ed cAGc|AdcA GE (3EEE|d2 ed cdeg|edcA d4|
@@ -21146,7 +21058,7 @@ a2 (3gfe faed|e(g ~g2) e(g ~g2)|agge faed|ef (3gfe (a4|
 a)bga fa (3fed|e(g ~g2 g) (3fed (a|a2) (3gfe fdfd|ef (3gfe a2 ed|
 c2 z A (3Bcd eg|(3fed ef dcAG|EAAG (3Bcd eg|(3fed ef d2 z2|
 z c2 z A (3Bcd eg|ffef dcAG|E2 AE (3Bcd eg|(3fed ef d2 z2||"
-10446,45817,"Zakynthos, The",JACKB,https://thesession.org/tunes/10446#setting45817,Possible short interior measure; Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""45817"", ""bar"": 19, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""d c2 B2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""45817"", ""bar"": 23, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""d c2 B2"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","|:""Am""a2 a gag|e2 a a2 g|e2 c BcB|A2 F ""F""F3|
+10446,45817,"Zakynthos, The",JACKB,https://thesession.org/tunes/10446#setting45817,Possible short interior measure; Playback check failed; Short interior measure,"{""current_internal_bars"": [{""setting_id"": ""45817"", ""bar"": 19, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""d c2 B2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""45817"", ""bar"": 23, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""d c2 B2"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""], ""playback_rejection"": ""abcjs: Unexpected note or timing change""}","|:""Am""a2 a gag|e2 a a2 g|e2 c BcB|A2 F ""F""F3|
 ""Am""EAB cBA|""F""FAB cBA|""G""B2 B edc|""Am""Bcd cBA:|
 |:""Am""EAB cBA|""F""FAB cBA|""G""B2 B edc|""Am""Bcd cBA|
 ""Am""EAB cBA|""F""FAB cBA|""G""B2 B edc|1 B2 A""Am""A3:|2 B2A ""Am""ABc||

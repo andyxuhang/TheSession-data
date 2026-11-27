@@ -22,6 +22,7 @@ LABELS = {
     'accidental_typo': 'Incorrect accidental',
     'note_typo': 'Incorrect melody note',
     'octave_typo': 'Incorrect octave',
+    'extra_note': 'Surplus note',
     'missing_note': 'Omitted note',
     'stray_control': 'Stray control character',
     'missing_triplet': 'Omitted triplet mark',
@@ -166,8 +167,8 @@ def main():
         '- Complete measures in another passage support barline and timing corrections. '
         'A line break between two complete measures can also support a missing divider when '
         'one of those measures and its neighbor match a written reference.',
-        '- A missing note requires the same completed phrase and both neighboring measures '
-        'in settings from at least two other contributors.',
+        '- Omitted and surplus notes require a matching complete measure and both neighbors. '
+        'Independent transcriptions or a longer matching passage support the change.',
         '- Pitch edits rely on matching written phrases and corroboration from a longer passage, '
         'independent contributors, or a separate written repetition. '
         'Playback checks require the intended pitch change and preserve every other event.',

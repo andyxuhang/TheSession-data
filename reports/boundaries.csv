@@ -13688,10 +13688,10 @@ ged B2 A|BGE G2 A|(3Bcd B AGA|1 BGF G2 B:|2 BGF G2 f||"
 G3 GBd|edB g2 f|edB AGA|BGF G2:|
 def g3|afd edB|def g3|afd e2 d|
 def g2 b|faa efg|edB AGA|BGF G2:|"
-1035,14261,"Boys Of The Town, The",ceolachan,https://thesession.org/tunes/1035#setting14261,"Pickup, ending or repeat boundary","[{""setting_id"": ""14261"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""BGG G2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""14261"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""BGG G2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""14261"", ""bar"": 20, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""BGG G2"", ""reason"": ""No unique supported correction""}]","|:GFG GBd|edB dBA|GFG GBd|edB AFD|
+1035,14261,"Boys Of The Town, The",ceolachan,https://thesession.org/tunes/1035#setting14261,"Pickup, ending or repeat boundary","[{""setting_id"": ""14261"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""BGG G2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""14261"", ""bar"": 20, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""BGG G2"", ""reason"": ""No unique supported correction""}]","|:GFG GBd|edB dBA|GFG GBd|edB AFD|
 GFG GBd|edB gfg|edB AGA|BGG G2:|
 def gfg|afd edB|def gfg|afd e2 d|
-[1 def gfg|afd efg|edB AGA|BGG G2:|
+[1 def gfg|afd efg|edB AGA|BGG G2B:|
 [2 def gbb|faa efg|edB AGA|BGG G2||"
 1035,14262,"Boys Of The Town, The",ceolachan,https://thesession.org/tunes/1035#setting14262,"Pickup, ending or repeat boundary","[{""setting_id"": ""14262"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""BGF G2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""14262"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""BGF G2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""14262"", ""bar"": 20, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""BGF G2"", ""reason"": ""No unique supported correction""}]","|:GDG GB/c/d|edB dBF|GAF GBd|edB A2 D|
 ~G3 GBd|edB gfg|edB A^GA|BGF G2:|
@@ -63610,7 +63610,7 @@ Em|Em|Dadd9|A/C#|G/D|A/C#|Em/B|Aadd9|"
 g3 aag|edB2BA|G3 AAG|E3 eed|
 B3 BAG|AGE2EG|A3 BA2|e3 ede|
 g3 aag|edB2BA|G3 Bde|A3 aa2|
-a3 bb2|age2c|d3 eg2|g3 aag|
+a3 bb2|age2ec|d3 eg2|g3 aag|
 deg aed|ABd eAG|G3 dB2|E3 eed|
 B3 BAG|AGE2EG|A3 dB2|e3 ede|
 g3 aag|edB2BA|G3 ABd|A3 eed|
@@ -99883,7 +99883,7 @@ d2 B e2 B|d2 B e2 B|def gdc|BGG G:|"
 8467,22468,Seamus Ennis',ceolachan,https://thesession.org/tunes/8467#setting22468,"Pickup, ending or repeat boundary","[{""setting_id"": ""22468"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""6"", ""fragment"": ""AG"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""22468"", ""bar"": 9, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""6"", ""fragment"": ""dAF D"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""22468"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""6"", ""fragment"": ""df"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""22468"", ""bar"": 18, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""6"", ""fragment"": ""dAF D"", ""reason"": ""No unique supported correction""}]","|:AG|FDF ABc|dAG FED|~G3 FGA|BGE EAG|
 FDF ABc|dAG FED|dfa gec|dAF D:|
 |:df|afd gec|dAG FED|~G3 FGA|BGE E2 f|
-afd gec|AG FED|dfa gec|dAF D:|"
+afd gec|dAG FED|dfa gec|dAF D:|"
 6374,6374,Seamus Martin's,fiddleguru,https://thesession.org/tunes/6374#setting6374,"Pickup, ending or repeat boundary","[{""setting_id"": ""6374"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""8"", ""fragment"": ""CB,"", ""reason"": ""No unique supported correction""}]","CB,|:(A,{C}A,{G,}A,)(B, CA,)CE|D/E/(D {G}D)F EAA(B|
 {d}cA)AB cde(d|cB)Ac B/c/(B A)F|
 EFE(C A,B,)CE|D/E/(D {G}D)(F EA)AB|
@@ -108582,7 +108582,7 @@ ABc AA/B/c|a2 g f2 e|1 d^cd ed=c|B3- B:|2 c'bc' e2 f|g3||"
 2450,2450,Tea Gardens,George Seto,https://thesession.org/tunes/2450#setting2450,"Pickup, ending or repeat boundary","[{""setting_id"": ""2450"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""B2 c"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""2450"", ""bar"": 17, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": "" g3"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""2450"", ""bar"": 18, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": "" g3 g2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""2450"", ""bar"": 19, ""category"": ""irregular"", ""duration_eighths"": ""1"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nz"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""2450"", ""bar"": 35, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""g3"", ""reason"": ""No unique supported correction""}]","|:B2 c|d^cd b2 a|g2 d B2 d|cBc ezc|A3- A2 G|
 FDF A2 d|f2 d A2 B|cBc edc|B3 B2 c|
 d^cd b2 a|g2 d B2 d|cBc ezc|A3- A2 G|
-DF A2 d|f2 d A2 B|cBc bfa|1 g3:|2 g3 g2||
+FDF A2 d|f2 d A2 B|cBc bfa|1 g3:|2 g3 g2||
 z|B,DG BGD|B,DG Bdg|e^de B2 =d|c3- c2 B|
 ABc ABc|a2 g f2 e|d^cd ed=c|B3 d3|
 B,DG BGD|B,DG Bdg|e^de B2 =d|c3- c2 B|
@@ -108755,7 +108755,7 @@ Beed e2ef|geaf gfed|BEED EFGA|1 BGAF G2GA:|2 BGAF GFED||"
 G3F GABc|dgge dBAc|BEED EFGA|BGAF G2:|
 |:A2|Beed e3f|geaf gfed|Add^c d3e|fdaf gfed|
 Beed e3f|geaf gfed|BEED EFGA|BGAF G2:|"
-114,48896,"Teetotaller's, The",leprecawn,https://thesession.org/tunes/114#setting48896,"Pickup, ending or repeat boundary","[{""setting_id"": ""48896"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""8"", ""fragment"": ""(3DEF"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""48896"", ""bar"": 9, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""BcAF G2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""48896"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""8"", ""fragment"": ""A2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""48896"", ""bar"": 18, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""BcAF G2"", ""reason"": ""No unique supported correction""}]","|:(3DEF|G2GF GABc|d2eB dBAc|BEED EFGA|BGAGF GFED|
+114,48896,"Teetotaller's, The",leprecawn,https://thesession.org/tunes/114#setting48896,"Pickup, ending or repeat boundary","[{""setting_id"": ""48896"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""8"", ""fragment"": ""(3DEF"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""48896"", ""bar"": 9, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""BcAF G2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""48896"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""8"", ""fragment"": ""A2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""48896"", ""bar"": 18, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""BcAF G2"", ""reason"": ""No unique supported correction""}]","|:(3DEF|G2GF GABc|d2eB dBAc|BEED EFGA|BGAF GFED|
 DGGF GABc|d2eB dBAc|BEED EFGA|BcAF G2:|
 |:A2|Beed e2 ef|geaf gfed|Bdd^c d2 de|fdaf gfed|
 Beed e2 ef|geaf gfed|BEED EFGA|BcAF G2:|"

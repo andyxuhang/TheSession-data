@@ -1,0 +1,490 @@
+{
+  "base_commit": "ab749a6f35c8ccca964b6611850af04c67f4ebe8",
+  "method": "Matching written phrases and independent verification of an individual note count change",
+  "scanner_sha256": "495c269c2748ecdcb025558ca876b8ea96c58bdc00af9c6a7ee598316c8c61e0",
+  "corrections": [
+    {
+      "tune_id": "114",
+      "setting_id": "48896",
+      "name": "Teetotaller's, The",
+      "original_contributor": "leprecawn",
+      "source_url": "https://thesession.org/tunes/114#setting48896",
+      "category": "extra_note",
+      "before_abc": "|:(3DEF|G2GF GABc|d2eB dBAc|BEED EFGA|BGAGF GFED|\r\nDGGF GABc|d2eB dBAc|BEED EFGA|BcAF G2:|\r\n|:A2|Beed e2 ef|geaf gfed|Bdd^c d2 de|fdaf gfed|\r\nBeed e2 ef|geaf gfed|BEED EFGA|BcAF G2:|",
+      "after_abc": "|:(3DEF|G2GF GABc|d2eB dBAc|BEED EFGA|BGAF GFED|\r\nDGGF GABc|d2eB dBAc|BEED EFGA|BcAF G2:|\r\n|:A2|Beed e2 ef|geaf gfed|Bdd^c d2 de|fdaf gfed|\r\nBeed e2 ef|geaf gfed|BEED EFGA|BcAF G2:|",
+      "before_sha256": "684dcd1bbeca524e5e288e5d490e9c9c7dd24ca0ded9cd98c7a08e25e1aca3e2",
+      "after_sha256": "4f0954a7046a0ac6a6028c7dc244768e5859f1295247474c55150ceab46aecfd",
+      "evidence": [
+        {
+          "rule": "extra_note",
+          "bar": 5,
+          "note_count_change": -1,
+          "before": "BGAGF GFED",
+          "after": "BGAF GFED",
+          "token": "G",
+          "duration_eighths": "1",
+          "midi": 67,
+          "possible_offsets": [
+            3
+          ],
+          "reference_ranges": [
+            [
+              "40745",
+              5,
+              5
+            ],
+            [
+              "53702",
+              4,
+              4
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": false,
+          "scan_pass": 1,
+          "changed_note_occurrences": 2,
+          "abcjs": {
+            "setting_id": "48896",
+            "passed": true,
+            "changed_note_occurrences": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 41,
+          "end": 42,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "699",
+      "setting_id": "699",
+      "name": "Laura Lynn Cunningham",
+      "original_contributor": "Josh Kane",
+      "source_url": "https://thesession.org/tunes/699#setting699",
+      "category": "missing_note",
+      "before_abc": "FB~B2 Ac~c2|d2fd eAcA|FB(3BBB FBBc|Acef c2BA|\r\nFB~B2 ABc|d2fd eAcA|B2fB ecAB|BAdc ~B2BA|\r\nFBBB Ac~c2|d2fd eAcA|FB2 FBBc|Acef c2ba|\r\nbfab efaf|eAcd dcBA|BF~F2 ABcf|~f2ec B3z|\r\n|:~B2 c/B/A BF~F2|EFAB ceae|f B~B2 FBBc|Acef c2BA|\r\nBbbB a2fe|cfec ecAc|B~F2F ABce|~f2ec ~B2BA:|",
+      "after_abc": "FB~B2 Ac~c2|d2fd eAcA|FB(3BBB FBBc|Acef c2BA|\r\nFB~B2 ABc|d2fd eAcA|B2fB ecAB|BAdc ~B2BA|\r\nFBBB Ac~c2|d2fd eAcA|FBB2 FBBc|Acef c2ba|\r\nbfab efaf|eAcd dcBA|BF~F2 ABcf|~f2ec B3z|\r\n|:~B2 c/B/A BF~F2|EFAB ceae|f B~B2 FBBc|Acef c2BA|\r\nBbbB a2fe|cfec ecAc|B~F2F ABce|~f2ec ~B2BA:|",
+      "before_sha256": "cf722250e93a2619afba61b7850a59e84181b924b2b3d68a6bc24e71ad0e4b9d",
+      "after_sha256": "b73e807d9269e04f9e2dab8d68f3fe13c939ebca3cfac86dfc7c12b692dcfcef",
+      "evidence": [
+        {
+          "rule": "missing_note",
+          "bar": 11,
+          "note_count_change": 1,
+          "before": "FB2 FBBc",
+          "after": "FBB2 FBBc",
+          "token": "B",
+          "duration_eighths": "1",
+          "midi": 71,
+          "possible_offsets": [
+            1
+          ],
+          "reference_ranges": [
+            [
+              "41173",
+              11,
+              11
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_note_occurrences": 1,
+          "abcjs": {
+            "setting_id": "699",
+            "passed": true,
+            "changed_note_occurrences": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 112,
+          "end": 112,
+          "text": "B"
+        }
+      ]
+    },
+    {
+      "tune_id": "1035",
+      "setting_id": "14261",
+      "name": "Boys Of The Town, The",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/1035#setting14261",
+      "category": "missing_note",
+      "before_abc": "|:GFG GBd|edB dBA|GFG GBd|edB AFD|\r\nGFG GBd|edB gfg|edB AGA|BGG G2:|\r\ndef gfg|afd edB|def gfg|afd e2 d|\r\n[1 def gfg|afd efg|edB AGA|BGG G2:|\r\n[2 def gbb|faa efg|edB AGA|BGG G2||",
+      "after_abc": "|:GFG GBd|edB dBA|GFG GBd|edB AFD|\r\nGFG GBd|edB gfg|edB AGA|BGG G2:|\r\ndef gfg|afd edB|def gfg|afd e2 d|\r\n[1 def gfg|afd efg|edB AGA|BGG G2B:|\r\n[2 def gbb|faa efg|edB AGA|BGG G2||",
+      "before_sha256": "2575fb88bb5b9a5ee7f441d145f82f3486a15460eee7f6ebae477282121f1ad8",
+      "after_sha256": "73f9cbaee6720c2ac84a6486e38df58ca08dd5a509011d99a9cc78d59ee72f88",
+      "evidence": [
+        {
+          "rule": "missing_note",
+          "bar": 16,
+          "note_count_change": 1,
+          "before": "BGG G2",
+          "after": "BGG G2B",
+          "token": "B",
+          "duration_eighths": "1",
+          "midi": 71,
+          "possible_offsets": [
+            6
+          ],
+          "reference_ranges": [
+            [
+              "1035",
+              18,
+              18
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_note_occurrences": 1,
+          "abcjs": {
+            "setting_id": "14261",
+            "passed": true,
+            "changed_note_occurrences": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 138,
+          "end": 138,
+          "text": "B"
+        }
+      ]
+    },
+    {
+      "tune_id": "1499",
+      "setting_id": "23587",
+      "name": "Old Bush, The",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/1499#setting23587",
+      "category": "extra_note",
+      "before_abc": "AAGA cA A2|dcde fdec|AAGA cA A2|dfed cAdc|\r\nA2 GA cA A2|dcde fd (3efg|afge fdec|dfed cAdc|\r\n{G}A2 GA cA A2|dcde fdec|A2 GA cA A2|dfed cAdc|\r\n{G}A2 GA cA A2|Dcde fd (3efg|af (3gfe fdec|dfed cA A2||\r\neg g2 ed (3Bcd|efge c3d|eg g2 afge|dfed cA A2|\r\neg g2 ag g2|fdec defg|af (3gfe fdec|dfed cA A2|\r\neg g2 ed (3Bcd|efge c3d|eg g2 afge|dfed cA A2|\r\neg g2 agbg|fd (3Bcd ed (3efg|af (3gfe fdec|dfed cAcd||\r\nA3B cA A2|(3Bcd de fdec|A2 GA cA A2|(3Bcd ed cAdc|\r\nADGA cA A2|Dcde fd (3efg|afge fdec|dfed cAdc|\r\n{G}A2 DA cA A2|Dcde fdec|A2 DA cA A2|DdcA GcAG|\r\nA3B cA A2|D2 de fd (3efg|af (3gfe fdec|dfed cA A2||\r\ng3e dG (3Bcd|efge c3d|eggg aage|dfed cA A2|\r\neg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed (3Bcd ef|\r\ng3e dG (3Bcd|efge (c4|c)fge fage|dfed cA A2|\r\neg g2 agbg|fd ed (3Bcd (3efg|af (3gfe fdec|dfed cAcd||\r\ngA GA cA A2|Dcde fdec|ADGA cA A2|ADGA (3Bcd BG|\r\nA2 GA cA A2|(3Bcd eA fA g2|abga fgef|dfed cAdc|\r\n{G}A2 GA cA A2|(3Bcd de fdec|ADGA cA A2|(3Bcd ed cAdc|\r\nGAAB cA A2|D2 de fd (3efg|df (3gfe fdec|dfed cdef||\r\ng3e dG (3Bcd|efge (c4|c)fge g2 fage|dfed cA A2|\r\neg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed cA A2|\r\neg g2 ed (3Bcd|efge c3d|eg g2 abge|dfed cA A2|\r\neg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed cAdc||",
+      "after_abc": "AAGA cA A2|dcde fdec|AAGA cA A2|dfed cAdc|\r\nA2 GA cA A2|dcde fd (3efg|afge fdec|dfed cAdc|\r\n{G}A2 GA cA A2|dcde fdec|A2 GA cA A2|dfed cAdc|\r\n{G}A2 GA cA A2|Dcde fd (3efg|af (3gfe fdec|dfed cA A2||\r\neg g2 ed (3Bcd|efge c3d|eg g2 afge|dfed cA A2|\r\neg g2 ag g2|fdec defg|af (3gfe fdec|dfed cA A2|\r\neg g2 ed (3Bcd|efge c3d|eg g2 afge|dfed cA A2|\r\neg g2 agbg|fd (3Bcd ed (3efg|af (3gfe fdec|dfed cAcd||\r\nA3B cA A2|(3Bcd de fdec|A2 GA cA A2|(3Bcd ed cAdc|\r\nADGA cA A2|Dcde fd (3efg|afge fdec|dfed cAdc|\r\n{G}A2 DA cA A2|Dcde fdec|A2 DA cA A2|DdcA GcAG|\r\nA3B cA A2|D2 de fd (3efg|af (3gfe fdec|dfed cA A2||\r\ng3e dG (3Bcd|efge c3d|eggg aage|dfed cA A2|\r\neg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed (3Bcd ef|\r\ng3e dG (3Bcd|efge (c4|c)fge fage|dfed cA A2|\r\neg g2 agbg|fd ed (3Bcd (3efg|af (3gfe fdec|dfed cAcd||\r\ngA GA cA A2|Dcde fdec|ADGA cA A2|ADGA (3Bcd BG|\r\nA2 GA cA A2|(3Bcd eA fA g2|abga fgef|dfed cAdc|\r\n{G}A2 GA cA A2|(3Bcd de fdec|ADGA cA A2|(3Bcd ed cAdc|\r\nGAAB cA A2|D2 de fd (3efg|df (3gfe fdec|dfed cdef||\r\ng3e dG (3Bcd|efge (c4|c)fge  fage|dfed cA A2|\r\neg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed cA A2|\r\neg g2 ed (3Bcd|efge c3d|eg g2 abge|dfed cA A2|\r\neg g2 agbg|fded (3Bcd fg|af (3gfe fdec|dfed cAdc||",
+      "before_sha256": "4513b2476d7495cdc1c89d3360d8e9ca8d518c18491723544b0a6b57d3bb6cf1",
+      "after_sha256": "b28b615aa3a9ad537993392bb2ba1161cd7fc1a05c1a8a0cb97924ee59e52802",
+      "evidence": [
+        {
+          "rule": "extra_note",
+          "bar": 83,
+          "note_count_change": -1,
+          "before": "c)fge g2 fage",
+          "after": "c)fge  fage",
+          "token": "g2",
+          "duration_eighths": "2",
+          "midi": 79,
+          "possible_offsets": [
+            6
+          ],
+          "reference_ranges": [
+            [
+              "23587",
+              59,
+              59
+            ]
+          ],
+          "corroborating_contributors": 0,
+          "written_repeat": true,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_note_occurrences": 1,
+          "abcjs": {
+            "setting_id": "23587",
+            "passed": true,
+            "changed_note_occurrences": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 1037,
+          "end": 1039,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "2450",
+      "setting_id": "2450",
+      "name": "Tea Gardens",
+      "original_contributor": "George Seto",
+      "source_url": "https://thesession.org/tunes/2450#setting2450",
+      "category": "missing_note",
+      "before_abc": "|:B2 c|d^cd b2 a|g2 d B2 d|cBc ezc|A3- A2 G|\r\nFDF A2 d|f2 d A2 B|cBc edc|B3 B2 c|\r\nd^cd b2 a|g2 d B2 d|cBc ezc|A3- A2 G|\r\nDF A2 d|f2 d A2 B|cBc bfa|1 g3:|2 g3 g2||\r\nz|B,DG BGD|B,DG Bdg|e^de B2 =d|c3- c2 B|\r\nABc ABc|a2 g f2 e|d^cd ed=c|B3 d3|\r\nB,DG BGD|B,DG Bdg|e^de B2 =d|c3- c2 B|\r\nABc a2 g|f2 e A2b|c'bc' e2 f|g3||",
+      "after_abc": "|:B2 c|d^cd b2 a|g2 d B2 d|cBc ezc|A3- A2 G|\r\nFDF A2 d|f2 d A2 B|cBc edc|B3 B2 c|\r\nd^cd b2 a|g2 d B2 d|cBc ezc|A3- A2 G|\r\nFDF A2 d|f2 d A2 B|cBc bfa|1 g3:|2 g3 g2||\r\nz|B,DG BGD|B,DG Bdg|e^de B2 =d|c3- c2 B|\r\nABc ABc|a2 g f2 e|d^cd ed=c|B3 d3|\r\nB,DG BGD|B,DG Bdg|e^de B2 =d|c3- c2 B|\r\nABc a2 g|f2 e A2b|c'bc' e2 f|g3||",
+      "before_sha256": "d950ceb138193d2da489827015d4af7ae5f7896765548c091632c0ee0a930cef",
+      "after_sha256": "4196c3a6d72d49a051565e11688838a5a537038acbb6396cb08941ad32659773",
+      "evidence": [
+        {
+          "rule": "missing_note",
+          "bar": 14,
+          "note_count_change": 1,
+          "before": "\r\nDF A2 d",
+          "after": "\r\nFDF A2 d",
+          "token": "F",
+          "duration_eighths": "1",
+          "midi": 66,
+          "possible_offsets": [
+            2
+          ],
+          "reference_ranges": [
+            [
+              "2450",
+              6,
+              6
+            ]
+          ],
+          "corroborating_contributors": 0,
+          "written_repeat": true,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_note_occurrences": 2,
+          "abcjs": {
+            "setting_id": "2450",
+            "passed": true,
+            "changed_note_occurrences": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 122,
+          "end": 122,
+          "text": "F"
+        }
+      ]
+    },
+    {
+      "tune_id": "8085",
+      "setting_id": "19299",
+      "name": "Leaving Uist",
+      "original_contributor": "justjim",
+      "source_url": "https://thesession.org/tunes/8085#setting19299",
+      "category": "missing_note",
+      "before_abc": "ed||B3 BAG|AGE2EG|A3 BA2|e3 ede|\r\ng3 aag|edB2BA|G3 AAG|E3 eed|\r\nB3 BAG|AGE2EG|A3 BA2|e3 ede|\r\ng3 aag|edB2BA|G3 Bde|A3 aa2|\r\na3 bb2|age2c|d3 eg2|g3 aag|\r\ndeg aed|ABd eAG|G3 dB2|E3 eed|\r\nB3 BAG|AGE2EG|A3 dB2|e3 ede|\r\ng3 aag|edB2BA|G3 ABd|A3 eed|\r\nB3 BAG|AGE2EG|A3 BA2|e3 ede|\r\ng3 aag|edB2BA|G3 AAG|E3||",
+      "after_abc": "ed||B3 BAG|AGE2EG|A3 BA2|e3 ede|\r\ng3 aag|edB2BA|G3 AAG|E3 eed|\r\nB3 BAG|AGE2EG|A3 BA2|e3 ede|\r\ng3 aag|edB2BA|G3 Bde|A3 aa2|\r\na3 bb2|age2ec|d3 eg2|g3 aag|\r\ndeg aed|ABd eAG|G3 dB2|E3 eed|\r\nB3 BAG|AGE2EG|A3 dB2|e3 ede|\r\ng3 aag|edB2BA|G3 ABd|A3 eed|\r\nB3 BAG|AGE2EG|A3 BA2|e3 ede|\r\ng3 aag|edB2BA|G3 AAG|E3||",
+      "before_sha256": "277339c684e0f7423c760761012f4b3310288a290190b525c13deb1fe15ff4cf",
+      "after_sha256": "01abf69b076b300e5dbac5a3772703f8557398cf13c415e885dee97671ca856b",
+      "evidence": [
+        {
+          "rule": "missing_note",
+          "bar": 19,
+          "note_count_change": 1,
+          "before": "age2c",
+          "after": "age2ec",
+          "token": "e",
+          "duration_eighths": "1",
+          "midi": 76,
+          "possible_offsets": [
+            4
+          ],
+          "reference_ranges": [
+            [
+              "29636",
+              19,
+              19
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_note_occurrences": 1,
+          "abcjs": {
+            "setting_id": "19299",
+            "passed": true,
+            "changed_note_occurrences": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 135,
+          "end": 135,
+          "text": "e"
+        }
+      ]
+    },
+    {
+      "tune_id": "8467",
+      "setting_id": "22468",
+      "name": "Seamus Ennis'",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/8467#setting22468",
+      "category": "missing_note",
+      "before_abc": "|:AG|FDF ABc|dAG FED|~G3 FGA|BGE EAG|\r\nFDF ABc|dAG FED|dfa gec|dAF D:|\r\n|:df|afd gec|dAG FED|~G3 FGA|BGE E2 f|\r\nafd gec|AG FED|dfa gec|dAF D:|",
+      "after_abc": "|:AG|FDF ABc|dAG FED|~G3 FGA|BGE EAG|\r\nFDF ABc|dAG FED|dfa gec|dAF D:|\r\n|:df|afd gec|dAG FED|~G3 FGA|BGE E2 f|\r\nafd gec|dAG FED|dfa gec|dAF D:|",
+      "before_sha256": "c5b278942f027e1b6b7050436ddd29317157749130dec19757ed0b291b71de7d",
+      "after_sha256": "89096ed5ed7aa9ecffe88fd71e5c75a4570e94917098afb2fdccb8f3babd11be",
+      "evidence": [
+        {
+          "rule": "missing_note",
+          "bar": 16,
+          "note_count_change": 1,
+          "before": "AG FED",
+          "after": "dAG FED",
+          "token": "d",
+          "duration_eighths": "1",
+          "midi": 74,
+          "possible_offsets": [
+            0
+          ],
+          "reference_ranges": [
+            [
+              "57205",
+              14,
+              14
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_note_occurrences": 2,
+          "abcjs": {
+            "setting_id": "22468",
+            "passed": true,
+            "changed_note_occurrences": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 120,
+          "end": 120,
+          "text": "d"
+        }
+      ]
+    },
+    {
+      "tune_id": "15342",
+      "setting_id": "28605",
+      "name": "Arrival Of The Queen Of Sheba, The",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/15342#setting28605",
+      "category": "missing_note",
+      "before_abc": "gdBd gdBd |gdBd gdBd|Agfe dcBA |BGAB cdef|\r\ngdBd gdBd |g^cAc geAe|fede A2^c2 |d2AB ABAB|\r\nAFDF AFDF |dBGB dBGB|cAFA cAFA |BDEF GABc|\r\ndBGB dBGB |dAFA dAFA|BGEG BGEG |BAdA BAdA|\r\ngece gece |gdBd gdBd|cded cBAG |AGFG FEDc|\r\nBDcE DFEG |FAGB AcBd|cdcd edcB |ABAB cdcd|\r\neded cBcB |ABAB cdcd|eded cBcB |ABAB cBcA|\r\nBdce dfeg |f2ed g2c2|B2AG D2F2 |G2G2 G4|\r\nGABc B2A2 |G2d4 c2|B2cB c2A2 |Bcde d2c2|\r\nB2cB c2A2 |B2A2 G4|gdBd gdBd |gdBd gdBd|\r\nAgfe dcBA |BGAB G4|d4 edcB |c2e4 e2|\r\ndcBd cBAc |B2d4 d2|cBAc BAGB |A2d2 FGAB|\r\nA2d2 FGAB |A2d2d2d2|dAFA dAFA| dAFA dAdf|\r\ned^cB AGFE |FDEF GABc|d2 (3efg fe dA|AGF2 EFGE |\r\nFGAB A^c d2 |egfe d^c A2|AFDF AFDF |GE^cE GE^cE|\r\nfdAd fdAd |e^cA^c e^cA^c|dAFA dAFA |dBGB dBGB|\r\nAB^cd ed^cB |=c4 feed |gffe fgfe |fedc dedc |\r\ndcBA cdcB |cBAG BcBA |BAGF GAGF |GFED Bcde |\r\ndcBd dcB2 |AB A BA GB/d/|gdBd gdBd |gdBd gdBd|\r\nAgfe dcBA |BGAB GBcB|BAdc cBcd|cBcB AcBc|\r\nBABA GBGA|BcBA G2 g=f| e2 de eBGB|eBGB eBGB |\r\neBGB eBGB|eded cBcB |ABAB cdcd|e4z4 |\r\necAc ecAc|d4z4 |dBGB dBGB|c4z4 |\r\ncAFA cAFA|B4z4 |eBGB eBGB|^d4z4 |\r\nBGEG BGEG|c4z4 |f^dBd fdBd|eBGB eBGB |\r\ne2dc B2A2|G4F4 |E4z4|gdBd gdBd |\r\ngdBd gdBd|Agfe dcBA |BGAB G4|d4 edcB |\r\nc2e4 e2|dcBd cBAc |B2d4 d2|cBAc BAGB |\r\nA2d2 FGAB|A2d2 FGAB |A2d2d2d2|dAFA dAFA |\r\ndAFA dAdf|ed^cB AGFE |FDEF GABc|d2 (3efg fedA |\r\nAGF2 EFGE |FGAB A^cd2 |egfe d^c A2|\r\nAFDF AFDF |GE^cE GE^cE|fdAd fdAd |e^cA^c e^cA^c||\r\ndAFA dAFA |dBGB dBGB|AB^cd ed^cB |=c4 feed |\r\ngffe fgfe |fedc dedc |dcBA cdcB |cBAG BcBA |\r\nBAGF GAGF |GFED Bcde |dcBd dcB2 |ABcA BA GB/d/|\r\ngdBd gdBd |gdBd gdBd|Agfe dcBA |BGAB GBcB|\r\nBAdc cBcd|cBcB AcBc|BABA GBGA|BcBA G2 g=f |\r\ne2 de eBGB|eBGB eBGB |eBGB eBGB|eded cBcB |\r\nABAB cdcd|e4z4 |ecAc ecAc|d4z4 |\r\ndBGB dBGB|c4z4 |cAFA cAFA|B4z4 |\r\neBGB eBGB|^d4z4 |BGEG BGEG|c4z4 |\r\nf^dBd fdBd|eBGB eBGB |e2dc B2A2|G4F4 |E4z4||",
+      "after_abc": "gdBd gdBd |gdBd gdBd|Agfe dcBA |BGAB cdef|\r\ngdBd gdBd |g^cAc geAe|fede A2^c2 |d2AB ABAB|\r\nAFDF AFDF |dBGB dBGB|cAFA cAFA |BDEF GABc|\r\ndBGB dBGB |dAFA dAFA|BGEG BGEG |BAdA BAdA|\r\ngece gece |gdBd gdBd|cded cBAG |AGFG FEDc|\r\nBDcE DFEG |FAGB AcBd|cdcd edcB |ABAB cdcd|\r\neded cBcB |ABAB cdcd|eded cBcB |ABAB cBcA|\r\nBdce dfeg |f2ed g2c2|B2AG D2F2 |G2G2 G4|\r\nGABc B2A2 |G2d4 c2|B2cB c2A2 |Bcde d2c2|\r\nB2cB c2A2 |B2A2 G4|gdBd gdBd |gdBd gdBd|\r\nAgfe dcBA |BGAB G4|d4 edcB |c2e4 e2|\r\ndcBd cBAc |B2d4 d2|cBAc BAGB |A2d2 FGAB|\r\nA2d2 FGAB |A2d2d2d2|dAFA dAFA| dAFA dAdf|\r\ned^cB AGFE |FDEF GABc|d2 (3efg fe dA|AGF2 EFGE |\r\nFGAB A^c d2 |egfe d^c A2|AFDF AFDF |GE^cE GE^cE|\r\nfdAd fdAd |e^cA^c e^cA^c|dAFA dAFA |dBGB dBGB|\r\nAB^cd ed^cB |=c4 feed |gffe fgfe |fedc dedc |\r\ndcBA cdcB |cBAG BcBA |BAGF GAGF |GFED Bcde |\r\ndcBd dcB2 |AB cA BA GB/d/|gdBd gdBd |gdBd gdBd|\r\nAgfe dcBA |BGAB GBcB|BAdc cBcd|cBcB AcBc|\r\nBABA GBGA|BcBA G2 g=f| e2 de eBGB|eBGB eBGB |\r\neBGB eBGB|eded cBcB |ABAB cdcd|e4z4 |\r\necAc ecAc|d4z4 |dBGB dBGB|c4z4 |\r\ncAFA cAFA|B4z4 |eBGB eBGB|^d4z4 |\r\nBGEG BGEG|c4z4 |f^dBd fdBd|eBGB eBGB |\r\ne2dc B2A2|G4F4 |E4z4|gdBd gdBd |\r\ngdBd gdBd|Agfe dcBA |BGAB G4|d4 edcB |\r\nc2e4 e2|dcBd cBAc |B2d4 d2|cBAc BAGB |\r\nA2d2 FGAB|A2d2 FGAB |A2d2d2d2|dAFA dAFA |\r\ndAFA dAdf|ed^cB AGFE |FDEF GABc|d2 (3efg fedA |\r\nAGF2 EFGE |FGAB A^cd2 |egfe d^c A2|\r\nAFDF AFDF |GE^cE GE^cE|fdAd fdAd |e^cA^c e^cA^c||\r\ndAFA dAFA |dBGB dBGB|AB^cd ed^cB |=c4 feed |\r\ngffe fgfe |fedc dedc |dcBA cdcB |cBAG BcBA |\r\nBAGF GAGF |GFED Bcde |dcBd dcB2 |ABcA BA GB/d/|\r\ngdBd gdBd |gdBd gdBd|Agfe dcBA |BGAB GBcB|\r\nBAdc cBcd|cBcB AcBc|BABA GBGA|BcBA G2 g=f |\r\ne2 de eBGB|eBGB eBGB |eBGB eBGB|eded cBcB |\r\nABAB cdcd|e4z4 |ecAc ecAc|d4z4 |\r\ndBGB dBGB|c4z4 |cAFA cAFA|B4z4 |\r\neBGB eBGB|^d4z4 |BGEG BGEG|c4z4 |\r\nf^dBd fdBd|eBGB eBGB |e2dc B2A2|G4F4 |E4z4||",
+      "before_sha256": "b0288b596caa2a10d66146e047ca513d7ea7074d5e1fc4819a49e9fde04693d7",
+      "after_sha256": "ccc11ff8f5ed52b3c85381d14d27cfb6d8180a954708d6115ef78cbf6496dc7f",
+      "evidence": [
+        {
+          "rule": "missing_note",
+          "bar": 74,
+          "note_count_change": 1,
+          "before": "AB A BA GB/d/",
+          "after": "AB cA BA GB/d/",
+          "token": "c",
+          "duration_eighths": "1",
+          "midi": 72,
+          "possible_offsets": [
+            3
+          ],
+          "reference_ranges": [
+            [
+              "28605",
+              139,
+              139
+            ]
+          ],
+          "corroborating_contributors": 0,
+          "written_repeat": true,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_note_occurrences": 1,
+          "abcjs": {
+            "setting_id": "28605",
+            "passed": true,
+            "changed_note_occurrences": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 814,
+          "end": 814,
+          "text": "c"
+        }
+      ]
+    },
+    {
+      "tune_id": "20116",
+      "setting_id": "39799",
+      "name": "International Appalachian Trail, The",
+      "original_contributor": "Eli",
+      "source_url": "https://thesession.org/tunes/20116#setting39799",
+      "category": "missing_note",
+      "before_abc": "|:E3 E3 G2|E2 D2 B,2 D2|E3 E G2 A2|B6 FG|\r\nA3 A3 G2|F2 E2 D4|F3 F3 E2|D2 B,2 A,2 D2|\r\nE3 E3 G2|E2 D2 B,2 D2|E3 E G2 A2|B3 d BA G2|A8|\r\nB, D3 F4|B, D2 F2 G FD|F2 E2 E2 D2|1 E3 B,2 B, D2:|2 E3 B2 B d2||\r\n|:e3 e3 ed|ed B2 B2 c2|d3 d2 c BA|F2 E2 D4|\r\nC2 E2 A2 B2|c3 c2 d cA|c2 B2 B2 A2|B3 B2 B d|\r\ne3 e3 ed|ed B2 B2 c2|d3 d2 c BA|F2 E2 D4|\r\nB, D3 F4|B, D2 F2 G FD|F2 E2 E2 D2:|",
+      "after_abc": "|:E3 E3 G2|E2 D2 B,2 D2|E3 E G2 A2|B6 FG|\r\nA3 A3 G2|F2 E2 D4|F3 F3 E2|D2 B,2 A,2 D2|\r\nE3 E3 G2|E2 D2 B,2 D2|E3 E G2 A2|B3 d BA G2|A8|\r\nB, D3 F4|B, D2 F2 G FD|F2 E2 E2 D2|1 E3 B,2 B, D2:|2 E3 B2 B d2||\r\n|:e3 e3 ed|ed B2 B2 c2|d3 d2 c BA|F2 E2 D4|\r\nC2 E2 A2 B2|c3 c2 d cA|c2 B2 B2 A2|B3 B2 B dB|\r\ne3 e3 ed|ed B2 B2 c2|d3 d2 c BA|F2 E2 D4|\r\nB, D3 F4|B, D2 F2 G FD|F2 E2 E2 D2:|",
+      "before_sha256": "a8733d34a6c0bd6c98997ef52a0614310db09d626b31da705459552216820a60",
+      "after_sha256": "cd3c63605d8e55553e6ca693f977c6b4108afb3513aa50c15a6065666667a841",
+      "evidence": [
+        {
+          "rule": "missing_note",
+          "bar": 26,
+          "note_count_change": 1,
+          "before": "B3 B2 B d",
+          "after": "B3 B2 B dB",
+          "token": "B",
+          "duration_eighths": "1",
+          "midi": 71,
+          "possible_offsets": [
+            9
+          ],
+          "reference_ranges": [
+            [
+              "45114",
+              27,
+              27
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_note_occurrences": 2,
+          "abcjs": {
+            "setting_id": "39799",
+            "passed": true,
+            "changed_note_occurrences": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 291,
+          "end": 291,
+          "text": "B"
+        }
+      ]
+    }
+  ],
+  "written_note_scanner_sha256": "97d4b2aba2e2c7929bd02f631cdba931bf76759a91a47a99f4874e5f2d5bb55e"
+}

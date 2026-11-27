@@ -14,7 +14,7 @@ The scanner uses exact fractions. Missing or shifted barlines require complete m
 
 Each proposed setting is compiled before and after with automatic repair disabled and a neutral asset path. The checker compares every event's pitch, rest/tie state, start time and duration. Barlines must preserve all timings. Rhythm changes must match the independently calculated written-note changes. Some original duration errors are already normalized internally by the parser; those cases are marked explicitly in the results. A rejected setting remains unchanged. The scanner repeats until no further proposals pass, and the combined change is checked again before application.
 
-These checks establish consistency with the stated rules, not the composer's intent. They cannot identify a wrong pitch that happens to fill a bar, reconstruct missing notes, or settle an unusual meter or deliberate variation. The report keeps such questions separate from applied fixes. New upstream ABC must match the recorded source text; a changed target setting stops the application for review.
+Timing checks cover measure structure. The pitch and note-count passes below require their own matching passages and playback checks. Unusual meters and possible variants remain in the review report. The original ABC is checked against the correction plan before any replacement is applied.
 
 ## Barline fixes
 
@@ -47,6 +47,12 @@ The scanner resolves accidentals across each measure and allows one sounding pit
 ## Local notation syntax
 
 Run `tools/fix_notation.py --syntax` to check isolated notation symbols, split note tokens and invalid ties between different pitches. A correction needs a matching complete measure and matching adjacent measures. Support comes from independent contributors, a longer matching phrase, or a separate written repetition. Both playback engines must preserve the sounding pitches, note count and timing. The abcjs check also checks for new notation warnings. The [notation syntax edits](../checks/syntax-edits.json) record the exact changes and reference measures.
+
+## Omitted and surplus notes
+
+Run `tools/fix_notation.py --note-counts` for a measure whose duration differs from a complete reference by exactly one note. Both neighbors must match, and the candidate and reference must have the same adjacent repeat or section marks. The complete corrected measure must match the written reference. Independent contributors, a longer matching phrase, or another written occurrence provide corroboration. A competing reading that resolves the duration by keeping the original notes blocks the change.
+
+Each accepted patch inserts or removes a single whole note token. TradMate and abcjs check the agreed pitch and duration at every played occurrence and follow all remaining notes after the expected timing shift. The [written-note edits](../checks/written-note-edits.json) identify the exact tokens and reference measures.
 
 ## Other checks
 

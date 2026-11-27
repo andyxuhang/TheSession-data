@@ -5752,7 +5752,6 @@
 {"setting_id": "54933", "bar": 175, "category": "unsupported", "reason": "unsupported syntax '['", "fragment": "[GB][Ac][FA]B dced "}
 {"setting_id": "54933", "bar": 177, "category": "unsupported", "reason": "unsupported syntax '['", "fragment": "z c'[gb]- [gb] z[fa]- "}
 {"setting_id": "54933", "bar": 178, "category": "unsupported", "reason": "unsupported syntax '['", "fragment": "[fa][dg][dg]- [dg] z2 "}
-{"setting_id": "28605", "bar": 74, "category": "irregular", "duration_eighths": "7", "expected_eighths": "8", "fragment": "AB A BA GB/d/", "reason": "No unique supported correction"}
 {"setting_id": "29128", "bar": 1, "category": "irregular", "duration_eighths": "3", "expected_eighths": "6", "fragment": "c2d", "reason": "No unique supported correction"}
 {"setting_id": "29128", "bar": 11, "category": "irregular", "duration_eighths": "5", "expected_eighths": "6", "fragment": "{c}A3 A2", "reason": "No unique supported correction"}
 {"setting_id": "32579", "bar": 1, "category": "irregular", "duration_eighths": "1", "expected_eighths": "8", "fragment": "F", "reason": "No unique supported correction"}
@@ -13572,7 +13571,6 @@
 {"setting_id": "14259", "bar": 8, "category": "irregular", "duration_eighths": "5", "expected_eighths": "6", "fragment": "BGF G2", "reason": "No unique supported correction"}
 {"setting_id": "14259", "bar": 16, "category": "irregular", "duration_eighths": "5", "expected_eighths": "6", "fragment": "BGF G2", "reason": "No unique supported correction"}
 {"setting_id": "14261", "bar": 8, "category": "irregular", "duration_eighths": "5", "expected_eighths": "6", "fragment": "BGG G2", "reason": "No unique supported correction"}
-{"setting_id": "14261", "bar": 16, "category": "irregular", "duration_eighths": "5", "expected_eighths": "6", "fragment": "BGG G2", "reason": "No unique supported correction"}
 {"setting_id": "14261", "bar": 20, "category": "irregular", "duration_eighths": "5", "expected_eighths": "6", "fragment": "BGG G2", "reason": "No unique supported correction"}
 {"setting_id": "14262", "bar": 8, "category": "irregular", "duration_eighths": "5", "expected_eighths": "6", "fragment": "BGF G2", "reason": "No unique supported correction"}
 {"setting_id": "14262", "bar": 16, "category": "irregular", "duration_eighths": "5", "expected_eighths": "6", "fragment": "BGF G2", "reason": "No unique supported correction"}
@@ -49280,7 +49278,6 @@
 {"setting_id": "28294", "bar": 4, "category": "irregular", "duration_eighths": "16", "expected_eighths": "8", "fragment": "edcB A2E2\r\n~F3G ~A4~", "reason": "No unique supported correction"}
 {"setting_id": "28294", "bar": 12, "category": "irregular", "duration_eighths": "16", "expected_eighths": "8", "fragment": "e2ed e2fe\r\ndAde f2fg", "reason": "No unique supported correction"}
 {"setting_id": "42750", "bar": 9, "category": "irregular", "duration_eighths": "12", "expected_eighths": "6", "fragment": " cdc Beg aec BAG", "reason": "No unique supported correction"}
-{"setting_id": "39799", "bar": 26, "category": "irregular", "duration_eighths": "7", "expected_eighths": "8", "fragment": "B3 B2 B d", "reason": "No unique supported correction"}
 {"setting_id": "45114", "bar": 1, "category": "irregular", "duration_eighths": "3", "expected_eighths": "8", "fragment": "B, DB,", "reason": "No unique supported correction"}
 {"setting_id": "21149", "bar": 1, "category": "irregular", "duration_eighths": "2", "expected_eighths": "8", "fragment": "A>G", "reason": "No unique supported correction"}
 {"setting_id": "21149", "bar": 9, "category": "irregular", "duration_eighths": "6", "expected_eighths": "8", "fragment": "A>GG>F G2", "reason": "No unique supported correction"}
@@ -59505,7 +59502,6 @@
 {"setting_id": "688", "bar": 1, "category": "irregular", "duration_eighths": "2", "expected_eighths": "8", "fragment": "A^c", "reason": "No unique supported correction"}
 {"setting_id": "688", "bar": 33, "category": "irregular", "duration_eighths": "6", "expected_eighths": "8", "fragment": "fgef dD", "reason": "No unique supported correction"}
 {"setting_id": "699", "bar": 5, "category": "irregular", "duration_eighths": "7", "expected_eighths": "8", "fragment": "\r\nFB~B2 ABc", "reason": "No unique supported correction"}
-{"setting_id": "699", "bar": 11, "category": "irregular", "duration_eighths": "7", "expected_eighths": "8", "fragment": "FB2 FBBc", "reason": "No unique supported correction"}
 {"setting_id": "13764", "bar": 13, "category": "irregular", "duration_eighths": "7", "expected_eighths": "8", "fragment": "\r\n\"Bm\"FB ~B2 \"A\"ABc", "reason": "No unique supported correction"}
 {"setting_id": "13764", "bar": 19, "category": "irregular", "duration_eighths": "7", "expected_eighths": "8", "fragment": "\"Bm\"F B2 FBBc", "reason": "No unique supported correction"}
 {"setting_id": "13765", "bar": 13, "category": "irregular", "duration_eighths": "7", "expected_eighths": "8", "fragment": "\r\n\"Bm\"FB ~B2 \"A\"ABc", "reason": "No unique supported correction"}
@@ -59974,7 +59970,6 @@
 {"setting_id": "19298", "bar": 22, "category": "unsupported", "reason": "unsupported syntax 'm'", "fragment": "Em/B"}
 {"setting_id": "19298", "bar": 23, "category": "irregular", "duration_eighths": "12", "expected_eighths": "6", "fragment": "Aadd9", "reason": "No unique supported correction"}
 {"setting_id": "19299", "bar": 1, "category": "irregular", "duration_eighths": "2", "expected_eighths": "6", "fragment": "ed", "reason": "No unique supported correction"}
-{"setting_id": "19299", "bar": 19, "category": "irregular", "duration_eighths": "5", "expected_eighths": "6", "fragment": "age2c", "reason": "No unique supported correction"}
 {"setting_id": "19299", "bar": 41, "category": "irregular", "duration_eighths": "3", "expected_eighths": "6", "fragment": "E3", "reason": "No unique supported correction"}
 {"setting_id": "9962", "bar": 1, "category": "irregular", "duration_eighths": "2", "expected_eighths": "4", "fragment": "d>c", "reason": "No unique supported correction"}
 {"setting_id": "9962", "bar": 25, "category": "irregular", "duration_eighths": "3", "expected_eighths": "4", "fragment": "B>A G", "reason": "No unique supported correction"}
@@ -77748,7 +77743,6 @@
 {"setting_id": "58146", "bar": 1, "category": "irregular", "duration_eighths": "2", "expected_eighths": "8", "fragment": "fe", "reason": "No unique supported correction"}
 {"setting_id": "30857", "bar": 1, "category": "irregular", "duration_eighths": "1", "expected_eighths": "8", "fragment": "D", "reason": "No unique supported correction"}
 {"setting_id": "57683", "bar": 10, "category": "unsupported", "reason": "unsupported syntax '^'", "fragment": "eg (3gfg ed^=cd"}
-{"setting_id": "23587", "bar": 83, "category": "irregular", "duration_eighths": "10", "expected_eighths": "8", "fragment": "c)fge g2 fage", "reason": "No unique supported correction"}
 {"setting_id": "40487", "bar": 1, "category": "irregular", "duration_eighths": "2", "expected_eighths": "8", "fragment": "d^c", "reason": "No unique supported correction"}
 {"setting_id": "40487", "bar": 9, "category": "irregular", "duration_eighths": "6", "expected_eighths": "8", "fragment": " dfed ^cA", "reason": "No unique supported correction"}
 {"setting_id": "49166", "bar": 1, "category": "irregular", "duration_eighths": "2", "expected_eighths": "8", "fragment": "d^c", "reason": "No unique supported correction"}
@@ -93449,7 +93443,6 @@
 {"setting_id": "22468", "bar": 1, "category": "irregular", "duration_eighths": "2", "expected_eighths": "6", "fragment": "AG", "reason": "No unique supported correction"}
 {"setting_id": "22468", "bar": 9, "category": "irregular", "duration_eighths": "4", "expected_eighths": "6", "fragment": "dAF D", "reason": "No unique supported correction"}
 {"setting_id": "22468", "bar": 10, "category": "irregular", "duration_eighths": "2", "expected_eighths": "6", "fragment": "df", "reason": "No unique supported correction"}
-{"setting_id": "22468", "bar": 16, "category": "irregular", "duration_eighths": "5", "expected_eighths": "6", "fragment": "AG FED", "reason": "No unique supported correction"}
 {"setting_id": "22468", "bar": 18, "category": "irregular", "duration_eighths": "4", "expected_eighths": "6", "fragment": "dAF D", "reason": "No unique supported correction"}
 {"setting_id": "6374", "bar": 1, "category": "irregular", "duration_eighths": "2", "expected_eighths": "8", "fragment": "CB,", "reason": "No unique supported correction"}
 {"setting_id": "55919", "bar": 1, "category": "irregular", "duration_eighths": "3", "expected_eighths": "6", "fragment": "cBc", "reason": "No unique supported correction"}
@@ -101802,7 +101795,6 @@
 {"setting_id": "15774", "bar": 20, "category": "irregular", "duration_eighths": "4", "expected_eighths": "6", "fragment": "B3- B", "reason": "No unique supported correction"}
 {"setting_id": "15774", "bar": 22, "category": "irregular", "duration_eighths": "3", "expected_eighths": "6", "fragment": "g3", "reason": "No unique supported correction"}
 {"setting_id": "2450", "bar": 1, "category": "irregular", "duration_eighths": "3", "expected_eighths": "6", "fragment": "B2 c", "reason": "No unique supported correction"}
-{"setting_id": "2450", "bar": 14, "category": "irregular", "duration_eighths": "5", "expected_eighths": "6", "fragment": "\r\nDF A2 d", "reason": "No unique supported correction"}
 {"setting_id": "2450", "bar": 17, "category": "irregular", "duration_eighths": "3", "expected_eighths": "6", "fragment": " g3", "reason": "No unique supported correction"}
 {"setting_id": "2450", "bar": 18, "category": "irregular", "duration_eighths": "5", "expected_eighths": "6", "fragment": " g3 g2", "reason": "No unique supported correction"}
 {"setting_id": "2450", "bar": 19, "category": "irregular", "duration_eighths": "1", "expected_eighths": "6", "fragment": "\r\nz", "reason": "No unique supported correction"}
@@ -101979,7 +101971,6 @@
 {"setting_id": "25453", "bar": 10, "category": "irregular", "duration_eighths": "2", "expected_eighths": "8", "fragment": "A2", "reason": "No unique supported correction"}
 {"setting_id": "25453", "bar": 18, "category": "irregular", "duration_eighths": "6", "expected_eighths": "8", "fragment": "BGAF G2", "reason": "No unique supported correction"}
 {"setting_id": "48896", "bar": 1, "category": "irregular", "duration_eighths": "2", "expected_eighths": "8", "fragment": "(3DEF", "reason": "No unique supported correction"}
-{"setting_id": "48896", "bar": 5, "category": "irregular", "duration_eighths": "9", "expected_eighths": "8", "fragment": "BGAGF GFED", "reason": "No unique supported correction"}
 {"setting_id": "48896", "bar": 9, "category": "irregular", "duration_eighths": "6", "expected_eighths": "8", "fragment": "BcAF G2", "reason": "No unique supported correction"}
 {"setting_id": "48896", "bar": 10, "category": "irregular", "duration_eighths": "2", "expected_eighths": "8", "fragment": "A2", "reason": "No unique supported correction"}
 {"setting_id": "48896", "bar": 18, "category": "irregular", "duration_eighths": "6", "expected_eighths": "8", "fragment": "BcAF G2", "reason": "No unique supported correction"}
