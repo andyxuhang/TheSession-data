@@ -29,11 +29,13 @@ def source_edits(before, after):
             if op != "equal"]
 
 
-def playback(plan, report, args, allow_failures):
+def playback(plan, report, args, allow_failures, cross_check=False):
     cmd = [sys.executable, str(ROOT/'tools/check_playback.py'), '--tradmate-repo',
            str(args.tradmate_repo), '--dart', args.dart, '--plan', str(plan)]
     if allow_failures:
         cmd.append('--allow-failures')
+    if cross_check:
+        cmd.append('--abcjs')
     with report.open('w') as stream:
         subprocess.run(cmd, stdout=stream, check=True)
     return json.loads(report.read_text())
@@ -60,7 +62,8 @@ def check_measure_edits(proposals, work, args, lengths=False):
             evidence = [ev] if ev['rule'] in PITCH_RULES else patch['evidence']
             singles.append({**patch, 'evidence':evidence, 'variant':variant, 'strict_length':is_length, 'after_abc':body[:start]+ev['after']+body[end:]})
     dump(work/'individual.json', {'corrections':singles})
-    report = playback(work/'individual.json', work/'individual-check.json', args, True)
+    cross_check = any(ev['rule'] in PITCH_RULES for p in proposals for ev in p['evidence'])
+    report = playback(work/'individual.json', work/'individual-check.json', args, True, cross_check=cross_check)
     checks = {r['variant']:r for r in report['checks']}
     accepted, failures = [], {}
     for patch in proposals:
@@ -77,6 +80,8 @@ def check_measure_edits(proposals, work, args, lengths=False):
                 valid_timing = valid_timing and result.get('changed_played_pitches',0) > 0
             if result['passed'] and valid_timing:
                 body = body[:start]+ev['after']+body[end:]
+                if ev['rule'] in PITCH_RULES:
+                    ev = {**ev, 'playback_occurrences':result['changed_played_pitches'],'abcjs':result['abcjs']}
                 evidence.append(ev)
             else:
                 sid = patch['setting_id']
@@ -149,7 +154,7 @@ def main():
                     history.append(stats)
                     break
             dump(work/'proposals.json', {'corrections':candidates})
-            checked = playback(work/'proposals.json', work/'playback.json', args, True)
+            checked = playback(work/'proposals.json', work/'playback.json', args, True, cross_check=args.pitches)
             outcomes = {r['setting_id']:r for r in checked['checks']}
             accepted = 0
             for patch in candidates:
@@ -235,11 +240,25 @@ def main():
             dump(stored,plan)
             playback_file = 'pitch-playback.json' if args.pitches else 'notation-playback.json'
             dump(ROOT/'checks'/playback_file,final)
+            if args.pitches:
+                batch = [{'setting_id':patch['setting_id'],'tune_id':patch['tune_id'],
+                          'source_url':patch['source_url'],**ev}
+                         for patch in combined.values() for ev in patch['evidence']]
             if separate_scan:
                 dump(ROOT/'checks'/detail_file,batch)
             if args.barlines or lengths or separate_scan:
                 for old in json.loads((ROOT/'checks/rejected.json').read_text()):
                     rules = {e['rule'] for e in old.get('proposal', {}).get('evidence', [])}
+                    if args.pitches and old['setting_id'] in collected and old['setting_id'] not in rejected:
+                        prior_edits = [record['edit'] for record in old.get('bars', [])]
+                        prior_edits.extend(old.get('proposal', {}).get('evidence', []))
+                        applied = {(ev['rule'],ev['bar'],ev['note'])
+                                   for ev in collected[old['setting_id']]['evidence']}
+                        if prior_edits and all(
+                            ev['rule'] in PITCH_RULES and (ev['rule'],ev['bar'],ev['note']) in applied
+                            for ev in prior_edits
+                        ):
+                            continue
                     if lengths or separate_scan or rules - {'missing_barline','misplaced_barline'}:
                         rejected.setdefault(old['setting_id'],old)
             dump(ROOT/'checks/rejected.json',list(rejected.values()))

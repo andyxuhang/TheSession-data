@@ -193,7 +193,7 @@ def prepare_pitch_changes(patch, mode):
         raise ValueError('Pitch edit changed measure structure: '+patch['setting_id'])
     by_position = {(e['bar'],e['note']):e for e in patch['evidence']}
     actual = set()
-    deltas = defaultdict(int)
+    deltas = defaultdict(list)
     for bar, (old, new) in enumerate(zip(before,after),1):
         if old.signature == new.signature:
             continue
@@ -212,11 +212,12 @@ def prepare_pitch_changes(patch, mode):
             if ev is None or a.tied or (x,y) != (ev['before_midi'],ev['after_midi']) or x == y:
                 raise ValueError('Unexpected written pitch change: '+patch['setting_id'])
             actual.add((bar,note))
-            deltas[original,corrected,x,y] += 1
+            deltas[original,corrected,x,y].append(dict(old_start=a.start,new_start=b.start))
     if actual != by_position.keys():
         raise ValueError('Pitch changes differ from reviewed notes: '+patch['setting_id'])
-    return [dict(old_token=a,new_token=b,old_midi=x,new_midi=y,written_occurrences=count)
-            for (a,b,x,y),count in deltas.items()]
+    return [dict(old_token=a,new_token=b,old_midi=x,new_midi=y,written_occurrences=len(locations),
+                 locations=locations)
+            for (a,b,x,y),locations in deltas.items()]
 
 
 def main():
@@ -225,6 +226,7 @@ def main():
     parser.add_argument("--dart", required=True, help="Path to a standalone Dart SDK executable")
     parser.add_argument("--plan", type=Path, action="append", help="Change file (repeatable); defaults to changes/*.json")
     parser.add_argument("--allow-failures", action="store_true", help="Report rejected proposals without a failing exit status")
+    parser.add_argument("--abcjs", action="store_true", help="Cross-check pitch edits with the vendored abcjs")
     args = parser.parse_args()
     repo = args.tradmate_repo.resolve()
     files = args.plan or sorted((ROOT / "changes").glob("*.json"))
@@ -283,6 +285,26 @@ def main():
         (root / "check.dart").write_text(RUNNER)
         output = subprocess.check_output([args.dart, str(root / "check.dart"), str(root / "input.json")], text=True)
         checks = json.loads(output)
+        if args.abcjs:
+            library = repo/'third_party/abcjs/abcjs-basic-min.js'
+            secondary_input = root/'abcjs-input.json'
+            secondary_input.write_text(json.dumps([row for row in rows if 'pitch_changes' in row]),encoding='utf8')
+            output = subprocess.check_output(['node',str(ROOT/'tools/check_abcjs_pitches.js'),
+                                              str(library),str(secondary_input)],text=True)
+            comparison = json.loads(output)
+            secondary = {(r['setting_id'],r.get('variant')): r for r in comparison['results']}
+            library_hash = hashlib.sha256(library.read_bytes()).hexdigest()
+            for check in checks:
+                other = secondary.get((check['setting_id'],check.get('variant')))
+                if other is None:
+                    continue
+                check['abcjs'] = {**other,'version':comparison['version'],
+                                  'sha256':library_hash}
+                if check['passed'] and (
+                    not other['passed'] or other.get('changed_played_pitches') != check['changed_played_pitches']
+                ):
+                    check['passed'] = False
+                    check['reason'] = 'abcjs: '+other.get('reason','played pitch-change counts differ')
         print(json.dumps({
             "compiler_repository": "TradMate", "compiler_commit": REVISION,
             "compiler_files_sha256": hashes, "compiler_modifications": [],

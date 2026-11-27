@@ -12,7 +12,7 @@ ALTERATIONS = {'^':1, '^^':2, '_':-1, '__':-2, '=':0}
 NATURAL = dict(zip('CDEFGAB', (0, 2, 4, 5, 7, 9, 11)))
 MODE_OFFSET = {'major':0, 'minor':-3, 'aeolian':-3, 'dorian':-2, 'mixolydian':-1,
                'phrygian':-4, 'lydian':1, 'locrian':-5}
-PITCH_RULES = {'accidental_typo', 'octave_typo'}
+PITCH_RULES = {'accidental_typo', 'octave_typo', 'note_typo'}
 
 
 def split_pitch(value):
@@ -59,9 +59,11 @@ def same_extra_measure(score, i, reference, j):
         a,b = i+offset,j+offset
         if (0 <= a < len(score.bars) and 0 <= b < len(reference.bars)
                 and score.full[a] and reference.full[b] and len(score.bars[a].events) >= 4
-                and score.plain_span(min(a,i),max(a,i)+1)
-                and reference.plain_span(min(b,j),max(b,j)+1)
-                and score.signatures[a] == reference.signatures[b]):
+                and score.signatures[a] == reference.signatures[b]
+                and (score.bars[a].left, score.bars[a].right)
+                    == (reference.bars[b].left, reference.bars[b].right)
+                and (score.bars[i+offset//2].left, score.bars[i+offset//2].right)
+                    == (reference.bars[j+offset//2].left, reference.bars[j+offset//2].right)):
             return True
     return False
 
@@ -75,16 +77,16 @@ def one_change(score, i, reference, j, key):
     a,b = bar.events[n],other.events[n]
     am,al,ao = split_pitch(a.pitch)
     bm,bl,bo = split_pitch(b.pitch)
-    if al != bl:
-        return None
     before, after = resolve_pitches(bar.events,key), resolve_pitches(other.events,key)
     if [k for k,(x,y) in enumerate(zip(before,after)) if x != y] != [n]:
         return None
     change = abs(before[n]-after[n])
-    if ao == bo and change == 1:
+    if al == bl and ao == bo and change == 1:
         rule = 'accidental_typo'
-    elif am == bm and change == 12:
+    elif al == bl and am == bm and change == 12:
         rule = 'octave_typo'
+    elif al != bl:
+        rule = 'note_typo'
     else:
         return None
     fragment = score.body[bar.start:a.start]+b.pitch+score.body[a.length_start:bar.end]
@@ -105,7 +107,7 @@ def scan_pitches(data, upstream):
     edits, stats = [], Counter()
     for (_,_,mode,_), group in groups.items():
         key = key_signature(mode)
-        if key is None or len({r['username'] for r in group}) < 3:
+        if key is None or len(group) < 2:
             continue
         targets, index = [], defaultdict(list)
         for row in group:
@@ -127,7 +129,10 @@ def scan_pitches(data, upstream):
                 for reference,j in index.get(context,()):
                     reading = tuple(e.pitch for e in reference.bars[j].events)
                     readings[reading].append((reference,j))
-                if any(ref.row['username'] != score.row['username'] for ref,_ in readings.pop(original,())):
+                original_occurrences = readings.pop(original, ())
+                if any(ref.row['username'] != score.row['username']
+                       or (ref.id == score.id and separate_occurrence(score,i,i+1,ref,j,j+1))
+                       for ref,j in original_occurrences):
                     continue
                 if len(readings) != 1:
                     continue
@@ -144,11 +149,19 @@ def scan_pitches(data, upstream):
                 (n,rule,fragment,before,after,isolated), witnesses = next(iter(accepted.items()))
                 independent = {ref.row['username'] for ref,_ in witnesses
                                if ref.row['username'] != score.row['username']}
-                repeated = any(ref.id == score.id for ref,_ in witnesses)
+                repetitions = {j for ref,j in witnesses if ref.id == score.id}
+                repeated = bool(repetitions)
                 extended = any(ref.row['username'] in independent and same_extra_measure(score,i,ref,j)
                                for ref,j in witnesses)
                 stats[rule+'_exact_candidates'] += 1
-                if len(independent) < 2 or not (repeated or extended) or (rule == 'octave_typo' and not (repeated or isolated)):
+                if rule == 'accidental_typo':
+                    confirmed = (repeated and independent) or (len(independent) >= 2 and extended)
+                elif rule == 'octave_typo':
+                    confirmed = (repeated and independent) or (
+                        isolated and ((independent and extended) or len(repetitions) >= 2))
+                else:
+                    confirmed = isolated and extended and len(independent) >= 2
+                if not confirmed:
                     continue
                 bar = score.bars[i]
                 evidence = {
@@ -157,8 +170,8 @@ def scan_pitches(data, upstream):
                     'before_midi':before, 'after_midi':after,
                     'reference_ranges':sorted({(ref.id,j+1,j+1) for ref,j in witnesses}),
                     'corroborating_contributors':len(independent),
-                    'written_repeat':repeated, 'extra_matching_bar':extended,
-                    'isolated_octave_jump':rule == 'octave_typo' and isolated,
+                    'written_repeat':repeated, 'written_repetitions':len(repetitions),
+                    'extra_matching_bar':extended, 'isolated_jump':isolated,
                 }
                 corrections.append((bar.start,bar.end,fragment,evidence))
             if not corrections:

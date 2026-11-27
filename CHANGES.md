@@ -1,5 +1,11 @@
 # Changes
 
+## Isolated pitch jumps and accidentals
+
+Corrected 28 pitches across 24 settings of 24 tunes, with the same changes applied to 77 matching set entries. The batch contains 22 octave slips, 3 accidentals and 3 other incorrect melody notes. Each change is supported by a matching written phrase. TradMate and abcjs agreed on every intended pitch change and preserved all other pitches, note counts and timings.
+
+The [reviewed changes](checks/pitch-edits.json) record the original and corrected measures, the reference passages and the playback checks for this batch.
+
 ## Accidentals and octaves
 
 Corrected 19 accidentals and 2 octave errors in 18 settings of 17 tunes, along with 69 matching set entries. At least two other contributors give the same completed measure and neighboring phrases for each correction. The playback check verified 36 corrected occurrences across repeats, with the remaining pitches and all event timings preserved.

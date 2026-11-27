@@ -17,6 +17,7 @@ LABELS = {
     'proven_long_note': 'Incorrect note length',
     'rhythm_mark': 'Incorrect broken-rhythm or tuplet mark',
     'accidental_typo': 'Incorrect accidental',
+    'note_typo': 'Incorrect melody note',
     'octave_typo': 'Incorrect octave',
     'missing_note': 'Omitted note',
     'stray_control': 'Stray control character',
@@ -164,7 +165,8 @@ def main():
         'one of those measures and its neighbor match a written reference.',
         '- A missing note requires the same completed phrase and both neighboring measures '
         'in settings from at least two other contributors.',
-        '- An accidental or octave correction requires matching written phrases from independent contributors. '
+        '- Pitch edits rely on matching written phrases and corroboration from a longer passage, '
+        'independent contributors, or a separate written repetition. '
         'Playback checks require the intended pitch change and preserve every other event.',
         '- Playback checks compare the original and corrected events with automatic repair disabled. '
         'Unexpected changes to pitch, duration, rests or ties block a correction.',

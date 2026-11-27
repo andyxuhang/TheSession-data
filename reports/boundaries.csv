@@ -10207,7 +10207,7 @@ edec agae|c'bc'e agae|(3fag (3fed cBAG|B2 A2 A2:|"
 A^GAF dcdA|f^efA dcdA|(3Bdc (3BAG FEDF|1 :E2 D2 D2 FG:|2 E2 D2 D2 EF||
 G3E (3edc (3BAG|F3D (3dcB (3AGF|ED (3EFG (3cBA (3GFE|DFAB A2 FG|
 A^GAF dcdA|f^efA dcdA|(3Bdc (3BAG FEDF|1 E2 D2 D2 EF:|2 E2 D2 D4||"
-19608,43527,Bill Ellis',Tim@Copenhagen,https://thesession.org/tunes/19608#setting43527,"Pickup, ending or repeat boundary","[{""setting_id"": ""43527"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""8"", ""fragment"": ""FG"", ""reason"": ""No unique supported correction""}]","FG|:A_A=AF dcdA|f=f^fA dcdB|A_A=AF dcdF|AGFE DFA,F|
+19608,43527,Bill Ellis',Tim@Copenhagen,https://thesession.org/tunes/19608#setting43527,"Pickup, ending or repeat boundary","[{""setting_id"": ""43527"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""8"", ""fragment"": ""FG"", ""reason"": ""No unique supported correction""}]","FG|:A_A=AF dcdA|f=f^fA dcdB|A_A=AF dcdF|AGFE DFAF|
 A_A=AF dcdA|f=f^fA dcdB|AdcB (3ABA (3GFE|1 (3DFA (3dAF D2FG:|2 (3DFA (3dAF D2FA|
 |:GFGB (3edc (3BAG|F=F^FA (3dcB (3AGF|E_E=Ed (3cBA (3GFE|(3DCD (3FDB, A,2FA|
 GFGB (3edc (3BAG|F=F^FA (3dcB (3AGF|EdcB (3ABA (3GFE|1 (3DFA (3dAF D2FA:|2 (3DFA (3dAF D2FG"
@@ -12671,7 +12671,7 @@ gc{/e} c/B/c Gcac|gc{/e} c/B/c Bcde|f/a/f eg fagf|efed{/e} cdec|
 gc{/e} c/B/c ac{/e} c/B/c|gc{/e} c/B/c Bcde|fedc Bagf|efe(d c{/e}c{/B}cA)||
 GE{/G} E/^D/E CE{/G} E/D/E|cE{/G} E/^D/E A/F/E DE|CEGE FAdc|BdGB c/B/c Ac|
 GE{/G} E/^D/E CE{/G} E/D/E|G,CEC DG,B,D|CEGE FAdc|BdGB c/B/c{/B} Ac|
-GE{/G} E/^D/E cE{/G} E/D/E|G,CEC DG,B,D|CEGE FAdc|BdGB c/B/c{/B} Ac|
+GE{/G} E/^D/E CE{/G} E/D/E|G,CEC DG,B,D|CEGE FAdc|BdGB c/B/c{/B} Ac|
 GE{/G} E/^D/E CE{/G} E/D/E|cE{/G} E/^D/E A/F/E DE|CEGE FAdc|BdGB c/B/c{/B} ec||
 gc{/e} c/B/c Gcac|gc{/e} c/B/c Bcde|f/a/f eg fagf|efed cdec|
 gc{/e} c/B/c Gcac|gc{/e} c/B/c Bcde|fedc Bagf|efed{/e} cdec|
@@ -32496,7 +32496,7 @@ c2c ecA|dcd a2e|cec BAB|cAA A2:|"
 cAA eAA|aga e2 d|(4cdec BAB|cAA A:|
 |:cB|cBc ecA|dAd daa|cdc ecA|ded B2 B|
 cBc ecA|dAd daa|(4cdec BAB|cAA A:|"
-2383,2383,Éirinn Go Brách,Bleedin' Heart,https://thesession.org/tunes/2383#setting2383,"Pickup, ending or repeat boundary","[{""setting_id"": ""2383"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""1"", ""expected_eighths"": ""6"", ""fragment"": ""B"", ""reason"": ""No unique supported correction""}]","B|:cAA eAA|aAa e2d|cAA eAA|Bcd Bcd|
+2383,2383,Éirinn Go Brách,Bleedin' Heart,https://thesession.org/tunes/2383#setting2383,"Pickup, ending or repeat boundary","[{""setting_id"": ""2383"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""1"", ""expected_eighths"": ""6"", ""fragment"": ""B"", ""reason"": ""No unique supported correction""}]","B|:cAA eAA|aga e2d|cAA eAA|Bcd Bcd|
 cAA eAA|aAa e2d|cde Bcd|BAG ABd:|
 |:~c3 ecA|~d3 fed|~c3 ecA|Bcd Bcd|
 ~c3 ecA|~d3 fed|cde Bcd|BAG ABd:|"
@@ -39034,7 +39034,7 @@ e2 B d2 A|Bcd efg|fed g2 B|dBA GED|
 GAB GBA|G2 G G2 A|Bcd efg|fed g2 B|
 dBA GED|GAB GBA|G2 G G3:|"
 6054,17953,"Funny Tailor, The",ceolachan,https://thesession.org/tunes/6054#setting17953,"Pickup, ending or repeat boundary","[{""setting_id"": ""17953"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""G2 G G2"", ""reason"": ""No unique supported correction""}]","GED GAB|GBA G2 G|G2 A Bcd|efg fed|e2 B d2 A|
-Bcd efg|fed g2 B|DBA GED|GAB GBA|G2 G G2 A|
+Bcd efg|fed g2 B|dBA GED|GAB GBA|G2 G G2 A|
 Bcd efg|fed g2 B|dBA GED|GAB GBA|G2 G G2||"
 6054,17954,"Funny Tailor, The",ceolachan,https://thesession.org/tunes/6054#setting17954,"Pickup, ending or repeat boundary","[{""setting_id"": ""17954"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""9"", ""expected_eighths"": ""6"", ""fragment"": ""GED GAB AGA"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""17954"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""G2 G G3 G2"", ""reason"": ""No unique supported correction""}]","GED GAB AGA|G2 G G3 G2 A|B2 A Bgf efe|d2 B d3 d2 G/A/|
 B2 A Bgf efe|d2 B d3 d2 B/A/|GED GAB AGA|G2 G G3 G2||"
@@ -43712,7 +43712,7 @@ BdB Ggf|ecA E2E|DFc ADF|AGF G3:|
 GBd gfg|ecA cBA|GBd a2g|fef def|
 gdB Ggf|ecA E2E|DFc ADF|AGF G3:|"
 488,26034,Gráinne's,JACKB,https://thesession.org/tunes/488#setting26034,"Pickup, ending or repeat boundary","[{""setting_id"": ""26034"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""1"", ""expected_eighths"": ""6"", ""fragment"": ""B"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""26034"", ""bar"": 9, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""AGF \""G\""G2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""26034"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""1"", ""expected_eighths"": ""6"", ""fragment"": ""A"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""26034"", ""bar"": 18, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""AGF \""G\""G2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""26034"", ""bar"": 19, ""category"": ""irregular"", ""duration_eighths"": ""1"", ""expected_eighths"": ""6"", ""fragment"": ""D"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""26034"", ""bar"": 27, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""AGF \""G\""G2"", ""reason"": ""No unique supported correction""}]","|:B|""G""dGF GDB|G3 DBD|""Am""EcB ABG|""D7""FED cBA|
-""G""BdB G3|""C""EGE cEG|""G""DGc ""D7""BEF|AGF ""G""G2:|
+""G""BdB G3|""C""EGE CEG|""G""DGc ""D7""BEF|AGF ""G""G2:|
 |:A|""G""B3 Ggf|""Am""ecA E3|""D7""DFA f3|""A7""ed^c ""D7""d2=c|
 ""G""BdB Ggf|""Am""ecA E3|""G""DGc ""D7""BEF|AGF ""G""G2:|
 |:D|""G""GBd g3|""C""ecB c2B|""A7""A^ce a2g|""D""fd^c def|
@@ -60174,7 +60174,7 @@ DEGE B2AB|dega geeB|d2ed BAGE|DEBA G3:|"
 ""D""d2A2 ""C""cBAG|""D""A2 F""C""G3 E2|""D""F2D2 ""F""AGF=F|""C""E2 C""D""D3z2:|
 ""C""G2 EC2GEC|""D""FDAD BDA2|""C""G2 EC2GEC|""D""FDAD F3A|
 ""C""G2 EC2GEC|""D""FDAD BDA2|""F""AG=FE ""G""GFED|1 .E2 G2 A3F:|2 .E2 G2 ^G3||"
-2337,3702,Kitty Come Down From Limerick,gian marco,https://thesession.org/tunes/2337#setting3702,"Pickup, ending or repeat boundary","[{""setting_id"": ""3702"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""1"", ""expected_eighths"": ""9"", ""fragment"": ""d"", ""reason"": ""No unique supported correction""}]","d|:cAG GDG G2d|cAG GDE F2d|cAG GDG GAG|1 FAd fed cAd:|2 FAd fed cAF||
+2337,3702,Kitty Come Down From Limerick,gian marco,https://thesession.org/tunes/2337#setting3702,"Pickup, ending or repeat boundary","[{""setting_id"": ""3702"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""1"", ""expected_eighths"": ""9"", ""fragment"": ""d"", ""reason"": ""No unique supported correction""}]","d|:cAG GDG G2d|cAG GDE =F2d|cAG GDG GAG|1 FAd fed cAd:|2 FAd fed cAF||
 def gaf g2f|def gag fed|cde fge f2e|def gfd cAF|
 def gaf g2f|def gag fga|bgb afa g2e|fed cAG FGA|
 |:BGB AFA ~G3|.B.B.B GBd cAG|BDD ADD G2E|1 FGA fed cAG:|2 FGA fed cAd||"
@@ -62511,12 +62511,12 @@ GEF G2A|BAG ABd|edd gdB|AGF G:|
 ~g3 ~a3|bag ~f3|edc BcA|BGF G:|"
 5867,17783,"Lark's March, The",browndog,https://thesession.org/tunes/5867#setting17783,"Pickup, ending or repeat boundary","[{""setting_id"": ""17783"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""1"", ""expected_eighths"": ""6"", ""fragment"": ""B"", ""reason"": ""No unique supported correction""}]","B|:AFE F3|DED D2B|AFE F3|DFA BdB|
 AFE F3|DED D2f|gfe fdB|1 AFA BdB:|2 AFA B2A||
-|:d2e fed|AFA DFA|d2e fed|AFA b2A|
+|:d2e fed|AFA DFA|d2e fed|AFA B2A|
 def edB|BAF ABd|faf edB|1 AFA b2A:|2 AFA b2b||
 |:ABd fdd|ede fdB|ABd fed|edA BAF|
 A2d fdd|ede fed|faf g2e|edA BdB:|
 |:DFA dAF|DFA BGE|DFA d2F|GEF GFE|
-DFA d2e|edC def|gfe fdB|AFA b2b:|
+DFA d2e|edc def|gfe fdB|AFA b2b:|
 |:d2d def|A3 AFA|e3 ede|fed BAB|
 d2d DEF|A3 AFA|e3 ede|1 fdC d2a|2 fdC d3||"
 5867,17784,"Lark's March, The",ceolachan,https://thesession.org/tunes/5867#setting17784,"Pickup, ending or repeat boundary","[{""setting_id"": ""17784"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": "" AFA Bd"", ""reason"": ""No unique supported correction""}]","|:AFE F3|DED D2 B|AFE F3|DFA BdB|
@@ -63719,7 +63719,7 @@ gg g/f/ e|dd d/c/ B|A A/B/ c/B/c/A/|BG G2:|"
 4076,43435,Leitrim Clog Dance,swisspiper,https://thesession.org/tunes/4076#setting43435,"Pickup, ending or repeat boundary","[{""setting_id"": ""43435"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""8"", ""fragment"": ""A2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""43435"", ""bar"": 9, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": "" (3DED CE D2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""43435"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""15/2"", ""expected_eighths"": ""8"", ""fragment"": "" (3DED CE D2>c"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""43435"", ""bar"": 27, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""8"", ""fragment"": ""A2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""43435"", ""bar"": 35, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": "" (3DED CE D2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""43435"", ""bar"": 36, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": "" (3DED CE D2"", ""reason"": ""No unique supported correction""}]","|:A2|D2 FA dA FA|G2 .B2 G2 B2|D2 FA DA FA|E2 .c2 E2 .c2|
 D2 FA dA FA|G2 .B2 G2 B2|Ad cB AG FE|1 (3DED CE D2:|2 (3DED CE D2>c||
 dA FA DA FA|G2 .B2 G2 Bc|dA FA DA FA|E2 .c2 E2 .c2|
-dA FA DA FA|G2 .B2 G2 B2|Ad cB AG FE|(3DED CE D2(3ABc|
+dA FA dA FA|G2 .B2 G2 B2|Ad cB AG FE|(3DED CE D2(3ABc|
 (3ddd FA (3ddd AF|G2 .BGDG (3BAG|dA FA DA FA|E2 .c2 E2 .c2|
 dA FA dA FA|G2 .B2 G2 B2|Ad cB AG FE|(3DED CE D2|
 |:A2|D2 FA dA FA|G2 BG DG BG|D2 FA DA FA|E2 .cG EG .cG|
@@ -65484,7 +65484,7 @@ e>d c2 ca|ge d2 A2|e>f g2 gB|cA d2 d2:|
 e>d c2 ca|ge d2 A2|e>f g2 gB|cA d2 d2:|
 |:c>B A2 Ac|eg f2 d2|c>B A2 Ac|e<a f2 eA|
 d>f a2 fa|g/>f/e/>d/ c2 B2|e>f g2 gB|cA d2 d2:|"
-6479,31345,Lochanside,JACKB,https://thesession.org/tunes/6479#setting31345,"Pickup, ending or repeat boundary","[{""setting_id"": ""31345"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""6"", ""fragment"": ""A2"", ""reason"": ""No unique supported correction""}]","A2|:d>e f2 fa|ge f2 d2|a>f d2 d>e|f>A f2 e2|
+6479,31345,Lochanside,JACKB,https://thesession.org/tunes/6479#setting31345,"Pickup, ending or repeat boundary","[{""setting_id"": ""31345"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""6"", ""fragment"": ""A2"", ""reason"": ""No unique supported correction""}]","A2|:d>e f2 fa|ge f2 d2|a>f d2 d>e|f>d f2 e2|
 e>d c2 ca|ge d2 A2|e>f g2 gB|cA d2 d2:|
 |:d>f a2 a>g|f>g a2 f2|dA B2 g>f|ed f2 e2|
 e>d c2 ca|ge d2 A2|e>f g2 gB|cA d2 d2:|
@@ -80590,7 +80590,7 @@ Addc d2 cd|edcd egg2|a3g egdc|cAGE EDD2:|"
 B2 EF GABc|dBAF DEFA|B2EF GABc|dBAF E2:|
 |:ed|Bee^d e2 de|fe^de fgaf|Bee^d e2 de|fbba fe^de|
 Bee^d e2 de|fe^de fgaf|bgaf gf^de|fbba fe:|"
-175,28724,"New Custom House, The",JACKB,https://thesession.org/tunes/175#setting28724,"Pickup, ending or repeat boundary","[{""setting_id"": ""28724"", ""bar"": 17, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": "" (3fga ge d2B"", ""reason"": ""No unique supported correction""}]","|:ADdD (3EFG AB|cAGE cEGB|ADdD (3EFG AB|c3 ^c dcAG|
+175,28724,"New Custom House, The",JACKB,https://thesession.org/tunes/175#setting28724,"Pickup, ending or repeat boundary","[{""setting_id"": ""28724"", ""bar"": 17, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": "" (3fga ge d2B"", ""reason"": ""No unique supported correction""}]","|:ADdD (3EFG AB|cAGE CEGB|ADdD (3EFG AB|c3 ^c dcAG|
 AD D2 (3EFG AB|cAGE cEGB|ADdD (3EFG AB|cAGE EDD2:|
 |:Ad d2 Adfd|ed^cd efg2|Ad (3B^cd Adfd|ed^cd eddB|
 Ad (3B^cd Adfd|ed^cd efge|faag efge|1 (3fga ge eddc:|2 (3fga ge d2B||"
@@ -92893,7 +92893,7 @@ g2 fe d2 c2|B2 c2 d4|cBAG FGAB|G4 G2 z2||"
 85,12597,"Rakes Of Mallow, The",ceolachan,https://thesession.org/tunes/85#setting12597,"Pickup, ending or repeat boundary","[{""setting_id"": ""12597"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""4"", ""fragment"": ""BG G"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12597"", ""bar"": 32, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""4"", ""fragment"": ""BG G"", ""reason"": ""No unique supported correction""}]","GB GB|GB c/B/A/G/|FA DA|DA A/G/F/A/|
 GB DB|GB d>B|c/B/A/G/ F/G/A/c/|BG G>D|
 GB GB|GB c/B/A/G/|FA DA|FA d/c/B/A/|
-GB DB|GB d>B|c/B/A/G/ F/G/A/c/|BG G||
+GB GB|GB d>B|c/B/A/G/ F/G/A/c/|BG G||
 gf/e/ dd/c/|Bc de/f/|gf/e/ dc/B/|eA Af/a/|
 gf/e/ dd/c/|Bc dB/d/|c/B/A/G/ F/G/A/c/|BG Gf/a/|
 gf/e/ dd/c/|Bc de/f/|gf/e/ dc/B/|eA Af/f/|
@@ -113260,7 +113260,7 @@ G2 A/B/c de|fd cd fd|GF GA B/c/d|c2 cA Bc|
 dB F2 E2|dc B2 cB|A2 AB cE|A3 c BA|
 BA G2 B/c/d|BA GA Bd|cA ^GA cA|d2 eA ef|
 eA fA f/g/a|g2 gf fe|f2 B3 c|BA F3 ^G|
-AE cE AE|BE EB Bd|cA ^GA cA|d2 eA ef|
+AE CE AE|BE EB Bd|cA ^GA cA|d2 eA ef|
 eA fA ^ga|g2 gf fe|f2 B3 c|BA F3 ^G|
 AE cE AF|GD BD GF|GF GA B/c/d|1 c2 cA Bc:|2 c2 cA Bc|dB F2 E2|dc B6||"
 21083,42050,Uaine Bheag,Annie Davey,https://thesession.org/tunes/21083#setting42050,"Pickup, ending or repeat boundary","[{""setting_id"": ""42050"", ""bar"": 35, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""DC B,6"", ""reason"": ""No unique supported correction""}]","|:dB F2 E2|DC B,2 CB,|A,3 B, CE|A,2 A,C B,A,|

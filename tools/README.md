@@ -38,9 +38,11 @@ The reports count distinct settings. When an upstream setting appears in separat
 
 ## Accidentals and octaves
 
-Run `tools/fix_notation.py --pitches` with the compiler options above. This pass looks in full measures between ordinary barlines. Two contributors must agree on the corrected measure and both of its neighbors. A fourth matching measure or a second written occurrence in the same setting provides additional corroboration. An octave change must also remove an isolated jump, unless the setting itself contains the matching written phrase.
+Run `tools/fix_notation.py --pitches` with the compiler options above. The pass looks in full measures between ordinary barlines. It compares the corrected measure and both neighbors with original transcriptions of the same tune. A fourth matching measure or a separate written repetition can provide additional corroboration.
 
-The correction changes one written pitch and one sounding note per location. The scanner resolves accidentals across the measure before comparing pitches. A change that would affect another note is left for review. The playback check verifies the expected pitch change on each played occurrence and checks the remaining pitches, starts, durations, rests and ties. [Pitch edits](../checks/pitch-edits.json) records the original and corrected measures and the reference setting and bar numbers.
+An accidental correction needs either two other contributors and a fourth matching measure, or a written repetition and an independent contributor. An isolated octave jump may be corroborated by a fourth matching measure in another contributor's transcription. A change to a different note letter requires an isolated jump, a fourth matching measure and at least two other contributors. A conflicting transcription with the same surrounding passage leaves the pitch for review.
+
+The scanner resolves accidentals across each measure and allows one sounding pitch change per correction. New pitch edits are checked in TradMate and the vendored abcjs, using Node for the latter. Both must preserve timing and agree on the expected played changes. The abcjs check also matches the exact written locations. See [pitch edits](../checks/pitch-edits.json) for the original and corrected measures and the reference setting and measure numbers.
 
 ## Other checks
 
