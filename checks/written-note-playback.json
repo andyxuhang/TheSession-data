@@ -39,6 +39,33 @@
       "duration_delta_quarter": 0.5
     },
     {
+      "setting_id": "38571",
+      "passed": true,
+      "event_count": 170,
+      "changed_note_occurrences": 1,
+      "inserted_playback_events": 1,
+      "inserted_token": "F",
+      "duration_delta_quarter": 0.5
+    },
+    {
+      "setting_id": "23871",
+      "passed": true,
+      "event_count": 190,
+      "changed_note_occurrences": 1,
+      "inserted_playback_events": 1,
+      "inserted_token": "e",
+      "duration_delta_quarter": 0.5
+    },
+    {
+      "setting_id": "55787",
+      "passed": true,
+      "event_count": 177,
+      "changed_note_occurrences": 1,
+      "inserted_playback_events": 1,
+      "inserted_token": "e",
+      "duration_delta_quarter": 0.5
+    },
+    {
       "setting_id": "39799",
       "passed": true,
       "event_count": 252,
@@ -75,6 +102,15 @@
       "removed_token": "g2"
     },
     {
+      "setting_id": "57199",
+      "passed": true,
+      "event_count": 279,
+      "changed_note_occurrences": 1,
+      "inserted_playback_events": 1,
+      "inserted_token": "B",
+      "duration_delta_quarter": 0.5
+    },
+    {
       "setting_id": "22468",
       "passed": true,
       "event_count": 182,
@@ -100,6 +136,15 @@
       "duration_delta_quarter": -1.0,
       "removed_playback_events": 2,
       "removed_token": "G"
+    },
+    {
+      "setting_id": "45817",
+      "passed": true,
+      "event_count": 220,
+      "changed_note_occurrences": 2,
+      "inserted_playback_events": 2,
+      "inserted_token": "A",
+      "duration_delta_quarter": 1.0
     }
   ]
 }

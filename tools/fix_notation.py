@@ -16,7 +16,9 @@ from missing_notes import scan_missing_notes
 from note_count_fixes import scan_note_counts
 from phrase_lengths import scan_lengths
 from pitch_fixes import PITCH_RULES, scan_pitches
+from reference_lengths import scan_reference_lengths
 from syntax_fixes import SYNTAX_RULES, scan_syntax
+from transposed_pitches import scan_transposed_pitches
 from scan import ROOT, measures, rows, scan, sha, unique_settings
 
 
@@ -115,10 +117,14 @@ def main():
     mode.add_argument('--pitches', action='store_true', help='Check accidentals and octaves in fully metered passages')
     mode.add_argument('--syntax', action='store_true', help='Check stray notation and split note tokens')
     mode.add_argument('--note-counts', action='store_true', help='Compare omitted and extra written notes')
+    mode.add_argument('--reference-lengths', action='store_true', help='Check durations against matching phrases at section and repeat boundaries')
+    mode.add_argument('--transposed-pitches', action='store_true', help='Compare isolated pitches across equivalent transposed phrases')
     args = parser.parse_args()
-    cross_checked = args.pitches or args.syntax or args.note_counts
+    pitch_mode = args.pitches or args.transposed_pitches
+    cross_checked = pitch_mode or args.syntax or args.note_counts or args.reference_lengths
     separate_scan = args.phrases or args.missing_notes or cross_checked
-    plan_name = 'written-note' if args.note_counts else 'syntax' if args.syntax else 'pitch' if args.pitches else 'notation'
+    plan_name = ('written-rhythm' if args.reference_lengths else 'written-note' if args.note_counts
+                 else 'syntax' if args.syntax else 'pitch' if pitch_mode else 'notation')
     lengths = args.lengths or args.parallel_lengths
     current = unique_settings(rows(ROOT/'json/tunes.json'))
     data = list(current.values())
@@ -126,16 +132,21 @@ def main():
         baseline = json.loads((ROOT/'changes/initial-fixes.json').read_text())['upstream_commit']
         exported = subprocess.check_output(['git','show',baseline+':json/tunes.json'], cwd=ROOT)
         upstream = unique_settings(json.loads(exported))
+    earlier_rejections = json.loads((ROOT/'checks/rejected.json').read_text()) if args.reference_lengths else []
     original = {r['setting_id']:r['abc'] for r in data}
     collected, rejected, history, seen_failures = {}, {}, [], set()
     with tempfile.TemporaryDirectory(prefix='session-notation-') as temporary:
         work = Path(temporary)
         for attempt in range(1, 16):
             if separate_scan:
-                if args.note_counts:
+                if args.reference_lengths:
+                    scanner = lambda records,refs: scan_reference_lengths(records,refs,earlier_rejections)
+                elif args.note_counts:
                     scanner = scan_note_counts
                 elif args.syntax:
                     scanner = scan_syntax
+                elif args.transposed_pitches:
+                    scanner = scan_transposed_pitches
                 elif args.pitches:
                     scanner = scan_pitches
                 elif args.missing_notes:
@@ -158,7 +169,7 @@ def main():
                 break
             structural = [p for p in candidates if all(
                 e['rule'] in {'misplaced_barline', 'missing_barline'} for e in p['evidence'])]
-            individual = candidates if lengths or args.phrases or args.pitches or args.syntax else structural
+            individual = candidates if lengths or args.phrases or pitch_mode or args.syntax else structural
             if individual:
                 structural_ids = {p['setting_id'] for p in individual}
                 passed, failures = check_measure_edits(individual, work, args, lengths=lengths)
@@ -184,6 +195,11 @@ def main():
                 accepted += 1
                 for evidence in patch['evidence']:
                     evidence['scan_pass'] = attempt
+                    if args.reference_lengths:
+                        evidence['changed_played_durations'] = outcomes[sid]['changed_note_durations']
+                        evidence['abcjs'] = outcomes[sid]['abcjs']
+                        if outcomes[sid].get('primary_duration_already_normalized'):
+                            evidence['primary_duration_already_normalized'] = True
                     if args.note_counts:
                         evidence['changed_note_occurrences'] = outcomes[sid]['changed_note_occurrences']
                         evidence['abcjs'] = outcomes[sid]['abcjs']
@@ -232,9 +248,14 @@ def main():
             'scanner_sha256':hashlib.sha256((ROOT/'tools/scan.py').read_bytes()).hexdigest(),
             'corrections':sorted(combined.values(),key=lambda p:(int(p['tune_id']),int(p['setting_id']))),
         }
-        if args.pitches:
+        if args.transposed_pitches:
+            plan['transposed_pitch_scanner_sha256'] = hashlib.sha256((ROOT/'tools/transposed_pitches.py').read_bytes()).hexdigest()
+        if pitch_mode:
             plan['method'] = 'Independent matching written phrases and verified single-note pitch changes'
             plan['pitch_scanner_sha256'] = hashlib.sha256((ROOT/'tools/pitch_fixes.py').read_bytes()).hexdigest()
+        if args.reference_lengths:
+            plan['method'] = 'Matching written measures and independent checks of the intended note duration'
+            plan['reference_lengths_sha256'] = hashlib.sha256((ROOT/'tools/reference_lengths.py').read_bytes()).hexdigest()
         if args.note_counts:
             plan['method'] = 'Matching written phrases and independent verification of an individual note count change'
             plan['written_note_scanner_sha256'] = hashlib.sha256((ROOT/'tools/note_count_fixes.py').read_bytes()).hexdigest()
@@ -276,7 +297,18 @@ def main():
             if args.barlines or lengths or separate_scan:
                 for old in json.loads((ROOT/'checks/rejected.json').read_text()):
                     rules = {e['rule'] for e in old.get('proposal', {}).get('evidence', [])}
-                    if args.pitches and old['setting_id'] in collected and old['setting_id'] not in rejected:
+                    if (args.note_counts or args.reference_lengths) and old['setting_id'] in collected:
+                        accepted = collected[old['setting_id']]
+                        earlier = old.get('proposal', {})
+                        if (earlier.get('after_sha256') == accepted['after_sha256']
+                                and earlier.get('before_sha256') == accepted['before_sha256']):
+                            continue
+                        if args.reference_lengths and old.get('bars'):
+                            verified = {(e['rule'],e['bar'],e['after']) for e in accepted['evidence']}
+                            if all((entry['edit']['rule'],entry['edit']['bar'],entry['edit']['after']) in verified
+                                   for entry in old['bars']):
+                                continue
+                    if pitch_mode and old['setting_id'] in collected and old['setting_id'] not in rejected:
                         prior_edits = [record['edit'] for record in old.get('bars', [])]
                         prior_edits.extend(old.get('proposal', {}).get('evidence', []))
                         applied = {(ev['rule'],ev['bar'],ev['note'])

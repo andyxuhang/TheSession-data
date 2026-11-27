@@ -42,6 +42,8 @@ Run `tools/fix_notation.py --pitches` with the compiler options above. The pass 
 
 An accidental correction needs either two other contributors and a fourth matching measure, or a written repetition and an independent contributor. An isolated octave jump may be corroborated by a fourth matching measure in another contributor's transcription. A change to a different note letter requires an isolated jump, a fourth matching measure and at least two other contributors. A conflicting transcription with the same surrounding passage leaves the pitch for review.
 
+Run `--transposed-pitches` to compare relative pitches and written scale degrees across keys in the same mode. Each change needs matching adjacent measures, a fourth matching measure and agreement from at least two other contributors.
+
 The scanner resolves accidentals across each measure and allows one sounding pitch change per correction. New pitch edits are checked in TradMate and the vendored abcjs, using Node for the latter. Both must preserve timing and agree on the expected played changes. The abcjs check also matches the exact written locations. See [pitch edits](../checks/pitch-edits.json) for the original and corrected measures and the reference setting and measure numbers.
 
 ## Local notation syntax
@@ -50,9 +52,15 @@ Run `tools/fix_notation.py --syntax` to check isolated notation symbols, split n
 
 ## Omitted and surplus notes
 
-Run `tools/fix_notation.py --note-counts` for a measure whose duration differs from a complete reference by exactly one note. Both neighbors must match, and the candidate and reference must have the same adjacent repeat or section marks. The complete corrected measure must match the written reference. Independent contributors, a longer matching phrase, or another written occurrence provide corroboration. A competing reading that resolves the duration by keeping the original notes blocks the change.
+Run `tools/fix_notation.py --note-counts` for a measure whose duration differs from a complete reference by exactly one note. Both neighbors must match, and the candidate and reference must have the same adjacent repeat or section marks. The complete corrected measure must match the written reference. Independent contributors, a longer matching phrase, or another written occurrence provide corroboration. A transposed reference for an omitted note must also match an additional measure in the same mode. A competing reading that resolves the duration by keeping the original notes blocks the change.
 
-Each accepted patch inserts or removes a single whole note token. TradMate and abcjs check the agreed pitch and duration at every played occurrence and follow all remaining notes after the expected timing shift. The [written-note edits](../checks/written-note-edits.json) identify the exact tokens and reference measures.
+Each accepted patch inserts or removes a single whole note token. TradMate and abcjs check the agreed pitch and duration at every played occurrence and follow all remaining notes after the expected timing shift. The abcjs note-count check follows the written melody with generated backing chords disabled. Source chord annotations remain in the ABC. The [written-note edits](../checks/written-note-edits.json) identify the exact tokens and reference measures.
+
+## Reference durations at section boundaries
+
+Run `tools/fix_notation.py --reference-lengths` to compare an irregular measure with the same written passage in another setting or elsewhere in the tune. The target and reference share both neighboring measures and the same repeat or section markers. Transposed references need the same mode, scale degrees and rhythm around the target, with an additional matching measure. A separated duration suffix can qualify when joining it produces the exact reference and both playback engines confirm the resulting change.
+
+The [rhythm edits](../checks/written-rhythm-edits.json) record the original and expected duration, exact written position and source measures. The checks follow every remaining note after accounting for the expected timing shift. If TradMate already interprets the written note at the corrected duration, its full playback must remain stable, its isolated measure must confirm the corrected duration, and abcjs must confirm the expected change in the full score.
 
 ## Other checks
 

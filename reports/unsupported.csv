@@ -20345,12 +20345,6 @@ D3/2[C/E/] DB|AF F2|AF EF/E/|D2 D:|
 de/d/ c2|BA F>B|AF E[CF]|D2 D:|
 |:A|d2 e2|f/g/f/e/ f>e|d2 A/B/c|d2- dA|
 Bc/B/ AF|Bd/B/ A>F|AF E/D/[CF]|D2- D:|"
-3835,30297,John Brosnan's,Ian Varley,https://thesession.org/tunes/3835#setting30297,Unsupported syntax or empty melody,"[{""setting_id"": ""30297"", ""bar"": 2, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '2'"", ""fragment"": ""AF 2B""}]","|:D>D DB|AF 2B|AF D>E|FE E2|
-D>D DB|AF2B|AF EF|D3A:|
-|:d2 cd|BA FA|d2 cd|B3c|
-d2 cd|BA FB|AF EF|D3A:|
-|:d2 e2|f3f|ed Bc|d3A|
-Bc/B/ AF|Bc/B/ AF|AF EF|D3A:|"
 17230,33262,John Brown's,Jesse,https://thesession.org/tunes/17230#setting33262,Unsupported syntax or empty melody,"[{""setting_id"": ""33262"", ""bar"": 2, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""G2 [GG,]4 e2""}, {""setting_id"": ""33262"", ""bar"": 6, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""\r\nG2 [GG,]4 e2""}]","|:(3DEF|G2 [GG,]4 e2|d2 B2 BA G2|A4 B3A|G2 ED E2 DE|
 G2 [GG,]4 e2|d2 B2 BA G2|A4 B3A|1 G4 G2:|2 G4 G2 d2||
 |:gdfd eddd|edfd g3e|d2 B2 B3A|B2 d4 ef|
@@ -22607,9 +22601,6 @@ feda ""C""gzgf|ezefezea|gzgzgfeg|
 11618,11618,LaaLaa Land,ukebert,https://thesession.org/tunes/11618#setting11618,Unsupported syntax or empty melody,"[{""setting_id"": ""11618"", ""category"": ""unsupported"", ""reason"": ""embedded field or voice""}]","[M:5/4]fg a2 ag fe dA|A2 d2 de fgfe|dAGF A2 D2 DA|d2 de dA zAde|
 fg a2 ag fe dA|A2 d2 de fgfe|dAGF A2 D2 DA|d2 de dA zAde:|
 d4 GA d2 Ad|ed B2 df e2 de|d2 G2 dGdAdA|de a8||"
-7338,18867,Lac Amora,ceolachan,https://thesession.org/tunes/7338#setting18867,Unsupported syntax or empty melody,"[{""setting_id"": ""18867"", ""bar"": 11, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '3'"", ""fragment"": ""fedf e 3^c""}]","|:EFED ~A2 Bc|BAdB AGFE|DEDC ~A2 Bc|GFED ^C4:|
-|:d2 ef feda|agcc fed^c|~d2 ef feda|1 aged g3 ^c:|2 fed^c d4||
-|:aa f2 gg e2|fedf e 3^c|dfeg (3ege) fg|1 afef e3 z:|2 fed^c- dAFE|D6 z2||"
 21828,50505,Lad O'Beirne's,Bregolas,https://thesession.org/tunes/21828#setting50505,Unsupported syntax or empty melody,"[{""setting_id"": ""50505"", ""bar"": 14, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""\r\n[d3f3]f e/f/e dB""}]","|:D2 F/E/D ADFA|dAFA {c}BAFE|DEDF ABAF|G/A/G F/G/F EDB,E|
 D2 F/E/D ADFA|dAFE DEFA|{c}BAGF GABc|1 dBAF EGFE:|2 dBAF E2FA||
 |:dcdf e/f/e dB|AF~F2 DEFA|dcdf e/f/e dB|Adfd edBc|
@@ -24447,7 +24438,7 @@ d>B G2 e/g/|f3d c/A/F/A/|G4 A/G/F/A/|G4||"
 [1 dgbd' c'3 c' | c'd'c'b abag | dega bagf :|
 [2 dgbg a3 a | abag fgfe |[M:6/4]dega bgaf g4 ||"
 3262,18316,Lord Moira's Welcome To Scotland,geoffwright,https://thesession.org/tunes/3262#setting18316,Unsupported syntax or empty melody,"[{""setting_id"": ""18316"", ""bar"": 3, ""category"": ""unsupported"", ""reason"": ""unsupported syntax 'w'"", ""fragment"": ""gfed efgw""}]","|:gfed efge|dcBA Bc d2|gfed efgw|fgaf g2:|
-|:gabg af d2|efge dB G2|ABcA dBGB|cAFA G2:|
+|:gabg af d2|efge dB G2|ABcA dBGB|cAFA G4:|
 |:BcdB cd e2|ABcA Bc d2|G2 GB cBAG|FDEF G4:|"
 1650,26638,Lord Seaforth,JMM,https://thesession.org/tunes/1650#setting26638,Unsupported syntax or empty melody,"[{""setting_id"": ""26638"", ""category"": ""unsupported"", ""reason"": ""embedded field or voice""}]","M:C|
 c|BGAG BGAB|cABG E/E/E EA|GEDE Gage|1 dBAB !>!(DG) G:|2 dBAB G/G/G G2||

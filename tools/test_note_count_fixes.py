@@ -1,7 +1,13 @@
+import json
+from pathlib import Path
+import shutil
+import subprocess
+import tempfile
 import unittest
 
 from check_playback import prepare_note_count
 from note_count_fixes import scan_note_counts
+from scan import ROOT
 from test_scan import row
 
 
@@ -45,3 +51,31 @@ class NoteCountTests(unittest.TestCase):
         evidence, = patch['evidence']
         with self.assertRaises(ValueError):
             prepare_note_count(patch,{**evidence,'possible_offsets':[0]})
+
+    def test_restore_degree_from_a_transposed_reference(self):
+        source = row('|DEFGABcd|DEFGABcd|EFGABde|DEFGABcd|DEFGABcd|A8|B8|C8|','1')
+        reference = {**row('|GABcdefg|GABcdefg|ABcdefga|GABcdefg|GABcdefg|d8|e8|f8|','2'),
+                     'username':'reference','mode':'Gmajor'}
+        patch, = self.scan([source,reference])
+        edit, = patch['evidence']
+        self.assertEqual(edit['transposed_references'],['2'])
+        self.assertEqual(patch['after_abc'],source['abc'].replace('ABde','ABcde'))
+
+    def test_source_positions_disambiguate_consecutive_identical_notes(self):
+        node = shutil.which('node')
+        abcjs = ROOT.parent.parent/'third_party/abcjs/abcjs-basic-min.js'
+        if not node or not abcjs.is_file():
+            self.skipTest('Node and the vendored TradMate abcjs are required')
+        patch = {**row('|A ABBBcd|'), 'before_abc':'|A ABBBcd|', 'after_abc':'|AA ABBBcd|',
+                 'pitch_changes':[]}
+        evidence = {'note_count_change':1, 'bar':1, 'before':'A ABBBcd', 'after':'AA ABBBcd',
+                    'token':'A', 'midi':69, 'duration_eighths':'1', 'possible_offsets':[0,1]}
+        patch['insertion'] = prepare_note_count(patch,evidence)
+        with tempfile.TemporaryDirectory() as work:
+            source = Path(work)/'input.json'
+            source.write_text(json.dumps([patch]))
+            out = subprocess.check_output(
+                [node,str(ROOT/'tools/check_abcjs_pitches.js'),str(abcjs),str(source)],text=True)
+        check, = json.loads(out)['results']
+        self.assertTrue(check['passed'],check)
+        self.assertEqual(check['changed_note_occurrences'],1)

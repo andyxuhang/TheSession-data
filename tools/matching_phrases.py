@@ -91,6 +91,35 @@ def relative_pitches(events, key):
                  for e in events)
 
 
+def relative_measure(score,i):
+    bar = score.bars[i]
+    pitches = relative_pitches(bar.events,score.key[0]) if score.key else None
+    return (pitches,rhythm(bar.events),bar.left,bar.right) if pitches else None
+
+
+def relative_phrase_key(score,i):
+    notes = relative_pitches(score.bars[i].events,score.key[0]) if score.key else None
+    a,b = relative_measure(score,i-1),relative_measure(score,i+1)
+    bar = score.bars[i]
+    if notes and a and b:
+        return (a,b,notes,bar.left,bar.right)
+    return None
+
+
+def matches_more_transposed_music(score,i,ref,j):
+    for delta in (-2,2):
+        a,b = i+delta,j+delta
+        if (0<=a<len(score.bars) and 0<=b<len(ref.bars) and score.full[a] and ref.full[b]
+                and len(score.bars[a].events)>=3
+                and relative_measure(score,a)==relative_measure(ref,b) and relative_measure(score,a)):
+            return True
+    return False
+
+
+def normalize_note_names(text):
+    return compact(NOTE.sub(lambda m:'N'+(m['length'] or ''),text))
+
+
 def length_edit(score, a, b, reference, j, k, sides, transposed=False):
     bars, other_bars = score.bars[a:b], reference.bars[j:k]
     if [len(bar.events) for bar in bars] != [len(bar.events) for bar in other_bars]:

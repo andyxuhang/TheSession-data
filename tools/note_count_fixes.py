@@ -1,8 +1,10 @@
 """Find a single omitted or surplus note using complete reference phrases."""
 
 from collections import Counter, defaultdict
+import re
 
-from matching_phrases import Score, compact, separate_occurrence
+from matching_phrases import (Score, compact, matches_more_transposed_music, normalize_note_names,
+                              relative_measure, relative_pitches, separate_occurrence)
 from missing_notes import SIMPLE_NOTE, restore_note
 from pitch_fixes import key_signature, resolve_pitches
 from scan import parse_bar, sha
@@ -34,11 +36,45 @@ def plain_events(bar):
     return all(not (e.broken or e.tuplet or e.tied or e.pitch[0] in '^_=xz') for e in bar.events)
 
 
-def supported_edit(score, i, index):
+def transpose_key(score,i):
+    left,right = relative_measure(score,i-1),relative_measure(score,i+1)
+    b = score.bars[i]
+    return (left,right,b.left,b.right) if left and right else None
+
+
+def restore_transposed_note(score,bar,ref,other):
+    wanted = relative_pitches(other.events,ref.key[0])
+    current = relative_pitches(bar.events,score.key[0])
+    if wanted is None or current is None or len(wanted)!=len(current)+1:
+        return
+    expected = normalize_note_names(ref.body[other.start:other.end])
+    before = score.body[bar.start:bar.end]
+    for i,event in enumerate(other.events):
+        if (event.duration!=score.unit-bar.duration or wanted[:i]+wanted[i+1:]!=current
+                or [e.duration for e in other.events[:i]+other.events[i+1:]] != [e.duration for e in bar.events]):
+            continue
+        octave,step = divmod('CDEFGAB'.index(score.key[0][0])+wanted[i],7)
+        letter = 'CDEFGAB'[step]
+        pitch = (letter.lower()+"'"*(octave-1)) if octave>0 else letter+','*(-octave)
+        token = pitch+event.length
+        if not SIMPLE_NOTE.fullmatch(token):
+            continue
+        if i<len(bar.events):
+            at = bar.events[i].start-bar.start
+        else:
+            at = bar.events[-1].end-bar.start
+        after = before[:at]+token+before[at:]
+        if normalize_note_names(after)==expected:
+            parsed = parse_bar(after,0,bar.left,bar.right)
+            if not parsed.error and parsed.duration==score.unit:
+                yield after,token,str(event.duration)
+
+
+def supported_edit(score, i, index, transposed_index):
     target = score.bars[i]
     insert = target.duration < score.unit
     alternatives = defaultdict(list)
-    for ref,j in index.get(phrase_key(score,i),()):
+    for ref,j in index.get((score.row['mode'],phrase_key(score,i)),()):
         if not separate_occurrence(score,i,i+1,ref,j,j+1):
             continue
         other = ref.bars[j]
@@ -52,13 +88,23 @@ def supported_edit(score, i, index):
             continue
         edits = restore_note(score,target,ref,other) if insert else trim_note(score,target,ref,other)
         for edit in edits:
-            alternatives[edit].append((ref,j))
+            alternatives[edit].append((ref,j,False))
+    if insert:
+        for ref,j in transposed_index.get(transpose_key(score,i),()):
+            if (ref.row['mode']==score.row['mode'] or ref.row['username']==score.row['username']
+                    or not matches_more_transposed_music(score,i,ref,j)):
+                continue
+            other = ref.bars[j]
+            if not plain_events(other):
+                continue
+            for edit in restore_transposed_note(score,target,ref,other):
+                alternatives[edit].append((ref,j,True))
     if len(alternatives)!=1:
         return None
     (fragment,token,duration),refs = next(iter(alternatives.items()))
-    contributors = {ref.row['username'] for ref,_ in refs if ref.row['username']!=score.row['username']}
-    written_repeat = any(ref.id==score.id for ref,_ in refs)
-    longer_phrase = any(extends_phrase(score,i,ref,j) for ref,j in refs)
+    contributors = {ref.row['username'] for ref,_,_ in refs if ref.row['username']!=score.row['username']}
+    written_repeat = any(ref.id==score.id for ref,_,_ in refs)
+    longer_phrase = any(transposed or extends_phrase(score,i,ref,j) for ref,j,transposed in refs)
     if not (len(contributors)>=2 or (contributors and longer_phrase) or (written_repeat and longer_phrase)):
         return None
     if (target.left,target.right)!=('|','|') and not (contributors and longer_phrase):
@@ -82,7 +128,8 @@ def supported_edit(score, i, index):
         'note_count_change':1 if insert else -1,
         'before':original, 'after':fragment, 'token':token, 'duration_eighths':duration,
         'midi':next(iter(midis)), 'possible_offsets':positions,
-        'reference_ranges':sorted({(ref.id,j+1,j+1) for ref,j in refs}),
+        'reference_ranges':sorted({(ref.id,j+1,j+1) for ref,j,_ in refs}),
+        'transposed_references':sorted({ref.id for ref,_,transposed in refs if transposed}),
         'corroborating_contributors':len(contributors),
         'written_repeat':written_repeat, 'extra_matching_bar':longer_phrase,
     }
@@ -91,12 +138,13 @@ def supported_edit(score, i, index):
 def scan_note_counts(data, upstream):
     groups = defaultdict(list)
     for row in data:
-        groups[row['tune_id'],row['meter'],row['mode'],row['type']].append(row)
+        if key_signature(row['mode']) is not None:
+            family = re.sub(r'^[A-G][#b]?','',row['mode'])
+            groups[row['tune_id'],row['meter'],family,row['type']].append(row)
     proposals, stats = [], Counter()
-    for (_,_,mode,_),group in groups.items():
-        if key_signature(mode) is None:
-            continue
-        targets,index = [],defaultdict(list)
+    for group in groups.values():
+        targets,index,transposed_index = [],defaultdict(list),defaultdict(list)
+        multiple_keys = len({r['mode'] for r in group})>1
         for row in group:
             original = upstream.get(row['setting_id'])
             if not original or any(row[k]!=original[k] for k in ('tune_id','mode','meter','type','abc')):
@@ -109,7 +157,9 @@ def scan_note_counts(data, upstream):
             for i in range(1,len(score.bars)-1):
                 a,b,c = score.bars[i-1:i+2]
                 if all(score.full[i-1:i+2]) and min(len(a.events),len(c.events))>=3:
-                    index[phrase_key(score,i)].append((score,i))
+                    index[score.row['mode'],phrase_key(score,i)].append((score,i))
+                    if multiple_keys and (key := transpose_key(score,i)):
+                        transposed_index[key].append((score,i))
         for score in targets:
             corrections = []
             for i in range(1,len(score.bars)-1):
@@ -120,7 +170,7 @@ def scan_note_counts(data, upstream):
                         or a.events[-1].tied or not plain_events(b)):
                     continue
                 stats['short_measures' if b.duration<score.unit else 'long_measures']+=1
-                evidence = supported_edit(score,i,index)
+                evidence = supported_edit(score,i,index,transposed_index)
                 if evidence:
                     corrections.append((b,evidence))
             if len(corrections)!=1:

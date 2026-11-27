@@ -11,7 +11,7 @@ import re
 import subprocess
 import tempfile
 from pitch_fixes import PITCH_RULES, key_signature, resolve_pitches
-from scan import measures, rows as read_rows, unique_settings
+from scan import NOTE, measures, rows as read_rows, unique_settings
 from syntax_fixes import SYNTAX_RULES
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -120,6 +120,21 @@ Map verifyPitchChanges(Map row, List before, List after) {
   };
 }
 
+bool verifiesNormalizedDuration(Map row, Map edit) {
+    final before = compile(row, '| ${edit['before_measure'].trim()} |')['events'] as List;
+    final after = compile(row, '| ${edit['after_measure'].trim()} |')['events'] as List;
+    final index = edit['note_index'] as int;
+    if (before.length != edit['note_count'] || after.length != before.length) return false;
+    for (var i = 0; i < before.length; i++) {
+      for (final field in ['abc_text', 'midi_pitches', 'start_quarter', 'duration_quarter', 'is_tie', 'is_rest']) {
+        if (jsonEncode(before[i][field]) != jsonEncode(after[i][field])) return false;
+      }
+    }
+    final event = after[index];
+    return !event['is_tie'] && !event['is_rest'] && event['abc_text'] == edit['new_token'] &&
+        ((event['duration_quarter'] as num) - (edit['after'] as num)).abs() < .00001;
+}
+
 void main(List<String> args) {
   final rows = jsonDecode(File(args[0]).readAsStringSync()) as List;
   final result = <Map>[];
@@ -168,6 +183,7 @@ void main(List<String> args) {
         }
         final pitch = RegExp(r"^(?:\^{1,2}|_{1,2}|=)?[A-Ga-gzZxX][,']*").firstMatch(a[i]['abc_text'] as String)?.group(0);
         final match = allowed.indexWhere((p) => p['pitch']==pitch &&
+          (!p.containsKey('old_token') || (p['old_token']==a[i]['abc_text'] && p['new_token']==b[i]['abc_text'])) &&
           ((p['before'] as num)-da).abs()<.00001 && ((p['after'] as num)-db).abs()<.00001);
         require(match>=0, '$sid unplanned duration change at $i');
         seen[match]++;
@@ -178,12 +194,19 @@ void main(List<String> args) {
       if (sb+db > afterDuration) afterDuration = sb+db;
     }
     require((afterDuration-beforeDuration-elapsedDelta).abs() < .00001, '$sid total duration');
+    final durationEdits = row['duration_edits'] as List?;
+    final normalizedDuration = durationEdits != null && durationChanges == 0 &&
+        durationEdits.every((edit) => verifiesNormalizedDuration(row, edit));
+    if (durationEdits != null) {
+      require(seen.every((count) => count > 0) || normalizedDuration, '$sid expected duration change was not heard');
+    }
     result.add({
       if (row.containsKey('variant')) 'variant':row['variant'],
       'setting_id': sid, 'passed': true, 'event_count': a.length,
       'pitch_and_tie_sequence_unchanged': true,
       'all_event_timings_unchanged': durationChanges==0,
       'changed_note_durations': durationChanges,
+      if (normalizedDuration) 'primary_duration_already_normalized': true,
       'before_duration_quarter': beforeDuration,
       'after_duration_quarter': afterDuration,
       'approved_written_changes': allowed,
@@ -257,6 +280,26 @@ def prepare_note_count(patch, edit):
             'duration_quarter':float(Fraction(edit['duration_eighths'])/2)}
 
 
+def prepare_reference_duration(patch, edit):
+    before,_ = measures(patch['before_abc'])
+    after,_ = measures(patch['after_abc'])
+    index = edit['bar']-1
+    a,b = before[index],after[index]
+    at = edit['token_offset']
+    old,new = edit['old_token'],edit['new_token']
+    old_duration = Fraction(edit['old_duration_eighths'])
+    new_duration = Fraction(edit['new_duration_eighths'])
+    if (old_duration==new_duration or patch['before_abc'][a.start:a.end]!=edit['before']
+            or patch['after_abc'][b.start:b.end]!=edit['after']
+            or edit['before'][at:at+len(old)]!=old or edit['after'][at:at+len(new)]!=new):
+        raise ValueError('Duration edit does not match the reviewed note: '+patch['setting_id'])
+    note_index = next(i for i,e in enumerate(b.events) if e.start==b.start+at)
+    return {'note_index':note_index,'note_count':len(b.events),
+            'before_measure':edit['before'],'after_measure':edit['after'],'pitch':NOTE.fullmatch(old)['pitch'],'old_token':old,'new_token':new,
+            'before':float(old_duration/2),'after':float(new_duration/2),'written_occurrences':1,
+            'old_start':a.start+at,'new_start':b.start+at}
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--tradmate-repo", type=Path, required=True)
@@ -278,6 +321,12 @@ def main():
             evidence = patch['evidence']
             if isinstance(evidence,list) and evidence and all(e['rule'] in PITCH_RULES for e in evidence):
                 rows.append({**row, **patch, 'pitch_changes':prepare_pitch_changes(patch,row['mode'])})
+                continue
+            if isinstance(evidence,list) and evidence and all('old_duration_eighths' in ev for ev in evidence):
+                edits = [prepare_reference_duration(patch,ev) for ev in evidence]
+                unique = {(e['old_token'],e['new_token'],e['before'],e['after']):e for e in edits}
+                rows.append({**row, **patch, 'duration_edits':edits,
+                             'allowed_duration_changes':list(unique.values()), 'strict_length':True})
                 continue
             if isinstance(evidence,list) and evidence and all(e['rule'] in SYNTAX_RULES for e in evidence):
                 rows.append({**row, **patch, 'syntax_only':True, 'allowed_duration_changes':[]})
@@ -333,7 +382,8 @@ def main():
             secondary_input = root/'abcjs-input.json'
             secondary_input.write_text(json.dumps([
                 {**row, 'pitch_changes': row.get('pitch_changes', [])}
-                for row in rows if 'pitch_changes' in row or row.get('syntax_only') or row.get('insertion',{}).get('positions')
+                for row in rows if 'pitch_changes' in row or row.get('syntax_only')
+                or row.get('insertion',{}).get('positions') or 'duration_edits' in row
             ]),encoding='utf8')
             output = subprocess.check_output(['node',str(ROOT/'tools/check_abcjs_pitches.js'),
                                               str(library),str(secondary_input)],text=True)
@@ -350,6 +400,9 @@ def main():
                     not other['passed']
                     or other.get('changed_played_pitches',0) != check.get('changed_played_pitches',0)
                     or other.get('changed_note_occurrences',0) != check.get('changed_note_occurrences',0)
+                    or ('changed_note_durations' in other
+                        and not check.get('primary_duration_already_normalized')
+                        and other['changed_note_durations']!=check.get('changed_note_durations'))
                 ):
                     check['passed'] = False
                     check['reason'] = 'abcjs: '+other.get('reason','played pitch-change counts differ')

@@ -1,0 +1,20 @@
+{
+  "passes": [
+    {
+      "deferred_settings_compared": 2,
+      "settings": 55821,
+      "settings_with_proposals": 2,
+      "pass": 1,
+      "accepted": 1,
+      "rejected": 1
+    },
+    {
+      "deferred_settings_compared": 1,
+      "settings": 55821,
+      "settings_with_proposals": 1,
+      "pass": 2,
+      "accepted": 0
+    }
+  ],
+  "rejected_settings": 5
+}

@@ -1,0 +1,553 @@
+{
+  "compiler_repository": "TradMate",
+  "compiler_commit": "823fbf4cb5941394d86b5dd476ba46cc6e891f47",
+  "compiler_files_sha256": {
+    "lib/features/library/data/user_abc_import.dart": "f57617682fd2926c97fc9bd78a352a557b3ff26c0e68dbc934033114762ea573",
+    "lib/features/library/data/abc_part_structure.dart": "55205cfa334dd68d76b15f426819e1c95a78152cd02ba37807fcf3b1d1a02e47",
+    "lib/features/library/data/abc_playback_repair.dart": "fba58767ce1bbbcd15d88b0bc796b0873a515c01bb1d634b815ffc4e41053f16",
+    "lib/features/library/data/abc_bar_timeline.dart": "f6e5b3319968a8d9885c74bb1ea232fc5f6751024eee6d3ab21ee8a0a891bc7d",
+    "lib/features/library/data/abc_parser.dart": "0c4eceb29c7d952a821bab150d824b39c021bb03b59c998519f1f13362f87ed7",
+    "lib/features/library/domain/tune.dart": "b79899ed47064ec7415fa506b7ca198a286f0fca20c1fbf17b22b662e856a33b",
+    "lib/core/audio/midi_file_parser.dart": "3e45035c005d64b6655bf9c2b7d30247ba7957d3bb6df89debf6c31678bbbaf5",
+    "lib/core/audio/tempo_policy.dart": "9ad0c675b2c5b91783e300a8d2df6ac04a37bbe3d27b541a649c5f95e9173f4f",
+    "lib/core/audio/musical_context.dart": "5fe2d12b988715c9b53280d14a20bd586f92e2c9b82f8b8145395476f11ea578",
+    "lib/core/audio/dance_tempo_profiles.dart": "f45c683622d1a67953aea0c523fedf0348c290b09e0e5e13c3b95c91886eb581",
+    "lib/core/audio/harmony_key.dart": "0b1a8b940ad2f16af996fb42353a91973a5cd7b69d6d173011844016098209a9",
+    "lib/core/audio/abc_tempo.dart": "d21c95fd47fa8c03992bd2492a25d6c431ebcd1f9dfe3461f8cd5c8f387fa8d3",
+    "lib/core/audio/harmony_analyzer.dart": "27cdef7981763618697db9f35329d263e2817187d977c242da391a56720223ef"
+  },
+  "compiler_modifications": [],
+  "automatic_repairs": false,
+  "setting_specific_patches": false,
+  "checks": [
+    {
+      "setting_id": "32830",
+      "passed": true,
+      "event_count": 99,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": false,
+      "changed_note_durations": 2,
+      "before_duration_quarter": 71.0,
+      "after_duration_quarter": 72.0,
+      "approved_written_changes": [
+        {
+          "note_index": 0,
+          "note_count": 5,
+          "before_measure": "A d d2 c d3",
+          "after_measure": "A2 d d2 c d3",
+          "pitch": "A",
+          "old_token": "A",
+          "new_token": "A2",
+          "before": 0.5,
+          "after": 1.0,
+          "written_occurrences": 1,
+          "old_start": 42,
+          "new_start": 42
+        }
+      ],
+      "played_occurrences": [
+        2
+      ],
+      "parser_normalized_or_unplayed_change": false,
+      "duration_delta_quarter": 1.0
+    },
+    {
+      "setting_id": "22753",
+      "passed": true,
+      "event_count": 58,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": false,
+      "changed_note_durations": 1,
+      "before_duration_quarter": 62.5,
+      "after_duration_quarter": 63.0,
+      "approved_written_changes": [
+        {
+          "note_index": 0,
+          "note_count": 2,
+          "before_measure": "E5 D2",
+          "after_measure": "E6 D2",
+          "pitch": "E",
+          "old_token": "E5",
+          "new_token": "E6",
+          "before": 2.5,
+          "after": 3.0,
+          "written_occurrences": 1,
+          "old_start": 35,
+          "new_start": 35
+        }
+      ],
+      "played_occurrences": [
+        1
+      ],
+      "parser_normalized_or_unplayed_change": false,
+      "duration_delta_quarter": 0.5
+    },
+    {
+      "setting_id": "157",
+      "passed": true,
+      "event_count": 293,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": false,
+      "changed_note_durations": 2,
+      "before_duration_quarter": 190.0,
+      "after_duration_quarter": 192.0,
+      "approved_written_changes": [
+        {
+          "note_index": 6,
+          "note_count": 10,
+          "before_measure": "ABA GFE D DFA",
+          "after_measure": "ABA GFE D3 DFA",
+          "pitch": "D",
+          "old_token": "D",
+          "new_token": "D3",
+          "before": 0.5,
+          "after": 1.5,
+          "written_occurrences": 1,
+          "old_start": 60,
+          "new_start": 60
+        }
+      ],
+      "played_occurrences": [
+        2
+      ],
+      "parser_normalized_or_unplayed_change": false,
+      "duration_delta_quarter": 2.0
+    },
+    {
+      "setting_id": "13158",
+      "passed": true,
+      "event_count": 144,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": true,
+      "changed_note_durations": 0,
+      "primary_duration_already_normalized": true,
+      "before_duration_quarter": 64.0,
+      "after_duration_quarter": 64.0,
+      "approved_written_changes": [
+        {
+          "note_index": 3,
+          "note_count": 6,
+          "before_measure": "\r\nf/g/f/e d>B",
+          "after_measure": "\r\nf/g/f/e/ d>B",
+          "pitch": "e",
+          "old_token": "e",
+          "new_token": "e/",
+          "before": 0.5,
+          "after": 0.25,
+          "written_occurrences": 1,
+          "old_start": 41,
+          "new_start": 41
+        }
+      ],
+      "played_occurrences": [
+        0
+      ],
+      "parser_normalized_or_unplayed_change": true,
+      "duration_delta_quarter": 0.0
+    },
+    {
+      "setting_id": "18501",
+      "passed": true,
+      "event_count": 399,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": false,
+      "changed_note_durations": 2,
+      "before_duration_quarter": 213.5,
+      "after_duration_quarter": 214.5,
+      "approved_written_changes": [
+        {
+          "note_index": 3,
+          "note_count": 4,
+          "before_measure": "agg g2",
+          "after_measure": "agg g3",
+          "pitch": "g",
+          "old_token": "g2",
+          "new_token": "g3",
+          "before": 1.0,
+          "after": 1.5,
+          "written_occurrences": 1,
+          "old_start": 319,
+          "new_start": 319
+        }
+      ],
+      "played_occurrences": [
+        2
+      ],
+      "parser_normalized_or_unplayed_change": false,
+      "duration_delta_quarter": 1.0
+    },
+    {
+      "setting_id": "20617",
+      "passed": true,
+      "event_count": 167,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": false,
+      "changed_note_durations": 2,
+      "before_duration_quarter": 149.5,
+      "after_duration_quarter": 150.5,
+      "approved_written_changes": [
+        {
+          "note_index": 0,
+          "note_count": 1,
+          "before_measure": "D5",
+          "after_measure": "D6",
+          "pitch": "D",
+          "old_token": "D5",
+          "new_token": "D6",
+          "before": 2.5,
+          "after": 3.0,
+          "written_occurrences": 1,
+          "old_start": 47,
+          "new_start": 47
+        }
+      ],
+      "played_occurrences": [
+        2
+      ],
+      "parser_normalized_or_unplayed_change": false,
+      "duration_delta_quarter": 1.0
+    },
+    {
+      "setting_id": "41581",
+      "passed": true,
+      "event_count": 186,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": false,
+      "changed_note_durations": 2,
+      "before_duration_quarter": 95.0,
+      "after_duration_quarter": 96.0,
+      "approved_written_changes": [
+        {
+          "note_index": 3,
+          "note_count": 4,
+          "before_measure": "cAF G2",
+          "after_measure": "cAF G3",
+          "pitch": "G",
+          "old_token": "G2",
+          "new_token": "G3",
+          "before": 1.0,
+          "after": 1.5,
+          "written_occurrences": 1,
+          "old_start": 70,
+          "new_start": 70
+        }
+      ],
+      "played_occurrences": [
+        2
+      ],
+      "parser_normalized_or_unplayed_change": false,
+      "duration_delta_quarter": 1.0
+    },
+    {
+      "setting_id": "16123",
+      "passed": true,
+      "event_count": 187,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": false,
+      "changed_note_durations": 1,
+      "before_duration_quarter": 94.0,
+      "after_duration_quarter": 94.5,
+      "approved_written_changes": [
+        {
+          "note_index": 3,
+          "note_count": 4,
+          "before_measure": "AGF G2",
+          "after_measure": "AGF G3",
+          "pitch": "G",
+          "old_token": "G2",
+          "new_token": "G3",
+          "before": 1.0,
+          "after": 1.5,
+          "written_occurrences": 1,
+          "old_start": 148,
+          "new_start": 148
+        }
+      ],
+      "played_occurrences": [
+        1
+      ],
+      "parser_normalized_or_unplayed_change": false,
+      "duration_delta_quarter": 0.5
+    },
+    {
+      "setting_id": "15178",
+      "passed": true,
+      "event_count": 256,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": false,
+      "changed_note_durations": 1,
+      "before_duration_quarter": 126.0,
+      "after_duration_quarter": 126.5,
+      "approved_written_changes": [
+        {
+          "note_index": 5,
+          "note_count": 6,
+          "before_measure": "ecdB A2 A",
+          "after_measure": "ecdB A2 A2",
+          "pitch": "A",
+          "old_token": "A",
+          "new_token": "A2",
+          "before": 0.5,
+          "after": 1.0,
+          "written_occurrences": 1,
+          "old_start": 91,
+          "new_start": 91
+        }
+      ],
+      "played_occurrences": [
+        1
+      ],
+      "parser_normalized_or_unplayed_change": false,
+      "duration_delta_quarter": 0.5
+    },
+    {
+      "setting_id": "32000",
+      "passed": true,
+      "event_count": 309,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": true,
+      "changed_note_durations": 0,
+      "primary_duration_already_normalized": true,
+      "before_duration_quarter": 96.5,
+      "after_duration_quarter": 96.5,
+      "approved_written_changes": [
+        {
+          "note_index": 3,
+          "note_count": 11,
+          "before_measure": "G/F/G/A B/c/B/A/ GF/E/",
+          "after_measure": "G/F/G/A/ B/c/B/A/ GF/E/",
+          "pitch": "A",
+          "old_token": "A",
+          "new_token": "A/",
+          "before": 0.5,
+          "after": 0.25,
+          "written_occurrences": 1,
+          "old_start": 342,
+          "new_start": 343
+        }
+      ],
+      "played_occurrences": [
+        0
+      ],
+      "parser_normalized_or_unplayed_change": true,
+      "duration_delta_quarter": 0.0
+    },
+    {
+      "setting_id": "14343",
+      "passed": true,
+      "event_count": 183,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": false,
+      "changed_note_durations": 1,
+      "before_duration_quarter": 96.0,
+      "after_duration_quarter": 96.5,
+      "approved_written_changes": [
+        {
+          "note_index": 3,
+          "note_count": 4,
+          "before_measure": "dBA G2",
+          "after_measure": "dBA G3",
+          "pitch": "G",
+          "old_token": "G2",
+          "new_token": "G3",
+          "before": 1.0,
+          "after": 1.5,
+          "written_occurrences": 1,
+          "old_start": 139,
+          "new_start": 139
+        }
+      ],
+      "played_occurrences": [
+        1
+      ],
+      "parser_normalized_or_unplayed_change": false,
+      "duration_delta_quarter": 0.5
+    },
+    {
+      "setting_id": "30297",
+      "passed": true,
+      "event_count": 156,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": false,
+      "changed_note_durations": 2,
+      "before_duration_quarter": 95.0,
+      "after_duration_quarter": 96.0,
+      "approved_written_changes": [
+        {
+          "note_index": 1,
+          "note_count": 3,
+          "before_measure": "AF 2B",
+          "after_measure": "AF2B",
+          "pitch": "F",
+          "old_token": "F",
+          "new_token": "F2",
+          "before": 0.5,
+          "after": 1.0,
+          "written_occurrences": 1,
+          "old_start": 10,
+          "new_start": 10
+        }
+      ],
+      "played_occurrences": [
+        2
+      ],
+      "parser_normalized_or_unplayed_change": false,
+      "duration_delta_quarter": 1.0
+    },
+    {
+      "setting_id": "18867",
+      "passed": true,
+      "event_count": 167,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": false,
+      "changed_note_durations": 2,
+      "before_duration_quarter": 98.0,
+      "after_duration_quarter": 100.0,
+      "approved_written_changes": [
+        {
+          "note_index": 4,
+          "note_count": 6,
+          "before_measure": "fedf e 3^c",
+          "after_measure": "fedf e3^c",
+          "pitch": "e",
+          "old_token": "e",
+          "new_token": "e3",
+          "before": 0.5,
+          "after": 1.5,
+          "written_occurrences": 1,
+          "old_start": 131,
+          "new_start": 131
+        }
+      ],
+      "played_occurrences": [
+        2
+      ],
+      "parser_normalized_or_unplayed_change": false,
+      "duration_delta_quarter": 2.0
+    },
+    {
+      "setting_id": "18316",
+      "passed": true,
+      "event_count": 160,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": false,
+      "changed_note_durations": 2,
+      "before_duration_quarter": 91.0,
+      "after_duration_quarter": 93.0,
+      "approved_written_changes": [
+        {
+          "note_index": 4,
+          "note_count": 5,
+          "before_measure": "cAFA G2",
+          "after_measure": "cAFA G4",
+          "pitch": "G",
+          "old_token": "G2",
+          "new_token": "G4",
+          "before": 1.0,
+          "after": 2.0,
+          "written_occurrences": 1,
+          "old_start": 83,
+          "new_start": 83
+        }
+      ],
+      "played_occurrences": [
+        2
+      ],
+      "parser_normalized_or_unplayed_change": false,
+      "duration_delta_quarter": 2.0
+    },
+    {
+      "setting_id": "26038",
+      "passed": true,
+      "event_count": 164,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": false,
+      "changed_note_durations": 2,
+      "before_duration_quarter": 94.0,
+      "after_duration_quarter": 95.0,
+      "approved_written_changes": [
+        {
+          "note_index": 3,
+          "note_count": 4,
+          "before_measure": "AFE F2",
+          "after_measure": "AFE F3",
+          "pitch": "F",
+          "old_token": "F2",
+          "new_token": "F3",
+          "before": 1.0,
+          "after": 1.5,
+          "written_occurrences": 1,
+          "old_start": 63,
+          "new_start": 63
+        }
+      ],
+      "played_occurrences": [
+        2
+      ],
+      "parser_normalized_or_unplayed_change": false,
+      "duration_delta_quarter": 1.0
+    },
+    {
+      "setting_id": "15138",
+      "passed": true,
+      "event_count": 176,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": false,
+      "changed_note_durations": 2,
+      "before_duration_quarter": 94.0,
+      "after_duration_quarter": 95.0,
+      "approved_written_changes": [
+        {
+          "note_index": 3,
+          "note_count": 4,
+          "before_measure": "cEF G2",
+          "after_measure": "cEF G3",
+          "pitch": "G",
+          "old_token": "G2",
+          "new_token": "G3",
+          "before": 1.0,
+          "after": 1.5,
+          "written_occurrences": 1,
+          "old_start": 69,
+          "new_start": 69
+        }
+      ],
+      "played_occurrences": [
+        2
+      ],
+      "parser_normalized_or_unplayed_change": false,
+      "duration_delta_quarter": 1.0
+    },
+    {
+      "setting_id": "55978",
+      "passed": true,
+      "event_count": 220,
+      "pitch_and_tie_sequence_unchanged": true,
+      "all_event_timings_unchanged": false,
+      "changed_note_durations": 2,
+      "before_duration_quarter": 121.0,
+      "after_duration_quarter": 123.0,
+      "approved_written_changes": [
+        {
+          "note_index": 4,
+          "note_count": 5,
+          "before_measure": "AGAB G2",
+          "after_measure": "AGAB G4",
+          "pitch": "G",
+          "old_token": "G2",
+          "new_token": "G4",
+          "before": 1.0,
+          "after": 2.0,
+          "written_occurrences": 1,
+          "old_start": 88,
+          "new_start": 88
+        }
+      ],
+      "played_occurrences": [
+        2
+      ],
+      "parser_normalized_or_unplayed_change": false,
+      "duration_delta_quarter": 2.0
+    }
+  ]
+}

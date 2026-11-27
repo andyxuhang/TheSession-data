@@ -1,374 +1,28 @@
 [
   {
-    "setting_id": "23871",
-    "passed": false,
-    "event_count": 190,
-    "changed_note_occurrences": 1,
-    "inserted_playback_events": 1,
-    "inserted_token": "e",
-    "duration_delta_quarter": 0.5,
-    "abcjs": {
-      "setting_id": "23871",
-      "passed": false,
-      "reason": "Unexpected note or timing change",
-      "version": "abcjs-basic v6.5.2",
-      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
-    },
-    "reason": "abcjs: Unexpected note or timing change",
-    "proposal": {
-      "tune_id": "448",
-      "setting_id": "23871",
-      "name": "Frost Is All Over, The",
-      "original_contributor": "Lucy Rietmann",
-      "source_url": "https://thesession.org/tunes/448#setting23871",
-      "category": "missing_note",
-      "before_abc": "|:A|d2f edc|dAF GFE|DFA DFA|Bcd efg|\r\nfed edc|dAF GFE|DFA DFA|BAF d2:|\r\n|:e|faa afd|gfg bag|faa afd|gfg efg|\r\n[1 faa afd|gfg bag|fga efg|fdc d2:|\r\n[2 fga efg|fdB AFA|Bcd efg|faf gfe||d2||",
-      "after_abc": "|:A|d2f edc|dAF GFE|DFA DFA|Bcd efg|\r\nfed edc|dAF GFE|DFA DFA|BAF d2:|\r\n|:e|faa afd|gfg bag|faa afd|gfg efg|\r\n[1 faa afd|gfg bag|fga efg|fdc d2e:|\r\n[2 fga efg|fdB AFA|Bcd efg|faf gfe||d2||",
-      "before_sha256": "6b63bd452e746ee29cb3f98add30ed76d8b9334eec80d4a6e60492980f958725",
-      "after_sha256": "589c6d2bd79c85ecdd889dd4658fcb40131deef6382bf8a7e3456bb33cd2cf1c",
-      "evidence": [
-        {
-          "rule": "missing_note",
-          "bar": 18,
-          "note_count_change": 1,
-          "before": "fdc d2",
-          "after": "fdc d2e",
-          "token": "e",
-          "duration_eighths": "1",
-          "midi": 76,
-          "possible_offsets": [
-            6
-          ],
-          "reference_ranges": [
-            [
-              "26401",
-              17,
-              17
-            ]
-          ],
-          "corroborating_contributors": 1,
-          "written_repeat": false,
-          "extra_matching_bar": true
-        }
-      ]
-    }
-  },
-  {
-    "setting_id": "57199",
-    "passed": false,
-    "event_count": 279,
-    "changed_note_occurrences": 1,
-    "inserted_playback_events": 1,
-    "inserted_token": "B",
-    "duration_delta_quarter": 0.5,
-    "abcjs": {
-      "setting_id": "57199",
-      "passed": false,
-      "reason": "Unexpected note or timing change",
-      "version": "abcjs-basic v6.5.2",
-      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
-    },
-    "reason": "abcjs: Unexpected note or timing change",
-    "proposal": {
-      "tune_id": "772",
-      "setting_id": "57199",
-      "name": "Queen Of The Fair",
-      "original_contributor": "leprecawn",
-      "source_url": "https://thesession.org/tunes/772#setting57199",
-      "category": "missing_note",
-      "before_abc": "|:E| FEF DA,A,|DFA dAF|GFG FGA|BGE EAG|\r\nFEF DA,A,|DFA dAF|GFG EAG| FDD D2:|\r\n|:g | fdf ece|dAG FEF|DFA dAF|GFG E2g|\r\nfdf ece|dAG FED|EFG BAG|FDD D2 :|\r\n|:B|Add fdd|add fdd|Bef ~g2 e|fdf ecA|\r\n[1 Add fdd|add fdd|EFG BAG|FDD D2 :|\r\n[2 afa geg|fdf ecA|EFG BAG|FDD D2||",
-      "after_abc": "|:E| FEF DA,A,|DFA dAF|GFG FGA|BGE EAG|\r\nFEF DA,A,|DFA dAF|GFG EAG| FDD D2:|\r\n|:g | fdf ece|dAG FEF|DFA dAF|GFG E2g|\r\nfdf ece|dAG FED|EFG BAG|FDD D2 :|\r\n|:B|Add fdd|add fdd|Bef ~g2 e|fdf ecA|\r\n[1 Add fdd|add fdd|EFG BAG|FDD D2B :|\r\n[2 afa geg|fdf ecA|EFG BAG|FDD D2||",
-      "before_sha256": "0781048bd3cdba28894eb0dc885b361c976fded9ac6d2b7155e79f99345df31f",
-      "after_sha256": "58aaf65a0e65e6c0e91ac792e2fcb73b8be23b50f29a26faf70f7f9d03b4afe4",
-      "evidence": [
-        {
-          "rule": "missing_note",
-          "bar": 27,
-          "note_count_change": 1,
-          "before": "FDD D2 ",
-          "after": "FDD D2B ",
-          "token": "B",
-          "duration_eighths": "1",
-          "midi": 71,
-          "possible_offsets": [
-            6
-          ],
-          "reference_ranges": [
-            [
-              "53347",
-              26,
-              26
-            ]
-          ],
-          "corroborating_contributors": 1,
-          "written_repeat": false,
-          "extra_matching_bar": true
-        }
-      ]
-    }
-  },
-  {
-    "setting_id": "45817",
-    "passed": false,
-    "event_count": 220,
-    "changed_note_occurrences": 2,
-    "inserted_playback_events": 2,
-    "inserted_token": "A",
-    "duration_delta_quarter": 1.0,
-    "abcjs": {
-      "setting_id": "45817",
-      "passed": false,
-      "reason": "Unexpected note or timing change",
-      "version": "abcjs-basic v6.5.2",
-      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
-    },
-    "reason": "abcjs: Unexpected note or timing change",
-    "proposal": {
-      "tune_id": "10446",
-      "setting_id": "45817",
-      "name": "Zakynthos, The",
-      "original_contributor": "JACKB",
-      "source_url": "https://thesession.org/tunes/10446#setting45817",
-      "category": "missing_note",
-      "before_abc": "|:\"Am\"a2 a gag|e2 a a2 g|e2 c BcB|A2 F \"F\"F3|\r\n\"Am\"EAB cBA|\"F\"FAB cBA|\"G\"B2 B edc|\"Am\"Bcd cBA:|\r\n|:\"Am\"EAB cBA|\"F\"FAB cBA|\"G\"B2 B edc|\"Am\"Bcd cBA|\r\n\"Am\"EAB cBA|\"F\"FAB cBA|\"G\"B2 B edc|1 B2 A\"Am\"A3:|2 B2A \"Am\"ABc||\r\n|:\"Dm\"d2 d2 c2|d c2 B2|d2 d2 cd|\"E\"B3 A3|\r\n\"Dm\"d2 d2 c2|d c2 B2|d2c Bcd|\"E\"e3- e3:|",
-      "after_abc": "|:\"Am\"a2 a gag|e2 a a2 g|e2 c BcB|A2 F \"F\"F3|\r\n\"Am\"EAB cBA|\"F\"FAB cBA|\"G\"B2 B edc|\"Am\"Bcd cBA:|\r\n|:\"Am\"EAB cBA|\"F\"FAB cBA|\"G\"B2 B edc|\"Am\"Bcd cBA|\r\n\"Am\"EAB cBA|\"F\"FAB cBA|\"G\"B2 B edc|1 B2 A\"Am\"A3:|2 B2A \"Am\"ABc||\r\n|:\"Dm\"d2 d2 c2|d c2 B2A|d2 d2 cd|\"E\"B3 A3|\r\n\"Dm\"d2 d2 c2|d c2 B2|d2c Bcd|\"E\"e3- e3:|",
-      "before_sha256": "1ff8dd781506ccd2d199b7202239e0e0d11aa29cbf9323ee511f126ff7992ebd",
-      "after_sha256": "6e72e18270253fe5855a89021b8dcba5d564fcc35aadf360f85371e19e0ed77c",
-      "evidence": [
-        {
-          "rule": "missing_note",
-          "bar": 19,
-          "note_count_change": 1,
-          "before": "d c2 B2",
-          "after": "d c2 B2A",
-          "token": "A",
-          "duration_eighths": "1",
-          "midi": 69,
-          "possible_offsets": [
-            7
-          ],
-          "reference_ranges": [
-            [
-              "35954",
-              19,
-              19
-            ],
-            [
-              "35954",
-              23,
-              23
-            ],
-            [
-              "38620",
-              23,
-              23
-            ],
-            [
-              "38650",
-              19,
-              19
-            ],
-            [
-              "38650",
-              23,
-              23
-            ],
-            [
-              "45343",
-              19,
-              19
-            ],
-            [
-              "45343",
-              23,
-              23
-            ],
-            [
-              "45344",
-              18,
-              18
-            ],
-            [
-              "45344",
-              22,
-              22
-            ]
-          ],
-          "corroborating_contributors": 3,
-          "written_repeat": false,
-          "extra_matching_bar": true
-        }
-      ]
-    }
-  },
-  {
-    "setting_id": "30297",
-    "passed": false,
-    "reason": "individual phrase check",
-    "bars": [
-      {
-        "edit": {
-          "rule": "split_note_token",
-          "bar": 2,
-          "before": "AF 2B",
-          "after": "AF2B",
-          "reference_ranges": [
-            [
-              "4430",
-              2,
-              2
-            ]
-          ],
-          "corroborating_contributors": 1,
-          "written_repetitions": 0,
-          "extra_matching_bar": true
-        },
-        "reason": "Bad state: 30297 unplanned duration change at 5"
-      }
-    ]
-  },
-  {
-    "setting_id": "32000",
-    "passed": false,
-    "reason": "individual phrase check",
-    "bars": [
-      {
-        "edit": {
-          "rule": "note_length",
-          "bar": 16,
-          "last_bar": 16,
-          "before": "G/F/G/A B/c/B/A/ GF/E/",
-          "after": "G/F/G/A/ B/c/B/A/ GF/E/",
-          "reference_ranges": [
-            [
-              "32000",
-              8,
-              8
-            ]
-          ],
-          "transposed_references": [],
-          "method": "Matching uninterrupted written phrase in the original exports"
-        },
-        "reason": "proposed duration change not fully reflected in playback"
-      },
-      {
-        "edit": {
-          "rule": "note_length",
-          "bar": 12,
-          "last_bar": 12,
-          "before": "G/F/G/A B/c/B/A/ GF/E/",
-          "after": "G/F/G/A/ B/c/B/A/ GF/E/",
-          "reference_ranges": [
-            [
-              "32000",
-              4,
-              4
-            ]
-          ],
-          "transposed_references": [],
-          "method": "Matching uninterrupted written phrase in the original exports"
-        },
-        "reason": "proposed duration change not fully reflected in playback"
-      }
-    ]
-  },
-  {
     "setting_id": "31295",
     "passed": false,
-    "reason": "individual phrase check",
-    "bars": [
-      {
-        "edit": {
-          "rule": "note_length",
-          "bar": 20,
-          "last_bar": 20,
-          "before": "e/d/e/f/{ef}g ed/c/B/A/G/",
-          "after": "e/d/e/f/{ef}g e/d/c/B/A/G/",
-          "reference_ranges": [
-            [
-              "1892",
-              20,
-              20
-            ],
-            [
-              "24632",
-              20,
-              20
-            ],
-            [
-              "54128",
-              20,
-              20
-            ]
-          ],
-          "transposed_references": [
-            [
-              "1892",
-              20,
-              20
-            ],
-            [
-              "24632",
-              20,
-              20
-            ]
-          ],
-          "method": "Matching uninterrupted written phrase in the original exports"
-        },
-        "reason": "Bad state: 31295 unplanned duration change at 167"
-      },
-      {
-        "edit": {
-          "rule": "note_length",
-          "bar": 16,
-          "last_bar": 16,
-          "before": "e/d/e/f/{ef}g ed/c/B/A/G/",
-          "after": "e/d/e/f/{ef}g e/d/c/B/A/G/",
-          "reference_ranges": [
-            [
-              "15320",
-              14,
-              14
-            ],
-            [
-              "1892",
-              16,
-              16
-            ],
-            [
-              "24632",
-              16,
-              16
-            ],
-            [
-              "54128",
-              16,
-              16
-            ]
-          ],
-          "transposed_references": [
-            [
-              "15320",
-              14,
-              14
-            ],
-            [
-              "1892",
-              16,
-              16
-            ],
-            [
-              "24632",
-              16,
-              16
-            ]
-          ],
-          "method": "Matching uninterrupted written phrase in the original exports"
-        },
-        "reason": "Bad state: 31295 unplanned duration change at 137"
-      },
-      {
-        "edit": {
+    "reason": "Bad state: 31295 unplanned duration change at 107",
+    "abcjs": {
+      "setting_id": "31295",
+      "passed": true,
+      "changed_note_durations": 3,
+      "version": "abcjs-basic v6.5.2",
+      "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+    },
+    "proposal": {
+      "tune_id": "1892",
+      "setting_id": "31295",
+      "name": "Niel Gow's Lament For His Second Wife",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/1892#setting31295",
+      "category": "note_length",
+      "before_abc": "|:G/E/|D>EG {GF}G>AG|A<Bd e2g/e/|d>BG {AB}A>GA|{GA}BGE E2G/E/|\r\nD>EG {GA}G>AG|A<Bd g2 e/d/|d>BG {=F}E2 D|E<GG G2:|\r\n(3d/e/f/|g>bg {fg}afd|{ef}e/d/e/f/{ef}g ed/c/B/A/G/|{AB}A>GA {GA}B>AG|{G}BGE E2 (3d/e/f/|\r\ng>bg {fg}afd|e/d/e/f/{ef}g ed/c/B/A/G/|{AB}A>GA {GA}BGE|D<GG [G2D2] (3d/e/f/|\r\n{a}g>bg afd|e/d/e/f/{ef}g ed/c/B/A/G/|B/G/d/B/g/d/ e/d/c/B/A/G/|{GA}BAA A2G/E/|\r\nD>EG G>AG|A<Bd g2 e/d/|d>BG {=F}E2D|E<GG [G2D2]|",
+      "after_abc": "|:G/E/|D>EG {GF}G>AG|A<Bd e2g/e/|d>BG {AB}A>GA|{GA}BGE E2G/E/|\r\nD>EG {GA}G>AG|A<Bd g2 e/d/|d>BG {=F}E2 D|E<GG G2:|\r\n(3d/e/f/|g>bg {fg}afd|{ef}e/d/e/f/{ef}g e/d/c/B/A/G/|{AB}A>GA {GA}B>AG|{G}BGE E2 (3d/e/f/|\r\ng>bg {fg}afd|e/d/e/f/{ef}g e/d/c/B/A/G/|{AB}A>GA {GA}BGE|D<GG [G2D2] (3d/e/f/|\r\n{a}g>bg afd|e/d/e/f/{ef}g e/d/c/B/A/G/|B/G/d/B/g/d/ e/d/c/B/A/G/|{GA}BAA A2G/E/|\r\nD>EG G>AG|A<Bd g2 e/d/|d>BG {=F}E2D|E<GG [G2D2]|",
+      "before_sha256": "9c612b8a4532d3a35ec208ecbde18aee71f0ca9dfcd8451d16ab57bbba82f591",
+      "after_sha256": "2b57a6b74e00e3a0fd882cb33bc6e76e81771cd01aadbca7a7c1da70e26af61b",
+      "evidence": [
+        {
           "rule": "note_length",
           "bar": 12,
           "last_bar": 12,
@@ -403,11 +57,109 @@
               12
             ]
           ],
-          "method": "Matching uninterrupted written phrase in the original exports"
+          "method": "Matching uninterrupted written phrase in the original exports",
+          "token_offset": 18,
+          "old_token": "e",
+          "new_token": "e/",
+          "old_duration_eighths": "1",
+          "new_duration_eighths": "1/2"
         },
-        "reason": "Bad state: 31295 unplanned duration change at 107"
-      }
-    ]
+        {
+          "rule": "note_length",
+          "bar": 16,
+          "last_bar": 16,
+          "before": "e/d/e/f/{ef}g ed/c/B/A/G/",
+          "after": "e/d/e/f/{ef}g e/d/c/B/A/G/",
+          "reference_ranges": [
+            [
+              "15320",
+              14,
+              14
+            ],
+            [
+              "1892",
+              16,
+              16
+            ],
+            [
+              "24632",
+              16,
+              16
+            ],
+            [
+              "54128",
+              16,
+              16
+            ]
+          ],
+          "transposed_references": [
+            [
+              "15320",
+              14,
+              14
+            ],
+            [
+              "1892",
+              16,
+              16
+            ],
+            [
+              "24632",
+              16,
+              16
+            ]
+          ],
+          "method": "Matching uninterrupted written phrase in the original exports",
+          "token_offset": 14,
+          "old_token": "e",
+          "new_token": "e/",
+          "old_duration_eighths": "1",
+          "new_duration_eighths": "1/2"
+        },
+        {
+          "rule": "note_length",
+          "bar": 20,
+          "last_bar": 20,
+          "before": "e/d/e/f/{ef}g ed/c/B/A/G/",
+          "after": "e/d/e/f/{ef}g e/d/c/B/A/G/",
+          "reference_ranges": [
+            [
+              "1892",
+              20,
+              20
+            ],
+            [
+              "24632",
+              20,
+              20
+            ],
+            [
+              "54128",
+              20,
+              20
+            ]
+          ],
+          "transposed_references": [
+            [
+              "1892",
+              20,
+              20
+            ],
+            [
+              "24632",
+              20,
+              20
+            ]
+          ],
+          "method": "Matching uninterrupted written phrase in the original exports",
+          "token_offset": 14,
+          "old_token": "e",
+          "new_token": "e/",
+          "old_duration_eighths": "1",
+          "new_duration_eighths": "1/2"
+        }
+      ]
+    }
   },
   {
     "setting_id": "44335",

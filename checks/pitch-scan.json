@@ -1,59 +1,21 @@
 {
   "passes": [
     {
-      "octave_typo_exact_candidates": 309,
-      "note_typo_exact_candidates": 3375,
-      "accidental_typo_exact_candidates": 329,
+      "accidental_typo": 11,
+      "octave_typo": 2,
       "settings": 55821,
-      "settings_with_proposals": 14,
+      "settings_with_proposals": 12,
       "pass": 1,
       "individual_rejections": 0,
-      "accepted": 14,
+      "accepted": 12,
       "rejected": 0
     },
     {
-      "octave_typo_exact_candidates": 284,
-      "note_typo_exact_candidates": 3367,
-      "accidental_typo_exact_candidates": 327,
       "settings": 55821,
       "settings_with_proposals": 0,
       "pass": 2,
       "accepted": 0
     }
   ],
-  "rejected_settings": 5,
-  "round": {
-    "settings": 24,
-    "tunes": 24,
-    "locations": 28,
-    "set_entries": 77,
-    "scan_before_normalizing_line_endings": {
-      "passes": [
-        {
-          "octave_typo_exact_candidates": 324,
-          "note_typo_exact_candidates": 3378,
-          "accidental_typo_exact_candidates": 331,
-          "settings": 55821,
-          "settings_with_proposals": 24,
-          "pass": 1,
-          "individual_rejections": 16,
-          "accepted": 11,
-          "rejected": 0
-        },
-        {
-          "octave_typo_exact_candidates": 309,
-          "note_typo_exact_candidates": 3375,
-          "accidental_typo_exact_candidates": 329,
-          "settings": 55821,
-          "settings_with_proposals": 14,
-          "pass": 2,
-          "individual_rejections": 16,
-          "accepted": 0
-        }
-      ],
-      "corrected_settings": 11,
-      "remaining_proposals": 14,
-      "rejected_settings": 14
-    }
-  }
+  "rejected_settings": 4
 }

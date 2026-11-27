@@ -4,29 +4,30 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 
 | Status | Settings | Details |
 |---|---:|---|
-| Corrected | 551 | [fixed.csv](fixed.csv) |
-| Needs review | 3759 | [review.csv](review.csv) |
-| Pickups, endings and repeats | 24410 | [boundaries.csv](boundaries.csv) |
-| Unsupported syntax or empty melody | 6502 | [unsupported.csv](unsupported.csv) |
-| Playback or parser compatibility | 3480 | [playback.csv](playback.csv) |
+| Corrected | 585 | [fixed.csv](fixed.csv) |
+| Needs review | 3752 | [review.csv](review.csv) |
+| Pickups, endings and repeats | 24407 | [boundaries.csv](boundaries.csv) |
+| Unsupported syntax or empty melody | 6500 | [unsupported.csv](unsupported.csv) |
+| Playback or parser compatibility | 3470 | [playback.csv](playback.csv) |
 
-79 corrected settings still have other findings. Settings can appear in multiple categories. Each CSV gives the source link and current ABC. The corrected list also gives the ABC before the changes.
+83 corrected settings still have other findings. Settings can appear in multiple categories. Each CSV gives the source link and current ABC. The corrected list also gives the ABC before the changes.
 
 ## Corrections by type
 
 | Type | Corrections |
 |---|---:|
 | Missing barline | 330 |
-| Incorrect note length | 157 |
+| Incorrect note length | 173 |
 | Misplaced barline | 64 |
-| Incorrect octave | 24 |
-| Incorrect accidental | 22 |
+| Incorrect accidental | 33 |
+| Incorrect octave | 26 |
 | Stray control character | 19 |
+| Omitted note | 14 |
 | Stray notation symbol | 10 |
-| Omitted note | 9 |
 | Incorrect melody note | 3 |
 | Incorrect broken-rhythm or tuplet mark | 2 |
 | Surplus note | 2 |
+| Split note token | 2 |
 
 ## How corrections are checked
 
@@ -37,7 +38,7 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 - Playback checks compare the original and corrected events with automatic repair disabled. Unexpected changes to pitch, duration, rests or ties block a correction.
 - After each round the scanner checks for further corrections. CSV, JSON and SQLite are compared record by record.
 
-Playback checks left candidates in 9 settings for review. See [rejected.json](../checks/rejected.json) for the recorded reasons.
+Playback checks left candidates in 4 settings for review. See [rejected.json](../checks/rejected.json) for the recorded reasons.
 
 ## Examples for review
 

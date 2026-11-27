@@ -1,0 +1,932 @@
+{
+  "base_commit": "72c1fe88465e821546b21bc29edcb63a2523de64",
+  "method": "Matching written measures and independent checks of the intended note duration",
+  "scanner_sha256": "495c269c2748ecdcb025558ca876b8ea96c58bdc00af9c6a7ee598316c8c61e0",
+  "corrections": [
+    {
+      "tune_id": "157",
+      "setting_id": "157",
+      "name": "Cathleen Hehir's",
+      "original_contributor": "CreadurMawnOrganig",
+      "source_url": "https://thesession.org/tunes/157#setting157",
+      "category": "note_length",
+      "before_abc": "|:dcd e2d c2E EFG|~B3 BAG F2D DFA|\r\ndcd e2d c2E EFG|ABA GFE D DFA:|\r\n|:F2A d3 c2B G3|ABA G2E B2A F3|\r\nDFA dz2 c2B G2F|EFG ABc d3 d2A:|\r\n|:ddd d2e f2d A3|~f3 fed c2d ecA|\r\nddd d2e f2d A2F|1 EFG ABc d3 d2 A:|2 EFG ABc d3 dfg||\r\n|:a2f f2d Adf agf|g2e e2c Bcd efg|\r\na2f f2d Adf agf|gec ABc d3 dfg:|",
+      "after_abc": "|:dcd e2d c2E EFG|~B3 BAG F2D DFA|\r\ndcd e2d c2E EFG|ABA GFE D3 DFA:|\r\n|:F2A d3 c2B G3|ABA G2E B2A F3|\r\nDFA dz2 c2B G2F|EFG ABc d3 d2A:|\r\n|:ddd d2e f2d A3|~f3 fed c2d ecA|\r\nddd d2e f2d A2F|1 EFG ABc d3 d2 A:|2 EFG ABc d3 dfg||\r\n|:a2f f2d Adf agf|g2e e2c Bcd efg|\r\na2f f2d Adf agf|gec ABc d3 dfg:|",
+      "before_sha256": "e805e921de7c2fc98af986bd2cc7da0f453bf7581948f80d0f0e6caa63f180be",
+      "after_sha256": "015df2318e70f0b2205b3d30f099dcfd699b54a7cbd587478f10fead2cb0dc37",
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 4,
+          "before": "ABA GFE D DFA",
+          "after": "ABA GFE D3 DFA",
+          "token_offset": 8,
+          "old_token": "D",
+          "new_token": "D3",
+          "old_duration_eighths": "1",
+          "new_duration_eighths": "3",
+          "reference_ranges": [
+            [
+              "25995",
+              4,
+              4
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_played_durations": 2,
+          "abcjs": {
+            "setting_id": "157",
+            "passed": true,
+            "changed_note_durations": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 61,
+          "end": 61,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "tune_id": "276",
+      "setting_id": "32830",
+      "name": "Another Jig Will Do",
+      "original_contributor": "Monty Campbell",
+      "source_url": "https://thesession.org/tunes/276#setting32830",
+      "category": "note_length",
+      "before_abc": "|:ABA A2 G F2 G|ABA AGF ~G3|ABA A2 G F2 G|A d d2 c d3:|\r\nA2 g f2 d e2 c|A2 B =c2 d B2G|A2 g f2 d e2 c|A2 d d2 c d3|\r\nA2 g f2 d e2 c|A2 B =c2 d B2G|ABA A2 G F2 G|A2 d d2 c d3||",
+      "after_abc": "|:ABA A2 G F2 G|ABA AGF ~G3|ABA A2 G F2 G|A2 d d2 c d3:|\r\nA2 g f2 d e2 c|A2 B =c2 d B2G|A2 g f2 d e2 c|A2 d d2 c d3|\r\nA2 g f2 d e2 c|A2 B =c2 d B2G|ABA A2 G F2 G|A2 d d2 c d3||",
+      "before_sha256": "a4c66d7e856db44e0b1a233748e683804ebe8e991741337be50b34ca967e9f7f",
+      "after_sha256": "18f08df16a206292155565598740837348b974de639f12d6091b54f491d62b87",
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 4,
+          "before": "A d d2 c d3",
+          "after": "A2 d d2 c d3",
+          "token_offset": 0,
+          "old_token": "A",
+          "new_token": "A2",
+          "old_duration_eighths": "1",
+          "new_duration_eighths": "2",
+          "reference_ranges": [
+            [
+              "13021",
+              4,
+              4
+            ],
+            [
+              "26930",
+              4,
+              4
+            ],
+            [
+              "50364",
+              4,
+              4
+            ]
+          ],
+          "corroborating_contributors": 3,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_played_durations": 2,
+          "abcjs": {
+            "setting_id": "32830",
+            "passed": true,
+            "changed_note_durations": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 43,
+          "end": 43,
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "tune_id": "357",
+      "setting_id": "13158",
+      "name": "Denis Murphy's",
+      "original_contributor": "chansherly212",
+      "source_url": "https://thesession.org/tunes/357#setting13158",
+      "category": "note_length",
+      "before_abc": "|:f/g/f/e d>B|AD FA|GE e>f|ed BA|\r\nf/g/f/e d>B|AD FA|GEe>f|ed d2:|\r\n|:Af f/e/f|Bg g/f/g|Af f/e/f|e/f/e/d/ BA|\r\nAf f/e/f|Bg ga|ba gc|ed d2:|",
+      "after_abc": "|:f/g/f/e d>B|AD FA|GE e>f|ed BA|\r\nf/g/f/e/ d>B|AD FA|GEe>f|ed d2:|\r\n|:Af f/e/f|Bg g/f/g|Af f/e/f|e/f/e/d/ BA|\r\nAf f/e/f|Bg ga|ba gc|ed d2:|",
+      "before_sha256": "f024c2eed7953fa98dc14b871d4afd6ba7029168fe68e7c4c2a4c568defbe135",
+      "after_sha256": "ae0453c79ac9c2337434971be1021c2a8bca660dc19af01848113eca82688456",
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 5,
+          "before": "\r\nf/g/f/e d>B",
+          "after": "\r\nf/g/f/e/ d>B",
+          "token_offset": 8,
+          "old_token": "e",
+          "new_token": "e/",
+          "old_duration_eighths": "1",
+          "new_duration_eighths": "1/2",
+          "reference_ranges": [
+            [
+              "36839",
+              5,
+              5
+            ]
+          ],
+          "transposed_references": [],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_played_durations": 0,
+          "abcjs": {
+            "setting_id": "13158",
+            "passed": true,
+            "changed_note_durations": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "primary_duration_already_normalized": true
+        }
+      ],
+      "edits": [
+        {
+          "start": 42,
+          "end": 42,
+          "text": "/"
+        }
+      ]
+    },
+    {
+      "tune_id": "1098",
+      "setting_id": "14343",
+      "name": "Haunted House, The",
+      "original_contributor": "Gael Force",
+      "source_url": "https://thesession.org/tunes/1098#setting14343",
+      "category": "note_length",
+      "before_abc": "|:D|G2G AGA|BGE EDE|GBd egd|egd edB|\r\nG2G AGA|BGE EDE|GBd ege|dBA G2:|\r\nD|GBd egd|egd edB|GBd ded|ded dBA|\r\n[1 GBd egd|egd edB|GBd ege|dBA G2:|\r\n[2 G2G AGA|BGE EDE|GBd ege|dBA G2||",
+      "after_abc": "|:D|G2G AGA|BGE EDE|GBd egd|egd edB|\r\nG2G AGA|BGE EDE|GBd ege|dBA G2:|\r\nD|GBd egd|egd edB|GBd ded|ded dBA|\r\n[1 GBd egd|egd edB|GBd ege|dBA G3:|\r\n[2 G2G AGA|BGE EDE|GBd ege|dBA G2||",
+      "before_sha256": "9bf9c852402a49856d88c6863d491e7d868968c8ae5539e125350ce81dbde059",
+      "after_sha256": "b6957af4738a422ca7b9d0596ae472fc399b22d2423a5b25be5892c5de5c130d",
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 18,
+          "before": "dBA G2",
+          "after": "dBA G3",
+          "token_offset": 4,
+          "old_token": "G2",
+          "new_token": "G3",
+          "old_duration_eighths": "2",
+          "new_duration_eighths": "3",
+          "reference_ranges": [
+            [
+              "53301",
+              17,
+              17
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_played_durations": 1,
+          "abcjs": {
+            "setting_id": "14343",
+            "passed": true,
+            "changed_note_durations": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 140,
+          "end": 141,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "tune_id": "1709",
+      "setting_id": "15138",
+      "name": "Paddy's Resource",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/1709#setting15138",
+      "category": "note_length",
+      "before_abc": "|:GFG DB,D|GBd e2 d|gdB BAB|cBc E2 F|\r\nGFG DB,D|GBd e2 d|gdB BAB|cEF G2:|\r\n|:GBd GBd|GBd cBA|GBd efg|fd^c def|\r\ngbg faf|ece ~d2 B|cBc Adc|BGF G2:|",
+      "after_abc": "|:GFG DB,D|GBd e2 d|gdB BAB|cBc E2 F|\r\nGFG DB,D|GBd e2 d|gdB BAB|cEF G3:|\r\n|:GBd GBd|GBd cBA|GBd efg|fd^c def|\r\ngbg faf|ece ~d2 B|cBc Adc|BGF G2:|",
+      "before_sha256": "09d46e16aaee30e3a0a9196cabdef75ddc13321e18ffd5d6f997dcfc8d519c05",
+      "after_sha256": "cb2bbc019ab1137a6b80399650e44a4eaa870b317c9b7c3c658c5f688a79697d",
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 8,
+          "before": "cEF G2",
+          "after": "cEF G3",
+          "token_offset": 4,
+          "old_token": "G2",
+          "new_token": "G3",
+          "old_duration_eighths": "2",
+          "new_duration_eighths": "3",
+          "reference_ranges": [
+            [
+              "53188",
+              8,
+              8
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_played_durations": 2,
+          "abcjs": {
+            "setting_id": "15138",
+            "passed": true,
+            "changed_note_durations": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 70,
+          "end": 71,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "tune_id": "1744",
+      "setting_id": "15178",
+      "name": "Gladstone, The",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/1744#setting15178",
+      "category": "note_length",
+      "before_abc": "cAdB efga|A/A/A cA BGEd|cAdB efga|gfe^d e2 e=d|\r\ncAdB efga|A/A/A cA BGEd|cAdB efga|ecdB A2 A||\r\nafba geag|fdgf ecfe|dBed cAdc|BAGA Befg|\r\nafba geag|fdgf ecfe|dBed ceaf|ecdB A2 A||\r\ncAdB efga|A/A/A cA BGEd|cAdB efga|gfe^d e2 e=d|\r\ncAdB efga|A/A/A cA BGEd|cAdB efga|ecdB A2 A||\r\na/a/a fa g/g/g eg|f/f/f df e/e/e ce|d/d/d Bd c/c/c Ac|BAGA Befg|\r\nafba gbeg|fdaf eace|dBed ceAa|ecdB A2 A||",
+      "after_abc": "cAdB efga|A/A/A cA BGEd|cAdB efga|gfe^d e2 e=d|\r\ncAdB efga|A/A/A cA BGEd|cAdB efga|ecdB A2 A2||\r\nafba geag|fdgf ecfe|dBed cAdc|BAGA Befg|\r\nafba geag|fdgf ecfe|dBed ceaf|ecdB A2 A||\r\ncAdB efga|A/A/A cA BGEd|cAdB efga|gfe^d e2 e=d|\r\ncAdB efga|A/A/A cA BGEd|cAdB efga|ecdB A2 A||\r\na/a/a fa g/g/g eg|f/f/f df e/e/e ce|d/d/d Bd c/c/c Ac|BAGA Befg|\r\nafba gbeg|fdaf eace|dBed ceAa|ecdB A2 A||",
+      "before_sha256": "2f9b3c8e024302b59172ed968f430aac090b6b83dfc10d42eb7f29dc66912b52",
+      "after_sha256": "883a5204e4346dd4ee516d3c023853eaef1468318d9ed30e2bd6d5db223bc136",
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 8,
+          "before": "ecdB A2 A",
+          "after": "ecdB A2 A2",
+          "token_offset": 8,
+          "old_token": "A",
+          "new_token": "A2",
+          "old_duration_eighths": "1",
+          "new_duration_eighths": "2",
+          "reference_ranges": [
+            [
+              "53246",
+              8,
+              8
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_played_durations": 1,
+          "abcjs": {
+            "setting_id": "15178",
+            "passed": true,
+            "changed_note_durations": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 92,
+          "end": 92,
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "tune_id": "2956",
+      "setting_id": "16123",
+      "name": "Father Tom's Wager",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/2956#setting16123",
+      "category": "note_length",
+      "before_abc": "|:dge dBG|AEF GDB,|G,B,D GBd|cBc ABc|\r\ndge dBG|AEF GDB,|G,B,D GBd|cAF G2:|\r\nBdg bag|gfe edc|B/c/dB cAG|\r\n[1 FAD D2 c|Bdg bag|gfe edc|B/c/dB cAF|AGF G2:|\r\n[2 FAD Ddc|B2 d gdB|cGE CEG|F/G/AF Df/e/g|gdB G2||",
+      "after_abc": "|:dge dBG|AEF GDB,|G,B,D GBd|cBc ABc|\r\ndge dBG|AEF GDB,|G,B,D GBd|cAF G2:|\r\nBdg bag|gfe edc|B/c/dB cAG|\r\n[1 FAD D2 c|Bdg bag|gfe edc|B/c/dB cAF|AGF G3:|\r\n[2 FAD Ddc|B2 d gdB|cGE CEG|F/G/AF Df/e/g|gdB G2||",
+      "before_sha256": "0affe6aef522afe32f12aaf84ddeb8016aa32701eec7bb2d40dc1b171df72a34",
+      "after_sha256": "38aa03396edaa27a9e9294647355f1d31e70029f57057f15ccd5c7807fa10f93",
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 16,
+          "before": "AGF G2",
+          "after": "AGF G3",
+          "token_offset": 4,
+          "old_token": "G2",
+          "new_token": "G3",
+          "old_duration_eighths": "2",
+          "new_duration_eighths": "3",
+          "reference_ranges": [
+            [
+              "41581",
+              16,
+              16
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_played_durations": 1,
+          "abcjs": {
+            "setting_id": "16123",
+            "passed": true,
+            "changed_note_durations": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 149,
+          "end": 150,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "tune_id": "2956",
+      "setting_id": "41581",
+      "name": "Father Tom's Wager",
+      "original_contributor": "Pierre LAÏLY",
+      "source_url": "https://thesession.org/tunes/2956#setting41581",
+      "category": "note_length",
+      "before_abc": "|:dge dBG|AEF GDB,|G,B,D GBd|cBc ABc|\r\ndge dBG|AEF GDB,|G,B,D GBd|cAF G2:|\r\n|:Bdg bag|gfe edc|B/c/dB cAG|\r\n[1 FAD D2 c|Bdg bag|gfe edc|B/c/dB cAF|AGF G3:|\r\n[2 FAD Ddc|BAB GBd|cGE CEG|FEF Dba|gdB G3||",
+      "after_abc": "|:dge dBG|AEF GDB,|G,B,D GBd|cBc ABc|\r\ndge dBG|AEF GDB,|G,B,D GBd|cAF G3:|\r\n|:Bdg bag|gfe edc|B/c/dB cAG|\r\n[1 FAD D2 c|Bdg bag|gfe edc|B/c/dB cAF|AGF G3:|\r\n[2 FAD Ddc|BAB GBd|cGE CEG|FEF Dba|gdB G3||",
+      "before_sha256": "30566822ab9653ae6a947b89ad4734ad4a2c852b9ccf9ac57da5c91c0ec021ce",
+      "after_sha256": "43500f9b3f44f9bb79d435388cd7398d31d3cff7be18a7da30b66af67b2d5aa0",
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 8,
+          "before": "cAF G2",
+          "after": "cAF G3",
+          "token_offset": 4,
+          "old_token": "G2",
+          "new_token": "G3",
+          "old_duration_eighths": "2",
+          "new_duration_eighths": "3",
+          "reference_ranges": [
+            [
+              "37114",
+              8,
+              8
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_played_durations": 2,
+          "abcjs": {
+            "setting_id": "41581",
+            "passed": true,
+            "changed_note_durations": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 71,
+          "end": 72,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "tune_id": "3262",
+      "setting_id": "18316",
+      "name": "Lord Moira's Welcome To Scotland",
+      "original_contributor": "geoffwright",
+      "source_url": "https://thesession.org/tunes/3262#setting18316",
+      "category": "note_length",
+      "before_abc": "|:gfed efge|dcBA Bc d2|gfed efgw|fgaf g2:|\r\n|:gabg af d2|efge dB G2|ABcA dBGB|cAFA G2:|\r\n|:BcdB cd e2|ABcA Bc d2|G2 GB cBAG|FDEF G4:|",
+      "after_abc": "|:gfed efge|dcBA Bc d2|gfed efgw|fgaf g2:|\r\n|:gabg af d2|efge dB G2|ABcA dBGB|cAFA G4:|\r\n|:BcdB cd e2|ABcA Bc d2|G2 GB cBAG|FDEF G4:|",
+      "before_sha256": "4f6a342c0c8bddf217882380111c42c4a7fd5388bbaeb09b618b1d2427ffc3ae",
+      "after_sha256": "5fcf68d28860e4cd8a018047841a27e252a5afd70ce35e3d62da055526454ec1",
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 8,
+          "before": "cAFA G2",
+          "after": "cAFA G4",
+          "token_offset": 5,
+          "old_token": "G2",
+          "new_token": "G4",
+          "old_duration_eighths": "2",
+          "new_duration_eighths": "4",
+          "reference_ranges": [
+            [
+              "16333",
+              8,
+              8
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_played_durations": 2,
+          "abcjs": {
+            "setting_id": "18316",
+            "passed": true,
+            "changed_note_durations": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 84,
+          "end": 85,
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "tune_id": "3826",
+      "setting_id": "22753",
+      "name": "Boys From Wexford, The",
+      "original_contributor": "Eubonian",
+      "source_url": "https://thesession.org/tunes/3826#setting22753",
+      "category": "note_length",
+      "before_abc": "D2|G3 A GF ED|d4 d2 e2|d2 B2 G2 A2|E5 D2|\r\nG3 A GF ED|d4 d2 e2|d2 B2 G2 A2|G5||\r\nd2|e2 e2 c2 e2|d4 d2 e2|d2 B2 G2 A2|E6 D2|\r\nG3 A GF ED|d4 d2 e2|d2 B2 G2 A2|G5||",
+      "after_abc": "D2|G3 A GF ED|d4 d2 e2|d2 B2 G2 A2|E6 D2|\r\nG3 A GF ED|d4 d2 e2|d2 B2 G2 A2|G5||\r\nd2|e2 e2 c2 e2|d4 d2 e2|d2 B2 G2 A2|E6 D2|\r\nG3 A GF ED|d4 d2 e2|d2 B2 G2 A2|G5||",
+      "before_sha256": "86cc40630ed2684e3a0f465681ba657653931402ceffdeebac941c6fefa07f28",
+      "after_sha256": "cd5c3b5fe7f75b6b7c5701bb5fb8852d57d3385bfffbc9b12a4de20700d6532b",
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 5,
+          "before": "E5 D2",
+          "after": "E6 D2",
+          "token_offset": 0,
+          "old_token": "E5",
+          "new_token": "E6",
+          "old_duration_eighths": "5",
+          "new_duration_eighths": "6",
+          "reference_ranges": [
+            [
+              "22753",
+              14,
+              14
+            ]
+          ],
+          "corroborating_contributors": 0,
+          "written_repeat": true,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_played_durations": 1,
+          "abcjs": {
+            "setting_id": "22753",
+            "passed": true,
+            "changed_note_durations": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 36,
+          "end": 37,
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "tune_id": "3835",
+      "setting_id": "30297",
+      "name": "John Brosnan's",
+      "original_contributor": "Ian Varley",
+      "source_url": "https://thesession.org/tunes/3835#setting30297",
+      "category": "split_note_token",
+      "before_abc": "|:D>D DB|AF 2B|AF D>E|FE E2|\r\nD>D DB|AF2B|AF EF|D3A:|\r\n|:d2 cd|BA FA|d2 cd|B3c|\r\nd2 cd|BA FB|AF EF|D3A:|\r\n|:d2 e2|f3f|ed Bc|d3A|\r\nBc/B/ AF|Bc/B/ AF|AF EF|D3A:|",
+      "after_abc": "|:D>D DB|AF2B|AF D>E|FE E2|\r\nD>D DB|AF2B|AF EF|D3A:|\r\n|:d2 cd|BA FA|d2 cd|B3c|\r\nd2 cd|BA FB|AF EF|D3A:|\r\n|:d2 e2|f3f|ed Bc|d3A|\r\nBc/B/ AF|Bc/B/ AF|AF EF|D3A:|",
+      "before_sha256": "306bd781e65fa5f47dedc7875bff5a670f0b16815ae91bd37a26615bda62bee0",
+      "after_sha256": "6b4c915fe86e360682dc6e8cde24c4d530b3e6e67b8cf52d2d663defa48848c5",
+      "evidence": [
+        {
+          "rule": "split_note_token",
+          "bar": 2,
+          "before": "AF 2B",
+          "after": "AF2B",
+          "token_offset": 1,
+          "old_token": "F",
+          "new_token": "F2",
+          "old_duration_eighths": "1",
+          "new_duration_eighths": "2",
+          "reference_ranges": [
+            [
+              "4430",
+              2,
+              2
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_played_durations": 2,
+          "abcjs": {
+            "setting_id": "30297",
+            "passed": true,
+            "changed_note_durations": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 11,
+          "end": 12,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "6918",
+      "setting_id": "18501",
+      "name": "Donald Ian Rankine",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/6918#setting18501",
+      "category": "note_length",
+      "before_abc": "|:Bdd GBB|DGG B,2 D|B,DD GBB|G>F^E F2 =E|\r\nDFF FAA|Acc c2 A|1 d>ff f<dd|cB^A B2:|2 dff f^ef|a>gf g2||\r\nbgg dgg|bgg e2 d|bgg dgg|\r\n[1 g>f^e f2 g|aff dff|a^ga f2 e|d>ff d<fa|c'b^a b2:|\r\n[2 g>e^d e2 f|gcc Gcc|DGG Bdd|dff f^ef|a>gf g2||\r\nBdd GBB|DGG B,DD|B,DD GBB|GFF F2 E|\r\nDFF FAA|Acc cdd|1 dff fdd|cBB B2:|2 dff fef|agg g2||\r\nbgg dgg|bgg edd|bgg dgg|\r\n[1 gff f2 g|aff dff|a^ga fed|aff dff|edd d2:|\r\n[2 gee e3|ecc Gcc|DGG Bdd|dff fef|agg g2||",
+      "after_abc": "|:Bdd GBB|DGG B,2 D|B,DD GBB|G>F^E F2 =E|\r\nDFF FAA|Acc c2 A|1 d>ff f<dd|cB^A B2:|2 dff f^ef|a>gf g2||\r\nbgg dgg|bgg e2 d|bgg dgg|\r\n[1 g>f^e f2 g|aff dff|a^ga f2 e|d>ff d<fa|c'b^a b2:|\r\n[2 g>e^d e2 f|gcc Gcc|DGG Bdd|dff f^ef|a>gf g2||\r\nBdd GBB|DGG B,DD|B,DD GBB|GFF F2 E|\r\nDFF FAA|Acc cdd|1 dff fdd|cBB B2:|2 dff fef|agg g3||\r\nbgg dgg|bgg edd|bgg dgg|\r\n[1 gff f2 g|aff dff|a^ga fed|aff dff|edd d2:|\r\n[2 gee e3|ecc Gcc|DGG Bdd|dff fef|agg g2||",
+      "before_sha256": "13959fc5bb5f1f689b9ebf9615c14964822c75cd3a49c48d4c1eaf0e5123b166",
+      "after_sha256": "ffd357bb334686a73023e28b89e48ded34e7e47be8236af45ff842622751e767",
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 33,
+          "before": "agg g2",
+          "after": "agg g3",
+          "token_offset": 4,
+          "old_token": "g2",
+          "new_token": "g3",
+          "old_duration_eighths": "2",
+          "new_duration_eighths": "3",
+          "reference_ranges": [
+            [
+              "41468",
+              10,
+              10
+            ]
+          ],
+          "transposed_references": [
+            "41468"
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_played_durations": 2,
+          "abcjs": {
+            "setting_id": "18501",
+            "passed": true,
+            "changed_note_durations": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 320,
+          "end": 321,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "tune_id": "7272",
+      "setting_id": "26038",
+      "name": "Nina's",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/7272#setting26038",
+      "category": "note_length",
+      "before_abc": "|:FAB c2B|BAc BAF|FAB c2B|Bce f3|\r\nFAB c2B|BAc BAB|BAc BAF|AFE F2:|\r\n|:f3 ecB|BAc BAF|f2e ecB|Bce f3|\r\nfea fea|fec BAB|BAc BAc|BAE F2:|",
+      "after_abc": "|:FAB c2B|BAc BAF|FAB c2B|Bce f3|\r\nFAB c2B|BAc BAB|BAc BAF|AFE F3:|\r\n|:f3 ecB|BAc BAF|f2e ecB|Bce f3|\r\nfea fea|fec BAB|BAc BAc|BAE F2:|",
+      "before_sha256": "39d0a95e053c9a93feb8b8cb84b465e771d7be6f2e66fb919130bff7befc1a1f",
+      "after_sha256": "873b896db8a5b3e90b6708f91c10b31717607ddb15268c90a1e5257f94db4641",
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 8,
+          "before": "AFE F2",
+          "after": "AFE F3",
+          "token_offset": 4,
+          "old_token": "F2",
+          "new_token": "F3",
+          "old_duration_eighths": "2",
+          "new_duration_eighths": "3",
+          "reference_ranges": [
+            [
+              "46564",
+              8,
+              8
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_played_durations": 2,
+          "abcjs": {
+            "setting_id": "26038",
+            "passed": true,
+            "changed_note_durations": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 64,
+          "end": 65,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "tune_id": "7338",
+      "setting_id": "18867",
+      "name": "Lac Amora",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/7338#setting18867",
+      "category": "split_note_token",
+      "before_abc": "|:EFED ~A2 Bc|BAdB AGFE|DEDC ~A2 Bc|GFED ^C4:|\r\n|:d2 ef feda|agcc fed^c|~d2 ef feda|1 aged g3 ^c:|2 fed^c d4||\r\n|:aa f2 gg e2|fedf e 3^c|dfeg (3ege) fg|1 afef e3 z:|2 fed^c- dAFE|D6 z2||",
+      "after_abc": "|:EFED ~A2 Bc|BAdB AGFE|DEDC ~A2 Bc|GFED ^C4:|\r\n|:d2 ef feda|agcc fed^c|~d2 ef feda|1 aged g3 ^c:|2 fed^c d4||\r\n|:aa f2 gg e2|fedf e3^c|dfeg (3ege) fg|1 afef e3 z:|2 fed^c- dAFE|D6 z2||",
+      "before_sha256": "2c77af51665406fd97d6a45451606a2e007bd0b1becf7a6f71d1d8248cf0a79d",
+      "after_sha256": "03332c6f19dc7ca218077410424615c4d5d12dc603c1382a10752ffc83765339",
+      "evidence": [
+        {
+          "rule": "split_note_token",
+          "bar": 11,
+          "before": "fedf e 3^c",
+          "after": "fedf e3^c",
+          "token_offset": 5,
+          "old_token": "e",
+          "new_token": "e3",
+          "old_duration_eighths": "1",
+          "new_duration_eighths": "3",
+          "reference_ranges": [
+            [
+              "18866",
+              11,
+              11
+            ],
+            [
+              "7338",
+              11,
+              11
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_played_durations": 2,
+          "abcjs": {
+            "setting_id": "18867",
+            "passed": true,
+            "changed_note_durations": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 132,
+          "end": 133,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "12370",
+      "setting_id": "20617",
+      "name": "Eggnog",
+      "original_contributor": "Samuel McKee",
+      "source_url": "https://thesession.org/tunes/12370#setting20617",
+      "category": "note_length",
+      "before_abc": "|:e2 BAGE|G3A3|e2 BAGE|G5|e2 BAGE|G3A3|e2 BAGE|D5:|\r\nE3FG2|(AB2) (GE2)|E2DE3|:\r\ne2 BAGE|G3A3|e2 BAGE|G5|e2 BAGE|G3A3|e2 BAGE|D5:|:\r\nf2gagf|e3f3|f2gagf|e5|f2gagf|e3f3|e2fedB|1 d5:|2 (d5|d5)||",
+      "after_abc": "|:e2 BAGE|G3A3|e2 BAGE|G5|e2 BAGE|G3A3|e2 BAGE|D6:|\r\nE3FG2|(AB2) (GE2)|E2DE3|:\r\ne2 BAGE|G3A3|e2 BAGE|G5|e2 BAGE|G3A3|e2 BAGE|D5:|:\r\nf2gagf|e3f3|f2gagf|e5|f2gagf|e3f3|e2fedB|1 d5:|2 (d5|d5)||",
+      "before_sha256": "056d8e00ed3a3b011cb790d61a900f722eb337d69144c4f50b2b2ea9c248f51c",
+      "after_sha256": "dc0cdee23ed09ebc8741d6fb9623bb8335921e89fdd5b02bbd84e52e8cf85bf1",
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 8,
+          "before": "D5",
+          "after": "D6",
+          "token_offset": 0,
+          "old_token": "D5",
+          "new_token": "D6",
+          "old_duration_eighths": "5",
+          "new_duration_eighths": "6",
+          "reference_ranges": [
+            [
+              "20624",
+              8,
+              8
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_played_durations": 2,
+          "abcjs": {
+            "setting_id": "20617",
+            "passed": true,
+            "changed_note_durations": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 48,
+          "end": 49,
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "tune_id": "16797",
+      "setting_id": "32000",
+      "name": "Haudanmaan Hääpolska",
+      "original_contributor": "Charles Mackenzie",
+      "source_url": "https://thesession.org/tunes/16797#setting32000",
+      "category": "note_length",
+      "before_abc": "(B,|:.B,)^C/^D/ EF/G/ A/G/F/E/|^D/E/F/G/ .FA AF/=D/|G/F/G/A/ B/c/B/A/ GF/E/|^D/E/F/G/ F/E/D/^C/ D(B,|\r\n.B,)^C/^D/ EF/G/ A/G/F/E/|^D/E/F/G/ .FA AF/=D/|G/F/G/A/ B/c/B/A/ GF/E/|^D/E/F/D/ E2 E2:|\r\n|:BD/C/ .DB (3B/c/B/ A/G/|A/B/A/F/ D/D/F/G/ .AF|G/F/G/A B/c/B/A/ GF/E/|^D/E/F/G/ F/E/D/^C/ DB,|\r\nBD/C/ .DB (3B/c/B/ A/G/|A/B/A/F/ D/D/F/G/ .AF|G/F/G/A B/c/B/A/ GF/E/|^D/E/F/D/ E2 E2:|",
+      "after_abc": "(B,|:.B,)^C/^D/ EF/G/ A/G/F/E/|^D/E/F/G/ .FA AF/=D/|G/F/G/A/ B/c/B/A/ GF/E/|^D/E/F/G/ F/E/D/^C/ D(B,|\r\n.B,)^C/^D/ EF/G/ A/G/F/E/|^D/E/F/G/ .FA AF/=D/|G/F/G/A/ B/c/B/A/ GF/E/|^D/E/F/D/ E2 E2:|\r\n|:BD/C/ .DB (3B/c/B/ A/G/|A/B/A/F/ D/D/F/G/ .AF|G/F/G/A/ B/c/B/A/ GF/E/|^D/E/F/G/ F/E/D/^C/ DB,|\r\nBD/C/ .DB (3B/c/B/ A/G/|A/B/A/F/ D/D/F/G/ .AF|G/F/G/A/ B/c/B/A/ GF/E/|^D/E/F/D/ E2 E2:|",
+      "before_sha256": "47ff64a4ecc470a5272ed21f15f63862f0aee992f747b22782f8290ad4530d2f",
+      "after_sha256": "33709c9e39075317f9f1ed42f7b2b05aea4e630b9cce661d87e22b80fae5e4ba",
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 12,
+          "last_bar": 12,
+          "before": "G/F/G/A B/c/B/A/ GF/E/",
+          "after": "G/F/G/A/ B/c/B/A/ GF/E/",
+          "reference_ranges": [
+            [
+              "32000",
+              4,
+              4
+            ]
+          ],
+          "transposed_references": [],
+          "method": "Matching uninterrupted written phrase in the original exports",
+          "token_offset": 6,
+          "old_token": "A",
+          "new_token": "A/",
+          "old_duration_eighths": "1",
+          "new_duration_eighths": "1/2",
+          "scan_pass": 1,
+          "changed_played_durations": 0,
+          "abcjs": {
+            "setting_id": "32000",
+            "passed": true,
+            "changed_note_durations": 4,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "primary_duration_already_normalized": true
+        },
+        {
+          "rule": "note_length",
+          "bar": 16,
+          "last_bar": 16,
+          "before": "G/F/G/A B/c/B/A/ GF/E/",
+          "after": "G/F/G/A/ B/c/B/A/ GF/E/",
+          "reference_ranges": [
+            [
+              "32000",
+              8,
+              8
+            ]
+          ],
+          "transposed_references": [],
+          "method": "Matching uninterrupted written phrase in the original exports",
+          "token_offset": 6,
+          "old_token": "A",
+          "new_token": "A/",
+          "old_duration_eighths": "1",
+          "new_duration_eighths": "1/2",
+          "scan_pass": 1,
+          "changed_played_durations": 0,
+          "abcjs": {
+            "setting_id": "32000",
+            "passed": true,
+            "changed_note_durations": 4,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "primary_duration_already_normalized": true
+        }
+      ],
+      "edits": [
+        {
+          "start": 248,
+          "end": 248,
+          "text": "/"
+        },
+        {
+          "start": 343,
+          "end": 343,
+          "text": "/"
+        }
+      ]
+    },
+    {
+      "tune_id": "24244",
+      "setting_id": "55978",
+      "name": "Rosaleen Stenson's",
+      "original_contributor": "MC2",
+      "source_url": "https://thesession.org/tunes/24244#setting55978",
+      "category": "note_length",
+      "before_abc": "|:G,B,DB, DEGA|B2GB AGEG|G,B,DB, DEGA|BGdB A2GE|\r\nG,B,DB, DEGA|B2GB AGED|d2Bd BAGB|AGAB G2:|\r\n|:GABd gdBd|gdBd cBAB|G2BG dGBG|GABG A2BA|\r\nGABd g2d|GABd e2d|B2dB A2GA|BGAB G:|",
+      "after_abc": "|:G,B,DB, DEGA|B2GB AGEG|G,B,DB, DEGA|BGdB A2GE|\r\nG,B,DB, DEGA|B2GB AGED|d2Bd BAGB|AGAB G4:|\r\n|:GABd gdBd|gdBd cBAB|G2BG dGBG|GABG A2BA|\r\nGABd g2d|GABd e2d|B2dB A2GA|BGAB G:|",
+      "before_sha256": "a5cbbbd120a62e13818416c7f9d3e6ee9f0671d7c621e69c1b7726057875b53d",
+      "after_sha256": "30b52a6ed9f7ecbd11c816629d2b7b4ef928b086b3680d58f014688770773bd0",
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 8,
+          "before": "AGAB G2",
+          "after": "AGAB G4",
+          "token_offset": 5,
+          "old_token": "G2",
+          "new_token": "G4",
+          "old_duration_eighths": "2",
+          "new_duration_eighths": "4",
+          "reference_ranges": [
+            [
+              "50283",
+              8,
+              8
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_played_durations": 2,
+          "abcjs": {
+            "setting_id": "55978",
+            "passed": true,
+            "changed_note_durations": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 89,
+          "end": 90,
+          "text": "4"
+        }
+      ]
+    }
+  ],
+  "reference_lengths_sha256": "13b06281e8d3d040a05ea0575696bef3ed67272d1a9f1f7b2fea9cae61ef6829"
+}

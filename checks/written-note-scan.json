@@ -1,25 +1,23 @@
 {
   "passes": [
     {
-      "short_measures": 1514,
-      "long_measures": 323,
-      "missing_note": 10,
-      "extra_note": 2,
+      "short_measures": 1484,
+      "long_measures": 319,
+      "missing_note": 1,
       "settings": 55821,
-      "settings_with_proposals": 12,
+      "settings_with_proposals": 1,
       "pass": 1,
-      "accepted": 9,
-      "rejected": 3
+      "accepted": 1,
+      "rejected": 0
     },
     {
-      "short_measures": 1505,
-      "long_measures": 321,
-      "missing_note": 3,
+      "short_measures": 1482,
+      "long_measures": 319,
       "settings": 55821,
-      "settings_with_proposals": 3,
+      "settings_with_proposals": 0,
       "pass": 2,
       "accepted": 0
     }
   ],
-  "rejected_settings": 9
+  "rejected_settings": 4
 }

@@ -1,10 +1,16 @@
 # Changes
 
+## Corrections supported by matching and transposed phrases
+
+Corrected 36 places in 34 settings of 33 tunes and updated 193 matching set entries. This includes 16 duration corrections, 2 rejoined duration tokens, 5 restored notes, 11 accidentals and 2 octave marks. Sixteen changes have transposed reference settings. Two restored notes from the earlier review passed when the abcjs check matched by the original written position among repeated pitches.
+
+The [rhythm edits](checks/written-rhythm-edits.json), [note edits](checks/written-note-edits.json) and [pitch edits](checks/pitch-edits.json) give the reference passages and playback results. Where TradMate already renders a corrected duration, the check verifies identical full playback and the intended duration in the isolated measure, with the full change confirmed by abcjs. The [reference audit](checks/reference-audit.json) records the corpus-wide scans and the final rescan of affected tunes.
+
 ## Omitted and surplus notes
 
 Restored 7 omitted notes and removed 2 surplus notes in 9 settings of 9 tunes. Updated 36 matching set entries. Each resulting measure matches a written reference with matching adjacent phrases. TradMate and abcjs agreed on the written positions and preserved the other notes after accounting for the intended timing shift.
 
-The [changes and reference measures](checks/written-note-edits.json) include the expected pitch and duration of each inserted or removed note. Three other candidates remain under review because abcjs did not confirm an isolated change at the expected written position.
+The [changes and reference measures](checks/written-note-edits.json) include the expected pitch and duration of each inserted or removed note. Three other candidates went to review at that stage and are included in the corrections above.
 
 ## Stray notation symbols
 

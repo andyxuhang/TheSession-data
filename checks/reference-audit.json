@@ -1,0 +1,151 @@
+{
+  "full_corpus_before_final_application": {
+    "structural": {
+      "settings": 55821,
+      "candidates": 3,
+      "locations": 5,
+      "types": {
+        "stray_control": 2,
+        "missing_barline": 3
+      },
+      "scanner": {
+        "settings": 55821,
+        "bars": 1074957,
+        "settings_with_proposals": 3,
+        "stray_control": 2,
+        "missing_barline": 3
+      },
+      "candidate_settings": [
+        "31501",
+        "44335",
+        "47267"
+      ]
+    },
+    "matched_phrases": {
+      "settings": 55821,
+      "candidates": 3,
+      "locations": 6,
+      "types": {
+        "note_length": 5,
+        "missing_barline": 1
+      },
+      "scanner": {
+        "interior_phrases_compared": 2268,
+        "no_matching_phrase": 2154,
+        "boundary_or_run_too_long": 20691,
+        "unsupported": 3299,
+        "short_phrase": 258,
+        "no_supported_edit": 100,
+        "conflicting_phrases": 8,
+        "note_length": 5,
+        "missing_barline": 1
+      },
+      "candidate_settings": [
+        "31295",
+        "32000",
+        "44335"
+      ]
+    },
+    "length_in_other_setting": {
+      "settings": 55821,
+      "candidates": 0,
+      "locations": 0,
+      "types": {},
+      "scanner": {},
+      "candidate_settings": []
+    },
+    "length_in_written_repeat": {
+      "settings": 55821,
+      "candidates": 1,
+      "locations": 2,
+      "types": {
+        "note_length": 2
+      },
+      "scanner": {},
+      "candidate_settings": [
+        "32000"
+      ]
+    },
+    "pitches": {
+      "settings": 55821,
+      "candidates": 0,
+      "locations": 0,
+      "types": {},
+      "scanner": {
+        "octave_typo_exact_candidates": 286,
+        "note_typo_exact_candidates": 3368,
+        "accidental_typo_exact_candidates": 327
+      },
+      "candidate_settings": []
+    },
+    "syntax": {
+      "settings": 55821,
+      "candidates": 0,
+      "locations": 0,
+      "types": {},
+      "scanner": {
+        "marked_measures": 290,
+        "orphan_symbol_matching_measure": 4,
+        "invalid_tie_matching_measure": 1
+      },
+      "candidate_settings": []
+    }
+  },
+  "rescan_after_final_application": {
+    "tunes": 33,
+    "settings": 354,
+    "scanners": {
+      "structural": {
+        "settings_with_candidates": 0,
+        "requires_check": []
+      },
+      "matched_phrases": {
+        "settings_with_candidates": 0,
+        "requires_check": []
+      },
+      "length_in_other_setting": {
+        "settings_with_candidates": 0,
+        "requires_check": []
+      },
+      "length_in_written_repeat": {
+        "settings_with_candidates": 0,
+        "requires_check": []
+      },
+      "pitches": {
+        "settings_with_candidates": 0,
+        "requires_check": []
+      },
+      "syntax": {
+        "settings_with_candidates": 0,
+        "requires_check": []
+      },
+      "note_counts": {
+        "settings_with_candidates": 0,
+        "requires_check": []
+      },
+      "reference_lengths": {
+        "settings_with_candidates": 0,
+        "requires_check": []
+      },
+      "transposed_pitches": {
+        "settings_with_candidates": 0,
+        "requires_check": []
+      }
+    }
+  },
+  "rejected_candidates": {
+    "31295": "Bad state: 31295 unplanned duration change at 107",
+    "44335": "individual phrase check",
+    "31501": "individual barline check",
+    "47267": "Bad state: 47267 unplanned duration change at 14"
+  },
+  "round_acceptances": {
+    "rechecked notes": 2,
+    "matching durations": 14,
+    "durations with transposed references": 1,
+    "notes with transposed references": 2,
+    "verified normalized durations": 1,
+    "note check without generated chords": 1,
+    "pitches with transposed references": 12
+  }
+}

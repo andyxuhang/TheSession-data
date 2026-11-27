@@ -62,6 +62,59 @@
       ]
     },
     {
+      "tune_id": "448",
+      "setting_id": "23871",
+      "name": "Frost Is All Over, The",
+      "original_contributor": "Lucy Rietmann",
+      "source_url": "https://thesession.org/tunes/448#setting23871",
+      "category": "missing_note",
+      "before_abc": "|:A|d2f edc|dAF GFE|DFA DFA|Bcd efg|\r\nfed edc|dAF GFE|DFA DFA|BAF d2:|\r\n|:e|faa afd|gfg bag|faa afd|gfg efg|\r\n[1 faa afd|gfg bag|fga efg|fdc d2:|\r\n[2 fga efg|fdB AFA|Bcd efg|faf gfe||d2||",
+      "after_abc": "|:A|d2f edc|dAF GFE|DFA DFA|Bcd efg|\r\nfed edc|dAF GFE|DFA DFA|BAF d2:|\r\n|:e|faa afd|gfg bag|faa afd|gfg efg|\r\n[1 faa afd|gfg bag|fga efg|fdc d2e:|\r\n[2 fga efg|fdB AFA|Bcd efg|faf gfe||d2||",
+      "before_sha256": "6b63bd452e746ee29cb3f98add30ed76d8b9334eec80d4a6e60492980f958725",
+      "after_sha256": "589c6d2bd79c85ecdd889dd4658fcb40131deef6382bf8a7e3456bb33cd2cf1c",
+      "evidence": [
+        {
+          "rule": "missing_note",
+          "bar": 18,
+          "note_count_change": 1,
+          "before": "fdc d2",
+          "after": "fdc d2e",
+          "token": "e",
+          "duration_eighths": "1",
+          "midi": 76,
+          "possible_offsets": [
+            6
+          ],
+          "reference_ranges": [
+            [
+              "26401",
+              17,
+              17
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_note_occurrences": 1,
+          "abcjs": {
+            "setting_id": "23871",
+            "passed": true,
+            "changed_note_occurrences": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 143,
+          "end": 143,
+          "text": "e"
+        }
+      ]
+    },
+    {
       "tune_id": "699",
       "setting_id": "699",
       "name": "Laura Lynn Cunningham",
@@ -110,6 +163,59 @@
         {
           "start": 112,
           "end": 112,
+          "text": "B"
+        }
+      ]
+    },
+    {
+      "tune_id": "772",
+      "setting_id": "57199",
+      "name": "Queen Of The Fair",
+      "original_contributor": "leprecawn",
+      "source_url": "https://thesession.org/tunes/772#setting57199",
+      "category": "missing_note",
+      "before_abc": "|:E| FEF DA,A,|DFA dAF|GFG FGA|BGE EAG|\r\nFEF DA,A,|DFA dAF|GFG EAG| FDD D2:|\r\n|:g | fdf ece|dAG FEF|DFA dAF|GFG E2g|\r\nfdf ece|dAG FED|EFG BAG|FDD D2 :|\r\n|:B|Add fdd|add fdd|Bef ~g2 e|fdf ecA|\r\n[1 Add fdd|add fdd|EFG BAG|FDD D2 :|\r\n[2 afa geg|fdf ecA|EFG BAG|FDD D2||",
+      "after_abc": "|:E| FEF DA,A,|DFA dAF|GFG FGA|BGE EAG|\r\nFEF DA,A,|DFA dAF|GFG EAG| FDD D2:|\r\n|:g | fdf ece|dAG FEF|DFA dAF|GFG E2g|\r\nfdf ece|dAG FED|EFG BAG|FDD D2 :|\r\n|:B|Add fdd|add fdd|Bef ~g2 e|fdf ecA|\r\n[1 Add fdd|add fdd|EFG BAG|FDD D2B :|\r\n[2 afa geg|fdf ecA|EFG BAG|FDD D2||",
+      "before_sha256": "0781048bd3cdba28894eb0dc885b361c976fded9ac6d2b7155e79f99345df31f",
+      "after_sha256": "58aaf65a0e65e6c0e91ac792e2fcb73b8be23b50f29a26faf70f7f9d03b4afe4",
+      "evidence": [
+        {
+          "rule": "missing_note",
+          "bar": 27,
+          "note_count_change": 1,
+          "before": "FDD D2 ",
+          "after": "FDD D2B ",
+          "token": "B",
+          "duration_eighths": "1",
+          "midi": 71,
+          "possible_offsets": [
+            6
+          ],
+          "reference_ranges": [
+            [
+              "53347",
+              26,
+              26
+            ]
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_note_occurrences": 1,
+          "abcjs": {
+            "setting_id": "57199",
+            "passed": true,
+            "changed_note_occurrences": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 226,
+          "end": 226,
           "text": "B"
         }
       ]
@@ -164,6 +270,62 @@
           "start": 138,
           "end": 138,
           "text": "B"
+        }
+      ]
+    },
+    {
+      "tune_id": "1369",
+      "setting_id": "55787",
+      "name": "Gallowglass, The",
+      "original_contributor": "Thierry Masure",
+      "source_url": "https://thesession.org/tunes/1369#setting55787",
+      "category": "missing_note",
+      "before_abc": "|:B|cBA eBd|cAA A2B|cBA efg|dBG GAB|\r\ncBA eBd|cAa e2d|cBA GAB|cAA A2:|\r\n|:e|aaa e2d|cAA A2B|cBc efg|dBG G2e|\r\n[1 aaa e2d|cAa e2d|cBA GAB|cAA A2:|\r\n[2 aeg fdB|ecA BGE|ABc eBd|cAA A2||",
+      "after_abc": "|:B|cBA eBd|cAA A2B|cBA efg|dBG GAB|\r\ncBA eBd|cAa e2d|cBA GAB|cAA A2:|\r\n|:e|aaa e2d|cAA A2B|cBc efg|dBG G2e|\r\n[1 aaa e2d|cAa e2d|cBA GAB|cAA A2e:|\r\n[2 aeg fdB|ecA BGE|ABc eBd|cAA A2||",
+      "before_sha256": "00d7acd5972c0aa3b85faa93f1ec51afe1f7c2098eb902b0029d536385d2b9a0",
+      "after_sha256": "3efa1f92e9127bfdea2ee7ddafca7abe047f43965ebe75ba4dd8646de135a63f",
+      "evidence": [
+        {
+          "rule": "missing_note",
+          "bar": 18,
+          "note_count_change": 1,
+          "before": "cAA A2",
+          "after": "cAA A2e",
+          "token": "e",
+          "duration_eighths": "1",
+          "midi": 76,
+          "possible_offsets": [
+            6
+          ],
+          "reference_ranges": [
+            [
+              "27669",
+              18,
+              18
+            ]
+          ],
+          "transposed_references": [
+            "27669"
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_note_occurrences": 1,
+          "abcjs": {
+            "setting_id": "55787",
+            "passed": true,
+            "changed_note_occurrences": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 143,
+          "end": 143,
+          "text": "e"
         }
       ]
     },
@@ -269,6 +431,62 @@
         {
           "start": 122,
           "end": 122,
+          "text": "F"
+        }
+      ]
+    },
+    {
+      "tune_id": "6623",
+      "setting_id": "38571",
+      "name": "Dear Irish Boy, The",
+      "original_contributor": "DomW",
+      "source_url": "https://thesession.org/tunes/6623#setting38571",
+      "category": "missing_note",
+      "before_abc": "EF|G FF3 E/F/|{A}B3B (3AFE|E2 F3 E|D4 (3DEF|G F3 E/F/|\r\n{A}B3B (3AFE|E2 F>E D/E/F/D/|E4 EF|\r\nG FF3 E/F/|{A}B3B (3AFE|E2 F3 E|D4 B,2|\r\nE>D EF G>A|(3BAB e>e dBA|B3B AF|G3d (3BAE|~F3E E2|E4||\r\nee B4|ee (3efe B2|B2 A/F/E/F/ d2|F2 E3 D|D6|ee B4|\r\n(3efe d3 A|B2 A2 AB|e d/e/ f2 e2|d/e/f/d/ e2|(3def g2f2|(3edB e2 e2|\r\nB A/F/E/F/ d2|F2 E2 D2|D4 B,2|E>D EF G>A|\r\n(3BAB e>e (3dBA|B>B A2F2|G3d (3BAE|~F3E E2|E4||",
+      "after_abc": "EF|G FF3 E/F/|{A}B3B (3AFE|E2 F3 E|D4 (3DEF|G FF3 E/F/|\r\n{A}B3B (3AFE|E2 F>E D/E/F/D/|E4 EF|\r\nG FF3 E/F/|{A}B3B (3AFE|E2 F3 E|D4 B,2|\r\nE>D EF G>A|(3BAB e>e dBA|B3B AF|G3d (3BAE|~F3E E2|E4||\r\nee B4|ee (3efe B2|B2 A/F/E/F/ d2|F2 E3 D|D6|ee B4|\r\n(3efe d3 A|B2 A2 AB|e d/e/ f2 e2|d/e/f/d/ e2|(3def g2f2|(3edB e2 e2|\r\nB A/F/E/F/ d2|F2 E2 D2|D4 B,2|E>D EF G>A|\r\n(3BAB e>e (3dBA|B>B A2F2|G3d (3BAE|~F3E E2|E4||",
+      "before_sha256": "70a5688d1300e441f23d5800b3ec15b0dea4c61183a442602355d3f3ddcc0d69",
+      "after_sha256": "c207b71e66f56af23022036f6f27696c5a971abdb101442cb029aed31c44536d",
+      "evidence": [
+        {
+          "rule": "missing_note",
+          "bar": 6,
+          "note_count_change": 1,
+          "before": "G F3 E/F/",
+          "after": "G FF3 E/F/",
+          "token": "F",
+          "duration_eighths": "1",
+          "midi": 66,
+          "possible_offsets": [
+            2
+          ],
+          "reference_ranges": [
+            [
+              "49473",
+              6,
+              6
+            ]
+          ],
+          "transposed_references": [
+            "49473"
+          ],
+          "corroborating_contributors": 1,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_note_occurrences": 1,
+          "abcjs": {
+            "setting_id": "38571",
+            "passed": true,
+            "changed_note_occurrences": 1,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 46,
+          "end": 46,
           "text": "F"
         }
       ]
@@ -380,6 +598,101 @@
       ]
     },
     {
+      "tune_id": "10446",
+      "setting_id": "45817",
+      "name": "Zakynthos, The",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/10446#setting45817",
+      "category": "missing_note",
+      "before_abc": "|:\"Am\"a2 a gag|e2 a a2 g|e2 c BcB|A2 F \"F\"F3|\r\n\"Am\"EAB cBA|\"F\"FAB cBA|\"G\"B2 B edc|\"Am\"Bcd cBA:|\r\n|:\"Am\"EAB cBA|\"F\"FAB cBA|\"G\"B2 B edc|\"Am\"Bcd cBA|\r\n\"Am\"EAB cBA|\"F\"FAB cBA|\"G\"B2 B edc|1 B2 A\"Am\"A3:|2 B2A \"Am\"ABc||\r\n|:\"Dm\"d2 d2 c2|d c2 B2|d2 d2 cd|\"E\"B3 A3|\r\n\"Dm\"d2 d2 c2|d c2 B2|d2c Bcd|\"E\"e3- e3:|",
+      "after_abc": "|:\"Am\"a2 a gag|e2 a a2 g|e2 c BcB|A2 F \"F\"F3|\r\n\"Am\"EAB cBA|\"F\"FAB cBA|\"G\"B2 B edc|\"Am\"Bcd cBA:|\r\n|:\"Am\"EAB cBA|\"F\"FAB cBA|\"G\"B2 B edc|\"Am\"Bcd cBA|\r\n\"Am\"EAB cBA|\"F\"FAB cBA|\"G\"B2 B edc|1 B2 A\"Am\"A3:|2 B2A \"Am\"ABc||\r\n|:\"Dm\"d2 d2 c2|d c2 B2A|d2 d2 cd|\"E\"B3 A3|\r\n\"Dm\"d2 d2 c2|d c2 B2|d2c Bcd|\"E\"e3- e3:|",
+      "before_sha256": "1ff8dd781506ccd2d199b7202239e0e0d11aa29cbf9323ee511f126ff7992ebd",
+      "after_sha256": "6e72e18270253fe5855a89021b8dcba5d564fcc35aadf360f85371e19e0ed77c",
+      "evidence": [
+        {
+          "rule": "missing_note",
+          "bar": 19,
+          "note_count_change": 1,
+          "before": "d c2 B2",
+          "after": "d c2 B2A",
+          "token": "A",
+          "duration_eighths": "1",
+          "midi": 69,
+          "possible_offsets": [
+            7
+          ],
+          "reference_ranges": [
+            [
+              "35954",
+              19,
+              19
+            ],
+            [
+              "35954",
+              23,
+              23
+            ],
+            [
+              "38620",
+              23,
+              23
+            ],
+            [
+              "38650",
+              19,
+              19
+            ],
+            [
+              "38650",
+              23,
+              23
+            ],
+            [
+              "45343",
+              19,
+              19
+            ],
+            [
+              "45343",
+              23,
+              23
+            ],
+            [
+              "45344",
+              18,
+              18
+            ],
+            [
+              "45344",
+              22,
+              22
+            ]
+          ],
+          "transposed_references": [],
+          "corroborating_contributors": 3,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "scan_pass": 1,
+          "changed_note_occurrences": 2,
+          "abcjs": {
+            "setting_id": "45817",
+            "passed": true,
+            "changed_note_occurrences": 2,
+            "generated_chords_excluded": true,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 236,
+          "end": 236,
+          "text": "A"
+        }
+      ]
+    },
+    {
       "tune_id": "15342",
       "setting_id": "28605",
       "name": "Arrival Of The Queen Of Sheba, The",
@@ -486,5 +799,5 @@
       ]
     }
   ],
-  "written_note_scanner_sha256": "97d4b2aba2e2c7929bd02f631cdba931bf76759a91a47a99f4874e5f2d5bb55e"
+  "written_note_scanner_sha256": "bdf6a38b20c7cc1be2f6e23f7ca12e581d7007c8945305d15d7c9f0614f1ef89"
 }

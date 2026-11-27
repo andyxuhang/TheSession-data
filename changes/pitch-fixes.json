@@ -232,6 +232,80 @@
       ]
     },
     {
+      "tune_id": "88",
+      "setting_id": "57649",
+      "name": "Rolling Waves, The",
+      "original_contributor": "callant",
+      "source_url": "https://thesession.org/tunes/88#setting57649",
+      "category": "accidental_typo",
+      "before_abc": "|:F3 D3|D2d cAG|F3 D3|ABA GFE|\r\nF3 D3|D2d cAG|FAF GBG|A2F GFE:|\r\n|:D2d cAd|cAd =cAG|F2d cAG|FAF GFE|\r\nD2d cAe|fed =cAG|FAF GBG|A3 GFE:|",
+      "after_abc": "|:F3 D3|D2d cAG|F3 D3|ABA GFE|\r\nF3 D3|D2d cAG|FAF GBG|A2F GFE:|\r\n|:D2d cAd|cAd cAG|F2d cAG|FAF GFE|\r\nD2d cAe|fed =cAG|FAF GBG|A3 GFE:|",
+      "before_sha256": "a5594aa501352788410174b88228935aed48ad8b5d22bec2eac90c3318ca07e5",
+      "after_sha256": "eea834be1622e2dad5cdf73779f37a61a20490213ae843d1a6deb323c57c9607",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 10,
+          "note": 4,
+          "before": "cAd =cAG",
+          "after": "cAd cAG",
+          "before_midi": 72,
+          "after_midi": 73,
+          "reference_ranges": [
+            [
+              "26362",
+              10,
+              10
+            ],
+            [
+              "26363",
+              10,
+              10
+            ],
+            [
+              "32576",
+              10,
+              10
+            ],
+            [
+              "48430",
+              10,
+              10
+            ],
+            [
+              "53860",
+              10,
+              10
+            ]
+          ],
+          "transposed_references": [
+            "26363"
+          ],
+          "corroborating_contributors": 3,
+          "extra_matching_bar": true,
+          "playback_occurrences": 2,
+          "abcjs": {
+            "setting_id": "57649",
+            "variant": "57649-0",
+            "passed": true,
+            "changed_played_pitches": 2,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 79,
+          "end": 80,
+          "text": ""
+        }
+      ]
+    },
+    {
       "tune_id": "175",
       "setting_id": "28724",
       "name": "New Custom House, The",
@@ -477,6 +551,124 @@
         {
           "start": 125,
           "end": 126,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "398",
+      "setting_id": "33216",
+      "name": "Pull The Knife And Stick It Again",
+      "original_contributor": "Gary B",
+      "source_url": "https://thesession.org/tunes/398#setting33216",
+      "category": "accidental_typo",
+      "before_abc": "|:E2E GFE|DBE DBD|~E3 GFE|AB^G AFD|\r\n~E3 GFE|DBE DEF|G2E FED|BED E3:|\r\n|:edB BAF|EDB d2e|edB BAF|ABc def|\r\nedB BAF|EDB DEF|{A}GFE FED|BED E3:|",
+      "after_abc": "|:E2E GFE|DBE DBD|~E3 GFE|ABG AFD|\r\n~E3 GFE|DBE DEF|G2E FED|BED E3:|\r\n|:edB BAF|EDB d2e|edB BAF|ABc def|\r\nedB BAF|EDB DEF|{A}GFE FED|BED E3:|",
+      "before_sha256": "dd0af2069f47f56934ce3a71999be593713fa58106172531650deaefc4c5413f",
+      "after_sha256": "04ebcdcf664ea010e0e34b9b9815b341b6807b9f429723a92814428a52e69e8f",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 4,
+          "note": 3,
+          "before": "AB^G AFD",
+          "after": "ABG AFD",
+          "before_midi": 68,
+          "after_midi": 67,
+          "reference_ranges": [
+            [
+              "36246",
+              5,
+              5
+            ],
+            [
+              "51745",
+              4,
+              4
+            ]
+          ],
+          "transposed_references": [
+            "36246"
+          ],
+          "corroborating_contributors": 2,
+          "extra_matching_bar": true,
+          "playback_occurrences": 2,
+          "abcjs": {
+            "setting_id": "33216",
+            "variant": "33216-0",
+            "passed": true,
+            "changed_played_pitches": 2,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 28,
+          "end": 29,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "419",
+      "setting_id": "31728",
+      "name": "President Garfield's",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/419#setting31728",
+      "category": "accidental_typo",
+      "before_abc": "|:AECE AECE|AGAB c^Bcd|eBGB eBGB|e^def e=dcB|\r\nAECE AECE|AGAB c^Bcd|efgf e=dcB|1 A/B/A GB A=dcB:|2 A/B/A GB A2||\r\n|:ag|fdAF DFAf|ecAE CEAe|defe defe|cefe ceag|\r\nfdAF DFAf|ecAE CEAe|^degf e=dcB|1 A/B/A GB A2:|2 A/B/AGB A4||",
+      "after_abc": "|:AECE AECE|AGAB c^Bcd|eBGB eBGB|e^def e=dcB|\r\nAECE AECE|AGAB cBcd|efgf e=dcB|1 A/B/A GB A=dcB:|2 A/B/A GB A2||\r\n|:ag|fdAF DFAf|ecAE CEAe|defe defe|cefe ceag|\r\nfdAF DFAf|ecAE CEAe|^degf e=dcB|1 A/B/A GB A2:|2 A/B/AGB A4||",
+      "before_sha256": "298533a8796165bc8c019cfa9e14dbcf16856e088b18316fd52945a80eb52473",
+      "after_sha256": "fbd79b5ed2c68dcb9eafe68ecbcf9b379a07e2e12b941a366c44436d9dcf2a08",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 6,
+          "note": 6,
+          "before": "AGAB c^Bcd",
+          "after": "AGAB cBcd",
+          "before_midi": 72,
+          "after_midi": 71,
+          "reference_ranges": [
+            [
+              "32841",
+              7,
+              7
+            ],
+            [
+              "57325",
+              6,
+              6
+            ]
+          ],
+          "transposed_references": [
+            "57325"
+          ],
+          "corroborating_contributors": 2,
+          "extra_matching_bar": true,
+          "playback_occurrences": 2,
+          "abcjs": {
+            "setting_id": "31728",
+            "variant": "31728-0",
+            "passed": true,
+            "changed_played_pitches": 2,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 63,
+          "end": 64,
           "text": ""
         }
       ]
@@ -861,6 +1053,200 @@
       ]
     },
     {
+      "tune_id": "973",
+      "setting_id": "29024",
+      "name": "Man Of Aran, The",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/973#setting29024",
+      "category": "octave_typo",
+      "before_abc": "|:EAed cA A2|d3c BG G2|EAed cA A2|BdcB cA A2|\r\neAdA cA A2|d3c BG G2|(3ABc Bd cedf|1 e3d cAAG:|2 e3d cAAB||\r\nGcec Gcec|BcdB eBdB|cGEc EGcG|BdcB cAAB|\r\ncdec Gcec|BcdB eBdB|(3ABc Bd cedf|1 e3d cAAB:|2 e3d cAAG||\r\nce e2 ce e2|Bd d2 Bd d2|ce e2 ce e2|B2dB cA A2|\r\ncege cege|Bdfd Bdfd|cedf eA A2|e3d edcB:|",
+      "after_abc": "|:EAed cA A2|d3c BG G2|EAed cA A2|BdcB cA A2|\r\neAdA cA A2|d3c BG G2|(3ABc Bd cedf|1 e3d cAAG:|2 e3d cAAB||\r\nGcec Gcec|BcdB eBdB|cGEC EGcG|BdcB cAAB|\r\ncdec Gcec|BcdB eBdB|(3ABc Bd cedf|1 e3d cAAB:|2 e3d cAAG||\r\nce e2 ce e2|Bd d2 Bd d2|ce e2 ce e2|B2dB cA A2|\r\ncege cege|Bdfd Bdfd|cedf eA A2|e3d edcB:|",
+      "before_sha256": "64ab328291fdaffc0010acd72dccc8ff01c0527646fa65f2e849bd023b2ae5bd",
+      "after_sha256": "9b6a676aa6f06f9cf2c6bddac7f45df4a0c0bc8e870df6ecf08658b9a1573d49",
+      "evidence": [
+        {
+          "rule": "octave_typo",
+          "bar": 12,
+          "note": 4,
+          "before": "cGEc EGcG",
+          "after": "cGEC EGcG",
+          "before_midi": 72,
+          "after_midi": 60,
+          "reference_ranges": [
+            [
+              "14170",
+              12,
+              12
+            ],
+            [
+              "21231",
+              12,
+              12
+            ]
+          ],
+          "transposed_references": [
+            "14170",
+            "21231"
+          ],
+          "corroborating_contributors": 2,
+          "extra_matching_bar": true,
+          "playback_occurrences": 2,
+          "abcjs": {
+            "setting_id": "29024",
+            "variant": "29024-0",
+            "passed": true,
+            "changed_played_pitches": 2,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 131,
+          "end": 132,
+          "text": "C"
+        }
+      ]
+    },
+    {
+      "tune_id": "1244",
+      "setting_id": "57478",
+      "name": "Condon's Frolics",
+      "original_contributor": "birlibirdie",
+      "source_url": "https://thesession.org/tunes/1244#setting57478",
+      "category": "accidental_typo",
+      "before_abc": "|: eAB {B}c2d | edc BAG | eAB {B}c2d | e2d eag |\r\neAB {B}c2d | edc BcB | GBd gdB |1 A>BA ABd :|2 A>BA AB/c/d ||\r\n|: eaa efg | dec BAG | cBc d^cd | e2d efg |\r\neaa efg | dec BAB | GBd gdB |1 ABA AB/c/d :|2 AB/A/A A2A ||",
+      "after_abc": "|: eAB {B}c2d | edc BAG | eAB {B}c2d | e2d eag |\r\neAB {B}c2d | edc BcB | GBd gdB |1 A>BA ABd :|2 A>BA AB/c/d ||\r\n|: eaa efg | dec BAG | cBc dcd | e2d efg |\r\neaa efg | dec BAB | GBd gdB |1 ABA AB/c/d :|2 AB/A/A A2A ||",
+      "before_sha256": "07b212139618376869d1ab6e33f3549acea895a8199288cab00b68a1062430df",
+      "after_sha256": "2832223f3e625d3c3003193b48481c75c69083d4188bb8df47e62b53b43e8df4",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 12,
+          "note": 5,
+          "before": " cBc d^cd ",
+          "after": " cBc dcd ",
+          "before_midi": 73,
+          "after_midi": 72,
+          "reference_ranges": [
+            [
+              "1244",
+              12,
+              12
+            ],
+            [
+              "14543",
+              4,
+              4
+            ],
+            [
+              "30524",
+              12,
+              12
+            ],
+            [
+              "34388",
+              12,
+              12
+            ],
+            [
+              "36440",
+              11,
+              11
+            ]
+          ],
+          "transposed_references": [
+            "14543"
+          ],
+          "corroborating_contributors": 4,
+          "extra_matching_bar": true,
+          "playback_occurrences": 2,
+          "abcjs": {
+            "setting_id": "57478",
+            "variant": "57478-0",
+            "passed": true,
+            "changed_played_pitches": 2,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 141,
+          "end": 142,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "1336",
+      "setting_id": "41509",
+      "name": "Autumn Child",
+      "original_contributor": "swisspiper",
+      "source_url": "https://thesession.org/tunes/1336#setting41509",
+      "category": "accidental_typo",
+      "before_abc": "cd|:e2AB c2dc|B2AB G2ED|EAAB cdef|g2fe defg|\r\ne2AB c2dc|B2AB G2ED|EAAB cded|BcBG ABcd:|\r\n|:e2 a2 g3a|f2ed eABA|GAB^c d2ef|g2fe defg|\r\ne2AB c2dc|B2AB G2ED|EAAB cded|1 BcBG ABcd:|2 BcBG A4||",
+      "after_abc": "cd|:e2AB c2dc|B2AB G2ED|EAAB cdef|g2fe defg|\r\ne2AB c2dc|B2AB G2ED|EAAB cded|BcBG ABcd:|\r\n|:e2 a2 g3a|f2ed eABA|GABc d2ef|g2fe defg|\r\ne2AB c2dc|B2AB G2ED|EAAB cded|1 BcBG ABcd:|2 BcBG A4||",
+      "before_sha256": "dda5b6d9765ed00862b7bd6835accd5a9a43afc4dc9316bb7a7ce4af29f5fcd7",
+      "after_sha256": "9b5b85e90c2a9c276d61cccdf60fb2fb50c7d4cd03d8e670a0122c4002f2a678",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 12,
+          "note": 4,
+          "before": "GAB^c d2ef",
+          "after": "GABc d2ef",
+          "before_midi": 73,
+          "after_midi": 72,
+          "reference_ranges": [
+            [
+              "1336",
+              12,
+              12
+            ],
+            [
+              "24776",
+              12,
+              12
+            ]
+          ],
+          "transposed_references": [
+            "1336",
+            "24776"
+          ],
+          "corroborating_contributors": 2,
+          "extra_matching_bar": true,
+          "playback_occurrences": 2,
+          "abcjs": {
+            "setting_id": "41509",
+            "variant": "41509-0",
+            "passed": true,
+            "changed_played_pitches": 2,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 114,
+          "end": 115,
+          "text": ""
+        }
+      ]
+    },
+    {
       "tune_id": "1707",
       "setting_id": "1707",
       "name": "Key Of The Convent, The",
@@ -1230,6 +1616,65 @@
       ]
     },
     {
+      "tune_id": "3289",
+      "setting_id": "3289",
+      "name": "Bonnie Banchory",
+      "original_contributor": "dafydd",
+      "source_url": "https://thesession.org/tunes/3289#setting3289",
+      "category": "accidental_typo",
+      "before_abc": "GA|:BAGF GABc|d^cde d2 GA|BAGF GBdB|A2D2D2 GA|\r\nBAGF GABc|d^cde d2 BA|GEAG FDdc|1 B2G2G2 GA:|2 B2G2G2 Bc||\r\n|:dBed cAdc|B2G2G2 Bc|dBed ^cAag|f2d2d2 Bc|\r\ndBed cAdc|BGcB AFBA|GEAG FDdc|1 B2G2G2 Bc:|2 B2G2G2 GA||",
+      "after_abc": "GA|:BAGF GABc|d^cde d2 GA|BAGF GBdB|A2D2D2 GA|\r\nBAGF GABc|d^cde d2 BA|GEAG FDdc|1 B2G2G2 GA:|2 B2G2G2 Bc||\r\n|:dBed cAdc|B2G2G2 Bc|dBed cAag|f2d2d2 Bc|\r\ndBed cAdc|BGcB AFBA|GEAG FDdc|1 B2G2G2 Bc:|2 B2G2G2 GA||",
+      "before_sha256": "8621de2202077a013edd251092f3fb7770cf51de1e98db920766bf659e4bcd7e",
+      "after_sha256": "c874546e9645a73b6ee2b8d0ad04c8d02fec03ef943e1cbc1e47e30718899a0a",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 13,
+          "note": 5,
+          "before": "dBed ^cAag",
+          "after": "dBed cAag",
+          "before_midi": 73,
+          "after_midi": 72,
+          "reference_ranges": [
+            [
+              "28514",
+              13,
+              13
+            ],
+            [
+              "35302",
+              13,
+              13
+            ]
+          ],
+          "transposed_references": [
+            "28514"
+          ],
+          "corroborating_contributors": 2,
+          "extra_matching_bar": true,
+          "playback_occurrences": 2,
+          "abcjs": {
+            "setting_id": "3289",
+            "variant": "3289-0",
+            "passed": true,
+            "changed_played_pitches": 2,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 135,
+          "end": 136,
+          "text": ""
+        }
+      ]
+    },
+    {
       "tune_id": "3636",
       "setting_id": "30901",
       "name": "Blacksmith's Daughter, The",
@@ -1494,6 +1939,66 @@
           "start": 188,
           "end": 189,
           "text": "d"
+        }
+      ]
+    },
+    {
+      "tune_id": "4150",
+      "setting_id": "55370",
+      "name": "Roslyn Castle",
+      "original_contributor": "Muirgheasáin",
+      "source_url": "https://thesession.org/tunes/4150#setting55370",
+      "category": "accidental_typo",
+      "before_abc": "GF|:\"Em\"E2 Bc B2 AB|\"Am\"cB AG \"Bm\"F2 GF|\"Em\"E2 ef g2 fe|\"B\"^de f^d B2 AB|\r\n\"Am\"cB AG \"B\"F2 GA|\"Em\"BG FE \"D\"d2 ef|\"Em\"ge \"D\"f^d \"C\"eB AB|\"Em\"G2 \"B\" FE \"Em\" E2:|\r\nzB|:\"Em\"e2 ef g2 fe|\"Am\"ba ga \"B\"f2 gf|\"Em\"eB ef \"Em\"g2 fe|\"C\"ba ga \"Bm\"f2 AB|\r\n\"Am\"cB AG \"B\"F2 GA|\"Em\"BG FE \"D\"d2 ef|\"Em\"ge \"D\"f^d \"C\"eB AB|\"Em\"G2 \"B\" FE \"Em\" E2 :|",
+      "after_abc": "GF|:\"Em\"E2 Bc B2 AB|\"Am\"cB AG \"Bm\"F2 GF|\"Em\"E2 ef g2 fe|\"B\"^de f^d B2 AB|\r\n\"Am\"cB AG \"B\"F2 GA|\"Em\"BG FE \"D\"d2 ef|\"Em\"ge \"D\"f^d \"C\"eB AB|\"Em\"G2 \"B\" FE \"Em\" E2:|\r\nzB|:\"Em\"e2 ef g2 fe|\"Am\"ba ga \"B\"f2 gf|\"Em\"eB ef \"Em\"g2 fe|\"C\"ba ga \"Bm\"f2 AB|\r\n\"Am\"cB AG \"B\"F2 GA|\"Em\"BG FE \"D\"^d2 ef|\"Em\"ge \"D\"f^d \"C\"eB AB|\"Em\"G2 \"B\" FE \"Em\" E2 :|",
+      "before_sha256": "8dfc9c3edd9c953e10ebf9e6be81196841c037311cc6fd485ade2a67c18874b2",
+      "after_sha256": "554fea78abacb95888366a2eb950d72d9062593a9ec2badaec9cae2b277a1e5f",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 16,
+          "note": 5,
+          "before": "\"Em\"BG FE \"D\"d2 ef",
+          "after": "\"Em\"BG FE \"D\"^d2 ef",
+          "before_midi": 74,
+          "after_midi": 75,
+          "reference_ranges": [
+            [
+              "4150",
+              16,
+              16
+            ],
+            [
+              "41617",
+              16,
+              16
+            ]
+          ],
+          "transposed_references": [
+            "4150",
+            "41617"
+          ],
+          "corroborating_contributors": 2,
+          "extra_matching_bar": true,
+          "playback_occurrences": 2,
+          "abcjs": {
+            "setting_id": "55370",
+            "variant": "55370-0",
+            "passed": true,
+            "changed_played_pitches": 2,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 273,
+          "end": 273,
+          "text": "^"
         }
       ]
     },
@@ -1913,6 +2418,137 @@
       ]
     },
     {
+      "tune_id": "6660",
+      "setting_id": "48394",
+      "name": "O Cabalo Azul",
+      "original_contributor": "martin clarke",
+      "source_url": "https://thesession.org/tunes/6660#setting48394",
+      "category": "accidental_typo",
+      "before_abc": "|:d3|G2A B2c|ded g2g|ded cBA|BGG G2D|\r\nG2A B2c|ded g2g|ded cBA|G3:|\r\n|:d2c|=Bcd dcd|e2c cBc|ABc cBc|d2B BAB|\r\nGAB BAB|c2A AGA|^FGA B2A|G3:|\r\n|:g^fg|a2e edc|d3 g2a|bag edc|d3 ded|\r\ncdc BcB|A2G ded|cdc B2A|G3:|\r\nGAB|:cdc cAB|cdc cAB|c2e d2c|dcB BAB|\r\ncdc cAB|cdc cAB|c2e dAB|1 GBd g z2:|2 G3||",
+      "after_abc": "|:d3|G2A B2c|ded g2g|ded cBA|BGG G2D|\r\nG2A B2c|ded g2g|ded cBA|G3:|\r\n|:d2c|=Bcd dcd|e2c cBc|ABc cBc|d2B BAB|\r\nGAB BAB|c2A AGA|^FGA B2A|G3:|\r\n|:g^fg|a2e edc|d3 g2a|bag edc|d3 ded|\r\ncdc BcB|A2G ded|cdc B2A|G3:|\r\nGAB|:cdc cAB|cdc cAB|c2e d2^c|dcB BAB|\r\ncdc cAB|cdc cAB|c2e dAB|1 GBd g z2:|2 G3||",
+      "before_sha256": "aa9ea127ad71d78d997780b6bf01c78b7097817369f7686602d6a1536d2043b9",
+      "after_sha256": "d7fcedea030179dc24c5f885734c099e49e0526c16c9babf6df074073d6e9c68",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 31,
+          "note": 4,
+          "before": "c2e d2c",
+          "after": "c2e d2^c",
+          "before_midi": 72,
+          "after_midi": 73,
+          "reference_ranges": [
+            [
+              "23855",
+              45,
+              45
+            ],
+            [
+              "25874",
+              45,
+              45
+            ],
+            [
+              "31364",
+              31,
+              31
+            ],
+            [
+              "6660",
+              45,
+              45
+            ]
+          ],
+          "transposed_references": [
+            "23855",
+            "25874",
+            "31364",
+            "6660"
+          ],
+          "corroborating_contributors": 4,
+          "extra_matching_bar": true,
+          "playback_occurrences": 2,
+          "abcjs": {
+            "setting_id": "48394",
+            "variant": "48394-0",
+            "passed": true,
+            "changed_played_pitches": 2,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 237,
+          "end": 237,
+          "text": "^"
+        }
+      ]
+    },
+    {
+      "tune_id": "6728",
+      "setting_id": "18358",
+      "name": "Fiery Clockface, The",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/6728#setting18358",
+      "category": "accidental_typo",
+      "before_abc": "|:A|d2 d D2 E|F2 G A2 B|=c2 c E2 F|G2 A B2 c|\r\nd2 d D2 E|F2 G A2 B|Bcd edc|d3- d2:|\r\n|:d|f2 f def|g2 f e2 d|c2 B A2 B|c2 d e2 e|\r\nf2 f def|g2 f e2 d|c2 c A2 c|d3- d2:|",
+      "after_abc": "|:A|d2 d D2 E|F2 G A2 B|=c2 c E2 F|G2 A B2 c|\r\nd2 d D2 E|F2 G A2 B|Bcd edc|d3- d2:|\r\n|:d|f2 f def|g2 f e2 d|c2 B A2 B|c2 d e2 ^e|\r\nf2 f def|g2 f e2 d|c2 c A2 c|d3- d2:|",
+      "before_sha256": "4690c62d40af83b345a44c14d62475ddb349023695756c84157eccd2db86c81f",
+      "after_sha256": "6d5ce7a86ed2986908c7b0817ff46184873ba5f58abf24a7302aa8913266179e",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 14,
+          "note": 4,
+          "before": "c2 d e2 e",
+          "after": "c2 d e2 ^e",
+          "before_midi": 76,
+          "after_midi": 77,
+          "reference_ranges": [
+            [
+              "23518",
+              14,
+              14
+            ],
+            [
+              "6728",
+              13,
+              13
+            ]
+          ],
+          "transposed_references": [
+            "23518"
+          ],
+          "corroborating_contributors": 2,
+          "extra_matching_bar": true,
+          "playback_occurrences": 2,
+          "abcjs": {
+            "setting_id": "18358",
+            "variant": "18358-0",
+            "passed": true,
+            "changed_played_pitches": 2,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 126,
+          "end": 126,
+          "text": "^"
+        }
+      ]
+    },
+    {
       "tune_id": "8963",
       "setting_id": "33704",
       "name": "Old As The Hills",
@@ -1955,6 +2591,168 @@
         {
           "start": 29,
           "end": 30,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "13692",
+      "setting_id": "24332",
+      "name": "Dark Plaintive Youth, The",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/13692#setting24332",
+      "category": "octave_typo",
+      "before_abc": "BD|EDEF G2 FE|D2 D2 AFED|E2 EF G2 GB|AGFE D2 BD|\r\nEDEF G2 FE|F2 Bc d3f|egfe BcdB|AFDF E2||\r\nFG|AFAB dcde|dcde dB A2|B2 e2 edef|edfe dBBc|\r\ndcde (3def ed|edef g2 fe|egfe dfed|BcdB AFDF|\r\nEFGA BcdB|AFDF E2||",
+      "after_abc": "BD|EDEF G2 FE|D2 D2 AFED|E2 EF G2 GB|AGFE D2 B,D|\r\nEDEF G2 FE|F2 Bc d3f|egfe BcdB|AFDF E2||\r\nFG|AFAB dcde|dcde dB A2|B2 e2 edef|edfe dBBc|\r\ndcde (3def ed|edef g2 fe|egfe dfed|BcdB AFDF|\r\nEFGA BcdB|AFDF E2||",
+      "before_sha256": "678f477decbcc4bb60486c375912c3cf5cd0190fd9dac9c94846d6f0a8b8601f",
+      "after_sha256": "2575239b3230da11013eedac09033b3906cd6a1fb35f148da667e916216a7010",
+      "evidence": [
+        {
+          "rule": "octave_typo",
+          "bar": 5,
+          "note": 6,
+          "before": "AGFE D2 BD",
+          "after": "AGFE D2 B,D",
+          "before_midi": 71,
+          "after_midi": 59,
+          "reference_ranges": [
+            [
+              "28687",
+              5,
+              5
+            ],
+            [
+              "51336",
+              5,
+              5
+            ]
+          ],
+          "transposed_references": [
+            "28687",
+            "51336"
+          ],
+          "corroborating_contributors": 2,
+          "extra_matching_bar": true,
+          "playback_occurrences": 1,
+          "abcjs": {
+            "setting_id": "24332",
+            "variant": "24332-0",
+            "passed": true,
+            "changed_played_pitches": 1,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 46,
+          "end": 46,
+          "text": ","
+        }
+      ]
+    },
+    {
+      "tune_id": "13910",
+      "setting_id": "28395",
+      "name": "Blackberry Festival Footrace",
+      "original_contributor": "Alan Wilson",
+      "source_url": "https://thesession.org/tunes/13910#setting28395",
+      "category": "accidental_typo",
+      "before_abc": "|:A|\"Dm\"dAA BAG|FED ^CEA|dAA fed|\"A\"^cec A=Bc|\r\n\"Dm\"d2A BAG|FED ^CEA|\"Bb\"Bdf \"Gm\"Adf|\"A7\"ed^c \"Dm\"d2:|\r\n|:B|\"Dm\"AaA g2f|gfd fdA|\"Gm\"BaB g2f|\"A7\"dfa e^cA|\r\n\"Dm\"AaA g2f|gfd fdA|\"Bb\"Bdg \"Gm\"Adf|\"A7\"ed^c \"Dm\"d2:|\r\n|:E|\"Dm\"DAa gAB|dgf Afe|\"Gm\"ABd FED|\"A7\"^CDB AFE|\r\n\"Dm\"DAa gAB|dgf Afe|\"Bb\"ABd \"Gm\"FED|\"A7\"^CDE \"Dm\"D2:|",
+      "after_abc": "|:A|\"Dm\"dAA BAG|FED ^CEA|dAA fed|\"A\"^cec A=Bc|\r\n\"Dm\"d2A BAG|FED ^CEA|\"Bb\"Bdf \"Gm\"Adf|\"A7\"ed^c \"Dm\"d2:|\r\n|:B|\"Dm\"AaA g2f|gfd fdA|\"Gm\"BaB g2f|\"A7\"dfa ecA|\r\n\"Dm\"AaA g2f|gfd fdA|\"Bb\"Bdg \"Gm\"Adf|\"A7\"ed^c \"Dm\"d2:|\r\n|:E|\"Dm\"DAa gAB|dgf Afe|\"Gm\"ABd FED|\"A7\"CDB AFE|\r\n\"Dm\"DAa gAB|dgf Afe|\"Bb\"ABd \"Gm\"FED|\"A7\"^CDE \"Dm\"D2:|",
+      "before_sha256": "a421dfbd0bc5af83721d39c71d0f95d9e32ed60b7035e99f65ec779f16b076e9",
+      "after_sha256": "cda1a83c252b799750589223fdaed034e1d6dff1caa2597e89bab4e2ee0a4dfd",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 14,
+          "note": 5,
+          "before": "\"A7\"dfa e^cA",
+          "after": "\"A7\"dfa ecA",
+          "before_midi": 73,
+          "after_midi": 72,
+          "reference_ranges": [
+            [
+              "25044",
+              14,
+              14
+            ],
+            [
+              "55283",
+              14,
+              14
+            ]
+          ],
+          "transposed_references": [
+            "55283"
+          ],
+          "corroborating_contributors": 2,
+          "extra_matching_bar": true,
+          "playback_occurrences": 2,
+          "abcjs": {
+            "setting_id": "28395",
+            "variant": "28395-0",
+            "passed": true,
+            "changed_played_pitches": 2,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        },
+        {
+          "rule": "accidental_typo",
+          "bar": 23,
+          "note": 1,
+          "before": "\"A7\"^CDB AFE",
+          "after": "\"A7\"CDB AFE",
+          "before_midi": 61,
+          "after_midi": 60,
+          "reference_ranges": [
+            [
+              "25044",
+              23,
+              23
+            ],
+            [
+              "55283",
+              23,
+              23
+            ]
+          ],
+          "transposed_references": [
+            "55283"
+          ],
+          "corroborating_contributors": 2,
+          "extra_matching_bar": true,
+          "playback_occurrences": 2,
+          "abcjs": {
+            "setting_id": "28395",
+            "variant": "28395-1",
+            "passed": true,
+            "changed_played_pitches": 2,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          },
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 149,
+          "end": 150,
+          "text": ""
+        },
+        {
+          "start": 250,
+          "end": 251,
           "text": ""
         }
       ]
@@ -2554,5 +3352,6 @@
       ]
     }
   ],
+  "transposed_pitch_scanner_sha256": "4fd35cb1d79bf267d9796ed10c55bd80996b70b2f7ec92fdf334dc4e84e45434",
   "pitch_scanner_sha256": "6c6ce524449b68736edebee2faa64d6320176d7eb8a3e9862b0b50ffa448de50"
 }
