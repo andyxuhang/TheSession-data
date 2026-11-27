@@ -1,0 +1,1042 @@
+{
+  "base_commit": "8cdbd77b2afb103a09dc09fe740a8a0cff4e416c",
+  "method": "Independent matching written phrases and verified single-note pitch changes",
+  "scanner_sha256": "495c269c2748ecdcb025558ca876b8ea96c58bdc00af9c6a7ee598316c8c61e0",
+  "corrections": [
+    {
+      "tune_id": "31",
+      "setting_id": "29719",
+      "name": "Franc A'Phoill",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/31#setting29719",
+      "category": "accidental_typo",
+      "before_abc": "|:A2F ABG|A2G FED|A2F ABF|G3 AFD|\r\nA2F ABG|A2G FED|GAB cAF|1 G3 GFG:|2 G3 AFD||\r\n|:dfa afd|def ecA|GAB cAF|G3 AFD|\r\ndfa afa|geg fdA|GAB cAF|G3 AFD:|\r\n|:d2e d2A|d2e dcA|d2e dcA|GFG AFD|\r\nd2e d2A|d2e dcA|GAB cAF|G3 AFD:|\r\n|:def def|def e^cA|def e^cA|GFG AFD|\r\ndef d2A|def e^cA|GAB cAF|G3 AFD:|\r\n|:dDD cDD|BDD ADD|dDD cDD|G3 AFD|\r\ndDD cDD|BDD ADD|GAB cAF|1 G3 AFD:|2 G3 GFG||",
+      "after_abc": "|:A2F ABG|A2G FED|A2F ABF|G3 AFD|\r\nA2F ABG|A2G FED|GAB cAF|1 G3 GFG:|2 G3 AFD||\r\n|:dfa afd|def ecA|GAB cAF|G3 AFD|\r\ndfa afa|geg fdA|GAB =cAF|G3 AFD:|\r\n|:d2e d2A|d2e dcA|d2e dcA|GFG AFD|\r\nd2e d2A|d2e dcA|GAB cAF|G3 AFD:|\r\n|:def def|def e^cA|def e^cA|GFG AFD|\r\ndef d2A|def e^cA|GAB cAF|G3 AFD:|\r\n|:dDD cDD|BDD ADD|dDD cDD|G3 AFD|\r\ndDD cDD|BDD ADD|GAB cAF|1 G3 AFD:|2 G3 GFG||",
+      "before_sha256": "97ba99c31384e3f89b72698d1d22969c505cf75b99cf16d4aae1dbef6a18dcf9",
+      "after_sha256": "645d466a800b76ae7effb2d403b058002223d5f19092d07abdf9825b7f523fa4",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 16,
+          "note": 4,
+          "before": "GAB cAF",
+          "after": "GAB =cAF",
+          "before_midi": 73,
+          "after_midi": 72,
+          "reference_ranges": [
+            [
+              "23901",
+              16,
+              16
+            ],
+            [
+              "51021",
+              15,
+              15
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 136,
+          "end": 136,
+          "text": "="
+        }
+      ]
+    },
+    {
+      "tune_id": "264",
+      "setting_id": "34183",
+      "name": "Lanigan's Ball",
+      "original_contributor": "NfldWhistler",
+      "source_url": "https://thesession.org/tunes/264#setting34183",
+      "category": "accidental_typo",
+      "before_abc": "|:E2F G2A|B2^A B^cd|D2E F2G|AdB AFD|\r\nE2F G2A|B2^A B^cd|edB cBA|1 BGE E2F:|2 BGE E2B||\r\n|:e2f g2e|fag fe^d|e2f g2e|fdB B2B|\r\ne2f g2e|fag fe^d|edB cBA|1 BGE E2B:|2 BGE E2F||",
+      "after_abc": "|:E2F G2A|B2^A B^cd|D2E F2G|AdB AFD|\r\nE2F G2A|B2A B^cd|edB cBA|1 BGE E2F:|2 BGE E2B||\r\n|:e2f g2e|fag fe^d|e2f g2e|fdB B2B|\r\ne2f g2e|fag fe^d|edB cBA|1 BGE E2B:|2 BGE E2F||",
+      "before_sha256": "0e722da3f5f5943702f4eae24df764b2cbc942fbb7904041adb2d50f67d355e9",
+      "after_sha256": "ace731ebd665c2b065f74b6b12e1d0a4de23f40c1c8df9136726d3abd66733a3",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 6,
+          "note": 2,
+          "before": "B2^A B^cd",
+          "after": "B2A B^cd",
+          "before_midi": 70,
+          "after_midi": 69,
+          "reference_ranges": [
+            [
+              "264",
+              6,
+              6
+            ],
+            [
+              "43100",
+              7,
+              7
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 48,
+          "end": 49,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "264",
+      "setting_id": "34194",
+      "name": "Lanigan's Ball",
+      "original_contributor": "NfldWhistler",
+      "source_url": "https://thesession.org/tunes/264#setting34194",
+      "category": "accidental_typo",
+      "before_abc": "|:E2F G2A|B2^A B^cd|D2E F2G|AdB AFD|\r\nE2F G2A|B2^A B^cd|edB cBA|GBF E2F:|\r\n|:E2F GFE|FAG FE^D|E2F GFE|FDF E2D|\r\nE2F GFE|FAG FED|E2B dBA|GBF E2F:|",
+      "after_abc": "|:E2F G2A|B2^A B^cd|D2E F2G|AdB AFD|\r\nE2F G2A|B2A B^cd|edB cBA|GBF E2F:|\r\n|:E2F GFE|FAG FE^D|E2F GFE|FDF E2D|\r\nE2F GFE|FAG FED|E2B dBA|GBF E2F:|",
+      "before_sha256": "5c068400e358d3086bb86896a1d41a02971e0ad506e24f5089efd9f0675b20be",
+      "after_sha256": "cffa6d289ab4dbe54d884d932cd30a43d0d80dc49085ebe689abac908f9826eb",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 6,
+          "note": 2,
+          "before": "B2^A B^cd",
+          "after": "B2A B^cd",
+          "before_midi": 70,
+          "after_midi": 69,
+          "reference_ranges": [
+            [
+              "264",
+              6,
+              6
+            ],
+            [
+              "43100",
+              7,
+              7
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 48,
+          "end": 49,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "351",
+      "setting_id": "50858",
+      "name": "Hag With The Money, The",
+      "original_contributor": "birlibirdie",
+      "source_url": "https://thesession.org/tunes/351#setting50858",
+      "category": "accidental_typo",
+      "before_abc": "Add (A2A) | AGE (G2G) | Add (A2A) | GEE EDD | \r\nAdd A2A | AGE c2c | ddd ccA | AGE EDA ||\r\nAB^c d2d | ded d2c | ABc d2d | ded cAG |\r\nAB^c d2d | ded d2c | AGA c2A | AGE EDD ||",
+      "after_abc": "Add (A2A) | AGE (G2G) | Add (A2A) | GEE EDD | \r\nAdd A2A | AGE c2c | ddd ccA | AGE EDA ||\r\nAB^c d2d | ded d2c | AB^c d2d | ded cAG |\r\nAB^c d2d | ded d2c | AGA c2A | AGE EDD ||",
+      "before_sha256": "675d59f4f5b5b13cb54aeb4dd3297496c74afbb7b41f36cdaa78949bcd1fdefe",
+      "after_sha256": "ecf90bf3463cfe29f1ea169d03b3ab8a1e7cbb43cbfe73c9345227fff98d2a17",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 11,
+          "note": 3,
+          "before": " ABc d2d ",
+          "after": " AB^c d2d ",
+          "before_midi": 72,
+          "after_midi": 73,
+          "reference_ranges": [
+            [
+              "25813",
+              11,
+              11
+            ],
+            [
+              "30714",
+              11,
+              11
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 113,
+          "end": 113,
+          "text": "^"
+        }
+      ]
+    },
+    {
+      "tune_id": "381",
+      "setting_id": "13210",
+      "name": "I Buried My Wife And Danced On Her Grave",
+      "original_contributor": "gian marco",
+      "source_url": "https://thesession.org/tunes/381#setting13210",
+      "category": "accidental_typo",
+      "before_abc": "|:DAD F2G|AdB cAF|~G3 cAG|FAF GEA|\r\nDED F2G|AdB cAF|G2B cAG|AFD D3:|\r\n|:d2e fed|faf gfe|d2e fed|d^cA d^cA|\r\nd2e fed|faf gfe|d^cA BAG|AFD D3:|",
+      "after_abc": "|:DAD F2G|AdB cAF|~G3 cAG|FAF GEA|\r\nDED F2G|AdB cAF|G2B cAG|AFD D3:|\r\n|:d2e fed|faf gfe|d2e fed|d^cA d^cA|\r\nd2e fed|faf gfe|dcA BAG|AFD D3:|",
+      "before_sha256": "ee13b3a1905ef7cdcdb5dbecc3a691d866a5106efc00791e7ded873134ba3770",
+      "after_sha256": "c2c60a10cc05a5cc1301ce29600e90d66c53e50609d7808d905c2023c2c54537",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 15,
+          "note": 2,
+          "before": "d^cA BAG",
+          "after": "dcA BAG",
+          "before_midi": 73,
+          "after_midi": 72,
+          "reference_ranges": [
+            [
+              "25876",
+              15,
+              15
+            ],
+            [
+              "381",
+              15,
+              15
+            ],
+            [
+              "56589",
+              15,
+              15
+            ]
+          ],
+          "corroborating_contributors": 3,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 125,
+          "end": 126,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "808",
+      "setting_id": "13959",
+      "name": "Cook In The Kitchen, The",
+      "original_contributor": "Moritz Haas",
+      "source_url": "https://thesession.org/tunes/808#setting13959",
+      "category": "accidental_typo",
+      "before_abc": "G2|:E|DGG GAG|=FDE =F2E|DGG GFG|A2 d cAG|\r\nDGG GAG|=FDE =F2 d|cAG FGA|BGF G2:|\r\n|:A|~B3 BAG|~A3 AGF|~G3 GFG|A dd cAG|\r\n~B3 BAG|~A3 A2 d|cAG FGA|BGF G2:|\r\n|:B|d2 e f2g|^gag fed|cAG FGA|BGB AFA|\r\nD2E F2 g|^gag fed|cAG FGA|1 BGF G2:|2 B_BA G2||",
+      "after_abc": "G2|:E|DGG GAG|=FDE =F2E|DGG GFG|A2 d cAG|\r\nDGG GAG|FDE =F2 d|cAG FGA|BGF G2:|\r\n|:A|~B3 BAG|~A3 AGF|~G3 GFG|A dd cAG|\r\n~B3 BAG|~A3 A2 d|cAG FGA|BGF G2:|\r\n|:B|d2 e f2g|^gag fed|cAG FGA|BGB AFA|\r\nD2E F2 g|^gag fed|cAG FGA|1 BGF G2:|2 B_BA G2||",
+      "before_sha256": "ba8882810d975befd9e2c5bbf24b7a4c776dc14a80717f71b52763533152bdc4",
+      "after_sha256": "cc84993a18f65f4bda9f6e5a6821c45b186f78714d0951e1d5a4c7d26cabed96",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 8,
+          "note": 1,
+          "before": "=FDE =F2 d",
+          "after": "FDE =F2 d",
+          "before_midi": 65,
+          "after_midi": 66,
+          "reference_ranges": [
+            [
+              "26015",
+              7,
+              7
+            ],
+            [
+              "28669",
+              7,
+              7
+            ],
+            [
+              "41992",
+              6,
+              6
+            ],
+            [
+              "45690",
+              6,
+              6
+            ]
+          ],
+          "corroborating_contributors": 4,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 51,
+          "end": 52,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "831",
+      "setting_id": "13986",
+      "name": "Trip To Nenagh, The",
+      "original_contributor": "Dow",
+      "source_url": "https://thesession.org/tunes/831#setting13986",
+      "category": "accidental_typo",
+      "before_abc": "|:dcAG FAD2|A,DFA dcAG|Ad~d2 A=fed|c2Gc EcGE|\r\ndcAG FAD2|A,DFA dcAG|Ad~d2 AdFA|GB,EG FD~D2:|\r\n|:Ad~d2 adfa|gfed ^caec|d2AG FAD2|(3EFG AB c2AG|\r\nAd~d2 fded|^cdef gefg|a2ea ^caec|dBAG FD~D2:|\r\n|:d2AG FD~D2|A,DFA dcAG|Add^c d=fed|c2Gc EcGc|\r\nd2AG FD~D2|A,DFA dcAG|Ad~d2 AdFA|GEAG FD~D2:|\r\n|:d2ed adfa|g2ed ^cAfe|d2AG FD~D2|(3EFG AB c2Bc|\r\nAdde fded|cdef g2fg|a2ga (3efg d^c|A=cGE ED~D2:|",
+      "after_abc": "|:dcAG FAD2|A,DFA dcAG|Ad~d2 A=fed|c2Gc EcGE|\r\ndcAG FAD2|A,DFA dcAG|Ad~d2 AdFA|GB,EG FD~D2:|\r\n|:Ad~d2 adfa|gfed ^caec|d2AG FAD2|(3EFG AB c2AG|\r\nAd~d2 fded|^cdef gefg|a2ea ^caec|dBAG FD~D2:|\r\n|:d2AG FD~D2|A,DFA dcAG|Addc d=fed|c2Gc EcGc|\r\nd2AG FD~D2|A,DFA dcAG|Ad~d2 AdFA|GEAG FD~D2:|\r\n|:d2ed adfa|g2ed ^cAfe|d2AG FD~D2|(3EFG AB c2Bc|\r\nAdde fded|cdef g2fg|a2ga (3efg d^c|A=cGE ED~D2:|",
+      "before_sha256": "dedc58912d0b08f749650d91069855bbf236a4f830ef091514b1029ff5ac739e",
+      "after_sha256": "f9a03f08b5d17ba115ce0f78e3f0df7c2ed404a63c30669a27fa34ab5b339e89",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 19,
+          "note": 4,
+          "before": "Add^c d=fed",
+          "after": "Addc d=fed",
+          "before_midi": 73,
+          "after_midi": 72,
+          "reference_ranges": [
+            [
+              "43944",
+              3,
+              3
+            ],
+            [
+              "831",
+              3,
+              3
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 218,
+          "end": 219,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "1707",
+      "setting_id": "1707",
+      "name": "Key Of The Convent, The",
+      "original_contributor": "Kenny",
+      "source_url": "https://thesession.org/tunes/1707#setting1707",
+      "category": "accidental_typo",
+      "before_abc": "|:AFF dFF|AGB AFD|AFF dAF|DFA B3|\r\nAFF dFF|AGB AFE|F3 AFE|DFA B3:|\r\nABc d2 A|dfa agf|gfe fdB|AFA B3|\r\nABc dcd|dfa gfe|fge fdB|AFA B3|\r\nABc d2 A|dfa agf|gfe fdB|AFA B3|\r\nABc dcd|dfa gfe|fge fdB|AFA B2 A|\r\n|:Bbb Baa|fge fdA|Bbb Baa|AFA B2 A|\r\nBbb Baa|fge fdB|AFd AFE|DFA B3:|",
+      "after_abc": "|:AFF dFF|AGB AFD|AFF dAF|DFA B3|\r\nAFF dFF|A^GB AFE|F3 AFE|DFA B3:|\r\nABc d2 A|dfa agf|gfe fdB|AFA B3|\r\nABc dcd|dfa gfe|fge fdB|AFA B3|\r\nABc d2 A|dfa agf|gfe fdB|AFA B3|\r\nABc dcd|dfa gfe|fge fdB|AFA B2 A|\r\n|:Bbb Baa|fge fdA|Bbb Baa|AFA B2 A|\r\nBbb Baa|fge fdB|AFd AFE|DFA B3:|",
+      "before_sha256": "83ea9d98852290db67c3e6b5ccab1acfd11b7eb8af35c2937078cdd9bd1f6794",
+      "after_sha256": "f908f73bf9ebc6b779669c575b6852e8bb0829f2a43d0bdd7786a0d83144dcdd",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 6,
+          "note": 2,
+          "before": "AGB AFE",
+          "after": "A^GB AFE",
+          "before_midi": 67,
+          "after_midi": 68,
+          "reference_ranges": [
+            [
+              "32626",
+              6,
+              6
+            ],
+            [
+              "56644",
+              6,
+              6
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 44,
+          "end": 44,
+          "text": "^"
+        }
+      ]
+    },
+    {
+      "tune_id": "1709",
+      "setting_id": "42852",
+      "name": "Paddy's Resource",
+      "original_contributor": "DaveF",
+      "source_url": "https://thesession.org/tunes/1709#setting42852",
+      "category": "accidental_typo",
+      "before_abc": "|:A=GF ECE|Ace f2e|acc cBc|dFF F2E|\r\nA=GF ECE|Ace f2e|aec BAB|cAA A3:|\r\n|:Ace Ace|Ace dcB|Ace fga|gee efg|\r\na3 g3|~f3 e2g|aec BAB|cAA A3:|",
+      "after_abc": "|:A=GF ECE|Ace f2e|acc cBc|dFF F2E|\r\nAGF ECE|Ace f2e|aec BAB|cAA A3:|\r\n|:Ace Ace|Ace dcB|Ace fga|gee efg|\r\na3 g3|~f3 e2g|aec BAB|cAA A3:|",
+      "before_sha256": "877d49ae7bcdf3c7f26507c52d84c9635ad3be44389c6eff6a8017b85aed6c51",
+      "after_sha256": "fa9e982319b714a0f7dd39f34ed2c7da2cbc70eef6a82a900156ac2657f1888e",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 5,
+          "note": 2,
+          "before": "\r\nA=GF ECE",
+          "after": "\r\nAGF ECE",
+          "before_midi": 67,
+          "after_midi": 68,
+          "reference_ranges": [
+            [
+              "1709",
+              5,
+              5
+            ],
+            [
+              "24825",
+              6,
+              6
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 38,
+          "end": 39,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "2651",
+      "setting_id": "2651",
+      "name": "Rosemary Lane",
+      "original_contributor": "cos",
+      "source_url": "https://thesession.org/tunes/2651#setting2651",
+      "category": "octave_typo",
+      "before_abc": "|:FEF DFA|dce dcB|AdB AFD|EFD EAG|\r\nFEF DFA|dce dcB|Ade faf|gec d3:|\r\n|:aba fed|gfg ecA|fed Bcd|edB ABc|\r\ndedAFA|Bed cbA|faf gec|Adc d3:|",
+      "after_abc": "|:FEF DFA|dce dcB|AdB AFD|EFD EAG|\r\nFEF DFA|dce dcB|Ade faf|gec d3:|\r\n|:aba fed|gfg ecA|fed Bcd|edB ABc|\r\ndedAFA|Bed cBA|faf gec|Adc d3:|",
+      "before_sha256": "9b5ed669e13364dce2e2c1507d4bc81af3081f30debd9a464b2792c02ed8188b",
+      "after_sha256": "4c15e9ef9555943309240cf5ec4cd90b4a564f4313a1c4804bb9270e60f25f52",
+      "evidence": [
+        {
+          "rule": "octave_typo",
+          "bar": 14,
+          "note": 5,
+          "before": "Bed cbA",
+          "after": "Bed cBA",
+          "before_midi": 83,
+          "after_midi": 71,
+          "reference_ranges": [
+            [
+              "15897",
+              14,
+              14
+            ],
+            [
+              "15898",
+              16,
+              16
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": true,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 118,
+          "end": 119,
+          "text": "B"
+        }
+      ]
+    },
+    {
+      "tune_id": "3200",
+      "setting_id": "37432",
+      "name": "Larry The Beer Drinker",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/3200#setting37432",
+      "category": "accidental_typo",
+      "before_abc": "|:F/E/|DEF {G/}FEF|AFF F2 E|DEF {G/}FEF|AFE E2 F|\r\nDEF {G/}FEF|AFA d2 d|cBA BAF|AFE E2:|\r\n|:f|ecA ABA|ecA A2 f|ecA Ace|fdB B2 f|\r\necA fdB|ecA agf|ecA BAF|AFE E2:|\r\n|:d|dAA {G/}FEF|AFF F2 d|dFF {G/}FEF|AFE E2 d|\r\ndAA {G/}FEF|AFA d2 d|cBA BAF|AFE E2:|",
+      "after_abc": "|:F/E/|DEF {G/}FEF|AFF F2 E|DEF {G/}FEF|AFE E2 F|\r\nDEF {G/}FEF|AFA d2 d|cBA BAF|AFE E2:|\r\n|:f|ecA ABA|ecA A2 f|ecA Ace|fdB B2 f|\r\necA fdB|ecA a^gf|ecA BAF|AFE E2:|\r\n|:d|dAA {G/}FEF|AFF F2 d|dFF {G/}FEF|AFE E2 d|\r\ndAA {G/}FEF|AFA d2 d|cBA BAF|AFE E2:|",
+      "before_sha256": "a7d520f42cd316c39c8b34e8b67a76efe68c7f2896d0210c42ed42d4b8dc607a",
+      "after_sha256": "f098d263465ea3e132b38f1334c0ad09868c4f517875db83faf0b05f930c8a52",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 16,
+          "note": 5,
+          "before": "ecA agf",
+          "after": "ecA a^gf",
+          "before_midi": 79,
+          "after_midi": 80,
+          "reference_ranges": [
+            [
+              "31583",
+              15,
+              15
+            ],
+            [
+              "3200",
+              15,
+              15
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 143,
+          "end": 143,
+          "text": "^"
+        }
+      ]
+    },
+    {
+      "tune_id": "4037",
+      "setting_id": "35537",
+      "name": "Roly Gentle",
+      "original_contributor": "Ian Varley",
+      "source_url": "https://thesession.org/tunes/4037#setting35537",
+      "category": "accidental_typo",
+      "before_abc": "D2 DE FA|:f2 fe dc|A2 AG Ac|E2 ED EF|\r\nD2 DF Ad|^c2 cA GE|A2 dA GE|1 D3 E FA:|2 D2 DA B^c||\r\nd2 de fd|e^c A2 AG|F2 FEFA|EA FA EA|\r\nd2 de fd|e^c A2 B2|c2 cA cd|ed ^cA GA|\r\nd2 de fd|e^c A2 AG|F2 FE FA|EA FA EA|\r\nd2 de fa|gf ed ^cA|c2 cA cd|ed ^cA GE||",
+      "after_abc": "D2 DE FA|:f2 fe dc|A2 AG Ac|E2 ED EF|\r\nD2 DF Ad|^c2 cA GE|A2 dA GE|1 D3 E FA:|2 D2 DA B^c||\r\nd2 de fd|ec A2 AG|F2 FEFA|EA FA EA|\r\nd2 de fd|e^c A2 B2|c2 cA cd|ed ^cA GA|\r\nd2 de fd|ec A2 AG|F2 FE FA|EA FA EA|\r\nd2 de fa|gf ed ^cA|c2 cA cd|ed ^cA GE||",
+      "before_sha256": "c9d843d016754dcca18fa6a33b9d78c8d4d020f7f04f6c3fba5f1e4d80891dc6",
+      "after_sha256": "05f88b4762d90f00d219b5959bc580d992ce48f7e8b977919807ca98a15a791e",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 11,
+          "note": 2,
+          "before": "e^c A2 AG",
+          "after": "ec A2 AG",
+          "before_midi": 73,
+          "after_midi": 72,
+          "reference_ranges": [
+            [
+              "10467",
+              12,
+              12
+            ],
+            [
+              "10467",
+              20,
+              20
+            ],
+            [
+              "16858",
+              12,
+              12
+            ],
+            [
+              "16858",
+              20,
+              20
+            ],
+            [
+              "4037",
+              10,
+              10
+            ],
+            [
+              "4037",
+              18,
+              18
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        },
+        {
+          "rule": "accidental_typo",
+          "bar": 19,
+          "note": 2,
+          "before": "e^c A2 AG",
+          "after": "ec A2 AG",
+          "before_midi": 73,
+          "after_midi": 72,
+          "reference_ranges": [
+            [
+              "10467",
+              12,
+              12
+            ],
+            [
+              "10467",
+              20,
+              20
+            ],
+            [
+              "16858",
+              12,
+              12
+            ],
+            [
+              "16858",
+              20,
+              20
+            ],
+            [
+              "4037",
+              10,
+              10
+            ],
+            [
+              "4037",
+              18,
+              18
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 103,
+          "end": 104,
+          "text": ""
+        },
+        {
+          "start": 181,
+          "end": 182,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "4475",
+      "setting_id": "17085",
+      "name": "First Day Of Spring, The",
+      "original_contributor": "Dow",
+      "source_url": "https://thesession.org/tunes/4475#setting17085",
+      "category": "accidental_typo",
+      "before_abc": "|:d2cA GFDF|G2cG dGcG|AdcA GFDF|Gg (3fga g3a|\r\nbagf dcAg|agfd cA^FA|G2cG dGcG|AdcA G4:|\r\n|:g3a bg~g2|gbag fdde|fage f2Af|cfag fdcA|\r\ng3a bg~g2|afge fdcA|G2cG dGcG|1 AdcA G4:|2 AdcA G3F||\r\n|:DG~G2 GdcA|G2cG dGcG|DF~F2 FcAG|F2cF dFcF|\r\nDG~G2 GdcA|G2cG dcc2|afge fdcA|AdcA G4:|",
+      "after_abc": "|:d2cA GFDF|G2cG dGcG|AdcA GFDF|Gg (3fga g3a|\r\nbagf dcAg|agfd cAFA|G2cG dGcG|AdcA G4:|\r\n|:g3a bg~g2|gbag fdde|fage f2Af|cfag fdcA|\r\ng3a bg~g2|afge fdcA|G2cG dGcG|1 AdcA G4:|2 AdcA G3F||\r\n|:DG~G2 GdcA|G2cG dGcG|DF~F2 FcAG|F2cF dFcF|\r\nDG~G2 GdcA|G2cG dcc2|afge fdcA|AdcA G4:|",
+      "before_sha256": "539dd810e6b08a8ff1ffc84951cc34f36a90a0e7ab6a246345bc7373deac54fd",
+      "after_sha256": "4833aa590287a4ee52a844d786d1135f24b96a28cadcf5dc1301efe7232500ee",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 6,
+          "note": 7,
+          "before": "agfd cA^FA",
+          "after": "agfd cAFA",
+          "before_midi": 66,
+          "after_midi": 65,
+          "reference_ranges": [
+            [
+              "4475",
+              6,
+              6
+            ],
+            [
+              "55361",
+              6,
+              6
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 64,
+          "end": 65,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "5136",
+      "setting_id": "17431",
+      "name": "O'Dea's",
+      "original_contributor": "Jason G",
+      "source_url": "https://thesession.org/tunes/5136#setting17431",
+      "category": "octave_typo",
+      "before_abc": "~G3 GBd|BGD ~E3|DGB d2 d|edb def|~g3 ged|edg edB|~e3 edB|gdB ABA:|\r\n|:C3 CBA|Bde d2 e|dBG GBd|gdB ABA|GBd ~g3|ged ede|~e3 edB|gdB ABA:|\r\n|:~e3 edB|ded d2 e|",
+      "after_abc": "~G3 GBd|BGD ~E3|DGB d2 d|edB def|~g3 ged|edg edB|~e3 edB|gdB ABA:|\r\n|:C3 CBA|Bde d2 e|dBG GBd|gdB ABA|GBd ~g3|ged ede|~e3 edB|gdB ABA:|\r\n|:~e3 edB|ded d2 e|",
+      "before_sha256": "f3919ec0ac6fab1ffcbca12f2e0bc7aa92989bf4d03e2e7668060d87ec7b44a2",
+      "after_sha256": "28a9e2bc0025ada60ac0c97095d27fd229c27e4ed20392bc5e5e94a70f4cc5c9",
+      "evidence": [
+        {
+          "rule": "octave_typo",
+          "bar": 4,
+          "note": 3,
+          "before": "edb def",
+          "after": "edB def",
+          "before_midi": 83,
+          "after_midi": 71,
+          "reference_ranges": [
+            [
+              "45673",
+              4,
+              4
+            ],
+            [
+              "5136",
+              4,
+              4
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": true,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 27,
+          "end": 28,
+          "text": "B"
+        }
+      ]
+    },
+    {
+      "tune_id": "5769",
+      "setting_id": "17715",
+      "name": "Hunt For Wild Flora",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/5769#setting17715",
+      "category": "accidental_typo",
+      "before_abc": "|:Dd=cA FGAE|=FAEF EFAD|=CDEG cBdc|gfaf ed=cA|\r\nDd=cA FGAE|=FAEF EFAD|=CDEG cBAG|E=FFE ~D3 E:|\r\n|:DFAc ~d3 c|dcBc BAFA|G ~E3 FEDE|DB,DE DB,A,B,|\r\nDFAc ~d3 f|gfed cBcd|~B3 A ~F3 A|FEEF ~D3 E:|\r\n=CEFG ADED|A,DFD ADED|A,DFD ADDE|dD^=cD BDAD|\r\n=CEFG ADED|A,DFD ADED|A,DD/D/D B,EE/E/E|~E3 d cdec|\r\n|:d2ad bdad|~a3 b afed|B2 gB aBgB|~g3 a gfed|\r\nA2aA gAfA|fgfe dcBc|d ~B3 A ~F|1 ~E3 A cdec:|",
+      "after_abc": "|:Dd=cA FGAE|=FAEF EFAD|=CDEG cBdc|gfa=f ed=cA|\r\nDd=cA FGAE|=FAEF EFAD|=CDEG cBAG|E=FFE ~D3 E:|\r\n|:DFAc ~d3 c|dcBc BAFA|G ~E3 FEDE|DB,DE DB,A,B,|\r\nDFAc ~d3 f|gfed cBcd|~B3 A ~F3 A|FEEF ~D3 E:|\r\n=CEFG ADED|A,DFD ADED|A,DFD ADDE|dD^=cD BDAD|\r\n=CEFG ADED|A,DFD ADED|A,DD/D/D B,EE/E/E|~E3 d cdec|\r\n|:d2ad bdad|~a3 b afed|B2 gB aBgB|~g3 a gfed|\r\nA2aA gAfA|fgfe dcBc|d ~B3 A ~F|1 ~E3 A cdec:|",
+      "before_sha256": "77e6263e8f838c4b953f959d6383a5b4ae669a53b8663b95fa133cd9cb4b3281",
+      "after_sha256": "905f97efffa050a1074dd891991cd87008dd067771b341f1be843995ee8b9c7d",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 4,
+          "note": 4,
+          "before": "gfaf ed=cA",
+          "after": "gfa=f ed=cA",
+          "before_midi": 78,
+          "after_midi": 77,
+          "reference_ranges": [
+            [
+              "17716",
+              4,
+              4
+            ],
+            [
+              "5769",
+              4,
+              4
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 38,
+          "end": 38,
+          "text": "="
+        }
+      ]
+    },
+    {
+      "tune_id": "8963",
+      "setting_id": "33704",
+      "name": "Old As The Hills",
+      "original_contributor": "Sylvain Lair",
+      "source_url": "https://thesession.org/tunes/8963#setting33704",
+      "category": "accidental_typo",
+      "before_abc": "|:ABA cBA|d2 e fga|ABA cBA|dB=G Bcd|\r\necA Ace|d2e fga|ece dBG|1 ABA A2E:|2 ABA A2B||\r\nc2e ecA|Aca ecA|c2e ecA|Bcd dcB|\r\nc2e ecA|cde fga|ece dBG|1 ABA A2B:|2 ABA A2E||",
+      "after_abc": "|:ABA cBA|d2 e fga|ABA cBA|dBG Bcd|\r\necA Ace|d2e fga|ece dBG|1 ABA A2E:|2 ABA A2B||\r\nc2e ecA|Aca ecA|c2e ecA|Bcd dcB|\r\nc2e ecA|cde fga|ece dBG|1 ABA A2B:|2 ABA A2E||",
+      "before_sha256": "688ecb9153958fb802ff46ee15adcd534ff65a275c7f73280063fdd2359c0bcd",
+      "after_sha256": "bb96645ebe758c2f6de4204d67e71395e2e9089a31f068e029afcc8f9e97334c",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 4,
+          "note": 3,
+          "before": "dB=G Bcd",
+          "after": "dBG Bcd",
+          "before_midi": 67,
+          "after_midi": 68,
+          "reference_ranges": [
+            [
+              "19796",
+              4,
+              4
+            ],
+            [
+              "8963",
+              4,
+              4
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 29,
+          "end": 30,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "15041",
+      "setting_id": "56612",
+      "name": "Rake, The",
+      "original_contributor": "johnnyleeothon",
+      "source_url": "https://thesession.org/tunes/15041#setting56612",
+      "category": "accidental_typo",
+      "before_abc": "|: (3d^c=c | BGDG BGdB | (3gfg (3agf gdBG | FEFG AB (3cBA | d^cde fd=cA |\r\nBGDG BGdB | (3gfg (3agf gdBG | (3Bcd gd cAFG | AGGF G2 :|\r\nAG | F2D2 D2dc | BGGF G2AG | F2D2 d^ced | fed^c d2 AG |\r\nF2D2 D2dc | BGGF G2AG | FAdf ed^ce | d4 c4 ||\r\nBGDG BGdB | (3gfg (3agf gdBG | FEFG AB (3cBA | d^cde fd=cA |\r\nBGDG BGdB | (3gfg (3agf gdBG | (3Bcd gd cAFG | AGGF G2 ||",
+      "after_abc": "|: (3d^c=c | BGDG BGdB | (3gfg (3agf gdBG | FEFG AB (3cBA | d^cde fdcA |\r\nBGDG BGdB | (3gfg (3agf gdBG | (3Bcd gd cAFG | AGGF G2 :|\r\nAG | F2D2 D2dc | BGGF G2AG | F2D2 d^ced | fed^c d2 AG |\r\nF2D2 D2dc | BGGF G2AG | FAdf ed^ce | d4 c4 ||\r\nBGDG BGdB | (3gfg (3agf gdBG | FEFG AB (3cBA | d^cde fdcA |\r\nBGDG BGdB | (3gfg (3agf gdBG | (3Bcd gd cAFG | AGGF G2 ||",
+      "before_sha256": "c7bbc5d8ab365775c7baa562e04ea8f618d6420871abd44f09422e22e4f69206",
+      "after_sha256": "71daa2f512aee0693202985733298982b36b107efba7137015953ecaad1fb9f1",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 5,
+          "note": 7,
+          "before": " d^cde fd=cA ",
+          "after": " d^cde fdcA ",
+          "before_midi": 72,
+          "after_midi": 73,
+          "reference_ranges": [
+            [
+              "44776",
+              4,
+              4
+            ],
+            [
+              "44776",
+              20,
+              20
+            ],
+            [
+              "44784",
+              5,
+              5
+            ],
+            [
+              "44784",
+              22,
+              22
+            ],
+            [
+              "53751",
+              5,
+              5
+            ],
+            [
+              "53751",
+              22,
+              22
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        },
+        {
+          "rule": "accidental_typo",
+          "bar": 22,
+          "note": 7,
+          "before": " d^cde fd=cA ",
+          "after": " d^cde fdcA ",
+          "before_midi": 72,
+          "after_midi": 73,
+          "reference_ranges": [
+            [
+              "44776",
+              4,
+              4
+            ],
+            [
+              "44776",
+              20,
+              20
+            ],
+            [
+              "44784",
+              5,
+              5
+            ],
+            [
+              "44784",
+              22,
+              22
+            ],
+            [
+              "53751",
+              5,
+              5
+            ],
+            [
+              "53751",
+              22,
+              22
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 68,
+          "end": 69,
+          "text": ""
+        },
+        {
+          "start": 293,
+          "end": 294,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tune_id": "16060",
+      "setting_id": "41030",
+      "name": "Grower, The",
+      "original_contributor": "Matthias Merzbacher",
+      "source_url": "https://thesession.org/tunes/16060#setting41030",
+      "category": "accidental_typo",
+      "before_abc": "D3E FEFG|Addc AGED|C2EC FCGC|FGFE DCA,G,|\r\nA,DDE FEFG|Ad2c AGED|E2CE FEDC|A,DDE DG,A,C|\r\nD3E FEFG|Adc=B cAGF|E2cA GFEF|EG,A,=B, CDEF|\r\nD3E FEFG|Ad2c AGED|E2CE FEDC|A,DDE DCA,C|\r\nB,3C DG,G2-|GFED EFDC|A,3C DCDE|FDGD ^GDAD|\r\nB,A,B,C Dz B,A,|B,CDE DCA,C|D2dD cdAG|FGEF DCA,C|\r\nB,3C DG,G2-|GFED EFDC|A,3C DCDE|FDGD ^GDAD|\r\nB,A,B,C Dz B,A,|B,CDE DCA,C|DddD cdDd|dDcd cAGF||",
+      "after_abc": "D3E FEFG|Addc AGED|C2EC FCGC|FGFE DCA,G,|\r\nA,DDE FEFG|Ad2c AGED|E2CE FEDC|A,DDE DG,A,C|\r\nD3E FEFG|AdcB cAGF|E2cA GFEF|EG,A,B, CDEF|\r\nD3E FEFG|Ad2c AGED|E2CE FEDC|A,DDE DCA,C|\r\nB,3C DG,G2-|GFED EFDC|A,3C DCDE|FDGD ^GDAD|\r\nB,A,B,C Dz B,A,|B,CDE DCA,C|D2dD cdAG|FGEF DCA,C|\r\nB,3C DG,G2-|GFED EFDC|A,3C DCDE|FDGD ^GDAD|\r\nB,A,B,C Dz B,A,|B,CDE DCA,C|DddD cdDd|dDcd cAGF||",
+      "before_sha256": "9c46bb43a49579f046676dd9f730de542af290638d4e55749dc0f6bd5f8df7fc",
+      "after_sha256": "c218d51ca15b4216547361fbe699dbb3e6bc8fbf44b54f185c795df16bd1cc92",
+      "evidence": [
+        {
+          "rule": "accidental_typo",
+          "bar": 10,
+          "note": 4,
+          "before": "Adc=B cAGF",
+          "after": "AdcB cAGF",
+          "before_midi": 71,
+          "after_midi": 70,
+          "reference_ranges": [
+            [
+              "30259",
+              10,
+              10
+            ],
+            [
+              "33089",
+              10,
+              10
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        },
+        {
+          "rule": "accidental_typo",
+          "bar": 12,
+          "note": 4,
+          "before": "EG,A,=B, CDEF",
+          "after": "EG,A,B, CDEF",
+          "before_midi": 59,
+          "after_midi": 58,
+          "reference_ranges": [
+            [
+              "30259",
+              12,
+              12
+            ],
+            [
+              "33089",
+              12,
+              12
+            ]
+          ],
+          "corroborating_contributors": 2,
+          "written_repeat": false,
+          "extra_matching_bar": true,
+          "isolated_octave_jump": false,
+          "scan_pass": 1
+        }
+      ],
+      "edits": [
+        {
+          "start": 101,
+          "end": 102,
+          "text": ""
+        },
+        {
+          "start": 124,
+          "end": 125,
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "pitch_scanner_sha256": "1d78e8c269e98fe2ef0c4807dba2f4ea4a11142971ffca0715fd02cad8732b8e"
+}

@@ -16,6 +16,8 @@ LABELS = {
     'note_length': 'Incorrect note length',
     'proven_long_note': 'Incorrect note length',
     'rhythm_mark': 'Incorrect broken-rhythm or tuplet mark',
+    'accidental_typo': 'Incorrect accidental',
+    'octave_typo': 'Incorrect octave',
     'missing_note': 'Omitted note',
     'stray_control': 'Stray control character',
     'missing_triplet': 'Omitted triplet mark',
@@ -162,6 +164,8 @@ def main():
         'one of those measures and its neighbor match a written reference.',
         '- A missing note requires the same completed phrase and both neighboring measures '
         'in settings from at least two other contributors.',
+        '- An accidental or octave correction requires matching written phrases from independent contributors. '
+        'Playback checks require the intended pitch change and preserve every other event.',
         '- Playback checks compare the original and corrected events with automatic repair disabled. '
         'Unexpected changes to pitch, duration, rests or ties block a correction.',
         '- After each round the scanner checks for further corrections. CSV, JSON and SQLite are compared record by record.',

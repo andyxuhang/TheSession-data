@@ -1,5 +1,11 @@
 # Changes
 
+## Accidentals and octaves
+
+Corrected 19 accidentals and 2 octave errors in 18 settings of 17 tunes, along with 69 matching set entries. At least two other contributors give the same completed measure and neighboring phrases for each correction. The playback check verified 36 corrected occurrences across repeats, with the remaining pitches and all event timings preserved.
+
+See the [before-and-after measures and references](checks/pitch-edits.json), the [playback results](checks/pitch-playback.json), and the [current review](reports/status.md).
+
 ## Bar divisions, note lengths and rhythm marks
 
 Compared complete written phrases from the same setting and from other settings, including versions in other keys. Restored 100 missing barlines and corrected 57 misplaced-barline passages. Fixed 29 note-length passages and 2 rhythm marks. The missing-note check restored 2 notes supported by the same passage in settings from at least two other contributors.

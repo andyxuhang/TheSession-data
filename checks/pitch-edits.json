@@ -1,0 +1,706 @@
+[
+  {
+    "setting_id": "13959",
+    "tune_id": "808",
+    "source_url": "https://thesession.org/tunes/808#setting13959",
+    "rule": "accidental_typo",
+    "bar": 8,
+    "note": 1,
+    "before": "=FDE =F2 d",
+    "after": "FDE =F2 d",
+    "before_midi": 65,
+    "after_midi": 66,
+    "reference_ranges": [
+      [
+        "26015",
+        7,
+        7
+      ],
+      [
+        "28669",
+        7,
+        7
+      ],
+      [
+        "41992",
+        6,
+        6
+      ],
+      [
+        "45690",
+        6,
+        6
+      ]
+    ],
+    "corroborating_contributors": 4,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "17085",
+    "tune_id": "4475",
+    "source_url": "https://thesession.org/tunes/4475#setting17085",
+    "rule": "accidental_typo",
+    "bar": 6,
+    "note": 7,
+    "before": "agfd cA^FA",
+    "after": "agfd cAFA",
+    "before_midi": 66,
+    "after_midi": 65,
+    "reference_ranges": [
+      [
+        "4475",
+        6,
+        6
+      ],
+      [
+        "55361",
+        6,
+        6
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "29719",
+    "tune_id": "31",
+    "source_url": "https://thesession.org/tunes/31#setting29719",
+    "rule": "accidental_typo",
+    "bar": 16,
+    "note": 4,
+    "before": "GAB cAF",
+    "after": "GAB =cAF",
+    "before_midi": 73,
+    "after_midi": 72,
+    "reference_ranges": [
+      [
+        "23901",
+        16,
+        16
+      ],
+      [
+        "51021",
+        15,
+        15
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "41030",
+    "tune_id": "16060",
+    "source_url": "https://thesession.org/tunes/16060#setting41030",
+    "rule": "accidental_typo",
+    "bar": 10,
+    "note": 4,
+    "before": "Adc=B cAGF",
+    "after": "AdcB cAGF",
+    "before_midi": 71,
+    "after_midi": 70,
+    "reference_ranges": [
+      [
+        "30259",
+        10,
+        10
+      ],
+      [
+        "33089",
+        10,
+        10
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "41030",
+    "tune_id": "16060",
+    "source_url": "https://thesession.org/tunes/16060#setting41030",
+    "rule": "accidental_typo",
+    "bar": 12,
+    "note": 4,
+    "before": "EG,A,=B, CDEF",
+    "after": "EG,A,B, CDEF",
+    "before_midi": 59,
+    "after_midi": 58,
+    "reference_ranges": [
+      [
+        "30259",
+        12,
+        12
+      ],
+      [
+        "33089",
+        12,
+        12
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "50858",
+    "tune_id": "351",
+    "source_url": "https://thesession.org/tunes/351#setting50858",
+    "rule": "accidental_typo",
+    "bar": 11,
+    "note": 3,
+    "before": " ABc d2d ",
+    "after": " AB^c d2d ",
+    "before_midi": 72,
+    "after_midi": 73,
+    "reference_ranges": [
+      [
+        "25813",
+        11,
+        11
+      ],
+      [
+        "30714",
+        11,
+        11
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "17715",
+    "tune_id": "5769",
+    "source_url": "https://thesession.org/tunes/5769#setting17715",
+    "rule": "accidental_typo",
+    "bar": 4,
+    "note": 4,
+    "before": "gfaf ed=cA",
+    "after": "gfa=f ed=cA",
+    "before_midi": 78,
+    "after_midi": 77,
+    "reference_ranges": [
+      [
+        "17716",
+        4,
+        4
+      ],
+      [
+        "5769",
+        4,
+        4
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "13210",
+    "tune_id": "381",
+    "source_url": "https://thesession.org/tunes/381#setting13210",
+    "rule": "accidental_typo",
+    "bar": 15,
+    "note": 2,
+    "before": "d^cA BAG",
+    "after": "dcA BAG",
+    "before_midi": 73,
+    "after_midi": 72,
+    "reference_ranges": [
+      [
+        "25876",
+        15,
+        15
+      ],
+      [
+        "381",
+        15,
+        15
+      ],
+      [
+        "56589",
+        15,
+        15
+      ]
+    ],
+    "corroborating_contributors": 3,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "1707",
+    "tune_id": "1707",
+    "source_url": "https://thesession.org/tunes/1707#setting1707",
+    "rule": "accidental_typo",
+    "bar": 6,
+    "note": 2,
+    "before": "AGB AFE",
+    "after": "A^GB AFE",
+    "before_midi": 67,
+    "after_midi": 68,
+    "reference_ranges": [
+      [
+        "32626",
+        6,
+        6
+      ],
+      [
+        "56644",
+        6,
+        6
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "34183",
+    "tune_id": "264",
+    "source_url": "https://thesession.org/tunes/264#setting34183",
+    "rule": "accidental_typo",
+    "bar": 6,
+    "note": 2,
+    "before": "B2^A B^cd",
+    "after": "B2A B^cd",
+    "before_midi": 70,
+    "after_midi": 69,
+    "reference_ranges": [
+      [
+        "264",
+        6,
+        6
+      ],
+      [
+        "43100",
+        7,
+        7
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "34194",
+    "tune_id": "264",
+    "source_url": "https://thesession.org/tunes/264#setting34194",
+    "rule": "accidental_typo",
+    "bar": 6,
+    "note": 2,
+    "before": "B2^A B^cd",
+    "after": "B2A B^cd",
+    "before_midi": 70,
+    "after_midi": 69,
+    "reference_ranges": [
+      [
+        "264",
+        6,
+        6
+      ],
+      [
+        "43100",
+        7,
+        7
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "37432",
+    "tune_id": "3200",
+    "source_url": "https://thesession.org/tunes/3200#setting37432",
+    "rule": "accidental_typo",
+    "bar": 16,
+    "note": 5,
+    "before": "ecA agf",
+    "after": "ecA a^gf",
+    "before_midi": 79,
+    "after_midi": 80,
+    "reference_ranges": [
+      [
+        "31583",
+        15,
+        15
+      ],
+      [
+        "3200",
+        15,
+        15
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "17431",
+    "tune_id": "5136",
+    "source_url": "https://thesession.org/tunes/5136#setting17431",
+    "rule": "octave_typo",
+    "bar": 4,
+    "note": 3,
+    "before": "edb def",
+    "after": "edB def",
+    "before_midi": 83,
+    "after_midi": 71,
+    "reference_ranges": [
+      [
+        "45673",
+        4,
+        4
+      ],
+      [
+        "5136",
+        4,
+        4
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": true,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "33704",
+    "tune_id": "8963",
+    "source_url": "https://thesession.org/tunes/8963#setting33704",
+    "rule": "accidental_typo",
+    "bar": 4,
+    "note": 3,
+    "before": "dB=G Bcd",
+    "after": "dBG Bcd",
+    "before_midi": 67,
+    "after_midi": 68,
+    "reference_ranges": [
+      [
+        "19796",
+        4,
+        4
+      ],
+      [
+        "8963",
+        4,
+        4
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "42852",
+    "tune_id": "1709",
+    "source_url": "https://thesession.org/tunes/1709#setting42852",
+    "rule": "accidental_typo",
+    "bar": 5,
+    "note": 2,
+    "before": "\r\nA=GF ECE",
+    "after": "\r\nAGF ECE",
+    "before_midi": 67,
+    "after_midi": 68,
+    "reference_ranges": [
+      [
+        "1709",
+        5,
+        5
+      ],
+      [
+        "24825",
+        6,
+        6
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "56612",
+    "tune_id": "15041",
+    "source_url": "https://thesession.org/tunes/15041#setting56612",
+    "rule": "accidental_typo",
+    "bar": 5,
+    "note": 7,
+    "before": " d^cde fd=cA ",
+    "after": " d^cde fdcA ",
+    "before_midi": 72,
+    "after_midi": 73,
+    "reference_ranges": [
+      [
+        "44776",
+        4,
+        4
+      ],
+      [
+        "44776",
+        20,
+        20
+      ],
+      [
+        "44784",
+        5,
+        5
+      ],
+      [
+        "44784",
+        22,
+        22
+      ],
+      [
+        "53751",
+        5,
+        5
+      ],
+      [
+        "53751",
+        22,
+        22
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "56612",
+    "tune_id": "15041",
+    "source_url": "https://thesession.org/tunes/15041#setting56612",
+    "rule": "accidental_typo",
+    "bar": 22,
+    "note": 7,
+    "before": " d^cde fd=cA ",
+    "after": " d^cde fdcA ",
+    "before_midi": 72,
+    "after_midi": 73,
+    "reference_ranges": [
+      [
+        "44776",
+        4,
+        4
+      ],
+      [
+        "44776",
+        20,
+        20
+      ],
+      [
+        "44784",
+        5,
+        5
+      ],
+      [
+        "44784",
+        22,
+        22
+      ],
+      [
+        "53751",
+        5,
+        5
+      ],
+      [
+        "53751",
+        22,
+        22
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "35537",
+    "tune_id": "4037",
+    "source_url": "https://thesession.org/tunes/4037#setting35537",
+    "rule": "accidental_typo",
+    "bar": 11,
+    "note": 2,
+    "before": "e^c A2 AG",
+    "after": "ec A2 AG",
+    "before_midi": 73,
+    "after_midi": 72,
+    "reference_ranges": [
+      [
+        "10467",
+        12,
+        12
+      ],
+      [
+        "10467",
+        20,
+        20
+      ],
+      [
+        "16858",
+        12,
+        12
+      ],
+      [
+        "16858",
+        20,
+        20
+      ],
+      [
+        "4037",
+        10,
+        10
+      ],
+      [
+        "4037",
+        18,
+        18
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "35537",
+    "tune_id": "4037",
+    "source_url": "https://thesession.org/tunes/4037#setting35537",
+    "rule": "accidental_typo",
+    "bar": 19,
+    "note": 2,
+    "before": "e^c A2 AG",
+    "after": "ec A2 AG",
+    "before_midi": 73,
+    "after_midi": 72,
+    "reference_ranges": [
+      [
+        "10467",
+        12,
+        12
+      ],
+      [
+        "10467",
+        20,
+        20
+      ],
+      [
+        "16858",
+        12,
+        12
+      ],
+      [
+        "16858",
+        20,
+        20
+      ],
+      [
+        "4037",
+        10,
+        10
+      ],
+      [
+        "4037",
+        18,
+        18
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "2651",
+    "tune_id": "2651",
+    "source_url": "https://thesession.org/tunes/2651#setting2651",
+    "rule": "octave_typo",
+    "bar": 14,
+    "note": 5,
+    "before": "Bed cbA",
+    "after": "Bed cBA",
+    "before_midi": 83,
+    "after_midi": 71,
+    "reference_ranges": [
+      [
+        "15897",
+        14,
+        14
+      ],
+      [
+        "15898",
+        16,
+        16
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": true,
+    "scan_pass": 1
+  },
+  {
+    "setting_id": "13986",
+    "tune_id": "831",
+    "source_url": "https://thesession.org/tunes/831#setting13986",
+    "rule": "accidental_typo",
+    "bar": 19,
+    "note": 4,
+    "before": "Add^c d=fed",
+    "after": "Addc d=fed",
+    "before_midi": 73,
+    "after_midi": 72,
+    "reference_ranges": [
+      [
+        "43944",
+        3,
+        3
+      ],
+      [
+        "831",
+        3,
+        3
+      ]
+    ],
+    "corroborating_contributors": 2,
+    "written_repeat": false,
+    "extra_matching_bar": true,
+    "isolated_octave_jump": false,
+    "scan_pass": 1
+  }
+]

@@ -14,6 +14,7 @@ import tempfile
 from matching_phrases import scan_phrases
 from missing_notes import scan_missing_notes
 from phrase_lengths import scan_lengths
+from pitch_fixes import PITCH_RULES, scan_pitches
 from scan import ROOT, measures, rows, scan, sha, unique_settings
 
 
@@ -56,7 +57,8 @@ def check_measure_edits(proposals, work, args, lengths=False):
         body = patch['before_abc']
         for start, end, ev, variant in measure_edits(patch):
             is_length = lengths or ev['rule'] == 'note_length'
-            singles.append({**patch, 'variant':variant, 'strict_length':is_length, 'after_abc':body[:start]+ev['after']+body[end:]})
+            evidence = [ev] if ev['rule'] in PITCH_RULES else patch['evidence']
+            singles.append({**patch, 'evidence':evidence, 'variant':variant, 'strict_length':is_length, 'after_abc':body[:start]+ev['after']+body[end:]})
     dump(work/'individual.json', {'corrections':singles})
     report = playback(work/'individual.json', work/'individual-check.json', args, True)
     checks = {r['variant']:r for r in report['checks']}
@@ -71,6 +73,8 @@ def check_measure_edits(proposals, work, args, lengths=False):
             valid_timing = (result.get('changed_note_durations', 0) > 0
                             and not result.get('parser_normalized_or_unplayed_change', False) if changes_duration
                             else result.get('all_event_timings_unchanged', False))
+            if ev['rule'] in PITCH_RULES:
+                valid_timing = valid_timing and result.get('changed_played_pitches',0) > 0
             if result['passed'] and valid_timing:
                 body = body[:start]+ev['after']+body[end:]
                 evidence.append(ev)
@@ -98,11 +102,13 @@ def main():
     mode.add_argument('--parallel-lengths', action='store_true', help='Check note lengths against a repeated phrase in the same setting')
     mode.add_argument('--phrases', action='store_true', help='Compare damaged interior phrases with intact written passages')
     mode.add_argument('--missing-notes', action='store_true', help='Restore a missing note supported by independent settings')
+    mode.add_argument('--pitches', action='store_true', help='Check accidentals and octaves in fully metered passages')
     args = parser.parse_args()
+    separate_scan = args.phrases or args.missing_notes or args.pitches
     lengths = args.lengths or args.parallel_lengths
     current = unique_settings(rows(ROOT/'json/tunes.json'))
     data = list(current.values())
-    if lengths or args.phrases or args.missing_notes:
+    if lengths or separate_scan:
         baseline = json.loads((ROOT/'changes/initial-fixes.json').read_text())['upstream_commit']
         exported = subprocess.check_output(['git','show',baseline+':json/tunes.json'], cwd=ROOT)
         upstream = unique_settings(json.loads(exported))
@@ -111,8 +117,8 @@ def main():
     with tempfile.TemporaryDirectory(prefix='session-notation-') as temporary:
         work = Path(temporary)
         for attempt in range(1, 16):
-            if args.phrases or args.missing_notes:
-                scanner = scan_missing_notes if args.missing_notes else scan_phrases
+            if separate_scan:
+                scanner = scan_pitches if args.pitches else (scan_missing_notes if args.missing_notes else scan_phrases)
                 proposals, stats = scanner(data, upstream)
                 stats.update(settings=len(data), settings_with_proposals=len(proposals))
             elif lengths:
@@ -129,7 +135,7 @@ def main():
                 break
             structural = [p for p in candidates if all(
                 e['rule'] in {'misplaced_barline', 'missing_barline'} for e in p['evidence'])]
-            individual = candidates if lengths or args.phrases else structural
+            individual = candidates if lengths or args.phrases or args.pitches else structural
             if individual:
                 structural_ids = {p['setting_id'] for p in individual}
                 passed, failures = check_measure_edits(individual, work, args, lengths=lengths)
@@ -171,16 +177,17 @@ def main():
         else:
             raise RuntimeError('Scan did not converge; no data have been written')
 
-        if lengths or args.phrases or args.missing_notes:
+        if lengths or separate_scan:
             _, findings, _ = scan(data)
-        if args.phrases or args.missing_notes:
+        if separate_scan:
             batch = [{'setting_id':patch['setting_id'], 'tune_id':patch['tune_id'],
                       'source_url':patch['source_url'], **ev}
                      for patch in collected.values() for ev in patch['evidence']]
-            detail_file = 'missing-notes.json' if args.missing_notes else 'matching-phrases.json'
+            detail_file = ('pitch-edits.json' if args.pitches else
+                           'missing-notes.json' if args.missing_notes else 'matching-phrases.json')
         # Retain the complete original of any earlier run. Never overwrite the
         # history with an empty plan when the data are already corrected.
-        stored = ROOT/'changes/notation-fixes.json'
+        stored = ROOT/'changes'/('pitch-fixes.json' if args.pitches else 'notation-fixes.json')
         previous = json.loads(stored.read_text()) if stored.exists() else {'corrections':[]}
         combined = {p['setting_id']:p for p in previous['corrections']}
         for sid,patch in collected.items():
@@ -199,6 +206,9 @@ def main():
             'scanner_sha256':hashlib.sha256((ROOT/'tools/scan.py').read_bytes()).hexdigest(),
             'corrections':sorted(combined.values(),key=lambda p:(int(p['tune_id']),int(p['setting_id']))),
         }
+        if args.pitches:
+            plan['method'] = 'Independent matching written phrases and verified single-note pitch changes'
+            plan['pitch_scanner_sha256'] = hashlib.sha256((ROOT/'tools/pitch_fixes.py').read_bytes()).hexdigest()
         if args.phrases:
             plan['matching_phrases_sha256'] = hashlib.sha256((ROOT/'tools/matching_phrases.py').read_bytes()).hexdigest()
         if args.missing_notes:
@@ -212,7 +222,7 @@ def main():
         final = playback(work/'fixes.json',work/'final-check.json',args,False)
         args.output.mkdir(parents=True,exist_ok=True)
         dump(args.output/'proposed-fixes.json',plan)
-        if args.phrases or args.missing_notes:
+        if separate_scan:
             dump(args.output/detail_file, batch)
         dump(args.output/'playback.json',final)
         dump(args.output/'rejected.json',list(rejected.values()))
@@ -223,16 +233,18 @@ def main():
                 stream.write(json.dumps(finding,ensure_ascii=False)+'\n')
         if args.apply:
             dump(stored,plan)
-            dump(ROOT/'checks/notation-playback.json',final)
-            if args.phrases or args.missing_notes:
+            playback_file = 'pitch-playback.json' if args.pitches else 'notation-playback.json'
+            dump(ROOT/'checks'/playback_file,final)
+            if separate_scan:
                 dump(ROOT/'checks'/detail_file,batch)
-            if args.barlines or lengths or args.phrases or args.missing_notes:
+            if args.barlines or lengths or separate_scan:
                 for old in json.loads((ROOT/'checks/rejected.json').read_text()):
                     rules = {e['rule'] for e in old.get('proposal', {}).get('evidence', [])}
-                    if lengths or args.phrases or args.missing_notes or rules - {'missing_barline','misplaced_barline'}:
+                    if lengths or separate_scan or rules - {'missing_barline','misplaced_barline'}:
                         rejected.setdefault(old['setting_id'],old)
             dump(ROOT/'checks/rejected.json',list(rejected.values()))
-            dump(ROOT/'checks/scan.json',{'passes':history,'rejected_settings':len(rejected)})
+            scan_file = 'pitch-scan.json' if args.pitches else 'scan.json'
+            dump(ROOT/'checks'/scan_file,{'passes':history,'rejected_settings':len(rejected)})
             with (ROOT/'checks/data.json').open('w') as stream:
                 subprocess.run([sys.executable,str(ROOT/'tools/apply.py'),'--apply'],stdout=stream,check=True)
             findings_file = args.output / 'findings.jsonl'

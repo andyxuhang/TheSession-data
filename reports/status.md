@@ -4,7 +4,7 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 
 | Status | Settings | Details |
 |---|---:|---|
-| Corrected | 493 | [fixed.csv](fixed.csv) |
+| Corrected | 511 | [fixed.csv](fixed.csv) |
 | Needs review | 3764 | [review.csv](review.csv) |
 | Pickups, endings and repeats | 24410 | [boundaries.csv](boundaries.csv) |
 | Unsupported syntax or empty melody | 6505 | [unsupported.csv](unsupported.csv) |
@@ -20,14 +20,17 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 | Incorrect note length | 157 |
 | Misplaced barline | 64 |
 | Stray control character | 19 |
+| Incorrect accidental | 19 |
 | Omitted note | 2 |
 | Incorrect broken-rhythm or tuplet mark | 2 |
+| Incorrect octave | 2 |
 
 ## How corrections are checked
 
 - The scanner adds note lengths as exact fractions and compares neighboring written passages.
 - Complete measures in another passage support barline and timing corrections. A line break between two complete measures can also support a missing divider when one of those measures and its neighbor match a written reference.
 - A missing note requires the same completed phrase and both neighboring measures in settings from at least two other contributors.
+- An accidental or octave correction requires matching written phrases from independent contributors. Playback checks require the intended pitch change and preserve every other event.
 - Playback checks compare the original and corrected events with automatic repair disabled. Unexpected changes to pitch, duration, rests or ties block a correction.
 - After each round the scanner checks for further corrections. CSV, JSON and SQLite are compared record by record.
 

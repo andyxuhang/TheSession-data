@@ -10,6 +10,7 @@ from pathlib import Path
 import re
 import subprocess
 import tempfile
+from pitch_fixes import PITCH_RULES, key_signature, resolve_pitches
 from scan import measures, rows as read_rows, unique_settings
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -69,6 +70,48 @@ Map verifyInsertion(Map row, List before, List after) {
     'duration_delta_quarter': inserted * duration};
 }
 
+Map verifyPitchChanges(Map row, List before, List after) {
+  final sid = row['setting_id'];
+  final expected = row['pitch_changes'] as List;
+  final playedBefore = List.generate(expected.length, (_) => <String>{});
+  final playedAfter = List.generate(expected.length, (_) => <String>{});
+  require(before.length == after.length, '$sid event count');
+  var changed = 0;
+  for (var i = 0; i < before.length; i++) {
+    final a = before[i], b = after[i];
+    for (final field in ['start_quarter', 'duration_quarter', 'is_tie', 'is_rest']) {
+      require(a[field] == b[field], '$sid changed $field at $i');
+    }
+    final unchanged = jsonEncode(a['midi_pitches']) == jsonEncode(b['midi_pitches']);
+    final sameToken = a['abc_text'] == b['abc_text'];
+    if (unchanged && sameToken) continue;
+    final match = expected.indexWhere((change) =>
+      a['abc_text'] == change['old_token'] && b['abc_text'] == change['new_token'] &&
+      jsonEncode(a['midi_pitches']) == jsonEncode([change['old_midi']]) &&
+      jsonEncode(b['midi_pitches']) == jsonEncode([change['new_midi']]));
+    require(match >= 0, '$sid unexpected pitch or token change at $i');
+    require(!a['is_tie'] && !b['is_tie'] && !a['is_rest'] && !b['is_rest'],
+        '$sid corrected token is tied or silent');
+    playedBefore[match].add(a['written_id'] as String);
+    playedAfter[match].add(b['written_id'] as String);
+    changed++;
+  }
+  for (var i = 0; i < expected.length; i++) {
+    final count = expected[i]['written_occurrences'];
+    require(playedBefore[i].length == count && playedAfter[i].length == count,
+        '$sid expected written notes were not all heard');
+  }
+  return {
+    if (row.containsKey('variant')) 'variant': row['variant'],
+    'setting_id': sid,
+    'passed': true,
+    'event_count': before.length,
+    'all_event_timings_unchanged': true,
+    'changed_played_pitches': changed,
+    'written_pitch_changes': expected,
+  };
+}
+
 void main(List<String> args) {
   final rows = jsonDecode(File(args[0]).readAsStringSync()) as List;
   final result = <Map>[];
@@ -78,6 +121,10 @@ void main(List<String> args) {
     final after = compile(row, row['after_abc']);
     final a = before['events'] as List, b = after['events'] as List;
     final sid = row['setting_id'];
+    if (row.containsKey('pitch_changes')) {
+      result.add(verifyPitchChanges(row, a, b));
+      continue;
+    }
     if (row.containsKey('insertion')) {
       result.add(verifyInsertion(row, a, b));
       continue;
@@ -137,6 +184,41 @@ void main(List<String> args) {
 """
 
 
+def prepare_pitch_changes(patch, mode):
+    before_body, after_body = patch['before_abc'], patch['after_abc']
+    before, error_a = measures(before_body)
+    after, error_b = measures(after_body)
+    key = key_signature(mode)
+    if error_a or error_b or key is None or len(before) != len(after):
+        raise ValueError('Pitch edit changed measure structure: '+patch['setting_id'])
+    by_position = {(e['bar'],e['note']):e for e in patch['evidence']}
+    actual = set()
+    deltas = defaultdict(int)
+    for bar, (old, new) in enumerate(zip(before,after),1):
+        if old.signature == new.signature:
+            continue
+        if (old.error or new.error or (old.left,old.right)!=(new.left,new.right)
+                or len(old.events) != len(new.events)):
+            raise ValueError('Pitch edit changed a damaged measure: '+patch['setting_id'])
+        old_midi, new_midi = resolve_pitches(old.events,key), resolve_pitches(new.events,key)
+        for note,(a,b) in enumerate(zip(old.events,new.events),1):
+            x,y = old_midi[note-1],new_midi[note-1]
+            original, corrected = before_body[a.start:a.end], after_body[b.start:b.end]
+            if a.duration != b.duration or a.tied != b.tied:
+                raise ValueError('Pitch edit changed timing: '+patch['setting_id'])
+            if original == corrected and x == y:
+                continue
+            ev = by_position.get((bar,note))
+            if ev is None or a.tied or (x,y) != (ev['before_midi'],ev['after_midi']) or x == y:
+                raise ValueError('Unexpected written pitch change: '+patch['setting_id'])
+            actual.add((bar,note))
+            deltas[original,corrected,x,y] += 1
+    if actual != by_position.keys():
+        raise ValueError('Pitch changes differ from reviewed notes: '+patch['setting_id'])
+    return [dict(old_token=a,new_token=b,old_midi=x,new_midi=y,written_occurrences=count)
+            for (a,b,x,y),count in deltas.items()]
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--tradmate-repo", type=Path, required=True)
@@ -154,6 +236,10 @@ def main():
     records = unique_settings(read_rows(ROOT / "json/tunes.json"))
     for row in records.values():
         for patch in patches.get(row["setting_id"], ()):
+            evidence = patch['evidence']
+            if isinstance(evidence,list) and evidence and all(e['rule'] in PITCH_RULES for e in evidence):
+                rows.append({**row, **patch, 'pitch_changes':prepare_pitch_changes(patch,row['mode'])})
+                continue
             grouped = {}
             before = [e for b in measures(patch['before_abc'])[0] for e in b.events]
             after = [e for b in measures(patch['after_abc'])[0] for e in b.events]

@@ -36,6 +36,12 @@ Run `--missing-notes` to check short interior measures for an omitted note. The 
 
 The reports count distinct settings. When an upstream setting appears in separate rows for different composers, the tools compare the ABC once and apply the same reviewed correction to each matching row. Composer fields are preserved.
 
+## Accidentals and octaves
+
+Run `tools/fix_notation.py --pitches` with the compiler options above. This pass looks in full measures between ordinary barlines. Two contributors must agree on the corrected measure and both of its neighbors. A fourth matching measure or a second written occurrence in the same setting provides additional corroboration. An octave change must also remove an isolated jump, unless the setting itself contains the matching written phrase.
+
+The correction changes one written pitch and one sounding note per location. The scanner resolves accidentals across the measure before comparing pitches. A change that would affect another note is left for review. The playback check verifies the expected pitch change on each played occurrence and checks the remaining pitches, starts, durations, rests and ties. [Pitch edits](../checks/pitch-edits.json) records the original and corrected measures and the reference setting and bar numbers.
+
 ## Other checks
 
 ```bash

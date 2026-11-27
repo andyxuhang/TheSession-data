@@ -1,0 +1,23 @@
+{
+  "passes": [
+    {
+      "octave_typo_exact_candidates": 261,
+      "accidental_typo_exact_candidates": 228,
+      "settings": 55821,
+      "settings_with_proposals": 18,
+      "pass": 1,
+      "individual_rejections": 0,
+      "accepted": 18,
+      "rejected": 0
+    },
+    {
+      "octave_typo_exact_candidates": 259,
+      "accidental_typo_exact_candidates": 209,
+      "settings": 55821,
+      "settings_with_proposals": 0,
+      "pass": 2,
+      "accepted": 0
+    }
+  ],
+  "rejected_settings": 5
+}

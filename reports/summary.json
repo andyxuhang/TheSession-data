@@ -2,18 +2,20 @@
   "settings_checked": 55821,
   "exported_tune_rows": 55838,
   "tunes_checked": 23199,
-  "fixed_settings": 493,
-  "fixed_tunes": 418,
+  "fixed_settings": 511,
+  "fixed_tunes": 433,
   "fixed_edits_by_type": {
     "misplaced_barline": 64,
     "missing_barline": 330,
     "note_length": 157,
     "stray_control": 19,
     "missing_note": 2,
-    "rhythm_mark": 2
+    "rhythm_mark": 2,
+    "accidental_typo": 19,
+    "octave_typo": 2
   },
   "categories": {
-    "fixed": 493,
+    "fixed": 511,
     "review": 3764,
     "boundaries": 24410,
     "unsupported": 6505,

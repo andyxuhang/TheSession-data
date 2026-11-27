@@ -1710,6 +1710,22 @@
       "duration_delta_quarter": 0.0
     },
     {
+      "setting_id": "13959",
+      "passed": true,
+      "event_count": 247,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 2,
+      "written_pitch_changes": [
+        {
+          "old_token": "=F",
+          "new_token": "F",
+          "old_midi": 65,
+          "new_midi": 66,
+          "written_occurrences": 1
+        }
+      ]
+    },
+    {
       "setting_id": "23158",
       "passed": true,
       "event_count": 115,
@@ -2473,6 +2489,22 @@
       "duration_delta_quarter": -1.0
     },
     {
+      "setting_id": "17085",
+      "passed": true,
+      "event_count": 329,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 2,
+      "written_pitch_changes": [
+        {
+          "old_token": "^F",
+          "new_token": "F",
+          "old_midi": 66,
+          "new_midi": 65,
+          "written_occurrences": 1
+        }
+      ]
+    },
+    {
       "setting_id": "29100",
       "passed": true,
       "event_count": 255,
@@ -2728,6 +2760,22 @@
       ],
       "parser_normalized_or_unplayed_change": false,
       "duration_delta_quarter": 2.0
+    },
+    {
+      "setting_id": "29719",
+      "passed": true,
+      "event_count": 422,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 2,
+      "written_pitch_changes": [
+        {
+          "old_token": "c",
+          "new_token": "=c",
+          "old_midi": 73,
+          "new_midi": 72,
+          "written_occurrences": 1
+        }
+      ]
     },
     {
       "setting_id": "23874",
@@ -3173,6 +3221,29 @@
       "duration_delta_quarter": 0.0
     },
     {
+      "setting_id": "41030",
+      "passed": true,
+      "event_count": 233,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 2,
+      "written_pitch_changes": [
+        {
+          "old_token": "=B",
+          "new_token": "B",
+          "old_midi": 71,
+          "new_midi": 70,
+          "written_occurrences": 1
+        },
+        {
+          "old_token": "=B,",
+          "new_token": "B,",
+          "old_midi": 59,
+          "new_midi": 58,
+          "written_occurrences": 1
+        }
+      ]
+    },
+    {
       "setting_id": "15432",
       "passed": true,
       "event_count": 142,
@@ -3194,6 +3265,22 @@
       ],
       "parser_normalized_or_unplayed_change": false,
       "duration_delta_quarter": 0.5
+    },
+    {
+      "setting_id": "50858",
+      "passed": true,
+      "event_count": 85,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 1,
+      "written_pitch_changes": [
+        {
+          "old_token": "c",
+          "new_token": "^c",
+          "old_midi": 72,
+          "new_midi": 73,
+          "written_occurrences": 1
+        }
+      ]
     },
     {
       "setting_id": "44906",
@@ -3551,6 +3638,22 @@
       "duration_delta_quarter": 0.25
     },
     {
+      "setting_id": "17715",
+      "passed": true,
+      "event_count": 388,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 2,
+      "written_pitch_changes": [
+        {
+          "old_token": "f",
+          "new_token": "=f",
+          "old_midi": 78,
+          "new_midi": 77,
+          "written_occurrences": 1
+        }
+      ]
+    },
+    {
       "setting_id": "27080",
       "passed": true,
       "event_count": 180,
@@ -3563,6 +3666,22 @@
       "played_occurrences": [],
       "parser_normalized_or_unplayed_change": false,
       "duration_delta_quarter": 0.0
+    },
+    {
+      "setting_id": "13210",
+      "passed": true,
+      "event_count": 168,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 2,
+      "written_pitch_changes": [
+        {
+          "old_token": "^c",
+          "new_token": "c",
+          "old_midi": 73,
+          "new_midi": 72,
+          "written_occurrences": 1
+        }
+      ]
     },
     {
       "setting_id": "16177",
@@ -4066,6 +4185,22 @@
       "duration_delta_quarter": 0.0
     },
     {
+      "setting_id": "1707",
+      "passed": true,
+      "event_count": 261,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 2,
+      "written_pitch_changes": [
+        {
+          "old_token": "G",
+          "new_token": "^G",
+          "old_midi": 67,
+          "new_midi": 68,
+          "written_occurrences": 1
+        }
+      ]
+    },
+    {
       "setting_id": "733",
       "passed": true,
       "event_count": 234,
@@ -4333,6 +4468,38 @@
       "duration_delta_quarter": 0.0
     },
     {
+      "setting_id": "34183",
+      "passed": true,
+      "event_count": 158,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 2,
+      "written_pitch_changes": [
+        {
+          "old_token": "^A",
+          "new_token": "A",
+          "old_midi": 70,
+          "new_midi": 69,
+          "written_occurrences": 1
+        }
+      ]
+    },
+    {
+      "setting_id": "34194",
+      "passed": true,
+      "event_count": 162,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 2,
+      "written_pitch_changes": [
+        {
+          "old_token": "^A",
+          "new_token": "A",
+          "old_midi": 70,
+          "new_midi": 69,
+          "written_occurrences": 1
+        }
+      ]
+    },
+    {
       "setting_id": "37610",
       "passed": true,
       "event_count": 176,
@@ -4368,6 +4535,22 @@
       "played_occurrences": [],
       "parser_normalized_or_unplayed_change": false,
       "duration_delta_quarter": 0.0
+    },
+    {
+      "setting_id": "37432",
+      "passed": true,
+      "event_count": 268,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 2,
+      "written_pitch_changes": [
+        {
+          "old_token": "g",
+          "new_token": "^g",
+          "old_midi": 79,
+          "new_midi": 80,
+          "written_occurrences": 1
+        }
+      ]
     },
     {
       "setting_id": "14067",
@@ -5772,6 +5955,22 @@
       "duration_delta_quarter": -0.5
     },
     {
+      "setting_id": "17431",
+      "passed": true,
+      "event_count": 169,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 2,
+      "written_pitch_changes": [
+        {
+          "old_token": "b",
+          "new_token": "B",
+          "old_midi": 83,
+          "new_midi": 71,
+          "written_occurrences": 1
+        }
+      ]
+    },
+    {
       "setting_id": "50931",
       "passed": true,
       "event_count": 148,
@@ -5793,6 +5992,22 @@
       ],
       "parser_normalized_or_unplayed_change": false,
       "duration_delta_quarter": -1.0
+    },
+    {
+      "setting_id": "33704",
+      "passed": true,
+      "event_count": 183,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 2,
+      "written_pitch_changes": [
+        {
+          "old_token": "=G",
+          "new_token": "G",
+          "old_midi": 67,
+          "new_midi": 68,
+          "written_occurrences": 1
+        }
+      ]
     },
     {
       "setting_id": "30488",
@@ -6152,6 +6367,22 @@
       "played_occurrences": [],
       "parser_normalized_or_unplayed_change": false,
       "duration_delta_quarter": 0.0
+    },
+    {
+      "setting_id": "42852",
+      "passed": true,
+      "event_count": 164,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 2,
+      "written_pitch_changes": [
+        {
+          "old_token": "=G",
+          "new_token": "G",
+          "old_midi": 67,
+          "new_midi": 68,
+          "written_occurrences": 1
+        }
+      ]
     },
     {
       "setting_id": "15131",
@@ -6617,6 +6848,22 @@
       "duration_delta_quarter": 0.0
     },
     {
+      "setting_id": "56612",
+      "passed": true,
+      "event_count": 256,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 3,
+      "written_pitch_changes": [
+        {
+          "old_token": "=c",
+          "new_token": "c",
+          "old_midi": 72,
+          "new_midi": 73,
+          "written_occurrences": 2
+        }
+      ]
+    },
+    {
       "setting_id": "43141",
       "passed": true,
       "event_count": 210,
@@ -6887,6 +7134,22 @@
       "duration_delta_quarter": 0.0
     },
     {
+      "setting_id": "35537",
+      "passed": true,
+      "event_count": 158,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 2,
+      "written_pitch_changes": [
+        {
+          "old_token": "^c",
+          "new_token": "c",
+          "old_midi": 73,
+          "new_midi": 72,
+          "written_occurrences": 2
+        }
+      ]
+    },
+    {
       "setting_id": "28788",
       "passed": true,
       "event_count": 156,
@@ -6913,6 +7176,22 @@
       "played_occurrences": [],
       "parser_normalized_or_unplayed_change": false,
       "duration_delta_quarter": 0.0
+    },
+    {
+      "setting_id": "2651",
+      "passed": true,
+      "event_count": 184,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 2,
+      "written_pitch_changes": [
+        {
+          "old_token": "b",
+          "new_token": "B",
+          "old_midi": 83,
+          "new_midi": 71,
+          "written_occurrences": 1
+        }
+      ]
     },
     {
       "setting_id": "17292",
@@ -7907,6 +8186,22 @@
       "played_occurrences": [],
       "parser_normalized_or_unplayed_change": false,
       "duration_delta_quarter": 0.0
+    },
+    {
+      "setting_id": "13986",
+      "passed": true,
+      "event_count": 462,
+      "all_event_timings_unchanged": true,
+      "changed_played_pitches": 2,
+      "written_pitch_changes": [
+        {
+          "old_token": "^c",
+          "new_token": "c",
+          "old_midi": 73,
+          "new_midi": 72,
+          "written_occurrences": 1
+        }
+      ]
     },
     {
       "setting_id": "53692",
