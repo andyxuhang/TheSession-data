@@ -1,5 +1,13 @@
 # Changes
 
+## Invisible layout characters
+
+Normalized 77 nonbreaking spaces and removed 15 directional formatting marks outside annotations and comments. The 92 changes cover 34 settings of 33 tunes and 70 matching set entries.
+
+TradMate and abcjs preserved all played notes, ties, rests and timings. Diagnostics in the affected settings decreased from 361 to 133 in abc2midi, from 295 to 96 in abc2abc, and from 103 to 8 in abcjs. The remaining messages require separate review.
+
+See the [character offsets and code points](checks/written-whitespace-edits.json), [playback checks](checks/written-whitespace-playback.json), and [diagnostic comparison](checks/spacing-diagnostics.json). Setting 57220 needs further review because removing its direction marks changed abcjs timing. The broken-rhythm candidates also need stronger evidence of a transcription error.
+
 ## Tuplet punctuation and numeric labels
 
 Corrected 71 notation defects in 20 settings of 18 tunes. Removed 66 unmatched closing parentheses after tuplet numbers, removed two empty tuplet fields, and repaired three numeric labels split across source lines.

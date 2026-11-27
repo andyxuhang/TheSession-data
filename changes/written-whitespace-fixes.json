@@ -1,0 +1,2944 @@
+{
+  "base_commit": "cc731825ab2ec6bbe702b3fc4edf60d5cdfa16dd",
+  "method": "Unicode layout normalization outside annotations with unchanged playback in independent parsers",
+  "scanner_sha256": "495c269c2748ecdcb025558ca876b8ea96c58bdc00af9c6a7ee598316c8c61e0",
+  "corrections": [
+    {
+      "setting_id": "56596",
+      "tune_id": "84",
+      "name": "Rakes Of Kildare, The",
+      "original_contributor": "Jammin’Cellist",
+      "source_url": "https://thesession.org/tunes/84#setting56596",
+      "category": "unicode_spacing",
+      "before_abc": "D|:EAA AGA |Bcd e2f |gfg ege|dBGA2D|\r\n EAA AGA |Bcd e2f|gfe dBG|1 A3A2D:|2 A3A2A\r\n|:‎{B‎}AEA ‎{B‎} AEA|‎{B‎} AEA B2A |GFG EGE|\r\n[1DB,G, A,2 A‎|{B‎}AEA ‎{B‎} AEA|‎{B‎} AEA B2A|GFE DB,G,|A,3A,2A:|\r\n[2DB,G, A,2D|EAA AGA |Bcd e2f|gfe dBG|A3A3|",
+      "after_abc": "D|:EAA AGA |Bcd e2f |gfg ege|dBGA2D|\r\n EAA AGA |Bcd e2f|gfe dBG|1 A3A2D:|2 A3A2A\r\n|:{B‎}AEA {B‎} AEA|{B‎} AEA B2A |GFG EGE|\r\n[1DB,G, A,2 A|{B‎}AEA {B‎} AEA|{B‎} AEA B2A|GFE DB,G,|A,3A,2A:|\r\n[2DB,G, A,2D|EAA AGA |Bcd e2f|gfe dBG|A3A3|",
+      "before_sha256": "f5af7e2d5efbc742cd9a7fd2d91cd2ffd958655e36c26dfc8907daf6e091dfa5",
+      "after_sha256": "282eca581ad5dc1e5de25d514da3ec993e166db76b9c446d1a68c74b433b5f1a",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 84,
+          "end": 85,
+          "text": "",
+          "codepoint": "U+200E",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56596",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 12,
+            "after_warnings": 6,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 93,
+          "end": 94,
+          "text": "",
+          "codepoint": "U+200E",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56596",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 12,
+            "after_warnings": 6,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 103,
+          "end": 104,
+          "text": "",
+          "codepoint": "U+200E",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56596",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 12,
+            "after_warnings": 6,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 141,
+          "end": 142,
+          "text": "",
+          "codepoint": "U+200E",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56596",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 12,
+            "after_warnings": 6,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 151,
+          "end": 152,
+          "text": "",
+          "codepoint": "U+200E",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56596",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 12,
+            "after_warnings": 6,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 161,
+          "end": 162,
+          "text": "",
+          "codepoint": "U+200E",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56596",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 12,
+            "after_warnings": 6,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 84,
+          "end": 85,
+          "text": ""
+        },
+        {
+          "start": 93,
+          "end": 94,
+          "text": ""
+        },
+        {
+          "start": 103,
+          "end": 104,
+          "text": ""
+        },
+        {
+          "start": 141,
+          "end": 142,
+          "text": ""
+        },
+        {
+          "start": 151,
+          "end": 152,
+          "text": ""
+        },
+        {
+          "start": 161,
+          "end": 162,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "56597",
+      "tune_id": "85",
+      "name": "Rakes Of Mallow, The",
+      "original_contributor": "Jammin’Cellist",
+      "source_url": "https://thesession.org/tunes/85#setting56597",
+      "category": "unicode_spacing",
+      "before_abc": "|:‎(3(D/E/F)/|G/G/B/G/ G/c/G/G/ |B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/|A/F/F/B/ F/F/A/F/|\r\nG/G/B/G/ G/c/G/G/ | B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/ |[GB‎]‎[G/B/‎][G/B‎] [GB‎]:|\r\n|:‎(3(d/e/f)/|g/f/g/f/ ed |G/A/B/c/ d>e|g>f ed|ea a>f|\r\ng/f/g/f/ ed |G/A/B/c/ d>B|c/B/A/G/ F/G/A/c/| BG G:|",
+      "after_abc": "|:(3(D/E/F)/|G/G/B/G/ G/c/G/G/ |B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/|A/F/F/B/ F/F/A/F/|\r\nG/G/B/G/ G/c/G/G/ | B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/ |[GB][G/B/][G/B] [GB]:|\r\n|:(3(d/e/f)/|g/f/g/f/ ed |G/A/B/c/ d>e|g>f ed|ea a>f|\r\ng/f/g/f/ ed |G/A/B/c/ d>B|c/B/A/G/ F/G/A/c/| BG G:|",
+      "before_sha256": "4dd1ebe5954163131f75e99bccb6e04355f6f215029b35a5ea53044e1b3a24f9",
+      "after_sha256": "5ad68c10e4a33fbf15ca61b6266764687fd0f5b65b4a51b50a73ed72beae19a6",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 2,
+          "end": 3,
+          "text": "",
+          "codepoint": "U+200E",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56597",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 13,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 151,
+          "end": 152,
+          "text": "",
+          "codepoint": "U+200E",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56597",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 13,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 153,
+          "end": 154,
+          "text": "",
+          "codepoint": "U+200E",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56597",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 13,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 159,
+          "end": 160,
+          "text": "",
+          "codepoint": "U+200E",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56597",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 13,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 165,
+          "end": 166,
+          "text": "",
+          "codepoint": "U+200E",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56597",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 13,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 171,
+          "end": 172,
+          "text": "",
+          "codepoint": "U+200E",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56597",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 13,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 179,
+          "end": 180,
+          "text": "",
+          "codepoint": "U+200E",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56597",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 13,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": ""
+        },
+        {
+          "start": 151,
+          "end": 152,
+          "text": ""
+        },
+        {
+          "start": 153,
+          "end": 154,
+          "text": ""
+        },
+        {
+          "start": 159,
+          "end": 160,
+          "text": ""
+        },
+        {
+          "start": 165,
+          "end": 166,
+          "text": ""
+        },
+        {
+          "start": 171,
+          "end": 172,
+          "text": ""
+        },
+        {
+          "start": 179,
+          "end": 180,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "56743",
+      "tune_id": "281",
+      "name": "Master Crowley's",
+      "original_contributor": "Mat (aka kazooMaster)",
+      "source_url": "https://thesession.org/tunes/281#setting56743",
+      "category": "unicode_spacing",
+      "before_abc": "B,E3 B,EGF | E(GFE) ^CEA,D | B,E3 B,EB,E | DFB(F F)EEF | \r\n(GFE)D B,EFE | ED(A,G, A,)DFD | B,EFE B,EFE | DFB(F F)EED | \r\nB,E3 BEGF | E(CB,A,) CB,A,C | B,E3 B,EB,E | DEBF FEEF | \r\nGFED (B,4 | B,)(A,A,G,) A,(DFD) | B,EFE B,EFE | DFBA FEED| \r\n|: Ebga fgeg | fdad bdfd | Bbge f3e | dBAF EC B,2 | \r\nEbga fgeg | fdad bdfd | EFGA B2dB | AFDE FEED :|",
+      "after_abc": "B,E3 B,EGF | E(GFE) ^CEA,D | B,E3 B,EB,E | DFB(F F)EEF | \r\n(GFE)D B,EFE | ED(A,G, A,)DFD | B,EFE B,EFE | DFB(F F)EED | \r\nB,E3 BEGF | E(CB,A,) CB,A,C | B,E3 B,EB,E | DEBF FEEF | \r\nGFED (B,4 | B,)(A,A,G,) A,(DFD) | B,EFE B,EFE | DFBA FEED| \r\n|: Ebga fgeg | fdad bdfd | Bbge f3e | dBAF EC B,2 | \r\nEbga fgeg | fdad bdfd | EFGA B2dB | AFDE FEED :|",
+      "before_sha256": "a58013bcb16821542b8b040318115c4a0ae605e05de4384c4b35221eb14736e1",
+      "after_sha256": "dbf442b0fc2054f7a23dd047a4feae150bf516e2cb94d6db05a89ffbf544f4b3",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 132,
+          "end": 133,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56743",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 164,
+          "end": 165,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56743",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 176,
+          "end": 177,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56743",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 212,
+          "end": 213,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56743",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 226,
+          "end": 227,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "56743",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 132,
+          "end": 133,
+          "text": " "
+        },
+        {
+          "start": 164,
+          "end": 165,
+          "text": " "
+        },
+        {
+          "start": 176,
+          "end": 177,
+          "text": " "
+        },
+        {
+          "start": 212,
+          "end": 213,
+          "text": " "
+        },
+        {
+          "start": 226,
+          "end": 227,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "57345",
+      "tune_id": "537",
+      "name": "Creel Of Turf, The",
+      "original_contributor": "wileydogger",
+      "source_url": "https://thesession.org/tunes/537#setting57345",
+      "category": "unicode_spacing",
+      "before_abc": "|: EBB BAG | FAA AFD | EBB Bcd | AGF E2D | \r\nEBB BAG | FAA ABc |d2B B=cB |1 AGF E2D:|2 AGF E2A ||\r\n|: Bee ede | fdd dBA | Bee ede |fdd d2A | \r\nBee ede | fdd dBA | B=cB B=cB|1 AGF E2A :|2 AGF E3 ||",
+      "after_abc": "|: EBB BAG | FAA AFD | EBB Bcd | AGF E2D | \r\nEBB BAG | FAA ABc |d2B B=cB |1 AGF E2D:|2 AGF E2A ||\r\n|: Bee ede | fdd dBA | Bee ede |fdd d2A | \r\nBee ede | fdd dBA | B=cB B=cB|1 AGF E2A :|2 AGF E3 ||",
+      "before_sha256": "0e2aec1b798c26374813a855a40928863d737a44ebf4d472ac0ef468731d2a71",
+      "after_sha256": "9213336623da6c1fe57aa5d188615fc1fbe1addc436d0217aeab4238c505d1fc",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 182,
+          "end": 183,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "57345",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 182,
+          "end": 183,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "36554",
+      "tune_id": "1150",
+      "name": "Gigue Des Sucres",
+      "original_contributor": "earle",
+      "source_url": "https://thesession.org/tunes/1150#setting36554",
+      "category": "unicode_spacing",
+      "before_abc": "|:G|\"G\"D2G D2G|DGA B3|\"Am\"cBc \"D7\"ABc|\"G\"e2d B2G|\r\n\"G\"D2G D2G|DGA B3|\"Am\"cBc \"D7\"DEF|1 \"G\"GBA G2 :|2 \"G\"GBA G2||\r\n|:d|\"G\"g3 \"D\"f3|\"C\"ece \"G\"d3|\"Am\"cBc \"D7\"ABc|\"G\"e2 d B2 d|\r\n\"G\"g3 \"D\"f3|\"C\"ece \"G\"d3|\"Am\"cBc \"D7\"DEF|1 \"G\"GBA G2 :|2 \"G\"GBA G3||",
+      "after_abc": "|:G|\"G\"D2G D2G|DGA B3|\"Am\"cBc \"D7\"ABc|\"G\"e2d B2G|\r\n\"G\"D2G D2G|DGA B3|\"Am\"cBc \"D7\"DEF|1 \"G\"GBA G2 :|2 \"G\"GBA G2||\r\n|:d|\"G\"g3 \"D\"f3|\"C\"ece \"G\"d3|\"Am\"cBc \"D7\"ABc|\"G\"e2 d B2 d|\r\n\"G\"g3 \"D\"f3|\"C\"ece \"G\"d3|\"Am\"cBc \"D7\"DEF|1 \"G\"GBA G2 :|2 \"G\"GBA G3||",
+      "before_sha256": "e3e7cdeecadd09a7b5d3179229cebc33c8f46532f4d541b5bb4efb83c5345dd6",
+      "after_sha256": "b7655ec05cee031253d6296093995ad8ebc1d47219564bd14eb97bb8da033db4",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 96,
+          "end": 97,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "36554",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 226,
+          "end": 227,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "36554",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 96,
+          "end": 97,
+          "text": " "
+        },
+        {
+          "start": 226,
+          "end": 227,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "57210",
+      "tune_id": "1770",
+      "name": "Donegal Tinker, The",
+      "original_contributor": "bensdad",
+      "source_url": "https://thesession.org/tunes/1770#setting57210",
+      "category": "unicode_spacing",
+      "before_abc": "Addc AGEG|Addc (3ABA GB|ADdc Ad=cA|G=cAG EDEG|\r\nAdde fddc|Addc AG ~G2|A2 dc Ad=cA|G=cAG EDEG||\r\nAD ~D2 D2 FG|~A3 B =cABG|AB=cA GDEG|Ad=cA GDFG|\r\nAD ~D2 dD ~D2|AGAB BAAG|AB=cA G2 AG|Ad=cA GDEG||\r\nd3 B =c3 A|dAAf afge|d2 ed cA ~A2|(3Bcd ef gafe|\r\nd2 ed =cB=cA|dAAf afge|d2 ed cA ~A2|(3Bcd ef gefg||\r\n|:afdf ~a2 bg|afdf adfg|afdf bgaf|e^def gefg|\r\nafdf ~a2 bg|afdf adfg|~a3 g e‎=fed|(3Bcd ef gefg:||",
+      "after_abc": "Addc AGEG|Addc (3ABA GB|ADdc Ad=cA|G=cAG EDEG|\r\nAdde fddc|Addc AG ~G2|A2 dc Ad=cA|G=cAG EDEG||\r\nAD ~D2 D2 FG|~A3 B =cABG|AB=cA GDEG|Ad=cA GDFG|\r\nAD ~D2 dD ~D2|AGAB BAAG|AB=cA G2 AG|Ad=cA GDEG||\r\nd3 B =c3 A|dAAf afge|d2 ed cA ~A2|(3Bcd ef gafe|\r\nd2 ed =cB=cA|dAAf afge|d2 ed cA ~A2|(3Bcd ef gefg||\r\n|:afdf ~a2 bg|afdf adfg|afdf bgaf|e^def gefg|\r\nafdf ~a2 bg|afdf adfg|~a3 g e=fed|(3Bcd ef gefg:||",
+      "before_sha256": "fa4eba723e335f96c2b6bf82e0e4b4c27eb8975441169bc1963672545bfe9629",
+      "after_sha256": "25d6b2727fd3b931271ef0acdc5722637e6d4830d938bc0020f274bd90874cd1",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 374,
+          "end": 375,
+          "text": "",
+          "codepoint": "U+200E",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "57210",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 374,
+          "end": 375,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "45615",
+      "tune_id": "2031",
+      "name": "Champion, The",
+      "original_contributor": "Moxhe",
+      "source_url": "https://thesession.org/tunes/2031#setting45615",
+      "category": "unicode_spacing",
+      "before_abc": "|:Bc|d^cde d=cBA|GFGA BGDB,|CEGc B,DGB|(3ABA (3GFE D2 Bc|\r\nd^cde d=cBA|GFGA BGDB,|CEGc BAGB|(3ABA GF G2 :|\r\nK: Dmaj\r\n|:FG|Adcd fedc|Be^de gfe=d|ca^ga ba=ge|(3dfe (3dcB A2 FG|\r\nAdcd fedc|Be^de gfe=d|ca^ga b=gec|(3dcd ec d2 :|",
+      "after_abc": "|:Bc|d^cde d=cBA|GFGA BGDB,|CEGc B,DGB|(3ABA (3GFE D2 Bc|\r\nd^cde d=cBA|GFGA BGDB,|CEGc BAGB|(3ABA GF G2 :|\r\nK: Dmaj\r\n|:FG|Adcd fedc|Be^de gfe=d|ca^ga ba=ge|(3dfe (3dcB A2 FG|\r\nAdcd fedc|Be^de gfe=d|ca^ga b=gec|(3dcd ec d2 :|",
+      "before_sha256": "172c59655b5b90e42841d337755128c996653bc10cd38e31f70c8377b83e597d",
+      "after_sha256": "ed01417d414aa8829eb483f1f1f17237d9bdeb0cb2d31224d5e0f05fc26bc6a0",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 103,
+          "end": 104,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "45615",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 221,
+          "end": 222,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "45615",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 103,
+          "end": 104,
+          "text": " "
+        },
+        {
+          "start": 221,
+          "end": 222,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "42095",
+      "tune_id": "2327",
+      "name": "Johnny Cope",
+      "original_contributor": "jamesa",
+      "source_url": "https://thesession.org/tunes/2327#setting42095",
+      "category": "unicode_spacing",
+      "before_abc": "|:EA AB/d/ |g/e/d/B/ c/B/A/G/|EG G/F/G/A/|B/c/d/B/ c/B/A/G/|\r\nEA AB|c/B/c/d/ e/g/e/d/|Ba g/f/e/d/|1 BA A/B/A/G/:|2 BA A>B||\r\n|:Aa Aa|Aa g/f/e/d/|Bg Bg|Bg gf/g/|\r\nea af|gf/g/ ed|Ba g/f/e/d/|1 BA A>B:|2 BA A/B/A/G/||",
+      "after_abc": "|:EA AB/d/ |g/e/d/B/ c/B/A/G/|EG G/F/G/A/|B/c/d/B/ c/B/A/G/|\r\nEA AB|c/B/c/d/ e/g/e/d/|Ba g/f/e/d/|1 BA A/B/A/G/:|2 BA A>B||\r\n|:Aa Aa|Aa g/f/e/d/|Bg Bg|Bg gf/g/|\r\nea af|gf/g/ ed|Ba g/f/e/d/|1 BA A>B:|2 BA A/B/A/G/||",
+      "before_sha256": "7604336ed71d0741248962f3cdbed5abc2f450e628d24b7f521eb19563c97c9a",
+      "after_sha256": "97849721313a2e8e3855c8c3ee3295a11f2f0e33a949ba33138cb3c733467607",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 10,
+          "end": 11,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "42095",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 10,
+          "end": 11,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "44458",
+      "tune_id": "2481",
+      "name": "Thornton, The",
+      "original_contributor": "Nicolastille",
+      "source_url": "https://thesession.org/tunes/2481#setting44458",
+      "category": "unicode_spacing",
+      "before_abc": "|: \"A\" c2A ABA|d2e fed|c2A ABA|\"G\" B2g gdB|\r\n\"A\" c2A ABA|d2e fec|\"G\" d2f \"A\" c2e|\"G\" B2g gdB:|\r\n|:\"A\" c2e efe|efg aed|c2e efe|\"G\" B2g gdB|\"A\" c2e efe|\r\nefg aec|1 \"G\" dfd \"A\" cac|\"G\" B2g gdB:|2 \"G\"d2f \"A\"c2a|\"G\"B2g gdB||",
+      "after_abc": "|: \"A\" c2A ABA|d2e fed|c2A ABA|\"G\" B2g gdB|\r\n\"A\" c2A ABA|d2e fec|\"G\" d2f \"A\" c2e|\"G\" B2g gdB:|\r\n|:\"A\" c2e efe|efg aed|c2e efe|\"G\" B2g gdB|\"A\" c2e efe|\r\nefg aec|1 \"G\" dfd \"A\" cac|\"G\" B2g gdB:|2 \"G\"d2f \"A\"c2a|\"G\"B2g gdB||",
+      "before_sha256": "5266b48a4d21b5620a72a6a0b2c8472b1b4734b8cdacc0c422e78b5c7b901d5a",
+      "after_sha256": "c3d6e7c6bc41f4a49960c12893db0a988530a3f2ab4b35526287200e8769b877",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 2,
+          "end": 3,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "44458",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "48618",
+      "tune_id": "4587",
+      "name": "Aires De Pontevedra",
+      "original_contributor": "GoPlayer",
+      "source_url": "https://thesession.org/tunes/4587#setting48618",
+      "category": "unicode_spacing",
+      "before_abc": "|:EF|GFGE FDEF|GFGE FDEF|AFGE FDEF|GFGE FDFA|\r\n=c4 cBce|d=cBA GFGA|G4 GDGA|d=cBA GFGA|\r\nF2FD FDFA|d=cBA GFGA|E4 FAFD|FAFD EGEC| [M:3/2] E2A2 D4 D2:|\r\nM:4/4\r\n|:A2|d2A2 F2GA|BAGF E3F|GAGF E2FG|AGFE D2A2|\r\nd2A2 F2GA|BAGF E3F|[M:5/2] GFGA BAFD AGEC D4 D2:|",
+      "after_abc": "|:EF|GFGE FDEF|GFGE FDEF|AFGE FDEF|GFGE FDFA|\r\n=c4 cBce|d=cBA GFGA|G4 GDGA|d=cBA GFGA|\r\nF2FD FDFA|d=cBA GFGA|E4 FAFD|FAFD EGEC| [M:3/2] E2A2 D4 D2:|\r\nM:4/4\r\n|:A2|d2A2 F2GA|BAGF E3F|GAGF E2FG|AGFE D2A2|\r\nd2A2 F2GA|BAGF E3F|[M:5/2] GFGA BAFD AGEC D4 D2:|",
+      "before_sha256": "3e77aa4972ba6264e9ca0b16e0d3f3df744ae2cac37127025f77c90b4d9064f6",
+      "after_sha256": "715bbf183154dd0f69ece229c3874b7b888da5c36389e2aeb6f183189bf4ebec",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 127,
+          "end": 128,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "48618",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 127,
+          "end": 128,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "57288",
+      "tune_id": "5353",
+      "name": "Over The Waterfall",
+      "original_contributor": "Jammin’Cellist",
+      "source_url": "https://thesession.org/tunes/5353#setting57288",
+      "category": "unicode_spacing",
+      "before_abc": "|:e2|f2af gfe2|d2B2 A3e|f2af gfe2|[f4d4‎] [f2d2]e2|\r\nf2af gfe2|d2B2 A3B|=c3c B2A2|G4 G2:|\r\n|:(3(DEF)|A2A2 B2B2|ABAG FDFA|d3d c2e2|[d4F4][d2F2] (3(DEF)|\r\nA2A2 B2B2|ABAG FDFG|A3A GFE2|D4 D2:|",
+      "after_abc": "|:e2|f2af gfe2|d2B2 A3e|f2af gfe2|[f4d4] [f2d2]e2|\r\nf2af gfe2|d2B2 A3B|=c3c B2A2|G4 G2:|\r\n|:(3(DEF)|A2A2 B2B2|ABAG FDFA|d3d c2e2|[d4F4][d2F2] (3(DEF)|\r\nA2A2 B2B2|ABAG FDFG|A3A GFE2|D4 D2:|",
+      "before_sha256": "d40c08a6c0b1375ea7c41f3c5d24db4a95a164b6dd4dcd439aab9eaa48da917b",
+      "after_sha256": "dbc2e2f53292310ef16ac10a10c3b216d9bf761f1bd0a27a7586e1324254770b",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 39,
+          "end": 40,
+          "text": "",
+          "codepoint": "U+200E",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "57288",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 39,
+          "end": 40,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "setting_id": "17649",
+      "tune_id": "5616",
+      "name": "Japanese, The",
+      "original_contributor": "Phantom Button",
+      "source_url": "https://thesession.org/tunes/5616#setting17649",
+      "category": "unicode_spacing",
+      "before_abc": "cd|:(3efe ^de =de c2|(3BcB AB GB F2|EFGA Bcde|fe^de c2  c=d|\r\n(3efe ^de =de c2|(3BcB AB GB F2|EFGA Bcde|1 (3gfe (3dcB A2 cd:|2 (3gfe (3dcB A2||\r\nea|:c'e c'4(3eac'|e'2 bab2 eg|be b4 (3egb|e'2  aga2 ea|c'e c'4(3eac'|\r\ne'2 bab2 ea|gagf (3efe (3dcB|1 AcBG A2 ea:|2 AcBG A2||",
+      "after_abc": "cd|:(3efe ^de =de c2|(3BcB AB GB F2|EFGA Bcde|fe^de c2  c=d|\r\n(3efe ^de =de c2|(3BcB AB GB F2|EFGA Bcde|1 (3gfe (3dcB A2 cd:|2 (3gfe (3dcB A2||\r\nea|:c'e c'4(3eac'|e'2 bab2 eg|be b4 (3egb|e'2  aga2 ea|c'e c'4(3eac'|\r\ne'2 bab2 ea|gagf (3efe (3dcB|1 AcBG A2 ea:|2 AcBG A2||",
+      "before_sha256": "0065e5da848a4aa12b8f710156435256a51e61d9355e85b8b70ad9a83708d6ab",
+      "after_sha256": "a597dec7b6dc8eb0082d95d8b41c80f270f11ee60b35db323af2bb4d3ab1118a",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 54,
+          "end": 55,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "17649",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 166,
+          "end": 167,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "17649",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 190,
+          "end": 191,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "17649",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 219,
+          "end": 220,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "17649",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 54,
+          "end": 55,
+          "text": " "
+        },
+        {
+          "start": 166,
+          "end": 167,
+          "text": " "
+        },
+        {
+          "start": 190,
+          "end": 191,
+          "text": " "
+        },
+        {
+          "start": 219,
+          "end": 220,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "21838",
+      "tune_id": "10481",
+      "name": "I Will Go Home To Kintail",
+      "original_contributor": "Stanton Rayson",
+      "source_url": "https://thesession.org/tunes/10481#setting21838",
+      "category": "unicode_spacing",
+      "before_abc": "B4 c<d e2 A4  f3e d2 e2 A4  |B4 c<d e2 A4  e4 e<d B4 B<A G4  |\r\nB4 c<d e2 A4  f3e d2 e2 A4  |Bd3 B2 e4 d4 B2 B>B A4  ||\r\ng4  f2 e3  aa4  f2 e3 ff4  e2 d3 ee2 A4  |g4  f2 e3  aa4  f2 e3 ff4  e2 d3 BB4  A2 G4  |\r\ng4  f2 e3  aa4  f2 e3 ff4  e2 d3 ee2 A4  |Bd3 B2 e6  d4 B2 B>B A4  ||",
+      "after_abc": "B4 c<d e2 A4  f3e d2 e2 A4  |B4 c<d e2 A4  e4 e<d B4 B<A G4  |\r\nB4 c<d e2 A4  f3e d2 e2 A4  |Bd3 B2 e4 d4 B2 B>B A4  ||\r\ng4  f2 e3  aa4  f2 e3 ff4  e2 d3 ee2 A4  |g4  f2 e3  aa4  f2 e3 ff4  e2 d3 BB4  A2 G4  |\r\ng4  f2 e3  aa4  f2 e3 ff4  e2 d3 ee2 A4  |Bd3 B2 e6  d4 B2 B>B A4  ||",
+      "before_sha256": "66edf820fef06ba350bfa9d692465ca51841cb51d815566888a9cb02a2a83870",
+      "after_sha256": "c5971887767d8a42b3e41ab22f02b858fb12f7e1cac37b2bb8d3d610ffeb5a7d",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 13,
+          "end": 14,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 27,
+          "end": 28,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 42,
+          "end": 43,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 60,
+          "end": 61,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 77,
+          "end": 78,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 91,
+          "end": 92,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 116,
+          "end": 117,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 124,
+          "end": 125,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 131,
+          "end": 132,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 136,
+          "end": 137,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 147,
+          "end": 148,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 161,
+          "end": 162,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 166,
+          "end": 167,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 173,
+          "end": 174,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 178,
+          "end": 179,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 189,
+          "end": 190,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 200,
+          "end": 201,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 207,
+          "end": 208,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 214,
+          "end": 215,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 221,
+          "end": 222,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 226,
+          "end": 227,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 237,
+          "end": 238,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 251,
+          "end": 252,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 263,
+          "end": 264,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 277,
+          "end": 278,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21838",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 25,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 13,
+          "end": 14,
+          "text": " "
+        },
+        {
+          "start": 27,
+          "end": 28,
+          "text": " "
+        },
+        {
+          "start": 42,
+          "end": 43,
+          "text": " "
+        },
+        {
+          "start": 60,
+          "end": 61,
+          "text": " "
+        },
+        {
+          "start": 77,
+          "end": 78,
+          "text": " "
+        },
+        {
+          "start": 91,
+          "end": 92,
+          "text": " "
+        },
+        {
+          "start": 116,
+          "end": 117,
+          "text": " "
+        },
+        {
+          "start": 124,
+          "end": 125,
+          "text": " "
+        },
+        {
+          "start": 131,
+          "end": 132,
+          "text": " "
+        },
+        {
+          "start": 136,
+          "end": 137,
+          "text": " "
+        },
+        {
+          "start": 147,
+          "end": 148,
+          "text": " "
+        },
+        {
+          "start": 161,
+          "end": 162,
+          "text": " "
+        },
+        {
+          "start": 166,
+          "end": 167,
+          "text": " "
+        },
+        {
+          "start": 173,
+          "end": 174,
+          "text": " "
+        },
+        {
+          "start": 178,
+          "end": 179,
+          "text": " "
+        },
+        {
+          "start": 189,
+          "end": 190,
+          "text": " "
+        },
+        {
+          "start": 200,
+          "end": 201,
+          "text": " "
+        },
+        {
+          "start": 207,
+          "end": 208,
+          "text": " "
+        },
+        {
+          "start": 214,
+          "end": 215,
+          "text": " "
+        },
+        {
+          "start": 221,
+          "end": 222,
+          "text": " "
+        },
+        {
+          "start": 226,
+          "end": 227,
+          "text": " "
+        },
+        {
+          "start": 237,
+          "end": 238,
+          "text": " "
+        },
+        {
+          "start": 251,
+          "end": 252,
+          "text": " "
+        },
+        {
+          "start": 263,
+          "end": 264,
+          "text": " "
+        },
+        {
+          "start": 277,
+          "end": 278,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "21896",
+      "tune_id": "12520",
+      "name": "Cad E Sin Don Te Sin",
+      "original_contributor": "P I",
+      "source_url": "https://thesession.org/tunes/12520#setting21896",
+      "category": "unicode_spacing",
+      "before_abc": "[V:F1] E|\"Em\" E>G/F \"D\"EDE|\"A\" G>A/ B/G/ \"C\" A2 G/A/|\"Em\" BeB \"C\" cBA|\"Em\" G>E/ E \"D\" D2 D|\r\n\"Em\" E>G/F EDE|\"G\" G>A/ B/G/ \"D\" A2 G/A/|\"Em\" BeB \"Am\" cBA|\"Em\" GE\"D\"D \"Em\" E2 D|\r\n\"Em\" E>G/F EDE|\"G\" G>A/ B/G/ \"D\" A2 G/A/|\"Em\" BeB \"Am\" cBA|\"Em\" GEE \"D\" D2 d|\r\n\"Em\" e>g/f ede|\"G\" g>f/e \"D\" f2 e/f/|\"Em\" gab \"Am\" agf|\"Em\" e2\"D\"d \"Em\" e2||\r\n[V:F2] z|z6 |z6 |z6 |z3 z2 F|\r\nG2A GFG|BAG F3|G3 c3|BGF G2 F|\r\nG2A GFG|BAG F3|G3 c3|B2 G F2 F|\r\nG2A GFG|BAG F3|G3 c3|BGF G2||",
+      "after_abc": "[V:F1] E|\"Em\" E>G/F \"D\"EDE|\"A\" G>A/ B/G/ \"C\" A2 G/A/|\"Em\" BeB \"C\" cBA|\"Em\" G>E/ E \"D\" D2 D|\r\n\"Em\" E>G/F EDE|\"G\" G>A/ B/G/ \"D\" A2 G/A/|\"Em\" BeB \"Am\" cBA|\"Em\" GE\"D\"D \"Em\" E2 D|\r\n\"Em\" E>G/F EDE|\"G\" G>A/ B/G/ \"D\" A2 G/A/|\"Em\" BeB \"Am\" cBA|\"Em\" GEE \"D\" D2 d|\r\n\"Em\" e>g/f ede|\"G\" g>f/e \"D\" f2 e/f/|\"Em\" gab \"Am\" agf|\"Em\" e2\"D\"d \"Em\" e2||\r\n[V:F2] z|z6 |z6 |z6 |z3 z2 F|\r\nG2A GFG|BAG F3|G3 c3|BGF G2 F|\r\nG2A GFG|BAG F3|G3 c3|B2 G F2 F|\r\nG2A GFG|BAG F3|G3 c3|BGF G2||",
+      "before_sha256": "dcee091b4d886a5722a701831f17f090a2b440e83cd94a478ca30f7555b605c1",
+      "after_sha256": "934e150fc3dfa457e62bcab1446c0913940d40df0b2567ea5128f9a369d776c8",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 344,
+          "end": 345,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21896",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 348,
+          "end": 349,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21896",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 352,
+          "end": 353,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21896",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 344,
+          "end": 345,
+          "text": " "
+        },
+        {
+          "start": 348,
+          "end": 349,
+          "text": " "
+        },
+        {
+          "start": 352,
+          "end": 353,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "21897",
+      "tune_id": "12520",
+      "name": "Cad E Sin Don Te Sin",
+      "original_contributor": "P I",
+      "source_url": "https://thesession.org/tunes/12520#setting21897",
+      "category": "unicode_spacing",
+      "before_abc": "[V:F1] E2|\"Em\" E2 > G F2|\"D\"E2 D2 E2|\"A\" G2 > A BG|\"C\" A4 GA|\"Em\" B2 e2 B2|\"C\" c2 B2 A2|\"Em\" G2>E E2 |\"D\" D4 D2|\r\n\"Em\" E2 > G F2|E2 D2 E2|\"G\" G2 > A BG|\"D\" A4 GA|\"Em\" B2 e2 B2|\"Am\" c2 B2 A2|\"Em\" G2 E2 \"D\" D2|\"Em\" E4 D2|\r\n\"Em\" E2 > G F2|E2 D2 E2|\"G\" G2 >A BG|\"D\" A4 GA|\"Em\" B2 e2 B2|\"Am\" c2 B2 A2|\"Em\" G2 E2 E2|\"D\" D4 d2|\r\n\"Em\" e2>g f2|e2 d2 e2|\"G\" g2>f e2|\"D\" f4 ef|\"Em\" g2 a2 b2|\"Am\" a2 g2 f2|\"Em\" e4\"D\"d2|\"Em\" e4||\r\n[V:F2] z2|z6|z6|z6|z6|z6|z6|z6|z4 F2|\r\nG4 A2|G2 F2 G2|B2 A2 G2|F6|G6|c6|B2 G2 F2|G4 F2|\r\nG4 A2|G2 F2 G2|B2 A2 G2|F6|G6 |c6|B4 G2|F4 F2|\r\nG4 A2|G2 F2 G2|B2 A2 G2|F6|G6|c6|B2 G2 F2|G4||",
+      "after_abc": "[V:F1] E2|\"Em\" E2 > G F2|\"D\"E2 D2 E2|\"A\" G2 > A BG|\"C\" A4 GA|\"Em\" B2 e2 B2|\"C\" c2 B2 A2|\"Em\" G2>E E2 |\"D\" D4 D2|\r\n\"Em\" E2 > G F2|E2 D2 E2|\"G\" G2 > A BG|\"D\" A4 GA|\"Em\" B2 e2 B2|\"Am\" c2 B2 A2|\"Em\" G2 E2 \"D\" D2|\"Em\" E4 D2|\r\n\"Em\" E2 > G F2|E2 D2 E2|\"G\" G2 >A BG|\"D\" A4 GA|\"Em\" B2 e2 B2|\"Am\" c2 B2 A2|\"Em\" G2 E2 E2|\"D\" D4 d2|\r\n\"Em\" e2>g f2|e2 d2 e2|\"G\" g2>f e2|\"D\" f4 ef|\"Em\" g2 a2 b2|\"Am\" a2 g2 f2|\"Em\" e4\"D\"d2|\"Em\" e4||\r\n[V:F2] z2|z6|z6|z6|z6|z6|z6|z6|z4 F2|\r\nG4 A2|G2 F2 G2|B2 A2 G2|F6|G6|c6|B2 G2 F2|G4 F2|\r\nG4 A2|G2 F2 G2|B2 A2 G2|F6|G6 |c6|B4 G2|F4 F2|\r\nG4 A2|G2 F2 G2|B2 A2 G2|F6|G6|c6|B2 G2 F2|G4||",
+      "before_sha256": "e4e4c964a3da4736cd9e0aec4089209bf591d2ad111c6780146101e047a4e2e8",
+      "after_sha256": "3c2524d974a686456972239d1e6e55d9b9f9134516ce4ae5cb648033319353bc",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 100,
+          "end": 101,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21897",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 536,
+          "end": 537,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "21897",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 100,
+          "end": 101,
+          "text": " "
+        },
+        {
+          "start": 536,
+          "end": 537,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "37428",
+      "tune_id": "13231",
+      "name": "Palatine's Daughter, The",
+      "original_contributor": "Proinnsias MacSleimhne",
+      "source_url": "https://thesession.org/tunes/13231#setting37428",
+      "category": "unicode_spacing",
+      "before_abc": "|:fg|a2b2g2a2|f2a2 g2fe|d3e fdec|dedc AGFG|\r\nAB (3cBA dcAG|FEFG AB (3cBA|dcdf edce|d2d2d2 :|\r\n(3ABc|d2e2f2g2|a3f defg|a2b2g2e2|f3e defg|\r\na2b2g2e2|fefa gefe|d3e fdec|dedc A2fg|\r\na2b2g2e2|f2a2 gefe|dcde fdec|dedc AGFG|\r\nAB (3cBA dcAG|FEFG AB (3cBA|dcdf edce|d2d2d2||",
+      "after_abc": "|:fg|a2b2g2a2|f2a2 g2fe|d3e fdec|dedc AGFG|\r\nAB (3cBA dcAG|FEFG AB (3cBA|dcdf edce|d2d2d2 :|\r\n(3ABc|d2e2f2g2|a3f defg|a2b2g2e2|f3e defg|\r\na2b2g2e2|fefa gefe|d3e fdec|dedc A2fg|\r\na2b2g2e2|f2a2 gefe|dcde fdec|dedc AGFG|\r\nAB (3cBA dcAG|FEFG AB (3cBA|dcdf edce|d2d2d2||",
+      "before_sha256": "9c1e286198d6efdeba239e8398919602cbad46128ff92c1aa4fe883802e92601",
+      "after_sha256": "6404862f118fc99b5c63f7770e7748b50b9fc04ab72d6e93180d9830cc968d9b",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 89,
+          "end": 90,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "37428",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 89,
+          "end": 90,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "30553",
+      "tune_id": "16181",
+      "name": "La Gueussinette",
+      "original_contributor": "ilariap",
+      "source_url": "https://thesession.org/tunes/16181#setting30553",
+      "category": "unicode_spacing",
+      "before_abc": "|:\"Bm\"B2 F2 B/c/d|B2 F4|BA Bc de|f6|\"Em\"g3 f eg|\"Bm\"f2 d2 B2|\"A/C#m(fl5)\" cB cd ed|\"F#m\"c4 dc|\r\n\"Bm\"B2 F2 B/c/d|B2 F3 F|BA Bc de|fd B3 f|\"Em\"gf ed e/f/g|\"Bm\"fd BF Bd|\"F#m\"cB ce dc|\"Bm\"B6 :|\r\n|:\"Em\"g3 f eg|\"Bm\"f2 d2 B2|\"G\"BA Bc \"A7\"de|\"D\"f6|\"Em\"g3 f e/f/g|\"Bm\"f2 d2 B2|\"A/C#m(fl5)\"cB cd ed|\"F#m\"c3 d ef|\r\n\"Em\"g3 f eg|\"Bm\"fd B3 F|\"G\"BA Bc \"A7\"de|\"D\" f6|\"Em\"ga bg eg|\"Bm\"fd BF B/c/d|\"F#m\"cB ce dc|\"Bm\"B6 :|",
+      "after_abc": "|:\"Bm\"B2 F2 B/c/d|B2 F4|BA Bc de|f6|\"Em\"g3 f eg|\"Bm\"f2 d2 B2|\"A/C#m(fl5)\" cB cd ed|\"F#m\"c4 dc|\r\n\"Bm\"B2 F2 B/c/d|B2 F3 F|BA Bc de|fd B3 f|\"Em\"gf ed e/f/g|\"Bm\"fd BF Bd|\"F#m\"cB ce dc|\"Bm\"B6 :|\r\n|:\"Em\"g3 f eg|\"Bm\"f2 d2 B2|\"G\"BA Bc \"A7\"de|\"D\"f6|\"Em\"g3 f e/f/g|\"Bm\"f2 d2 B2|\"A/C#m(fl5)\"cB cd ed|\"F#m\"c3 d ef|\r\n\"Em\"g3 f eg|\"Bm\"fd B3 F|\"G\"BA Bc \"A7\"de|\"D\" f6|\"Em\"ga bg eg|\"Bm\"fd BF B/c/d|\"F#m\"cB ce dc|\"Bm\"B6 :|",
+      "before_sha256": "dc0749b66bf81e3d48f172ce4964b638ed96ce135f36da8c3fd1e1ee99680d86",
+      "after_sha256": "404abdb9fcd80b85fa0b400644b3f84909929f9309dbb1e4a55a87ded2e09e59",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 186,
+          "end": 187,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "30553",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 400,
+          "end": 401,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "30553",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 186,
+          "end": 187,
+          "text": " "
+        },
+        {
+          "start": 400,
+          "end": 401,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "31437",
+      "tune_id": "16550",
+      "name": "Am Monadh Ruadh",
+      "original_contributor": "Vivien Denis",
+      "source_url": "https://thesession.org/tunes/16550#setting31437",
+      "category": "unicode_spacing",
+      "before_abc": "|:E2 GB e3 d| de A2 AGAB  |G2 Bd g3 f|fgag ffBd|e2 dB e2 dB|\r\nA2 AB ED D2|1 G6 AG|F3 A FAFD:|2 G3 A F2 ED|E4 z ABd||\r\ne4-edgf|d2 d2-dABd|gfdB e2 dB|de z E- EABd|e2 dB e2 dB|\r\nA2 AB ED D2|1 G6 AG| F3 A FABd:|2 G3 A F2 ED|E8||",
+      "after_abc": "|:E2 GB e3 d| de A2 AGAB  |G2 Bd g3 f|fgag ffBd|e2 dB e2 dB|\r\nA2 AB ED D2|1 G6 AG|F3 A FAFD:|2 G3 A F2 ED|E4 z ABd||\r\ne4-edgf|d2 d2-dABd|gfdB e2 dB|de z E- EABd|e2 dB e2 dB|\r\nA2 AB ED D2|1 G6 AG| F3 A FABd:|2 G3 A F2 ED|E8||",
+      "before_sha256": "e4b0aff72c21e4af1286bbf0b68914cfe191b82c0f89e6f16baff6475ea17e25",
+      "after_sha256": "be27bce164e88b2425b0da4dce4b2f530e19299c1f63c737fec115b782831d4f",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 13,
+          "end": 14,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "31437",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 25,
+          "end": 26,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "31437",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 13,
+          "end": 14,
+          "text": " "
+        },
+        {
+          "start": 25,
+          "end": 26,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "42139",
+      "tune_id": "16988",
+      "name": "Fahey's Bouncy Boat",
+      "original_contributor": "Casper Davey",
+      "source_url": "https://thesession.org/tunes/16988#setting42139",
+      "category": "unicode_spacing",
+      "before_abc": "|:EBB/B/B EBB/B/B|EBB/B/B dcBA|EBB/B/B EBB/B/B|EBB/B/B AGFG| \r\nEBB/B/B EBB/B/B|EBB/B/B dcBA|EBB/B/B EBB/B/B|EBB/B/B AGFG:|\r\n|:E3F GFGA|B2e(d d)BAG|A2G(A A)GEG|A2G(A A)BAG| \r\nE3F GFGA|B2e(d d)BAG|_BAGB AGBA|G_BAG E4:|",
+      "after_abc": "|:EBB/B/B EBB/B/B|EBB/B/B dcBA|EBB/B/B EBB/B/B|EBB/B/B AGFG| \r\nEBB/B/B EBB/B/B|EBB/B/B dcBA|EBB/B/B EBB/B/B|EBB/B/B AGFG:|\r\n|:E3F GFGA|B2e(d d)BAG|A2G(A A)GEG|A2G(A A)BAG| \r\nE3F GFGA|B2e(d d)BAG|_BAGB AGBA|G_BAG E4:|",
+      "before_sha256": "9435decc6127b3accf84253d824e81cfdd01a21ded1451aadbc1acedf928ba88",
+      "after_sha256": "2fc4dfd3ad0bab12256ba732cf46523fc4bba40750da64944879fe2f9b25f40d",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 60,
+          "end": 61,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "42139",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 171,
+          "end": 172,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "42139",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 60,
+          "end": 61,
+          "text": " "
+        },
+        {
+          "start": 171,
+          "end": 172,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "33859",
+      "tune_id": "17595",
+      "name": "Reel De Beloeil",
+      "original_contributor": "NfldWhistler",
+      "source_url": "https://thesession.org/tunes/17595#setting33859",
+      "category": "unicode_spacing",
+      "before_abc": "AF|:D3D DFEG|F2DE F2DF|AdcB AGFE|DFAd BGEC|\r\nD3D DFEG|F2DE F2DF|AdcB AGFE|1 D2A2 ABAF :|2 D2A2 ABAG||\r\n|:FAdA FAdA|GBdB GBdB|Acec Acec|dfed cBAG|\r\nFAdA FAdA|GBdB GBdB|Acec Acec|1 dfec d2AG :|2 dfec d2AF||",
+      "after_abc": "AF|:D3D DFEG|F2DE F2DF|AdcB AGFE|DFAd BGEC|\r\nD3D DFEG|F2DE F2DF|AdcB AGFE|1 D2A2 ABAF :|2 D2A2 ABAG||\r\n|:FAdA FAdA|GBdB GBdB|Acec Acec|dfed cBAG|\r\nFAdA FAdA|GBdB GBdB|Acec Acec|1 dfec d2AG :|2 dfec d2AF||",
+      "before_sha256": "3fe3053f8035e0422f57cffdc04cf539fc6e540dd61614233c2947b83ceafc44",
+      "after_sha256": "823128cc708fcb5ddf2d14032a97f6c89eff7cb0e12a19927c2cf92de9517816",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 85,
+          "end": 86,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "33859",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 188,
+          "end": 189,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "33859",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 85,
+          "end": 86,
+          "text": " "
+        },
+        {
+          "start": 188,
+          "end": 189,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "34736",
+      "tune_id": "17923",
+      "name": "Baby Dragon",
+      "original_contributor": "fiddlebzh",
+      "source_url": "https://thesession.org/tunes/17923#setting34736",
+      "category": "unicode_spacing",
+      "before_abc": "|:eB~B2 efgb|g3a gfeg|fec2 Bcef|fefa gfed|\r\neB~B2 efgb|g3a gfeg|fec2 Bcef|fefg e4 :|\r\nK: Emin\r\nEFGB EFGB|EFGc EFGc|AD D/D/D ADFA|dBAG FDFG|\r\nEFGB EFGB|EFGc EFGc|1 AFAB defg|fdAG GFED :|2 AFAB defg|fdBd e4||",
+      "after_abc": "|:eB~B2 efgb|g3a gfeg|fec2 Bcef|fefa gfed|\r\neB~B2 efgb|g3a gfeg|fec2 Bcef|fefg e4 :|\r\nK: Emin\r\nEFGB EFGB|EFGc EFGc|AD D/D/D ADFA|dBAG FDFG|\r\nEFGB EFGB|EFGc EFGc|1 AFAB defg|fdAG GFED :|2 AFAB defg|fdBd e4||",
+      "before_sha256": "37e520a9b10decebb829fad4be86ae681438abb15daf7ef9d9505957ef1ee51c",
+      "after_sha256": "9056d3ef1c3da67352ae8c1a3f93dd318d7cb6d0fdfd3675ef723deba10ee30f",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 81,
+          "end": 82,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "34736",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 182,
+          "end": 183,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "34736",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 81,
+          "end": 82,
+          "text": " "
+        },
+        {
+          "start": 182,
+          "end": 183,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "35828",
+      "tune_id": "18328",
+      "name": "Teacake, The",
+      "original_contributor": "fiddlebzh",
+      "source_url": "https://thesession.org/tunes/18328#setting35828",
+      "category": "unicode_spacing",
+      "before_abc": "|:Aedc A2cA|GEE2 GcAG|cedc A2cd|egge aged|\r\ncedc A2cA|GEE2 G2 (3Bcd|e2ge aged|1 cedc A4:|2 cedc A2G2||\r\n|:egge g2eg|aged (3cBA AG|egge g2de|cAAG A4|\r\negge g2eg|aged (3cBA AG|e2dc AGED|EAcB A4 :|",
+      "after_abc": "|:Aedc A2cA|GEE2 GcAG|cedc A2cd|egge aged|\r\ncedc A2cA|GEE2 G2 (3Bcd|e2ge aged|1 cedc A4:|2 cedc A2G2||\r\n|:egge g2eg|aged (3cBA AG|egge g2de|cAAG A4|\r\negge g2eg|aged (3cBA AG|e2dc AGED|EAcB A4 :|",
+      "before_sha256": "7738494556b879fb58f31ed80cc20088727907dae0c7586a4a8e8defdfbd1295",
+      "after_sha256": "6b89e60c3452c4a8fcb34833854de60ac75c1ebf334b5ec769bc6eba97eaf62a",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 191,
+          "end": 192,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "35828",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 191,
+          "end": 192,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "39045",
+      "tune_id": "19758",
+      "name": "Flying Horse, The",
+      "original_contributor": "fiddlebzh",
+      "source_url": "https://thesession.org/tunes/19758#setting39045",
+      "category": "unicode_spacing",
+      "before_abc": "|:A2c dcA|fce ecB|A2c dcA|BAF FEF|\r\nA2c dcA|fce ecB|Abc ecB|1 A3 - AFE :|2 A3 - A2f||\r\nfec cBA|BAc BAF|fec Bce|e3 - e2f|\r\nfec cBA|BAc BAF|EFA BcB|A3 - A2f||\r\nfec cBA|BAc BAF|FEC EFA|B3 - Bag|\r\nfec cBA|BAc BAF|EFA BcB|A6||",
+      "after_abc": "|:A2c dcA|fce ecB|A2c dcA|BAF FEF|\r\nA2c dcA|fce ecB|Abc ecB|1 A3 - AFE :|2 A3 - A2f||\r\nfec cBA|BAc BAF|fec Bce|e3 - e2f|\r\nfec cBA|BAc BAF|EFA BcB|A3 - A2f||\r\nfec cBA|BAc BAF|FEC EFA|B3 - Bag|\r\nfec cBA|BAc BAF|EFA BcB|A6||",
+      "before_sha256": "702995984531dd2cc1e93f79993979590ecdc96c88b90a7c465de420d595f970",
+      "after_sha256": "7ed6af8b1280538e4e2f0935a7e75adbd4d5d328c0980a1c1323701a0cd3a109",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 70,
+          "end": 71,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "39045",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 70,
+          "end": 71,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "43333",
+      "tune_id": "21671",
+      "name": "Roy MacAngus",
+      "original_contributor": "fiddlebzh",
+      "source_url": "https://thesession.org/tunes/21671#setting43333",
+      "category": "unicode_spacing",
+      "before_abc": "|:EAA A2B|cec cBA|FBB BcA|GAB BAF|\r\nEAA A2c|cec cBA|FBB BAc|1 B3 A2F :|2 B3 BAd||\r\ncee e2c|efe cBA|dFB BcA|GAB Bcd|\r\nefe e2c|efe cBA|dFB BAc|B3 Bcd||\r\nefe efe|efe cBA|dFB BcA|GAB BAF|\r\nEAA cAA|caa fec|BAc BAF|ABA A3||",
+      "after_abc": "|:EAA A2B|cec cBA|FBB BcA|GAB BAF|\r\nEAA A2c|cec cBA|FBB BAc|1 B3 A2F :|2 B3 BAd||\r\ncee e2c|efe cBA|dFB BcA|GAB Bcd|\r\nefe e2c|efe cBA|dFB BAc|B3 Bcd||\r\nefe efe|efe cBA|dFB BcA|GAB BAF|\r\nEAA cAA|caa fec|BAc BAF|ABA A3||",
+      "before_sha256": "fdf50cee308839a18dfced1129ebea22c30017fa92ed75a4d2dc59bdbf392eae",
+      "after_sha256": "320c79e44211247c9f2d4d7fdc75d9d5f72d15442891eec567c2c4a3326a4d98",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 68,
+          "end": 69,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "43333",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 68,
+          "end": 69,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "45569",
+      "tune_id": "22540",
+      "name": "Youghal, The",
+      "original_contributor": "chaos97",
+      "source_url": "https://thesession.org/tunes/22540#setting45569",
+      "category": "unicode_spacing",
+      "before_abc": "|:BA|G2 GA FA|G2 GA FA|GF GA Bc|de dc BA|\r\nG2GA FA|G2 GA FA|GB Ac FA|G4 :|\r\n|:GF|E2EG (FG)|D2DG (FG)|E2 EG (FG)|D4F2|\r\nGF GA Bc|de dB cA|G2G2F2|G4 :|\r\n|:D2|G2G2B2|d2d2g2|A2A2d2|B2G2D2|\r\nG2G2B2|d2d2g2|A2 AG AB|G4 :|\r\n|:d2|gf ed cB|ed cB AG|GF GA Bc|B2A2f2|\r\ngf ed cB|ed cB AG|F/G/A/B/ cA GF|G4 :|",
+      "after_abc": "|:BA|G2 GA FA|G2 GA FA|GF GA Bc|de dc BA|\r\nG2GA FA|G2 GA FA|GB Ac FA|G4 :|\r\n|:GF|E2EG (FG)|D2DG (FG)|E2 EG (FG)|D4F2|\r\nGF GA Bc|de dB cA|G2G2F2|G4 :|\r\n|:D2|G2G2B2|d2d2g2|A2A2d2|B2G2D2|\r\nG2G2B2|d2d2g2|A2 AG AB|G4 :|\r\n|:d2|gf ed cB|ed cB AG|GF GA Bc|B2A2f2|\r\ngf ed cB|ed cB AG|F/G/A/B/ cA GF|G4 :|",
+      "before_sha256": "fa047dbf8610b0d9937eacf6e9137adf709619dbe88910972ba5985784a889dd",
+      "after_sha256": "bba80d72f497bdbb08fe48a5dbe36a77e4708081b42eadd2d60b6eefd33ca757",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 71,
+          "end": 72,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "45569",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 146,
+          "end": 147,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "45569",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 211,
+          "end": 212,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "45569",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 292,
+          "end": 293,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "45569",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 71,
+          "end": 72,
+          "text": " "
+        },
+        {
+          "start": 146,
+          "end": 147,
+          "text": " "
+        },
+        {
+          "start": 211,
+          "end": 212,
+          "text": " "
+        },
+        {
+          "start": 292,
+          "end": 293,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "45725",
+      "tune_id": "22599",
+      "name": "Monday Morning Community Centre Meeting",
+      "original_contributor": "fiddlebzh",
+      "source_url": "https://thesession.org/tunes/22599#setting45725",
+      "category": "unicode_spacing",
+      "before_abc": "|:FccB cBAE|FccB ce (c2|c2) cB cB A/B/c|B2BA BAFE|\r\nFccB cBAE|FccB ce (c2|c2) cB cB A/B/c|B2BA Bcea|| :\r\nf2fe cBB2|FA~A2 cB~B2|f2fe cBB2|afec Bcea|\r\nf2fe cBB2|FAAF cB~B2|cA~A2 BF~F2|1 afec Bcea :|2 afec B4:|",
+      "after_abc": "|:FccB cBAE|FccB ce (c2|c2) cB cB A/B/c|B2BA BAFE|\r\nFccB cBAE|FccB ce (c2|c2) cB cB A/B/c|B2BA Bcea|| :\r\nf2fe cBB2|FA~A2 cB~B2|f2fe cBB2|afec Bcea|\r\nf2fe cBB2|FAAF cB~B2|cA~A2 BF~F2|1 afec Bcea :|2 afec B4:|",
+      "before_sha256": "4d6fe508d15bc9e53de4d2c7f2cf360f9eaa8c29fd1b444e66ef6eb4236f1d6b",
+      "after_sha256": "2c5965359846a076644e7ed16b44f2f8c73ca1e51407fb8bd04ee7b8fbfee397",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 101,
+          "end": 102,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "45725",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 193,
+          "end": 194,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "45725",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 2,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 101,
+          "end": 102,
+          "text": " "
+        },
+        {
+          "start": 193,
+          "end": 194,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "47650",
+      "tune_id": "23320",
+      "name": "First Draft, The",
+      "original_contributor": "GoPlayer",
+      "source_url": "https://thesession.org/tunes/23320#setting47650",
+      "category": "unicode_spacing",
+      "before_abc": "|:DG|Bc d/c/B cA|G<B D2 GF|EG ce dc|BG [D2B,2] DG  |\r\nBc d/c/B cA|G<B DG FG|EG ce DF|G2 G2:|\r\nga|ba gb a^g|af d2 =gf|ec ef g/f/e|dB G2 ga|\r\nba gb a^g|af de f=g|eB eg f/e/d|[e3c3] f ge|\r\nd<B G2 gf|ec Gg fe|dA FG A/B/c|B<G DG FG|\r\nEG ce d^c|dB GB DG|EG ce DF|G2 G2||",
+      "after_abc": "|:DG|Bc d/c/B cA|G<B D2 GF|EG ce dc|BG [D2B,2] DG  |\r\nBc d/c/B cA|G<B DG FG|EG ce DF|G2 G2:|\r\nga|ba gb a^g|af d2 =gf|ec ef g/f/e|dB G2 ga|\r\nba gb a^g|af de f=g|eB eg f/e/d|[e3c3] f ge|\r\nd<B G2 gf|ec Gg fe|dA FG A/B/c|B<G DG FG|\r\nEG ce d^c|dB GB DG|EG ce DF|G2 G2||",
+      "before_sha256": "045d7883826cadd0906727794d46b7ceb3510049018ce3619e6f01acdaa34e88",
+      "after_sha256": "8b6a3dc61fc814217bc48c5811404afcfffe8e7d5bb0794f5f6430d41b4fd109",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 50,
+          "end": 51,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "47650",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 50,
+          "end": 51,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "48471",
+      "tune_id": "23638",
+      "name": "Transformed",
+      "original_contributor": "Nico M",
+      "source_url": "https://thesession.org/tunes/23638#setting48471",
+      "category": "unicode_spacing",
+      "before_abc": "M:7/8\r\n|:CD/E/F EC DB,|CEG cG ED|EA,A, A,G, CB,|A,CD EG ED:|\r\n|:CD/E/F EC DB,|CEG cG ED|EA,A, A,G, CB,|1 A,CD EG ED:|2 A,CD EG AB||\r\n|:cG ED CDE|F2 c2 BAG|F2 FE FGA|BG G2 f2e|\r\ncG ED CDE|F2 c2 ded|Ac BG cBG|FE C2 FEC:|\r\n|:A,2 A,2 A,G,B,|C2 C2 EDG  |Fc GF EDC|D2 GA B2A|\r\nA2 A2 AGB|c2 c2 ede|fed cB GF|1 FEC FE DC:|2 FEC FE DB,||",
+      "after_abc": "M:7/8\r\n|:CD/E/F EC DB,|CEG cG ED|EA,A, A,G, CB,|A,CD EG ED:|\r\n|:CD/E/F EC DB,|CEG cG ED|EA,A, A,G, CB,|1 A,CD EG ED:|2 A,CD EG AB||\r\n|:cG ED CDE|F2 c2 BAG|F2 FE FGA|BG G2 f2e|\r\ncG ED CDE|F2 c2 ded|Ac BG cBG|FE C2 FEC:|\r\n|:A,2 A,2 A,G,B,|C2 C2 EDG  |Fc GF EDC|D2 GA B2A|\r\nA2 A2 AGB|c2 c2 ede|fed cB GF|1 FEC FE DC:|2 FEC FE DB,||",
+      "before_sha256": "1d0b1d81573503101312b74780d06ca1dba50e3065a1e318081199e8f91da4fb",
+      "after_sha256": "b5593891c619f730a1aa25bd10dd50ff11d1b837377dc995cec7b19a3588fd9e",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 247,
+          "end": 248,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "48471",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 247,
+          "end": 248,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "49120",
+      "tune_id": "23855",
+      "name": "1st Degree",
+      "original_contributor": "NielsJohnson",
+      "source_url": "https://thesession.org/tunes/23855#setting49120",
+      "category": "unicode_spacing",
+      "before_abc": "|:CEG ceg|agf edc|d3 cBG|^FGA GBd| \r\nEGB cec'|afd gec|dc'a fd'c'|1 bc'd' c'ge:|2 bc'd' c'd'e'||\r\n|:e'c'g d'bg|c'ag dcG|C2e edE|F2e f2e'|\r\ne'c'g d'bg|c'ag dcG|afd gec|1 dcB c2e':|2 dcB cGE||",
+      "after_abc": "|:CEG ceg|agf edc|d3 cBG|^FGA GBd| \r\nEGB cec'|afd gec|dc'a fd'c'|1 bc'd' c'ge:|2 bc'd' c'd'e'||\r\n|:e'c'g d'bg|c'ag dcG|C2e edE|F2e f2e'|\r\ne'c'g d'bg|c'ag dcG|afd gec|1 dcB c2e':|2 dcB cGE||",
+      "before_sha256": "d288067415113155359d6fb1d6fa97b9f49f288ca41bd275cc975c80302b3b31",
+      "after_sha256": "24e282bb75275093b9fca91d96f8c234566894c88bbf290aac742c000702d639",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 34,
+          "end": 35,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "49120",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 0,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 34,
+          "end": 35,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "51375",
+      "tune_id": "24596",
+      "name": "Humours Of Smithstown, The",
+      "original_contributor": "Ralex",
+      "source_url": "https://thesession.org/tunes/24596#setting51375",
+      "category": "unicode_spacing",
+      "before_abc": "|:dBG DGB | cAF DFA | GBd gfa | gba gfe |\r\ndBG DGB | cAF DFA | GBd gdB | cAd G3:|\r\n|:E2F GFE | FAG FED | E2F GEG | FDF E3 |\r\nfgf efe | ded ^cd2 | gfa gfd | cAd G3 :|",
+      "after_abc": "|:dBG DGB | cAF DFA | GBd gfa | gba gfe |\r\ndBG DGB | cAF DFA | GBd gdB | cAd G3:|\r\n|:E2F GFE | FAG FED | E2F GEG | FDF E3 |\r\nfgf efe | ded ^cd2 | gfa gfd | cAd G3 :|",
+      "before_sha256": "b57180244be8ae2beae0f7acd45908e480eb99e8415cf9d88913f48e314c54a5",
+      "after_sha256": "765ecd33a3a22c8b01c0f9d8b86b17037d12725682074c40b8c7e52708b4e64f",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 94,
+          "end": 95,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "51375",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 94,
+          "end": 95,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "54175",
+      "tune_id": "25594",
+      "name": "Cast Off, The",
+      "original_contributor": "Pól Ó hAodha",
+      "source_url": "https://thesession.org/tunes/25594#setting54175",
+      "category": "unicode_spacing",
+      "before_abc": "D|:GFGA BABG|FEFG(A3A/2)F/2|EDEF GFGA|(3B=cB (3ABA ^G2D2|\r\nGFGA BABG|FEFG (A3A/2)F/2|EDEF GECE|DFEC D4:|\r\n|:BABc dedB|ABAF (A3A/2)F/2|EDEF GFGA|B2A2^G2A2|\r\nBABc dedB|ABAF (A3A/2)F/2|EDEF GECE|DFEC D4:|",
+      "after_abc": "D|:GFGA BABG|FEFG(A3A/2)F/2|EDEF GFGA|(3B=cB (3ABA ^G2D2|\r\nGFGA BABG|FEFG (A3A/2)F/2|EDEF GECE|DFEC D4:|\r\n|:BABc dedB|ABAF (A3A/2)F/2|EDEF GFGA|B2A2^G2A2|\r\nBABc dedB|ABAF (A3A/2)F/2|EDEF GECE|DFEC D4:|",
+      "before_sha256": "722e58df6ed29d5d12599214e8cac24aedaa32c3a7b2400e61ac39015c26a747",
+      "after_sha256": "61c44fc492e6dfb52f40965a47bba6af1617a3afcda1c7980cae35a206128873",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 196,
+          "end": 197,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "54175",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 196,
+          "end": 197,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "57691",
+      "tune_id": "25672",
+      "name": "Dog And The Rabbit, The",
+      "original_contributor": "EmrysTheFallen",
+      "source_url": "https://thesession.org/tunes/25672#setting57691",
+      "category": "unicode_spacing",
+      "before_abc": "|: B3B ~B>A G>A | {A}B>E E>D E3 z/2 A/2 | B>d e>g e>d B>d | .e2 E2 ~E2 D2 |\r\nB3 c B>A G>A | {A}.B2 E>DE3 z/2 A/2 | B>d e>g e>d B>d | .e2 E2 ~E2 D2 :|\r\nG3 G G>A B>d | d>B A>G A2G>A | B>d e>g e>d B>d | .e2 E2 E2 D2 |\r\nG3 G G>A B>d | d>B A>G A2G>A | B>d e>g e2 B>d | .e2 E2 E2 D2 |\r\nG3 G G>A B>d | d>B A>G A2G>A | B>d e>g e>d B>d | e<g e>d B>A G>A |\r\nB3 c B>A G>A | {A}B>E E>D E3 z | A<B d<e g<e d<B | {B}.e2 E2 ~E2 D2 ||",
+      "after_abc": "|: B3B ~B>A G>A | {A}B>E E>D E3 z/2 A/2 | B>d e>g e>d B>d | .e2 E2 ~E2 D2 |\r\nB3 c B>A G>A | {A}.B2 E>DE3 z/2 A/2 | B>d e>g e>d B>d | .e2 E2 ~E2 D2 :|\r\nG3 G G>A B>d | d>B A>G A2G>A | B>d e>g e>d B>d | .e2 E2 E2 D2 |\r\nG3 G G>A B>d | d>B A>G A2G>A | B>d e>g e2 B>d | .e2 E2 E2 D2 |\r\nG3 G G>A B>d | d>B A>G A2G>A | B>d e>g e>d B>d | e<g e>d B>A G>A |\r\nB3 c B>A G>A | {A}B>E E>D E3 z | A<B d<e g<e d<B | {B}.e2 E2 ~E2 D2 ||",
+      "before_sha256": "449d71cc311e85d8869c9d7ceea039e858a0aacb22abe9f2543966be90eb2147",
+      "after_sha256": "0fcdc748b2ba3f21ed64eaa71478b5850a6a90d54ccdadf3c72f063849fa7a92",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 362,
+          "end": 363,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "57691",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 362,
+          "end": 363,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "54914",
+      "tune_id": "25838",
+      "name": "Blue Lamp, The",
+      "original_contributor": "fiddlebzh",
+      "source_url": "https://thesession.org/tunes/25838#setting54914",
+      "category": "unicode_spacing",
+      "before_abc": "|: E3F A3B | cAeA fAeA | B3c dcdf | efaf ecBA | \r\nE3F A3B | cAeA fAeA | B3c BAG2- | GBAF E4 :|\r\na3a- afea | f3a fecA | B3c d3f | efaf ecBA |\r\na3a- afea | f3a fecA | B3c d3f- | fefg ||\r\naza2- afea | f3a fecA | B3c d3f | efaf ecBA |\r\na3a- afea | f3a fecA | B3c d3f- | fefg a4 |\r\n|: B3c Bcd2- | d3B dcBA | B3c Bcd2- | d2cB A4 |B3c Bcd2- |\r\nd3B dcBA |1 B3c Bcd2- | d2cB A4 :|2 B3c d3e | fefg fefg ||",
+      "after_abc": "|: E3F A3B | cAeA fAeA | B3c dcdf | efaf ecBA | \r\nE3F A3B | cAeA fAeA | B3c BAG2- | GBAF E4 :|\r\na3a- afea | f3a fecA | B3c d3f | efaf ecBA |\r\na3a- afea | f3a fecA | B3c d3f- | fefg ||\r\naza2- afea | f3a fecA | B3c d3f | efaf ecBA |\r\na3a- afea | f3a fecA | B3c d3f- | fefg a4 |\r\n|: B3c Bcd2- | d3B dcBA | B3c Bcd2- | d2cB A4 |B3c Bcd2- |\r\nd3B dcBA |1 B3c Bcd2- | d2cB A4 :|2 B3c d3e | fefg fefg ||",
+      "before_sha256": "b89ddf4f850541a11ac5dbed44a3b0366dec6cbf4a61d9ed81b32d69ef3c867d",
+      "after_sha256": "46eebbe6b1aa3633caae74f2eb2f385e3d13d384602747d346876bcf97a430e7",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 91,
+          "end": 92,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "54914",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 368,
+          "end": 369,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "54914",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 91,
+          "end": 92,
+          "text": " "
+        },
+        {
+          "start": 368,
+          "end": 369,
+          "text": " "
+        }
+      ]
+    },
+    {
+      "setting_id": "55801",
+      "tune_id": "26100",
+      "name": "Humours Of Cloghane, The",
+      "original_contributor": "fiddlebzh",
+      "source_url": "https://thesession.org/tunes/26100#setting55801",
+      "category": "unicode_spacing",
+      "before_abc": "|: cG G/G/G ^FG=FD | CE~E2 CDEG | c3e agfe | fedc BGAB |\r\ncG G/G/G ^FG=FD | CE~E2 CDEG | c3e agfd |1 BGAB c4 :|2 BGAB cdef ||\r\n|:g3a gccc | Gcef gece | f2(3efg f_B~B2 | F_Bdf gfdf |\r\ng3a gccc | Gcef gece | f2(3efg fagf |1 ecdB cdef :|2 ecdB c4 ||",
+      "after_abc": "|: cG G/G/G ^FG=FD | CE~E2 CDEG | c3e agfe | fedc BGAB |\r\ncG G/G/G ^FG=FD | CE~E2 CDEG | c3e agfd |1 BGAB c4 :|2 BGAB cdef ||\r\n|:g3a gccc | Gcef gece | f2(3efg f_B~B2 | F_Bdf gfdf |\r\ng3a gccc | Gcef gece | f2(3efg fagf |1 ecdB cdef :|2 ecdB c4 ||",
+      "before_sha256": "3b8793065e74c4ad9203531020152a2d7009920cda5854a9598906031a5d7fa2",
+      "after_sha256": "e70be1db7f5c35e6759e54051aa482056d8f224c8a83f85b7d92230e101a31d1",
+      "evidence": [
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 108,
+          "end": 109,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55801",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "unicode_spacing",
+          "preserve_playback": true,
+          "method": "Normalize Unicode spaces and remove directional formatting outside annotations",
+          "start": 122,
+          "end": 123,
+          "text": " ",
+          "codepoint": "U+00A0",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55801",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 108,
+          "end": 109,
+          "text": " "
+        },
+        {
+          "start": 122,
+          "end": 123,
+          "text": " "
+        }
+      ]
+    }
+  ],
+  "spacing_scanner_sha256": "c47d570af9f5ff4375f7e1eda981ea1af98b8ffe5f1c4ec0a71123bf9ba2c285"
+}

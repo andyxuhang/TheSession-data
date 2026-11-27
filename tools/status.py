@@ -18,6 +18,7 @@ LABELS = {
     'tuplet_closer': 'Extra closing parenthesis after tuplet number',
     'incomplete_tuplet': 'Incomplete tuplet field',
     'annotation_linebreak': 'Line break inside a numeric annotation',
+    'unicode_spacing': 'Invisible layout character in melody',
     'note_length': 'Incorrect note length',
     'proven_long_note': 'Incorrect note length',
     'rhythm_mark': 'Incorrect broken-rhythm or tuplet mark',

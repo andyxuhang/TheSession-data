@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Recheck native and abcjs diagnostics before and after the parser-syntax fixes."""
 
+import argparse
 import json
 from pathlib import Path
 import shutil
@@ -12,8 +13,11 @@ from scan import ROOT, rows, unique_settings
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--plan',type=Path,default=ROOT/'changes/written-token-fixes.json')
+    args = parser.parse_args()
     records = unique_settings(rows(ROOT/'json/tunes.json'))
-    patches = json.loads((ROOT/'changes/written-token-fixes.json').read_text())['corrections']
+    patches = json.loads(args.plan.read_text())['corrections']
     executables = {name:shutil.which(name) for name in ('abc2midi','abc2abc')}
     if not all(executables.values()):
         raise SystemExit('abc2midi and abc2abc are required')

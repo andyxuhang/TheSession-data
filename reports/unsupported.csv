@@ -1029,7 +1029,7 @@ d=c BA|GF GA|E4|FA FD|FA FD|EG EC|E2 A2|D4|1 D2 EF:|2 D2 A2||
 d2 A2|F2 GA|BA GF|E3 F|GF GA|BA FD|AG EC|D4|1 D2 A2:|2 D4||"
 4587,48618,Aires De Pontevedra,GoPlayer,https://thesession.org/tunes/4587#setting48618,Unsupported syntax or empty melody,"[{""setting_id"": ""48618"", ""category"": ""unsupported"", ""reason"": ""embedded field or voice""}]","|:EF|GFGE FDEF|GFGE FDEF|AFGE FDEF|GFGE FDFA|
 =c4 cBce|d=cBA GFGA|G4 GDGA|d=cBA GFGA|
-F2FD FDFA|d=cBA GFGA|E4 FAFD|FAFD EGEC| [M:3/2] E2A2 D4 D2:|
+F2FD FDFA|d=cBA GFGA|E4 FAFD|FAFD EGEC| [M:3/2] E2A2 D4 D2:|
 M:4/4
 |:A2|d2A2 F2GA|BAGF E3F|GAGF E2FG|AGFE D2A2|
 d2A2 F2GA|BAGF E3F|[M:5/2] GFGA BAFD AGEC D4 D2:|"
@@ -2765,10 +2765,10 @@ geg fdf|efe cBc|d2a [Bb]ag|f2e d3:|
 |:df/g/a daf|efd cBA|d2a f/g/af|d2a f/g/af|
 df/g/a daf|efe cBc|d2a [Bb]ag|f2e d3:|"
 17923,34736,Baby Dragon,fiddlebzh,https://thesession.org/tunes/17923#setting34736,Unsupported syntax or empty melody,"[{""setting_id"": ""34736"", ""category"": ""unsupported"", ""reason"": ""embedded field or voice""}]","|:eB~B2 efgb|g3a gfeg|fec2 Bcef|fefa gfed|
-eB~B2 efgb|g3a gfeg|fec2 Bcef|fefg e4 :|
+eB~B2 efgb|g3a gfeg|fec2 Bcef|fefg e4 :|
 K: Emin
 EFGB EFGB|EFGc EFGc|AD D/D/D ADFA|dBAG FDFG|
-EFGB EFGB|EFGc EFGc|1 AFAB defg|fdAG GFED :|2 AFAB defg|fdBd e4||"
+EFGB EFGB|EFGc EFGc|1 AFAB defg|fdAG GFED :|2 AFAB defg|fdBd e4||"
 7505,7505,Bachelor's Walk,bay,https://thesession.org/tunes/7505#setting7505,Unsupported syntax or empty melody,"[{""setting_id"": ""7505"", ""category"": ""unsupported"", ""reason"": ""embedded field or voice""}]","f3b|:fBBA FAfB|e~A3 EA_ce|fBBA FAfB|ee^df eA_ce|
 fBBA FAfB|e~A3 EA_ce|faef ee_ce|1 dB_cA Befb:|2 dB_cA BA_cA||
 K: Dmaj
@@ -6154,17 +6154,17 @@ w: My bon-nie dea-rie"
 ""Em"" E>G/F EDE|""G"" G>A/ B/G/ ""D"" A2 G/A/|""Em"" BeB ""Am"" cBA|""Em"" GE""D""D ""Em"" E2 D|
 ""Em"" E>G/F EDE|""G"" G>A/ B/G/ ""D"" A2 G/A/|""Em"" BeB ""Am"" cBA|""Em"" GEE ""D"" D2 d|
 ""Em"" e>g/f ede|""G"" g>f/e ""D"" f2 e/f/|""Em"" gab ""Am"" agf|""Em"" e2""D""d ""Em"" e2||
-[V:F2] z|z6 |z6 |z6 |z3 z2 F|
+[V:F2] z|z6 |z6 |z6 |z3 z2 F|
 G2A GFG|BAG F3|G3 c3|BGF G2 F|
 G2A GFG|BAG F3|G3 c3|B2 G F2 F|
 G2A GFG|BAG F3|G3 c3|BGF G2||"
-12520,21897,Cad E Sin Don Te Sin,P I,https://thesession.org/tunes/12520#setting21897,Unsupported syntax or empty melody,"[{""setting_id"": ""21897"", ""category"": ""unsupported"", ""reason"": ""embedded field or voice""}]","[V:F1] E2|""Em"" E2 > G F2|""D""E2 D2 E2|""A"" G2 > A BG|""C"" A4 GA|""Em"" B2 e2 B2|""C"" c2 B2 A2|""Em"" G2>E E2 |""D"" D4 D2|
+12520,21897,Cad E Sin Don Te Sin,P I,https://thesession.org/tunes/12520#setting21897,Unsupported syntax or empty melody,"[{""setting_id"": ""21897"", ""category"": ""unsupported"", ""reason"": ""embedded field or voice""}]","[V:F1] E2|""Em"" E2 > G F2|""D""E2 D2 E2|""A"" G2 > A BG|""C"" A4 GA|""Em"" B2 e2 B2|""C"" c2 B2 A2|""Em"" G2>E E2 |""D"" D4 D2|
 ""Em"" E2 > G F2|E2 D2 E2|""G"" G2 > A BG|""D"" A4 GA|""Em"" B2 e2 B2|""Am"" c2 B2 A2|""Em"" G2 E2 ""D"" D2|""Em"" E4 D2|
 ""Em"" E2 > G F2|E2 D2 E2|""G"" G2 >A BG|""D"" A4 GA|""Em"" B2 e2 B2|""Am"" c2 B2 A2|""Em"" G2 E2 E2|""D"" D4 d2|
 ""Em"" e2>g f2|e2 d2 e2|""G"" g2>f e2|""D"" f4 ef|""Em"" g2 a2 b2|""Am"" a2 g2 f2|""Em"" e4""D""d2|""Em"" e4||
 [V:F2] z2|z6|z6|z6|z6|z6|z6|z6|z4 F2|
 G4 A2|G2 F2 G2|B2 A2 G2|F6|G6|c6|B2 G2 F2|G4 F2|
-G4 A2|G2 F2 G2|B2 A2 G2|F6|G6 |c6|B4 G2|F4 F2|
+G4 A2|G2 F2 G2|B2 A2 G2|F6|G6 |c6|B4 G2|F4 F2|
 G4 A2|G2 F2 G2|B2 A2 G2|F6|G6|c6|B2 G2 F2|G4||"
 12520,51254,Cad E Sin Don Te Sin,Erik-Fiddler,https://thesession.org/tunes/12520#setting51254,Unsupported syntax or empty melody,"[{""setting_id"": ""51254"", ""bar"": 8, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""[B4e4] ee ""}]","|:E3 F E2|EF/E/ D2 E2|B,3 C D2|E4 EF|
 G2 A2 B2|Bd B2 A2|B3 c d2|[B4e4] ee |
@@ -7467,10 +7467,10 @@ FGF FEF|ABc [d2F2]f|ecA BAF|[F3C3][F2C2]||
 c|fgf _efe|dcB c2B|ABc _ecA|BAF _E2C|
 FGF FEF|ABc [d2F2]f|ecA BAF|[F3C3] [F2C2]||"
 2031,45615,"Champion, The",Moxhe,https://thesession.org/tunes/2031#setting45615,Unsupported syntax or empty melody,"[{""setting_id"": ""45615"", ""category"": ""unsupported"", ""reason"": ""embedded field or voice""}]","|:Bc|d^cde d=cBA|GFGA BGDB,|CEGc B,DGB|(3ABA (3GFE D2 Bc|
-d^cde d=cBA|GFGA BGDB,|CEGc BAGB|(3ABA GF G2 :|
+d^cde d=cBA|GFGA BGDB,|CEGc BAGB|(3ABA GF G2 :|
 K: Dmaj
 |:FG|Adcd fedc|Be^de gfe=d|ca^ga ba=ge|(3dfe (3dcB A2 FG|
-Adcd fedc|Be^de gfe=d|ca^ga b=gec|(3dcd ec d2 :|"
+Adcd fedc|Be^de gfe=d|ca^ga b=gec|(3dcd ec d2 :|"
 23059,46883,"Changeling, The",CRMWilson,https://thesession.org/tunes/23059#setting46883,Unsupported syntax or empty melody,"[{""setting_id"": ""46883"", ""bar"": 8, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '$'"", ""fragment"": ""$ BAF B2 c""}]","|:A2 A e2 A|ecA BAF|ABA e2 A|ecA B2 c|
 d2 A c2 A|cBA BAF|A2 F B2 A|$ BAF B2 c:|
 d3 f2 e|fec ecA|FAc fcA|Gce age|
@@ -10810,14 +10810,6 @@ F>A (3fdA (3FAd (3fdA|G>B (3gdB (3GB/c/d (3gdB|(3c^Bc c'>=b (3aba (3gfe|1 d2 c2 
 ""A""Ace aed|""E""cdB ""A""~A2a|""A""-aed cdB|""G""ABG ""A""A2:|
 |:F|""G""GBd ~G2G|""D""FAd ~F2F|""A""~e2e ecA|~e2e ecA|
 ""G""GBd ~G2G|""D""FAd ~F2a-|""A""aed ""D""cdB|""G""ABG ""A""A2:|"
-1770,57210,"Donegal Tinker, The",bensdad,https://thesession.org/tunes/1770#setting57210,Unsupported syntax or empty melody,"[{""setting_id"": ""57210"", ""bar"": 31, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '\\u200e'"", ""fragment"": ""~a3 g e‎=fed""}]","Addc AGEG|Addc (3ABA GB|ADdc Ad=cA|G=cAG EDEG|
-Adde fddc|Addc AG ~G2|A2 dc Ad=cA|G=cAG EDEG||
-AD ~D2 D2 FG|~A3 B =cABG|AB=cA GDEG|Ad=cA GDFG|
-AD ~D2 dD ~D2|AGAB BAAG|AB=cA G2 AG|Ad=cA GDEG||
-d3 B =c3 A|dAAf afge|d2 ed cA ~A2|(3Bcd ef gafe|
-d2 ed =cB=cA|dAAf afge|d2 ed cA ~A2|(3Bcd ef gefg||
-|:afdf ~a2 bg|afdf adfg|afdf bgaf|e^def gefg|
-afdf ~a2 bg|afdf adfg|~a3 g e‎=fed|(3Bcd ef gefg:||"
 1770,15218,"Donegal Tinker, The",Shelley,https://thesession.org/tunes/1770#setting15218,Unsupported syntax or empty melody,"[{""setting_id"": ""15218"", ""bar"": 28, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '3'"", ""fragment"": ""g2fg ad 3ddd""}]","d3d cAGc|AddB cAGc|Addc AdcA|GEED CDEG|
 Ad (3ddd fd (3ddd|adfd cAGc|Addc AdcA|GEED CDEG||
 AD (3DDD A,D (3DDD|ADAd cAGc|ADFD ~E3G|AdcA G2cG|
@@ -13532,7 +13524,7 @@ eAAA fAeA|eAgA fAeA|^gaab a2 c2|d6||"
 dAA fad Pedc|dAA fef def|gBB gaf def|1 efe f/e/dc dA/B/c:|2 : efe f/e/dc de/f/g||
 |:aba aa/a/g fed|gg/g/B gaf edc|dAA fef def|eAf eAf gfe|
 aba aa/a/g fed|gg/g/B gaf edc|dd/d/A fef def|1 efe f/e/dc de/f/g:|2 efe f/e/dc dA/B/c||"
-23320,47650,"First Draft, The",GoPlayer,https://thesession.org/tunes/23320#setting47650,Unsupported syntax or empty melody,"[{""setting_id"": ""47650"", ""bar"": 5, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""BG [D2B,2] DG  ""}, {""setting_id"": ""47650"", ""bar"": 18, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""[e3c3] f ge""}]","|:DG|Bc d/c/B cA|G<B D2 GF|EG ce dc|BG [D2B,2] DG  |
+23320,47650,"First Draft, The",GoPlayer,https://thesession.org/tunes/23320#setting47650,Unsupported syntax or empty melody,"[{""setting_id"": ""47650"", ""bar"": 5, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""BG [D2B,2] DG  ""}, {""setting_id"": ""47650"", ""bar"": 18, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""[e3c3] f ge""}]","|:DG|Bc d/c/B cA|G<B D2 GF|EG ce dc|BG [D2B,2] DG  |
 Bc d/c/B cA|G<B DG FG|EG ce DF|G2 G2:|
 ga|ba gb a^g|af d2 =gf|ec ef g/f/e|dB G2 ga|
 ba gb a^g|af de f=g|eB eg f/e/d|[e3c3] f ge|
@@ -27681,10 +27673,10 @@ EGB efg|fed edB|d^cd ABG|FDF AGF:|
 ggg eBe|ggg bge|ded ABG|FDF AGF :
 |:EGB edB|dBG AGF|EGB dBG|FDF AGF|
 EGB GBd|Beg efg|dcB ABG|FDF AGF:|"
-22599,45725,Monday Morning Community Centre Meeting,fiddlebzh,https://thesession.org/tunes/22599#setting45725,Unsupported syntax or empty melody,"[{""setting_id"": ""45725"", ""bar"": 9, ""category"": ""unsupported"", ""reason"": ""unsupported syntax ':'"", ""fragment"": "" :\r\nf2fe cBB2""}]","|:FccB cBAE|FccB ce (c2|c2) cB cB A/B/c|B2BA BAFE|
-FccB cBAE|FccB ce (c2|c2) cB cB A/B/c|B2BA Bcea|| :
+22599,45725,Monday Morning Community Centre Meeting,fiddlebzh,https://thesession.org/tunes/22599#setting45725,Unsupported syntax or empty melody,"[{""setting_id"": ""45725"", ""bar"": 9, ""category"": ""unsupported"", ""reason"": ""unsupported syntax ':'"", ""fragment"": "" :\r\nf2fe cBB2""}]","|:FccB cBAE|FccB ce (c2|c2) cB cB A/B/c|B2BA BAFE|
+FccB cBAE|FccB ce (c2|c2) cB cB A/B/c|B2BA Bcea|| :
 f2fe cBB2|FA~A2 cB~B2|f2fe cBB2|afec Bcea|
-f2fe cBB2|FAAF cB~B2|cA~A2 BF~F2|1 afec Bcea :|2 afec B4:|"
+f2fe cBB2|FAAF cB~B2|cA~A2 BF~F2|1 afec Bcea :|2 afec B4:|"
 7708,7708,Monferrina,gian marco,https://thesession.org/tunes/7708#setting7708,Unsupported syntax or empty melody,"[{""setting_id"": ""7708"", ""bar"": 20, ""category"": ""unsupported"", ""reason"": ""unsupported syntax ':'"", ""fragment"": ""G6:z3 GBd""}]","GBd|:g2g g2g|g3-gfg|a2g f2e|d3-d2g|gfe dcB|
 cAc A2d|fdB dcA|GAd G3-|G3-G3|z3 GBd:|
 |:GBd GBd|dcA ABd|ABd ABd|dBA GBd|
@@ -30824,7 +30816,7 @@ edce d2Bd|c2Ac B2AG|E~G3 BGAG|EDEF G2:|"
 fa g/f/e|f/g/f/e/ dd|=c>c BA|G>G GG:|
 |:AA BB|A/B/A/G/ FA|d>d e/d/c|d>d dd|
 AD BD|A/B/A/G/ FF/G/|A>A G/F/E|D2 D2:|"
-5353,57288,Over The Waterfall,Jammin’Cellist,https://thesession.org/tunes/5353#setting57288,Unsupported syntax or empty melody,"[{""setting_id"": ""57288"", ""bar"": 5, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""[f4d4‎] [f2d2]e2""}, {""setting_id"": ""57288"", ""bar"": 14, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""[d4F4][d2F2] (3(DEF)""}]","|:e2|f2af gfe2|d2B2 A3e|f2af gfe2|[f4d4‎] [f2d2]e2|
+5353,57288,Over The Waterfall,Jammin’Cellist,https://thesession.org/tunes/5353#setting57288,Unsupported syntax or empty melody,"[{""setting_id"": ""57288"", ""bar"": 5, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""[f4d4] [f2d2]e2""}, {""setting_id"": ""57288"", ""bar"": 14, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""[d4F4][d2F2] (3(DEF)""}]","|:e2|f2af gfe2|d2B2 A3e|f2af gfe2|[f4d4] [f2d2]e2|
 f2af gfe2|d2B2 A3B|=c3c B2A2|G4 G2:|
 |:(3(DEF)|A2A2 B2B2|ABAG FDFA|d3d c2e2|[d4F4][d2F2] (3(DEF)|
 A2A2 B2B2|ABAG FDFG|A3A GFE2|D4 D2:|"
@@ -33581,14 +33573,9 @@ EAA A^GA|BB/c/d e2 f|gfe dB^G|A3 A2:|
 |:g|a^ga ee/f/=g|a^ga b2 a|gfg ege|
 [1 dB^A B2 g|a^ga efg|a^ga b2 a|gfe dB^G|A3 A2:|
 [2 dBA GED|E2 A A^GA|Bcd e2 f|gfe dB^G|A3- A2||"
-84,56596,"Rakes Of Kildare, The",Jammin’Cellist,https://thesession.org/tunes/84#setting56596,Unsupported syntax or empty melody,"[{""setting_id"": ""56596"", ""bar"": 11, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '\\u200e'"", ""fragment"": ""‎{B‎}AEA ‎{B‎} AEA""}, {""setting_id"": ""56596"", ""bar"": 12, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '\\u200e'"", ""fragment"": ""‎{B‎} AEA B2A ""}, {""setting_id"": ""56596"", ""bar"": 14, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '\\u200e'"", ""fragment"": ""DB,G, A,2 A‎""}, {""setting_id"": ""56596"", ""bar"": 15, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '\\u200e'"", ""fragment"": ""{B‎}AEA ‎{B‎} AEA""}, {""setting_id"": ""56596"", ""bar"": 16, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '\\u200e'"", ""fragment"": ""‎{B‎} AEA B2A""}]","D|:EAA AGA |Bcd e2f |gfg ege|dBGA2D|
- EAA AGA |Bcd e2f|gfe dBG|1 A3A2D:|2 A3A2A
-|:‎{B‎}AEA ‎{B‎} AEA|‎{B‎} AEA B2A |GFG EGE|
-[1DB,G, A,2 A‎|{B‎}AEA ‎{B‎} AEA|‎{B‎} AEA B2A|GFE DB,G,|A,3A,2A:|
-[2DB,G, A,2D|EAA AGA |Bcd e2f|gfe dBG|A3A3|"
-85,56597,"Rakes Of Mallow, The",Jammin’Cellist,https://thesession.org/tunes/85#setting56597,Unsupported syntax or empty melody,"[{""setting_id"": ""56597"", ""bar"": 1, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '\\u200e'"", ""fragment"": ""‎(3(D/E/F)/""}, {""setting_id"": ""56597"", ""bar"": 9, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""[GB‎]‎[G/B/‎][G/B‎] [GB‎]""}, {""setting_id"": ""56597"", ""bar"": 10, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '\\u200e'"", ""fragment"": ""‎(3(d/e/f)/""}]","|:‎(3(D/E/F)/|G/G/B/G/ G/c/G/G/ |B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/|A/F/F/B/ F/F/A/F/|
-G/G/B/G/ G/c/G/G/ | B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/ |[GB‎]‎[G/B/‎][G/B‎] [GB‎]:|
-|:‎(3(d/e/f)/|g/f/g/f/ ed |G/A/B/c/ d>e|g>f ed|ea a>f|
+85,56597,"Rakes Of Mallow, The",Jammin’Cellist,https://thesession.org/tunes/85#setting56597,Unsupported syntax or empty melody,"[{""setting_id"": ""56597"", ""bar"": 1, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": ""(3(D/E/F)/""}, {""setting_id"": ""56597"", ""bar"": 9, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '['"", ""fragment"": ""[GB][G/B/][G/B] [GB]""}, {""setting_id"": ""56597"", ""bar"": 10, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": ""(3(d/e/f)/""}]","|:(3(D/E/F)/|G/G/B/G/ G/c/G/G/ |B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/|A/F/F/B/ F/F/A/F/|
+G/G/B/G/ G/c/G/G/ | B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/ |[GB][G/B/][G/B] [GB]:|
+|:(3(d/e/f)/|g/f/g/f/ ed |G/A/B/c/ d>e|g>f ed|ea a>f|
 g/f/g/f/ ed |G/A/B/c/ d>B|c/B/A/G/ F/G/A/c/| BG G:|"
 86,48564,Rakish Paddy,Erik-Fiddler,https://thesession.org/tunes/86#setting48564,Unsupported syntax or empty melody,"[{""setting_id"": ""48564"", ""bar"": 18, ""category"": ""unsupported"", ""reason"": ""unsupported syntax 'R'"", ""fragment"": ""Rg2 ag fddf""}, {""setting_id"": ""48564"", ""bar"": 26, ""category"": ""unsupported"", ""reason"": ""unsupported syntax 'R'"", ""fragment"": ""Rg2 ag fd""}]","|:AB|cded c/d/c Bc|AcGc AD (3D/D/D/D|Ddd^c d3 e|fd e/f/g fded|
 cded c/d/c Bc|AcG=F ED^CE|D^CDE =FAdB|cAGE ED:|
@@ -40623,7 +40610,7 @@ B3/2c/B Bce|(f2^g a2)(g/a/)|trfec B2B|B3B2||"
 |:CD/E/F EC DB,|CEG cG ED|EA,A, A,G, CB,|1 A,CD EG ED:|2 A,CD EG AB||
 |:cG ED CDE|F2 c2 BAG|F2 FE FGA|BG G2 f2e|
 cG ED CDE|F2 c2 ded|Ac BG cBG|FE C2 FEC:|
-|:A,2 A,2 A,G,B,|C2 C2 EDG  |Fc GF EDC|D2 GA B2A|
+|:A,2 A,2 A,G,B,|C2 C2 EDG  |Fc GF EDC|D2 GA B2A|
 A2 A2 AGB|c2 c2 ede|fed cB GF|1 FEC FE DC:|2 FEC FE DB,||"
 26023,55564,Traveller Benighted In Snow,Helen R Wright,https://thesession.org/tunes/26023#setting55564,Unsupported syntax or empty melody,"[{""setting_id"": ""55564"", ""category"": ""unsupported"", ""reason"": ""embedded field or voice""}]","K:Cmin
 |:g/>f/|e2 d/c/ c>BG BFB,|ecc cGc e2g|fdB bag fdB/c/4d/4|e>dc Gc=B c2:|

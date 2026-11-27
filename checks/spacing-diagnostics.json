@@ -1,0 +1,1571 @@
+{
+  "settings": 34,
+  "results": [
+    {
+      "setting_id": "56596",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 8-2 : Unrecognized character: \ufffd",
+          "Error in line-char 8-3 : Unrecognized character: \ufffd",
+          "Error in line-char 8-4 : Unrecognized character: \ufffd",
+          "Error in line-char 8-7 : Unrecognized character: \ufffd",
+          "Error in line-char 8-8 : Unrecognized character: \ufffd",
+          "Error in line-char 8-9 : Unrecognized character: \ufffd",
+          "Error in line-char 8-15 : Unrecognized character: \ufffd",
+          "Error in line-char 8-16 : Unrecognized character: \ufffd",
+          "Error in line-char 8-17 : Unrecognized character: \ufffd",
+          "Error in line-char 8-20 : Unrecognized character: \ufffd",
+          "Error in line-char 8-21 : Unrecognized character: \ufffd",
+          "Error in line-char 8-22 : Unrecognized character: \ufffd",
+          "Error in line-char 8-29 : Unrecognized character: \ufffd",
+          "Error in line-char 8-30 : Unrecognized character: \ufffd",
+          "Error in line-char 8-31 : Unrecognized character: \ufffd",
+          "Error in line-char 8-34 : Unrecognized character: \ufffd",
+          "Error in line-char 8-35 : Unrecognized character: \ufffd",
+          "Error in line-char 8-36 : Unrecognized character: \ufffd",
+          "Error in line-char 9-13 : Unrecognized character: \ufffd",
+          "Error in line-char 9-14 : Unrecognized character: \ufffd",
+          "Error in line-char 9-15 : Unrecognized character: \ufffd",
+          "Error in line-char 9-19 : Unrecognized character: \ufffd",
+          "Error in line-char 9-20 : Unrecognized character: \ufffd",
+          "Error in line-char 9-21 : Unrecognized character: \ufffd",
+          "Error in line-char 9-27 : Unrecognized character: \ufffd",
+          "Error in line-char 9-28 : Unrecognized character: \ufffd",
+          "Error in line-char 9-29 : Unrecognized character: \ufffd",
+          "Error in line-char 9-32 : Unrecognized character: \ufffd",
+          "Error in line-char 9-33 : Unrecognized character: \ufffd",
+          "Error in line-char 9-34 : Unrecognized character: \ufffd",
+          "Error in line-char 9-41 : Unrecognized character: \ufffd",
+          "Error in line-char 9-42 : Unrecognized character: \ufffd",
+          "Error in line-char 9-43 : Unrecognized character: \ufffd",
+          "Error in line-char 9-46 : Unrecognized character: \ufffd",
+          "Error in line-char 9-47 : Unrecognized character: \ufffd",
+          "Error in line-char 9-48 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:8:3: Unknown character ignored:  |:<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>{B\u200e}AEA \u200e{B\u200e} AEA|\u200e{B\u200e} AEA B2A |GFG EGE|",
+          "Music Line:8:4: Unknown character '\u200e' while parsing grace note:  |:\u200e<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">{</span>B\u200e}AEA \u200e{B\u200e} AEA|\u200e{B\u200e} AEA B2A |GFG EGE|",
+          "Music Line:8:12: Unknown character ignored:  |:\u200e{B\u200e}AEA <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>{B\u200e} AEA|\u200e{B\u200e} AEA B2A |GFG EGE|",
+          "Music Line:8:13: Unknown character '\u200e' while parsing grace note:  |:\u200e{B\u200e}AEA \u200e<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">{</span>B\u200e} AEA|\u200e{B\u200e} AEA B2A |GFG EGE|",
+          "Music Line:8:22: Unknown character ignored:  |:\u200e{B\u200e}AEA \u200e{B\u200e} AEA|<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>{B\u200e} AEA B2A |GFG EGE|",
+          "Music Line:8:23: Unknown character '\u200e' while parsing grace note:  |:\u200e{B\u200e}AEA \u200e{B\u200e} AEA|\u200e<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">{</span>B\u200e} AEA B2A |GFG EGE|",
+          "Music Line:9:14: Unknown character ignored:  [1DB,G, A,2 A<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>|{B\u200e}AEA \u200e{B\u200e} AEA|\u200e{B\u200e} AEA B2A|GFE DB,G,|A,3A,2A:|",
+          "Music Line:9:16: Unknown character '\u200e' while parsing grace note:  [1DB,G, A,2 A\u200e|<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">{</span>B\u200e}AEA \u200e{B\u200e} AEA|\u200e{B\u200e} AEA B2A|GFE DB,G,|A,3A,2A:|",
+          "Music Line:9:24: Unknown character ignored:  [1DB,G, A,2 A\u200e|{B\u200e}AEA <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>{B\u200e} AEA|\u200e{B\u200e} AEA B2A|GFE DB,G,|A,3A,2A:|",
+          "Music Line:9:25: Unknown character '\u200e' while parsing grace note:  [1DB,G, A,2 A\u200e|{B\u200e}AEA \u200e<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">{</span>B\u200e} AEA|\u200e{B\u200e} AEA B2A|GFE DB,G,|A,3A,2A:|",
+          "Music Line:9:34: Unknown character ignored:  [1DB,G, A,2 A\u200e|{B\u200e}AEA \u200e{B\u200e} AEA|<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>{B\u200e} AEA B2A|GFE DB,G,|A,3A,2A:|",
+          "Music Line:9:35: Unknown character '\u200e' while parsing grace note:  [1DB,G, A,2 A\u200e|{B\u200e}AEA \u200e{B\u200e} AEA|\u200e<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">{</span>B\u200e} AEA B2A|GFE DB,G,|A,3A,2A:|"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Error in line-char 8-4 : Unrecognized character: \ufffd",
+          "Error in line-char 8-5 : Unrecognized character: \ufffd",
+          "Error in line-char 8-6 : Unrecognized character: \ufffd",
+          "Error in line-char 8-14 : Unrecognized character: \ufffd",
+          "Error in line-char 8-15 : Unrecognized character: \ufffd",
+          "Error in line-char 8-16 : Unrecognized character: \ufffd",
+          "Error in line-char 8-25 : Unrecognized character: \ufffd",
+          "Error in line-char 8-26 : Unrecognized character: \ufffd",
+          "Error in line-char 8-27 : Unrecognized character: \ufffd",
+          "Error in line-char 9-16 : Unrecognized character: \ufffd",
+          "Error in line-char 9-17 : Unrecognized character: \ufffd",
+          "Error in line-char 9-18 : Unrecognized character: \ufffd",
+          "Error in line-char 9-26 : Unrecognized character: \ufffd",
+          "Error in line-char 9-27 : Unrecognized character: \ufffd",
+          "Error in line-char 9-28 : Unrecognized character: \ufffd",
+          "Error in line-char 9-37 : Unrecognized character: \ufffd",
+          "Error in line-char 9-38 : Unrecognized character: \ufffd",
+          "Error in line-char 9-39 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:8:3: Unknown character '\u200e' while parsing grace note:  |:<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">{</span>B\u200e}AEA {B\u200e} AEA|{B\u200e} AEA B2A |GFG EGE|",
+          "Music Line:8:11: Unknown character '\u200e' while parsing grace note:  |:{B\u200e}AEA <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">{</span>B\u200e} AEA|{B\u200e} AEA B2A |GFG EGE|",
+          "Music Line:8:20: Unknown character '\u200e' while parsing grace note:  |:{B\u200e}AEA {B\u200e} AEA|<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">{</span>B\u200e} AEA B2A |GFG EGE|",
+          "Music Line:9:15: Unknown character '\u200e' while parsing grace note:  [1DB,G, A,2 A|<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">{</span>B\u200e}AEA {B\u200e} AEA|{B\u200e} AEA B2A|GFE DB,G,|A,3A,2A:|",
+          "Music Line:9:23: Unknown character '\u200e' while parsing grace note:  [1DB,G, A,2 A|{B\u200e}AEA <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">{</span>B\u200e} AEA|{B\u200e} AEA B2A|GFE DB,G,|A,3A,2A:|",
+          "Music Line:9:32: Unknown character '\u200e' while parsing grace note:  [1DB,G, A,2 A|{B\u200e}AEA {B\u200e} AEA|<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">{</span>B\u200e} AEA B2A|GFE DB,G,|A,3A,2A:|"
+        ]
+      }
+    },
+    {
+      "setting_id": "56597",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-2 : Unrecognized character: \ufffd",
+          "Error in line-char 6-3 : Unrecognized character: \ufffd",
+          "Error in line-char 6-4 : Unrecognized character: \ufffd",
+          "Warning in line-char 6-12 : Different length notes in tuple",
+          "Error in line-char 6-14 : stray / not in grace sequence",
+          "Error in line-char 7-61 : Unrecognized character: \ufffd",
+          "Error in line-char 7-62 : Unrecognized character: \ufffd",
+          "Error in line-char 7-63 : Unrecognized character: \ufffd",
+          "Error in line-char 7-65 : Unrecognized character: \ufffd",
+          "Error in line-char 7-66 : Unrecognized character: \ufffd",
+          "Error in line-char 7-67 : Unrecognized character: \ufffd",
+          "Error in line-char 7-73 : Unrecognized character: \ufffd",
+          "Error in line-char 7-74 : Unrecognized character: \ufffd",
+          "Error in line-char 7-75 : Unrecognized character: \ufffd",
+          "Error in line-char 7-81 : Unrecognized character: \ufffd",
+          "Error in line-char 7-82 : Unrecognized character: \ufffd",
+          "Error in line-char 7-83 : Unrecognized character: \ufffd",
+          "Error in line-char 7-89 : Unrecognized character: \ufffd",
+          "Error in line-char 7-90 : Unrecognized character: \ufffd",
+          "Error in line-char 7-91 : Unrecognized character: \ufffd",
+          "Error in line-char 8-2 : Unrecognized character: \ufffd",
+          "Error in line-char 8-3 : Unrecognized character: \ufffd",
+          "Error in line-char 8-4 : Unrecognized character: \ufffd",
+          "Warning in line-char 8-12 : Different length notes in tuple",
+          "Error in line-char 8-14 : stray / not in grace sequence",
+          "Warning in line-char 7-80 : unequal notes in chord 1/4 versus 1/2",
+          "Warning in line-char 6-15 : Track 0 Bar 0 has 13/6 time units while the time signature has 2 in repeat",
+          "Warning in line-char 8-15 : Track 0 Bar 8 has 13/6 time units while the time signature has 2",
+          "Warning in line-char 8-15 : Track 0 Bar 8 has 13/6 time units while the time signature has 2 in repeat",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : stray / not in grace sequence",
+          "Error : Bar 1 is 1/6 not 2/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : stray / not in grace sequence",
+          "Error : Bar 11 is 13/24 not 2/4"
+        ],
+        "abcjs": [
+          "Music Line:6:3: Unknown character ignored:  |:<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>(3(D/E/F)/|G/G/B/G/ G/c/G/G/ |B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/",
+          "Music Line:7:62: Expected ']' to end the chords:  G/G/B/G/ G/c/G/G/ | B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/ |[GB<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>]\u200e[G/B/\u200e][G/B\u200e] [GB\u200e]:|",
+          "Music Line:7:62: Unknown character ignored:  G/G/B/G/ G/c/G/G/ | B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/ |[GB<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>]\u200e[G/B/\u200e][G/B\u200e] [GB\u200e]:|",
+          "Music Line:7:64: Unknown character ignored:  G/G/B/G/ G/c/G/G/ | B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/ |[GB\u200e]<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>[G/B/\u200e][G/B\u200e] [GB\u200e]:|",
+          "Music Line:7:70: Expected ']' to end the chords:  /G/ G/c/G/G/ | B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/ |[GB\u200e]\u200e[G/B/<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>][G/B\u200e] [GB\u200e]:|",
+          "Music Line:7:70: Unknown character ignored:  /G/ G/c/G/G/ | B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/ |[GB\u200e]\u200e[G/B/<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>][G/B\u200e] [GB\u200e]:|",
+          "Music Line:7:71: Unknown bar symbol:  G/ G/c/G/G/ | B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/ |[GB\u200e]\u200e[G/B/\u200e<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">]</span>[G/B\u200e] [GB\u200e]:|",
+          "Music Line:7:71: Unknown bar type:  G/ G/c/G/G/ | B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/ |[GB\u200e]\u200e[G/B/\u200e<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">]</span>[G/B\u200e] [GB\u200e]:|",
+          "Music Line:7:76: Expected ']' to end the chords:  c/G/G/ | B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/ |[GB\u200e]\u200e[G/B/\u200e][G/B<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>] [GB\u200e]:|",
+          "Music Line:7:76: Unknown character ignored:  c/G/G/ | B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/ |[GB\u200e]\u200e[G/B/\u200e][G/B<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>] [GB\u200e]:|",
+          "Music Line:7:82: Expected ']' to end the chords:   | B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/ |[GB\u200e]\u200e[G/B/\u200e][G/B\u200e] [GB<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>]:|",
+          "Music Line:7:82: Unknown character ignored:   | B/G/G/c/ G/G/B/G/| F/F/A/F/ F/B/F/F/ |[GB\u200e]\u200e[G/B/\u200e][G/B\u200e] [GB<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>]:|",
+          "Music Line:8:3: Unknown character ignored:  |:<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>(3(d/e/f)/|g/f/g/f/ ed |G/A/B/c/ d&gt;e|g&gt;f ed|ea a&gt;f|"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Warning in line-char 6-9 : Different length notes in tuple",
+          "Error in line-char 6-11 : stray / not in grace sequence",
+          "Warning in line-char 8-9 : Different length notes in tuple",
+          "Error in line-char 8-11 : stray / not in grace sequence",
+          "Warning in line-char 7-71 : unequal notes in chord 1/4 versus 1/2",
+          "Warning in line-char 6-12 : Track 0 Bar 0 has 13/6 time units while the time signature has 2 in repeat",
+          "Warning in line-char 8-12 : Track 0 Bar 8 has 13/6 time units while the time signature has 2",
+          "Warning in line-char 8-12 : Track 0 Bar 8 has 13/6 time units while the time signature has 2 in repeat",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : stray / not in grace sequence",
+          "Error : Bar 1 is 1/6 not 2/4",
+          "Error : stray / not in grace sequence",
+          "Error : Bar 11 is 13/24 not 2/4"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "56743",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 8-11 : Unrecognized character: \ufffd",
+          "Error in line-char 8-12 : Unrecognized character: \ufffd",
+          "Error in line-char 8-44 : Unrecognized character: \ufffd",
+          "Error in line-char 8-45 : Unrecognized character: \ufffd",
+          "Error in line-char 8-57 : Unrecognized character: \ufffd",
+          "Error in line-char 8-58 : Unrecognized character: \ufffd",
+          "Error in line-char 9-33 : Unrecognized character: \ufffd",
+          "Error in line-char 9-34 : Unrecognized character: \ufffd",
+          "Error in line-char 9-48 : Unrecognized character: \ufffd",
+          "Error in line-char 9-49 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:8:12: Unknown character ignored:  B,E3 BEGF |<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>E(CB,A,) CB,A,C | B,E3 B,EB,E |\u00a0DEBF FEEF |",
+          "Music Line:8:44: Unknown character ignored:  B,E3 BEGF |\u00a0E(CB,A,) CB,A,C | B,E3 B,EB,E |<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>DEBF FEEF |",
+          "Music Line:9:34: Unknown character ignored:  GFED (B,4 | B,)(A,A,G,) A,(DFD) |<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>B,EFE B,EFE |\u00a0DFBA FEED|",
+          "Music Line:9:48: Unknown character ignored:  GFED (B,4 | B,)(A,A,G,) A,(DFD) |\u00a0B,EFE B,EFE |<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>DFBA FEED|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "57345",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 9-39 : Unrecognized character: \ufffd",
+          "Error in line-char 9-40 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:9:40: Unknown character ignored:  Bee ede | fdd dBA | B=cB B=cB|1 AGF E2A<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|2 AGF E3 ||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "36554",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 7-45 : Unrecognized character: \ufffd",
+          "Error in line-char 7-46 : Unrecognized character: \ufffd",
+          "Error in line-char 9-52 : Unrecognized character: \ufffd",
+          "Error in line-char 9-53 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 1/8 not 6/8",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 10 is 5/4 not 6/8",
+          "Error : Bar 12 is 1/8 not 6/8",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 21 is 11/8 not 6/8"
+        ],
+        "abcjs": [
+          "Music Line:7:46: Unknown character ignored:  \"G\"D2G D2G|DGA B3|\"Am\"cBc \"D7\"DEF|1 \"G\"GBA G2<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|2 \"G\"GBA G2||",
+          "Music Line:9:53: Unknown character ignored:  \"G\"g3 \"D\"f3|\"C\"ece \"G\"d3|\"Am\"cBc \"D7\"DEF|1 \"G\"GBA G2<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|2 \"G\"GBA G3||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Error : Bar 1 is 1/8 not 6/8",
+          "Error : Bar 10 is 5/4 not 6/8",
+          "Error : Bar 12 is 1/8 not 6/8",
+          "Error : Bar 21 is 11/8 not 6/8"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "57210",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 13-29 : Unrecognized character: \ufffd",
+          "Error in line-char 13-30 : Unrecognized character: \ufffd",
+          "Error in line-char 13-31 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:13:30: Unknown character ignored:  afdf ~a2 bg|afdf adfg|~a3 g e<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>=fed|(3Bcd ef gefg:||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "45615",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 7-44 : Unrecognized character: \ufffd",
+          "Error in line-char 7-45 : Unrecognized character: \ufffd",
+          "Error in line-char 10-45 : Unrecognized character: \ufffd",
+          "Error in line-char 10-46 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 1/4 not 4/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:7:45: Unknown character ignored:  d^cde d=cBA|GFGA BGDB,|CEGc BAGB|(3ABA GF G2<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|",
+          "Music Line:10:46: Unknown character ignored:  Adcd fedc|Be^de gfe=d|ca^ga b=gec|(3dcd ec d2<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Error : Bar 1 is 1/4 not 4/4"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "42095",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-10 : Unrecognized character: \ufffd",
+          "Error in line-char 6-11 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:6:11: Unknown character ignored:  |:EA AB/d/<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>|g/e/d/B/ c/B/A/G/|EG G/F/G/A/|B/c/d/B/ c/B/A/G/|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "44458",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-2 : Unrecognized character: \ufffd",
+          "Error in line-char 6-3 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:6:3: Unknown character ignored:  |:<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>\"A\" c2A ABA|d2e fed|c2A ABA|\"G\" B2g gdB|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "48618",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 8-39 : Unrecognized character: \ufffd",
+          "Error in line-char 8-40 : Unrecognized character: \ufffd",
+          "Warning in line-char 6-14 : Track 0 Bar 1 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 6-24 : Track 0 Bar 2 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 6-34 : Track 0 Bar 3 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 6-44 : Track 0 Bar 4 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 7-8 : Track 0 Bar 5 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 7-19 : Track 0 Bar 6 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 7-27 : Track 0 Bar 7 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 7-38 : Track 0 Bar 8 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 8-9 : Track 0 Bar 9 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 8-20 : Track 0 Bar 10 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 8-28 : Track 0 Bar 11 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 8-38 : Track 0 Bar 12 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 10-4 : Track 0 Bar 13 has 7/2 time units while the time signature has 4",
+          "Warning in line-char 10-14 : Track 0 Bar 14 has 2 time units while the time signature has 5 in repeat",
+          "Warning in line-char 10-23 : Track 0 Bar 15 has 2 time units while the time signature has 5 in repeat",
+          "Warning in line-char 10-33 : Track 0 Bar 16 has 2 time units while the time signature has 5 in repeat",
+          "Warning in line-char 10-43 : Track 0 Bar 17 has 2 time units while the time signature has 5 in repeat",
+          "Warning in line-char 11-9 : Track 0 Bar 18 has 2 time units while the time signature has 5 in repeat",
+          "Warning in line-char 11-18 : Track 0 Bar 19 has 2 time units while the time signature has 5 in repeat",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 1/4 not 4/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 16 is 3/2 not 4/4"
+        ],
+        "abcjs": [
+          "Music Line:8:40: Unknown character ignored:  F2FD FDFA|d=cBA GFGA|E4 FAFD|FAFD EGEC|<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>[M:3/2] E2A2 D4 D2:|"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Warning in line-char 6-14 : Track 0 Bar 1 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 6-24 : Track 0 Bar 2 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 6-34 : Track 0 Bar 3 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 6-44 : Track 0 Bar 4 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 7-8 : Track 0 Bar 5 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 7-19 : Track 0 Bar 6 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 7-27 : Track 0 Bar 7 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 7-38 : Track 0 Bar 8 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 8-9 : Track 0 Bar 9 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 8-20 : Track 0 Bar 10 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 8-28 : Track 0 Bar 11 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 8-38 : Track 0 Bar 12 has 2 time units while the time signature has 3 in repeat",
+          "Warning in line-char 10-4 : Track 0 Bar 13 has 7/2 time units while the time signature has 4",
+          "Warning in line-char 10-14 : Track 0 Bar 14 has 2 time units while the time signature has 5 in repeat",
+          "Warning in line-char 10-23 : Track 0 Bar 15 has 2 time units while the time signature has 5 in repeat",
+          "Warning in line-char 10-33 : Track 0 Bar 16 has 2 time units while the time signature has 5 in repeat",
+          "Warning in line-char 10-43 : Track 0 Bar 17 has 2 time units while the time signature has 5 in repeat",
+          "Warning in line-char 11-9 : Track 0 Bar 18 has 2 time units while the time signature has 5 in repeat",
+          "Warning in line-char 11-18 : Track 0 Bar 19 has 2 time units while the time signature has 5 in repeat"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 1/4 not 4/4",
+          "Error : Bar 16 is 3/2 not 4/4"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "57288",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-39 : Unrecognized character: \ufffd",
+          "Error in line-char 6-40 : Unrecognized character: \ufffd",
+          "Error in line-char 6-41 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 1/4 not 4/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:6:40: Expected ']' to end the chords:  |:e2|f2af gfe2|d2B2 A3e|f2af gfe2|[f4d4<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>] [f2d2]e2|",
+          "Music Line:6:40: Unknown character ignored:  |:e2|f2af gfe2|d2B2 A3e|f2af gfe2|[f4d4<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u200e</span>] [f2d2]e2|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Error : Bar 1 is 1/4 not 4/4"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "17649",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-54 : Unrecognized character: \ufffd",
+          "Error in line-char 6-55 : Unrecognized character: \ufffd",
+          "Error in line-char 8-21 : Unrecognized character: \ufffd",
+          "Error in line-char 8-22 : Unrecognized character: \ufffd",
+          "Error in line-char 8-46 : Unrecognized character: \ufffd",
+          "Error in line-char 8-47 : Unrecognized character: \ufffd",
+          "Error in line-char 9-3 : Unrecognized character: \ufffd",
+          "Error in line-char 9-4 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 9 is 3/4 not 4/4",
+          "Error : Bar 11 is 5/4 not 4/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 19 is 3/4 not 4/4"
+        ],
+        "abcjs": [
+          "Music Line:6:55: Unknown character ignored:  cd|:(3efe ^de =de c2|(3BcB AB GB F2|EFGA Bcde|fe^de c2<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span> c=d|",
+          "Music Line:8:22: Unknown character ignored:  ea|:c'e c'4(3eac'|e'2<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>bab2 eg|be b4 (3egb|e'2\u00a0 aga2 ea|c'e c'4(3eac'|",
+          "Music Line:8:46: Unknown character ignored:  ea|:c'e c'4(3eac'|e'2\u00a0bab2 eg|be b4 (3egb|e'2<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span> aga2 ea|c'e c'4(3eac'|",
+          "Music Line:9:4: Unknown character ignored:  e'2<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>bab2 ea|gagf (3efe (3dcB|1 AcBG A2 ea:|2 AcBG A2||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Error : Bar 9 is 3/4 not 4/4",
+          "Error : Bar 11 is 5/4 not 4/4",
+          "Error : Bar 19 is 3/4 not 4/4"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "21838",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-13 : Unrecognized character: \ufffd",
+          "Error in line-char 6-14 : Unrecognized character: \ufffd",
+          "Error in line-char 6-28 : Unrecognized character: \ufffd",
+          "Error in line-char 6-29 : Unrecognized character: \ufffd",
+          "Error in line-char 6-44 : Unrecognized character: \ufffd",
+          "Error in line-char 6-45 : Unrecognized character: \ufffd",
+          "Error in line-char 6-63 : Unrecognized character: \ufffd",
+          "Error in line-char 6-64 : Unrecognized character: \ufffd",
+          "Error in line-char 7-13 : Unrecognized character: \ufffd",
+          "Error in line-char 7-14 : Unrecognized character: \ufffd",
+          "Error in line-char 7-28 : Unrecognized character: \ufffd",
+          "Error in line-char 7-29 : Unrecognized character: \ufffd",
+          "Error in line-char 7-54 : Unrecognized character: \ufffd",
+          "Error in line-char 7-55 : Unrecognized character: \ufffd",
+          "Error in line-char 8-3 : Unrecognized character: \ufffd",
+          "Error in line-char 8-4 : Unrecognized character: \ufffd",
+          "Error in line-char 8-11 : Unrecognized character: \ufffd",
+          "Error in line-char 8-12 : Unrecognized character: \ufffd",
+          "Error in line-char 8-17 : Unrecognized character: \ufffd",
+          "Error in line-char 8-18 : Unrecognized character: \ufffd",
+          "Error in line-char 8-29 : Unrecognized character: \ufffd",
+          "Error in line-char 8-30 : Unrecognized character: \ufffd",
+          "Error in line-char 8-44 : Unrecognized character: \ufffd",
+          "Error in line-char 8-45 : Unrecognized character: \ufffd",
+          "Error in line-char 8-50 : Unrecognized character: \ufffd",
+          "Error in line-char 8-51 : Unrecognized character: \ufffd",
+          "Error in line-char 8-58 : Unrecognized character: \ufffd",
+          "Error in line-char 8-59 : Unrecognized character: \ufffd",
+          "Error in line-char 8-64 : Unrecognized character: \ufffd",
+          "Error in line-char 8-65 : Unrecognized character: \ufffd",
+          "Error in line-char 8-76 : Unrecognized character: \ufffd",
+          "Error in line-char 8-77 : Unrecognized character: \ufffd",
+          "Error in line-char 8-88 : Unrecognized character: \ufffd",
+          "Error in line-char 8-89 : Unrecognized character: \ufffd",
+          "Error in line-char 8-96 : Unrecognized character: \ufffd",
+          "Error in line-char 8-97 : Unrecognized character: \ufffd",
+          "Error in line-char 9-3 : Unrecognized character: \ufffd",
+          "Error in line-char 9-4 : Unrecognized character: \ufffd",
+          "Error in line-char 9-11 : Unrecognized character: \ufffd",
+          "Error in line-char 9-12 : Unrecognized character: \ufffd",
+          "Error in line-char 9-17 : Unrecognized character: \ufffd",
+          "Error in line-char 9-18 : Unrecognized character: \ufffd",
+          "Error in line-char 9-29 : Unrecognized character: \ufffd",
+          "Error in line-char 9-30 : Unrecognized character: \ufffd",
+          "Error in line-char 9-44 : Unrecognized character: \ufffd",
+          "Error in line-char 9-45 : Unrecognized character: \ufffd",
+          "Error in line-char 9-57 : Unrecognized character: \ufffd",
+          "Error in line-char 9-58 : Unrecognized character: \ufffd",
+          "Error in line-char 9-72 : Unrecognized character: \ufffd",
+          "Error in line-char 9-73 : Unrecognized character: \ufffd",
+          "Warning in line-char 6-65 : Track 0 Bar 1 has 14 time units while the time signature has 3",
+          "Warning in line-char 7-30 : Track 0 Bar 2 has 12 time units while the time signature has 3",
+          "Warning in line-char 7-56 : Track 0 Bar 3 has 11 time units while the time signature has 3",
+          "Warning in line-char 8-46 : Track 0 Bar 4 has 18 time units while the time signature has 3",
+          "Warning in line-char 8-98 : Track 0 Bar 5 has 20 time units while the time signature has 3",
+          "Warning in line-char 9-46 : Track 0 Bar 6 has 18 time units while the time signature has 3",
+          "Warning in line-char 9-74 : Track 0 Bar 7 has 12 time units while the time signature has 3",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 1 is 7/2 not 3/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 2 is 3/1 not 3/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 3 is 11/4 not 3/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 4 is 9/2 not 3/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 5 is 5/1 not 3/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 6 is 9/2 not 3/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 7 is 3/1 not 3/4"
+        ],
+        "abcjs": [
+          "Music Line:6:14: Unknown character ignored:  B4 c&lt;d e2 A4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>f3e d2 e2 A4 \u00a0|B4 c&lt;d e2 A4 \u00a0e4 e&lt;d B4 B&lt;A G4 \u00a0|",
+          "Music Line:6:28: Unknown character ignored:  B4 c&lt;d e2 A4 \u00a0f3e d2 e2 A4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>|B4 c&lt;d e2 A4 \u00a0e4 e&lt;d B4 B&lt;A G4 \u00a0|",
+          "Music Line:6:43: Unknown character ignored:  B4 c&lt;d e2 A4 \u00a0f3e d2 e2 A4 \u00a0|B4 c&lt;d e2 A4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>e4 e&lt;d B4 B&lt;A G4 \u00a0|",
+          "Music Line:6:61: Unknown character ignored:  B4 c&lt;d e2 A4 \u00a0f3e d2 e2 A4 \u00a0|B4 c&lt;d e2 A4 \u00a0e4 e&lt;d B4 B&lt;A G4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>|",
+          "Music Line:7:14: Unknown character ignored:  B4 c&lt;d e2 A4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>f3e d2 e2 A4 \u00a0|Bd3 B2 e4 d4 B2 B&gt;B A4 \u00a0||",
+          "Music Line:7:28: Unknown character ignored:  B4 c&lt;d e2 A4 \u00a0f3e d2 e2 A4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>|Bd3 B2 e4 d4 B2 B&gt;B A4 \u00a0||",
+          "Music Line:7:53: Unknown character ignored:  B4 c&lt;d e2 A4 \u00a0f3e d2 e2 A4 \u00a0|Bd3 B2 e4 d4 B2 B&gt;B A4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>||",
+          "Music Line:8:4: Unknown character ignored:  g4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 ee2 A4 \u00a0|g4 \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 ",
+          "Music Line:8:11: Unknown character ignored:  g4 \u00a0f2 e3 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 ee2 A4 \u00a0|g4 \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 ",
+          "Music Line:8:16: Unknown character ignored:  g4 \u00a0f2 e3 \u00a0aa4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>f2 e3 ff4 \u00a0e2 d3 ee2 A4 \u00a0|g4 \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 BB4 \u00a0",
+          "Music Line:8:27: Unknown character ignored:  g4 \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>e2 d3 ee2 A4 \u00a0|g4 \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 BB4 \u00a0A2 G4 \u00a0|",
+          "Music Line:8:41: Unknown character ignored:  g4 \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 ee2 A4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>|g4 \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 BB4 \u00a0A2 G4 \u00a0|",
+          "Music Line:8:46: Unknown character ignored:  g4 \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 ee2 A4 \u00a0|g4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 BB4 \u00a0A2 G4 \u00a0|",
+          "Music Line:8:53: Unknown character ignored:  g4 \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 ee2 A4 \u00a0|g4 \u00a0f2 e3 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 BB4 \u00a0A2 G4 \u00a0|",
+          "Music Line:8:58: Unknown character ignored:  g4 \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 ee2 A4 \u00a0|g4 \u00a0f2 e3 \u00a0aa4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>f2 e3 ff4 \u00a0e2 d3 BB4 \u00a0A2 G4 \u00a0|",
+          "Music Line:8:69: Unknown character ignored:  f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 ee2 A4 \u00a0|g4 \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>e2 d3 BB4 \u00a0A2 G4 \u00a0|",
+          "Music Line:8:80: Unknown character ignored:  \u00a0f2 e3 ff4 \u00a0e2 d3 ee2 A4 \u00a0|g4 \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 BB4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>A2 G4 \u00a0|",
+          "Music Line:8:87: Unknown character ignored:  ff4 \u00a0e2 d3 ee2 A4 \u00a0|g4 \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 BB4 \u00a0A2 G4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>|",
+          "Music Line:9:4: Unknown character ignored:  g4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 ee2 A4 \u00a0|Bd3 B2 e6 \u00a0d4 B2 B&gt;B A4 \u00a0|",
+          "Music Line:9:11: Unknown character ignored:  g4 \u00a0f2 e3 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 ee2 A4 \u00a0|Bd3 B2 e6 \u00a0d4 B2 B&gt;B A4 \u00a0||",
+          "Music Line:9:16: Unknown character ignored:  g4 \u00a0f2 e3 \u00a0aa4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>f2 e3 ff4 \u00a0e2 d3 ee2 A4 \u00a0|Bd3 B2 e6 \u00a0d4 B2 B&gt;B A4 \u00a0||",
+          "Music Line:9:27: Unknown character ignored:  g4 \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>e2 d3 ee2 A4 \u00a0|Bd3 B2 e6 \u00a0d4 B2 B&gt;B A4 \u00a0||",
+          "Music Line:9:41: Unknown character ignored:  g4 \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 ee2 A4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>|Bd3 B2 e6 \u00a0d4 B2 B&gt;B A4 \u00a0||",
+          "Music Line:9:53: Unknown character ignored:  g4 \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 ee2 A4 \u00a0|Bd3 B2 e6 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>d4 B2 B&gt;B A4 \u00a0||",
+          "Music Line:9:67: Unknown character ignored:   \u00a0f2 e3 \u00a0aa4 \u00a0f2 e3 ff4 \u00a0e2 d3 ee2 A4 \u00a0|Bd3 B2 e6 \u00a0d4 B2 B&gt;B A4 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>||"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Warning in line-char 6-61 : Track 0 Bar 1 has 14 time units while the time signature has 3",
+          "Warning in line-char 7-28 : Track 0 Bar 2 has 12 time units while the time signature has 3",
+          "Warning in line-char 7-53 : Track 0 Bar 3 has 11 time units while the time signature has 3",
+          "Warning in line-char 8-41 : Track 0 Bar 4 has 18 time units while the time signature has 3",
+          "Warning in line-char 8-87 : Track 0 Bar 5 has 20 time units while the time signature has 3",
+          "Warning in line-char 9-41 : Track 0 Bar 6 has 18 time units while the time signature has 3",
+          "Warning in line-char 9-67 : Track 0 Bar 7 has 12 time units while the time signature has 3"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 7/2 not 3/4",
+          "Error : Bar 2 is 3/1 not 3/4",
+          "Error : Bar 3 is 11/4 not 3/4",
+          "Error : Bar 4 is 9/2 not 3/4",
+          "Error : Bar 5 is 5/1 not 3/4",
+          "Error : Bar 6 is 9/2 not 3/4",
+          "Error : Bar 7 is 3/1 not 3/4"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "21896",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-16 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 6-33 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 6-77 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 7-7 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 7-21 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 8-7 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 8-21 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 9-7 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 9-21 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 10-11 : Unrecognized character: \ufffd",
+          "Error in line-char 10-12 : Unrecognized character: \ufffd",
+          "Error in line-char 10-16 : Unrecognized character: \ufffd",
+          "Error in line-char 10-17 : Unrecognized character: \ufffd",
+          "Error in line-char 10-21 : Unrecognized character: \ufffd",
+          "Error in line-char 10-22 : Unrecognized character: \ufffd",
+          "Warning in line-char 6-26 : Track 1 Bar 1 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 6-52 : Track 1 Bar 2 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 6-90 : Track 1 Bar 4 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 7-14 : Track 1 Bar 5 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 7-40 : Track 1 Bar 6 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 8-14 : Track 1 Bar 9 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 8-40 : Track 1 Bar 10 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 9-14 : Track 1 Bar 13 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 9-36 : Track 1 Bar 14 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 14-27 : Track 3 is 48.054165 quarter notes long not 45.804165",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 11/16 not 3/4",
+          "Error : Bar 2 is 11/16 not 3/4",
+          "Error : Bar 4 is 11/16 not 3/4",
+          "Error : Bar 5 is 11/16 not 3/4",
+          "Error : Bar 6 is 11/16 not 3/4",
+          "Error : Bar 9 is 11/16 not 3/4",
+          "Error : Bar 10 is 11/16 not 3/4",
+          "Error : Bar 13 is 11/16 not 3/4",
+          "Error : Bar 14 is 11/16 not 3/4",
+          "Error : Bar 16 is 5/8 not 3/4",
+          "Error : Bar 17 is 1/8 not 3/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 33 is 5/8 not 3/4"
+        ],
+        "abcjs": [
+          "Music Line:10:12: Unknown character ignored:  [V:F2] z|z6<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>|z6\u00a0|z6\u00a0|z3 z2 F|",
+          "Music Line:10:16: Unknown character ignored:  [V:F2] z|z6\u00a0|z6<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>|z6\u00a0|z3 z2 F|",
+          "Music Line:10:20: Unknown character ignored:  [V:F2] z|z6\u00a0|z6\u00a0|z6<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>|z3 z2 F|"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Error in line-char 6-16 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 6-33 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 6-77 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 7-7 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 7-21 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 8-7 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 8-21 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 9-7 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 9-21 : Cannot apply broken rhythm. Notes not equal durations",
+          "Warning in line-char 6-26 : Track 1 Bar 1 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 6-52 : Track 1 Bar 2 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 6-90 : Track 1 Bar 4 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 7-14 : Track 1 Bar 5 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 7-40 : Track 1 Bar 6 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 8-14 : Track 1 Bar 9 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 8-40 : Track 1 Bar 10 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 9-14 : Track 1 Bar 13 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 9-36 : Track 1 Bar 14 has 11/4 time units while the time signature has 3",
+          "Warning in line-char 14-27 : Track 3 is 48.054165 quarter notes long not 45.804165",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 11/16 not 3/4",
+          "Error : Bar 2 is 11/16 not 3/4",
+          "Error : Bar 4 is 11/16 not 3/4",
+          "Error : Bar 5 is 11/16 not 3/4",
+          "Error : Bar 6 is 11/16 not 3/4",
+          "Error : Bar 9 is 11/16 not 3/4",
+          "Error : Bar 10 is 11/16 not 3/4",
+          "Error : Bar 13 is 11/16 not 3/4",
+          "Error : Bar 14 is 11/16 not 3/4",
+          "Error : Bar 16 is 5/8 not 3/4",
+          "Error : Bar 17 is 1/8 not 3/4",
+          "Error : Bar 33 is 5/8 not 3/4"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "21897",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-20 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 6-46 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 6-96 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 6-100 : Unrecognized character: \ufffd",
+          "Error in line-char 6-101 : Unrecognized character: \ufffd",
+          "Error in line-char 7-10 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 7-33 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 8-10 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 8-32 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 9-8 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 9-29 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 12-29 : Unrecognized character: \ufffd",
+          "Error in line-char 12-30 : Unrecognized character: \ufffd",
+          "Warning in line-char 6-24 : Track 1 Bar 1 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 6-50 : Track 1 Bar 3 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 6-102 : Track 1 Bar 7 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 7-14 : Track 1 Bar 9 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 7-37 : Track 1 Bar 11 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 8-14 : Track 1 Bar 17 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 8-36 : Track 1 Bar 19 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 9-12 : Track 1 Bar 25 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 9-33 : Track 1 Bar 27 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 14-44 : Track 3 is 96.054169 quarter notes long not 91.554169",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 5/8 not 3/4",
+          "Error : Bar 3 is 5/8 not 3/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 7 is 5/8 not 3/4",
+          "Error : Bar 9 is 5/8 not 3/4",
+          "Error : Bar 11 is 5/8 not 3/4",
+          "Error : Bar 17 is 5/8 not 3/4",
+          "Error : Bar 19 is 5/8 not 3/4",
+          "Error : Bar 25 is 5/8 not 3/4",
+          "Error : Bar 27 is 5/8 not 3/4",
+          "Error : Bar 32 is 1/2 not 3/4",
+          "Error : Bar 33 is 1/4 not 3/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 65 is 1/2 not 3/4"
+        ],
+        "abcjs": [
+          "Music Line:6:101: Unknown character ignored:  |\"A\" G2 &gt; A BG|\"C\" A4 GA|\"Em\" B2 e2 B2|\"C\" c2 B2 A2|\"Em\" G2&gt;E E2<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>|\"D\" D4 D2|",
+          "Music Line:12:30: Unknown character ignored:  G4 A2|G2 F2 G2|B2 A2 G2|F6|G6<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>|c6|B4 G2|F4 F2|"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Error in line-char 6-20 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 6-46 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 6-96 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 7-10 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 7-33 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 8-10 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 8-32 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 9-8 : Cannot apply broken rhythm. Notes not equal durations",
+          "Error in line-char 9-29 : Cannot apply broken rhythm. Notes not equal durations",
+          "Warning in line-char 6-24 : Track 1 Bar 1 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 6-50 : Track 1 Bar 3 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 6-101 : Track 1 Bar 7 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 7-14 : Track 1 Bar 9 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 7-37 : Track 1 Bar 11 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 8-14 : Track 1 Bar 17 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 8-36 : Track 1 Bar 19 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 9-12 : Track 1 Bar 25 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 9-33 : Track 1 Bar 27 has 5/2 time units while the time signature has 3",
+          "Warning in line-char 14-44 : Track 3 is 96.054169 quarter notes long not 91.554169",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 5/8 not 3/4",
+          "Error : Bar 3 is 5/8 not 3/4",
+          "Error : Bar 7 is 5/8 not 3/4",
+          "Error : Bar 9 is 5/8 not 3/4",
+          "Error : Bar 11 is 5/8 not 3/4",
+          "Error : Bar 17 is 5/8 not 3/4",
+          "Error : Bar 19 is 5/8 not 3/4",
+          "Error : Bar 25 is 5/8 not 3/4",
+          "Error : Bar 27 is 5/8 not 3/4",
+          "Error : Bar 32 is 1/2 not 3/4",
+          "Error : Bar 33 is 1/4 not 3/4",
+          "Error : Bar 65 is 1/2 not 3/4"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "37428",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 7-44 : Unrecognized character: \ufffd",
+          "Error in line-char 7-45 : Unrecognized character: \ufffd",
+          "Warning in line-char 6-13 : Track 0 Bar 1 has 4 time units while the time signature has 2",
+          "Warning in line-char 6-23 : Track 0 Bar 2 has 4 time units while the time signature has 2",
+          "Warning in line-char 6-32 : Track 0 Bar 3 has 4 time units while the time signature has 2",
+          "Warning in line-char 6-42 : Track 0 Bar 4 has 4 time units while the time signature has 2",
+          "Warning in line-char 7-13 : Track 0 Bar 5 has 4 time units while the time signature has 2",
+          "Warning in line-char 7-27 : Track 0 Bar 6 has 4 time units while the time signature has 2",
+          "Warning in line-char 7-37 : Track 0 Bar 7 has 4 time units while the time signature has 2",
+          "Warning in line-char 7-46 : Track 0 Bar 8 has 3 time units while the time signature has 2",
+          "Warning in line-char 6-4 : Track 0 Bar 0 has 1 time units while the time signature has 2 in repeat",
+          "Warning in line-char 6-13 : Track 0 Bar 1 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 6-23 : Track 0 Bar 2 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 6-32 : Track 0 Bar 3 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 6-42 : Track 0 Bar 4 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 7-13 : Track 0 Bar 5 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 7-27 : Track 0 Bar 6 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 7-37 : Track 0 Bar 7 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 7-46 : Track 0 Bar 8 has 3 time units while the time signature has 2 in repeat",
+          "Warning in line-char 8-5 : Track 0 Bar 9 has 1 time units while the time signature has 2 in repeat",
+          "Warning in line-char 8-14 : Track 0 Bar 10 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 8-23 : Track 0 Bar 11 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 8-32 : Track 0 Bar 12 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 8-41 : Track 0 Bar 13 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 9-8 : Track 0 Bar 14 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 9-18 : Track 0 Bar 15 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 9-27 : Track 0 Bar 16 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 9-37 : Track 0 Bar 17 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 10-8 : Track 0 Bar 18 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 10-18 : Track 0 Bar 19 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 10-28 : Track 0 Bar 20 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 10-38 : Track 0 Bar 21 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 11-13 : Track 0 Bar 22 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 11-27 : Track 0 Bar 23 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 11-37 : Track 0 Bar 24 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 11-44 : Track 0 Bar 25 has 3 time units while the time signature has 2 in repeat",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 1/4 not 2/4",
+          "Error : Bar 2 is 1/1 not 2/4",
+          "Error : Bar 3 is 1/1 not 2/4",
+          "Error : Bar 4 is 1/1 not 2/4",
+          "Error : Bar 5 is 1/1 not 2/4",
+          "Error : Bar 6 is 1/1 not 2/4",
+          "Error : Bar 7 is 1/1 not 2/4",
+          "Error : Bar 8 is 1/1 not 2/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 10 is 1/1 not 2/4",
+          "Error : Bar 11 is 1/1 not 2/4",
+          "Error : Bar 12 is 1/1 not 2/4",
+          "Error : Bar 13 is 1/1 not 2/4",
+          "Error : Bar 14 is 1/1 not 2/4",
+          "Error : Bar 15 is 1/1 not 2/4",
+          "Error : Bar 16 is 1/1 not 2/4",
+          "Error : Bar 17 is 1/1 not 2/4",
+          "Error : Bar 18 is 1/1 not 2/4",
+          "Error : Bar 19 is 1/1 not 2/4",
+          "Error : Bar 20 is 1/1 not 2/4",
+          "Error : Bar 21 is 1/1 not 2/4",
+          "Error : Bar 22 is 1/1 not 2/4",
+          "Error : Bar 23 is 1/1 not 2/4",
+          "Error : Bar 24 is 1/1 not 2/4",
+          "Error : Bar 25 is 1/1 not 2/4",
+          "Error : Bar 26 is 3/4 not 2/4"
+        ],
+        "abcjs": [
+          "Music Line:7:45: Unknown character ignored:  AB (3cBA dcAG|FEFG AB (3cBA|dcdf edce|d2d2d2<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Warning in line-char 6-13 : Track 0 Bar 1 has 4 time units while the time signature has 2",
+          "Warning in line-char 6-23 : Track 0 Bar 2 has 4 time units while the time signature has 2",
+          "Warning in line-char 6-32 : Track 0 Bar 3 has 4 time units while the time signature has 2",
+          "Warning in line-char 6-42 : Track 0 Bar 4 has 4 time units while the time signature has 2",
+          "Warning in line-char 7-13 : Track 0 Bar 5 has 4 time units while the time signature has 2",
+          "Warning in line-char 7-27 : Track 0 Bar 6 has 4 time units while the time signature has 2",
+          "Warning in line-char 7-37 : Track 0 Bar 7 has 4 time units while the time signature has 2",
+          "Warning in line-char 7-45 : Track 0 Bar 8 has 3 time units while the time signature has 2",
+          "Warning in line-char 6-4 : Track 0 Bar 0 has 1 time units while the time signature has 2 in repeat",
+          "Warning in line-char 6-13 : Track 0 Bar 1 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 6-23 : Track 0 Bar 2 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 6-32 : Track 0 Bar 3 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 6-42 : Track 0 Bar 4 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 7-13 : Track 0 Bar 5 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 7-27 : Track 0 Bar 6 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 7-37 : Track 0 Bar 7 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 7-45 : Track 0 Bar 8 has 3 time units while the time signature has 2 in repeat",
+          "Warning in line-char 8-5 : Track 0 Bar 9 has 1 time units while the time signature has 2 in repeat",
+          "Warning in line-char 8-14 : Track 0 Bar 10 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 8-23 : Track 0 Bar 11 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 8-32 : Track 0 Bar 12 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 8-41 : Track 0 Bar 13 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 9-8 : Track 0 Bar 14 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 9-18 : Track 0 Bar 15 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 9-27 : Track 0 Bar 16 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 9-37 : Track 0 Bar 17 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 10-8 : Track 0 Bar 18 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 10-18 : Track 0 Bar 19 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 10-28 : Track 0 Bar 20 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 10-38 : Track 0 Bar 21 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 11-13 : Track 0 Bar 22 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 11-27 : Track 0 Bar 23 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 11-37 : Track 0 Bar 24 has 4 time units while the time signature has 2 in repeat",
+          "Warning in line-char 11-44 : Track 0 Bar 25 has 3 time units while the time signature has 2 in repeat"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 1/4 not 2/4",
+          "Error : Bar 2 is 1/1 not 2/4",
+          "Error : Bar 3 is 1/1 not 2/4",
+          "Error : Bar 4 is 1/1 not 2/4",
+          "Error : Bar 5 is 1/1 not 2/4",
+          "Error : Bar 6 is 1/1 not 2/4",
+          "Error : Bar 7 is 1/1 not 2/4",
+          "Error : Bar 8 is 1/1 not 2/4",
+          "Error : Bar 10 is 1/1 not 2/4",
+          "Error : Bar 11 is 1/1 not 2/4",
+          "Error : Bar 12 is 1/1 not 2/4",
+          "Error : Bar 13 is 1/1 not 2/4",
+          "Error : Bar 14 is 1/1 not 2/4",
+          "Error : Bar 15 is 1/1 not 2/4",
+          "Error : Bar 16 is 1/1 not 2/4",
+          "Error : Bar 17 is 1/1 not 2/4",
+          "Error : Bar 18 is 1/1 not 2/4",
+          "Error : Bar 19 is 1/1 not 2/4",
+          "Error : Bar 20 is 1/1 not 2/4",
+          "Error : Bar 21 is 1/1 not 2/4",
+          "Error : Bar 22 is 1/1 not 2/4",
+          "Error : Bar 23 is 1/1 not 2/4",
+          "Error : Bar 24 is 1/1 not 2/4",
+          "Error : Bar 25 is 1/1 not 2/4",
+          "Error : Bar 26 is 3/4 not 2/4"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "30553",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 7-90 : Unrecognized character: \ufffd",
+          "Error in line-char 7-91 : Unrecognized character: \ufffd",
+          "Error in line-char 9-96 : Unrecognized character: \ufffd",
+          "Error in line-char 9-97 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:7:91: Unknown character ignored:   Bc de|fd B3 f|\"Em\"gf ed e/f/g|\"Bm\"fd BF Bd|\"F#m\"cB ce dc|\"Bm\"B6<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|",
+          "Music Line:9:97: Unknown character ignored:   \"A7\"de|\"D\" f6|\"Em\"ga bg eg|\"Bm\"fd BF B/c/d|\"F#m\"cB ce dc|\"Bm\"B6<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "31437",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-13 : Unrecognized character: \ufffd",
+          "Error in line-char 6-14 : Unrecognized character: \ufffd",
+          "Error in line-char 6-26 : Unrecognized character: \ufffd",
+          "Error in line-char 6-27 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Warning : Unexpected :|2 found"
+        ],
+        "abcjs": [
+          "Music Line:6:14: Unknown character ignored:  |:E2 GB e3 d|<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>de A2 AGAB \u00a0|G2 Bd g3 f|fgag ffBd|e2 dB e2 dB|",
+          "Music Line:6:26: Unknown character ignored:  |:E2 GB e3 d|\u00a0de A2 AGAB <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>|G2 Bd g3 f|fgag ffBd|e2 dB e2 dB|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Warning : Unexpected :|2 found"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "42139",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-60 : Unrecognized character: \ufffd",
+          "Error in line-char 6-61 : Unrecognized character: \ufffd",
+          "Error in line-char 8-47 : Unrecognized character: \ufffd",
+          "Error in line-char 8-48 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": []
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "33859",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 7-40 : Unrecognized character: \ufffd",
+          "Error in line-char 7-41 : Unrecognized character: \ufffd",
+          "Error in line-char 9-41 : Unrecognized character: \ufffd",
+          "Error in line-char 9-42 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:7:41: Unknown character ignored:  D3D DFEG|F2DE F2DF|AdcB AGFE|1 D2A2 ABAF<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|2 D2A2 ABAG||",
+          "Music Line:9:42: Unknown character ignored:  FAdA FAdA|GBdB GBdB|Acec Acec|1 dfec d2AG<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|2 dfec d2AF||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "34736",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 7-37 : Unrecognized character: \ufffd",
+          "Error in line-char 7-38 : Unrecognized character: \ufffd",
+          "Error in line-char 10-41 : Unrecognized character: \ufffd",
+          "Error in line-char 10-42 : Unrecognized character: \ufffd",
+          "Error in line-char 11-64 :  found [1 or like before |:",
+          "Warning in line-char 11-64 : Assuming repeat",
+          "Warning in line-char 11-64 : replacing |: with double repeat (::)",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Warning : Unexpected :|2 found"
+        ],
+        "abcjs": [
+          "Music Line:7:38: Unknown character ignored:  eB~B2 efgb|g3a gfeg|fec2 Bcef|fefg e4<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|",
+          "Music Line:10:42: Unknown character ignored:  EFGB EFGB|EFGc EFGc|1 AFAB defg|fdAG GFED<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|2 AFAB defg|fdBd e4||"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Error in line-char 11-63 :  found [1 or like before |:",
+          "Warning in line-char 11-63 : Assuming repeat",
+          "Warning in line-char 11-63 : replacing |: with double repeat (::)",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Warning : Unexpected :|2 found"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "35828",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 9-41 : Unrecognized character: \ufffd",
+          "Error in line-char 9-42 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:9:42: Unknown character ignored:  egge g2eg|aged (3cBA AG|e2dc AGED|EAcB A4<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "39045",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 7-34 : Unrecognized character: \ufffd",
+          "Error in line-char 7-35 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:7:35: Unknown character ignored:  A2c dcA|fce ecB|Abc ecB|1 A3 - AFE<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|2 A3 - A2f||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "43333",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 7-32 : Unrecognized character: \ufffd",
+          "Error in line-char 7-33 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:7:33: Unknown character ignored:  EAA A2c|cec cBA|FBB BAc|1 B3 A2F<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|2 B3 BAd||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "45569",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 7-28 : Unrecognized character: \ufffd",
+          "Error in line-char 7-29 : Unrecognized character: \ufffd",
+          "Error in line-char 9-27 : Unrecognized character: \ufffd",
+          "Error in line-char 9-28 : Unrecognized character: \ufffd",
+          "Error in line-char 11-25 : Unrecognized character: \ufffd",
+          "Error in line-char 11-26 : Unrecognized character: \ufffd",
+          "Error in line-char 13-35 : Unrecognized character: \ufffd",
+          "Error in line-char 13-36 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 1/4 not 3/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:7:29: Unknown character ignored:  G2GA FA|G2 GA FA|GB Ac FA|G4<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|",
+          "Music Line:9:28: Unknown character ignored:  GF GA Bc|de dB cA|G2G2F2|G4<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|",
+          "Music Line:11:26: Unknown character ignored:  G2G2B2|d2d2g2|A2 AG AB|G4<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|",
+          "Music Line:13:36: Unknown character ignored:  gf ed cB|ed cB AG|F/G/A/B/ cA GF|G4<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Error : Bar 1 is 1/4 not 3/4"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "45725",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 7-49 : Unrecognized character: \ufffd",
+          "Error in line-char 7-50 : Unrecognized character: \ufffd",
+          "Error in line-char 9-44 : Unrecognized character: \ufffd",
+          "Error in line-char 9-45 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Warning : Unexpected :| found"
+        ],
+        "abcjs": [
+          "Music Line:7:50: Unknown character ignored:  FccB cBAE|FccB ce (c2|c2) cB cB A/B/c|B2BA Bcea||<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:",
+          "Music Line:7:51: Unknown bar symbol:  FccB cBAE|FccB ce (c2|c2) cB cB A/B/c|B2BA Bcea||\u00a0<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">:</span>",
+          "Music Line:7:51: Unknown bar type:  FccB cBAE|FccB ce (c2|c2) cB cB A/B/c|B2BA Bcea||\u00a0<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">:</span>",
+          "Music Line:9:45: Unknown character ignored:  f2fe cBB2|FAAF cB~B2|cA~A2 BF~F2|1 afec Bcea<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|2 afec B4:|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Warning : Unexpected :| found"
+        ],
+        "abcjs": [
+          "Music Line:7:51: Unknown bar symbol:  FccB cBAE|FccB ce (c2|c2) cB cB A/B/c|B2BA Bcea|| <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">:</span>",
+          "Music Line:7:51: Unknown bar type:  FccB cBAE|FccB ce (c2|c2) cB cB A/B/c|B2BA Bcea|| <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">:</span>"
+        ]
+      }
+    },
+    {
+      "setting_id": "47650",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-50 : Unrecognized character: \ufffd",
+          "Error in line-char 6-51 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Bar 1 is 1/4 not 3/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 26 is 1/2 not 3/4"
+        ],
+        "abcjs": [
+          "Music Line:6:51: Unknown character ignored:  |:DG|Bc d/c/B cA|G&lt;B D2 GF|EG ce dc|BG [D2B,2] DG <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [
+          "Error : Bar 1 is 1/4 not 3/4",
+          "Error : Bar 26 is 1/2 not 3/4"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "48471",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 11-27 : Unrecognized character: \ufffd",
+          "Error in line-char 11-28 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:11:28: Unknown character ignored:  |:A,2 A,2 A,G,B,|C2 C2 EDG <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>|Fc GF EDC|D2 GA B2A|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "49120",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-34 : Unrecognized character: \ufffd",
+          "Error in line-char 6-35 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": []
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "51375",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 8-11 : Unrecognized character: \ufffd",
+          "Error in line-char 8-12 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:8:12: Unknown character ignored:  |:E2F GFE |<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>FAG FED | E2F GEG | FDF E3 |"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "54175",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 9-40 : Unrecognized character: \ufffd",
+          "Error in line-char 9-41 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:9:41: Unknown character ignored:  BABc dedB|ABAF (A3A/2)F/2|EDEF GECE|DFEC<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>D4:|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "57691",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 11-14 : Unrecognized character: \ufffd",
+          "Error in line-char 11-15 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:11:15: Unknown character ignored:  B3 c B&gt;A G&gt;A |<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>{A}B&gt;E E&gt;D E3 z | A&lt;B d&lt;e g&lt;e d&lt;B | {B}.e2 E2 ~E2 D2 ||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "54914",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 7-41 : Unrecognized character: \ufffd",
+          "Error in line-char 7-42 : Unrecognized character: \ufffd",
+          "Error in line-char 13-31 : Unrecognized character: \ufffd",
+          "Error in line-char 13-32 : Unrecognized character: \ufffd",
+          "Warning in line-char 10-11 : Track 0 Bar 15 has 6 time units while the time signature has 4 in repeat",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Bar 16 is 1/2 not 4/4",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:7:42: Unknown character ignored:  E3F A3B | cAeA fAeA | B3c BAG2- | GBAF E4<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|",
+          "Music Line:13:32: Unknown character ignored:  d3B dcBA |1 B3c Bcd2- | d2cB A4<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|2 B3c d3e | fefg fefg ||"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Warning in line-char 10-11 : Track 0 Bar 15 has 6 time units while the time signature has 4 in repeat"
+        ],
+        "abc2abc": [
+          "Error : Bar 16 is 1/2 not 4/4"
+        ],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "55801",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 7-50 : Unrecognized character: \ufffd",
+          "Error in line-char 7-51 : Unrecognized character: \ufffd",
+          "Error in line-char 7-65 : Unrecognized character: \ufffd",
+          "Error in line-char 7-66 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:7:51: Unknown character ignored:  cG G/G/G ^FG=FD | CE~E2 CDEG | c3e agfd |1 BGAB c4<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>:|2 BGAB cdef\u00a0||",
+          "Music Line:7:65: Unknown character ignored:  cG G/G/G ^FG=FD | CE~E2 CDEG | c3e agfd |1 BGAB c4\u00a0:|2 BGAB cdef<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u00a0</span>||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    }
+  ]
+}
