@@ -90163,8 +90163,8 @@ B2A2A2 (Bc)|(d^c)de (d=c)BA|G2G2 {A}GFGA|B2B2 {B}AGAB|G2B2G:|
 dcBc defg|(ef)ge (fg)af|g2b2g2:|"
 13154,55434,Please Give A Penny To The Poor Old Man,fiddle music,https://thesession.org/tunes/13154#setting55434,"Pickup, ending or repeat boundary","[{""setting_id"": ""55434"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""8"", ""fragment"": ""gfe"", ""reason"": ""No unique supported correction""}]","gfe|:d^cde d=cBA|G2BG B2AG|B2BG cBAG |F2A2 Agfe |
 d^cde d=cBA |G2BG B2AG |B2BG ABAF |1 G2GF GABc:|2 G2GF GABd||
-|:gdBd gbag|fgaf dgef|gfga bagb|agfe 〜d3B|
-cBcd efge|〜c3d efge|dBGB A2FA|1 G〜B3 GABd:|2 G〜B3 GABc||"
+|:gdBd gbag|fgaf dgef|gfga bagb|agfe ~d3B|
+cBcd efge|~c3d efge|dBGB A2FA|1 G~B3 GABd:|2 G~B3 GABc||"
 3365,3365,"Pleasures Of Home, The",dafydd,https://thesession.org/tunes/3365#setting3365,"Pickup, ending or repeat boundary","[{""setting_id"": ""3365"", ""bar"": 1, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""8"", ""fragment"": ""ed"", ""reason"": ""No unique supported correction""}]","ed|:cA (3AAA AGAB|cBcd (3eee dc|BG (3GGG GFGA|BABc ~d2 ed|
 cA (3AAA AGAB|ABcd e2 dc|BGBd cABG|1 EAAG ~A2 ed:|2 EAAG A2 AB||
 |:cBcd efed|cBcd (3eee ef|~g3 e dedc|BGBc d2 ed|

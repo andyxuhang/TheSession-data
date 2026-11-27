@@ -4,10 +4,10 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 
 | Status | Settings | Details |
 |---|---:|---|
-| Corrected | 642 | [fixed.csv](fixed.csv) |
+| Corrected | 649 | [fixed.csv](fixed.csv) |
 | Needs review | 3749 | [review.csv](review.csv) |
 | Pickups, endings and repeats | 24404 | [boundaries.csv](boundaries.csv) |
-| Unsupported syntax or empty melody | 6498 | [unsupported.csv](unsupported.csv) |
+| Unsupported syntax or empty melody | 6492 | [unsupported.csv](unsupported.csv) |
 | Playback or parser compatibility | 3461 | [playback.csv](playback.csv) |
 
 85 corrected settings still have other findings. Settings can appear in multiple categories. Each CSV gives the source link and current ABC. The corrected list also gives the ABC before the changes.
@@ -24,9 +24,11 @@ Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tun
 | Incorrect accidental | 33 |
 | Incorrect octave | 26 |
 | Stray control character | 19 |
+| Non-ABC wave dash used for an Irish roll | 18 |
 | Omitted note | 15 |
 | Stray notation symbol | 10 |
 | Incorrect melody note | 3 |
+| Incorrect capitalization of a decoration name | 3 |
 | Line break inside a numeric annotation | 3 |
 | Incorrect broken-rhythm or tuplet mark | 2 |
 | Surplus note | 2 |

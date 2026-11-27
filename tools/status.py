@@ -19,6 +19,8 @@ LABELS = {
     'incomplete_tuplet': 'Incomplete tuplet field',
     'annotation_linebreak': 'Line break inside a numeric annotation',
     'unicode_spacing': 'Invisible layout character in melody',
+    'roll_glyph': 'Non-ABC wave dash used for an Irish roll',
+    'decoration_case': 'Incorrect capitalization of a decoration name',
     'note_length': 'Incorrect note length',
     'proven_long_note': 'Incorrect note length',
     'rhythm_mark': 'Incorrect broken-rhythm or tuplet mark',

@@ -1,0 +1,687 @@
+{
+  "base_commit": "4df054cc465fd5caaa78119062a19987fc08dbce",
+  "method": "Standard ornament spelling with unchanged playback in independent parsers",
+  "scanner_sha256": "495c269c2748ecdcb025558ca876b8ea96c58bdc00af9c6a7ee598316c8c61e0",
+  "corrections": [
+    {
+      "setting_id": "55435",
+      "tune_id": "1285",
+      "name": "Staten Island",
+      "original_contributor": "fiddle music",
+      "source_url": "https://thesession.org/tunes/1285#setting55435",
+      "category": "roll_glyph",
+      "before_abc": "|:FDFG A2Bc|dfec dcBA|B2GB A2FA| G2E2 E2AG|\r\nFDFG A2Bc|dfec dcBA|d2cd efge|1 f2d2 dBAG:|2 f2d2 defg||\r\n|:a〜f3 gbeg|f2gf ecAB|=c2cd efge|=c2cd efge|\r\na2fa gbeg|f2gf ecAc|d2cd efge|1 f2d2 defg:|2 f2d2 dBAG||",
+      "after_abc": "|:FDFG A2Bc|dfec dcBA|B2GB A2FA| G2E2 E2AG|\r\nFDFG A2Bc|dfec dcBA|d2cd efge|1 f2d2 dBAG:|2 f2d2 defg||\r\n|:a~f3 gbeg|f2gf ecAB|=c2cd efge|=c2cd efge|\r\na2fa gbeg|f2gf ecAc|d2cd efge|1 f2d2 defg:|2 f2d2 dBAG||",
+      "before_sha256": "383c89db920655fbb28a24bb04f24b48a8bbf36c6daa39f26e22337c038ac28c",
+      "after_sha256": "3649dc6d4c0a7855e6d44664ab3065a1b6e631c60d9f882af8eb481645dc8b1c",
+      "evidence": [
+        {
+          "rule": "roll_glyph",
+          "start": 106,
+          "end": 107,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55435",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 106,
+          "end": 107,
+          "text": "~"
+        }
+      ]
+    },
+    {
+      "setting_id": "55279",
+      "tune_id": "5430",
+      "name": "Paddy Taylor's",
+      "original_contributor": "fiddle music",
+      "source_url": "https://thesession.org/tunes/5430#setting55279",
+      "category": "roll_glyph",
+      "before_abc": "|:ABA 〜g3|〜a3 efg|〜f3 ged|cAG EFG|\r\nABA 〜g3|〜a3 efg|fed cAG|1 Adc d2B :|2 Adc d2e||\r\n|:〜f3 edc|ded cAG|ABA D2D|fed ecA |\r\n〜f3 edc|ded cde|fed cAG |1 Adc d2e:|2 Adc d2B||",
+      "after_abc": "|:ABA ~g3|~a3 efg|~f3 ged|cAG EFG|\r\nABA ~g3|~a3 efg|fed cAG|1 Adc d2B :|2 Adc d2e||\r\n|:~f3 edc|ded cAG|ABA D2D|fed ecA |\r\n~f3 edc|ded cde|fed cAG |1 Adc d2e:|2 Adc d2B||",
+      "before_sha256": "7f6db75840e3f5c034eceeeab6aab489e45b4b953693167cac904e458cb37a6b",
+      "after_sha256": "45f69eb876eef0557c5dd750e2ffc75335015658cceedfd4edc6cb43d742675a",
+      "evidence": [
+        {
+          "rule": "roll_glyph",
+          "start": 6,
+          "end": 7,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55279",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 7,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "roll_glyph",
+          "start": 10,
+          "end": 11,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55279",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 7,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "roll_glyph",
+          "start": 18,
+          "end": 19,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55279",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 7,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "roll_glyph",
+          "start": 40,
+          "end": 41,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55279",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 7,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "roll_glyph",
+          "start": 44,
+          "end": 45,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55279",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 7,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "roll_glyph",
+          "start": 87,
+          "end": 88,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55279",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 7,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "roll_glyph",
+          "start": 122,
+          "end": 123,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55279",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 7,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "~"
+        },
+        {
+          "start": 10,
+          "end": 11,
+          "text": "~"
+        },
+        {
+          "start": 18,
+          "end": 19,
+          "text": "~"
+        },
+        {
+          "start": 40,
+          "end": 41,
+          "text": "~"
+        },
+        {
+          "start": 44,
+          "end": 45,
+          "text": "~"
+        },
+        {
+          "start": 87,
+          "end": 88,
+          "text": "~"
+        },
+        {
+          "start": 122,
+          "end": 123,
+          "text": "~"
+        }
+      ]
+    },
+    {
+      "setting_id": "55278",
+      "tune_id": "8099",
+      "name": "Humours Of Ballinahulla, The",
+      "original_contributor": "fiddle music",
+      "source_url": "https://thesession.org/tunes/8099#setting55278",
+      "category": "roll_glyph",
+      "before_abc": "|:〜B3 BGD|GBd edB|ABA DFA|DFA BGD |\r\n〜B3 BGD|GBd edB|ABA DFA|1 AGF G2A :|2 AGF GBd||\r\n|:f2f def|g2g efg |f2A AFA |BAF Ade|\r\n|〜f3 def|g2g efg |fed ^cB^c|1 dfe d2e:|2 dfe d^c=c||",
+      "after_abc": "|:~B3 BGD|GBd edB|ABA DFA|DFA BGD |\r\n~B3 BGD|GBd edB|ABA DFA|1 AGF G2A :|2 AGF GBd||\r\n|:f2f def|g2g efg |f2A AFA |BAF Ade|\r\n|~f3 def|g2g efg |fed ^cB^c|1 dfe d2e:|2 dfe d^c=c||",
+      "before_sha256": "f41c51b09c7ac27c7710f5d6e0fbadf4e40c0f109801f191a4a1afc66d2d720c",
+      "after_sha256": "4f0d6ebd767b5aad522e11dcc62e1faedcf22550ce47735cac0834f7bd389ebf",
+      "evidence": [
+        {
+          "rule": "roll_glyph",
+          "start": 2,
+          "end": 3,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55278",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "roll_glyph",
+          "start": 37,
+          "end": 38,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55278",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "roll_glyph",
+          "start": 125,
+          "end": 126,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55278",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "~"
+        },
+        {
+          "start": 37,
+          "end": 38,
+          "text": "~"
+        },
+        {
+          "start": 125,
+          "end": 126,
+          "text": "~"
+        }
+      ]
+    },
+    {
+      "setting_id": "55434",
+      "tune_id": "13154",
+      "name": "Please Give A Penny To The Poor Old Man",
+      "original_contributor": "fiddle music",
+      "source_url": "https://thesession.org/tunes/13154#setting55434",
+      "category": "roll_glyph",
+      "before_abc": "gfe|:d^cde d=cBA|G2BG B2AG|B2BG cBAG |F2A2 Agfe |\r\nd^cde d=cBA |G2BG B2AG |B2BG ABAF |1 G2GF GABc:|2 G2GF GABd||\r\n|:gdBd gbag|fgaf dgef|gfga bagb|agfe 〜d3B|\r\ncBcd efge|〜c3d efge|dBGB A2FA|1 G〜B3 GABd:|2 G〜B3 GABc||",
+      "after_abc": "gfe|:d^cde d=cBA|G2BG B2AG|B2BG cBAG |F2A2 Agfe |\r\nd^cde d=cBA |G2BG B2AG |B2BG ABAF |1 G2GF GABc:|2 G2GF GABd||\r\n|:gdBd gbag|fgaf dgef|gfga bagb|agfe ~d3B|\r\ncBcd efge|~c3d efge|dBGB A2FA|1 G~B3 GABd:|2 G~B3 GABc||",
+      "before_sha256": "cc4065b8766a1815c7588966b9be7ff421987869ac0a1826481284bf9fea6c61",
+      "after_sha256": "be04d200c810cfe51ad6df906ec9ec7fe256d2498bf4c744396de8f8cc8e798d",
+      "evidence": [
+        {
+          "rule": "roll_glyph",
+          "start": 151,
+          "end": 152,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55434",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "roll_glyph",
+          "start": 168,
+          "end": 169,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55434",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "roll_glyph",
+          "start": 191,
+          "end": 192,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55434",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "roll_glyph",
+          "start": 204,
+          "end": 205,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55434",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 4,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 151,
+          "end": 152,
+          "text": "~"
+        },
+        {
+          "start": 168,
+          "end": 169,
+          "text": "~"
+        },
+        {
+          "start": 191,
+          "end": 192,
+          "text": "~"
+        },
+        {
+          "start": 204,
+          "end": 205,
+          "text": "~"
+        }
+      ]
+    },
+    {
+      "setting_id": "55433",
+      "tune_id": "15278",
+      "name": "Fox In The Thatch, The",
+      "original_contributor": "fiddle music",
+      "source_url": "https://thesession.org/tunes/15278#setting55433",
+      "category": "roll_glyph",
+      "before_abc": "|:dBG BGE|D2D GED|GAB dBA|Bee (3efge|\r\ndBG BGE |DED GED|GAB dBA|1 BGG G2B:|2 BGG G2A||\r\n|:〜B3 dBd|〜e3 e2d|ede bag|aba age|\r\ng2e dBG |(3BcdB GED|GAB dBA|1 BGF G2A:|2 BGG G2B||",
+      "after_abc": "|:dBG BGE|D2D GED|GAB dBA|Bee (3efge|\r\ndBG BGE |DED GED|GAB dBA|1 BGG G2B:|2 BGG G2A||\r\n|:~B3 dBd|~e3 e2d|ede bag|aba age|\r\ng2e dBG |(3BcdB GED|GAB dBA|1 BGF G2A:|2 BGG G2B||",
+      "before_sha256": "71bc372099a1c8cdd5d49e974bfd0f6dc2fc400b8935365554a0bd750e20cf8e",
+      "after_sha256": "20feacfb7c0f09fc0b6516e576bfca949e21dd8c15d169482f1ec39e667612d5",
+      "evidence": [
+        {
+          "rule": "roll_glyph",
+          "start": 90,
+          "end": 91,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55433",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "roll_glyph",
+          "start": 98,
+          "end": 99,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55433",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 2,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 90,
+          "end": 91,
+          "text": "~"
+        },
+        {
+          "start": 98,
+          "end": 99,
+          "text": "~"
+        }
+      ]
+    },
+    {
+      "setting_id": "35396",
+      "tune_id": "18171",
+      "name": "Teardrop, The",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/18171#setting35396",
+      "category": "decoration_case",
+      "before_abc": "|\"Dm\"g2 f2 ^GA|\"E\"f2 e2 ^AB|\"Am\"d2 c2 ^DE|\"Am/C\"B2 A^G Ae|\r\n\"Dm\"g2 f2 ^GA|\"G\"e2 d2 ^AB|\"C\"a2 g2 ^f2|\"C\"g2 Bc eg|\r\n\"Cdim\"b2 a2 bc'|\"B/F#\"~b2 a2 f^f|\"Em7\"a2 g2 ab|\"A7/C#\"~a2 g2 e^f|\r\n\"F#7\"g2 ^f2 e2|c2 ^A2 ^FE|\"B7\"^D3 =E ^FA|\"E\"^G3 A B2 !Segno!||\r\n\"Dm\"g2 f2 ^GA|\"E\"f2 e2 ^AB|\"Am\"d2 c2 ^DE|\"Am/C\"B2 A^G Ae|\r\n\"Dm\"g2 f2 ^GA|\"G\"e2 d2 ^AB|\"C\"a2 g2 ^f2|\"C\"g2 Bc eg|\r\n\"F#dim7\"b2 a2 bc'|\"B7/F#\"~b2 a2 f^f|\"Em7\"a2 g2 ab|\"C#dim7\"~a2 g2 e^f|\r\n\"F#7\"g2 ^f2 e2|\"B\"e4 ^d2 !Coda!|\"E\"e6|\"E\"^G4 GB||\r\n\"D7\"[fA][eG] [fA]A ^GA|\"G\"_AG =A^A BG|\r\n\"C\"e^d eG ^FG|\"F\"^GA Bc \"C\"ec|\r\n\"Bm7\"ed d^c de|\"/Bb\"fe \"E7\"^de ^ge'|\r\n\"Am7\"[d'f][c'e] [c'e][bd] [bd][c'e]|\"C\"[bd][c'e] [bd][ac] \"F\"[^gB][ac]|\r\n\"Dm7\"fe fc' bc'|\"G\"^ab g^f gd|\r\n\"C\"e^d eb ab|\"F\"^ga fe dc|\"Bb\"ed d^c d2|\r\n\"Bm\"ed d^c d2|\"B/F#\"^dc BA ^AB|\r\n\"E\"f2 e4|\"E9\"[f'2d'2b2^g2] H[e'2^g2] \"D.S.\"ef !Coda!||\"E\"e6|[^G6E6]||",
+      "after_abc": "|\"Dm\"g2 f2 ^GA|\"E\"f2 e2 ^AB|\"Am\"d2 c2 ^DE|\"Am/C\"B2 A^G Ae|\r\n\"Dm\"g2 f2 ^GA|\"G\"e2 d2 ^AB|\"C\"a2 g2 ^f2|\"C\"g2 Bc eg|\r\n\"Cdim\"b2 a2 bc'|\"B/F#\"~b2 a2 f^f|\"Em7\"a2 g2 ab|\"A7/C#\"~a2 g2 e^f|\r\n\"F#7\"g2 ^f2 e2|c2 ^A2 ^FE|\"B7\"^D3 =E ^FA|\"E\"^G3 A B2 !segno!||\r\n\"Dm\"g2 f2 ^GA|\"E\"f2 e2 ^AB|\"Am\"d2 c2 ^DE|\"Am/C\"B2 A^G Ae|\r\n\"Dm\"g2 f2 ^GA|\"G\"e2 d2 ^AB|\"C\"a2 g2 ^f2|\"C\"g2 Bc eg|\r\n\"F#dim7\"b2 a2 bc'|\"B7/F#\"~b2 a2 f^f|\"Em7\"a2 g2 ab|\"C#dim7\"~a2 g2 e^f|\r\n\"F#7\"g2 ^f2 e2|\"B\"e4 ^d2 !coda!|\"E\"e6|\"E\"^G4 GB||\r\n\"D7\"[fA][eG] [fA]A ^GA|\"G\"_AG =A^A BG|\r\n\"C\"e^d eG ^FG|\"F\"^GA Bc \"C\"ec|\r\n\"Bm7\"ed d^c de|\"/Bb\"fe \"E7\"^de ^ge'|\r\n\"Am7\"[d'f][c'e] [c'e][bd] [bd][c'e]|\"C\"[bd][c'e] [bd][ac] \"F\"[^gB][ac]|\r\n\"Dm7\"fe fc' bc'|\"G\"^ab g^f gd|\r\n\"C\"e^d eb ab|\"F\"^ga fe dc|\"Bb\"ed d^c d2|\r\n\"Bm\"ed d^c d2|\"B/F#\"^dc BA ^AB|\r\n\"E\"f2 e4|\"E9\"[f'2d'2b2^g2] H[e'2^g2] \"D.S.\"ef !coda!||\"E\"e6|[^G6E6]||",
+      "before_sha256": "2fb5f9f67beecfda6f09a0481389b4e03a93353420aa07cff39f114191e387c0",
+      "after_sha256": "8c4ee03cd5cf5112b166916e136fbbc056a5a29fb69502533f5b933a3cc01b66",
+      "evidence": [
+        {
+          "rule": "decoration_case",
+          "start": 234,
+          "end": 241,
+          "before": "!Segno!",
+          "after": "!segno!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "35396",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_case",
+          "start": 454,
+          "end": 460,
+          "before": "!Coda!",
+          "after": "!coda!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "35396",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        },
+        {
+          "rule": "decoration_case",
+          "start": 816,
+          "end": 822,
+          "before": "!Coda!",
+          "after": "!coda!",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "35396",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 3,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 235,
+          "end": 236,
+          "text": "s"
+        },
+        {
+          "start": 455,
+          "end": 456,
+          "text": "c"
+        },
+        {
+          "start": 817,
+          "end": 818,
+          "text": "c"
+        }
+      ]
+    },
+    {
+      "setting_id": "55520",
+      "tune_id": "26012",
+      "name": "Minor Complications",
+      "original_contributor": "fiddle music",
+      "source_url": "https://thesession.org/tunes/26012#setting55520",
+      "category": "roll_glyph",
+      "before_abc": "A2GE EDA,D|EDEG AdcA|G2ED ECB,C|G,CEG cedc|\r\nA~d3 edcA|dfed cAGE|C~E3 cAde|c2Bd cAGE|\r\nFAGE EDA,D|EDEG AdcA|G2ED ECB,C|G,CEG cedc|\r\nA~d3 edcA|dfed cAGE|C~E3 cAde|cdec defg|\r\n|:a2fd dcAc|d2^cd Adfa|g〜c3 AcGc|AcBc gceg|\r\na2ag e~d3|AdFd fdBd|c~E3 cAde|1 cdec defg:|2 cAGE DA,B,^C||\r\n|:D2CD A,DED|ADFA dABd|cBcd ecgc|acge dcAG|\r\nF2GF E2FE|DA,DE ^FGAd|c~E3 cAde|1 cAGE DA,B,^C:|2 cAGE F3G||",
+      "after_abc": "A2GE EDA,D|EDEG AdcA|G2ED ECB,C|G,CEG cedc|\r\nA~d3 edcA|dfed cAGE|C~E3 cAde|c2Bd cAGE|\r\nFAGE EDA,D|EDEG AdcA|G2ED ECB,C|G,CEG cedc|\r\nA~d3 edcA|dfed cAGE|C~E3 cAde|cdec defg|\r\n|:a2fd dcAc|d2^cd Adfa|g~c3 AcGc|AcBc gceg|\r\na2ag e~d3|AdFd fdBd|c~E3 cAde|1 cdec defg:|2 cAGE DA,B,^C||\r\n|:D2CD A,DED|ADFA dABd|cBcd ecgc|acge dcAG|\r\nF2GF E2FE|DA,DE ^FGAd|c~E3 cAde|1 cAGE DA,B,^C:|2 cAGE F3G||",
+      "before_sha256": "8574a8ef652db31bc3e58c4e2151402ec6b306aa583fcfca53eb2942b57d9fdc",
+      "after_sha256": "0f14bfc029f98d13fa4881574ed63c0ad0fbb47879a5442e6ec6e266c45caa3e",
+      "evidence": [
+        {
+          "rule": "roll_glyph",
+          "start": 198,
+          "end": 199,
+          "before": "〜",
+          "after": "~",
+          "preserve_playback": true,
+          "specification": "https://abcnotation.com/wiki/abc:standard:v2.1#decorations",
+          "method": "ABC 2.1 roll shorthand and lowercase standard decoration names",
+          "scan_pass": 1,
+          "all_event_timings_unchanged": true,
+          "changed_played_pitches": 0,
+          "abcjs": {
+            "setting_id": "55520",
+            "passed": true,
+            "changed_played_pitches": 0,
+            "before_warnings": 1,
+            "after_warnings": 0,
+            "version": "abcjs-basic v6.5.2",
+            "sha256": "9a6ac915174d0cb06c5278247072cc2ab8f1f90e193a1988b3b0e6c9fcfb47b9"
+          }
+        }
+      ],
+      "edits": [
+        {
+          "start": 198,
+          "end": 199,
+          "text": "~"
+        }
+      ]
+    }
+  ],
+  "ornament_scanner_sha256": "1510d595152950fdd185f78bdcb4b5046fd6805dc41ab01f880e76ac7a04289b"
+}

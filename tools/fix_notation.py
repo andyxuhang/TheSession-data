@@ -15,6 +15,7 @@ from matching_phrases import scan_phrases
 from missing_notes import scan_missing_notes
 from note_count_fixes import scan_final_notes, scan_note_counts
 from parser_syntax import scan_parser_syntax
+from ornament_fixes import scan_ornaments
 from notation_structure import scan_structures
 from phrase_lengths import scan_lengths
 from pitch_fixes import PITCH_RULES, scan_pitches
@@ -127,13 +128,14 @@ def main():
     mode.add_argument('--structures', action='store_true', help='Match bar divisions and slur punctuation at written boundaries')
     mode.add_argument('--parser-syntax', action='store_true', help='Repair malformed tuplet punctuation with unchanged playback')
     mode.add_argument('--spacing', action='store_true', help='Normalize invisible layout characters with unchanged playback')
+    mode.add_argument('--ornaments', action='store_true', help='Normalize ornament glyphs and standard decoration names')
     args = parser.parse_args()
     pitch_mode = args.pitches or args.transposed_pitches
     note_counts = args.note_counts or args.final_notes
     reference_lengths = args.reference_lengths or args.opening_lengths
-    cross_checked = pitch_mode or args.syntax or note_counts or reference_lengths or args.structures or args.parser_syntax or args.spacing
+    cross_checked = pitch_mode or args.syntax or note_counts or reference_lengths or args.structures or args.parser_syntax or args.spacing or args.ornaments
     separate_scan = args.phrases or args.missing_notes or cross_checked
-    plan_name = ('written-whitespace' if args.spacing else 'written-token' if args.parser_syntax else 'written-tune-start' if args.opening_lengths else 'written-tune-end' if args.final_notes
+    plan_name = ('written-ornament' if args.ornaments else 'written-whitespace' if args.spacing else 'written-token' if args.parser_syntax else 'written-tune-start' if args.opening_lengths else 'written-tune-end' if args.final_notes
                  else 'written-structure' if args.structures else 'written-rhythm' if args.reference_lengths
                  else 'written-note' if args.note_counts
                  else 'syntax' if args.syntax else 'pitch' if pitch_mode else 'notation')
@@ -152,7 +154,9 @@ def main():
         work = Path(temporary)
         for attempt in range(1, 16):
             if separate_scan:
-                if args.spacing:
+                if args.ornaments:
+                    scanner = scan_ornaments
+                elif args.spacing:
                     scanner = scan_spacing
                 elif args.parser_syntax:
                     scanner = scan_parser_syntax
@@ -227,7 +231,7 @@ def main():
                     if note_counts:
                         evidence['changed_note_occurrences'] = outcomes[sid]['changed_note_occurrences']
                         evidence['abcjs'] = outcomes[sid]['abcjs']
-                    if args.structures or args.parser_syntax or args.spacing:
+                    if args.structures or args.parser_syntax or args.spacing or args.ornaments:
                         evidence['all_event_timings_unchanged'] = outcomes[sid]['all_event_timings_unchanged']
                         evidence['changed_played_pitches'] = outcomes[sid].get('changed_played_pitches',0)
                         evidence['abcjs'] = outcomes[sid]['abcjs']
@@ -296,6 +300,9 @@ def main():
         if args.spacing:
             plan['method'] = 'Unicode layout normalization outside annotations with unchanged playback in independent parsers'
             plan['spacing_scanner_sha256'] = hashlib.sha256((ROOT/'tools/spacing_fixes.py').read_bytes()).hexdigest()
+        if args.ornaments:
+            plan['method'] = 'Standard ornament spelling with unchanged playback in independent parsers'
+            plan['ornament_scanner_sha256'] = hashlib.sha256((ROOT/'tools/ornament_fixes.py').read_bytes()).hexdigest()
         if args.syntax:
             plan['method'] = 'Matching written measures and unchanged playback in independent parsers'
             plan['syntax_scanner_sha256'] = hashlib.sha256((ROOT/'tools/syntax_fixes.py').read_bytes()).hexdigest()
@@ -310,7 +317,7 @@ def main():
                 plan.setdefault(key, value)
         dump(work/'fixes.json',plan)
         final = playback(work/'fixes.json',work/'final-check.json',args,False,
-                         cross_check=args.structures or args.final_notes or args.opening_lengths or args.parser_syntax or args.spacing)
+                         cross_check=args.structures or args.final_notes or args.opening_lengths or args.parser_syntax or args.spacing or args.ornaments)
         args.output.mkdir(parents=True,exist_ok=True)
         dump(args.output/'proposed-fixes.json',plan)
         if separate_scan:

@@ -1,5 +1,13 @@
 # Changes
 
+## Ornament symbols
+
+Replaced 18 U+301C wave dashes before notes with the ABC Irish-roll shorthand. Corrected three capitalized Segno/Coda decoration names to their standard lowercase spelling. The 21 edits cover seven settings of seven tunes and 13 matching set entries.
+
+TradMate and abcjs preserved the played pitches, ties, rests and timings. In these settings, abcjs diagnostics decreased from 21 to zero, abc2abc diagnostics from 54 to zero, and abc2midi diagnostics from 67 to seven.
+
+See the [original and corrected symbols](checks/written-ornament-edits.json), [playback checks](checks/written-ornament-playback.json), and [diagnostic comparison](checks/ornament-diagnostics.json). The [ABC decoration specification](https://abcnotation.com/wiki/abc:standard:v2.1#decorations) defines the corrected spellings.
+
 ## Invisible layout characters
 
 Normalized 77 nonbreaking spaces and removed 15 directional formatting marks outside annotations and comments. The 92 changes cover 34 settings of 33 tunes and 70 matching set entries.

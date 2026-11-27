@@ -1,0 +1,266 @@
+{
+  "settings": 7,
+  "results": [
+    {
+      "setting_id": "55435",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 8-3 : Unrecognized character: \ufffd",
+          "Error in line-char 8-4 : Unrecognized character: \ufffd",
+          "Error in line-char 8-5 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:8:4: Unknown character ignored:  |:a<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>f3 gbeg|f2gf ecAB|=c2cd efge|=c2cd efge|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "55279",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-6 : Unrecognized character: \ufffd",
+          "Error in line-char 6-7 : Unrecognized character: \ufffd",
+          "Error in line-char 6-8 : Unrecognized character: \ufffd",
+          "Error in line-char 6-12 : Unrecognized character: \ufffd",
+          "Error in line-char 6-13 : Unrecognized character: \ufffd",
+          "Error in line-char 6-14 : Unrecognized character: \ufffd",
+          "Error in line-char 6-22 : Unrecognized character: \ufffd",
+          "Error in line-char 6-23 : Unrecognized character: \ufffd",
+          "Error in line-char 6-24 : Unrecognized character: \ufffd",
+          "Error in line-char 7-4 : Unrecognized character: \ufffd",
+          "Error in line-char 7-5 : Unrecognized character: \ufffd",
+          "Error in line-char 7-6 : Unrecognized character: \ufffd",
+          "Error in line-char 7-10 : Unrecognized character: \ufffd",
+          "Error in line-char 7-11 : Unrecognized character: \ufffd",
+          "Error in line-char 7-12 : Unrecognized character: \ufffd",
+          "Error in line-char 8-2 : Unrecognized character: \ufffd",
+          "Error in line-char 8-3 : Unrecognized character: \ufffd",
+          "Error in line-char 8-4 : Unrecognized character: \ufffd",
+          "Error in line-char 9-0 : Unrecognized character: \ufffd",
+          "Error in line-char 9-1 : Unrecognized character: \ufffd",
+          "Error in line-char 9-2 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:6:7: Unknown character ignored:  |:ABA <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>g3|\u301ca3 efg|\u301cf3 ged|cAG EFG|",
+          "Music Line:6:11: Unknown character ignored:  |:ABA \u301cg3|<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>a3 efg|\u301cf3 ged|cAG EFG|",
+          "Music Line:6:19: Unknown character ignored:  |:ABA \u301cg3|\u301ca3 efg|<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>f3 ged|cAG EFG|",
+          "Music Line:7:5: Unknown character ignored:  ABA <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>g3|\u301ca3 efg|fed cAG|1 Adc d2B :|2 Adc d2e||",
+          "Music Line:7:9: Unknown character ignored:  ABA \u301cg3|<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>a3 efg|fed cAG|1 Adc d2B :|2 Adc d2e||",
+          "Music Line:8:3: Unknown character ignored:  |:<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>f3 edc|ded cAG|ABA D2D|fed ecA |",
+          "Music Line:9:1: Unknown character ignored:  <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>f3 edc|ded cde|fed cAG |1 Adc d2e:|2 Adc d2B||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "55278",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 6-2 : Unrecognized character: \ufffd",
+          "Error in line-char 6-3 : Unrecognized character: \ufffd",
+          "Error in line-char 6-4 : Unrecognized character: \ufffd",
+          "Error in line-char 7-0 : Unrecognized character: \ufffd",
+          "Error in line-char 7-1 : Unrecognized character: \ufffd",
+          "Error in line-char 7-2 : Unrecognized character: \ufffd",
+          "Error in line-char 9-1 : Unrecognized character: \ufffd",
+          "Error in line-char 9-2 : Unrecognized character: \ufffd",
+          "Error in line-char 9-3 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:6:3: Unknown character ignored:  |:<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>B3 BGD|GBd edB|ABA DFA|DFA BGD |",
+          "Music Line:7:1: Unknown character ignored:  <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>B3 BGD|GBd edB|ABA DFA|1 AGF G2A :|2 AGF GBd||",
+          "Music Line:9:2: Unknown character ignored:  |<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>f3 def|g2g efg |fed ^cB^c|1 dfe d2e:|2 dfe d^c=c||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "55434",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 8-37 : Unrecognized character: \ufffd",
+          "Error in line-char 8-38 : Unrecognized character: \ufffd",
+          "Error in line-char 8-39 : Unrecognized character: \ufffd",
+          "Error in line-char 9-10 : Unrecognized character: \ufffd",
+          "Error in line-char 9-11 : Unrecognized character: \ufffd",
+          "Error in line-char 9-12 : Unrecognized character: \ufffd",
+          "Error in line-char 9-35 : Unrecognized character: \ufffd",
+          "Error in line-char 9-36 : Unrecognized character: \ufffd",
+          "Error in line-char 9-37 : Unrecognized character: \ufffd",
+          "Error in line-char 9-50 : Unrecognized character: \ufffd",
+          "Error in line-char 9-51 : Unrecognized character: \ufffd",
+          "Error in line-char 9-52 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:8:38: Unknown character ignored:  |:gdBd gbag|fgaf dgef|gfga bagb|agfe <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>d3B|",
+          "Music Line:9:11: Unknown character ignored:  cBcd efge|<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>c3d efge|dBGB A2FA|1 G\u301cB3 GABd:|2 G\u301cB3 GABc||",
+          "Music Line:9:34: Unknown character ignored:  cBcd efge|\u301cc3d efge|dBGB A2FA|1 G<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>B3 GABd:|2 G\u301cB3 GABc||",
+          "Music Line:9:47: Unknown character ignored:  cBcd efge|\u301cc3d efge|dBGB A2FA|1 G\u301cB3 GABd:|2 G<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>B3 GABc||"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "55433",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 8-2 : Unrecognized character: \ufffd",
+          "Error in line-char 8-3 : Unrecognized character: \ufffd",
+          "Error in line-char 8-4 : Unrecognized character: \ufffd",
+          "Error in line-char 8-12 : Unrecognized character: \ufffd",
+          "Error in line-char 8-13 : Unrecognized character: \ufffd",
+          "Error in line-char 8-14 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:8:3: Unknown character ignored:  |:<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>B3 dBd|\u301ce3 e2d|ede bag|aba age|",
+          "Music Line:8:11: Unknown character ignored:  |:\u301cB3 dBd|<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>e3 e2d|ede bag|aba age|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "35396",
+      "before": {
+        "abc2midi": [
+          "Warning in line-char 9-53 : instruction !Segno! ignored",
+          "Warning in line-char 13-25 : instruction !Coda! ignored",
+          "Error in line-char 16-15 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 21-37 : Unrecognized chord name \".S.\"",
+          "Warning in line-char 21-46 : instruction !Coda! ignored",
+          "Warning in line-char 21-52 : Track 1 Bar 48 has 4 time units while the time signature has 3",
+          "Process exit code 1"
+        ],
+        "abc2abc": [],
+        "abcjs": [
+          "Music Line:9:54: Unknown decoration: Segno:  \"F#7\"g2 ^f2 e2|c2 ^A2 ^FE|\"B7\"^D3 =E ^FA|\"E\"^G3 A B2 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">!</span>Segno!||",
+          "Music Line:13:26: Unknown decoration: Coda:  \"F#7\"g2 ^f2 e2|\"B\"e4 ^d2 <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">!</span>Coda!|\"E\"e6|\"E\"^G4 GB||",
+          "Music Line:21:47: Unknown decoration: Coda:  \"E\"f2 e4|\"E9\"[f'2d'2b2^g2] H[e'2^g2] \"D.S.\"ef <span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">!</span>Coda!||\"E\"e6|[^G6E6]||"
+        ]
+      },
+      "after": {
+        "abc2midi": [
+          "Warning in line-char 9-53 : instruction !segno! ignored",
+          "Warning in line-char 13-25 : instruction !coda! ignored",
+          "Error in line-char 16-15 : Guitar chord does not start with A-G or a-g",
+          "Error in line-char 21-37 : Unrecognized chord name \".S.\"",
+          "Warning in line-char 21-46 : instruction !coda! ignored",
+          "Warning in line-char 21-52 : Track 1 Bar 48 has 4 time units while the time signature has 3",
+          "Process exit code 1"
+        ],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    },
+    {
+      "setting_id": "55520",
+      "before": {
+        "abc2midi": [
+          "Error in line-char 10-24 : Unrecognized character: \ufffd",
+          "Error in line-char 10-25 : Unrecognized character: \ufffd",
+          "Error in line-char 10-26 : Unrecognized character: \ufffd",
+          "Process exit code 1"
+        ],
+        "abc2abc": [
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd",
+          "Error : Unrecognized character: \ufffd"
+        ],
+        "abcjs": [
+          "Music Line:10:25: Unknown character ignored:  |:a2fd dcAc|d2^cd Adfa|g<span style=\"text-decoration:underline;font-size:1.3em;font-weight:bold;\">\u301c</span>c3 AcGc|AcBc gceg|"
+        ]
+      },
+      "after": {
+        "abc2midi": [],
+        "abc2abc": [],
+        "abcjs": []
+      }
+    }
+  ]
+}
