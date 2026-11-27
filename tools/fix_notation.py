@@ -71,7 +71,8 @@ def check_measure_edits(proposals, work, args, lengths=False):
             else:
                 sid = patch['setting_id']
                 failures.setdefault(sid, {'setting_id':sid, 'passed':False, 'reason':'individual note-length check' if lengths else 'individual barline check', 'bars':[]})
-                failures[sid]['bars'].append({'edit':ev, 'reason':result.get('reason','timing changed')})
+                reason = result.get('reason') or ('no played duration changed' if lengths else 'timing changed')
+                failures[sid]['bars'].append({'edit':ev, 'reason':reason})
         if evidence:
             rules = sorted({item['rule'] for item in evidence})
             accepted.append({**patch, 'category':'+'.join(rules), 'evidence':evidence[::-1], 'after_abc':body, 'after_sha256':sha(body),
@@ -88,9 +89,11 @@ def main():
     mode = parser.add_mutually_exclusive_group()
     mode.add_argument('--lengths', action='store_true', help='Check individual note lengths against phrases in other settings')
     mode.add_argument('--barlines', action='store_true', help='Check each structural edit separately before combining it')
+    mode.add_argument('--parallel-lengths', action='store_true', help='Check note lengths against a repeated phrase in the same setting')
     args = parser.parse_args()
+    lengths = args.lengths or args.parallel_lengths
     data = list(rows(ROOT/'json/tunes.json'))
-    if args.lengths:
+    if lengths:
         baseline = json.loads((ROOT/'changes/initial-fixes.json').read_text())['upstream_commit']
         exported = subprocess.check_output(['git','show',baseline+':json/tunes.json'], cwd=ROOT)
         upstream = {r['setting_id']:r for r in json.loads(exported)}
@@ -100,8 +103,8 @@ def main():
     with tempfile.TemporaryDirectory(prefix='session-notation-') as temporary:
         work = Path(temporary)
         for attempt in range(1, 16):
-            if args.lengths:
-                proposals = scan_lengths(data, upstream)
+            if lengths:
+                proposals = scan_lengths(data, upstream, parallel=args.parallel_lengths)
                 stats = {'settings':len(data), 'settings_with_proposals':len(proposals),
                          'note_length':sum(len(p['evidence']) for p in proposals)}
             else:
@@ -114,10 +117,10 @@ def main():
                 break
             structural = [p for p in candidates if all(
                 e['rule'] in {'misplaced_barline', 'missing_barline'} for e in p['evidence'])]
-            individual = candidates if args.lengths else structural
+            individual = candidates if lengths else structural
             if individual:
                 structural_ids = {p['setting_id'] for p in individual}
-                passed, failures = check_measure_edits(individual, work, args, lengths=args.lengths)
+                passed, failures = check_measure_edits(individual, work, args, lengths=lengths)
                 for sid in structural_ids:
                     rejected.pop(sid, None)
                 rejected.update(failures)
@@ -156,7 +159,7 @@ def main():
         else:
             raise RuntimeError('Scan did not converge; no data have been written')
 
-        if args.lengths:
+        if lengths:
             _, findings, _ = scan(data)
         # Retain the complete original of any earlier run. Never overwrite the
         # history with an empty plan when the data are already corrected.
@@ -179,7 +182,7 @@ def main():
             'scanner_sha256':hashlib.sha256((ROOT/'tools/scan.py').read_bytes()).hexdigest(),
             'corrections':sorted(combined.values(),key=lambda p:(int(p['tune_id']),int(p['setting_id']))),
         }
-        if args.lengths:
+        if lengths:
             plan['phrase_scanner_sha256'] = hashlib.sha256((ROOT/'tools/phrase_lengths.py').read_bytes()).hexdigest()
         dump(work/'fixes.json',plan)
         final = playback(work/'fixes.json',work/'final-check.json',args,False)
@@ -195,10 +198,10 @@ def main():
         if args.apply:
             dump(stored,plan)
             dump(ROOT/'checks/notation-playback.json',final)
-            if args.barlines or args.lengths:
+            if args.barlines or lengths:
                 for old in json.loads((ROOT/'checks/rejected.json').read_text()):
                     rules = {e['rule'] for e in old.get('proposal', {}).get('evidence', [])}
-                    if args.lengths or rules - {'missing_barline','misplaced_barline'}:
+                    if lengths or rules - {'missing_barline','misplaced_barline'}:
                         rejected.setdefault(old['setting_id'],old)
             dump(ROOT/'checks/rejected.json',list(rejected.values()))
             dump(ROOT/'checks/scan.json',{'passes':history,'rejected_settings':len(rejected)})

@@ -17899,7 +17899,7 @@ zGA eAd|zGA eAd|zGA gfe|fed cBA:|"
 15618,29298,Horizontigo,pbsinclair42,https://thesession.org/tunes/15618#setting29298,检查器不支持的语法或无旋律音符；未判错,"[{""setting_id"": ""29298"", ""bar"": 9, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": ""C)/B,/C/D/ (3E/F/G/ A/F/ ]""}]","|:f>(e e/)c/a/b/|c'b/a/ ga|e/e/e/(f/ f/)c/f/g/|ag/f/ e/d/c/A/|
 B>A B/d/c/A/|F>E F/A/G/E/|1 C>D E/G/A:|2 (C4|C)/B,/C/D/ (3E/F/G/ A/F/ ]|
 B>(A A/)F/B/c/|dc/B/ B/A/B/G/|c>(B B/)G/c/d/|ed/c/ A/B/c/d/|
-f>(e e/)c/f/g/|a>(f/ f/)e/c/A/|B>A B/d/c/A/|B>A B/d/c/A/|F>E F/A/G/E/|C/B,/C/D/ (3E/F/G/ A/F/|
+f>(e e/)c/f/g/|a>(f f/)e/c/A/|B>A B/d/c/A/|B>A B/d/c/A/|F>E F/A/G/E/|C/B,/C/D/ (3E/F/G/ A/F/|
 B>(A A/)F/B/c/|dc/B/ B/A/B/G/|c>(B B/)B/e/f/|gf/e/ dc/e/|
 f>(e e/)c/f/g/|a>(f f/)e/c/A/|B>A B/d/c/A/|F>E F/A/G/E/|C>D E/G/A||"
 22864,46421,"Horseshoe, The",John E Roche,https://thesession.org/tunes/22864#setting46421,检查器不支持的语法或无旋律音符；未判错,"[{""setting_id"": ""46421"", ""category"": ""unsupported"", ""reason"": ""embedded field or voice""}]","dc|:B3 A (3GAB|AG FG AF|GF EF GE|(D4 D)A,|
@@ -20830,7 +20830,7 @@ G2 B,D GB|A2 DF Ac|B2 GA Bd|e2 f2 g2|
 d2 GA Bd|EF d3 F|E2 G2 c2|AG FE DC|
 D2 G,D GB|E2 A,E Ac|F2 B,F Bd|G2 CG ce|
 d2 g2 b2|ed cB AG|A2 d2 f2|g3 G ba||
-b2 gd BG|a2 fd AF|g2 eg c'e'|d'2 b3 g2|
+b2 gd BG|a2 fd AF|g2 eg c'e'|d'2 b3 g|
 ed cB ce|dc BA GF|E2 G2 c2|Ad ef ga|
 b2 ab gd|a2 ba gf|g2 Bg ag|f2 Bb gf|
 e2 Ge dc|d2 Gd cB|A2 d2 f2|g3 d c'b|
@@ -29897,7 +29897,7 @@ dgeg dgef|(3ggg gd edBe|1 (3AAA BA G2 de:|2 )3AAA BA G2||"
 |:""G""g3 f af|""Em"" g3 b ag|""Dm"" =f>e de =fd|""Am"" e4 A2|
 ""C""c>B cd ef|g3e cA|""Em"" G2E2c>A|""G"" G2E2G2|
 ""Am"" A2 AB cA|""G"" B2 Bc dB|""C""c3d ef|""Em"" g2e2a2|
-""C"" g3 ec2|""Dm"" d3 cA|""Am"" A6|1 A4 ef:|2 A4 AB||
+""C"" g3 ec2|""Dm"" d3 cA2|""Am"" A6|1 A4 ef:|2 A4 AB||
 |:""Am"" c2E2F2|""Em"" G4 AB|""C"" c>B cd ef|""Em"" g2e2a2|
 ""C"" g>=f eg =fe|""Dm"" d=f ed cB|""Am"" c2E2F2|""G"" G4 AB|
 ""Am"" c2E2F2|""Em"" G4 AB|""C""c>B cd ef|""Em"" g2e2a2|
@@ -38457,7 +38457,7 @@ b3c' b2|a3gf2|e3fd2|c2d2c2|B3cd2|c2d2c2|B4 (3cBA|1 B6:|2 Bc de fa||
 e4e2|e2f2e2|d2e2(f2|f2)e2d2|e4e2|ef3 d2|c6|cd ef ga|
 (b6|b2)c'3b|a4f2|de fg af|(g6|g2) a3g|f4B2|Bc de fg|
 e4e2|e2f2e2|d2e2(f2|f2)e2d2|e4e2|ef3 d2|(c6|
-c2)d2c2|B3cd|c2d2c2|1 B4A2|B6||""Last""BF Bc df|""Fin""b6||
+c2)d2c2|B3cd2|c2d2c2|1 B4A2|B6||""Last""BF Bc df|""Fin""b6||
 |:fB eB dB|cB dB eB|fB eB dB|cB dB eB|
 bB aB gB|eB fB gA|f2e2d2|c6:|"
 197,54334,"Star Of Munster, The",R K,https://thesession.org/tunes/197#setting54334,检查器不支持的语法或无旋律音符；未判错,"[{""setting_id"": ""54334"", ""bar"": 1, ""category"": ""unsupported"", ""reason"": ""multi-measure rest"", ""fragment"": ""Z AB ""}]","Z AB |: ""Am""ccAc ""G""BAGB | ""Am""AGEA ""G"" GED^D | ""Am"" EAAB cBcd |
@@ -42334,7 +42334,7 @@ g4 gf|g3 ab g|(e4e) f|g6|g4 gf|g2 b4|(a6|a4) ba|
 g4gf|g3 a bd|(e6|e4) ge|dB4 G (A|A4 A)G|( G6|G4)|
 g2e2 d(B|B4) G2|(A6|A6)|DF G4||"
 21631,49027,"Waves Of Kilkee, The",leprecawn,https://thesession.org/tunes/21631#setting49027,检查器不支持的语法或无旋律音符；未判错,"[{""setting_id"": ""49027"", ""bar"": 7, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '2'"", ""fragment"": ""\r\nd(B (B)2 B)/A/G""}, {""setting_id"": ""49027"", ""bar"": 14, ""category"": ""unsupported"", ""reason"": ""unsupported syntax '/'"", ""fragment"": ""d(B( B) B)/A/G""}]","GA|:B4 ed/e/|d4 B3/A/|G6|g4 f2|e3( f f)g|
-d(B (B)2 B)/A/G|(A6|A2 )z2 GA|B4 ed/e/|d4 B3/A|
+d(B (B)2 B)/A/G|(A6|A2 )z2 GA|B4 ed/e/|d4 B3/A/|
 G6|e2f2g2|d(B( B) B)/A/G|(A4 A)B|((G6|1 G2) z2 GA:|2 G2) z2 g2||
 g4 af|g3 a bd|e4d2|(3def|g4 B2|B4 AG|( A6|A2) z2 g2|
 g4 af|g3 a bd|e6|d4 ge|d(B B2 B)A|(A4 A)G|( G6|G6)||"
@@ -43073,7 +43073,7 @@ c2c2(c/4B/4A3/2)|B2B2(B/4A/4G3/2)|A2e2(d3/2B/)|A4(G/4A/4B3/2)|
 c2c2(c/4B/4A3/2)|B2B2(B/4A/4G3/2)|(A3/2B/) (.c.B.A.G)|E4(G3/2A/)|
 B2(B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|(#~E3/2F/)(G3/2A/B3/2A/)|G4""_pp""(G3/2A/)|
 ({c}B3/2A/G3/2A/B3/2G/)|({B}A3/2G/E3/2G/A3/2E/)|({A}G3/2E/D3/2E/G3/2A/)|G4z2|
-""_BrdsB""({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/G3/2A/B3/2G/)|A2e2(d3/2B/)|A4(G/4A/4B)|
+""_BrdsB""({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/G3/2A/B3/2G/)|A2e2(d3/2B/)|A4(G/4A/4B3/2)|
 ""_p""(c3/2B/A3/2B/c3/2A/)|({c}B3/2A/G3/2A/B3/2G/)|A3/2B/ .c.B.A.G|E4""_pp""G3/2A/|
 ({c}B3/2A/G3/2A/B3/2G/)|({B}A3/2G/E3/2G/A3/2E/)|({A}G3/2E/D3/2E/G3/2A/)|G7/e/ ({de}d3/2B/)|
 ""_ee""(G7/""^Bhorus.""e/) ({de}d3/2B/)|(G7/e/) ({de}d3/2B/)|(c2c'3/2e/ d3/2B/)|(c2c'3/2e/ {de}d3/2c/)|
@@ -43097,7 +43097,7 @@ d2d2(d/4c/4B3/2)|c2c2(c/4B/4A3/2)|B2f2(e3/2c/)|B4(A/4B/4c3/2)|
 d2d2(d/4c/4B3/2)|c2c2(c/4B/4A3/2)|(B3/2c/) (.d.c.B.A)|F4(A3/2B/)|
 c2(c/4B/4A3/2) (A/4B/4c3/2)|B2(c/B/A/F/) E2|(#~F3/2G/)(A3/2B/c3/2B/)|A4""_pp""(A3/2B/)|
 ({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/F3/2A/B3/2F/)|({B}A3/2F/E3/2F/A3/2B/)|A4z2|
-""_cresc""({e}d3/2c/B3/2c/d3/2B/)|({d}c3/2B/A3/2B/c3/2A/)|B2f2(e3/2c/)|B4(A/4B/4c)|
+""_cresc""({e}d3/2c/B3/2c/d3/2B/)|({d}c3/2B/A3/2B/c3/2A/)|B2f2(e3/2c/)|B4(A/4B/4c3/2)|
 ""_p""(d3/2c/B3/2c/d3/2B/)|({d}c3/2B/A3/2B/c3/2A/)|B3/2c/ .d.c.B.A|F4""_pp""A3/2B/|
 ({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/F3/2A/B3/2F/)|({B}A3/2F/E3/2F/A3/2B/)|A7/f/ ({ef}e3/2c/)|
 ""_ff""(A7/""^Chorus.""f/) ({ef}e3/2c/)|(A7/f/) ({ef}e3/2c/)|(d2d'3/2f/ e3/2c/)|(d2d'3/2f/ {ef}e3/2d/)|

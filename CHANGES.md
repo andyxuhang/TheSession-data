@@ -1,5 +1,11 @@
 # Changes
 
+## Note lengths in written repeats
+
+Corrected 34 note lengths in 34 settings of 28 tunes. The original transcriptions contain a separate written occurrence of each corrected bar with the same surrounding phrase. Of these notes, 26 needed a longer duration and 8 a shorter one. The exports include 46 matching set entries. Two candidates in setting 32000 produced no duration change in playback and remain open.
+
+See [the original and corrected bars](checks/parallel-lengths.json) for each comparison. Both target and reference bar numbers in this file start at 1. The [current report](reports/status.md) covers 384 fixes in 345 settings and lists 3,893 settings for review.
+
 ## Note lengths in matching phrases
 
 Corrected 22 duration suffixes in 21 settings of 16 tunes and updated 126 matching set entries. Each corrected bar matches another upstream setting with the same key, meter and surrounding phrase. All 22 edits passed the individual and combined playback checks. See [the changed bars and their references](checks/phrase-lengths.json).

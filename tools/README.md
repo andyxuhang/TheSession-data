@@ -26,6 +26,8 @@ Use `--lengths` with `tools/fix_notation.py` to look for an incorrect duration d
 
 The tool checks every proposed suffix change alone, then checks the combined changes. A single edit must produce the expected audible duration change on a changed ABC token. The scanner records the reference setting and bar in the change file.
 
+Use `--parallel-lengths` to check a written repetition in the same setting, including settings with no other transcriptions. The target is an internal bar between two plain dividers, surrounded by full bars. Its reference must be a full bar in the original upstream text, at least three written bars away. Neighbor comparisons stay on the same side of repeat or section boundaries. A full opening or closing bar can serve as a reference from the side with a matching phrase. Repeats produced by playback do not count as written evidence.
+
 ## Other checks
 
 ```bash

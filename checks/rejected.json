@@ -1,5 +1,44 @@
 [
   {
+    "setting_id": "32000",
+    "passed": false,
+    "reason": "individual note-length check",
+    "bars": [
+      {
+        "edit": {
+          "rule": "note_length",
+          "bar": 16,
+          "before": "G/F/G/A B/c/B/A/ GF/E/",
+          "after": "G/F/G/A/ B/c/B/A/ GF/E/",
+          "witnesses": [
+            [
+              "32000",
+              7
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting"
+        },
+        "reason": "no played duration changed"
+      },
+      {
+        "edit": {
+          "rule": "note_length",
+          "bar": 12,
+          "before": "G/F/G/A B/c/B/A/ GF/E/",
+          "after": "G/F/G/A/ B/c/B/A/ GF/E/",
+          "witnesses": [
+            [
+              "32000",
+              3
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting"
+        },
+        "reason": "no played duration changed"
+      }
+    ]
+  },
+  {
     "setting_id": "44335",
     "passed": false,
     "reason": "individual barline check",

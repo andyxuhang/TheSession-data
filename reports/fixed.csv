@@ -14,6 +14,17 @@ B2 GB dege||az c'bbaga|eg az c'bba|gac'd' a2 de|
 ge dB dege|az c'bbaga|eg az c'bba|gA'eg a2 de|
 ge dB dege|az c'bbaga|eg az c'bba|gA'eg a2 de|
 ge dB dege|az c'bbaga|eg az c'bba|gA'eg a2 de|ge dB A2:|"
+14630,26964,A Dhia Na Nollaig,Stefan Thamm,https://thesession.org/tunes/14630#setting26964,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 4, ""before"": ""e3/2 d BA"", ""after"": ""e3 d BA"", ""witnesses"": [[""26964"", 20]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","|:ef|g4 ag|f4 gf|e3 d BA|B4 BA|
+G2 g2 g/f/e|f3 d cA|G4 AF|G4:|:GB|
+c4 BA|B/d/d- d2 BA|G2 g2 fd|e4 ga|
+b4 b/a/g/b/|a3 g ed|e6-|e3 d ef|
+g4 ag|f3 d gf|e3 d BA|B4 BA|
+G2 g2 g/f/e|f3 d cA|G4 AF|G4:|","|:ef|g4 ag|f4 gf|e3/2 d BA|B4 BA|
+G2 g2 g/f/e|f3 d cA|G4 AF|G4:|:GB|
+c4 BA|B/d/d- d2 BA|G2 g2 fd|e4 ga|
+b4 b/a/g/b/|a3 g ed|e6-|e3 d ef|
+g4 ag|f3 d gf|e3 d BA|B4 BA|
+G2 g2 g/f/e|f3 d cA|G4 AF|G4:|"
 21523,43000,A' Da Ships Are Sailin',ndlxs,https://thesession.org/tunes/21523#setting43000,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 13, ""witnesses"": [[""43000"", 16]], ""before"": ""ge^c3e d2 dA"", ""after"": ""ge^ce d2 dA"", ""scan_pass"": 1}]","A|:BGBd cAFA|BGBd gded|BGBd cAFA|BGAF G2 GA|
 BGBd cAFA|BGBd gded|BGBd cAFA|BGAF G2 GD:|
 |:GABd g2a2|gedc BGGD|GABd g2a2|ge^ce d2 dA|
@@ -223,6 +234,21 @@ BE3e3d|c4A2e2|fa3d2f2|e4c2A2|
 d3ef2d2|e2c2A2E2|F4B3c|B4A2B2|
 c4B2A2 |d4c2B2|e2a2g2a2|f4e2d2
 cE3e3c|B2E2c2B2|A4A3B|A4||"
+22356,45077,"Ballygawley, The",gian marco,https://thesession.org/tunes/22356#setting45077,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 29, ""before"": ""AFEF DB, B,"", ""after"": ""AFEF DB, B,2"", ""witnesses"": [[""45077"", 21]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","DB,|A,2DE FDD2|EFGE A2(3Bcd|cAAG EFGE|AFEF DCB,C|
+A,2DE FDD2|EFGE A2(3Bcd|cAAG EAGE|F2D2D2DB,|
+A,2DE FDD2|EFGE A2(3Bcd|cAAF G3B|AFEF DCB,C|
+A,2DE FDD2|EFGE A2(3Bcd|cAAG EAGE|F2D2D2||
+(3ABc|dfAd d2ed|ceAB c3e|dcAF G3B|AFEF DB, B,2|
+dfAd d2ed|ceAB c3e|dcAF G2FD|A,2D2D2 (3Acd
+dfAd d2ed|ceAB c3e|dcAF G3B|AFEF DB, B,2|
+A,2DE FDD2|EFGE A2(3Bcd|cAAG EAGE|F2D2D2|","DB,|A,2DE FDD2|EFGE A2(3Bcd|cAAG EFGE|AFEF DCB,C|
+A,2DE FDD2|EFGE A2(3Bcd|cAAG EAGE|F2D2D2DB,|
+A,2DE FDD2|EFGE A2(3Bcd|cAAF G3B|AFEF DCB,C|
+A,2DE FDD2|EFGE A2(3Bcd|cAAG EAGE|F2D2D2||
+(3ABc|dfAd d2ed|ceAB c3e|dcAF G3B|AFEF DB, B,2|
+dfAd d2ed|ceAB c3e|dcAF G2FD|A,2D2D2 (3Acd
+dfAd d2ed|ceAB c3e|dcAF G3B|AFEF DB, B,|
+A,2DE FDD2|EFGE A2(3Bcd|cAAG EAGE|F2D2D2|"
 3993,3993,Banjo Breakdown,snowyowl,https://thesession.org/tunes/3993#setting3993,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 44, ""witnesses"": [[""3993"", 13], [""3993"", 27], [""3993"", 59]], ""before"": ""e2 d c2 B2"", ""after"": ""e2 d c2 B"", ""scan_pass"": 1}]","AAA c2 e|a2 e c2 e|AAA d2 f|a2 f d2 f|
 AAA c2 e|a2 e c2 e|BBB c2 e|BBB c2 e|
 AAA c2 e|a2 e c2 e|AAA d2 f|a2 f d2 f|
@@ -310,6 +336,37 @@ e/d/e/f/ ge|ed Bd|cd/c/ BA|1 G2 GA:|2 G2 G2||"
 ""G"" de""A""cd""Bm"" B2 de | ""A"" cd""Bm""Bc BAF^G |""A"" ABAF EFAB |""F#m"" cBAc BABc 
 ""G"" de""A""cd""Bm"" B2 de | ""A"" cd""Bm""Bc BAF^G |""A"" AE (3EEE ABcd |""F#m"" efec Acec |
 ""G""d3 e""A"" c3 d |""Bm"" Bcdc BAF^G | ""A"" AFEC A,B,CE |""A"" FAEC""D"" B,4 ||"
+25233,53043,Broad Black Brimmer,Brendan Davison,https://thesession.org/tunes/25233#setting53043,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 13, ""before"": ""\r\n D G>A "", ""after"": ""\r\n D2 G>A "", ""witnesses"": [[""53043"", 28]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","D2 G>A | B>B B>B | B>A G>A | B>G E>G |
+ D2 D->D | G>G G>G | G>G F>G | A4- |
+ A z5/4 d/ | e>d d>B | A>G G>A | B>G E>G |
+ D2 G>A | B>B A<G | A>F E>D | G4- |
+ G z5/4 B/ | c>c c>c | e>e e>e | d>B G>B | d z5/4 B/ |
+ B>B B>B | B>A G>A | B4- | B2 z5/4 c/ |
+ d>e d>B | A>G GG/A/ | B>G E>G | D2 G>A |
+ B>B B>G | A>A G>F | G4| z5/4 d/ e d/ |
+ d2 d2 | A<G z G/G/ | c/<c d>e | d3 G/A/ |
+ B>B B>B | B>A G>A | B4- | B2 z5/4 c/ |
+ d2 e2 | d2 B>A | G<A G>E | D2 G>A |
+ B>B BG | A>A G>F | G4- | G2 z5/4 B/ |
+ c2 c2 | e2 e>e | d>B G>B | d2 z5/4 B/ |
+ B>B B>B | B>A G>A | B4- | B2 z5/4 c/ |
+ d>e d>B | A<G z5/4 A/ | B>G G>E | D>D E>F |
+ G>G G>e | d<B A2 | G2 G2 ||","D2 G>A | B>B B>B | B>A G>A | B>G E>G |
+ D2 D->D | G>G G>G | G>G F>G | A4- |
+ A z5/4 d/ | e>d d>B | A>G G>A | B>G E>G |
+ D G>A | B>B A<G | A>F E>D | G4- |
+ G z5/4 B/ | c>c c>c | e>e e>e | d>B G>B | d z5/4 B/ |
+ B>B B>B | B>A G>A | B4- | B2 z5/4 c/ |
+ d>e d>B | A>G GG/A/ | B>G E>G | D2 G>A |
+ B>B B>G | A>A G>F | G4| z5/4 d/ e d/ |
+ d2 d2 | A<G z G/G/ | c/<c d>e | d3 G/A/ |
+ B>B B>B | B>A G>A | B4- | B2 z5/4 c/ |
+ d2 e2 | d2 B>A | G<A G>E | D2 G>A |
+ B>B BG | A>A G>F | G4- | G2 z5/4 B/ |
+ c2 c2 | e2 e>e | d>B G>B | d2 z5/4 B/ |
+ B>B B>B | B>A G>A | B4- | B2 z5/4 c/ |
+ d>e d>B | A<G z5/4 A/ | B>G G>E | D>D E>F |
+ G>G G>e | d<B A2 | G2 G2 ||"
 18684,36497,"Broken Compass, The",Ryan Farris,https://thesession.org/tunes/18684#setting36497,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 5, ""witnesses"": [[[""36497"", 0]], [[""36497"", 1]]], ""before"": ""A,3 B,G,B,\r\nA,CA, DEG"", ""after"": ""A,3 B,G,B,|\r\nA,CA, DEG"", ""scan_pass"": 1}]","|:A,3 B,G,B,|A,CA, DEG|AGE DCD|E3 DCB,|A,3 B,G,B,|
 A,CA, DEG|1 AGE DB,G,|B,A,G, A,2G,:|2 AGE GAB|dcB A2A||
 B3 GED|EDB, DEG|AGE GBd|cBA AGA|B3 GED|EDB, DEG|
@@ -347,6 +404,17 @@ Adfd Adfd| Adfd edBd|faa2 bfaf|defd e2dB:|","|:A2 FA A2dB|A2FA BEE2|1 A2 FA A2Bd
 |:f2df efde|f2df edBd|1 f2df efdf|gefd edBd:|2 faa2 bfaf|defd e2 dB||
 |:Adfd edfd|Adfd edBd|Adfd edef|gefd edBd|
 Adfd Adfd Adfd edBd|faa2 bfaf|defd e2dB:|"
+9456,20016,"Burning Snowball, The",JACKB,https://thesession.org/tunes/9456#setting20016,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 16, ""before"": ""dBG Az"", ""after"": ""dBG A2z"", ""witnesses"": [[""20016"", 7]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","|:ABd e2g|ged B2A|G3 d2e|edB edB|
+ABd e2g|ged B2A|GBd g2e|dBG A2 z:|
+|:g2e a2g|ged B2A|G3 d2e|edB edB|
+gee aee|ged B2A|GBd g2e|dBG A2z|
+g2e a2g|ged B2A|G3 d2e|edB edB|
+gee aee|ged B2A|Gz3 z2g|age dBG||","|:ABd e2g|ged B2A|G3 d2e|edB edB|
+ABd e2g|ged B2A|GBd g2e|dBG A2 z:|
+|:g2e a2g|ged B2A|G3 d2e|edB edB|
+gee aee|ged B2A|GBd g2e|dBG Az|
+g2e a2g|ged B2A|G3 d2e|edB edB|
+gee aee|ged B2A|Gz3 z2g|age dBG||"
 820,26630,"Butlers Of Glen Avenue, The",Kenny,https://thesession.org/tunes/820#setting26630,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 5, ""witnesses"": [[[""13973"", 0], [""13973"", 4], [""13974"", 0], [""13974"", 4]], [[""26630"", 1]]], ""before"": ""\r\nDEG EDB, DEG ABB"", ""after"": ""\r\nDEG EDB,| DEG ABB"", ""scan_pass"": 1}]","|:DEG EDB,|DEG ABB|DEG ABe|dBe dBA|
 DEG EDB,| DEG ABB|ede gfe|dBA G3:|
 |:gab age|deg B3|gab gab|dBd e3|
@@ -444,6 +512,21 @@ Add dcA|cde eed|cAA AGE| GED DEG:|","D3|:DED DEG|ADd c2e|dcA AGE|ccA GEC|
 DED DEG|ADd c2e|dcA AGE|GED DEG:|
 Add dcA|cde eed|cAA AGE|ccd cAG|
 Add dcA|cde eed|cAA AGE GED DEG:|"
+24123,49862,Charlie's,Malcolm Reavell,https://thesession.org/tunes/24123#setting49862,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 7, ""before"": "" Bd -d2 B "", ""after"": "" Bd -d2 B2 "", ""witnesses"": [[""49862"", 14]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","GA | B4 A2 | GE -E4 | E3 D EG | D4 GA |
+B4 GA | Bd -d2 B2 | A3 G AB | A4 GA | 
+B4 A2 | GE -E4 | E3 D EG | D4 GA |
+B4 GA | Bd -d2 B2 | A3 G AB | G4 Bd ||
+e4 ef | dB -B4 | A4 AB | GE -E2 Bd |
+e4 ef | dB -B4 | A4 GA | B4 Bd | 
+e4 fe | dB -B4 | A4 BA | GE -E2 GE |
+D3 E GA | B4 dB | A3 G BA | G4 ||","GA | B4 A2 | GE -E4 | E3 D EG | D4 GA |
+B4 GA | Bd -d2 B | A3 G AB | A4 GA | 
+B4 A2 | GE -E4 | E3 D EG | D4 GA |
+B4 GA | Bd -d2 B2 | A3 G AB | G4 Bd ||
+e4 ef | dB -B4 | A4 AB | GE -E2 Bd |
+e4 ef | dB -B4 | A4 GA | B4 Bd | 
+e4 fe | dB -B4 | A4 BA | GE -E2 GE |
+D3 E GA | B4 dB | A3 G BA | G4 ||"
 843,58584,Christy Barry's,leprecawn,https://thesession.org/tunes/843#setting58584,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 18, ""witnesses"": [[""31494"", 7], [""48376"", 7]], ""before"": ""AGF G2"", ""after"": ""AGF G3"", ""scan_pass"": 1}]","|:D|G2 G BAG|A2B d2e|ged BAG|AGA BGE|
 DGG BAG|A2B d2e|ged BAG|AGF G2:|
 d/e/|gag gfg|a2 g d2e|ged BGG|AGA BGE|
@@ -480,6 +563,19 @@ GBd g3|gag ged|cec BdB|AGA BAG:|","|:BdG GDG|GDG G2 c|BdG GDG|ABA gfe|
 BdG GDG|GDG G2 c|cec BdB|AGA BAG:|
 |:GBd g3|gag ged|GBd ged|AGA BAG
 GBd g3|gag ged|cec BdB|AGA BAG:|"
+21422,42768,"Colours Of Cape Breton, The",🎻 Melody Player 🎻,https://thesession.org/tunes/21422#setting42768,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 21, ""before"": ""B>A G c2"", ""after"": ""B>A G2 c2"", ""witnesses"": [[""42768"", 12]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","|:D>D|D2 E2 G2|A4 G>A|B2 E2 G2|A4 G>A|
+B<d c2 B2|A>G E2 A>G|E2 D2 D2|D4:|
+d>d|d2 A2 B2|c4 d>c|B>A G2 c2|A4 G>A|
+B<d c2 B2|A>G E2 A>G|E2 D2 D2|D6|
+d2 A2 B2|c2 d3 c|B>A G2 c2|A4 G>A|
+B<d c2 B2|A>G E2 A>G|E2 D2 D2|1 D4||
+!fine! D6||","|:D>D|D2 E2 G2|A4 G>A|B2 E2 G2|A4 G>A|
+B<d c2 B2|A>G E2 A>G|E2 D2 D2|D4:|
+d>d|d2 A2 B2|c4 d>c|B>A G2 c2|A4 G>A|
+B<d c2 B2|A>G E2 A>G|E2 D2 D2|D6|
+d2 A2 B2|c2 d3 c|B>A G c2|A4 G>A|
+B<d c2 B2|A>G E2 A>G|E2 D2 D2|1 D4||
+!fine! D6||"
 18,12389,"Concertina, The",gian marco,https://thesession.org/tunes/18#setting12389,误入的控制字符,"[{""rule"": ""stray_control"", ""offset"": 0, ""before"": ""\u0014"", ""after"": """", ""codepoint"": ""U+0014"", ""scan_pass"": 1}]","|:A2FA BAFG|A2FA BAFA|B2cA BAcA|BAcA BAFG|
 A2FA BAFG|A2FA BAFE|FABc dedB|AFEF D4:|
 |:Ad ~d2 Ad ~d2|AddA BAFA|B2cA BAcA|BAcA BAFG|
@@ -537,6 +633,15 @@ e3 f/g/ a(3g/f/e/|d2 B>d g>G|GB/d/ f3{fgf}e/d/|dc/A/ B2 GA/B/|
 A2 G2 GF|G4 G2|dc B3A|GA Bc|d^c de fd|g>f (3gab a>g|
 g2 f2 g>f/d/|e3 f/g/ a(3g/f/e/|d2 B>d g>G|GB/d/ f{fgf}e/d/|
 dc/A/ B2 GA/B/|A2 G2 GF|G4 G4|G4 z2||"
+1815,25119,"Coolin, The",JACKB,https://thesession.org/tunes/1815#setting25119,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 19, ""before"": ""DF/A/ c{cdc}B/A/"", ""after"": ""DF/A/ c3{cdc}B/A/"", ""witnesses"": [[""25119"", 7]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","AB/c/|(d2 d2) e>c|d>A F2 DF/A/|d>c de/f/ ed|d2 c2 dc/A/|
+B3 c/d/ e(3d/c/B/|A2 F>A d>D|DF/A/ c3{cdc}B/A/|AG/E/ F2 DE/F/|
+E2 D2 D2|D4 D2|AG/E/ F3E|D>E F>G|AG AB cA|d>c de/f/ e>d|
+d2 c2 d>c/A/|B3 c/d/ e(3d/c/B/|A2 F>A d>D|DF/A/ c3{cdc}B/A/|
+AG/E/ F2 DE/F/|E2 D2 D2|D4 D4|D4 z2||","AB/c/|(d2 d2) e>c|d>A F2 DF/A/|d>c de/f/ ed|d2 c2 dc/A/|
+B3 c/d/ e(3d/c/B/|A2 F>A d>D|DF/A/ c3{cdc}B/A/|AG/E/ F2 DE/F/|
+E2 D2 D2|D4 D2|AG/E/ F3E|D>E F>G|AG AB cA|d>c de/f/ e>d|
+d2 c2 d>c/A/|B3 c/d/ e(3d/c/B/|A2 F>A d>D|DF/A/ c{cdc}B/A/|
+AG/E/ F2 DE/F/|E2 D2 D2|D4 D4|D4 z2||"
 1815,25125,"Coolin, The",JACKB,https://thesession.org/tunes/1815#setting25125,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 19, ""before"": ""GB/d/ f{fgf}e/d/"", ""after"": ""GB/d/ f3{fgf}e/d/"", ""witnesses"": [[""23158"", 7]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","de/f/|(g2 g2) a>f|g>d B2 GB/d/|g>f ga/b/ ag|g2 f2 gf/d/|
 e3 f/g/ a(3g/f/e/|d2 B>d g>G|GB/d/ f3{fgf}e/d/|dc/A/ B2 GA/B/|
 A2 G2 G2|G4 G2|dc B3A|G>A B>c|d^c de fd|g>f ga/b/ a>g|
@@ -710,6 +815,13 @@ eA~A2 egfd|eA~A2 BAFf|eA~A2 egfe|dBcA BAFf|
 eA~A2 egfd|eA~A2 BAFf|~e3d egfe|dBcA BAFA||
 d3c dAFA|dcdA FDFA|d2dc dfed|cABF AFEF|
 d3c dAFA|dcdA FDFA|~d3f ~e3g|fdBc defe||"
+26766,57927,Dún Uí Bhraoin,Loughcurra,https://thesession.org/tunes/26766#setting57927,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 13, ""before"": ""A2G2z(GA)"", ""after"": ""A2G3z(GA)"", ""witnesses"": [[""57927"", 4]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","GA|B2B2c2Bc|d2(de)d2(Bd)|e2edB2G2|A2G3z(GA)|
+B2B2c2Bc|d2d2(efed)|(ed)(BG)B2AF|G4z2BA|
+(B3/2d/2) (ef)g2gf|(efed)d2Bd|e2(ef)d2BG|A2G3z(GA)|
+B2B2c2Bc|d2d2(efed)|(ed)(BG)B2AF|G4z2||","GA|B2B2c2Bc|d2(de)d2(Bd)|e2edB2G2|A2G3z(GA)|
+B2B2c2Bc|d2d2(efed)|(ed)(BG)B2AF|G4z2BA|
+(B3/2d/2) (ef)g2gf|(efed)d2Bd|e2(ef)d2BG|A2G2z(GA)|
+B2B2c2Bc|d2d2(efed)|(ed)(BG)B2AF|G4z2||"
 20707,41101,"Dwarves, The",Eli,https://thesession.org/tunes/20707#setting41101,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 5, ""witnesses"": [[[""41101"", 0]], [[""41101"", 1]]], ""before"": ""\r\nD2 d2 c2 BAG ~F2 E"", ""after"": ""\r\nD2 d2 c2| BAG ~F2 E"", ""scan_pass"": 1}]","|:D2 d2 c2|BAG ~F2 E|D2 d2 cB|def ~f2 e|
 D2 d2 c2| BAG ~F2 E|B,DF EDC|1 D2 ~A,3 A,:|2 ~D6||
 |:DEF EDA|DBD ~d3|DEF EDC|D2 ~A,3 A,|
@@ -841,6 +953,15 @@ cf df eg ce (3fga fc (3ABc AF|EF GA Bd cB|(3AGF GE F2 Ac|
 (3c=Bc (3Acf (3agf (3edc|(3dba (3gfe (3dfe (3dcB|(3AGF (3AcA F2 Ac|
 (3BAG (3AGF (3EGB (3dcB|(3Acf (3Acf (3agf (3edc|(3d^cd (3Bdf (3bag (3fed|
 (3c=Bc (3Acf (3agf (3edc|(3dba (3gfe (3dfe (3dcB|(3AGF (3AcA F2 z2||"
+6833,49349,Fingal's Cave,FiddlerChameleon,https://thesession.org/tunes/6833#setting49349,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 5, ""before"": ""\r\nA AA B>A G<A"", ""after"": ""\r\nA2 AA B>A G<A"", ""witnesses"": [[""49349"", 0]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","A2 AA B>A G<A|B2 A2 A2 e<d|B2 A<G e2 d<B|d<e G2 G2 E<G|
+A2 AA B>A G<A|B2 A2 A2 e<d|B2 A<G e2 d<B|e2 A2 A2 B<d|
+|:e2 d<e g2 e<g|a2 e<a g4|e2 d<e g2 f<g|
+[1 e>d B>A G>A B<d|e2 d<e g2 e<g|a2 e<a g4|g>e f>d g>e d>B|B<e A2 A2 B<d:|
+[2 e>d B<A G>A B<G|c2 B<c d2 c<d|e2 d<e a4|g>e f<d g>e d<B|B<e A2 A2 E<G||","A2 AA B>A G<A|B2 A2 A2 e<d|B2 A<G e2 d<B|d<e G2 G2 E<G|
+A AA B>A G<A|B2 A2 A2 e<d|B2 A<G e2 d<B|e2 A2 A2 B<d|
+|:e2 d<e g2 e<g|a2 e<a g4|e2 d<e g2 f<g|
+[1 e>d B>A G>A B<d|e2 d<e g2 e<g|a2 e<a g4|g>e f>d g>e d>B|B<e A2 A2 B<d:|
+[2 e>d B<A G>A B<G|c2 B<c d2 c<d|e2 d<e a4|g>e f<d g>e d<B|B<e A2 A2 E<G||"
 195,55248,"Flogging, The",fiddle music,https://thesession.org/tunes/195#setting55248,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 3, ""witnesses"": [[[""55248"", 20], [""55248"", 47]], [[""12849"", 3], [""12849"", 7], [""12849"", 15], [""12851"", 3]]], ""before"": ""BG (3GGG BGcB AGFG ABcA"", ""after"": ""BG (3GGG BGcB| AGFG ABcA"", ""scan_pass"": 1}]","|:BG (3GGG BGcG|BG (3GGG Bdgd|BG (3GGG BGcB| AGFG ABcA:|
 ~g3 d BGBd|g2dg fgaf|~g3 d BGBc|AGFG ABcA|
 ~g3 d BGBd|g2dg fgaf|bgaf gedB|AGFG ABcA|
@@ -967,6 +1088,13 @@ AFAB A~F3|ABde fee2|fedc BcdB|ABde fedB|","dB|AFFE FEDE|~F3E FAdB|AFFE FEDE|FAB
 AFFE FEDE|~F3E FAdB|AFFE FEDE|FAEG FDE/F/G|
 A3B A~F3|ABde fee2|fedc BcdB|ABde fedB|
 AFAB A~F3|ABde fee2|fedc BcdB|ABde fedB|"
+8046,19273,Galway Bay,ceolachan,https://thesession.org/tunes/8046#setting19273,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 28, ""before"": ""B3 A B"", ""after"": ""B3 A B2"", ""witnesses"": [[""19273"", 3]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","A2|D4 F2|A4 d2|B3 A B2|A2 F2 E2|F3 E F2|D4 D2|D6-|D4 F2|
+A4 A2|e4 c2|d4 F2|G4 B2|B4 d2|d2 c2 B2|A6-|A6|
+A4 A2|e4 c2|d4 F2|G4 B2|B4 d2|d2 c2 B2|A6-|A4 A2|
+D4 F2|A4 d2|B3 A B2|A2 F2 E2|F3 E F2|D4 D2|D6-|D4||","A2|D4 F2|A4 d2|B3 A B2|A2 F2 E2|F3 E F2|D4 D2|D6-|D4 F2|
+A4 A2|e4 c2|d4 F2|G4 B2|B4 d2|d2 c2 B2|A6-|A6|
+A4 A2|e4 c2|d4 F2|G4 B2|B4 d2|d2 c2 B2|A6-|A4 A2|
+D4 F2|A4 d2|B3 A B|A2 F2 E2|F3 E F2|D4 D2|D6-|D4||"
 634,49636,"Galway Rambler, The",Will Evans,https://thesession.org/tunes/634#setting49636,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 16, ""witnesses"": [[[""49636"", 3], [""49636"", 18]], [[""49636"", 4]]], ""before"": ""fdcA GFDE\r\nF/F/F cF dFcF"", ""after"": ""fdcA GFDE|\r\nF/F/F cF dFcF"", ""scan_pass"": 1}]","|:F2cF dFcF|F2cA GFDE|FEFG AGAc|fdcA GFDE|
 F/F/F cF dFcF|F/F/F cA GFDE|F3GA3c|fdcA G2Ac|
 fefa gfga|fgaf gfde|fefa gfga|fdcA G2Ac|
@@ -982,6 +1110,13 @@ F/F/F cF dFcF|F/F/F cA GFDE|F3GA3c|fdcA GFDE|
 F/F/F cF F/F/F cF|F/F/F cA GFDE|FEFG AGAc|fdcA G2Ac|
 f3a gfga|f2af gfde|fefa gfga|fdcA G2Ac|
 f/f/f fa gfga|f/f/g af gfdf|a/a/f gf dfcd|f/f/d cA GFDE:|"
+18372,35914,Gan Ainm,D.Sorcha,https://thesession.org/tunes/18372#setting35914,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 15, ""before"": ""B2 AG"", ""after"": ""B4 AG"", ""witnesses"": [[""35914"", 5], [""35914"", 10]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","|:fA AG Ad|B4 AB|de ed eg|e3A de|
+fA AG Ad|B4 AG|FA GF EF|1 D3A de:|2 D4 DE||
+FD DF dc|B4 AG|FA GF ED|E4 DE|
+FD DF dc|B4 AG|FA GF EF|D4 DE:|","|:fA AG Ad|B4 AB|de ed eg|e3A de|
+fA AG Ad|B4 AG|FA GF EF|1 D3A de:|2 D4 DE||
+FD DF dc|B4 AG|FA GF ED|E4 DE|
+FD DF dc|B2 AG|FA GF EF|D4 DE:|"
 16503,31318,Gan Ainm,kd7flc,https://thesession.org/tunes/16503#setting31318,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 36, ""witnesses"": [[[""31318"", 50]], [[""31318"", 51]]], ""before"": ""\r\nDE FG A^A (B6"", ""after"": ""\r\nDE FG A^A| (B6"", ""scan_pass"": 1}]","|:d ^cd|ed Bd GB|D2G2B2|E4_E2|D4G2|F4A2|d4c2|
 B2 BA Bc|B3 d ^cd|ed Bd GB|D2G2B2|E4_E2|D4G2|
 F4A2|d4F2|G2 FG Bd|G3d ^cd|G2B2c2|d6|g6|g2f3e|
@@ -1051,6 +1186,20 @@ B3B- BB cd|efed BE BA|c3A AABA|EFBF FEED|
 B3B- BB cd|efed BE BA|c3A AABA|EFBF FEED
 B3B- BB cd|efed BE BA|c3A A2Bc|dBcd BccB|
 e4- ed dc|d4-dc cB|A4 d4|EFAB FEED||"
+18316,35795,"Girl Who Was Poorly Clad, The",Jon Corelis,https://thesession.org/tunes/18316#setting35795,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 8, ""before"": ""(=cA3B"", ""after"": ""(=c2A3B"", ""witnesses"": [[""35795"", 14]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","|(=cd)|e2 e2 (=fe)|d2 d2 (ed)|=c2 c2 (dc)|
+A2A2 (=cd)|e2 e2 (=fe)|d2 d2 (ed)|(=c2A3B|=c4) (eg)|
+a2 a2 (ag)|e2e2 (ed)|(=c3d) (=cA)|(A2G2) (=cd)
+e2e2 (=fe)|d2d2 (ed)|(=c2A3B|=c4)||","|(=cd)|e2 e2 (=fe)|d2 d2 (ed)|=c2 c2 (dc)|
+A2A2 (=cd)|e2 e2 (=fe)|d2 d2 (ed)|(=cA3B|=c4) (eg)|
+a2 a2 (ag)|e2e2 (ed)|(=c3d) (=cA)|(A2G2) (=cd)
+e2e2 (=fe)|d2d2 (ed)|(=c2A3B|=c4)||"
+18316,35796,"Girl Who Was Poorly Clad, The",Nigel Gatherer,https://thesession.org/tunes/18316#setting35796,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 8, ""before"": ""c A3 B"", ""after"": ""c2 A3 B"", ""witnesses"": [[""35796"", 15]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","cd|e2 e2 fe|d2 d2 ed|c2 c2 dc|A2 A2
+cd|e2 e2 fe|d2 d2 ed|c2 A3 B|c4
+eg|a2 a2 ag|e2 e2 ed|c3 d cA|A2 G2
+cd|e2 e2 fe|d2 d2 ed|c2 A3 B|c4||","cd|e2 e2 fe|d2 d2 ed|c2 c2 dc|A2 A2
+cd|e2 e2 fe|d2 d2 ed|c A3 B|c4
+eg|a2 a2 ag|e2 e2 ed|c3 d cA|A2 G2
+cd|e2 e2 fe|d2 d2 ed|c2 A3 B|c4||"
 1744,40908,"Gladstone, The",Juan Almaraz,https://thesession.org/tunes/1744#setting40908,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 8, ""witnesses"": [[[""34298"", 1], [""34298"", 3], [""46179"", 1], [""46179"", 3]], [[""15176"", 7]]], ""before"": ""cAdB efga ecdB Aefg"", ""after"": ""cAdB efga| ecdB Aefg"", ""scan_pass"": 1}]","ed|cAdA efga|AAcA BGEd|cAdB efga|ecdB A2ed|
 cAdA efga|AAcA BGEd|cAdB efga| ecdB Aefg||
 afba geag|fdgf eAce|dcBd cBAc|~B3c defg|
@@ -1087,6 +1236,17 @@ GABc d2Bd|egge dBGB|c2ec B2dB|AdBG AGEF|
 GABc d2Bd|egge dBGB|c2ec B2dB|AGAB G3 D||
 GABc d2Bd|egge dBGB|c2ec B2dB|AdBG AGE2|
 gfed efge|d2BG AGEF|GAGE DEGB AGAB G4||"
+13859,24885,Green Fields Of Canada,JACKB,https://thesession.org/tunes/13859#setting24885,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 5, ""before"": ""GF/D/ D2 DE"", ""after"": ""GF/D/ D2 D3E"", ""witnesses"": [[""24885"", 19]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","|A2|c4 A2 B/A/G|A4 A3A|d3c d3A|GF/D/ D2 D3E|
+=F3G A2 B/A/G|G6 A>G|F<D D2 D4|D4 D2||
+A3G Ad3|d6 e2|=f3e d2 d2|d/c/d/e/ d>c A4|
+G3A d3e|=f3e d3c|A<G G2 Ac d2|de d3^c AG|
+A4 A3A|d3c d3A|GF/D/ D2 D3E|=F3G A2 B/A/G|
+G6 A>G|F<D D4|D4 D4|D4 D4||","|A2|c4 A2 B/A/G|A4 A3A|d3c d3A|GF/D/ D2 DE|
+=F3G A2 B/A/G|G6 A>G|F<D D2 D4|D4 D2||
+A3G Ad3|d6 e2|=f3e d2 d2|d/c/d/e/ d>c A4|
+G3A d3e|=f3e d3c|A<G G2 Ac d2|de d3^c AG|
+A4 A3A|d3c d3A|GF/D/ D2 D3E|=F3G A2 B/A/G|
+G6 A>G|F<D D4|D4 D4|D4 D4||"
 4070,43416,"Green Fields Of Woodford, The",leprecawn,https://thesession.org/tunes/4070#setting43416,音长数字或斜线手误; 音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 21, ""witnesses"": [[""38178"", 12]], ""before"": ""edB A2"", ""after"": ""edB A3"", ""scan_pass"": 1}, {""rule"": ""note_length"", ""bar"": 13, ""witnesses"": [[""43416"", 20]], ""before"": ""edB A2"", ""after"": ""edB A3"", ""scan_pass"": 2}]","d|:dBA ~G2E|EDE G3|edB dBA|B2e ege|
 dBA ~G2E|EDE G3|AGE ~A2B|GED D2d:|
 BGG DGG|edB dBA|BGG DGG|edB A3|
@@ -1202,6 +1362,17 @@ e2d2 c3B|1 cBAc ecef|e2c2 B2A2:|2 Afed c2B2|A3A ABcd||","ABcd|:eAA e2 AeA|Ae2A e
 [1 B2AB efed|c3B ABcA|E3A ABcd:|2 e2d2 c3B|Afed c2B2|A2c2 B2A2||
 |:a3b f3a|d3c defd|e2ce afec|A2c2 B2A2B3B BABc|
 e2d2 c3B|1 cBAc ecef|e2c2 B2A2:|2 Afed c2B2|A3A ABcd||"
+15618,29298,Horizontigo,pbsinclair42,https://thesession.org/tunes/15618#setting29298,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 15, ""before"": ""a>(f/ f/)e/c/A/"", ""after"": ""a>(f f/)e/c/A/"", ""witnesses"": [[""29298"", 24]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","|:f>(e e/)c/a/b/|c'b/a/ ga|e/e/e/(f/ f/)c/f/g/|ag/f/ e/d/c/A/|
+B>A B/d/c/A/|F>E F/A/G/E/|1 C>D E/G/A:|2 (C4|C)/B,/C/D/ (3E/F/G/ A/F/ ]|
+B>(A A/)F/B/c/|dc/B/ B/A/B/G/|c>(B B/)G/c/d/|ed/c/ A/B/c/d/|
+f>(e e/)c/f/g/|a>(f f/)e/c/A/|B>A B/d/c/A/|B>A B/d/c/A/|F>E F/A/G/E/|C/B,/C/D/ (3E/F/G/ A/F/|
+B>(A A/)F/B/c/|dc/B/ B/A/B/G/|c>(B B/)B/e/f/|gf/e/ dc/e/|
+f>(e e/)c/f/g/|a>(f f/)e/c/A/|B>A B/d/c/A/|F>E F/A/G/E/|C>D E/G/A||","|:f>(e e/)c/a/b/|c'b/a/ ga|e/e/e/(f/ f/)c/f/g/|ag/f/ e/d/c/A/|
+B>A B/d/c/A/|F>E F/A/G/E/|1 C>D E/G/A:|2 (C4|C)/B,/C/D/ (3E/F/G/ A/F/ ]|
+B>(A A/)F/B/c/|dc/B/ B/A/B/G/|c>(B B/)G/c/d/|ed/c/ A/B/c/d/|
+f>(e e/)c/f/g/|a>(f/ f/)e/c/A/|B>A B/d/c/A/|B>A B/d/c/A/|F>E F/A/G/E/|C/B,/C/D/ (3E/F/G/ A/F/|
+B>(A A/)F/B/c/|dc/B/ B/A/B/G/|c>(B B/)B/e/f/|gf/e/ dc/e/|
+f>(e e/)c/f/g/|a>(f f/)e/c/A/|B>A B/d/c/A/|F>E F/A/G/E/|C>D E/G/A||"
 23422,50780,Horse Tiger,Sean Perry,https://thesession.org/tunes/23422#setting50780,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 16, ""witnesses"": [[[""50780"", 11]], [[""47954"", 16]]], ""before"": "" B,A,B,C DCDE FdcA B2 dc"", ""after"": "" B,A,B,C DCDE| FdcA B2 dc"", ""scan_pass"": 1}]","|:fB B/B/B fedc|BdFB cBAc|BABc dcde|fbaf e/e/e a^g|
 fB B/B/B fedc|BdFB cBAc|{c}BABc dcBA|1 Ffec B2 a^g:|2 Ffec B2 dc||
 |:BF F/F/F dBFD|EADA CA,EC|B,A,B,C DCDE|FBAF E2 dc|
@@ -1257,6 +1428,37 @@ fed efg|afd cAF|ded cAF|1 AGF G2g:|2 AGF GBd||
 |:gdB gdB|ecA ecA|BAB GBd|cAG FGA|
 [1 gdB gdB|ecA ecA|BAB GBd|cAF GBd:|
 [2 BAB GBd|cBc ABc|ded cAF AGF G3||"
+22120,56079,"Humours Of Glynn, The",fiddle music,https://thesession.org/tunes/22120#setting56079,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 45, ""before"": ""a5 ef"", ""after"": ""a4 ef"", ""witnesses"": [[""56079"", 60]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","(3ABc|d3 e (3cBA|B2 F2 Ad|ef fg fe|d2 F2 A2|
+d3 e (3cBA|B2 F2 AF|E2 F2 A2|AB3 (3ABc|
+d3 e (3cBA|B2 F2 Ad|ef fg fe|d2 F2 AF|
+FG BG BG|F2 AF ED|E3 F Ad|B4 (3ABc|
+d4 (3cBA|B2 F2 Ad|f2 fg fe|d2 F2 A2|
+d3 e (3cBA|AB F2 AF|E2 F2 A2|B4 (3ABc|
+d3 e (3cBA|AB F2 Ad|ef fg fe|d2 F2 AF|
+G2 BG BG|(3FAF AF ED|E3 F A2|B4 dB|
+A2 d3 e|ef d3 f|(3efe d2 da|f2 d2 df|
+gf ef ge|fe d2 (3BdB|A2 F2 A2|B4 (3ABc|
+d2 f2 a2|b5 b|ag fg ab|a4 ef|
+gf ef ga|fe d2 (3BdB|(3ABA F2 A2| B4 (3edB|
+A2 d3 e|ef d3 f|e2 d3 a |f2 d3 f|
+gf ef ga|fe d2 (3BdB|A2 F2 A2|B4 (3ABc|
+d2 f2 a2|b6|ag fg ab|a4 ef|
+gf ef ga|fe d2 (3BdB|(3ABA F2 A2|B6||","(3ABc|d3 e (3cBA|B2 F2 Ad|ef fg fe|d2 F2 A2|
+d3 e (3cBA|B2 F2 AF|E2 F2 A2|AB3 (3ABc|
+d3 e (3cBA|B2 F2 Ad|ef fg fe|d2 F2 AF|
+FG BG BG|F2 AF ED|E3 F Ad|B4 (3ABc|
+d4 (3cBA|B2 F2 Ad|f2 fg fe|d2 F2 A2|
+d3 e (3cBA|AB F2 AF|E2 F2 A2|B4 (3ABc|
+d3 e (3cBA|AB F2 Ad|ef fg fe|d2 F2 AF|
+G2 BG BG|(3FAF AF ED|E3 F A2|B4 dB|
+A2 d3 e|ef d3 f|(3efe d2 da|f2 d2 df|
+gf ef ge|fe d2 (3BdB|A2 F2 A2|B4 (3ABc|
+d2 f2 a2|b5 b|ag fg ab|a5 ef|
+gf ef ga|fe d2 (3BdB|(3ABA F2 A2| B4 (3edB|
+A2 d3 e|ef d3 f|e2 d3 a |f2 d3 f|
+gf ef ga|fe d2 (3BdB|A2 F2 A2|B4 (3ABc|
+d2 f2 a2|b6|ag fg ab|a4 ef|
+gf ef ga|fe d2 (3BdB|(3ABA F2 A2|B6||"
 3022,16177,I Have A Bonnet Trimmed With Blue,The Merry Highlander,https://thesession.org/tunes/3022#setting16177,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 10, ""witnesses"": [[[""16172"", 9], [""16172"", 13], [""16177"", 1], [""16177"", 5]], [[""16177"", 2], [""16177"", 6], [""16177"", 13]]], ""before"": ""dB B2 d>e ^cA"", ""after"": ""dB B2| d>e ^cA"", ""scan_pass"": 1}]","|:G>A Be|dB B2|d>e ^cA|GA B2|
 G>A Be|dB B2|d>e ^cA|G2 G2:|
 |:e>f g/f/e|dB B2| d>e ^cA|GA B2|
@@ -1264,6 +1466,21 @@ e>f g/f/e|dB B2|d>e ^cA|G2 G2:|","|:G>A Be|dB B2|d>e ^cA|GA B2|
 G>A Be|dB B2|d>e ^cA|G2 G2:|
 |:e>f g/f/e|dB B2 d>e ^cA|GA B2|
 e>f g/f/e|dB B2|d>e ^cA|G2 G2:|"
+875,33989,If Ever You Were Mine,DomW,https://thesession.org/tunes/875#setting33989,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 10, ""before"": ""\r\ng2 g ed"", ""after"": ""\r\ng3 g ed"", ""witnesses"": [[""33989"", 28]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","|:(DE)|G4 e2|~d3 B ~B/A/G|AB G2 G2|{A}G3 D DE|
+G4 ~e2|d3 d Bd|~d6|d2 e2 ~f2|
+g3 g ed|g3 g ed|e2 {e}d3 B|AB G2 G/F/E|
+D4 e2|d3 B B/A/G|DEG2GA|G6|1 {A}G3 D:|2 {A}G3 D||
+dc|B3 d B/A/G|B/c/d- dd Bd|c2 d2 e2|d3 ABc|
+B3 d B/A/G|B/c/d- dd Bd|c2 d2 e2|de fd ef|
+g3 g ed|g3 g ed|~e2 d3 B|AB G2 G/F/E|
+D4 e2|d3 B B/A/G|DEG2GA|G4 GA|1 G3 D:|2 {A}G4||","|:(DE)|G4 e2|~d3 B ~B/A/G|AB G2 G2|{A}G3 D DE|
+G4 ~e2|d3 d Bd|~d6|d2 e2 ~f2|
+g2 g ed|g3 g ed|e2 {e}d3 B|AB G2 G/F/E|
+D4 e2|d3 B B/A/G|DEG2GA|G6|1 {A}G3 D:|2 {A}G3 D||
+dc|B3 d B/A/G|B/c/d- dd Bd|c2 d2 e2|d3 ABc|
+B3 d B/A/G|B/c/d- dd Bd|c2 d2 e2|de fd ef|
+g3 g ed|g3 g ed|~e2 d3 B|AB G2 G/F/E|
+D4 e2|d3 B B/A/G|DEG2GA|G4 GA|1 G3 D:|2 {A}G4||"
 10935,30376,Indian Point,JWiseman,https://thesession.org/tunes/10935#setting30376,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 5, ""witnesses"": [[[""10935"", 3], [""30376"", 11], [""33448"", 3], [""33459"", 3]], [[""30376"", 12]]], ""before"": ""BAG BAG\r\nFED A,DD"", ""after"": ""BAG BAG|\r\nFED A,DD"", ""scan_pass"": 1}]","B,|E2F G2A|B2A GFE|CEF G2A|BAG BAG|
 FED A,DD|FEF AGF|EFG BAG|FED E2D||
 B,EF G2A|BAG FED|CEF G2A|BAG BAG|
@@ -1397,6 +1614,46 @@ fd de/f/|gf ed/e/|fd ec|d2 d2||","dd B/c/d/B/|AF ED|dd B/c/d/B/|AF A2|
 dd B/c/d/B/|AF Ad/e/|fd ec|d2 d2||
 fd de/f/|gf ed/e/|fd Ad|faa2g/|
 fd de/f/|gf ed/e/|fd ec|d2 d2||"
+16145,35146,Joshua's Dream,leprecawn,https://thesession.org/tunes/16145#setting35146,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 37, ""before"": ""d'2 b3 g2"", ""after"": ""d'2 b3 g"", ""witnesses"": [[""35146"", 52]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","D BA|G2 B,D GB|A2 DF Ac|B2 GA Bd|e2 f2 g2|
+d2 GA Bd|EF d3F|E2 G2 c2|A3D BA|
+G2 B,D GB|A2 DF Ac|B2 GA Bd|e2 f2 g2|
+d2 g3 d|ed cB AG|A2 F2 d2|G3 D BA|
+G2 B,D GB|A2 DF Ac|B2 GA Bd|e2 f2 g2|
+d2 GA Bd|EF d3 F|E2 G2 c2|AG FE DC|
+D2 G,D GB|E2 A,E Ac|F2 B,F Bd|G2 CG ce|
+d2 g2 b2|ed cB AG|A2 d2 f2|g3 G ba||
+b2 gd BG|a2 fd AF|g2 eg c'e'|d'2 b3 g|
+ed cB ce|dc BA GF|E2 G2 c2|Ad ef ga|
+b2 ab gd|a2 ba gf|g2 Bg ag|f2 Bb gf|
+e2 Ge dc|d2 Gd cB|A2 d2 f2|g3 d c'b|
+b2 gd BG|a2 fd AF|g2 eg c'e '|d'2 b3 g|
+ed cB ce|dc BA GF|E2 G2 c2|AB cd ef|
+g2 dB ga|f2 dB fg|e2 fg af|d2 ef ge|
+c2 ea ba|g2 dB cB|AF ED CA,|G,3||","D BA|G2 B,D GB|A2 DF Ac|B2 GA Bd|e2 f2 g2|
+d2 GA Bd|EF d3F|E2 G2 c2|A3D BA|
+G2 B,D GB|A2 DF Ac|B2 GA Bd|e2 f2 g2|
+d2 g3 d|ed cB AG|A2 F2 d2|G3 D BA|
+G2 B,D GB|A2 DF Ac|B2 GA Bd|e2 f2 g2|
+d2 GA Bd|EF d3 F|E2 G2 c2|AG FE DC|
+D2 G,D GB|E2 A,E Ac|F2 B,F Bd|G2 CG ce|
+d2 g2 b2|ed cB AG|A2 d2 f2|g3 G ba||
+b2 gd BG|a2 fd AF|g2 eg c'e'|d'2 b3 g2|
+ed cB ce|dc BA GF|E2 G2 c2|Ad ef ga|
+b2 ab gd|a2 ba gf|g2 Bg ag|f2 Bb gf|
+e2 Ge dc|d2 Gd cB|A2 d2 f2|g3 d c'b|
+b2 gd BG|a2 fd AF|g2 eg c'e '|d'2 b3 g|
+ed cB ce|dc BA GF|E2 G2 c2|AB cd ef|
+g2 dB ga|f2 dB fg|e2 fg af|d2 ef ge|
+c2 ea ba|g2 dB cB|AF ED CA,|G,3||"
+19711,38928,Josiane,vsign,https://thesession.org/tunes/19711#setting38928,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 4, ""before"": ""B2ze2 d>c BA"", ""after"": ""B2ze d>c BA"", ""witnesses"": [[""38928"", 9]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","B|GF EF2< E2F|G>A Be d>c BA|B2ze d>c BA|GA BG F2zG|FG A/G/F dB AG|
+FG BF E2 z B|GF EF2< E2F|G>A Be d>c BA|B2ze d>c BA|
+GA BG F2zG|FG A/G/F dB AG|FG BF E> zBd||e2 gc Bc d/c/B|
+AB cd B2zG|FG A/G/F dB AG|FG BF E>z Bd|e2 gc Bc d/c/B|
+AB cd d2zG|FG A/G/F dB AG|FG BF E2zB||","B|GF EF2< E2F|G>A Be d>c BA|B2ze2 d>c BA|GA BG F2zG|FG A/G/F dB AG|
+FG BF E2 z B|GF EF2< E2F|G>A Be d>c BA|B2ze d>c BA|
+GA BG F2zG|FG A/G/F dB AG|FG BF E> zBd||e2 gc Bc d/c/B|
+AB cd B2zG|FG A/G/F dB AG|FG BF E>z Bd|e2 gc Bc d/c/B|
+AB cd d2zG|FG A/G/F dB AG|FG BF E2zB||"
 24164,50010,"Journey, The",Jim Flanagan,https://thesession.org/tunes/24164#setting50010,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 22, ""before"": ""B A3 -A FA"", ""after"": ""B A3 -A2 FA"", ""witnesses"": [[""50074"", 29]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","FE|:D6 FG|A6 FA|B d3 -d2 B2|B A3 -A2 FA|d6 FG|B6 FG|
 d4 A3 F|F2 E3 -E FE|D6 FG|A6 FA|B d3 -d2 B2|B A3 -A2 FA|
 d6 FA|B6 FD|E6 FE|1 D6 FE:|2 D4 F2 A2||
@@ -1975,6 +2232,25 @@ fAA eAA | dBB g3 | agf g2 e | dBA A3 :|","f |: fga efd | e2 d AB e | fga efe | c
 fga efd e2 d ABe | ABA fge | dBA A3 :|
 |: fAA eAA | dBB Bde | fAA eAA dBA Ade |
 fAA eAA | dBB g3 | agf g2 e | dBA A3 :|"
+21843,43839,O'Connell's Lamentation,Fliúiteadóir,https://thesession.org/tunes/21843#setting43839,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 32, ""before"": ""\""Dm\"" d3 cA"", ""after"": ""\""Dm\"" d3 cA2"", ""witnesses"": [[""43839"", 6], [""43839"", 14], [""43839"", 48]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","E2|:""Am"" A4 dc|:""Em"" A2G2E2|""C""G2c2d2|""D""e2a2f2|""C""g3ec2|""Dm"" d3cA2|""Em"" G2E2F2|""G""G4 E2|
+""Am"" A4dc|""Em"" A2G2E2|""C""c3 def|""Em"" g2e2a2|""C"" g3ec2|""Dm"" d3cA2|""Am"" A6|1 -A4 E2:|2 A4 ef||
+|:""G""g3 f af|""Em"" g3 b ag|""Dm"" =f>e de =fd|""Am"" e4 A2|
+""C""c>B cd ef|g3e cA|""Em"" G2E2c>A|""G"" G2E2G2|
+""Am"" A2 AB cA|""G"" B2 Bc dB|""C""c3d ef|""Em"" g2e2a2|
+""C"" g3 ec2|""Dm"" d3 cA2|""Am"" A6|1 A4 ef:|2 A4 AB||
+|:""Am"" c2E2F2|""Em"" G4 AB|""C"" c>B cd ef|""Em"" g2e2a2|
+""C"" g>=f eg =fe|""Dm"" d=f ed cB|""Am"" c2E2F2|""G"" G4 AB|
+""Am"" c2E2F2|""Em"" G4 AB|""C""c>B cd ef|""Em"" g2e2a2|
+""C""g3e c2|""Dm"" d3cA2|""Am"" A6|-A4 AB:|","E2|:""Am"" A4 dc|:""Em"" A2G2E2|""C""G2c2d2|""D""e2a2f2|""C""g3ec2|""Dm"" d3cA2|""Em"" G2E2F2|""G""G4 E2|
+""Am"" A4dc|""Em"" A2G2E2|""C""c3 def|""Em"" g2e2a2|""C"" g3ec2|""Dm"" d3cA2|""Am"" A6|1 -A4 E2:|2 A4 ef||
+|:""G""g3 f af|""Em"" g3 b ag|""Dm"" =f>e de =fd|""Am"" e4 A2|
+""C""c>B cd ef|g3e cA|""Em"" G2E2c>A|""G"" G2E2G2|
+""Am"" A2 AB cA|""G"" B2 Bc dB|""C""c3d ef|""Em"" g2e2a2|
+""C"" g3 ec2|""Dm"" d3 cA|""Am"" A6|1 A4 ef:|2 A4 AB||
+|:""Am"" c2E2F2|""Em"" G4 AB|""C"" c>B cd ef|""Em"" g2e2a2|
+""C"" g>=f eg =fe|""Dm"" d=f ed cB|""Am"" c2E2F2|""G"" G4 AB|
+""Am"" c2E2F2|""Em"" G4 AB|""C""c>B cd ef|""Em"" g2e2a2|
+""C""g3e c2|""Dm"" d3cA2|""Am"" A6|-A4 AB:|"
 2097,25362,O'Connor's,ceolachan,https://thesession.org/tunes/2097#setting25362,音长斜线遗漏,"""Restores the final sixteenth-note slash. The first bar of the same B part explicitly gives af fe/f/.""","|:A>B df|A>B d/e/f/e/|dB BA/B/|dB B/c/d/B/|
 AA/B/ df|A>B df|eB cd|ed d2:|
 |:af fe/f/|af f>e|dB BA/B/|dB B/c/d/f/|
@@ -1989,6 +2265,47 @@ F2 A G2 B|ABc d2e|~f2d ~g2f|1 edc d2A:|2 edc d2e||
 F2 A G2 B|ABc d3e|~f2d ~g2f|1 edc d2A:|2 edc d2e||
 |:~f3 def|gfg efg|~f2e def|ecA A2e|
 ~f3 def|gbg efg|~f2d ~g2f|1 edc d2e:|2 edc d2A||"
+15605,30488,Old French,JACKB,https://thesession.org/tunes/15605#setting30488,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 29, ""before"": ""A4 GG AB"", ""after"": ""A2 GG AB"", ""witnesses"": [[""30488"", 11]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","D|:G2 G2 d2|B2 B2 A2|A2 GG AB|E2 D2 G2|
+G2 d2 B2|B2 AG A2|A6|A2 D2 E2|
+G2 G2 d2|B2 B2 A2|A2 GG AB|E2 D2 d2|
+d2 Bd A2|D4 DE|G4 AG|G6||
+Bc|:d4 GA|B4 dB|A6|GG AB E2|D2 G2 GA|
+Bc d2 dB|d2 A4|A6|DE G4|
+d2 B4|A2 GG AB|E2 D2 d2|d2 Bd A2|
+D2 DD E2|G4 AG|G6 G6:|","D|:G2 G2 d2|B2 B2 A2|A2 GG AB|E2 D2 G2|
+G2 d2 B2|B2 AG A2|A6|A2 D2 E2|
+G2 G2 d2|B2 B2 A2|A2 GG AB|E2 D2 d2|
+d2 Bd A2|D4 DE|G4 AG|G6||
+Bc|:d4 GA|B4 dB|A6|GG AB E2|D2 G2 GA|
+Bc d2 dB|d2 A4|A6|DE G4|
+d2 B4|A4 GG AB|E2 D2 d2|d2 Bd A2|
+D2 DD E2|G4 AG|G6 G6:|"
+15605,29269,Old French,JACKB,https://thesession.org/tunes/15605#setting29269,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 29, ""before"": ""e4 dd ef"", ""after"": ""e2 dd ef"", ""witnesses"": [[""29269"", 11]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","A|:d2 d2 a2|f2 f2 e2|e2 dd ef|B2 A2 d2|
+d2 a2 f2|f2 ed e2|e6|e4 A2|
+d2 d2 a2|f2 f2 e2|e2 dd ef|B2 A2 a2|
+a2 fa e2|A4 AB|d4 ed|d6||
+fg|:a4 de|f4 af|e6|dd ef B2|A2 d2 de|
+fg a2 af|a2 e4|e6|AB d4|
+a2 f4|e2 dd ef|B2 A2 a2|a2 fa e2|
+A2 AA B2|d4 ed|d6 d6:|","A|:d2 d2 a2|f2 f2 e2|e2 dd ef|B2 A2 d2|
+d2 a2 f2|f2 ed e2|e6|e4 A2|
+d2 d2 a2|f2 f2 e2|e2 dd ef|B2 A2 a2|
+a2 fa e2|A4 AB|d4 ed|d6||
+fg|:a4 de|f4 af|e6|dd ef B2|A2 d2 de|
+fg a2 af|a2 e4|e6|AB d4|
+a2 f4|e4 dd ef|B2 A2 a2|a2 fa e2|
+A2 AA B2|d4 ed|d6 d6:|"
+25196,52965,Old Rustic Bridge,gian marco,https://thesession.org/tunes/25196#setting52965,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 3, ""before"": "" B2 (Gd) A2 A "", ""after"": "" B2 (Gd) A3 A "", ""witnesses"": [[""52965"", 6], [""52965"", 22]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","A>d | f2 (f>g) f2 dc | B2 (Gd) A3 A | B2 (cd) d2 cd | e2 (e>f) e2 (A>d) |
+ f2 (f>g) f2 dc | B2 (Gd) A3 A | B2 (eg) fecA | d2 (d>e) d2 d2 |
+c2 (c>d) e2 fe | e2 (Bc) d2 c>d | e2 (a>c) edcB | A2 B2 c2 (A>d) |
+f2 (fg) f2 dc | B2 (Gd) A3 A | B2 (eg) fecA | d2 (de) d3 f |
+g2 (g>f) e2 Bc | (d (f3) f3) f | e2 (a>c) edcB | A2 B2 c2 (A>d) |
+f2 (f>g) f2 dc | B2 (Gd) A3 A | B2 (eg) fecA | d2 (d>e) d2 ||","A>d | f2 (f>g) f2 dc | B2 (Gd) A2 A | B2 (cd) d2 cd | e2 (e>f) e2 (A>d) |
+ f2 (f>g) f2 dc | B2 (Gd) A3 A | B2 (eg) fecA | d2 (d>e) d2 d2 |
+c2 (c>d) e2 fe | e2 (Bc) d2 c>d | e2 (a>c) edcB | A2 B2 c2 (A>d) |
+f2 (fg) f2 dc | B2 (Gd) A3 A | B2 (eg) fecA | d2 (de) d3 f |
+g2 (g>f) e2 Bc | (d (f3) f3) f | e2 (a>c) edcB | A2 B2 c2 (A>d) |
+f2 (f>g) f2 dc | B2 (Gd) A3 A | B2 (eg) fecA | d2 (d>e) d2 ||"
 9365,19987,Old Woman Of The Milldust,bogman,https://thesession.org/tunes/9365#setting19987,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 10, ""witnesses"": [[""27803"", 9], [""27803"", 13], [""19987"", 13]], ""before"": ""gfe a2"", ""after"": ""gfe a3"", ""scan_pass"": 1}]","|:ABd e2A|g2d e2A|ABd e2f|g2e dBG|
 ABd e2A|egd e2A|BAB GBd|g2e dBG:|
 ABA a3|gfe a3|ABA a2f|g2e dBG|
@@ -2283,6 +2600,41 @@ g4 f2|e3f g2|d4 c2|B3A G2|c4 A2|B3c d2|G4 F2|1 G4 d2:|2 G6||","d2|:g4 f2|e3f g2|
 g4 f2|e3f g2|d4 c2|B3A G2|c4 A2|B3c d2|G4 F2|G4 d2:|
 |:g4 g2|g3f g2|a2b a2|a2 f2 d2|b4 b2|a3b g2|f3g e2|d3e f2|
 g4 f2|e3f g2|d4 c2|B3A G2|c4 A2|B3c d2|G4 F2|1 G4 d2:|2 G6||"
+4705,50695,Planxty Sweeney,UPipes & harp,https://thesession.org/tunes/4705#setting50695,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 7, ""before"": ""AGA c e/f/"", ""after"": ""AGA c2 e/f/"", ""witnesses"": [[""50695"", 2]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","e/d/c/|:AGA c2 G|AGA c2 e/f/|gfe dcd|e/d/dd de/d/c|
+AGA c2 G|AGA c2 e/f/|gfe dcd|e/c/cc c2 c:|
+|:cde f2 f|e/f/gf edc|ddd def|gfd d2 e//d//c/|
+AGA c2 G|AGA c c'/a/|gfe dcd|e/c/cc c2 c:|","e/d/c/|:AGA c2 G|AGA c2 e/f/|gfe dcd|e/d/dd de/d/c|
+AGA c2 G|AGA c e/f/|gfe dcd|e/c/cc c2 c:|
+|:cde f2 f|e/f/gf edc|ddd def|gfd d2 e//d//c/|
+AGA c2 G|AGA c c'/a/|gfe dcd|e/c/cc c2 c:|"
+4705,50696,Planxty Sweeney,UPipes & harp,https://thesession.org/tunes/4705#setting50696,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 7, ""before"": ""BAB d f/g/"", ""after"": ""BAB d2 f/g/"", ""witnesses"": [[""50696"", 2]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","f/e/d/|:BAB d2 A|BAB d2 f/g/|agf ede|f/e/ee ef/e/d|
+BAB d2 A|BAB d2 f/g/|agf ede|f/d/dd d2 d:|
+|:def g2 g|f/g/ag fed|eee efg|age e2 f//e//d/|
+BAB d2 A|BAB d d'/b/|agf ede|f/d/dd d2 d:|","f/e/d/|:BAB d2 A|BAB d2 f/g/|agf ede|f/e/ee ef/e/d|
+BAB d2 A|BAB d f/g/|agf ede|f/d/dd d2 d:|
+|:def g2 g|f/g/ag fed|eee efg|age e2 f//e//d/|
+BAB d2 A|BAB d d'/b/|agf ede|f/d/dd d2 d:|"
+4705,51131,Planxty Sweeney,UPipes & harp,https://thesession.org/tunes/4705#setting51131,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 7, ""before"": ""EDE G B/c/"", ""after"": ""EDE G2 B/c/"", ""witnesses"": [[""51131"", 2]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","B/A/G/|:EDE G2 D|EDE G2 B/c/|dcB AGA|BAA AB/A/G|
+EDE G2 D|EDE G2 B/c/|dcB AGA|BGG G2 G:|
+|:GAB c2 c|B/c/dc BAG|AAA ABc|dcA A2 B//A//G/|
+EDE G2 D|EDE G g/e/|dcB AGA|BGG G2 G:|","B/A/G/|:EDE G2 D|EDE G2 B/c/|dcB AGA|BAA AB/A/G|
+EDE G2 D|EDE G B/c/|dcB AGA|BGG G2 G:|
+|:GAB c2 c|B/c/dc BAG|AAA ABc|dcA A2 B//A//G/|
+EDE G2 D|EDE G g/e/|dcB AGA|BGG G2 G:|"
+1758,33033,"Pretty Girl Milking Her Cow, The",Pierre LAÏLY,https://thesession.org/tunes/1758#setting33033,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 13, ""before"": ""D6BA"", ""after"": ""D4BA"", ""witnesses"": [[""33033"", 29]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","|:EF|G2B3G|F2A3F|E3F ED-|D4EF|G2B3G|F2A3F|E6-|E4EF|
+G2B3G|F2A3F|E3F ED-|D4BA|G3FE2|D3EF2|E6-|E4:|
+|:D2|G3AB2|d3BG2|F2D4-|D4D2|G3AB2|d2B2d2|e6-|e4ef|
+g3fe2|d3BG2|F2D4-|D4BA|G3FE2|D3EF2|E6-|E4:|","|:EF|G2B3G|F2A3F|E3F ED-|D4EF|G2B3G|F2A3F|E6-|E4EF|
+G2B3G|F2A3F|E3F ED-|D6BA|G3FE2|D3EF2|E6-|E4:|
+|:D2|G3AB2|d3BG2|F2D4-|D4D2|G3AB2|d2B2d2|e6-|e4ef|
+g3fe2|d3BG2|F2D4-|D4BA|G3FE2|D3EF2|E6-|E4:|"
+1758,47757,"Pretty Girl Milking Her Cow, The",JACKB,https://thesession.org/tunes/1758#setting47757,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 13, ""before"": ""G6ed"", ""after"": ""G4ed"", ""witnesses"": [[""47757"", 29]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","AB|:c2e3c|B2d3B|A3G G2-|G4AB|c2e3c|B2d3B|A6-|A4AB|
+c2e3c|B2g3B|A3G G2-|G4ed|c3BA2|E3AB2|A6-|A4:|
+|:G2|c3de2|g3ec2|B2G4-|G4G2|c3de2|g2e2g2|a6-|a4ab|
+c'3ba2|g3ec2|B2G4-|G4ed|c3BA2|E3AB2|A6-|A4:|","AB|:c2e3c|B2d3B|A3G G2-|G4AB|c2e3c|B2d3B|A6-|A4AB|
+c2e3c|B2g3B|A3G G2-|G6ed|c3BA2|E3AB2|A6-|A4:|
+|:G2|c3de2|g3ec2|B2G4-|G4G2|c3de2|g2e2g2|a6-|a4ab|
+c'3ba2|g3ec2|B2G4-|G4ed|c3BA2|E3AB2|A6-|A4:|"
 1758,53401,"Pretty Girl Milking Her Cow, The",DUHEM VERONIQUE,https://thesession.org/tunes/1758#setting53401,音长数字或斜线手误; 音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 13, ""before"": ""G6ed"", ""after"": ""G4ed"", ""witnesses"": [[""47757"", 29]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}, {""rule"": ""note_length"", ""bar"": 45, ""before"": ""G6ed"", ""after"": ""G4ed"", ""witnesses"": [[""47757"", 29]], ""method"": ""matching rhythm and neighboring phrase in another setting"", ""scan_pass"": 1}]","AB|c2e3c|ABd3B|A3 G3-|G4AB|c2e3c|ABd3B|A6-|A4AB|
 c2e3c|ABg3B|A3 G3-|G4ed|c3BA2|E3AB2|A6-|A4AB||
 c4(de)|g4dc|(AB)G4-|G4(AB)|c4(de)|g4(eg)|a6-|a4a2|
@@ -2741,6 +3093,23 @@ cBcd eg~g2|a2ag egge|cBcd eg~g2|abge d3c|
 cBcd eg~g2|a2ag egg2|fged cAGB|Add^c defe|","|:Bc|d2cA GE~E2|ABAG ~A2B|d2cA GE~E2|ABGE D4:|
 cBcd eg~g2|a2ag egge|cBcd eg~g2|abge d3c|
 cBcd eg~g2|a2ag egg2|fged cAGB|Add^c defe|"
+8586,8586,"Star Of Brittany, The",geoffwright,https://thesession.org/tunes/8586#setting8586,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 50, ""before"": ""B3cd"", ""after"": ""B3cd2"", ""witnesses"": [[""8586"", 12]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","|:f4f2|e4d2|c2B2A2|B6|f2e2f2|g2f2g2|a4g2|f6|
+b3c' b2|a3gf2|e3fd2|c2d2c2|B3cd2|c2d2c2|B4 (3cBA|1 B6:|2 Bc de fa||
+;(b6|b2)c'3b|a4f2|de fg af|(g6|g2) a3g|f4B2|Bc de fg|
+e4e2|e2f2e2|d2e2(f2|f2)e2d2|e4e2|ef3 d2|c6|cd ef ga|
+(b6|b2)c'3b|a4f2|de fg af|(g6|g2) a3g|f4B2|Bc de fg|
+e4e2|e2f2e2|d2e2(f2|f2)e2d2|e4e2|ef3 d2|(c6|
+c2)d2c2|B3cd2|c2d2c2|1 B4A2|B6||""Last""BF Bc df|""Fin""b6||
+|:fB eB dB|cB dB eB|fB eB dB|cB dB eB|
+bB aB gB|eB fB gA|f2e2d2|c6:|","|:f4f2|e4d2|c2B2A2|B6|f2e2f2|g2f2g2|a4g2|f6|
+b3c' b2|a3gf2|e3fd2|c2d2c2|B3cd2|c2d2c2|B4 (3cBA|1 B6:|2 Bc de fa||
+;(b6|b2)c'3b|a4f2|de fg af|(g6|g2) a3g|f4B2|Bc de fg|
+e4e2|e2f2e2|d2e2(f2|f2)e2d2|e4e2|ef3 d2|c6|cd ef ga|
+(b6|b2)c'3b|a4f2|de fg af|(g6|g2) a3g|f4B2|Bc de fg|
+e4e2|e2f2e2|d2e2(f2|f2)e2d2|e4e2|ef3 d2|(c6|
+c2)d2c2|B3cd|c2d2c2|1 B4A2|B6||""Last""BF Bc df|""Fin""b6||
+|:fB eB dB|cB dB eB|fB eB dB|cB dB eB|
+bB aB gB|eB fB gA|f2e2d2|c6:|"
 134,134,"Strayaway Child, The",Will Harmon,https://thesession.org/tunes/134#setting134,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 6, ""witnesses"": [[[""42126"", 0], [""42126"", 4], [""42386"", 1], [""42386"", 5]], [[""42386"", 2], [""42386"", 6], [""25594"", 2], [""25594"", 6]]], ""before"": ""\r\nBEE GEE B,EE G2 A"", ""after"": ""\r\nBEE GEE| B,EE G2 A"", ""scan_pass"": 1}]","A|:BEE GEE|B,EE G2 A|BEE A2 G|FDF Adc|
 BEE GEE| B,EE G2 A|BcB B2 A|GEE E2 A:|
 |:Bee BdB|dBG AGA|Bee BdB|
@@ -2807,6 +3176,21 @@ Addd fded|cAAB cdec|Addd fded|cAGE EDD2|
 Addd fded|cAAB cde2|fdec dfed|cAGE EDD2
 FDA,D FDDD|FDA,D GEEE|FDA,D FDA,D|GAGE EDD2|
 FDA,D FDDF|ED=CD EGGE|DFAd fafe|cAGE EDD2||"
+6944,44224,Táimse Im' Chodladh,Iain_0C,https://thesession.org/tunes/6944#setting44224,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 30, ""before"": ""B2 AG"", ""after"": ""B4 AG"", ""witnesses"": [[""44224"", 13]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","(AF)|G3 A Bc|d4 fe|d4 cA|GF D4|
+B4 AG|Ad d2 cA|G4 G2|G4 AF|
+G3 A Bc|d4 fe|d4 cA|G>F D4|
+B4 AG|Ad d2 cA|G4 G2|G4 AB|
+c2 A2 d2|f2 d2 (3def|g4 g2|
+g>f d2 d2|f2 g2 a2|g4 f>e|d4 cA|
+G>A G2 de|f2 g2 a2|g4 fe|d4 cA|
+G>F D4|B4 AG|Ad d2 (d/c/A/F/)|G4 G2|G4|","(AF)|G3 A Bc|d4 fe|d4 cA|GF D4|
+B4 AG|Ad d2 cA|G4 G2|G4 AF|
+G3 A Bc|d4 fe|d4 cA|G>F D4|
+B4 AG|Ad d2 cA|G4 G2|G4 AB|
+c2 A2 d2|f2 d2 (3def|g4 g2|
+g>f d2 d2|f2 g2 a2|g4 f>e|d4 cA|
+G>A G2 de|f2 g2 a2|g4 fe|d4 cA|
+G>F D4|B2 AG|Ad d2 (d/c/A/F/)|G4 G2|G4|"
 3465,3465,Tammie Anderson,cathyburke,https://thesession.org/tunes/3465#setting3465,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 7, ""witnesses"": [[[""3465"", 2], [""3465"", 22]], [[""3465"", 23]]], ""before"": ""G2GBd2 cB\r\nA(a^ga) =ge cA"", ""after"": ""G2GBd2 cB|\r\nA(a^ga) =ge cA"", ""scan_pass"": 1}]","|:u(FE)|D2FA (BA) FD|G2GBd2cB|A2a2gf ed|ef ec AG FE|D2FA (BA) FD|G2GBd2 cB|
 A(a^ga) =ge cA|d6:|(fg)|a2 (^ga) f d2z|uggzud B2 (dB)|A2 a2 gf ed|ef ec
 A2 (fg)|a2 (^ga) f d2z|uggzud B2 (dB)|A(a ^ga) =ge BA|d3 (fg)|a2 (^ga) f
@@ -2830,6 +3214,13 @@ c>dB A3 A>ce|d>fa e3 c2e|f<ad e3 A>ce| d>=GB A3 A3||","c<ec A3 A2e|d>ef e3 c3|c>
 c<ec A3 A2e|d>ef e3 a3|f<ad e3 A>ce|d>=GB A3 A3||
 f>ef a3 d>ef|a>df e3 e3|f>ef a3 d>ef|a>ec B3 B2e|
 c>dB A3 A>ce|d>fa e3 c2e|f<ad e3 A>ce d>=GB A3 A3||"
+11114,52239,Tom Doherty's,Erik-Fiddler,https://thesession.org/tunes/11114#setting52239,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 10, ""before"": ""bB (3B/B/B/B/ f2 f/g/a"", ""after"": ""bB (3B/B/B/B f2 f/g/a"", ""witnesses"": [[""52239"", 13]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","|:f2df Bfdf|fefg a/g/f ge|f/g/f df Bfdf|ecAc eaga|
+f/g/f df Bfdf|fefg afga|b/a/g af gefa|ecAc efga :|
+|:bB (3B/B/B/B fB (3B/B/B/B|bB (3B/B/B/B f2 f/g/a|bB (3B/B/B/B fBdf|ecAc efga|
+bB (3B/B/B/B fB (3B/B/B/B|bB (3B/B/B/B f2 f/g/a|bgaf gefa|ecAc efga:|","|:f2df Bfdf|fefg a/g/f ge|f/g/f df Bfdf|ecAc eaga|
+f/g/f df Bfdf|fefg afga|b/a/g af gefa|ecAc efga :|
+|:bB (3B/B/B/B fB (3B/B/B/B|bB (3B/B/B/B/ f2 f/g/a|bB (3B/B/B/B fBdf|ecAc efga|
+bB (3B/B/B/B fB (3B/B/B/B|bB (3B/B/B/B f2 f/g/a|bgaf gefa|ecAc efga:|"
 9692,20089,Tom Keane's,Peter Laban,https://thesession.org/tunes/9692#setting20089,误入的控制字符,"[{""rule"": ""stray_control"", ""offset"": 2, ""before"": ""\u0014"", ""after"": """", ""codepoint"": ""U+0014"", ""scan_pass"": 1}]","|:dc|BGGA BGdc|BGGE =F3 A|BGGA BGdc|BGAF G2:|
 dggf dedc|Bcde =f3e|dggf dedc|BGAF G2:|","|:dc|BGGA BGdc|BGGE =F3 A|BGGA BGdc|BGAF G2:|
 dggf dedc|Bcde =f3e|dggf dedc|BGAF G2:|"
@@ -2946,6 +3337,15 @@ dcA AGE|GEE D2E|GEE cEE|D3 D2:|
 dB/c/d ecA|dB/c/d ecA|GEE cEE|D3 D3|
 |:dB/c/d ecA|dB/c/d ecA|GEE cEE|GAB cde
 dcA AGE|GEE D2E|GEE cEE|D3 D3|"
+21631,49027,"Waves Of Kilkee, The",leprecawn,https://thesession.org/tunes/21631#setting49027,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 11, ""before"": ""d4 B3/A"", ""after"": ""d4 B3/A/"", ""witnesses"": [[""49027"", 2]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","GA|:B4 ed/e/|d4 B3/A/|G6|g4 f2|e3( f f)g|
+d(B (B)2 B)/A/G|(A6|A2 )z2 GA|B4 ed/e/|d4 B3/A/|
+G6|e2f2g2|d(B( B) B)/A/G|(A4 A)B|((G6|1 G2) z2 GA:|2 G2) z2 g2||
+g4 af|g3 a bd|e4d2|(3def|g4 B2|B4 AG|( A6|A2) z2 g2|
+g4 af|g3 a bd|e6|d4 ge|d(B B2 B)A|(A4 A)G|( G6|G6)||","GA|:B4 ed/e/|d4 B3/A/|G6|g4 f2|e3( f f)g|
+d(B (B)2 B)/A/G|(A6|A2 )z2 GA|B4 ed/e/|d4 B3/A|
+G6|e2f2g2|d(B( B) B)/A/G|(A4 A)B|((G6|1 G2) z2 GA:|2 G2) z2 g2||
+g4 af|g3 a bd|e4d2|(3def|g4 B2|B4 AG|( A6|A2) z2 g2|
+g4 af|g3 a bd|e6|d4 ge|d(B B2 B)A|(A4 A)G|( G6|G6)||"
 6330,18090,"Weavers', The",ceolachan,https://thesession.org/tunes/6330#setting18090,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 11, ""witnesses"": [[[""18090"", 2]], [[""18090"", 3]]], ""before"": ""Bcdc B2 B2 g2 f2 e4"", ""after"": ""Bcdc B2 B2| g2 f2 e4"", ""scan_pass"": 1}]","ABAG F2 GA|B2 B2 A4|Bcdc B2 B2|g2 f2 e4|
 ABAG F2 GA|B2 B2 A4|BcdB c2 de|E4 d4||
 |:f2 gf e2 fe|dfed c2 BA|Bcdc B2 B2| g2 f2 e4|
@@ -2965,6 +3365,52 @@ GBAG F2 GA|B2 B2 A4|BcdB c2 de|e4 d4:|"
 F2d F>GA|B2B Bcd|A2F DEF|G3 BAG|FGE D3:|","|:d2d fed|dcB A2G/F/|B2B Bcd|A2F DEF|G3 BAG|FGE D3:|
 |:A2A ABc|def e3|A2A ABc|def e2dc|B2d A2d|
 F2d F>GA|B2B Bcd|A2F DEF|G3 BAG|FGE D3:|"
+13730,27247,"Wild Geese, The",stefanremy,https://thesession.org/tunes/13730#setting27247,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 25, ""before"": ""A4(G/4A/4B)"", ""after"": ""A4(G/4A/4B3/2)"", ""witnesses"": [[""27247"", 8]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","""_va""(G3/2A/)|B2(B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|E2G2(G3/2A/)|G4(A3/2B/)|
+c2c2(c/4B/4A3/2)|B2B2(B/4A/4G3/2)|A2e2(d3/2B/)|A4(G/4A/4B3/2)|
+c2c2(c/4B/4A3/2)|B2B2(B/4A/4G3/2)|(A3/2B/) (.c.B.A.G)|E4(G3/2A/)|
+B2(B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|(#~E3/2F/)(G3/2A/B3/2A/)|G4""_pp""(G3/2A/)|
+({c}B3/2A/G3/2A/B3/2G/)|({B}A3/2G/E3/2G/A3/2E/)|({A}G3/2E/D3/2E/G3/2A/)|G4z2|
+""_BrdsB""({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/G3/2A/B3/2G/)|A2e2(d3/2B/)|A4(G/4A/4B3/2)|
+""_p""(c3/2B/A3/2B/c3/2A/)|({c}B3/2A/G3/2A/B3/2G/)|A3/2B/ .c.B.A.G|E4""_pp""G3/2A/|
+({c}B3/2A/G3/2A/B3/2G/)|({B}A3/2G/E3/2G/A3/2E/)|({A}G3/2E/D3/2E/G3/2A/)|G7/e/ ({de}d3/2B/)|
+""_ee""(G7/""^Bhorus.""e/) ({de}d3/2B/)|(G7/e/) ({de}d3/2B/)|(c2c'3/2e/ d3/2B/)|(c2c'3/2e/ {de}d3/2c/)|
+(B2b3/2e/ {de}d3/2c/)|(B2b3/2e/ {de}d3/2B/)|(A2a3/2e/ {de}d3/2B/)|(A2a3/2e/ {de}d3/2B/)|
+(c2c'3/2e/ {de}d3/2c/)|(B2b3/2e/ {de}d3/2B/)|(A2a3/2c/ {Bc}B3/2G/)|E4""_pp""(G3/2A/)|
+B2(B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|E3/2F/G3/2B/A3/2B/|G2""^H""G2||","""_va""(G3/2A/)|B2(B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|E2G2(G3/2A/)|G4(A3/2B/)|
+c2c2(c/4B/4A3/2)|B2B2(B/4A/4G3/2)|A2e2(d3/2B/)|A4(G/4A/4B3/2)|
+c2c2(c/4B/4A3/2)|B2B2(B/4A/4G3/2)|(A3/2B/) (.c.B.A.G)|E4(G3/2A/)|
+B2(B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|(#~E3/2F/)(G3/2A/B3/2A/)|G4""_pp""(G3/2A/)|
+({c}B3/2A/G3/2A/B3/2G/)|({B}A3/2G/E3/2G/A3/2E/)|({A}G3/2E/D3/2E/G3/2A/)|G4z2|
+""_BrdsB""({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/G3/2A/B3/2G/)|A2e2(d3/2B/)|A4(G/4A/4B)|
+""_p""(c3/2B/A3/2B/c3/2A/)|({c}B3/2A/G3/2A/B3/2G/)|A3/2B/ .c.B.A.G|E4""_pp""G3/2A/|
+({c}B3/2A/G3/2A/B3/2G/)|({B}A3/2G/E3/2G/A3/2E/)|({A}G3/2E/D3/2E/G3/2A/)|G7/e/ ({de}d3/2B/)|
+""_ee""(G7/""^Bhorus.""e/) ({de}d3/2B/)|(G7/e/) ({de}d3/2B/)|(c2c'3/2e/ d3/2B/)|(c2c'3/2e/ {de}d3/2c/)|
+(B2b3/2e/ {de}d3/2c/)|(B2b3/2e/ {de}d3/2B/)|(A2a3/2e/ {de}d3/2B/)|(A2a3/2e/ {de}d3/2B/)|
+(c2c'3/2e/ {de}d3/2c/)|(B2b3/2e/ {de}d3/2B/)|(A2a3/2c/ {Bc}B3/2G/)|E4""_pp""(G3/2A/)|
+B2(B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|E3/2F/G3/2B/A3/2B/|G2""^H""G2||"
+13730,24436,"Wild Geese, The",Cheeky Elf,https://thesession.org/tunes/13730#setting24436,音长数字或斜线手误,"[{""rule"": ""note_length"", ""bar"": 25, ""before"": ""B4(A/4B/4c)"", ""after"": ""B4(A/4B/4c3/2)"", ""witnesses"": [[""24436"", 8]], ""method"": ""separate written phrase in the same upstream setting"", ""scan_pass"": 1}]","""_vb""(A3/2B/)|c2(c/4B/4A3/2) (A/4B/4c3/2)|B2(c/B/A/F/) E2|F2A2(A3/2B/)|A4(B3/2c/)|
+d2d2(d/4c/4B3/2)|c2c2(c/4B/4A3/2)|B2f2(e3/2c/)|B4(A/4B/4c3/2)|
+d2d2(d/4c/4B3/2)|c2c2(c/4B/4A3/2)|(B3/2c/) (.d.c.B.A)|F4(A3/2B/)|
+c2(c/4B/4A3/2) (A/4B/4c3/2)|B2(c/B/A/F/) E2|(#~F3/2G/)(A3/2B/c3/2B/)|A4""_pp""(A3/2B/)|
+({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/F3/2A/B3/2F/)|({B}A3/2F/E3/2F/A3/2B/)|A4z2|
+""_cresc""({e}d3/2c/B3/2c/d3/2B/)|({d}c3/2B/A3/2B/c3/2A/)|B2f2(e3/2c/)|B4(A/4B/4c3/2)|
+""_p""(d3/2c/B3/2c/d3/2B/)|({d}c3/2B/A3/2B/c3/2A/)|B3/2c/ .d.c.B.A|F4""_pp""A3/2B/|
+({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/F3/2A/B3/2F/)|({B}A3/2F/E3/2F/A3/2B/)|A7/f/ ({ef}e3/2c/)|
+""_ff""(A7/""^Chorus.""f/) ({ef}e3/2c/)|(A7/f/) ({ef}e3/2c/)|(d2d'3/2f/ e3/2c/)|(d2d'3/2f/ {ef}e3/2d/)|
+(c2c'3/2f/ {ef}e3/2d/)|(c2c'3/2f/ {ef}e3/2c/)|(B2b3/2f/ {ef}e3/2c/)|(B2b3/2f/ {ef}e3/2c/)|
+(d2d'3/2f/ {ef}e3/2d/)|(c2c'3/2f/ {ef}e3/2c/)|(B2b3/2d/ {cd}c3/2A/)|F4""_pp""(A3/2B/)|
+c2(c/4B/4A3/2) (A/4B/4c3/2)|B2(c/B/A/F/) E2|F3/2G/A3/2c/B3/2c/|A2""^H""A2||","""_vb""(A3/2B/)|c2(c/4B/4A3/2) (A/4B/4c3/2)|B2(c/B/A/F/) E2|F2A2(A3/2B/)|A4(B3/2c/)|
+d2d2(d/4c/4B3/2)|c2c2(c/4B/4A3/2)|B2f2(e3/2c/)|B4(A/4B/4c3/2)|
+d2d2(d/4c/4B3/2)|c2c2(c/4B/4A3/2)|(B3/2c/) (.d.c.B.A)|F4(A3/2B/)|
+c2(c/4B/4A3/2) (A/4B/4c3/2)|B2(c/B/A/F/) E2|(#~F3/2G/)(A3/2B/c3/2B/)|A4""_pp""(A3/2B/)|
+({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/F3/2A/B3/2F/)|({B}A3/2F/E3/2F/A3/2B/)|A4z2|
+""_cresc""({e}d3/2c/B3/2c/d3/2B/)|({d}c3/2B/A3/2B/c3/2A/)|B2f2(e3/2c/)|B4(A/4B/4c)|
+""_p""(d3/2c/B3/2c/d3/2B/)|({d}c3/2B/A3/2B/c3/2A/)|B3/2c/ .d.c.B.A|F4""_pp""A3/2B/|
+({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/F3/2A/B3/2F/)|({B}A3/2F/E3/2F/A3/2B/)|A7/f/ ({ef}e3/2c/)|
+""_ff""(A7/""^Chorus.""f/) ({ef}e3/2c/)|(A7/f/) ({ef}e3/2c/)|(d2d'3/2f/ e3/2c/)|(d2d'3/2f/ {ef}e3/2d/)|
+(c2c'3/2f/ {ef}e3/2d/)|(c2c'3/2f/ {ef}e3/2c/)|(B2b3/2f/ {ef}e3/2c/)|(B2b3/2f/ {ef}e3/2c/)|
+(d2d'3/2f/ {ef}e3/2d/)|(c2c'3/2f/ {ef}e3/2c/)|(B2b3/2d/ {cd}c3/2A/)|F4""_pp""(A3/2B/)|
+c2(c/4B/4A3/2) (A/4B/4c3/2)|B2(c/B/A/F/) E2|F3/2G/A3/2c/B3/2c/|A2""^H""A2||"
 10655,47306,Wild Mountain Thyme,Aaron Bergen,https://thesession.org/tunes/10655#setting47306,漏写小节线,"[{""rule"": ""missing_barline"", ""bar"": 5, ""witnesses"": [[[""47306"", 11]], [[""47306"", 12]]], ""before"": ""\""G\""Bd-d4 Bd\r\n\""C\""e4 \""G\""d3 B"", ""after"": ""\""G\""Bd-d4 Bd|\r\n\""C\""e4 \""G\""d3 B"", ""scan_pass"": 1}]","GE|""G""D2 D2 ""C""E<G-GA|""G""G6 Bd|""C""e3 e e3 d|""G""Bd-d4 Bd|
 ""C""e4 ""G""d3 B|""Em""A<G-G4AB|""Am""c3B A3G|""C""EG-G4 GE|""G""D2 D2 ""C""E<G-GA|
 ""G""G6 Bd|""C""e3 e e3 d|""G""Bd-d4 Bd|""C""e4 ""G""d3 B|""Em""A<G-G4AB|

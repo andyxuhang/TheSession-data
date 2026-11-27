@@ -6,13 +6,13 @@
 
 | 分类 | Setting 数 | 完整明细 |
 |---|---:|---|
-| 已修正 | 311 | [fixed.csv](fixed.csv) |
-| 尚需核对 | 3917 | [review.csv](review.csv) |
+| 已修正 | 345 | [fixed.csv](fixed.csv) |
+| 尚需核对 | 3893 | [review.csv](review.csv) |
 | 弱起、段尾与反复边界记录 | 24421 | [boundaries.csv](boundaries.csv) |
 | 暂不支持的语法或空旋律 | 6515 | [unsupported.csv](unsupported.csv) |
-| 播放或解析兼容记录 | 3515 | [playback.csv](playback.csv) |
+| 播放或解析兼容记录 | 3508 | [playback.csv](playback.csv) |
 
-已修正的 setting 中，有 46 份还包含其他待核对项。因此各类数量不能相加当作独立曲谱总数。所有 CSV 均包含原网站链接和当前完整 ABC；fixed.csv 另有修改前 ABC。
+已修正的 setting 中，有 56 份还包含其他待核对项。因此各类数量不能相加当作独立曲谱总数。所有 CSV 均包含原网站链接和当前完整 ABC；fixed.csv 另有修改前 ABC。
 
 ## 已修正的类型
 
@@ -20,7 +20,7 @@
 |---|---:|
 | 小节线错位 | 7 |
 | 漏写小节线 | 230 |
-| 音长数字或斜线手误 | 94 |
+| 音长数字或斜线手误 | 128 |
 | 误入的控制字符 | 19 |
 
 ## 自动检查做了什么
@@ -32,7 +32,7 @@
 - 用关闭自动修复的独立 ABC 播放解析器对比每个事件。意外的音高、休止、连音或时值变化会阻止写入。
 - 反复扫描直至没有新的可验证改动；最后核对全部三种导出格式及数据库完整性。
 
-独立播放检查保留了 3 个未通过的候选，见 [拒绝原因](../checks/rejected.json)。例如移动小节线可能重置临时升降号，因此时值凑齐本身不构成修改依据。
+独立播放检查保留了 4 个未通过的候选，见 [拒绝原因](../checks/rejected.json)。例如移动小节线可能重置临时升降号，因此时值凑齐本身不构成修改依据。
 
 首尾连续播放相关的调整继续只作为 App 行为，不计入源谱修正。内部短小节也可能来自有意的曲式或混合拍号，缺少证据时保留。暂不支持并不表示原谱错误。
 
@@ -59,11 +59,11 @@
 | A Builder Of Bridges | [39057](https://thesession.org/tunes/8602#setting39057) | 内部小节时值超出 |
 | A Chomaraigh Aoibhinn O | [48054](https://thesession.org/tunes/15714#setting48054) | 内部小节时值超出 |
 | A Day At The Carnival | [41510](https://thesession.org/tunes/20882#setting41510) | 内部小节时值不足 |
-| A Dhia Na Nollaig | [26964](https://thesession.org/tunes/14630#setting26964) | 内部短小节候选; 内部小节时值不足 |
 | A Dram At The Wake | [23732](https://thesession.org/tunes/9105#setting23732) | 内部小节时值超出 |
 | A Farruquiña | [43829](https://thesession.org/tunes/21838#setting43829) | 内部小节时值超出 |
 | A Farruquiña | [43827](https://thesession.org/tunes/21838#setting43827) | 内部小节时值超出 |
 | A Happy Day In June | [43454](https://thesession.org/tunes/21532#setting43454) | 拍号或曲式需要核对 |
 | A Jig For Kim | [30014](https://thesession.org/tunes/15947#setting30014) | 内部小节时值不足 |
+| A L'envers | [26313](https://thesession.org/tunes/14361#setting26313) | 内部小节时值不足 |
 
 完整列表见上方 CSV。修正的完整补丁见 [changes](../changes/)，数据及播放检查结果见 [checks](../checks/)。

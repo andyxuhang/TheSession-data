@@ -2,20 +2,21 @@
   "passes": [
     {
       "settings": 55838,
-      "settings_with_proposals": 21,
-      "note_length": 22,
+      "settings_with_proposals": 35,
+      "note_length": 36,
       "pass": 1,
-      "individual_rejections": 0,
-      "accepted": 21,
+      "individual_rejections": 2,
+      "accepted": 34,
       "rejected": 0
     },
     {
       "settings": 55838,
-      "settings_with_proposals": 0,
-      "note_length": 0,
+      "settings_with_proposals": 1,
+      "note_length": 2,
       "pass": 2,
+      "individual_rejections": 2,
       "accepted": 0
     }
   ],
-  "rejected_settings": 3
+  "rejected_settings": 4
 }

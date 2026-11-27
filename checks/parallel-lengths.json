@@ -1,0 +1,448 @@
+[
+  {
+    "tune_id": "875",
+    "setting_id": "33989",
+    "source_url": "https://thesession.org/tunes/875#setting33989",
+    "target_bar": 10,
+    "reference_bars": [
+      29
+    ],
+    "before": "\r\ng2 g ed",
+    "after": "\r\ng3 g ed",
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "1758",
+    "setting_id": "33033",
+    "source_url": "https://thesession.org/tunes/1758#setting33033",
+    "target_bar": 13,
+    "reference_bars": [
+      30
+    ],
+    "before": "D6BA",
+    "after": "D4BA",
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": -2.0
+  },
+  {
+    "tune_id": "1758",
+    "setting_id": "47757",
+    "source_url": "https://thesession.org/tunes/1758#setting47757",
+    "target_bar": 13,
+    "reference_bars": [
+      30
+    ],
+    "before": "G6ed",
+    "after": "G4ed",
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": -2.0
+  },
+  {
+    "tune_id": "1815",
+    "setting_id": "25119",
+    "source_url": "https://thesession.org/tunes/1815#setting25119",
+    "target_bar": 19,
+    "reference_bars": [
+      8
+    ],
+    "before": "DF/A/ c{cdc}B/A/",
+    "after": "DF/A/ c3{cdc}B/A/",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "4705",
+    "setting_id": "50695",
+    "source_url": "https://thesession.org/tunes/4705#setting50695",
+    "target_bar": 7,
+    "reference_bars": [
+      3
+    ],
+    "before": "AGA c e/f/",
+    "after": "AGA c2 e/f/",
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "4705",
+    "setting_id": "50696",
+    "source_url": "https://thesession.org/tunes/4705#setting50696",
+    "target_bar": 7,
+    "reference_bars": [
+      3
+    ],
+    "before": "BAB d f/g/",
+    "after": "BAB d2 f/g/",
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "4705",
+    "setting_id": "51131",
+    "source_url": "https://thesession.org/tunes/4705#setting51131",
+    "target_bar": 7,
+    "reference_bars": [
+      3
+    ],
+    "before": "EDE G B/c/",
+    "after": "EDE G2 B/c/",
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "6833",
+    "setting_id": "49349",
+    "source_url": "https://thesession.org/tunes/6833#setting49349",
+    "target_bar": 5,
+    "reference_bars": [
+      1
+    ],
+    "before": "\r\nA AA B>A G<A",
+    "after": "\r\nA2 AA B>A G<A",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.5
+  },
+  {
+    "tune_id": "6944",
+    "setting_id": "44224",
+    "source_url": "https://thesession.org/tunes/6944#setting44224",
+    "target_bar": 30,
+    "reference_bars": [
+      14
+    ],
+    "before": "B2 AG",
+    "after": "B4 AG",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "8046",
+    "setting_id": "19273",
+    "source_url": "https://thesession.org/tunes/8046#setting19273",
+    "target_bar": 28,
+    "reference_bars": [
+      4
+    ],
+    "before": "B3 A B",
+    "after": "B3 A B2",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.5
+  },
+  {
+    "tune_id": "8586",
+    "setting_id": "8586",
+    "source_url": "https://thesession.org/tunes/8586#setting8586",
+    "target_bar": 50,
+    "reference_bars": [
+      13
+    ],
+    "before": "B3cd",
+    "after": "B3cd2",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.5
+  },
+  {
+    "tune_id": "9456",
+    "setting_id": "20016",
+    "source_url": "https://thesession.org/tunes/9456#setting20016",
+    "target_bar": 16,
+    "reference_bars": [
+      8
+    ],
+    "before": "dBG Az",
+    "after": "dBG A2z",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.5
+  },
+  {
+    "tune_id": "11114",
+    "setting_id": "52239",
+    "source_url": "https://thesession.org/tunes/11114#setting52239",
+    "target_bar": 10,
+    "reference_bars": [
+      14
+    ],
+    "before": "bB (3B/B/B/B/ f2 f/g/a",
+    "after": "bB (3B/B/B/B f2 f/g/a",
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 0.5
+  },
+  {
+    "tune_id": "13730",
+    "setting_id": "24436",
+    "source_url": "https://thesession.org/tunes/13730#setting24436",
+    "target_bar": 25,
+    "reference_bars": [
+      9
+    ],
+    "before": "B4(A/4B/4c)",
+    "after": "B4(A/4B/4c3/2)",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.25
+  },
+  {
+    "tune_id": "13730",
+    "setting_id": "27247",
+    "source_url": "https://thesession.org/tunes/13730#setting27247",
+    "target_bar": 25,
+    "reference_bars": [
+      9
+    ],
+    "before": "A4(G/4A/4B)",
+    "after": "A4(G/4A/4B3/2)",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.25
+  },
+  {
+    "tune_id": "13859",
+    "setting_id": "24885",
+    "source_url": "https://thesession.org/tunes/13859#setting24885",
+    "target_bar": 5,
+    "reference_bars": [
+      20
+    ],
+    "before": "GF/D/ D2 DE",
+    "after": "GF/D/ D2 D3E",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "14630",
+    "setting_id": "26964",
+    "source_url": "https://thesession.org/tunes/14630#setting26964",
+    "target_bar": 4,
+    "reference_bars": [
+      21
+    ],
+    "before": "e3/2 d BA",
+    "after": "e3 d BA",
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 1.5
+  },
+  {
+    "tune_id": "15605",
+    "setting_id": "29269",
+    "source_url": "https://thesession.org/tunes/15605#setting29269",
+    "target_bar": 29,
+    "reference_bars": [
+      12
+    ],
+    "before": "e4 dd ef",
+    "after": "e2 dd ef",
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": -2.0
+  },
+  {
+    "tune_id": "15605",
+    "setting_id": "30488",
+    "source_url": "https://thesession.org/tunes/15605#setting30488",
+    "target_bar": 29,
+    "reference_bars": [
+      12
+    ],
+    "before": "A4 GG AB",
+    "after": "A2 GG AB",
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": -2.0
+  },
+  {
+    "tune_id": "15618",
+    "setting_id": "29298",
+    "source_url": "https://thesession.org/tunes/15618#setting29298",
+    "target_bar": 15,
+    "reference_bars": [
+      25
+    ],
+    "before": "a>(f/ f/)e/c/A/",
+    "after": "a>(f f/)e/c/A/",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.125
+  },
+  {
+    "tune_id": "16145",
+    "setting_id": "35146",
+    "source_url": "https://thesession.org/tunes/16145#setting35146",
+    "target_bar": 37,
+    "reference_bars": [
+      53
+    ],
+    "before": "d'2 b3 g2",
+    "after": "d'2 b3 g",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": -0.5
+  },
+  {
+    "tune_id": "18316",
+    "setting_id": "35795",
+    "source_url": "https://thesession.org/tunes/18316#setting35795",
+    "target_bar": 8,
+    "reference_bars": [
+      15
+    ],
+    "before": "(=cA3B",
+    "after": "(=c2A3B",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.5
+  },
+  {
+    "tune_id": "18316",
+    "setting_id": "35796",
+    "source_url": "https://thesession.org/tunes/18316#setting35796",
+    "target_bar": 8,
+    "reference_bars": [
+      16
+    ],
+    "before": "c A3 B",
+    "after": "c2 A3 B",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.5
+  },
+  {
+    "tune_id": "18372",
+    "setting_id": "35914",
+    "source_url": "https://thesession.org/tunes/18372#setting35914",
+    "target_bar": 15,
+    "reference_bars": [
+      6,
+      11
+    ],
+    "before": "B2 AG",
+    "after": "B4 AG",
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 2.0
+  },
+  {
+    "tune_id": "19711",
+    "setting_id": "38928",
+    "source_url": "https://thesession.org/tunes/19711#setting38928",
+    "target_bar": 4,
+    "reference_bars": [
+      10
+    ],
+    "before": "B2ze2 d>c BA",
+    "after": "B2ze d>c BA",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": -0.5
+  },
+  {
+    "tune_id": "21422",
+    "setting_id": "42768",
+    "source_url": "https://thesession.org/tunes/21422#setting42768",
+    "target_bar": 21,
+    "reference_bars": [
+      13
+    ],
+    "before": "B>A G c2",
+    "after": "B>A G2 c2",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.5
+  },
+  {
+    "tune_id": "21631",
+    "setting_id": "49027",
+    "source_url": "https://thesession.org/tunes/21631#setting49027",
+    "target_bar": 11,
+    "reference_bars": [
+      3
+    ],
+    "before": "d4 B3/A",
+    "after": "d4 B3/A/",
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": -0.5
+  },
+  {
+    "tune_id": "21843",
+    "setting_id": "43839",
+    "source_url": "https://thesession.org/tunes/21843#setting43839",
+    "target_bar": 32,
+    "reference_bars": [
+      7,
+      15,
+      49
+    ],
+    "before": "\"Dm\" d3 cA",
+    "after": "\"Dm\" d3 cA2",
+    "changed_played_durations": 2,
+    "total_quarter_note_delta": 1.0
+  },
+  {
+    "tune_id": "22120",
+    "setting_id": "56079",
+    "source_url": "https://thesession.org/tunes/22120#setting56079",
+    "target_bar": 45,
+    "reference_bars": [
+      61
+    ],
+    "before": "a5 ef",
+    "after": "a4 ef",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": -0.5
+  },
+  {
+    "tune_id": "22356",
+    "setting_id": "45077",
+    "source_url": "https://thesession.org/tunes/22356#setting45077",
+    "target_bar": 29,
+    "reference_bars": [
+      22
+    ],
+    "before": "AFEF DB, B,",
+    "after": "AFEF DB, B,2",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.5
+  },
+  {
+    "tune_id": "24123",
+    "setting_id": "49862",
+    "source_url": "https://thesession.org/tunes/24123#setting49862",
+    "target_bar": 7,
+    "reference_bars": [
+      15
+    ],
+    "before": " Bd -d2 B ",
+    "after": " Bd -d2 B2 ",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.5
+  },
+  {
+    "tune_id": "25196",
+    "setting_id": "52965",
+    "source_url": "https://thesession.org/tunes/25196#setting52965",
+    "target_bar": 3,
+    "reference_bars": [
+      7,
+      23
+    ],
+    "before": " B2 (Gd) A2 A ",
+    "after": " B2 (Gd) A3 A ",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.5
+  },
+  {
+    "tune_id": "25233",
+    "setting_id": "53043",
+    "source_url": "https://thesession.org/tunes/25233#setting53043",
+    "target_bar": 13,
+    "reference_bars": [
+      29
+    ],
+    "before": "\r\n D G>A ",
+    "after": "\r\n D2 G>A ",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.5
+  },
+  {
+    "tune_id": "26766",
+    "setting_id": "57927",
+    "source_url": "https://thesession.org/tunes/26766#setting57927",
+    "target_bar": 13,
+    "reference_bars": [
+      5
+    ],
+    "before": "A2G2z(GA)",
+    "after": "A2G3z(GA)",
+    "changed_played_durations": 1,
+    "total_quarter_note_delta": 0.5
+  }
+]

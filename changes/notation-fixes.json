@@ -3854,6 +3854,41 @@
       ]
     },
     {
+      "tune_id": "875",
+      "setting_id": "33989",
+      "name": "If Ever You Were Mine",
+      "original_contributor": "DomW",
+      "source_url": "https://thesession.org/tunes/875#setting33989",
+      "category": "note_length",
+      "before_abc": "|:(DE)|G4 e2|~d3 B ~B/A/G|AB G2 G2|{A}G3 D DE|\r\nG4 ~e2|d3 d Bd|~d6|d2 e2 ~f2|\r\ng2 g ed|g3 g ed|e2 {e}d3 B|AB G2 G/F/E|\r\nD4 e2|d3 B B/A/G|DEG2GA|G6|1 {A}G3 D:|2 {A}G3 D||\r\ndc|B3 d B/A/G|B/c/d- dd Bd|c2 d2 e2|d3 ABc|\r\nB3 d B/A/G|B/c/d- dd Bd|c2 d2 e2|de fd ef|\r\ng3 g ed|g3 g ed|~e2 d3 B|AB G2 G/F/E|\r\nD4 e2|d3 B B/A/G|DEG2GA|G4 GA|1 G3 D:|2 {A}G4||",
+      "after_abc": "|:(DE)|G4 e2|~d3 B ~B/A/G|AB G2 G2|{A}G3 D DE|\r\nG4 ~e2|d3 d Bd|~d6|d2 e2 ~f2|\r\ng3 g ed|g3 g ed|e2 {e}d3 B|AB G2 G/F/E|\r\nD4 e2|d3 B B/A/G|DEG2GA|G6|1 {A}G3 D:|2 {A}G3 D||\r\ndc|B3 d B/A/G|B/c/d- dd Bd|c2 d2 e2|d3 ABc|\r\nB3 d B/A/G|B/c/d- dd Bd|c2 d2 e2|de fd ef|\r\ng3 g ed|g3 g ed|~e2 d3 B|AB G2 G/F/E|\r\nD4 e2|d3 B B/A/G|DEG2GA|G4 GA|1 G3 D:|2 {A}G4||",
+      "before_sha256": "ed65efa3e607b3a2943501c929c1f360e998ac33b02e47193e92d7b83fd54f30",
+      "after_sha256": "c8f903d43250abf794435ed63e99f591d9377758d10a9446dbc696fde7f57b66",
+      "edits": [
+        {
+          "start": 80,
+          "end": 81,
+          "text": "3"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 10,
+          "before": "\r\ng2 g ed",
+          "after": "\r\ng3 g ed",
+          "witnesses": [
+            [
+              "33989",
+              28
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "877",
       "setting_id": "27187",
       "name": "Priest In His Boots, The",
@@ -5768,6 +5803,76 @@
     },
     {
       "tune_id": "1758",
+      "setting_id": "33033",
+      "name": "Pretty Girl Milking Her Cow, The",
+      "original_contributor": "Pierre LAÏLY",
+      "source_url": "https://thesession.org/tunes/1758#setting33033",
+      "category": "note_length",
+      "before_abc": "|:EF|G2B3G|F2A3F|E3F ED-|D4EF|G2B3G|F2A3F|E6-|E4EF|\r\nG2B3G|F2A3F|E3F ED-|D6BA|G3FE2|D3EF2|E6-|E4:|\r\n|:D2|G3AB2|d3BG2|F2D4-|D4D2|G3AB2|d2B2d2|e6-|e4ef|\r\ng3fe2|d3BG2|F2D4-|D4BA|G3FE2|D3EF2|E6-|E4:|",
+      "after_abc": "|:EF|G2B3G|F2A3F|E3F ED-|D4EF|G2B3G|F2A3F|E6-|E4EF|\r\nG2B3G|F2A3F|E3F ED-|D4BA|G3FE2|D3EF2|E6-|E4:|\r\n|:D2|G3AB2|d3BG2|F2D4-|D4D2|G3AB2|d2B2d2|e6-|e4ef|\r\ng3fe2|d3BG2|F2D4-|D4BA|G3FE2|D3EF2|E6-|E4:|",
+      "before_sha256": "b9f88d118058dd983ce1669df962f85a21ed733a312af7584555cfc494598bed",
+      "after_sha256": "00a84abd2be5d45840a99457caeb638ab1119a368eb48223127e6b329cb8bb4f",
+      "edits": [
+        {
+          "start": 74,
+          "end": 75,
+          "text": "4"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 13,
+          "before": "D6BA",
+          "after": "D4BA",
+          "witnesses": [
+            [
+              "33033",
+              29
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "1758",
+      "setting_id": "47757",
+      "name": "Pretty Girl Milking Her Cow, The",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/1758#setting47757",
+      "category": "note_length",
+      "before_abc": "AB|:c2e3c|B2d3B|A3G G2-|G4AB|c2e3c|B2d3B|A6-|A4AB|\r\nc2e3c|B2g3B|A3G G2-|G6ed|c3BA2|E3AB2|A6-|A4:|\r\n|:G2|c3de2|g3ec2|B2G4-|G4G2|c3de2|g2e2g2|a6-|a4ab|\r\nc'3ba2|g3ec2|B2G4-|G4ed|c3BA2|E3AB2|A6-|A4:|",
+      "after_abc": "AB|:c2e3c|B2d3B|A3G G2-|G4AB|c2e3c|B2d3B|A6-|A4AB|\r\nc2e3c|B2g3B|A3G G2-|G4ed|c3BA2|E3AB2|A6-|A4:|\r\n|:G2|c3de2|g3ec2|B2G4-|G4G2|c3de2|g2e2g2|a6-|a4ab|\r\nc'3ba2|g3ec2|B2G4-|G4ed|c3BA2|E3AB2|A6-|A4:|",
+      "before_sha256": "6f3b4b758f5b37240c69aca3d67618d1458e98876612b49f04ab4b9a0185e0b9",
+      "after_sha256": "387379550abfb19f11f57fa8f38b3d6d0954168eb8c9fee5f4ad23c872787a45",
+      "edits": [
+        {
+          "start": 73,
+          "end": 74,
+          "text": "4"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 13,
+          "before": "G6ed",
+          "after": "G4ed",
+          "witnesses": [
+            [
+              "47757",
+              29
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "1758",
       "setting_id": "53401",
       "name": "Pretty Girl Milking Her Cow, The",
       "original_contributor": "DUHEM VERONIQUE",
@@ -5917,6 +6022,41 @@
             ]
           ],
           "method": "matching rhythm and neighboring phrase in another setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "1815",
+      "setting_id": "25119",
+      "name": "Coolin, The",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/1815#setting25119",
+      "category": "note_length",
+      "before_abc": "AB/c/|(d2 d2) e>c|d>A F2 DF/A/|d>c de/f/ ed|d2 c2 dc/A/|\r\nB3 c/d/ e(3d/c/B/|A2 F>A d>D|DF/A/ c3{cdc}B/A/|AG/E/ F2 DE/F/|\r\nE2 D2 D2|D4 D2|AG/E/ F3E|D>E F>G|AG AB cA|d>c de/f/ e>d|\r\nd2 c2 d>c/A/|B3 c/d/ e(3d/c/B/|A2 F>A d>D|DF/A/ c{cdc}B/A/|\r\nAG/E/ F2 DE/F/|E2 D2 D2|D4 D4|D4 z2||",
+      "after_abc": "AB/c/|(d2 d2) e>c|d>A F2 DF/A/|d>c de/f/ ed|d2 c2 dc/A/|\r\nB3 c/d/ e(3d/c/B/|A2 F>A d>D|DF/A/ c3{cdc}B/A/|AG/E/ F2 DE/F/|\r\nE2 D2 D2|D4 D2|AG/E/ F3E|D>E F>G|AG AB cA|d>c de/f/ e>d|\r\nd2 c2 d>c/A/|B3 c/d/ e(3d/c/B/|A2 F>A d>D|DF/A/ c3{cdc}B/A/|\r\nAG/E/ F2 DE/F/|E2 D2 D2|D4 D4|D4 z2||",
+      "before_sha256": "0da3b40df057b73d284dfcc1f1009228638548b4b73e0e98b1c5ce25acadcd05",
+      "after_sha256": "d2d637b02c038b562669e8026a2db0e02689002d99111b68c8a7cc32b2bf7672",
+      "edits": [
+        {
+          "start": 229,
+          "end": 229,
+          "text": "3"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 19,
+          "before": "DF/A/ c{cdc}B/A/",
+          "after": "DF/A/ c3{cdc}B/A/",
+          "witnesses": [
+            [
+              "25119",
+              7
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
           "scan_pass": 1
         }
       ]
@@ -7328,6 +7468,111 @@
       ]
     },
     {
+      "tune_id": "4705",
+      "setting_id": "50695",
+      "name": "Planxty Sweeney",
+      "original_contributor": "UPipes & harp",
+      "source_url": "https://thesession.org/tunes/4705#setting50695",
+      "category": "note_length",
+      "before_abc": "e/d/c/|:AGA c2 G|AGA c2 e/f/|gfe dcd|e/d/dd de/d/c|\r\nAGA c2 G|AGA c e/f/|gfe dcd|e/c/cc c2 c:|\r\n|:cde f2 f|e/f/gf edc|ddd def|gfd d2 e//d//c/|\r\nAGA c2 G|AGA c c'/a/|gfe dcd|e/c/cc c2 c:|",
+      "after_abc": "e/d/c/|:AGA c2 G|AGA c2 e/f/|gfe dcd|e/d/dd de/d/c|\r\nAGA c2 G|AGA c2 e/f/|gfe dcd|e/c/cc c2 c:|\r\n|:cde f2 f|e/f/gf edc|ddd def|gfd d2 e//d//c/|\r\nAGA c2 G|AGA c c'/a/|gfe dcd|e/c/cc c2 c:|",
+      "before_sha256": "db7cd70eeb3651320501ff1c816b72699be0b02179425fa31efa7270ed0d1515",
+      "after_sha256": "a19850cd4c56410af7ceb28709c4bcb8a0dcde9eeb517d1f6ce458bbb296fd32",
+      "edits": [
+        {
+          "start": 67,
+          "end": 67,
+          "text": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 7,
+          "before": "AGA c e/f/",
+          "after": "AGA c2 e/f/",
+          "witnesses": [
+            [
+              "50695",
+              2
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "4705",
+      "setting_id": "50696",
+      "name": "Planxty Sweeney",
+      "original_contributor": "UPipes & harp",
+      "source_url": "https://thesession.org/tunes/4705#setting50696",
+      "category": "note_length",
+      "before_abc": "f/e/d/|:BAB d2 A|BAB d2 f/g/|agf ede|f/e/ee ef/e/d|\r\nBAB d2 A|BAB d f/g/|agf ede|f/d/dd d2 d:|\r\n|:def g2 g|f/g/ag fed|eee efg|age e2 f//e//d/|\r\nBAB d2 A|BAB d d'/b/|agf ede|f/d/dd d2 d:|",
+      "after_abc": "f/e/d/|:BAB d2 A|BAB d2 f/g/|agf ede|f/e/ee ef/e/d|\r\nBAB d2 A|BAB d2 f/g/|agf ede|f/d/dd d2 d:|\r\n|:def g2 g|f/g/ag fed|eee efg|age e2 f//e//d/|\r\nBAB d2 A|BAB d d'/b/|agf ede|f/d/dd d2 d:|",
+      "before_sha256": "8705590d80fcdd1584f1b95da9c705982f88d8bfbe3d0353be62800b1f5df022",
+      "after_sha256": "060d0db3795208fd49b4346f606bd091bc00e22f9eb7473767ee4a5dade543cd",
+      "edits": [
+        {
+          "start": 67,
+          "end": 67,
+          "text": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 7,
+          "before": "BAB d f/g/",
+          "after": "BAB d2 f/g/",
+          "witnesses": [
+            [
+              "50696",
+              2
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "4705",
+      "setting_id": "51131",
+      "name": "Planxty Sweeney",
+      "original_contributor": "UPipes & harp",
+      "source_url": "https://thesession.org/tunes/4705#setting51131",
+      "category": "note_length",
+      "before_abc": "B/A/G/|:EDE G2 D|EDE G2 B/c/|dcB AGA|BAA AB/A/G|\r\nEDE G2 D|EDE G B/c/|dcB AGA|BGG G2 G:|\r\n|:GAB c2 c|B/c/dc BAG|AAA ABc|dcA A2 B//A//G/|\r\nEDE G2 D|EDE G g/e/|dcB AGA|BGG G2 G:|",
+      "after_abc": "B/A/G/|:EDE G2 D|EDE G2 B/c/|dcB AGA|BAA AB/A/G|\r\nEDE G2 D|EDE G2 B/c/|dcB AGA|BGG G2 G:|\r\n|:GAB c2 c|B/c/dc BAG|AAA ABc|dcA A2 B//A//G/|\r\nEDE G2 D|EDE G g/e/|dcB AGA|BGG G2 G:|",
+      "before_sha256": "176afaff14944b2f87a86636571b6cd4a53c7944efaab9f87dc486b8ac7b608f",
+      "after_sha256": "a761a0797f472207928df38c07b08299e077fd82cd949ff00c8b0586d4d6161f",
+      "edits": [
+        {
+          "start": 64,
+          "end": 64,
+          "text": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 7,
+          "before": "EDE G B/c/",
+          "after": "EDE G2 B/c/",
+          "witnesses": [
+            [
+              "51131",
+              2
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "4774",
       "setting_id": "21470",
       "name": "Croppies' March, The",
@@ -8254,6 +8499,41 @@
       ]
     },
     {
+      "tune_id": "6833",
+      "setting_id": "49349",
+      "name": "Fingal's Cave",
+      "original_contributor": "FiddlerChameleon",
+      "source_url": "https://thesession.org/tunes/6833#setting49349",
+      "category": "note_length",
+      "before_abc": "A2 AA B>A G<A|B2 A2 A2 e<d|B2 A<G e2 d<B|d<e G2 G2 E<G|\r\nA AA B>A G<A|B2 A2 A2 e<d|B2 A<G e2 d<B|e2 A2 A2 B<d|\r\n|:e2 d<e g2 e<g|a2 e<a g4|e2 d<e g2 f<g|\r\n[1 e>d B>A G>A B<d|e2 d<e g2 e<g|a2 e<a g4|g>e f>d g>e d>B|B<e A2 A2 B<d:|\r\n[2 e>d B<A G>A B<G|c2 B<c d2 c<d|e2 d<e a4|g>e f<d g>e d<B|B<e A2 A2 E<G||",
+      "after_abc": "A2 AA B>A G<A|B2 A2 A2 e<d|B2 A<G e2 d<B|d<e G2 G2 E<G|\r\nA2 AA B>A G<A|B2 A2 A2 e<d|B2 A<G e2 d<B|e2 A2 A2 B<d|\r\n|:e2 d<e g2 e<g|a2 e<a g4|e2 d<e g2 f<g|\r\n[1 e>d B>A G>A B<d|e2 d<e g2 e<g|a2 e<a g4|g>e f>d g>e d>B|B<e A2 A2 B<d:|\r\n[2 e>d B<A G>A B<G|c2 B<c d2 c<d|e2 d<e a4|g>e f<d g>e d<B|B<e A2 A2 E<G||",
+      "before_sha256": "f8111fe3d259a63dcfd7cb0ced8edf17b4f06367d72a25a13362f8db566e4502",
+      "after_sha256": "97e6996e2110c55713f146a4b022986d86ace208735591ce37bbf4795382e0fe",
+      "edits": [
+        {
+          "start": 58,
+          "end": 58,
+          "text": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 5,
+          "before": "\r\nA AA B>A G<A",
+          "after": "\r\nA2 AA B>A G<A",
+          "witnesses": [
+            [
+              "49349",
+              0
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "6887",
       "setting_id": "18462",
       "name": "Lochiel's Awa' Tae France",
@@ -8287,6 +8567,41 @@
           ],
           "before": "eAA/AA e2dc",
           "after": "eAA/A/A e2dc",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "6944",
+      "setting_id": "44224",
+      "name": "Táimse Im' Chodladh",
+      "original_contributor": "Iain_0C",
+      "source_url": "https://thesession.org/tunes/6944#setting44224",
+      "category": "note_length",
+      "before_abc": "(AF)|G3 A Bc|d4 fe|d4 cA|GF D4|\r\nB4 AG|Ad d2 cA|G4 G2|G4 AF|\r\nG3 A Bc|d4 fe|d4 cA|G>F D4|\r\nB4 AG|Ad d2 cA|G4 G2|G4 AB|\r\nc2 A2 d2|f2 d2 (3def|g4 g2|\r\ng>f d2 d2|f2 g2 a2|g4 f>e|d4 cA|\r\nG>A G2 de|f2 g2 a2|g4 fe|d4 cA|\r\nG>F D4|B2 AG|Ad d2 (d/c/A/F/)|G4 G2|G4|",
+      "after_abc": "(AF)|G3 A Bc|d4 fe|d4 cA|GF D4|\r\nB4 AG|Ad d2 cA|G4 G2|G4 AF|\r\nG3 A Bc|d4 fe|d4 cA|G>F D4|\r\nB4 AG|Ad d2 cA|G4 G2|G4 AB|\r\nc2 A2 d2|f2 d2 (3def|g4 g2|\r\ng>f d2 d2|f2 g2 a2|g4 f>e|d4 cA|\r\nG>A G2 de|f2 g2 a2|g4 fe|d4 cA|\r\nG>F D4|B4 AG|Ad d2 (d/c/A/F/)|G4 G2|G4|",
+      "before_sha256": "1fdde2f15c9dcbef2b96e28f41239c944452e539c6c9c5172140dc53319d8d06",
+      "after_sha256": "a733abffef7c140cea8c91a4d8a882815c40d4d79ae0f3468f31d5abb5dc5763",
+      "edits": [
+        {
+          "start": 224,
+          "end": 225,
+          "text": "4"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 30,
+          "before": "B2 AG",
+          "after": "B4 AG",
+          "witnesses": [
+            [
+              "44224",
+              13
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
           "scan_pass": 1
         }
       ]
@@ -8497,6 +8812,41 @@
       ]
     },
     {
+      "tune_id": "8046",
+      "setting_id": "19273",
+      "name": "Galway Bay",
+      "original_contributor": "ceolachan",
+      "source_url": "https://thesession.org/tunes/8046#setting19273",
+      "category": "note_length",
+      "before_abc": "A2|D4 F2|A4 d2|B3 A B2|A2 F2 E2|F3 E F2|D4 D2|D6-|D4 F2|\r\nA4 A2|e4 c2|d4 F2|G4 B2|B4 d2|d2 c2 B2|A6-|A6|\r\nA4 A2|e4 c2|d4 F2|G4 B2|B4 d2|d2 c2 B2|A6-|A4 A2|\r\nD4 F2|A4 d2|B3 A B|A2 F2 E2|F3 E F2|D4 D2|D6-|D4||",
+      "after_abc": "A2|D4 F2|A4 d2|B3 A B2|A2 F2 E2|F3 E F2|D4 D2|D6-|D4 F2|\r\nA4 A2|e4 c2|d4 F2|G4 B2|B4 d2|d2 c2 B2|A6-|A6|\r\nA4 A2|e4 c2|d4 F2|G4 B2|B4 d2|d2 c2 B2|A6-|A4 A2|\r\nD4 F2|A4 d2|B3 A B2|A2 F2 E2|F3 E F2|D4 D2|D6-|D4||",
+      "before_sha256": "ce5acdf853746ccde1eed788715b1c94204054e0df7d654cc72a3e140a16d68d",
+      "after_sha256": "90196d16a2bc78c81062a258295dd5b26428c35410d48ed056ecc9c4ff4c323b",
+      "edits": [
+        {
+          "start": 175,
+          "end": 175,
+          "text": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 28,
+          "before": "B3 A B",
+          "after": "B3 A B2",
+          "witnesses": [
+            [
+              "19273",
+              3
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "8295",
       "setting_id": "19445",
       "name": "Kitten Feels Better, The",
@@ -8689,6 +9039,41 @@
           ],
           "before": "dg2 bgag",
           "after": "dg3 bgag",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "8586",
+      "setting_id": "8586",
+      "name": "Star Of Brittany, The",
+      "original_contributor": "geoffwright",
+      "source_url": "https://thesession.org/tunes/8586#setting8586",
+      "category": "note_length",
+      "before_abc": "|:f4f2|e4d2|c2B2A2|B6|f2e2f2|g2f2g2|a4g2|f6|\r\nb3c' b2|a3gf2|e3fd2|c2d2c2|B3cd2|c2d2c2|B4 (3cBA|1 B6:|2 Bc de fa||\r\n;(b6|b2)c'3b|a4f2|de fg af|(g6|g2) a3g|f4B2|Bc de fg|\r\ne4e2|e2f2e2|d2e2(f2|f2)e2d2|e4e2|ef3 d2|c6|cd ef ga|\r\n(b6|b2)c'3b|a4f2|de fg af|(g6|g2) a3g|f4B2|Bc de fg|\r\ne4e2|e2f2e2|d2e2(f2|f2)e2d2|e4e2|ef3 d2|(c6|\r\nc2)d2c2|B3cd|c2d2c2|1 B4A2|B6||\"Last\"BF Bc df|\"Fin\"b6||\r\n|:fB eB dB|cB dB eB|fB eB dB|cB dB eB|\r\nbB aB gB|eB fB gA|f2e2d2|c6:|",
+      "after_abc": "|:f4f2|e4d2|c2B2A2|B6|f2e2f2|g2f2g2|a4g2|f6|\r\nb3c' b2|a3gf2|e3fd2|c2d2c2|B3cd2|c2d2c2|B4 (3cBA|1 B6:|2 Bc de fa||\r\n;(b6|b2)c'3b|a4f2|de fg af|(g6|g2) a3g|f4B2|Bc de fg|\r\ne4e2|e2f2e2|d2e2(f2|f2)e2d2|e4e2|ef3 d2|c6|cd ef ga|\r\n(b6|b2)c'3b|a4f2|de fg af|(g6|g2) a3g|f4B2|Bc de fg|\r\ne4e2|e2f2e2|d2e2(f2|f2)e2d2|e4e2|ef3 d2|(c6|\r\nc2)d2c2|B3cd2|c2d2c2|1 B4A2|B6||\"Last\"BF Bc df|\"Fin\"b6||\r\n|:fB eB dB|cB dB eB|fB eB dB|cB dB eB|\r\nbB aB gB|eB fB gA|f2e2d2|c6:|",
+      "before_sha256": "f83147ced5e3ee8ebb3274ef3ad7a4405bc3177a0e741534ec46ad405ab98eea",
+      "after_sha256": "376879b3ed128e1f3eb6b1eeb3a994511981be66249e0fad99e8b0b95f716537",
+      "edits": [
+        {
+          "start": 336,
+          "end": 336,
+          "text": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 50,
+          "before": "B3cd",
+          "after": "B3cd2",
+          "witnesses": [
+            [
+              "8586",
+              12
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
           "scan_pass": 1
         }
       ]
@@ -9055,6 +9440,41 @@
           ],
           "before": "gfe a2",
           "after": "gfe a3",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "9456",
+      "setting_id": "20016",
+      "name": "Burning Snowball, The",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/9456#setting20016",
+      "category": "note_length",
+      "before_abc": "|:ABd e2g|ged B2A|G3 d2e|edB edB|\r\nABd e2g|ged B2A|GBd g2e|dBG A2 z:|\r\n|:g2e a2g|ged B2A|G3 d2e|edB edB|\r\ngee aee|ged B2A|GBd g2e|dBG Az|\r\ng2e a2g|ged B2A|G3 d2e|edB edB|\r\ngee aee|ged B2A|Gz3 z2g|age dBG||",
+      "after_abc": "|:ABd e2g|ged B2A|G3 d2e|edB edB|\r\nABd e2g|ged B2A|GBd g2e|dBG A2 z:|\r\n|:g2e a2g|ged B2A|G3 d2e|edB edB|\r\ngee aee|ged B2A|GBd g2e|dBG A2z|\r\ng2e a2g|ged B2A|G3 d2e|edB edB|\r\ngee aee|ged B2A|Gz3 z2g|age dBG||",
+      "before_sha256": "2dcdf40b03d26c178e463023e2afaea46b678f5a9f0e703e63124206459f2f18",
+      "after_sha256": "ac2d5076b5097b502ecc9b5972d871c551b541c87c52c085d8a35d9fdbf4ef90",
+      "edits": [
+        {
+          "start": 135,
+          "end": 135,
+          "text": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 16,
+          "before": "dBG Az",
+          "after": "dBG A2z",
+          "witnesses": [
+            [
+              "20016",
+              7
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
           "scan_pass": 1
         }
       ]
@@ -9792,6 +10212,41 @@
           ],
           "before": "BAG BAG\r\nFED A,DD",
           "after": "BAG BAG|\r\nFED A,DD",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "11114",
+      "setting_id": "52239",
+      "name": "Tom Doherty's",
+      "original_contributor": "Erik-Fiddler",
+      "source_url": "https://thesession.org/tunes/11114#setting52239",
+      "category": "note_length",
+      "before_abc": "|:f2df Bfdf|fefg a/g/f ge|f/g/f df Bfdf|ecAc eaga|\r\nf/g/f df Bfdf|fefg afga|b/a/g af gefa|ecAc efga :|\r\n|:bB (3B/B/B/B fB (3B/B/B/B|bB (3B/B/B/B/ f2 f/g/a|bB (3B/B/B/B fBdf|ecAc efga|\r\nbB (3B/B/B/B fB (3B/B/B/B|bB (3B/B/B/B f2 f/g/a|bgaf gefa|ecAc efga:|",
+      "after_abc": "|:f2df Bfdf|fefg a/g/f ge|f/g/f df Bfdf|ecAc eaga|\r\nf/g/f df Bfdf|fefg afga|b/a/g af gefa|ecAc efga :|\r\n|:bB (3B/B/B/B fB (3B/B/B/B|bB (3B/B/B/B f2 f/g/a|bB (3B/B/B/B fBdf|ecAc efga|\r\nbB (3B/B/B/B fB (3B/B/B/B|bB (3B/B/B/B f2 f/g/a|bgaf gefa|ecAc efga:|",
+      "before_sha256": "dfe1b33273b4b7192ebab6d61a49438a4261d6c8d5e5c64d49baba442a2d626a",
+      "after_sha256": "23a3bd4bfb56242612e682330b9431dc6cf5498d32adf51d08153d69f71e8569",
+      "edits": [
+        {
+          "start": 144,
+          "end": 145,
+          "text": ""
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 10,
+          "before": "bB (3B/B/B/B/ f2 f/g/a",
+          "after": "bB (3B/B/B/B f2 f/g/a",
+          "witnesses": [
+            [
+              "52239",
+              13
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
           "scan_pass": 1
         }
       ]
@@ -11094,6 +11549,76 @@
       ]
     },
     {
+      "tune_id": "13730",
+      "setting_id": "24436",
+      "name": "Wild Geese, The",
+      "original_contributor": "Cheeky Elf",
+      "source_url": "https://thesession.org/tunes/13730#setting24436",
+      "category": "note_length",
+      "before_abc": "\"_vb\"(A3/2B/)|c2(c/4B/4A3/2) (A/4B/4c3/2)|B2(c/B/A/F/) E2|F2A2(A3/2B/)|A4(B3/2c/)|\r\nd2d2(d/4c/4B3/2)|c2c2(c/4B/4A3/2)|B2f2(e3/2c/)|B4(A/4B/4c3/2)|\r\nd2d2(d/4c/4B3/2)|c2c2(c/4B/4A3/2)|(B3/2c/) (.d.c.B.A)|F4(A3/2B/)|\r\nc2(c/4B/4A3/2) (A/4B/4c3/2)|B2(c/B/A/F/) E2|(#~F3/2G/)(A3/2B/c3/2B/)|A4\"_pp\"(A3/2B/)|\r\n({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/F3/2A/B3/2F/)|({B}A3/2F/E3/2F/A3/2B/)|A4z2|\r\n\"_cresc\"({e}d3/2c/B3/2c/d3/2B/)|({d}c3/2B/A3/2B/c3/2A/)|B2f2(e3/2c/)|B4(A/4B/4c)|\r\n\"_p\"(d3/2c/B3/2c/d3/2B/)|({d}c3/2B/A3/2B/c3/2A/)|B3/2c/ .d.c.B.A|F4\"_pp\"A3/2B/|\r\n({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/F3/2A/B3/2F/)|({B}A3/2F/E3/2F/A3/2B/)|A7/f/ ({ef}e3/2c/)|\r\n\"_ff\"(A7/\"^Chorus.\"f/) ({ef}e3/2c/)|(A7/f/) ({ef}e3/2c/)|(d2d'3/2f/ e3/2c/)|(d2d'3/2f/ {ef}e3/2d/)|\r\n(c2c'3/2f/ {ef}e3/2d/)|(c2c'3/2f/ {ef}e3/2c/)|(B2b3/2f/ {ef}e3/2c/)|(B2b3/2f/ {ef}e3/2c/)|\r\n(d2d'3/2f/ {ef}e3/2d/)|(c2c'3/2f/ {ef}e3/2c/)|(B2b3/2d/ {cd}c3/2A/)|F4\"_pp\"(A3/2B/)|\r\nc2(c/4B/4A3/2) (A/4B/4c3/2)|B2(c/B/A/F/) E2|F3/2G/A3/2c/B3/2c/|A2\"^H\"A2||",
+      "after_abc": "\"_vb\"(A3/2B/)|c2(c/4B/4A3/2) (A/4B/4c3/2)|B2(c/B/A/F/) E2|F2A2(A3/2B/)|A4(B3/2c/)|\r\nd2d2(d/4c/4B3/2)|c2c2(c/4B/4A3/2)|B2f2(e3/2c/)|B4(A/4B/4c3/2)|\r\nd2d2(d/4c/4B3/2)|c2c2(c/4B/4A3/2)|(B3/2c/) (.d.c.B.A)|F4(A3/2B/)|\r\nc2(c/4B/4A3/2) (A/4B/4c3/2)|B2(c/B/A/F/) E2|(#~F3/2G/)(A3/2B/c3/2B/)|A4\"_pp\"(A3/2B/)|\r\n({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/F3/2A/B3/2F/)|({B}A3/2F/E3/2F/A3/2B/)|A4z2|\r\n\"_cresc\"({e}d3/2c/B3/2c/d3/2B/)|({d}c3/2B/A3/2B/c3/2A/)|B2f2(e3/2c/)|B4(A/4B/4c3/2)|\r\n\"_p\"(d3/2c/B3/2c/d3/2B/)|({d}c3/2B/A3/2B/c3/2A/)|B3/2c/ .d.c.B.A|F4\"_pp\"A3/2B/|\r\n({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/F3/2A/B3/2F/)|({B}A3/2F/E3/2F/A3/2B/)|A7/f/ ({ef}e3/2c/)|\r\n\"_ff\"(A7/\"^Chorus.\"f/) ({ef}e3/2c/)|(A7/f/) ({ef}e3/2c/)|(d2d'3/2f/ e3/2c/)|(d2d'3/2f/ {ef}e3/2d/)|\r\n(c2c'3/2f/ {ef}e3/2d/)|(c2c'3/2f/ {ef}e3/2c/)|(B2b3/2f/ {ef}e3/2c/)|(B2b3/2f/ {ef}e3/2c/)|\r\n(d2d'3/2f/ {ef}e3/2d/)|(c2c'3/2f/ {ef}e3/2c/)|(B2b3/2d/ {cd}c3/2A/)|F4\"_pp\"(A3/2B/)|\r\nc2(c/4B/4A3/2) (A/4B/4c3/2)|B2(c/B/A/F/) E2|F3/2G/A3/2c/B3/2c/|A2\"^H\"A2||",
+      "before_sha256": "d6829932da072e2da0af0c238e5fca01ef42330b5151772703a7f848c4e77ffe",
+      "after_sha256": "9f718b1365a64afb3e6c89f9958e45131eba4b29468cfc4af1cbe689fc4ea9e7",
+      "edits": [
+        {
+          "start": 460,
+          "end": 460,
+          "text": "3/2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 25,
+          "before": "B4(A/4B/4c)",
+          "after": "B4(A/4B/4c3/2)",
+          "witnesses": [
+            [
+              "24436",
+              8
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "13730",
+      "setting_id": "27247",
+      "name": "Wild Geese, The",
+      "original_contributor": "stefanremy",
+      "source_url": "https://thesession.org/tunes/13730#setting27247",
+      "category": "note_length",
+      "before_abc": "\"_va\"(G3/2A/)|B2(B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|E2G2(G3/2A/)|G4(A3/2B/)|\r\nc2c2(c/4B/4A3/2)|B2B2(B/4A/4G3/2)|A2e2(d3/2B/)|A4(G/4A/4B3/2)|\r\nc2c2(c/4B/4A3/2)|B2B2(B/4A/4G3/2)|(A3/2B/) (.c.B.A.G)|E4(G3/2A/)|\r\nB2(B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|(#~E3/2F/)(G3/2A/B3/2A/)|G4\"_pp\"(G3/2A/)|\r\n({c}B3/2A/G3/2A/B3/2G/)|({B}A3/2G/E3/2G/A3/2E/)|({A}G3/2E/D3/2E/G3/2A/)|G4z2|\r\n\"_BrdsB\"({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/G3/2A/B3/2G/)|A2e2(d3/2B/)|A4(G/4A/4B)|\r\n\"_p\"(c3/2B/A3/2B/c3/2A/)|({c}B3/2A/G3/2A/B3/2G/)|A3/2B/ .c.B.A.G|E4\"_pp\"G3/2A/|\r\n({c}B3/2A/G3/2A/B3/2G/)|({B}A3/2G/E3/2G/A3/2E/)|({A}G3/2E/D3/2E/G3/2A/)|G7/e/ ({de}d3/2B/)|\r\n\"_ee\"(G7/\"^Bhorus.\"e/) ({de}d3/2B/)|(G7/e/) ({de}d3/2B/)|(c2c'3/2e/ d3/2B/)|(c2c'3/2e/ {de}d3/2c/)|\r\n(B2b3/2e/ {de}d3/2c/)|(B2b3/2e/ {de}d3/2B/)|(A2a3/2e/ {de}d3/2B/)|(A2a3/2e/ {de}d3/2B/)|\r\n(c2c'3/2e/ {de}d3/2c/)|(B2b3/2e/ {de}d3/2B/)|(A2a3/2c/ {Bc}B3/2G/)|E4\"_pp\"(G3/2A/)|\r\nB2(B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|E3/2F/G3/2B/A3/2B/|G2\"^H\"G2||",
+      "after_abc": "\"_va\"(G3/2A/)|B2(B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|E2G2(G3/2A/)|G4(A3/2B/)|\r\nc2c2(c/4B/4A3/2)|B2B2(B/4A/4G3/2)|A2e2(d3/2B/)|A4(G/4A/4B3/2)|\r\nc2c2(c/4B/4A3/2)|B2B2(B/4A/4G3/2)|(A3/2B/) (.c.B.A.G)|E4(G3/2A/)|\r\nB2(B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|(#~E3/2F/)(G3/2A/B3/2A/)|G4\"_pp\"(G3/2A/)|\r\n({c}B3/2A/G3/2A/B3/2G/)|({B}A3/2G/E3/2G/A3/2E/)|({A}G3/2E/D3/2E/G3/2A/)|G4z2|\r\n\"_BrdsB\"({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/G3/2A/B3/2G/)|A2e2(d3/2B/)|A4(G/4A/4B3/2)|\r\n\"_p\"(c3/2B/A3/2B/c3/2A/)|({c}B3/2A/G3/2A/B3/2G/)|A3/2B/ .c.B.A.G|E4\"_pp\"G3/2A/|\r\n({c}B3/2A/G3/2A/B3/2G/)|({B}A3/2G/E3/2G/A3/2E/)|({A}G3/2E/D3/2E/G3/2A/)|G7/e/ ({de}d3/2B/)|\r\n\"_ee\"(G7/\"^Bhorus.\"e/) ({de}d3/2B/)|(G7/e/) ({de}d3/2B/)|(c2c'3/2e/ d3/2B/)|(c2c'3/2e/ {de}d3/2c/)|\r\n(B2b3/2e/ {de}d3/2c/)|(B2b3/2e/ {de}d3/2B/)|(A2a3/2e/ {de}d3/2B/)|(A2a3/2e/ {de}d3/2B/)|\r\n(c2c'3/2e/ {de}d3/2c/)|(B2b3/2e/ {de}d3/2B/)|(A2a3/2c/ {Bc}B3/2G/)|E4\"_pp\"(G3/2A/)|\r\nB2(B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|E3/2F/G3/2B/A3/2B/|G2\"^H\"G2||",
+      "before_sha256": "d4a487948c84930f95064a77767c59d65ebc6614db555e9d4398c3529612185a",
+      "after_sha256": "c2619d8d3418bfdae065fbb69d341a96124957dfc353dd7a34b16ccaa9412306",
+      "edits": [
+        {
+          "start": 460,
+          "end": 460,
+          "text": "3/2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 25,
+          "before": "A4(G/4A/4B)",
+          "after": "A4(G/4A/4B3/2)",
+          "witnesses": [
+            [
+              "27247",
+              8
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "13741",
       "setting_id": "24467",
       "name": "Näcken Valsen",
@@ -11124,6 +11649,41 @@
             ]
           ],
           "method": "matching rhythm and neighboring phrase in another setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "13859",
+      "setting_id": "24885",
+      "name": "Green Fields Of Canada",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/13859#setting24885",
+      "category": "note_length",
+      "before_abc": "|A2|c4 A2 B/A/G|A4 A3A|d3c d3A|GF/D/ D2 DE|\r\n=F3G A2 B/A/G|G6 A>G|F<D D2 D4|D4 D2||\r\nA3G Ad3|d6 e2|=f3e d2 d2|d/c/d/e/ d>c A4|\r\nG3A d3e|=f3e d3c|A<G G2 Ac d2|de d3^c AG|\r\nA4 A3A|d3c d3A|GF/D/ D2 D3E|=F3G A2 B/A/G|\r\nG6 A>G|F<D D4|D4 D4|D4 D4||",
+      "after_abc": "|A2|c4 A2 B/A/G|A4 A3A|d3c d3A|GF/D/ D2 D3E|\r\n=F3G A2 B/A/G|G6 A>G|F<D D2 D4|D4 D2||\r\nA3G Ad3|d6 e2|=f3e d2 d2|d/c/d/e/ d>c A4|\r\nG3A d3e|=f3e d3c|A<G G2 Ac d2|de d3^c AG|\r\nA4 A3A|d3c d3A|GF/D/ D2 D3E|=F3G A2 B/A/G|\r\nG6 A>G|F<D D4|D4 D4|D4 D4||",
+      "before_sha256": "30b4194f0f446f882d3470a1c8280bcc8b45d0debcdfb24d667e7bb23f6ec9f2",
+      "after_sha256": "0834896e3b87fc9b32ab43211a9b1d4cdf0a923820697b89fcbfcda243333679",
+      "edits": [
+        {
+          "start": 41,
+          "end": 41,
+          "text": "3"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 5,
+          "before": "GF/D/ D2 DE",
+          "after": "GF/D/ D2 D3E",
+          "witnesses": [
+            [
+              "24885",
+              19
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
           "scan_pass": 1
         }
       ]
@@ -11316,6 +11876,41 @@
           ],
           "before": "cAGE EDD2\r\nFDA,D FDDD",
           "after": "cAGE EDD2|\r\nFDA,D FDDD",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "14630",
+      "setting_id": "26964",
+      "name": "A Dhia Na Nollaig",
+      "original_contributor": "Stefan Thamm",
+      "source_url": "https://thesession.org/tunes/14630#setting26964",
+      "category": "note_length",
+      "before_abc": "|:ef|g4 ag|f4 gf|e3/2 d BA|B4 BA|\r\nG2 g2 g/f/e|f3 d cA|G4 AF|G4:|:GB|\r\nc4 BA|B/d/d- d2 BA|G2 g2 fd|e4 ga|\r\nb4 b/a/g/b/|a3 g ed|e6-|e3 d ef|\r\ng4 ag|f3 d gf|e3 d BA|B4 BA|\r\nG2 g2 g/f/e|f3 d cA|G4 AF|G4:|",
+      "after_abc": "|:ef|g4 ag|f4 gf|e3 d BA|B4 BA|\r\nG2 g2 g/f/e|f3 d cA|G4 AF|G4:|:GB|\r\nc4 BA|B/d/d- d2 BA|G2 g2 fd|e4 ga|\r\nb4 b/a/g/b/|a3 g ed|e6-|e3 d ef|\r\ng4 ag|f3 d gf|e3 d BA|B4 BA|\r\nG2 g2 g/f/e|f3 d cA|G4 AF|G4:|",
+      "before_sha256": "23c3a3cfcad7d4c4e58bde1b53cce5010df39e2a75ef5b02ba689b281a47f872",
+      "after_sha256": "93de0ae5d7c546444f91eddfba65c879ab4e6a4464ea02ea3444e5775d42fe42",
+      "edits": [
+        {
+          "start": 19,
+          "end": 21,
+          "text": ""
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 4,
+          "before": "e3/2 d BA",
+          "after": "e3 d BA",
+          "witnesses": [
+            [
+              "26964",
+              20
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
           "scan_pass": 1
         }
       ]
@@ -11709,6 +12304,111 @@
       ]
     },
     {
+      "tune_id": "15605",
+      "setting_id": "29269",
+      "name": "Old French",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/15605#setting29269",
+      "category": "note_length",
+      "before_abc": "A|:d2 d2 a2|f2 f2 e2|e2 dd ef|B2 A2 d2|\r\nd2 a2 f2|f2 ed e2|e6|e4 A2|\r\nd2 d2 a2|f2 f2 e2|e2 dd ef|B2 A2 a2|\r\na2 fa e2|A4 AB|d4 ed|d6||\r\nfg|:a4 de|f4 af|e6|dd ef B2|A2 d2 de|\r\nfg a2 af|a2 e4|e6|AB d4|\r\na2 f4|e4 dd ef|B2 A2 a2|a2 fa e2|\r\nA2 AA B2|d4 ed|d6 d6:|",
+      "after_abc": "A|:d2 d2 a2|f2 f2 e2|e2 dd ef|B2 A2 d2|\r\nd2 a2 f2|f2 ed e2|e6|e4 A2|\r\nd2 d2 a2|f2 f2 e2|e2 dd ef|B2 A2 a2|\r\na2 fa e2|A4 AB|d4 ed|d6||\r\nfg|:a4 de|f4 af|e6|dd ef B2|A2 d2 de|\r\nfg a2 af|a2 e4|e6|AB d4|\r\na2 f4|e2 dd ef|B2 A2 a2|a2 fa e2|\r\nA2 AA B2|d4 ed|d6 d6:|",
+      "before_sha256": "4486bf98254100fa142c6fb0547731ed6f82eec2d4ad5bb326533761ed2becc1",
+      "after_sha256": "55280b5338d34248d23beb208764b5ab9cf78a5c0cbee6bb81dd12cfaadfa4a3",
+      "edits": [
+        {
+          "start": 207,
+          "end": 208,
+          "text": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 29,
+          "before": "e4 dd ef",
+          "after": "e2 dd ef",
+          "witnesses": [
+            [
+              "29269",
+              11
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "15605",
+      "setting_id": "30488",
+      "name": "Old French",
+      "original_contributor": "JACKB",
+      "source_url": "https://thesession.org/tunes/15605#setting30488",
+      "category": "note_length",
+      "before_abc": "D|:G2 G2 d2|B2 B2 A2|A2 GG AB|E2 D2 G2|\r\nG2 d2 B2|B2 AG A2|A6|A2 D2 E2|\r\nG2 G2 d2|B2 B2 A2|A2 GG AB|E2 D2 d2|\r\nd2 Bd A2|D4 DE|G4 AG|G6||\r\nBc|:d4 GA|B4 dB|A6|GG AB E2|D2 G2 GA|\r\nBc d2 dB|d2 A4|A6|DE G4|\r\nd2 B4|A4 GG AB|E2 D2 d2|d2 Bd A2|\r\nD2 DD E2|G4 AG|G6 G6:|",
+      "after_abc": "D|:G2 G2 d2|B2 B2 A2|A2 GG AB|E2 D2 G2|\r\nG2 d2 B2|B2 AG A2|A6|A2 D2 E2|\r\nG2 G2 d2|B2 B2 A2|A2 GG AB|E2 D2 d2|\r\nd2 Bd A2|D4 DE|G4 AG|G6||\r\nBc|:d4 GA|B4 dB|A6|GG AB E2|D2 G2 GA|\r\nBc d2 dB|d2 A4|A6|DE G4|\r\nd2 B4|A2 GG AB|E2 D2 d2|d2 Bd A2|\r\nD2 DD E2|G4 AG|G6 G6:|",
+      "before_sha256": "9d27549ebc752074115ce35a4d68b423863119eced1f4e217b189d6655653143",
+      "after_sha256": "735d82879070e992179f79e6260cb27662bfa4857680383bd826db054954c033",
+      "edits": [
+        {
+          "start": 210,
+          "end": 211,
+          "text": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 29,
+          "before": "A4 GG AB",
+          "after": "A2 GG AB",
+          "witnesses": [
+            [
+              "30488",
+              11
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "15618",
+      "setting_id": "29298",
+      "name": "Horizontigo",
+      "original_contributor": "pbsinclair42",
+      "source_url": "https://thesession.org/tunes/15618#setting29298",
+      "category": "note_length",
+      "before_abc": "|:f>(e e/)c/a/b/|c'b/a/ ga|e/e/e/(f/ f/)c/f/g/|ag/f/ e/d/c/A/|\r\nB>A B/d/c/A/|F>E F/A/G/E/|1 C>D E/G/A:|2 (C4|C)/B,/C/D/ (3E/F/G/ A/F/ ]|\r\nB>(A A/)F/B/c/|dc/B/ B/A/B/G/|c>(B B/)G/c/d/|ed/c/ A/B/c/d/|\r\nf>(e e/)c/f/g/|a>(f/ f/)e/c/A/|B>A B/d/c/A/|B>A B/d/c/A/|F>E F/A/G/E/|C/B,/C/D/ (3E/F/G/ A/F/|\r\nB>(A A/)F/B/c/|dc/B/ B/A/B/G/|c>(B B/)B/e/f/|gf/e/ dc/e/|\r\nf>(e e/)c/f/g/|a>(f f/)e/c/A/|B>A B/d/c/A/|F>E F/A/G/E/|C>D E/G/A||",
+      "after_abc": "|:f>(e e/)c/a/b/|c'b/a/ ga|e/e/e/(f/ f/)c/f/g/|ag/f/ e/d/c/A/|\r\nB>A B/d/c/A/|F>E F/A/G/E/|1 C>D E/G/A:|2 (C4|C)/B,/C/D/ (3E/F/G/ A/F/ ]|\r\nB>(A A/)F/B/c/|dc/B/ B/A/B/G/|c>(B B/)G/c/d/|ed/c/ A/B/c/d/|\r\nf>(e e/)c/f/g/|a>(f f/)e/c/A/|B>A B/d/c/A/|B>A B/d/c/A/|F>E F/A/G/E/|C/B,/C/D/ (3E/F/G/ A/F/|\r\nB>(A A/)F/B/c/|dc/B/ B/A/B/G/|c>(B B/)B/e/f/|gf/e/ dc/e/|\r\nf>(e e/)c/f/g/|a>(f f/)e/c/A/|B>A B/d/c/A/|F>E F/A/G/E/|C>D E/G/A||",
+      "before_sha256": "d1050d58ec0d9536991835c514a38682a6ed237653a891807c11a8d3b8f82f56",
+      "after_sha256": "8975050103728416668df83abf38bc0086124f0d54c8ac3da05b188e2fae9513",
+      "edits": [
+        {
+          "start": 219,
+          "end": 220,
+          "text": ""
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 15,
+          "before": "a>(f/ f/)e/c/A/",
+          "after": "a>(f f/)e/c/A/",
+          "witnesses": [
+            [
+              "29298",
+              24
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "15794",
       "setting_id": "29715",
       "name": "Woodcroft Lane",
@@ -11938,6 +12638,41 @@
           ],
           "before": "_B,EF GFE\r\nCFG AGF",
           "after": "_B,EF GFE|\r\nCFG AGF",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "16145",
+      "setting_id": "35146",
+      "name": "Joshua's Dream",
+      "original_contributor": "leprecawn",
+      "source_url": "https://thesession.org/tunes/16145#setting35146",
+      "category": "note_length",
+      "before_abc": "D BA|G2 B,D GB|A2 DF Ac|B2 GA Bd|e2 f2 g2|\r\nd2 GA Bd|EF d3F|E2 G2 c2|A3D BA|\r\nG2 B,D GB|A2 DF Ac|B2 GA Bd|e2 f2 g2|\r\nd2 g3 d|ed cB AG|A2 F2 d2|G3 D BA|\r\nG2 B,D GB|A2 DF Ac|B2 GA Bd|e2 f2 g2|\r\nd2 GA Bd|EF d3 F|E2 G2 c2|AG FE DC|\r\nD2 G,D GB|E2 A,E Ac|F2 B,F Bd|G2 CG ce|\r\nd2 g2 b2|ed cB AG|A2 d2 f2|g3 G ba||\r\nb2 gd BG|a2 fd AF|g2 eg c'e'|d'2 b3 g2|\r\ned cB ce|dc BA GF|E2 G2 c2|Ad ef ga|\r\nb2 ab gd|a2 ba gf|g2 Bg ag|f2 Bb gf|\r\ne2 Ge dc|d2 Gd cB|A2 d2 f2|g3 d c'b|\r\nb2 gd BG|a2 fd AF|g2 eg c'e '|d'2 b3 g|\r\ned cB ce|dc BA GF|E2 G2 c2|AB cd ef|\r\ng2 dB ga|f2 dB fg|e2 fg af|d2 ef ge|\r\nc2 ea ba|g2 dB cB|AF ED CA,|G,3||",
+      "after_abc": "D BA|G2 B,D GB|A2 DF Ac|B2 GA Bd|e2 f2 g2|\r\nd2 GA Bd|EF d3F|E2 G2 c2|A3D BA|\r\nG2 B,D GB|A2 DF Ac|B2 GA Bd|e2 f2 g2|\r\nd2 g3 d|ed cB AG|A2 F2 d2|G3 D BA|\r\nG2 B,D GB|A2 DF Ac|B2 GA Bd|e2 f2 g2|\r\nd2 GA Bd|EF d3 F|E2 G2 c2|AG FE DC|\r\nD2 G,D GB|E2 A,E Ac|F2 B,F Bd|G2 CG ce|\r\nd2 g2 b2|ed cB AG|A2 d2 f2|g3 G ba||\r\nb2 gd BG|a2 fd AF|g2 eg c'e'|d'2 b3 g|\r\ned cB ce|dc BA GF|E2 G2 c2|Ad ef ga|\r\nb2 ab gd|a2 ba gf|g2 Bg ag|f2 Bb gf|\r\ne2 Ge dc|d2 Gd cB|A2 d2 f2|g3 d c'b|\r\nb2 gd BG|a2 fd AF|g2 eg c'e '|d'2 b3 g|\r\ned cB ce|dc BA GF|E2 G2 c2|AB cd ef|\r\ng2 dB ga|f2 dB fg|e2 fg af|d2 ef ge|\r\nc2 ea ba|g2 dB cB|AF ED CA,|G,3||",
+      "before_sha256": "a214de02e077d3f6da6f35560eab0553056fa30fa968f6af31f5ae1397e116f4",
+      "after_sha256": "80c4c1a3523abdc8d1de2fbb86a2bab2c3d3a5165a297c86ae2de5d4dd41bcde",
+      "edits": [
+        {
+          "start": 345,
+          "end": 346,
+          "text": ""
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 37,
+          "before": "d'2 b3 g2",
+          "after": "d'2 b3 g",
+          "witnesses": [
+            [
+              "35146",
+              52
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
           "scan_pass": 1
         }
       ]
@@ -13119,6 +13854,115 @@
       ]
     },
     {
+      "tune_id": "18316",
+      "setting_id": "35795",
+      "name": "Girl Who Was Poorly Clad, The",
+      "original_contributor": "Jon Corelis",
+      "source_url": "https://thesession.org/tunes/18316#setting35795",
+      "category": "note_length",
+      "before_abc": "|(=cd)|e2 e2 (=fe)|d2 d2 (ed)|=c2 c2 (dc)|\r\nA2A2 (=cd)|e2 e2 (=fe)|d2 d2 (ed)|(=cA3B|=c4) (eg)|\r\na2 a2 (ag)|e2e2 (ed)|(=c3d) (=cA)|(A2G2) (=cd)\r\ne2e2 (=fe)|d2d2 (ed)|(=c2A3B|=c4)||",
+      "after_abc": "|(=cd)|e2 e2 (=fe)|d2 d2 (ed)|=c2 c2 (dc)|\r\nA2A2 (=cd)|e2 e2 (=fe)|d2 d2 (ed)|(=c2A3B|=c4) (eg)|\r\na2 a2 (ag)|e2e2 (ed)|(=c3d) (=cA)|(A2G2) (=cd)\r\ne2e2 (=fe)|d2d2 (ed)|(=c2A3B|=c4)||",
+      "before_sha256": "be1849a45adf3f843b1f43130cd89c72ecf4c870fb09f197744076b6392bd99d",
+      "after_sha256": "279334026c85dafe1f92cc53df548115704af3ad45e222b1880db34b4476c075",
+      "edits": [
+        {
+          "start": 81,
+          "end": 81,
+          "text": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 8,
+          "before": "(=cA3B",
+          "after": "(=c2A3B",
+          "witnesses": [
+            [
+              "35795",
+              14
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "18316",
+      "setting_id": "35796",
+      "name": "Girl Who Was Poorly Clad, The",
+      "original_contributor": "Nigel Gatherer",
+      "source_url": "https://thesession.org/tunes/18316#setting35796",
+      "category": "note_length",
+      "before_abc": "cd|e2 e2 fe|d2 d2 ed|c2 c2 dc|A2 A2\r\ncd|e2 e2 fe|d2 d2 ed|c A3 B|c4\r\neg|a2 a2 ag|e2 e2 ed|c3 d cA|A2 G2\r\ncd|e2 e2 fe|d2 d2 ed|c2 A3 B|c4||",
+      "after_abc": "cd|e2 e2 fe|d2 d2 ed|c2 c2 dc|A2 A2\r\ncd|e2 e2 fe|d2 d2 ed|c2 A3 B|c4\r\neg|a2 a2 ag|e2 e2 ed|c3 d cA|A2 G2\r\ncd|e2 e2 fe|d2 d2 ed|c2 A3 B|c4||",
+      "before_sha256": "6ee80f8885428f295f174b2c866012434a06739383db25ada3d01e44f58dc237",
+      "after_sha256": "540ee0b5fbaf3b1b1d1804d0e7ebd14f82b0757b67656ddbcb8fa7e72f7ae8d8",
+      "edits": [
+        {
+          "start": 59,
+          "end": 59,
+          "text": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 8,
+          "before": "c A3 B",
+          "after": "c2 A3 B",
+          "witnesses": [
+            [
+              "35796",
+              15
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "18372",
+      "setting_id": "35914",
+      "name": "Gan Ainm",
+      "original_contributor": "D.Sorcha",
+      "source_url": "https://thesession.org/tunes/18372#setting35914",
+      "category": "note_length",
+      "before_abc": "|:fA AG Ad|B4 AB|de ed eg|e3A de|\r\nfA AG Ad|B4 AG|FA GF EF|1 D3A de:|2 D4 DE||\r\nFD DF dc|B4 AG|FA GF ED|E4 DE|\r\nFD DF dc|B2 AG|FA GF EF|D4 DE:|",
+      "after_abc": "|:fA AG Ad|B4 AB|de ed eg|e3A de|\r\nfA AG Ad|B4 AG|FA GF EF|1 D3A de:|2 D4 DE||\r\nFD DF dc|B4 AG|FA GF ED|E4 DE|\r\nFD DF dc|B4 AG|FA GF EF|D4 DE:|",
+      "before_sha256": "831e58e8b1141eb7cd4be4680dd67b8e8aa5045c6c0491081731849d6c071ea0",
+      "after_sha256": "2b58717cff67e3f714859905056a472ab2ca9db81f8218dc14448debc8c9950f",
+      "edits": [
+        {
+          "start": 122,
+          "end": 123,
+          "text": "4"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 15,
+          "before": "B2 AG",
+          "after": "B4 AG",
+          "witnesses": [
+            [
+              "35914",
+              5
+            ],
+            [
+              "35914",
+              10
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "18444",
       "setting_id": "36019",
       "name": "Muirland Willie",
@@ -13278,6 +14122,41 @@
           ],
           "before": "E4 DE\r\nG4 G2",
           "after": "E4 DE|\r\nG4 G2",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "19711",
+      "setting_id": "38928",
+      "name": "Josiane",
+      "original_contributor": "vsign",
+      "source_url": "https://thesession.org/tunes/19711#setting38928",
+      "category": "note_length",
+      "before_abc": "B|GF EF2< E2F|G>A Be d>c BA|B2ze2 d>c BA|GA BG F2zG|FG A/G/F dB AG|\r\nFG BF E2 z B|GF EF2< E2F|G>A Be d>c BA|B2ze d>c BA|\r\nGA BG F2zG|FG A/G/F dB AG|FG BF E> zBd||e2 gc Bc d/c/B|\r\nAB cd B2zG|FG A/G/F dB AG|FG BF E>z Bd|e2 gc Bc d/c/B|\r\nAB cd d2zG|FG A/G/F dB AG|FG BF E2zB||",
+      "after_abc": "B|GF EF2< E2F|G>A Be d>c BA|B2ze d>c BA|GA BG F2zG|FG A/G/F dB AG|\r\nFG BF E2 z B|GF EF2< E2F|G>A Be d>c BA|B2ze d>c BA|\r\nGA BG F2zG|FG A/G/F dB AG|FG BF E> zBd||e2 gc Bc d/c/B|\r\nAB cd B2zG|FG A/G/F dB AG|FG BF E>z Bd|e2 gc Bc d/c/B|\r\nAB cd d2zG|FG A/G/F dB AG|FG BF E2zB||",
+      "before_sha256": "acd6f09ac3274a56857a2851379097ab28394d8bf2c05cc72dcae4f2ce14d703",
+      "after_sha256": "13e1411ad228fa26563b2ca54dfd186b024ead81a63ed51cc1d83b07052acb27",
+      "edits": [
+        {
+          "start": 32,
+          "end": 33,
+          "text": ""
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 4,
+          "before": "B2ze2 d>c BA",
+          "after": "B2ze d>c BA",
+          "witnesses": [
+            [
+              "38928",
+              9
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
           "scan_pass": 1
         }
       ]
@@ -13889,6 +14768,41 @@
       ]
     },
     {
+      "tune_id": "21422",
+      "setting_id": "42768",
+      "name": "Colours Of Cape Breton, The",
+      "original_contributor": "🎻 Melody Player 🎻",
+      "source_url": "https://thesession.org/tunes/21422#setting42768",
+      "category": "note_length",
+      "before_abc": "|:D>D|D2 E2 G2|A4 G>A|B2 E2 G2|A4 G>A|\r\nB<d c2 B2|A>G E2 A>G|E2 D2 D2|D4:|\r\nd>d|d2 A2 B2|c4 d>c|B>A G2 c2|A4 G>A|\r\nB<d c2 B2|A>G E2 A>G|E2 D2 D2|D6|\r\nd2 A2 B2|c2 d3 c|B>A G c2|A4 G>A|\r\nB<d c2 B2|A>G E2 A>G|E2 D2 D2|1 D4||\r\n!fine! D6||",
+      "after_abc": "|:D>D|D2 E2 G2|A4 G>A|B2 E2 G2|A4 G>A|\r\nB<d c2 B2|A>G E2 A>G|E2 D2 D2|D4:|\r\nd>d|d2 A2 B2|c4 d>c|B>A G2 c2|A4 G>A|\r\nB<d c2 B2|A>G E2 A>G|E2 D2 D2|D6|\r\nd2 A2 B2|c2 d3 c|B>A G2 c2|A4 G>A|\r\nB<d c2 B2|A>G E2 A>G|E2 D2 D2|1 D4||\r\n!fine! D6||",
+      "before_sha256": "1ef3ca696b233ed628930d43ee8db1bed515650f23c94441c17fc3f09d503e99",
+      "after_sha256": "f838eedf692042d5823a2ce0ed2f7966fd1acd478a470b51db939794511a8cc9",
+      "edits": [
+        {
+          "start": 172,
+          "end": 172,
+          "text": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 21,
+          "before": "B>A G c2",
+          "after": "B>A G2 c2",
+          "witnesses": [
+            [
+              "42768",
+              12
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "21436",
       "setting_id": "42804",
       "name": "Snowy Hills Of Caherea, The",
@@ -14025,6 +14939,41 @@
       ]
     },
     {
+      "tune_id": "21631",
+      "setting_id": "49027",
+      "name": "Waves Of Kilkee, The",
+      "original_contributor": "leprecawn",
+      "source_url": "https://thesession.org/tunes/21631#setting49027",
+      "category": "note_length",
+      "before_abc": "GA|:B4 ed/e/|d4 B3/A/|G6|g4 f2|e3( f f)g|\r\nd(B (B)2 B)/A/G|(A6|A2 )z2 GA|B4 ed/e/|d4 B3/A|\r\nG6|e2f2g2|d(B( B) B)/A/G|(A4 A)B|((G6|1 G2) z2 GA:|2 G2) z2 g2||\r\ng4 af|g3 a bd|e4d2|(3def|g4 B2|B4 AG|( A6|A2) z2 g2|\r\ng4 af|g3 a bd|e6|d4 ge|d(B B2 B)A|(A4 A)G|( G6|G6)||",
+      "after_abc": "GA|:B4 ed/e/|d4 B3/A/|G6|g4 f2|e3( f f)g|\r\nd(B (B)2 B)/A/G|(A6|A2 )z2 GA|B4 ed/e/|d4 B3/A/|\r\nG6|e2f2g2|d(B( B) B)/A/G|(A4 A)B|((G6|1 G2) z2 GA:|2 G2) z2 g2||\r\ng4 af|g3 a bd|e4d2|(3def|g4 B2|B4 AG|( A6|A2) z2 g2|\r\ng4 af|g3 a bd|e6|d4 ge|d(B B2 B)A|(A4 A)G|( G6|G6)||",
+      "before_sha256": "4995915150e76a6ae6eed4550ac708ac1296bebef1777f6eb583582801fa87f5",
+      "after_sha256": "62264d3273e658031031296bb7f7f367f1447bca471648005efc5662bafdb2de",
+      "edits": [
+        {
+          "start": 89,
+          "end": 89,
+          "text": "/"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 11,
+          "before": "d4 B3/A",
+          "after": "d4 B3/A/",
+          "witnesses": [
+            [
+              "49027",
+              2
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "21701",
       "setting_id": "51840",
       "name": "Fàg A' Phiob Bhochd",
@@ -14132,6 +15081,49 @@
           ],
           "before": "DAFA dfed cAGE ADEG",
           "after": "DAFA dfed| cAGE ADEG",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "21843",
+      "setting_id": "43839",
+      "name": "O'Connell's Lamentation",
+      "original_contributor": "Fliúiteadóir",
+      "source_url": "https://thesession.org/tunes/21843#setting43839",
+      "category": "note_length",
+      "before_abc": "E2|:\"Am\" A4 dc|:\"Em\" A2G2E2|\"C\"G2c2d2|\"D\"e2a2f2|\"C\"g3ec2|\"Dm\" d3cA2|\"Em\" G2E2F2|\"G\"G4 E2|\r\n\"Am\" A4dc|\"Em\" A2G2E2|\"C\"c3 def|\"Em\" g2e2a2|\"C\" g3ec2|\"Dm\" d3cA2|\"Am\" A6|1 -A4 E2:|2 A4 ef||\r\n|:\"G\"g3 f af|\"Em\" g3 b ag|\"Dm\" =f>e de =fd|\"Am\" e4 A2|\r\n\"C\"c>B cd ef|g3e cA|\"Em\" G2E2c>A|\"G\" G2E2G2|\r\n\"Am\" A2 AB cA|\"G\" B2 Bc dB|\"C\"c3d ef|\"Em\" g2e2a2|\r\n\"C\" g3 ec2|\"Dm\" d3 cA|\"Am\" A6|1 A4 ef:|2 A4 AB||\r\n|:\"Am\" c2E2F2|\"Em\" G4 AB|\"C\" c>B cd ef|\"Em\" g2e2a2|\r\n\"C\" g>=f eg =fe|\"Dm\" d=f ed cB|\"Am\" c2E2F2|\"G\" G4 AB|\r\n\"Am\" c2E2F2|\"Em\" G4 AB|\"C\"c>B cd ef|\"Em\" g2e2a2|\r\n\"C\"g3e c2|\"Dm\" d3cA2|\"Am\" A6|-A4 AB:|",
+      "after_abc": "E2|:\"Am\" A4 dc|:\"Em\" A2G2E2|\"C\"G2c2d2|\"D\"e2a2f2|\"C\"g3ec2|\"Dm\" d3cA2|\"Em\" G2E2F2|\"G\"G4 E2|\r\n\"Am\" A4dc|\"Em\" A2G2E2|\"C\"c3 def|\"Em\" g2e2a2|\"C\" g3ec2|\"Dm\" d3cA2|\"Am\" A6|1 -A4 E2:|2 A4 ef||\r\n|:\"G\"g3 f af|\"Em\" g3 b ag|\"Dm\" =f>e de =fd|\"Am\" e4 A2|\r\n\"C\"c>B cd ef|g3e cA|\"Em\" G2E2c>A|\"G\" G2E2G2|\r\n\"Am\" A2 AB cA|\"G\" B2 Bc dB|\"C\"c3d ef|\"Em\" g2e2a2|\r\n\"C\" g3 ec2|\"Dm\" d3 cA2|\"Am\" A6|1 A4 ef:|2 A4 AB||\r\n|:\"Am\" c2E2F2|\"Em\" G4 AB|\"C\" c>B cd ef|\"Em\" g2e2a2|\r\n\"C\" g>=f eg =fe|\"Dm\" d=f ed cB|\"Am\" c2E2F2|\"G\" G4 AB|\r\n\"Am\" c2E2F2|\"Em\" G4 AB|\"C\"c>B cd ef|\"Em\" g2e2a2|\r\n\"C\"g3e c2|\"Dm\" d3cA2|\"Am\" A6|-A4 AB:|",
+      "before_sha256": "291d0b68ebaa9af5dfa4a330d477d800aa3c823922389b589916ed88bb101c9e",
+      "after_sha256": "97d1dad057029be712c579d42f7cbaca8ee3b24f8417e5e7e9955ecd18458085",
+      "edits": [
+        {
+          "start": 359,
+          "end": 359,
+          "text": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 32,
+          "before": "\"Dm\" d3 cA",
+          "after": "\"Dm\" d3 cA2",
+          "witnesses": [
+            [
+              "43839",
+              6
+            ],
+            [
+              "43839",
+              14
+            ],
+            [
+              "43839",
+              48
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
           "scan_pass": 1
         }
       ]
@@ -14284,6 +15276,76 @@
           ],
           "before": "eged cBcd egdg egdg",
           "after": "eged cBcd| egdg egdg",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "22120",
+      "setting_id": "56079",
+      "name": "Humours Of Glynn, The",
+      "original_contributor": "fiddle music",
+      "source_url": "https://thesession.org/tunes/22120#setting56079",
+      "category": "note_length",
+      "before_abc": "(3ABc|d3 e (3cBA|B2 F2 Ad|ef fg fe|d2 F2 A2|\r\nd3 e (3cBA|B2 F2 AF|E2 F2 A2|AB3 (3ABc|\r\nd3 e (3cBA|B2 F2 Ad|ef fg fe|d2 F2 AF|\r\nFG BG BG|F2 AF ED|E3 F Ad|B4 (3ABc|\r\nd4 (3cBA|B2 F2 Ad|f2 fg fe|d2 F2 A2|\r\nd3 e (3cBA|AB F2 AF|E2 F2 A2|B4 (3ABc|\r\nd3 e (3cBA|AB F2 Ad|ef fg fe|d2 F2 AF|\r\nG2 BG BG|(3FAF AF ED|E3 F A2|B4 dB|\r\nA2 d3 e|ef d3 f|(3efe d2 da|f2 d2 df|\r\ngf ef ge|fe d2 (3BdB|A2 F2 A2|B4 (3ABc|\r\nd2 f2 a2|b5 b|ag fg ab|a5 ef|\r\ngf ef ga|fe d2 (3BdB|(3ABA F2 A2| B4 (3edB|\r\nA2 d3 e|ef d3 f|e2 d3 a |f2 d3 f|\r\ngf ef ga|fe d2 (3BdB|A2 F2 A2|B4 (3ABc|\r\nd2 f2 a2|b6|ag fg ab|a4 ef|\r\ngf ef ga|fe d2 (3BdB|(3ABA F2 A2|B6||",
+      "after_abc": "(3ABc|d3 e (3cBA|B2 F2 Ad|ef fg fe|d2 F2 A2|\r\nd3 e (3cBA|B2 F2 AF|E2 F2 A2|AB3 (3ABc|\r\nd3 e (3cBA|B2 F2 Ad|ef fg fe|d2 F2 AF|\r\nFG BG BG|F2 AF ED|E3 F Ad|B4 (3ABc|\r\nd4 (3cBA|B2 F2 Ad|f2 fg fe|d2 F2 A2|\r\nd3 e (3cBA|AB F2 AF|E2 F2 A2|B4 (3ABc|\r\nd3 e (3cBA|AB F2 Ad|ef fg fe|d2 F2 AF|\r\nG2 BG BG|(3FAF AF ED|E3 F A2|B4 dB|\r\nA2 d3 e|ef d3 f|(3efe d2 da|f2 d2 df|\r\ngf ef ge|fe d2 (3BdB|A2 F2 A2|B4 (3ABc|\r\nd2 f2 a2|b5 b|ag fg ab|a4 ef|\r\ngf ef ga|fe d2 (3BdB|(3ABA F2 A2| B4 (3edB|\r\nA2 d3 e|ef d3 f|e2 d3 a |f2 d3 f|\r\ngf ef ga|fe d2 (3BdB|A2 F2 A2|B4 (3ABc|\r\nd2 f2 a2|b6|ag fg ab|a4 ef|\r\ngf ef ga|fe d2 (3BdB|(3ABA F2 A2|B6||",
+      "before_sha256": "6e5be008cd92e809ae1415812da2867ec7eb9f975683205b68e2e3a1dd8b3679",
+      "after_sha256": "3473381c4f1a3d5a72b8a99d92de443121b854edaeb0d664d2df8a8b3e17db8e",
+      "edits": [
+        {
+          "start": 423,
+          "end": 424,
+          "text": "4"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 45,
+          "before": "a5 ef",
+          "after": "a4 ef",
+          "witnesses": [
+            [
+              "56079",
+              60
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "22356",
+      "setting_id": "45077",
+      "name": "Ballygawley, The",
+      "original_contributor": "gian marco",
+      "source_url": "https://thesession.org/tunes/22356#setting45077",
+      "category": "note_length",
+      "before_abc": "DB,|A,2DE FDD2|EFGE A2(3Bcd|cAAG EFGE|AFEF DCB,C|\r\nA,2DE FDD2|EFGE A2(3Bcd|cAAG EAGE|F2D2D2DB,|\r\nA,2DE FDD2|EFGE A2(3Bcd|cAAF G3B|AFEF DCB,C|\r\nA,2DE FDD2|EFGE A2(3Bcd|cAAG EAGE|F2D2D2||\r\n(3ABc|dfAd d2ed|ceAB c3e|dcAF G3B|AFEF DB, B,2|\r\ndfAd d2ed|ceAB c3e|dcAF G2FD|A,2D2D2 (3Acd\r\ndfAd d2ed|ceAB c3e|dcAF G3B|AFEF DB, B,|\r\nA,2DE FDD2|EFGE A2(3Bcd|cAAG EAGE|F2D2D2|",
+      "after_abc": "DB,|A,2DE FDD2|EFGE A2(3Bcd|cAAG EFGE|AFEF DCB,C|\r\nA,2DE FDD2|EFGE A2(3Bcd|cAAG EAGE|F2D2D2DB,|\r\nA,2DE FDD2|EFGE A2(3Bcd|cAAF G3B|AFEF DCB,C|\r\nA,2DE FDD2|EFGE A2(3Bcd|cAAG EAGE|F2D2D2||\r\n(3ABc|dfAd d2ed|ceAB c3e|dcAF G3B|AFEF DB, B,2|\r\ndfAd d2ed|ceAB c3e|dcAF G2FD|A,2D2D2 (3Acd\r\ndfAd d2ed|ceAB c3e|dcAF G3B|AFEF DB, B,2|\r\nA,2DE FDD2|EFGE A2(3Bcd|cAAG EAGE|F2D2D2|",
+      "before_sha256": "f7cae67951a80e99297150b7f9f4f50f235d7c4df2020b02f6839ffef31e2b82",
+      "after_sha256": "defce2317cb3194fd673daac7ed1783f149768e74e4af24a62c5da83f88028ae",
+      "edits": [
+        {
+          "start": 319,
+          "end": 319,
+          "text": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 29,
+          "before": "AFEF DB, B,",
+          "after": "AFEF DB, B,2",
+          "witnesses": [
+            [
+              "45077",
+              21
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
           "scan_pass": 1
         }
       ]
@@ -14821,6 +15883,41 @@
       ]
     },
     {
+      "tune_id": "24123",
+      "setting_id": "49862",
+      "name": "Charlie's",
+      "original_contributor": "Malcolm Reavell",
+      "source_url": "https://thesession.org/tunes/24123#setting49862",
+      "category": "note_length",
+      "before_abc": "GA | B4 A2 | GE -E4 | E3 D EG | D4 GA |\r\nB4 GA | Bd -d2 B | A3 G AB | A4 GA | \r\nB4 A2 | GE -E4 | E3 D EG | D4 GA |\r\nB4 GA | Bd -d2 B2 | A3 G AB | G4 Bd ||\r\ne4 ef | dB -B4 | A4 AB | GE -E2 Bd |\r\ne4 ef | dB -B4 | A4 GA | B4 Bd | \r\ne4 fe | dB -B4 | A4 BA | GE -E2 GE |\r\nD3 E GA | B4 dB | A3 G BA | G4 ||",
+      "after_abc": "GA | B4 A2 | GE -E4 | E3 D EG | D4 GA |\r\nB4 GA | Bd -d2 B2 | A3 G AB | A4 GA | \r\nB4 A2 | GE -E4 | E3 D EG | D4 GA |\r\nB4 GA | Bd -d2 B2 | A3 G AB | G4 Bd ||\r\ne4 ef | dB -B4 | A4 AB | GE -E2 Bd |\r\ne4 ef | dB -B4 | A4 GA | B4 Bd | \r\ne4 fe | dB -B4 | A4 BA | GE -E2 GE |\r\nD3 E GA | B4 dB | A3 G BA | G4 ||",
+      "before_sha256": "b3e3479df61405a6cc1ce65d8a4cb4cb52c849fd77e4850b99357c2d90c7bb17",
+      "after_sha256": "f8a4800f6f41c9b40366ac1b664dbe929bdcc9cee9a95154c3e2163625fd1507",
+      "edits": [
+        {
+          "start": 57,
+          "end": 57,
+          "text": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 7,
+          "before": " Bd -d2 B ",
+          "after": " Bd -d2 B2 ",
+          "witnesses": [
+            [
+              "49862",
+              14
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "24150",
       "setting_id": "49971",
       "name": "Reel O'Garten, The",
@@ -15139,6 +16236,80 @@
           ],
           "before": "\r\nAdde dcAB cBcd efge",
           "after": "\r\nAdde dcAB| cBcd efge",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "25196",
+      "setting_id": "52965",
+      "name": "Old Rustic Bridge",
+      "original_contributor": "gian marco",
+      "source_url": "https://thesession.org/tunes/25196#setting52965",
+      "category": "note_length",
+      "before_abc": "A>d | f2 (f>g) f2 dc | B2 (Gd) A2 A | B2 (cd) d2 cd | e2 (e>f) e2 (A>d) |\r\n f2 (f>g) f2 dc | B2 (Gd) A3 A | B2 (eg) fecA | d2 (d>e) d2 d2 |\r\nc2 (c>d) e2 fe | e2 (Bc) d2 c>d | e2 (a>c) edcB | A2 B2 c2 (A>d) |\r\nf2 (fg) f2 dc | B2 (Gd) A3 A | B2 (eg) fecA | d2 (de) d3 f |\r\ng2 (g>f) e2 Bc | (d (f3) f3) f | e2 (a>c) edcB | A2 B2 c2 (A>d) |\r\nf2 (f>g) f2 dc | B2 (Gd) A3 A | B2 (eg) fecA | d2 (d>e) d2 ||",
+      "after_abc": "A>d | f2 (f>g) f2 dc | B2 (Gd) A3 A | B2 (cd) d2 cd | e2 (e>f) e2 (A>d) |\r\n f2 (f>g) f2 dc | B2 (Gd) A3 A | B2 (eg) fecA | d2 (d>e) d2 d2 |\r\nc2 (c>d) e2 fe | e2 (Bc) d2 c>d | e2 (a>c) edcB | A2 B2 c2 (A>d) |\r\nf2 (fg) f2 dc | B2 (Gd) A3 A | B2 (eg) fecA | d2 (de) d3 f |\r\ng2 (g>f) e2 Bc | (d (f3) f3) f | e2 (a>c) edcB | A2 B2 c2 (A>d) |\r\nf2 (f>g) f2 dc | B2 (Gd) A3 A | B2 (eg) fecA | d2 (d>e) d2 ||",
+      "before_sha256": "682a34ed891aaa1939d2b066e6f83aefe84e3928c8164444b7a0e45c207504e8",
+      "after_sha256": "fc7105347b40dcd30c4c0db48aa77c6d6a670874a8119001ceae6163d89c0ef4",
+      "edits": [
+        {
+          "start": 32,
+          "end": 33,
+          "text": "3"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 3,
+          "before": " B2 (Gd) A2 A ",
+          "after": " B2 (Gd) A3 A ",
+          "witnesses": [
+            [
+              "52965",
+              6
+            ],
+            [
+              "52965",
+              22
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
+      "tune_id": "25233",
+      "setting_id": "53043",
+      "name": "Broad Black Brimmer",
+      "original_contributor": "Brendan Davison",
+      "source_url": "https://thesession.org/tunes/25233#setting53043",
+      "category": "note_length",
+      "before_abc": "D2 G>A | B>B B>B | B>A G>A | B>G E>G |\r\n D2 D->D | G>G G>G | G>G F>G | A4- |\r\n A z5/4 d/ | e>d d>B | A>G G>A | B>G E>G |\r\n D G>A | B>B A<G | A>F E>D | G4- |\r\n G z5/4 B/ | c>c c>c | e>e e>e | d>B G>B | d z5/4 B/ |\r\n B>B B>B | B>A G>A | B4- | B2 z5/4 c/ |\r\n d>e d>B | A>G GG/A/ | B>G E>G | D2 G>A |\r\n B>B B>G | A>A G>F | G4| z5/4 d/ e d/ |\r\n d2 d2 | A<G z G/G/ | c/<c d>e | d3 G/A/ |\r\n B>B B>B | B>A G>A | B4- | B2 z5/4 c/ |\r\n d2 e2 | d2 B>A | G<A G>E | D2 G>A |\r\n B>B BG | A>A G>F | G4- | G2 z5/4 B/ |\r\n c2 c2 | e2 e>e | d>B G>B | d2 z5/4 B/ |\r\n B>B B>B | B>A G>A | B4- | B2 z5/4 c/ |\r\n d>e d>B | A<G z5/4 A/ | B>G G>E | D>D E>F |\r\n G>G G>e | d<B A2 | G2 G2 ||",
+      "after_abc": "D2 G>A | B>B B>B | B>A G>A | B>G E>G |\r\n D2 D->D | G>G G>G | G>G F>G | A4- |\r\n A z5/4 d/ | e>d d>B | A>G G>A | B>G E>G |\r\n D2 G>A | B>B A<G | A>F E>D | G4- |\r\n G z5/4 B/ | c>c c>c | e>e e>e | d>B G>B | d z5/4 B/ |\r\n B>B B>B | B>A G>A | B4- | B2 z5/4 c/ |\r\n d>e d>B | A>G GG/A/ | B>G E>G | D2 G>A |\r\n B>B B>G | A>A G>F | G4| z5/4 d/ e d/ |\r\n d2 d2 | A<G z G/G/ | c/<c d>e | d3 G/A/ |\r\n B>B B>B | B>A G>A | B4- | B2 z5/4 c/ |\r\n d2 e2 | d2 B>A | G<A G>E | D2 G>A |\r\n B>B BG | A>A G>F | G4- | G2 z5/4 B/ |\r\n c2 c2 | e2 e>e | d>B G>B | d2 z5/4 B/ |\r\n B>B B>B | B>A G>A | B4- | B2 z5/4 c/ |\r\n d>e d>B | A<G z5/4 A/ | B>G G>E | D>D E>F |\r\n G>G G>e | d<B A2 | G2 G2 ||",
+      "before_sha256": "56843b1b0a97bc33fb8d5aef0eb937be0e9a5070aff3f213ca74b92d3d2a036b",
+      "after_sha256": "2a4a63b5404b643aabb0b3a8a78d1ea76b97e47e8f763d8c2680ddea815d4a17",
+      "edits": [
+        {
+          "start": 124,
+          "end": 124,
+          "text": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 13,
+          "before": "\r\n D G>A ",
+          "after": "\r\n D2 G>A ",
+          "witnesses": [
+            [
+              "53043",
+              28
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
           "scan_pass": 1
         }
       ]
@@ -15533,6 +16704,41 @@
       ]
     },
     {
+      "tune_id": "26766",
+      "setting_id": "57927",
+      "name": "Dún Uí Bhraoin",
+      "original_contributor": "Loughcurra",
+      "source_url": "https://thesession.org/tunes/26766#setting57927",
+      "category": "note_length",
+      "before_abc": "GA|B2B2c2Bc|d2(de)d2(Bd)|e2edB2G2|A2G3z(GA)|\r\nB2B2c2Bc|d2d2(efed)|(ed)(BG)B2AF|G4z2BA|\r\n(B3/2d/2) (ef)g2gf|(efed)d2Bd|e2(ef)d2BG|A2G2z(GA)|\r\nB2B2c2Bc|d2d2(efed)|(ed)(BG)B2AF|G4z2||",
+      "after_abc": "GA|B2B2c2Bc|d2(de)d2(Bd)|e2edB2G2|A2G3z(GA)|\r\nB2B2c2Bc|d2d2(efed)|(ed)(BG)B2AF|G4z2BA|\r\n(B3/2d/2) (ef)g2gf|(efed)d2Bd|e2(ef)d2BG|A2G3z(GA)|\r\nB2B2c2Bc|d2d2(efed)|(ed)(BG)B2AF|G4z2||",
+      "before_sha256": "8084b3aa21b50e12755be19fe72634167ac5ea1f30335badb0cadaa6270a563f",
+      "after_sha256": "56084e37d4f9a7e51b874112160bfcb67a50d6f48a1e3b5fcbb4e6d5ce12856f",
+      "edits": [
+        {
+          "start": 132,
+          "end": 133,
+          "text": "3"
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "note_length",
+          "bar": 13,
+          "before": "A2G2z(GA)",
+          "after": "A2G3z(GA)",
+          "witnesses": [
+            [
+              "57927",
+              4
+            ]
+          ],
+          "method": "separate written phrase in the same upstream setting",
+          "scan_pass": 1
+        }
+      ]
+    },
+    {
       "tune_id": "26802",
       "setting_id": "58030",
       "name": "Allenstown , The",
@@ -15583,5 +16789,5 @@
       ]
     }
   ],
-  "phrase_scanner_sha256": "01a88fb54f6a0d0f7da213c47f815523c2f3edaaed50a01b0c73664755347bb6"
+  "phrase_scanner_sha256": "aa16fe030569950a78c1a211a6a9aaddd0d2e61ad6f6c2a1d1a67811ccd9b273"
 }

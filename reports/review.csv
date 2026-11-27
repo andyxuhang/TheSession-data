@@ -104,12 +104,6 @@ d2 g gfg|b2 g gfg|a2 f fef|agf gfe|d2 g gfg|b2 g gfg|agf def| g3 g2e |
 d3 GAB|.g2 d B3 | A2 .c B2G| A3 ABc|d3 GAB|.g2d B3|A2 c BcA| G3 ABc|
 d2 g gfg|B2 g gfg|d2 g gfg|agf gfe|d2 g gfg|B2 g gfg|agf def| g3 ABc|
 d2 g gfg|b2 g gfg|b2 g gfg|agf gfe|d2 g gfg|B2 g gfg|agf |def g6||"
-14630,26964,A Dhia Na Nollaig,Stefan Thamm,https://thesession.org/tunes/14630#setting26964,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""26964"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""9/2"", ""expected_eighths"": ""6"", ""fragment"": ""e3/2 d BA"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","|:ef|g4 ag|f4 gf|e3/2 d BA|B4 BA|
-G2 g2 g/f/e|f3 d cA|G4 AF|G4:|:GB|
-c4 BA|B/d/d- d2 BA|G2 g2 fd|e4 ga|
-b4 b/a/g/b/|a3 g ed|e6-|e3 d ef|
-g4 ag|f3 d gf|e3 d BA|B4 BA|
-G2 g2 g/f/e|f3 d cA|G4 AF|G4:|"
 9105,23732,A Dram At The Wake,Nigel Gatherer,https://thesession.org/tunes/9105#setting23732,内部小节时值超出,"{""current_internal_bars"": [{""setting_id"": ""23732"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""ADDE FAdB"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""23732"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""ADDF EFDB"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""23732"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""ADDE FAdB"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""23732"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""\r\nAFdB AFEB"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""23732"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""ADDE FAdB"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""23732"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""ADDF EFDB"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""23732"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""\r\nADDE FAdB"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""23732"", ""bar"": 11, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""\r\nAdFd EFGe"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""23732"", ""bar"": 12, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""fddB Adef"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""23732"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""gfed B2 de"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""23732"", ""bar"": 14, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""\r\nfddB AdFd"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""23732"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""AdFd EFGf"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""23732"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""4"", ""fragment"": ""afdf AdFd"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","B|ADDE FAdB|ADDF EFDB|ADDE FAdB|
 AFdB AFEB|ADDE FAdB|ADDF EFDB|
 ADDE FAdB|AFdB AFEe||fddB AdFd|
@@ -1765,13 +1759,13 @@ B2 E E2 D c2 A B2 G|1 A2 G F2 G A2 D G2 A:|2 A2 G F2 G A2 c B2 A||
 B2 BA G2AB|cBcd e2 d2 |BD (3GAB AD FA|G2GF G2 :|
 |:Bc|d2Bd gdBd|c>B cdcA F2|G3/2A BG AF GE |D2 D>D D2 GF|
 EcEG c3 d|BGDG B3 B|BG (3Bcd AD FA|G2 G>F G2 :|"
-22356,45077,"Ballygawley, The",gian marco,https://thesession.org/tunes/22356#setting45077,内部短小节候选; 内部小节时值超出; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""45077"", ""bar"": 26, ""category"": ""irregular"", ""duration_eighths"": ""16"", ""expected_eighths"": ""8"", ""fragment"": ""A,2D2D2 (3Acd\r\ndfAd d2ed"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""45077"", ""bar"": 29, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": ""AFEF DB, B,"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","DB,|A,2DE FDD2|EFGE A2(3Bcd|cAAG EFGE|AFEF DCB,C|
+22356,45077,"Ballygawley, The",gian marco,https://thesession.org/tunes/22356#setting45077,内部小节时值超出,"{""current_internal_bars"": [{""setting_id"": ""45077"", ""bar"": 26, ""category"": ""irregular"", ""duration_eighths"": ""16"", ""expected_eighths"": ""8"", ""fragment"": ""A,2D2D2 (3Acd\r\ndfAd d2ed"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","DB,|A,2DE FDD2|EFGE A2(3Bcd|cAAG EFGE|AFEF DCB,C|
 A,2DE FDD2|EFGE A2(3Bcd|cAAG EAGE|F2D2D2DB,|
 A,2DE FDD2|EFGE A2(3Bcd|cAAF G3B|AFEF DCB,C|
 A,2DE FDD2|EFGE A2(3Bcd|cAAG EAGE|F2D2D2||
 (3ABc|dfAd d2ed|ceAB c3e|dcAF G3B|AFEF DB, B,2|
 dfAd d2ed|ceAB c3e|dcAF G2FD|A,2D2D2 (3Acd
-dfAd d2ed|ceAB c3e|dcAF G3B|AFEF DB, B,|
+dfAd d2ed|ceAB c3e|dcAF G3B|AFEF DB, B,2|
 A,2DE FDD2|EFGE A2(3Bcd|cAAG EAGE|F2D2D2|"
 2772,48413,"Ballyhoura Mountains, The",Finnbarr,https://thesession.org/tunes/2772#setting48413,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""48413"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""4"", ""fragment"": ""B> de"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","|:B2 AG|EG GA|B2 AG|B> de|
 dB> AG|EG GA|BA/B/ dB|AG G2:|
@@ -2975,10 +2969,10 @@ G3 D G2 A2|B2 c>B A2 B>c|d3 G B>AG>F|G4 G2 D2|
 G2 D>G A2 G>A|B3 B A2 B>c|d3 G B>AG>F|G2 (3GGG G2:|
 d3 e d2 c2|B4 d4|e3 e d>cB>A|G4 F2 (3DEF|
 G4 A4|B2 d>B A2 (3ABc|d3 D B>AG>F|G2 (3GGG G2:|"
-25233,53043,Broad Black Brimmer,Brendan Davison,https://thesession.org/tunes/25233#setting53043,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""53043"", ""bar"": 9, ""category"": ""irregular"", ""duration_eighths"": ""11/4"", ""expected_eighths"": ""4"", ""fragment"": ""\r\n A z5/4 d/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""4"", ""fragment"": ""\r\n D G>A "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 17, ""category"": ""irregular"", ""duration_eighths"": ""11/4"", ""expected_eighths"": ""4"", ""fragment"": ""\r\n G z5/4 B/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 21, ""category"": ""irregular"", ""duration_eighths"": ""11/4"", ""expected_eighths"": ""4"", ""fragment"": "" d z5/4 B/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 25, ""category"": ""irregular"", ""duration_eighths"": ""15/4"", ""expected_eighths"": ""4"", ""fragment"": "" B2 z5/4 c/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 33, ""category"": ""irregular"", ""duration_eighths"": ""13/4"", ""expected_eighths"": ""4"", ""fragment"": "" z5/4 d/ e d/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 36, ""category"": ""irregular"", ""duration_eighths"": ""15/4"", ""expected_eighths"": ""4"", ""fragment"": "" c/<c d>e "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 41, ""category"": ""irregular"", ""duration_eighths"": ""15/4"", ""expected_eighths"": ""4"", ""fragment"": "" B2 z5/4 c/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 49, ""category"": ""irregular"", ""duration_eighths"": ""15/4"", ""expected_eighths"": ""4"", ""fragment"": "" G2 z5/4 B/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 53, ""category"": ""irregular"", ""duration_eighths"": ""15/4"", ""expected_eighths"": ""4"", ""fragment"": "" d2 z5/4 B/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 57, ""category"": ""irregular"", ""duration_eighths"": ""15/4"", ""expected_eighths"": ""4"", ""fragment"": "" B2 z5/4 c/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 59, ""category"": ""irregular"", ""duration_eighths"": ""15/4"", ""expected_eighths"": ""4"", ""fragment"": "" A<G z5/4 A/ "", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","D2 G>A | B>B B>B | B>A G>A | B>G E>G |
+25233,53043,Broad Black Brimmer,Brendan Davison,https://thesession.org/tunes/25233#setting53043,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""53043"", ""bar"": 9, ""category"": ""irregular"", ""duration_eighths"": ""11/4"", ""expected_eighths"": ""4"", ""fragment"": ""\r\n A z5/4 d/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 17, ""category"": ""irregular"", ""duration_eighths"": ""11/4"", ""expected_eighths"": ""4"", ""fragment"": ""\r\n G z5/4 B/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 21, ""category"": ""irregular"", ""duration_eighths"": ""11/4"", ""expected_eighths"": ""4"", ""fragment"": "" d z5/4 B/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 25, ""category"": ""irregular"", ""duration_eighths"": ""15/4"", ""expected_eighths"": ""4"", ""fragment"": "" B2 z5/4 c/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 33, ""category"": ""irregular"", ""duration_eighths"": ""13/4"", ""expected_eighths"": ""4"", ""fragment"": "" z5/4 d/ e d/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 36, ""category"": ""irregular"", ""duration_eighths"": ""15/4"", ""expected_eighths"": ""4"", ""fragment"": "" c/<c d>e "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 41, ""category"": ""irregular"", ""duration_eighths"": ""15/4"", ""expected_eighths"": ""4"", ""fragment"": "" B2 z5/4 c/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 49, ""category"": ""irregular"", ""duration_eighths"": ""15/4"", ""expected_eighths"": ""4"", ""fragment"": "" G2 z5/4 B/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 53, ""category"": ""irregular"", ""duration_eighths"": ""15/4"", ""expected_eighths"": ""4"", ""fragment"": "" d2 z5/4 B/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 57, ""category"": ""irregular"", ""duration_eighths"": ""15/4"", ""expected_eighths"": ""4"", ""fragment"": "" B2 z5/4 c/ "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""53043"", ""bar"": 59, ""category"": ""irregular"", ""duration_eighths"": ""15/4"", ""expected_eighths"": ""4"", ""fragment"": "" A<G z5/4 A/ "", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","D2 G>A | B>B B>B | B>A G>A | B>G E>G |
  D2 D->D | G>G G>G | G>G F>G | A4- |
  A z5/4 d/ | e>d d>B | A>G G>A | B>G E>G |
- D G>A | B>B A<G | A>F E>D | G4- |
+ D2 G>A | B>B A<G | A>F E>D | G4- |
  G z5/4 B/ | c>c c>c | e>e e>e | d>B G>B | d z5/4 B/ |
  B>B B>B | B>A G>A | B4- | B2 z5/4 c/ |
  d>e d>B | A>G GG/A/ | B>G E>G | D2 G>A |
@@ -3121,10 +3115,10 @@ B/c/d/e/ f/B/B/B/|a/B/B/B/ fe/a/|B/c/d/e/ f/B/B/B/|c/A/A/A/ e/A/A/A/|
 B/c/d/e/ f/B/B/B/|a/B/B/B/ fe/d/|c>A d/fc/|cB B:|
 B/c/d/e/ f/B/B/B/|a/B/B/B/ f/B/B/B/|B/c/d/e/ f/B/B/B/|c/A/A/A/ e/A/A/A/|
 B/c/d/e/ f/B/B/B/|a/B/B/B/ fe/d/|c>A d/fc/|cB B:|"
-9456,20016,"Burning Snowball, The",JACKB,https://thesession.org/tunes/9456#setting20016,内部短小节候选; 内部小节时值超出; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""20016"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""dBG Az"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""20016"", ""bar"": 23, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""6"", ""fragment"": ""Gz3 z2g"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","|:ABd e2g|ged B2A|G3 d2e|edB edB|
+9456,20016,"Burning Snowball, The",JACKB,https://thesession.org/tunes/9456#setting20016,内部小节时值超出,"{""current_internal_bars"": [{""setting_id"": ""20016"", ""bar"": 23, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""6"", ""fragment"": ""Gz3 z2g"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:ABd e2g|ged B2A|G3 d2e|edB edB|
 ABd e2g|ged B2A|GBd g2e|dBG A2 z:|
 |:g2e a2g|ged B2A|G3 d2e|edB edB|
-gee aee|ged B2A|GBd g2e|dBG Az|
+gee aee|ged B2A|GBd g2e|dBG A2z|
 g2e a2g|ged B2A|G3 d2e|edB edB|
 gee aee|ged B2A|Gz3 z2g|age dBG||"
 7773,19117,Bury The Cabbage,The Merry Highlander,https://thesession.org/tunes/7773#setting19117,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""19117"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""6"", ""fragment"": ""dB BB/c/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19117"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""6"", ""fragment"": ""dc dB"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19117"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""17/4"", ""expected_eighths"": ""6"", ""fragment"": ""cd e>c/d/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19117"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nec ec"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19117"", ""bar"": 12, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""6"", ""fragment"": ""fd de/f/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19117"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""6"", ""fragment"": ""gf gg/a/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19117"", ""bar"": 14, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""6"", ""fragment"": ""ba ac/d/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19117"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nec ea/=g/"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:ec ec|dB BB/c/|dc dB|cd e>c/d/|
@@ -3829,14 +3823,6 @@ e2d dgd dcB | BcB BcG A2 a|g2f fgd dcB|BcB BcA G2 (3ABc||"
 655,13687,Charlie O'Neill's,arpadoro,https://thesession.org/tunes/655#setting13687,内部小节时值超出,"{""current_internal_bars"": [{""setting_id"": ""13687"", ""bar"": 9, ""category"": ""irregular"", ""duration_eighths"": ""9"", ""expected_eighths"": ""8"", ""fragment"": ""af e2 d3de"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:B3d A3B|defd ed (3Bcd|B3d A3f|1 af e2 d3A:|2 af e2 d3e||
 fgaf g2 bg|afdf edBA|fgaf g2 bg|af e2 d3de|
 fgaf g2 bg|afdf edBA|B3d A3f|af e2 d3A||"
-24123,49862,Charlie's,Malcolm Reavell,https://thesession.org/tunes/24123#setting49862,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""49862"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": "" Bd -d2 B "", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","GA | B4 A2 | GE -E4 | E3 D EG | D4 GA |
-B4 GA | Bd -d2 B | A3 G AB | A4 GA | 
-B4 A2 | GE -E4 | E3 D EG | D4 GA |
-B4 GA | Bd -d2 B2 | A3 G AB | G4 Bd ||
-e4 ef | dB -B4 | A4 AB | GE -E2 Bd |
-e4 ef | dB -B4 | A4 GA | B4 Bd | 
-e4 fe | dB -B4 | A4 BA | GE -E2 GE |
-D3 E GA | B4 dB | A3 G BA | G4 ||"
 10486,20395,"Charms Of Whisky, The",bogman,https://thesession.org/tunes/10486#setting20395,内部小节时值超出; 漏写小节线,"{""current_internal_bars"": [{""setting_id"": ""20395"", ""bar"": 14, ""category"": ""irregular"", ""duration_eighths"": ""16"", ""expected_eighths"": ""8"", ""fragment"": ""BGBd e2 Aa\r\ncAeA ceAe"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""missing_barline""]}","a|c2 BA AAAd|BGdG BdGd|c2 BA AAAd|BGBd e2 Aa|
 c2 BA AAAd|BGdG BdGd|c2 BA AAcA|BGGB e2A||
 a|cAeA ceAe|BGdG BdGd|cAeA ceAc|BGBd e2 Aa
@@ -4241,13 +4227,6 @@ B,|(G,A,)A,C EA,CE|GEDG B,G,G,B,|(G,A,)A,C EA,CE|GEDB, A,/A,/A, A,B,|
 (G,A,)A,A GAAE|GEDC B,DDA|E(A,A,B,) C/C/C CE|DB,GB, (G,A,) A,|
 B,|A,aag {ab}agea|gedg BAGB|Aaab {ab}ageg|dBgB A2 AB|
 Aaab {ab}ageb|gedg BAGB|cBAB cdec|dBgB A2A|"
-21422,42768,"Colours Of Cape Breton, The",🎻 Melody Player 🎻,https://thesession.org/tunes/21422#setting42768,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""42768"", ""bar"": 21, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""B>A G c2"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","|:D>D|D2 E2 G2|A4 G>A|B2 E2 G2|A4 G>A|
-B<d c2 B2|A>G E2 A>G|E2 D2 D2|D4:|
-d>d|d2 A2 B2|c4 d>c|B>A G2 c2|A4 G>A|
-B<d c2 B2|A>G E2 A>G|E2 D2 D2|D6|
-d2 A2 B2|c2 d3 c|B>A G c2|A4 G>A|
-B<d c2 B2|A>G E2 A>G|E2 D2 D2|1 D4||
-!fine! D6||"
 1030,14253,Comb Your Hair And Curl It,slainte,https://thesession.org/tunes/1030#setting14253,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""14253"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""9"", ""fragment"": ""(3Bcd ec d2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""14253"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""9"", ""fragment"": ""BE EF GA"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""14253"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""9"", ""fragment"": ""fd dc d2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""14253"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""9"", ""fragment"": ""ge ed ec"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:BE EF GA|(3Bcd ec d2|BE EF GA|(3BcB AG FD:|
 ge ed eg|fd dc d2|ge ed ec|(3BcB AG FD:|
 B2E E2F G2A|B2e ece dBA|B2E E2F G2A|B=cB A2G FED:|
@@ -4415,10 +4394,10 @@ e3 f/g/ a(3g/f/e/|d2 B>d g>G|GB/d/ f3{fgf}e/d/|dc/A/ B2 GA/B/|
 A2 G2 GF|G4 G2|dc B3A|GA Bc|d^c de fd|g>f (3gab a>g|
 g2 f2 g>f/d/|e3 f/g/ a(3g/f/e/|d2 B>d g>G|GB/d/ f3{fgf}e/d/|
 dc/A/ B2 GA/B/|A2 G2 GF|G4 G4|G4 z2||"
-1815,25119,"Coolin, The",JACKB,https://thesession.org/tunes/1815#setting25119,内部短小节候选; 内部小节时值超出; 音长错误; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""25119"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""6"", ""fragment"": ""D>E F>G"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""25119"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""25/4"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nd2 c2 d>c/A/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""25119"", ""bar"": 19, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""6"", ""fragment"": ""DF/A/ c{cdc}B/A/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""25119"", ""bar"": 22, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""D4 D4"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar"", ""proven_long_note""]}","AB/c/|(d2 d2) e>c|d>A F2 DF/A/|d>c de/f/ ed|d2 c2 dc/A/|
+1815,25119,"Coolin, The",JACKB,https://thesession.org/tunes/1815#setting25119,内部小节时值超出; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""25119"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""6"", ""fragment"": ""D>E F>G"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""25119"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""25/4"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nd2 c2 d>c/A/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""25119"", ""bar"": 22, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""D4 D4"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","AB/c/|(d2 d2) e>c|d>A F2 DF/A/|d>c de/f/ ed|d2 c2 dc/A/|
 B3 c/d/ e(3d/c/B/|A2 F>A d>D|DF/A/ c3{cdc}B/A/|AG/E/ F2 DE/F/|
 E2 D2 D2|D4 D2|AG/E/ F3E|D>E F>G|AG AB cA|d>c de/f/ e>d|
-d2 c2 d>c/A/|B3 c/d/ e(3d/c/B/|A2 F>A d>D|DF/A/ c{cdc}B/A/|
+d2 c2 d>c/A/|B3 c/d/ e(3d/c/B/|A2 F>A d>D|DF/A/ c3{cdc}B/A/|
 AG/E/ F2 DE/F/|E2 D2 D2|D4 D4|D4 z2||"
 1815,25125,"Coolin, The",JACKB,https://thesession.org/tunes/1815#setting25125,内部小节时值超出; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""25125"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""6"", ""fragment"": ""G>A B>c"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""25125"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""25/4"", ""expected_eighths"": ""6"", ""fragment"": ""\r\ng2 f2 g>f/d/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""25125"", ""bar"": 22, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""G4 G4"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","de/f/|(g2 g2) a>f|g>d B2 GB/d/|g>f ga/b/ ag|g2 f2 gf/d/|
 e3 f/g/ a(3g/f/e/|d2 B>d g>G|GB/d/ f3{fgf}e/d/|dc/A/ B2 GA/B/|
@@ -6164,10 +6143,6 @@ Bc dB d2 cA|c2 BA GA B2|Bc dB d2 cA|c2 BG A3:|"
 AAA c3|ddd e2""whoop!""(=g|=g2)e e2d|c2A A3||
 a2a e3|c2d e3|a2a e2d|d2c B2g|
 a2a g2g|f2f e2c|c2e d2B|c2A A3||""whoop!""x3||"
-26766,57927,Dún Uí Bhraoin,Loughcurra,https://thesession.org/tunes/26766#setting57927,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""57927"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": ""A2G2z(GA)"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","GA|B2B2c2Bc|d2(de)d2(Bd)|e2edB2G2|A2G3z(GA)|
-B2B2c2Bc|d2d2(efed)|(ed)(BG)B2AF|G4z2BA|
-(B3/2d/2) (ef)g2gf|(efed)d2Bd|e2(ef)d2BG|A2G2z(GA)|
-B2B2c2Bc|d2d2(efed)|(ed)(BG)B2AF|G4z2||"
 6934,6934,Duncan Gray,Falkbeer,https://thesession.org/tunes/6934#setting6934,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""6934"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""\""D7\""ABF2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""6934"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""\""C\""ccc2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""6934"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""\""Am\""cB AG"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""6934"", ""bar"": 9, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""\""D7\""F/G/A/F/ D2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""6934"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""\r\n\""G\""dB\""Am\""cA"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""6934"", ""bar"": 11, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""\""G\""BG\""D7\""A2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""6934"", ""bar"": 12, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""\""G\""G2\""Am\""A>c"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:""G""DG FG|""D7""ABF2|""G""G2""Am""A>c|1 ""G""BGG2:|2 ""G""BG Gd||
 ""G""Bd dc/B/|""C""ccc2|""Am""cB AG|""D7""F/G/A/F/ D2|
 ""G""dB""Am""cA|""G""BG""D7""A2|""G""G2""Am""A>c|""G""BGG2||"
@@ -7185,11 +7160,6 @@ dcde fded|ceAe fAeA|{d}AFEC EA,CE|FCEC B,2 C/_E/=E||"
 [2 E3 F G3 D|B,G, (3B,CD GDB,D|CA,CE AGEA|GEDB, A,3 B||
 cEAc A3 G|E3 F G3 F|EAAE ABcd|eaed cAed|
 cAAG AcEA|cA (3AAA G2 d|eBdB AGEA|GEDB,A,3 B:|"
-6833,49349,Fingal's Cave,FiddlerChameleon,https://thesession.org/tunes/6833#setting49349,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""49349"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": ""\r\nA AA B>A G<A"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","A2 AA B>A G<A|B2 A2 A2 e<d|B2 A<G e2 d<B|d<e G2 G2 E<G|
-A AA B>A G<A|B2 A2 A2 e<d|B2 A<G e2 d<B|e2 A2 A2 B<d|
-|:e2 d<e g2 e<g|a2 e<a g4|e2 d<e g2 f<g|
-[1 e>d B>A G>A B<d|e2 d<e g2 e<g|a2 e<a g4|g>e f>d g>e d>B|B<e A2 A2 B<d:|
-[2 e>d B<A G>A B<G|c2 B<c d2 c<d|e2 d<e a4|g>e f<d g>e d<B|B<e A2 A2 E<G||"
 6833,18422,Fingal's Cave,ceolachan,https://thesession.org/tunes/6833#setting18422,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""18422"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""15/2"", ""expected_eighths"": ""8"", ""fragment"": ""A4 B>A G/A"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""18422"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": ""B2 A/G e2 d/B"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""18422"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""15/2"", ""expected_eighths"": ""8"", ""fragment"": ""d2 G2 G2 E/G"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""18422"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""15/2"", ""expected_eighths"": ""8"", ""fragment"": ""\r\nA4 B>A G/A"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""18422"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": ""B2 A/G e2 d/B"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:E/G|A4 B>A G/A|B2 A2 A2 e>d|B2 A/G e2 d/B|d2 G2 G2 E/G|
 A4 B>A G/A|B2 A2 A2 e>d|B2 A/G e2 d/B|e2 A2 A2:|B/d|"
 8491,19537,"Finnish, The",CreadurMawnOrganig,https://thesession.org/tunes/8491#setting19537,内部小节时值超出,"{""current_internal_bars"": [{""setting_id"": ""19537"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""9/2"", ""expected_eighths"": ""4"", ""fragment"": ""a^g/a ba"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19537"", ""bar"": 18, ""category"": ""irregular"", ""duration_eighths"": ""9/2"", ""expected_eighths"": ""4"", ""fragment"": ""a^g/a ba"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""19537"", ""bar"": 19, ""category"": ""irregular"", ""duration_eighths"": ""9/2"", ""expected_eighths"": ""4"", ""fragment"": ""ff/f/ ff/f"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:aa aa|a^g/a ba|ff ff|fe/f/ gf|
@@ -7782,10 +7752,6 @@ A4 A2|B3 B AB|c2 B2 c2|d3 c BA|
 Ac/e/ A/A/c/e/|A/A/c/e/ az|ee/f/ e/d/c/B/|A/a/e/c/ A2:|
 |:{ef}g^f/g/ a/g/f/g/|e/g/e/d/ cc/c/|B/c/d/e/ f/d/B/d/|c/d/e/f/ g z|
 {ef}g^f/g/ a/g/f/g/|e/g/e/d/ cc/c/|B/c/d/e/ f/d/B/d/|1 c/e/d/B/ c/d/e/f/:|2 c/e/d/B/ c2||"
-8046,19273,Galway Bay,ceolachan,https://thesession.org/tunes/8046#setting19273,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""19273"", ""bar"": 28, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""B3 A B"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","A2|D4 F2|A4 d2|B3 A B2|A2 F2 E2|F3 E F2|D4 D2|D6-|D4 F2|
-A4 A2|e4 c2|d4 F2|G4 B2|B4 d2|d2 c2 B2|A6-|A6|
-A4 A2|e4 c2|d4 F2|G4 B2|B4 d2|d2 c2 B2|A6-|A4 A2|
-D4 F2|A4 d2|B3 A B|A2 F2 E2|F3 E F2|D4 D2|D6-|D4||"
 8942,8942,"Galway Girl, The",boisei0,https://thesession.org/tunes/8942#setting8942,内部小节时值超出,"{""current_internal_bars"": [{""setting_id"": ""8942"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""10"", ""expected_eighths"": ""8"", ""fragment"": ""\r\nB3 AB3 AB2"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:DE|F2 (3EFE D2 DE|F2 F2 FED A|B2 B2 Bcdc|B2 A2 A2 FA|
 B2 B2 A2 F2|GF G2 F2 D2|E2 E2 EFGF|E2 D2 D2 A2|
 B3 AB3 AB2|c2 d2 B2 A2|ABAG F2 E2-|E2 A2 B2 B2|
@@ -7806,10 +7772,6 @@ D2 FA dAFD|CDEF G2FG|AdcB AGFE|(3D/E/D/ CE D2|
 D2 FA dAFD|CDEF G2 FG|AdcB AGFE|(3D/E/D/ CE D2|
 |:de|fffg fedc|BABc B2 cd|edef edcB|(3A/B/A/ ^GBA2 (3A/B/c/|
 dcdf gdAF|GFGA B2 (3d/c/B/|AdcB AGFE|(3D/E/D/ CE D2:|"
-18372,35914,Gan Ainm,D.Sorcha,https://thesession.org/tunes/18372#setting35914,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""35914"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""6"", ""fragment"": ""B2 AG"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","|:fA AG Ad|B4 AB|de ed eg|e3A de|
-fA AG Ad|B4 AG|FA GF EF|1 D3A de:|2 D4 DE||
-FD DF dc|B4 AG|FA GF ED|E4 DE|
-FD DF dc|B2 AG|FA GF EF|D4 DE:|"
 18802,36812,Gan Ainm,Bruce Lambelle-Rudd,https://thesession.org/tunes/18802#setting36812,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""36812"", ""bar"": 14, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": ""\r\nFEE5"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","|:E2A3EA2|ABcc BcAB|cde2a2e2|dcBA BcB2|
 E2A3EA2|ABcc BcA2|Bcd2efB2-|BAA5:|
 |:edc3BAB|cdB2E2E2|GAB2e2B2|AGFE FG F2|GAB2AGF2-|
@@ -8148,14 +8110,10 @@ fed ^cAG FAF GED|dcA GEA DED D:|"
 dcA GED|GEE E2D|cBA GED|EDD D2||
 F/G/|Add Add|A=cc Acc|Add Add|cBc d2 e|
 fed cAG|AEE G/A/Bd|cBA GED|EDD D2|"
-18316,35795,"Girl Who Was Poorly Clad, The",Jon Corelis,https://thesession.org/tunes/18316#setting35795,内部短小节候选; 内部小节时值超出; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""35795"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""(=cA3B"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""35795"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""(A2G2) (=cd)\r\ne2e2 (=fe)"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","|(=cd)|e2 e2 (=fe)|d2 d2 (ed)|=c2 c2 (dc)|
-A2A2 (=cd)|e2 e2 (=fe)|d2 d2 (ed)|(=cA3B|=c4) (eg)|
+18316,35795,"Girl Who Was Poorly Clad, The",Jon Corelis,https://thesession.org/tunes/18316#setting35795,内部小节时值超出,"{""current_internal_bars"": [{""setting_id"": ""35795"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""(A2G2) (=cd)\r\ne2e2 (=fe)"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|(=cd)|e2 e2 (=fe)|d2 d2 (ed)|=c2 c2 (dc)|
+A2A2 (=cd)|e2 e2 (=fe)|d2 d2 (ed)|(=c2A3B|=c4) (eg)|
 a2 a2 (ag)|e2e2 (ed)|(=c3d) (=cA)|(A2G2) (=cd)
 e2e2 (=fe)|d2d2 (ed)|(=c2A3B|=c4)||"
-18316,35796,"Girl Who Was Poorly Clad, The",Nigel Gatherer,https://thesession.org/tunes/18316#setting35796,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""35796"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""c A3 B"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","cd|e2 e2 fe|d2 d2 ed|c2 c2 dc|A2 A2
-cd|e2 e2 fe|d2 d2 ed|c A3 B|c4
-eg|a2 a2 ag|e2 e2 ed|c3 d cA|A2 G2
-cd|e2 e2 fe|d2 d2 ed|c2 A3 B|c4||"
 1744,30541,"Gladstone, The",JACKB,https://thesession.org/tunes/1744#setting30541,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""30541"", ""bar"": 18, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""8"", ""fragment"": ""AGFA"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:dc|B3c defg|G2BG AFD2|B3c defg|dcBA GBdc|
 BABc defg|G2BG AFD2|BABc defg|dcBA G2:|
 |:Bd|g2bg f2af|e2ge dcBd|c2ec B2dB|AGAB cdef|
@@ -8503,7 +8461,7 @@ d2 d2 c2|B6|A6 A6 A6 G2 D2|E6|E2 A2 A2|B2 B2 B2|BA G2 E2|D6||"
 cec BdB|AGA BGE|DEG AGA|1 BGF G2z:|2 BGF G2D||
 |:GBd gfg|ede gdB|GBd gdB|AGA BGE|
 GBd gfg|ede gdB|GAB AGA|1 BGF G2D:|2 BGF G2z||"
-13859,24885,Green Fields Of Canada,JACKB,https://thesession.org/tunes/13859#setting24885,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""24885"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""GF/D/ D2 DE"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""24885"", ""bar"": 23, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""F<D D4"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","|A2|c4 A2 B/A/G|A4 A3A|d3c d3A|GF/D/ D2 DE|
+13859,24885,Green Fields Of Canada,JACKB,https://thesession.org/tunes/13859#setting24885,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""24885"", ""bar"": 23, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""F<D D4"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|A2|c4 A2 B/A/G|A4 A3A|d3c d3A|GF/D/ D2 D3E|
 =F3G A2 B/A/G|G6 A>G|F<D D2 D4|D4 D2||
 A3G Ad3|d6 e2|=f3e d2 d2|d/c/d/e/ d>c A4|
 G3A d3e|=f3e d3c|A<G G2 Ac d2|de d3^c AG|
@@ -8817,7 +8775,7 @@ D2 G,2 G,2F2 ECD_B,|A,G,A,B, CDEF GABc|BGA^F F2G2G4:|"
 ""G""FBAB2|BdB AFD|DED EFA|FEDB2A:|
 ""D""FED DED|FED EFA|""G""FED DEF|FEFB2A|
 ""D""FED DED|FED EFA|""G""FBd BAF|""A""FEDB2A:|"
-16797,32000,Haudanmaan Hääpolska,Charles Mackenzie,https://thesession.org/tunes/16797#setting32000,内部小节时值超出; 短音符音长候选,"{""current_internal_bars"": [{""setting_id"": ""32000"", ""bar"": 12, ""category"": ""irregular"", ""duration_eighths"": ""13/2"", ""expected_eighths"": ""6"", ""fragment"": ""G/F/G/A B/c/B/A/ GF/E/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""32000"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""13/2"", ""expected_eighths"": ""6"", ""fragment"": ""G/F/G/A B/c/B/A/ GF/E/"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""overfull_short_note_run""]}","(B,|:.B,)^C/^D/ EF/G/ A/G/F/E/|^D/E/F/G/ .FA AF/=D/|G/F/G/A/ B/c/B/A/ GF/E/|^D/E/F/G/ F/E/D/^C/ D(B,|
+16797,32000,Haudanmaan Hääpolska,Charles Mackenzie,https://thesession.org/tunes/16797#setting32000,内部小节时值超出; 短音符音长候选; 独立播放验证未通过,"{""current_internal_bars"": [{""setting_id"": ""32000"", ""bar"": 12, ""category"": ""irregular"", ""duration_eighths"": ""13/2"", ""expected_eighths"": ""6"", ""fragment"": ""G/F/G/A B/c/B/A/ GF/E/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""32000"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""13/2"", ""expected_eighths"": ""6"", ""fragment"": ""G/F/G/A B/c/B/A/ GF/E/"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""overfull_short_note_run""], ""playback_rejection"": ""individual note-length check""}","(B,|:.B,)^C/^D/ EF/G/ A/G/F/E/|^D/E/F/G/ .FA AF/=D/|G/F/G/A/ B/c/B/A/ GF/E/|^D/E/F/G/ F/E/D/^C/ D(B,|
 .B,)^C/^D/ EF/G/ A/G/F/E/|^D/E/F/G/ .FA AF/=D/|G/F/G/A/ B/c/B/A/ GF/E/|^D/E/F/D/ E2 E2:|
 |:BD/C/ .DB (3B/c/B/ A/G/|A/B/A/F/ D/D/F/G/ .AF|G/F/G/A B/c/B/A/ GF/E/|^D/E/F/G/ F/E/D/^C/ DB,|
 BD/C/ .DB (3B/c/B/ A/G/|A/B/A/F/ D/D/F/G/ .AF|G/F/G/A B/c/B/A/ GF/E/|^D/E/F/D/ E2 E2:|"
@@ -9311,12 +9269,6 @@ d2e d2B|d2e d2B|dde d2c|B2A B3|
 d2e d2B|d2e d2B|dde d2c|B2A G2||"
 5748,17701,"Hop, The",Jeremy,https://thesession.org/tunes/5748#setting17701,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""17701"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""1"", ""expected_eighths"": ""12"", ""fragment"": ""\r\nf"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","B|A2 F DFA B2 A d2 e|f2 b afb afd e2 d|
 f|a3 afd ede f3|e3 edf edf efg|"
-15618,29298,Horizontigo,pbsinclair42,https://thesession.org/tunes/15618#setting29298,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""29298"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""15/4"", ""expected_eighths"": ""4"", ""fragment"": ""a>(f/ f/)e/c/A/"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:f>(e e/)c/a/b/|c'b/a/ ga|e/e/e/(f/ f/)c/f/g/|ag/f/ e/d/c/A/|
-B>A B/d/c/A/|F>E F/A/G/E/|1 C>D E/G/A:|2 (C4|C)/B,/C/D/ (3E/F/G/ A/F/ ]|
-B>(A A/)F/B/c/|dc/B/ B/A/B/G/|c>(B B/)G/c/d/|ed/c/ A/B/c/d/|
-f>(e e/)c/f/g/|a>(f/ f/)e/c/A/|B>A B/d/c/A/|B>A B/d/c/A/|F>E F/A/G/E/|C/B,/C/D/ (3E/F/G/ A/F/|
-B>(A A/)F/B/c/|dc/B/ B/A/B/G/|c>(B B/)B/e/f/|gf/e/ dc/e/|
-f>(e e/)c/f/g/|a>(f f/)e/c/A/|B>A B/d/c/A/|F>E F/A/G/E/|C>D E/G/A||"
 4937,58403,Hot Punch,Alexander Aavang,https://thesession.org/tunes/4937#setting58403,内部小节时值超出,"{""current_internal_bars"": [{""setting_id"": ""58403"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""~B2G BdB ~G3 GAB"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""58403"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nc2 A (A^GA) (A^GA) A2=G"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""58403"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""~F3 FAF DFA (d2c)"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""58403"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""\r\n(B2G) GFG E2G D2G"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""58403"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""~B2G BdB ~G3 G3 "", ""reason"": ""No unique supported correction""}, {""setting_id"": ""58403"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""\r\ndBd cAc BGB A2G"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""58403"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""BBG BdB ~G3 GAB"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""58403"", ""bar"": 11, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nc2 A (A^GA) (A^GA) A2=G"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""58403"", ""bar"": 12, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""~F3 FAF DFA (d2c)"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""58403"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""\r\n(B2d) ded (B2d) ded"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""58403"", ""bar"": 14, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""BBG BdB ~G3 G3"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""58403"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""12"", ""expected_eighths"": ""6"", ""fragment"": ""\r\ndBd cAc BGB A2G"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:(B2G) GFG E2G D2G|~B2G BdB ~G3 GAB|
 c2 A (A^GA) (A^GA) A2=G|~F3 FAF DFA (d2c)|
 (B2G) GFG E2G D2G|~B2G BdB ~G3 G3 |
@@ -9463,22 +9415,6 @@ def A2A|DFA AFD|GBG FAF|EFA B2 A:|
 d2 e fdB|c2 d ecA|dcB cAF|EFA B2A|
 d2 e fdB|c2 d ecA|d2 e fdB|AFA ABc
 dfd cec|BdB AFD|GBG FAF|EFA B2 A||"
-22120,56079,"Humours Of Glynn, The",fiddle music,https://thesession.org/tunes/22120#setting56079,内部小节时值超出; 音长错误,"{""current_internal_bars"": [{""setting_id"": ""56079"", ""bar"": 45, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""6"", ""fragment"": ""a5 ef"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""proven_long_note""]}","(3ABc|d3 e (3cBA|B2 F2 Ad|ef fg fe|d2 F2 A2|
-d3 e (3cBA|B2 F2 AF|E2 F2 A2|AB3 (3ABc|
-d3 e (3cBA|B2 F2 Ad|ef fg fe|d2 F2 AF|
-FG BG BG|F2 AF ED|E3 F Ad|B4 (3ABc|
-d4 (3cBA|B2 F2 Ad|f2 fg fe|d2 F2 A2|
-d3 e (3cBA|AB F2 AF|E2 F2 A2|B4 (3ABc|
-d3 e (3cBA|AB F2 Ad|ef fg fe|d2 F2 AF|
-G2 BG BG|(3FAF AF ED|E3 F A2|B4 dB|
-A2 d3 e|ef d3 f|(3efe d2 da|f2 d2 df|
-gf ef ge|fe d2 (3BdB|A2 F2 A2|B4 (3ABc|
-d2 f2 a2|b5 b|ag fg ab|a5 ef|
-gf ef ga|fe d2 (3BdB|(3ABA F2 A2| B4 (3edB|
-A2 d3 e|ef d3 f|e2 d3 a |f2 d3 f|
-gf ef ga|fe d2 (3BdB|A2 F2 A2|B4 (3ABc|
-d2 f2 a2|b6|ag fg ab|a4 ef|
-gf ef ga|fe d2 (3BdB|(3ABA F2 A2|B6||"
 1043,44256,"Humours Of Kiltyclogher, The",Iain_0C,https://thesession.org/tunes/1043#setting44256,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""44256"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""cEE"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44256"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""EFG"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:B|AGE G2 E|cEE|EFG|D3 D2 E|GED D2 B|
 AGE G2 E|cEE EFG|A3 BGE|A3 A2:|
 |:B|c2 B c2 d|ecA ABc|BAG GAB|dBG GAB|
@@ -9679,14 +9615,6 @@ g/e/zc d2(3B/A/G/|A3 {B}A3|Ja3/2b/a g3/2a/g|
 f3/2e/d c2d|{f}e {b}a/e/f/{a}g/ f3/2e/d|e3/2c/A G2E/G/|
 A3/2B/A {B}A3/2 G/A|c3/2d/e fza/f/|
 g/e/zc d2(3B/A/G/|A3 {B}A3:|"
-875,33989,If Ever You Were Mine,DomW,https://thesession.org/tunes/875#setting33989,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""33989"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""\r\ng2 g ed"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","|:(DE)|G4 e2|~d3 B ~B/A/G|AB G2 G2|{A}G3 D DE|
-G4 ~e2|d3 d Bd|~d6|d2 e2 ~f2|
-g2 g ed|g3 g ed|e2 {e}d3 B|AB G2 G/F/E|
-D4 e2|d3 B B/A/G|DEG2GA|G6|1 {A}G3 D:|2 {A}G3 D||
-dc|B3 d B/A/G|B/c/d- dd Bd|c2 d2 e2|d3 ABc|
-B3 d B/A/G|B/c/d- dd Bd|c2 d2 e2|de fd ef|
-g3 g ed|g3 g ed|~e2 d3 B|AB G2 G/F/E|
-D4 e2|d3 B B/A/G|DEG2GA|G4 GA|1 G3 D:|2 {A}G4||"
 7431,22245,"If You Will Not Have Me, You May Let Me Go",ceolachan,https://thesession.org/tunes/7431#setting22245,拍号或曲式需要核对,"{""current_internal_bars"": [], ""previous_source_flags"": [""meter_signature""]}","M:6/8
 |:FBB dcB|Acc edc|dff edc|e/d/c/B/ A/B/c/A/ B2:|
 |:fBB gfB|b/a/g/f/ e/d/c/B/ A2|GB A/B/c/A/ e/d/c/B/|FB A/B/c/A/ B2:|
@@ -10670,27 +10598,6 @@ f|a2 f afd|Bfd afd|AfA aAf|fed e2 f|
 a2 f afd|Bfd afd|AAA cfe|d3 d2|f|
 a2 f afd|Bfd afd|AfA a2 A|fed e2 f|
 AAA BBB|ddd fec|aaa ccc|fec d3||"
-16145,35146,Joshua's Dream,leprecawn,https://thesession.org/tunes/16145#setting35146,内部小节时值超出; 音长错误,"{""current_internal_bars"": [{""setting_id"": ""35146"", ""bar"": 37, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""6"", ""fragment"": ""d'2 b3 g2"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""proven_long_note""]}","D BA|G2 B,D GB|A2 DF Ac|B2 GA Bd|e2 f2 g2|
-d2 GA Bd|EF d3F|E2 G2 c2|A3D BA|
-G2 B,D GB|A2 DF Ac|B2 GA Bd|e2 f2 g2|
-d2 g3 d|ed cB AG|A2 F2 d2|G3 D BA|
-G2 B,D GB|A2 DF Ac|B2 GA Bd|e2 f2 g2|
-d2 GA Bd|EF d3 F|E2 G2 c2|AG FE DC|
-D2 G,D GB|E2 A,E Ac|F2 B,F Bd|G2 CG ce|
-d2 g2 b2|ed cB AG|A2 d2 f2|g3 G ba||
-b2 gd BG|a2 fd AF|g2 eg c'e'|d'2 b3 g2|
-ed cB ce|dc BA GF|E2 G2 c2|Ad ef ga|
-b2 ab gd|a2 ba gf|g2 Bg ag|f2 Bb gf|
-e2 Ge dc|d2 Gd cB|A2 d2 f2|g3 d c'b|
-b2 gd BG|a2 fd AF|g2 eg c'e '|d'2 b3 g|
-ed cB ce|dc BA GF|E2 G2 c2|AB cd ef|
-g2 dB ga|f2 dB fg|e2 fg af|d2 ef ge|
-c2 ea ba|g2 dB cB|AF ED CA,|G,3||"
-19711,38928,Josiane,vsign,https://thesession.org/tunes/19711#setting38928,内部小节时值超出,"{""current_internal_bars"": [{""setting_id"": ""38928"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""9"", ""expected_eighths"": ""8"", ""fragment"": ""B2ze2 d>c BA"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","B|GF EF2< E2F|G>A Be d>c BA|B2ze2 d>c BA|GA BG F2zG|FG A/G/F dB AG|
-FG BF E2 z B|GF EF2< E2F|G>A Be d>c BA|B2ze d>c BA|
-GA BG F2zG|FG A/G/F dB AG|FG BF E> zBd||e2 gc Bc d/c/B|
-AB cd B2zG|FG A/G/F dB AG|FG BF E>z Bd|e2 gc Bc d/c/B|
-AB cd d2zG|FG A/G/F dB AG|FG BF E2zB||"
 15129,28051,Jota Popular,Mario Romo,https://thesession.org/tunes/15129#setting28051,内部短小节候选; 内部小节时值超出; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""28051"", ""bar"": 21, ""category"": ""irregular"", ""duration_eighths"": ""19/2"", ""expected_eighths"": ""6"", ""fragment"": ""F4\r\nF2>G A2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""28051"", ""bar"": 30, ""category"": ""irregular"", ""duration_eighths"": ""11/2"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nF2> G A2"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","F2 G2|:A2B2c2|d2c2B2|A4G2|G2E2F2|G2A2B2|G4F2|
 F2F2G2|A2B2c2|d2c2B2|A4G2|G2E2F2|G2A2B2|c2B2A2|
 d2A2F2|1 D2F2G2:|2 D2Z||
@@ -15349,16 +15256,6 @@ GB/c/d FdA|Ef/e/d cBA|Ggf e>dc|Ae/d/c d2:|"
 9904,907,O'Carolan's Lament,Macha,https://thesession.org/tunes/9904#setting907,内部小节时值超出,"{""current_internal_bars"": [{""setting_id"": ""907"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""e3 B d/B/G A2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""907"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""G2 G2 G4"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""907"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""\r\ne>f g2 f2 g>f"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""907"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""e3 f e/d/B/A/ B2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""907"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""e2 e>f e4"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""907"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""\r\ne>f g2 f2 g>f"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""907"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""e3 f e/d/B/A/ B2-"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","E>F G2A2B2|e3 B d/B/G A2|G2 G2 G4|
 e>f g2 f2 g>f|e3 f e/d/B/A/ B2|e2 e>f e4|
 e>f g2 f2 g>f|e3 f e/d/B/A/ B2-|B A G>E D4|"
-21843,43839,O'Connell's Lamentation,Fliúiteadóir,https://thesession.org/tunes/21843#setting43839,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""43839"", ""bar"": 32, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""\""Dm\"" d3 cA"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","E2|:""Am"" A4 dc|:""Em"" A2G2E2|""C""G2c2d2|""D""e2a2f2|""C""g3ec2|""Dm"" d3cA2|""Em"" G2E2F2|""G""G4 E2|
-""Am"" A4dc|""Em"" A2G2E2|""C""c3 def|""Em"" g2e2a2|""C"" g3ec2|""Dm"" d3cA2|""Am"" A6|1 -A4 E2:|2 A4 ef||
-|:""G""g3 f af|""Em"" g3 b ag|""Dm"" =f>e de =fd|""Am"" e4 A2|
-""C""c>B cd ef|g3e cA|""Em"" G2E2c>A|""G"" G2E2G2|
-""Am"" A2 AB cA|""G"" B2 Bc dB|""C""c3d ef|""Em"" g2e2a2|
-""C"" g3 ec2|""Dm"" d3 cA|""Am"" A6|1 A4 ef:|2 A4 AB||
-|:""Am"" c2E2F2|""Em"" G4 AB|""C"" c>B cd ef|""Em"" g2e2a2|
-""C"" g>=f eg =fe|""Dm"" d=f ed cB|""Am"" c2E2F2|""G"" G4 AB|
-""Am"" c2E2F2|""Em"" G4 AB|""C""c>B cd ef|""Em"" g2e2a2|
-""C""g3e c2|""Dm"" d3cA2|""Am"" A6|-A4 AB:|"
 22689,49748,O'Connell's Welcome To Clare,chaos97,https://thesession.org/tunes/22689#setting49748,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""49748"", ""bar"": 11, ""category"": ""irregular"", ""duration_eighths"": ""11/2"", ""expected_eighths"": ""6"", ""fragment"": ""a>(3fa/c'/ d'c'b"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""49748"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""11/2"", ""expected_eighths"": ""6"", ""fragment"": ""\r\na>(3fa/c'/ d'c'b"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:F/G/|AFA A<dF/G/|AFA A<dB|AdB AGF|GEE E2F/G/|
 AFA A<dF/G/|AFA A<de|fgf ede|fdd d2:|
 |:f/g/|a>(3fa/c'/ d'c'b|a/>b/a/g/f/e/ fdB|AdB AGF|GEE E2 f/g/|
@@ -15502,22 +15399,6 @@ g2g edB|g2g edB|A2a aga|Aaa aba|
 FAGE FAAG|(3FGA BG FDDF|GFEF GABd|1 cAGE D2AG:|2 cABc ~d3g||
 fded cAAB|=cedc BGGA|FGAB cdef|eBdc A2de|
 fddf e=cce|dBed cAAF|(3EFG AB cdef|1 afge dAde:|2 afge d2AG||"
-15605,30488,Old French,JACKB,https://thesession.org/tunes/15605#setting30488,内部小节时值超出; 音长错误,"{""current_internal_bars"": [{""setting_id"": ""30488"", ""bar"": 29, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""A4 GG AB"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""proven_long_note""]}","D|:G2 G2 d2|B2 B2 A2|A2 GG AB|E2 D2 G2|
-G2 d2 B2|B2 AG A2|A6|A2 D2 E2|
-G2 G2 d2|B2 B2 A2|A2 GG AB|E2 D2 d2|
-d2 Bd A2|D4 DE|G4 AG|G6||
-Bc|:d4 GA|B4 dB|A6|GG AB E2|D2 G2 GA|
-Bc d2 dB|d2 A4|A6|DE G4|
-d2 B4|A4 GG AB|E2 D2 d2|d2 Bd A2|
-D2 DD E2|G4 AG|G6 G6:|"
-15605,29269,Old French,JACKB,https://thesession.org/tunes/15605#setting29269,内部小节时值超出; 音长错误,"{""current_internal_bars"": [{""setting_id"": ""29269"", ""bar"": 29, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""e4 dd ef"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""proven_long_note""]}","A|:d2 d2 a2|f2 f2 e2|e2 dd ef|B2 A2 d2|
-d2 a2 f2|f2 ed e2|e6|e4 A2|
-d2 d2 a2|f2 f2 e2|e2 dd ef|B2 A2 a2|
-a2 fa e2|A4 AB|d4 ed|d6||
-fg|:a4 de|f4 af|e6|dd ef B2|A2 d2 de|
-fg a2 af|a2 e4|e6|AB d4|
-a2 f4|e4 dd ef|B2 A2 a2|a2 fa e2|
-A2 AA B2|d4 ed|d6 d6:|"
 23477,48093,"Old Ghost's, The",bogman,https://thesession.org/tunes/23477#setting48093,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""48093"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""e4d"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","|:e6-|e4d|B3d BA|A4 Bd|G3g ed|G4 GA|AB-B4|B3d BG|
 A2 AG AB|AB G2 G2|eg ed Bd|e4-ed|B3d BA|A3B AG|G6|1 G4G2:|2 G6||
 |:e4d2|g4e2|d3 eA2|B4G2|EG GD DG|Ee dB GB|A4 AB|A4G2|
@@ -15566,12 +15447,6 @@ G2gf gagf|dg g/g/g bgag|d=f f/f/f afge|=fdcA G2 Ac:|"
 |:g>e d>B|A/B/A/G/ ED/E/|GG/B/ A/G/A/B/|
 GG BHd2d|g>e d>B|A/B/A/G/ ED/E/|
 GG/B/ A/G/A/B/|1 GG HG3d:|2 GG HG3||"
-25196,52965,Old Rustic Bridge,gian marco,https://thesession.org/tunes/25196#setting52965,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""52965"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""8"", ""fragment"": "" B2 (Gd) A2 A "", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","A>d | f2 (f>g) f2 dc | B2 (Gd) A2 A | B2 (cd) d2 cd | e2 (e>f) e2 (A>d) |
- f2 (f>g) f2 dc | B2 (Gd) A3 A | B2 (eg) fecA | d2 (d>e) d2 d2 |
-c2 (c>d) e2 fe | e2 (Bc) d2 c>d | e2 (a>c) edcB | A2 B2 c2 (A>d) |
-f2 (fg) f2 dc | B2 (Gd) A3 A | B2 (eg) fecA | d2 (de) d3 f |
-g2 (g>f) e2 Bc | (d (f3) f3) f | e2 (a>c) edcB | A2 B2 c2 (A>d) |
-f2 (f>g) f2 dc | B2 (Gd) A3 A | B2 (eg) fecA | d2 (d>e) d2 ||"
 845,845,Old Stories,The Whistler,https://thesession.org/tunes/845#setting845,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""845"", ""bar"": 26, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""cd3c"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","E3FG2|FA3F2|E2G2A2|B6|E3FG2|FE3D2|E6-|E6|
 E3FG2|FA3F2|G2F2E2|D6|B3AG2|FE3D2|E6-|E2G2A2|
 B3AB2|cd3e2|d2c2B2|A6|E3FG2|FG3A2|B6-|B2G2A2|
@@ -16562,16 +16437,16 @@ e|d/B/d/e/ dB|d/B/d/e/ dB|cA AB|cA Ad|
 B/c/d Gd|Fd Ee|f/g/a ea|g/f/e/f/ d2||
 EF GA|BG GA/B/|cA Ad|cBAB G2|
 d/e/d/c/ Bd|ge ce|fg/a/ df|gG G2||"
-4705,50695,Planxty Sweeney,UPipes & harp,https://thesession.org/tunes/4705#setting50695,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""50695"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""AGA c e/f/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""50695"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""AGA c c'/a/"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","e/d/c/|:AGA c2 G|AGA c2 e/f/|gfe dcd|e/d/dd de/d/c|
-AGA c2 G|AGA c e/f/|gfe dcd|e/c/cc c2 c:|
+4705,50695,Planxty Sweeney,UPipes & harp,https://thesession.org/tunes/4705#setting50695,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""50695"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""AGA c c'/a/"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","e/d/c/|:AGA c2 G|AGA c2 e/f/|gfe dcd|e/d/dd de/d/c|
+AGA c2 G|AGA c2 e/f/|gfe dcd|e/c/cc c2 c:|
 |:cde f2 f|e/f/gf edc|ddd def|gfd d2 e//d//c/|
 AGA c2 G|AGA c c'/a/|gfe dcd|e/c/cc c2 c:|"
-4705,50696,Planxty Sweeney,UPipes & harp,https://thesession.org/tunes/4705#setting50696,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""50696"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""BAB d f/g/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""50696"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""BAB d d'/b/"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","f/e/d/|:BAB d2 A|BAB d2 f/g/|agf ede|f/e/ee ef/e/d|
-BAB d2 A|BAB d f/g/|agf ede|f/d/dd d2 d:|
+4705,50696,Planxty Sweeney,UPipes & harp,https://thesession.org/tunes/4705#setting50696,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""50696"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""BAB d d'/b/"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","f/e/d/|:BAB d2 A|BAB d2 f/g/|agf ede|f/e/ee ef/e/d|
+BAB d2 A|BAB d2 f/g/|agf ede|f/d/dd d2 d:|
 |:def g2 g|f/g/ag fed|eee efg|age e2 f//e//d/|
 BAB d2 A|BAB d d'/b/|agf ede|f/d/dd d2 d:|"
-4705,51131,Planxty Sweeney,UPipes & harp,https://thesession.org/tunes/4705#setting51131,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""51131"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""EDE G B/c/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""51131"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""EDE G g/e/"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","B/A/G/|:EDE G2 D|EDE G2 B/c/|dcB AGA|BAA AB/A/G|
-EDE G2 D|EDE G B/c/|dcB AGA|BGG G2 G:|
+4705,51131,Planxty Sweeney,UPipes & harp,https://thesession.org/tunes/4705#setting51131,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""51131"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""EDE G g/e/"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","B/A/G/|:EDE G2 D|EDE G2 B/c/|dcB AGA|BAA AB/A/G|
+EDE G2 D|EDE G2 B/c/|dcB AGA|BGG G2 G:|
 |:GAB c2 c|B/c/dc BAG|AAA ABc|dcA A2 B//A//G/|
 EDE G2 D|EDE G g/e/|dcB AGA|BGG G2 G:|"
 19716,38937,Planxty Toby Peyton,gian marco,https://thesession.org/tunes/19716#setting38937,内部小节时值超出,"{""current_internal_bars"": [{""setting_id"": ""38937"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""10"", ""expected_eighths"": ""6"", ""fragment"": ""(=efed).c (d_edc).A"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""38937"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""9"", ""expected_eighths"": ""6"", ""fragment"": ""(cdcBAG) ^FDC"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:c>AG GAG|FD=E F2d|c>AG GAc|d=eg f2c|
@@ -16774,18 +16649,10 @@ B,D DB, DC/B,|A,C CA, C2|G,B, A,C B,D|C_E D^F G2|"
 ""G""dBG ""D7""A2G|""G""dBG ""D7""A2G|""G""gfg ""C""efg|""A7""Ad^c ""D7""d3:|
 |:""G7""de=f ""C""c2B|""C""de=f c2B|""Am""cBc ""D7""EFG|""G""ABc ""D7""DFA|
 ""G""BG ""D7""A2G|""C""gfe dcB|""D7""AGF ""G""G3:|"
-1758,33033,"Pretty Girl Milking Her Cow, The",Pierre LAÏLY,https://thesession.org/tunes/1758#setting33033,内部小节时值超出; 音长错误,"{""current_internal_bars"": [{""setting_id"": ""33033"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""D6BA"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""proven_long_note""]}","|:EF|G2B3G|F2A3F|E3F ED-|D4EF|G2B3G|F2A3F|E6-|E4EF|
-G2B3G|F2A3F|E3F ED-|D6BA|G3FE2|D3EF2|E6-|E4:|
-|:D2|G3AB2|d3BG2|F2D4-|D4D2|G3AB2|d2B2d2|e6-|e4ef|
-g3fe2|d3BG2|F2D4-|D4BA|G3FE2|D3EF2|E6-|E4:|"
 1758,44507,"Pretty Girl Milking Her Cow, The",Yooval,https://thesession.org/tunes/1758#setting44507,内部小节时值超出,"{""current_internal_bars"": [{""setting_id"": ""44507"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""A3F EFD2-"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""D4- DEEF"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""G2B2- BGF2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""A2FG E4-"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""E4- EDEF"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nG2B2- BGF2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 9, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""d3F EFD2-"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""D4- DABA"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 11, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""G3F EDB,2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 12, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""E2ED E4-"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""B3G GFD2-"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""D4- DEEF"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 17, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""G3A Bcd2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 18, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""B2dB e3c"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 19, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""egf2- fgfe"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 20, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nd2Bc dBG2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 21, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""A3G GFD2-"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 22, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""D4- DABA"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""44507"", ""bar"": 23, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""G3F EDB,2"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","EDEF|:G2B2- BGF2|A3F EFD2-|D4- DEEF|G2B2- BGF2|A2FG E4-|E4- EDEF|
 G2B2- BGF2|d3F EFD2-|D4- DABA|G3F EDB,2|E2ED E4-|E4 EDEF:|
 |:G3A Bcd2|B3G GFD2-|D4- DEEF|G3A Bcd2|B2dB e3c|egf2- fgfe|
 d2Bc dBG2|A3G GFD2-|D4- DABA|G3F EDB,2|E2ED E4-|1 E4 EDEF:|2 E4||"
-1758,47757,"Pretty Girl Milking Her Cow, The",JACKB,https://thesession.org/tunes/1758#setting47757,内部小节时值超出; 音长错误,"{""current_internal_bars"": [{""setting_id"": ""47757"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""G6ed"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""proven_long_note""]}","AB|:c2e3c|B2d3B|A3G G2-|G4AB|c2e3c|B2d3B|A6-|A4AB|
-c2e3c|B2g3B|A3G G2-|G6ed|c3BA2|E3AB2|A6-|A4:|
-|:G2|c3de2|g3ec2|B2G4-|G4G2|c3de2|g2e2g2|a6-|a4ab|
-c'3ba2|g3ec2|B2G4-|G4ed|c3BA2|E3AB2|A6-|A4:|"
 1758,53401,"Pretty Girl Milking Her Cow, The",DUHEM VERONIQUE,https://thesession.org/tunes/1758#setting53401,内部小节时值超出,"{""current_internal_bars"": [{""setting_id"": ""53401"", ""bar"": 28, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""B2AAG4-"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","AB|c2e3c|ABd3B|A3 G3-|G4AB|c2e3c|ABd3B|A6-|A4AB|
 c2e3c|ABg3B|A3 G3-|G4ed|c3BA2|E3AB2|A6-|A4AB||
 c4(de)|g4dc|(AB)G4-|G4(AB)|c4(de)|g4(eg)|a6-|a4a2|
@@ -19286,15 +19153,6 @@ B2 D2 B2|c2- cB A2|GA B2 G2|D4 D2|
 c2 E2 c2|B2 D2- DB|Ad f2 -fe|d>e dc BA|
 B2 D2 B2|c2 B2 A2|GA B2 G2|D4- D2|
 EG c2 e2|d2 B2 GA|BD- DA AD|G4- G||"
-8586,8586,"Star Of Brittany, The",geoffwright,https://thesession.org/tunes/8586#setting8586,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""8586"", ""bar"": 50, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""B3cd"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","|:f4f2|e4d2|c2B2A2|B6|f2e2f2|g2f2g2|a4g2|f6|
-b3c' b2|a3gf2|e3fd2|c2d2c2|B3cd2|c2d2c2|B4 (3cBA|1 B6:|2 Bc de fa||
-;(b6|b2)c'3b|a4f2|de fg af|(g6|g2) a3g|f4B2|Bc de fg|
-e4e2|e2f2e2|d2e2(f2|f2)e2d2|e4e2|ef3 d2|c6|cd ef ga|
-(b6|b2)c'3b|a4f2|de fg af|(g6|g2) a3g|f4B2|Bc de fg|
-e4e2|e2f2e2|d2e2(f2|f2)e2d2|e4e2|ef3 d2|(c6|
-c2)d2c2|B3cd|c2d2c2|1 B4A2|B6||""Last""BF Bc df|""Fin""b6||
-|:fB eB dB|cB dB eB|fB eB dB|cB dB eB|
-bB aB gB|eB fB gA|f2e2d2|c6:|"
 197,12857,"Star Of Munster, The",OsvaldoLaviosa,https://thesession.org/tunes/197#setting12857,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""12857"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""AEF GED"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""EAA ABd"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""eaa ged"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""\r\ncBA c/B/AG"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""AEF GED"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""EAA ABd"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""a/a/aa age"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 11, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""g/g/gg ged"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 12, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""bag a/g/ed"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""\r\neaa age"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 14, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""a/a/aa age"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""g/g/gg g/a/aa"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""aba ged"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 17, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""\r\neaa aee"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 18, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""c'ba aee"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 19, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""g/g/gg ged"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 20, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""bag {a}ged"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 21, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""\r\neaa aee"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 22, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""c'ba aee"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""12857"", ""bar"": 23, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""g/g/gg g/a/aa"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:cBA c/B/AG|AEF GED|EAA ABd|eaa ged|
 cBA c/B/AG|AEF GED|EAA ABd|edB AAA:|
 eaa age|a/a/aa age|g/g/gg ged|bag a/g/ed|
@@ -19746,14 +19604,6 @@ BAcd A~B2|1 AGFG ABde:|2 AGFG ABdf||"
 G3A Bc|d2f3e|d4 cA|GF D4|B4 AG|A d3 c/A/ F|G4 F2 G4||
 AB|c A3 d2|f4 d/e/f|g4f2|ga d4|e|g3 g a/g/f|g4 fe|d4 cA|GA G4|de|
 f3 g a/g/f|g3 fe|d3 cA|GF D4|B4 AG|A d3 c/A/F|G4F2|G4||"
-6944,44224,Táimse Im' Chodladh,Iain_0C,https://thesession.org/tunes/6944#setting44224,内部短小节候选; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""44224"", ""bar"": 30, ""category"": ""irregular"", ""duration_eighths"": ""4"", ""expected_eighths"": ""6"", ""fragment"": ""B2 AG"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""interior_short_bar""]}","(AF)|G3 A Bc|d4 fe|d4 cA|GF D4|
-B4 AG|Ad d2 cA|G4 G2|G4 AF|
-G3 A Bc|d4 fe|d4 cA|G>F D4|
-B4 AG|Ad d2 cA|G4 G2|G4 AB|
-c2 A2 d2|f2 d2 (3def|g4 g2|
-g>f d2 d2|f2 g2 a2|g4 f>e|d4 cA|
-G>A G2 de|f2 g2 a2|g4 fe|d4 cA|
-G>F D4|B2 AG|Ad d2 (d/c/A/F/)|G4 G2|G4|"
 6944,43257,Táimse Im' Chodladh,NylonFlute,https://thesession.org/tunes/6944#setting43257,内部小节时值超出,"{""current_internal_bars"": [{""setting_id"": ""43257"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""13/2"", ""expected_eighths"": ""6"", ""fragment"": ""B3/2A/2G/2 A<d (3cAF"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""43257"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""13/2"", ""expected_eighths"": ""6"", ""fragment"": ""B3/2A/2G/2 A<d (3cAF"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""43257"", ""bar"": 20, ""category"": ""irregular"", ""duration_eighths"": ""13/2"", ""expected_eighths"": ""6"", ""fragment"": ""B3/2A/2G/2 A<d (3cAF"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","G>F|G3A Bc|d2 f>edc|AFG>F D2|B3/2A/2G/2 A<d (3cAF|G>F G2 G>F|
 G3A Bc|d2 f>edc|AFG>F D2|B3/2A/2G/2 A<d (3cAF|G>F G2 AB|
 (3 cAd f2 (3def|g>fg>a dd/2e/2|(3fga g2 fe|d2 cAG>A|G4 z d/2e/2|
@@ -20261,10 +20111,6 @@ d2 g2 dgfg|dgfg fd^cd|eaag abag|fgag fdBc|
 dc{d}cA G3 B|A/c/A FA DAFA|g2 {a}gf ecAF|A/B/A GF GABc|
 d~g3 dgfg|dgfg fd^cd|ea{b}ag abag|fbag fdBc|
 dc{d}cA G3 B|A/c/A FA DAFA|g2 {a}gf ecAF|DGGF GABc||"
-11114,52239,Tom Doherty's,Erik-Fiddler,https://thesession.org/tunes/11114#setting52239,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""52239"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""15/2"", ""expected_eighths"": ""8"", ""fragment"": ""bB (3B/B/B/B/ f2 f/g/a"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:f2df Bfdf|fefg a/g/f ge|f/g/f df Bfdf|ecAc eaga|
-f/g/f df Bfdf|fefg afga|b/a/g af gefa|ecAc efga :|
-|:bB (3B/B/B/B fB (3B/B/B/B|bB (3B/B/B/B/ f2 f/g/a|bB (3B/B/B/B fBdf|ecAc efga|
-bB (3B/B/B/B fB (3B/B/B/B|bB (3B/B/B/B f2 f/g/a|bgaf gefa|ecAc efga:|"
 13106,22559,Tom Fitzmorris',Lucy Rietmann,https://thesession.org/tunes/13106#setting22559,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""22559"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""6"", ""expected_eighths"": ""8"", ""fragment"": ""ecBc A2"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","AE|:F2AF E2AB|ceAc BFAF|1 EFAB cefc|ecBd cBAE:|2 EFAB c2fc|ecBc A2|
 AB|:c2ec d2fd|c2ec BAFA|1 c2ec d2fd|ecBA FAAB:|2 ABce a2fa|ecBc A2||"
 19058,37398,Tom Glen's,pbsinclair42,https://thesession.org/tunes/19058#setting37398,拍号或曲式需要核对,"{""current_internal_bars"": [], ""previous_source_flags"": [""meter_signature""]}","[M:6/8] B>BB B2A|B<de f2g|a>fe f2e|d>BA A3|
@@ -21190,8 +21036,8 @@ g4 gf|g3 a bd|e6|g4 ge|dB3 (3BAG|( A4 A2)|(G6|G4 ) gf|
 g4 gf|g3 ab g|(e4e) f|g6|g4 gf|g2 b4|(a6|a4) ba|
 g4gf|g3 a bd|(e6|e4) ge|dB4 G (A|A4 A)G|( G6|G4)|
 g2e2 d(B|B4) G2|(A6|A6)|DF G4||"
-21631,49027,"Waves Of Kilkee, The",leprecawn,https://thesession.org/tunes/21631#setting49027,内部小节时值超出; 音长错误; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""49027"", ""bar"": 11, ""category"": ""irregular"", ""duration_eighths"": ""13/2"", ""expected_eighths"": ""6"", ""fragment"": ""d4 B3/A"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""49027"", ""bar"": 22, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""6"", ""fragment"": ""(3def"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""proven_long_note""]}","GA|:B4 ed/e/|d4 B3/A/|G6|g4 f2|e3( f f)g|
-d(B (B)2 B)/A/G|(A6|A2 )z2 GA|B4 ed/e/|d4 B3/A|
+21631,49027,"Waves Of Kilkee, The",leprecawn,https://thesession.org/tunes/21631#setting49027,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""49027"", ""bar"": 22, ""category"": ""irregular"", ""duration_eighths"": ""2"", ""expected_eighths"": ""6"", ""fragment"": ""(3def"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","GA|:B4 ed/e/|d4 B3/A/|G6|g4 f2|e3( f f)g|
+d(B (B)2 B)/A/G|(A6|A2 )z2 GA|B4 ed/e/|d4 B3/A/|
 G6|e2f2g2|d(B( B) B)/A/G|(A4 A)B|((G6|1 G2) z2 GA:|2 G2) z2 g2||
 g4 af|g3 a bd|e4d2|(3def|g4 B2|B4 AG|( A6|A2) z2 g2|
 g4 af|g3 a bd|e6|d4 ge|d(B B2 B)A|(A4 A)G|( G6|G6)||"
@@ -21573,18 +21419,6 @@ f|""D""d2f|""D""a2a|""G""b2g|""Em""e2d|""A""c2A|""A""f2e|""D""d3|""D""d2||"
 18929,37103,Wild Colonial Boy,Proinnsias MacSleimhne,https://thesession.org/tunes/18929#setting37103,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""37103"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\""G\""G2B"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 3, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""d2d"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\""C\""e2c"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 5, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\""Am\""A2G"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\""D7\""FD2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""B2A"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\""G\""G3-"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 11, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\""G\""d2g"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 12, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""g2d"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 13, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\""Am\""f2e"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 14, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""A2B"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 15, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\""D7\""c2d"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 16, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""f2e"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 17, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\""G\""d3-"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 20, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\""G\""G2B"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 21, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""d2d"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 22, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\""C\""e2c"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 23, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\""Am\""A2G"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 24, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\""D7\""FD2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 25, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""B2A"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""37103"", ""bar"": 26, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\""G\""G3-"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","d|""G""G2B|d2d|""C""e2c|""Am""A2G|""D7""FD2|B2A|""G""G3-|G2||
 |:d|""G""d2g|g2d|""Am""f2e|A2B|""D7""c2d|f2e|""G""d3-|""D7""d2:|
 y d|""G""G2B|d2d|""C""e2c|""Am""A2G|""D7""FD2|B2A|""G""G3-|G2||"
-13730,27247,"Wild Geese, The",stefanremy,https://thesession.org/tunes/13730#setting27247,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""27247"", ""bar"": 25, ""category"": ""irregular"", ""duration_eighths"": ""11/2"", ""expected_eighths"": ""6"", ""fragment"": ""A4(G/4A/4B)"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","""_va""(G3/2A/)|B2(B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|E2G2(G3/2A/)|G4(A3/2B/)|
-c2c2(c/4B/4A3/2)|B2B2(B/4A/4G3/2)|A2e2(d3/2B/)|A4(G/4A/4B3/2)|
-c2c2(c/4B/4A3/2)|B2B2(B/4A/4G3/2)|(A3/2B/) (.c.B.A.G)|E4(G3/2A/)|
-B2(B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|(#~E3/2F/)(G3/2A/B3/2A/)|G4""_pp""(G3/2A/)|
-({c}B3/2A/G3/2A/B3/2G/)|({B}A3/2G/E3/2G/A3/2E/)|({A}G3/2E/D3/2E/G3/2A/)|G4z2|
-""_BrdsB""({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/G3/2A/B3/2G/)|A2e2(d3/2B/)|A4(G/4A/4B)|
-""_p""(c3/2B/A3/2B/c3/2A/)|({c}B3/2A/G3/2A/B3/2G/)|A3/2B/ .c.B.A.G|E4""_pp""G3/2A/|
-({c}B3/2A/G3/2A/B3/2G/)|({B}A3/2G/E3/2G/A3/2E/)|({A}G3/2E/D3/2E/G3/2A/)|G7/e/ ({de}d3/2B/)|
-""_ee""(G7/""^Bhorus.""e/) ({de}d3/2B/)|(G7/e/) ({de}d3/2B/)|(c2c'3/2e/ d3/2B/)|(c2c'3/2e/ {de}d3/2c/)|
-(B2b3/2e/ {de}d3/2c/)|(B2b3/2e/ {de}d3/2B/)|(A2a3/2e/ {de}d3/2B/)|(A2a3/2e/ {de}d3/2B/)|
-(c2c'3/2e/ {de}d3/2c/)|(B2b3/2e/ {de}d3/2B/)|(A2a3/2c/ {Bc}B3/2G/)|E4""_pp""(G3/2A/)|
-B2(B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|E3/2F/G3/2B/A3/2B/|G2""^H""G2||"
 13730,45283,"Wild Geese, The",leprecawn,https://thesession.org/tunes/13730#setting45283,内部小节时值超出; 音长错误; 内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""45283"", ""bar"": 2, ""category"": ""irregular"", ""duration_eighths"": ""23/4"", ""expected_eighths"": ""6"", ""fragment"": ""B2 A/4G3/2 G/4A/4B3/2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""45283"", ""bar"": 4, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""6"", ""fragment"": ""D3 E3 G/G/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""45283"", ""bar"": 6, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nc4 A3/B/c"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""45283"", ""bar"": 7, ""category"": ""irregular"", ""duration_eighths"": ""23/4"", ""expected_eighths"": ""6"", ""fragment"": ""B4 A/4G3/2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""45283"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""8"", ""expected_eighths"": ""6"", ""fragment"": ""G/4A/4B3/2 Ae3d3/2B/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""45283"", ""bar"": 10, ""category"": ""irregular"", ""duration_eighths"": ""25/4"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nc2 BA c/4B/A3/2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""45283"", ""bar"": 22, ""category"": ""irregular"", ""duration_eighths"": ""7"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nBc3/2B/A3/2B/c3/2A/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""45283"", ""bar"": 25, ""category"": ""irregular"", ""duration_eighths"": ""13/2"", ""expected_eighths"": ""6"", ""fragment"": ""A4 G3/2A"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""45283"", ""bar"": 26, ""category"": ""irregular"", ""duration_eighths"": ""5"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nc3/B2/A2/4G3/2A/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""45283"", ""bar"": 30, ""category"": ""irregular"", ""duration_eighths"": ""13/2"", ""expected_eighths"": ""6"", ""fragment"": ""\r\nB2B2/4A/G3/2 G/4A/4B3/2"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""45283"", ""bar"": 33, ""category"": ""irregular"", ""duration_eighths"": ""13/2"", ""expected_eighths"": ""6"", ""fragment"": ""G2 ze d3/B2/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""45283"", ""bar"": 37, ""category"": ""irregular"", ""duration_eighths"": ""13/2"", ""expected_eighths"": ""6"", ""fragment"": ""c2 ze d3/c2/"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""45283"", ""bar"": 43, ""category"": ""irregular"", ""duration_eighths"": ""13/2"", ""expected_eighths"": ""6"", ""fragment"": ""B2 ze d3/2B"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""45283"", ""bar"": 44, ""category"": ""irregular"", ""duration_eighths"": ""25/4"", ""expected_eighths"": ""6"", ""fragment"": ""A2 G/4A/B3/2 c/B/A/G/"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": [""proven_long_note""]}","G3/2A/|B2 A/4G3/2 G/4A/4B3/2|A2 B2 (3AGE|D3 E3 G/G/|G4G/4A/4B3/2|
 c4 A3/B/c|B4 A/4G3/2|G/4A/4B3/2 Ae3d3/2B/|A4(/A/4B3/2|
 c2 BA c/4B/A3/2|B2B2 4A/G3/2 G/4A/4B3/2|A2 G/4A/4B3/2 c/B/A/G/|E4 G3/2A/|
@@ -21597,18 +21431,6 @@ G2 z e d3/2B/|G2 ze d3/2B/|c2 ze d3/2B/|c2 ze d3/c2/|
 B2 ze d3/2c/|B2 ze d3/2B/|A2 a3/e2// d3/2B/|A2 a3/e2/ / e/ d3/2B/|
 c2 ze d3/2c/|B2 ze d3/2B|A2 G/4A/B3/2 c/B/A/G/|E4G3/2A/|
 B2 B/4A/4G3/2) (G/4A/4B3/2)|A2(B/A/G/E/) D2|E3 G G2|G4||"
-13730,24436,"Wild Geese, The",Cheeky Elf,https://thesession.org/tunes/13730#setting24436,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""24436"", ""bar"": 25, ""category"": ""irregular"", ""duration_eighths"": ""11/2"", ""expected_eighths"": ""6"", ""fragment"": ""B4(A/4B/4c)"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","""_vb""(A3/2B/)|c2(c/4B/4A3/2) (A/4B/4c3/2)|B2(c/B/A/F/) E2|F2A2(A3/2B/)|A4(B3/2c/)|
-d2d2(d/4c/4B3/2)|c2c2(c/4B/4A3/2)|B2f2(e3/2c/)|B4(A/4B/4c3/2)|
-d2d2(d/4c/4B3/2)|c2c2(c/4B/4A3/2)|(B3/2c/) (.d.c.B.A)|F4(A3/2B/)|
-c2(c/4B/4A3/2) (A/4B/4c3/2)|B2(c/B/A/F/) E2|(#~F3/2G/)(A3/2B/c3/2B/)|A4""_pp""(A3/2B/)|
-({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/F3/2A/B3/2F/)|({B}A3/2F/E3/2F/A3/2B/)|A4z2|
-""_cresc""({e}d3/2c/B3/2c/d3/2B/)|({d}c3/2B/A3/2B/c3/2A/)|B2f2(e3/2c/)|B4(A/4B/4c)|
-""_p""(d3/2c/B3/2c/d3/2B/)|({d}c3/2B/A3/2B/c3/2A/)|B3/2c/ .d.c.B.A|F4""_pp""A3/2B/|
-({d}c3/2B/A3/2B/c3/2A/)|({c}B3/2A/F3/2A/B3/2F/)|({B}A3/2F/E3/2F/A3/2B/)|A7/f/ ({ef}e3/2c/)|
-""_ff""(A7/""^Chorus.""f/) ({ef}e3/2c/)|(A7/f/) ({ef}e3/2c/)|(d2d'3/2f/ e3/2c/)|(d2d'3/2f/ {ef}e3/2d/)|
-(c2c'3/2f/ {ef}e3/2d/)|(c2c'3/2f/ {ef}e3/2c/)|(B2b3/2f/ {ef}e3/2c/)|(B2b3/2f/ {ef}e3/2c/)|
-(d2d'3/2f/ {ef}e3/2d/)|(c2c'3/2f/ {ef}e3/2c/)|(B2b3/2d/ {cd}c3/2A/)|F4""_pp""(A3/2B/)|
-c2(c/4B/4A3/2) (A/4B/4c3/2)|B2(c/B/A/F/) E2|F3/2G/A3/2c/B3/2c/|A2""^H""A2||"
 16743,34159,Wild Hares,ckjohnsen,https://thesession.org/tunes/16743#setting34159,内部小节时值不足,"{""current_internal_bars"": [{""setting_id"": ""34159"", ""bar"": 8, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""Bee"", ""reason"": ""No unique supported correction""}, {""setting_id"": ""34159"", ""bar"": 9, ""category"": ""irregular"", ""duration_eighths"": ""3"", ""expected_eighths"": ""6"", ""fragment"": ""\r\ngfe"", ""reason"": ""No unique supported correction""}], ""previous_source_flags"": []}","|:A|BEE EDE|GAB cBA|BEE EDE|
 DAD BAG|BEE EDE|GAB cBA|Bee|
 gfe|Be^d ee:|:f|gbb bag|faa
