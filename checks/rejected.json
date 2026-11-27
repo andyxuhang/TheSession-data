@@ -2,67 +2,206 @@
   {
     "setting_id": "32000",
     "passed": false,
-    "reason": "individual note-length check",
+    "reason": "individual phrase check",
     "bars": [
       {
         "edit": {
           "rule": "note_length",
           "bar": 16,
+          "last_bar": 16,
           "before": "G/F/G/A B/c/B/A/ GF/E/",
           "after": "G/F/G/A/ B/c/B/A/ GF/E/",
-          "witnesses": [
+          "reference_ranges": [
             [
               "32000",
-              7
+              8,
+              8
             ]
           ],
-          "method": "separate written phrase in the same upstream setting"
+          "transposed_references": [],
+          "method": "Matching uninterrupted written phrase in the original exports"
         },
-        "reason": "no played duration changed"
+        "reason": "proposed duration change not fully reflected in playback"
       },
       {
         "edit": {
           "rule": "note_length",
           "bar": 12,
+          "last_bar": 12,
           "before": "G/F/G/A B/c/B/A/ GF/E/",
           "after": "G/F/G/A/ B/c/B/A/ GF/E/",
-          "witnesses": [
+          "reference_ranges": [
             [
               "32000",
-              3
+              4,
+              4
             ]
           ],
-          "method": "separate written phrase in the same upstream setting"
+          "transposed_references": [],
+          "method": "Matching uninterrupted written phrase in the original exports"
         },
-        "reason": "no played duration changed"
+        "reason": "proposed duration change not fully reflected in playback"
+      }
+    ]
+  },
+  {
+    "setting_id": "31295",
+    "passed": false,
+    "reason": "individual phrase check",
+    "bars": [
+      {
+        "edit": {
+          "rule": "note_length",
+          "bar": 20,
+          "last_bar": 20,
+          "before": "e/d/e/f/{ef}g ed/c/B/A/G/",
+          "after": "e/d/e/f/{ef}g e/d/c/B/A/G/",
+          "reference_ranges": [
+            [
+              "1892",
+              20,
+              20
+            ],
+            [
+              "24632",
+              20,
+              20
+            ],
+            [
+              "54128",
+              20,
+              20
+            ]
+          ],
+          "transposed_references": [
+            [
+              "1892",
+              20,
+              20
+            ],
+            [
+              "24632",
+              20,
+              20
+            ]
+          ],
+          "method": "Matching uninterrupted written phrase in the original exports"
+        },
+        "reason": "Bad state: 31295 unplanned duration change at 167"
+      },
+      {
+        "edit": {
+          "rule": "note_length",
+          "bar": 16,
+          "last_bar": 16,
+          "before": "e/d/e/f/{ef}g ed/c/B/A/G/",
+          "after": "e/d/e/f/{ef}g e/d/c/B/A/G/",
+          "reference_ranges": [
+            [
+              "15320",
+              14,
+              14
+            ],
+            [
+              "1892",
+              16,
+              16
+            ],
+            [
+              "24632",
+              16,
+              16
+            ],
+            [
+              "54128",
+              16,
+              16
+            ]
+          ],
+          "transposed_references": [
+            [
+              "15320",
+              14,
+              14
+            ],
+            [
+              "1892",
+              16,
+              16
+            ],
+            [
+              "24632",
+              16,
+              16
+            ]
+          ],
+          "method": "Matching uninterrupted written phrase in the original exports"
+        },
+        "reason": "Bad state: 31295 unplanned duration change at 137"
+      },
+      {
+        "edit": {
+          "rule": "note_length",
+          "bar": 12,
+          "last_bar": 12,
+          "before": "{ef}e/d/e/f/{ef}g ed/c/B/A/G/",
+          "after": "{ef}e/d/e/f/{ef}g e/d/c/B/A/G/",
+          "reference_ranges": [
+            [
+              "1892",
+              12,
+              12
+            ],
+            [
+              "24632",
+              12,
+              12
+            ],
+            [
+              "54128",
+              12,
+              12
+            ]
+          ],
+          "transposed_references": [
+            [
+              "1892",
+              12,
+              12
+            ],
+            [
+              "24632",
+              12,
+              12
+            ]
+          ],
+          "method": "Matching uninterrupted written phrase in the original exports"
+        },
+        "reason": "Bad state: 31295 unplanned duration change at 107"
       }
     ]
   },
   {
     "setting_id": "44335",
     "passed": false,
-    "reason": "individual barline check",
+    "reason": "individual phrase check",
     "bars": [
       {
         "edit": {
           "rule": "missing_barline",
           "bar": 3,
-          "witnesses": [
+          "last_bar": 3,
+          "before": "cded ^cdfd eaag edcB",
+          "after": "cded ^cdfd| eaag edcB",
+          "reference_ranges": [
             [
-              [
-                "44335",
-                9
-              ]
-            ],
-            [
-              [
-                "44335",
-                10
-              ]
+              "44335",
+              9,
+              10
             ]
           ],
-          "before": "cded ^cdfd eaag edcB",
-          "after": "cded ^cdfd| eaag edcB"
+          "transposed_references": [],
+          "method": "Matching uninterrupted written phrase in the original exports"
         },
         "reason": "Bad state: 44335 pitch at 31"
       }

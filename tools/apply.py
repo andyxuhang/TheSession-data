@@ -171,8 +171,8 @@ def patch_sqlite(source, target, patches):
             changed = 0
             rows = db.execute("SELECT rowid AS _rowid_,* FROM " + table + " WHERE setting_id IN ("+
                               ",".join("?" for _ in patches)+")", tuple(patches)).fetchall()
-            if table == "tunes" and len(rows) != len(patches):
-                raise ValueError("Setting missing or duplicated in SQLite")
+            if table == "tunes" and {row['setting_id'] for row in rows} != patches.keys():
+                raise ValueError("Setting missing in SQLite")
             for row in rows:
                 patch = patches[row["setting_id"]]
                 if replacement(row, patches, table == "tunes") is None:
@@ -214,8 +214,8 @@ def verify(paths, patches):
             results[table] = csv_digest
         selected = " WHERE setting_id IN (" + ",".join("?" for _ in patches) + ")"
         tune_rows = db.execute("SELECT * FROM tunes" + selected, tuple(patches)).fetchall()
-        if len(tune_rows) != len(patches):
-            raise ValueError("Setting missing or duplicated")
+        if {row['setting_id'] for row in tune_rows} != patches.keys():
+            raise ValueError("Setting missing")
         for row in tune_rows:
             patch = patches[row["setting_id"]]
             if row["abc"] != patch["after_abc"]:

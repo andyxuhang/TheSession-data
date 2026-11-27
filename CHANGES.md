@@ -1,5 +1,11 @@
 # Changes
 
+## Bar divisions, note lengths and rhythm marks
+
+Compared complete written phrases from the same setting and from other settings, including versions in other keys. Restored 100 missing barlines and corrected 57 misplaced-barline passages. Fixed 29 note-length passages and 2 rhythm marks. The missing-note check restored 2 notes supported by the same passage in settings from at least two other contributors.
+
+This round corrected 190 passages in 156 settings of 139 tunes and updated 1194 matching set entries. See the [original and corrected passages](checks/matching-phrases.json), [note insertions](checks/missing-notes.json), and [review](reports/status.md). Target and source measure numbers in these files start at 1. The [final scan](checks/scan.json) found only candidates in settings already held for playback review. The checklists and report labels are in English.
+
 ## Note lengths in written repeats
 
 Corrected 34 note lengths in 34 settings of 28 tunes. The original transcriptions contain a separate written occurrence of each corrected bar with the same surrounding phrase. Of these notes, 26 needed a longer duration and 8 a shorter one. The exports include 46 matching set entries. Two candidates in setting 32000 produced no duration change in playback and remain open.

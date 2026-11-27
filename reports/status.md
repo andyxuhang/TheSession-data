@@ -1,69 +1,66 @@
-# 当前曲谱检查清单
+# Notation review
 
-检查范围：23,199 首曲目，55,838 份 setting。数据文件为当前 fork 的 CSV、JSON 和 SQLite。
+Scanned 55,821 distinct settings of 23,199 tunes. The exports contain 55,838 tune rows, including separate composer rows for some settings.
 
-这里将确定修改、待核对项和不按源谱错误处理的情况分开。未修正的候选并不等于已经确认的人为手误。
-
-| 分类 | Setting 数 | 完整明细 |
+| Status | Settings | Details |
 |---|---:|---|
-| 已修正 | 345 | [fixed.csv](fixed.csv) |
-| 尚需核对 | 3893 | [review.csv](review.csv) |
-| 弱起、段尾与反复边界记录 | 24421 | [boundaries.csv](boundaries.csv) |
-| 暂不支持的语法或空旋律 | 6515 | [unsupported.csv](unsupported.csv) |
-| 播放或解析兼容记录 | 3508 | [playback.csv](playback.csv) |
+| Corrected | 493 | [fixed.csv](fixed.csv) |
+| Needs review | 3764 | [review.csv](review.csv) |
+| Pickups, endings and repeats | 24410 | [boundaries.csv](boundaries.csv) |
+| Unsupported syntax or empty melody | 6505 | [unsupported.csv](unsupported.csv) |
+| Playback or parser compatibility | 3485 | [playback.csv](playback.csv) |
 
-已修正的 setting 中，有 56 份还包含其他待核对项。因此各类数量不能相加当作独立曲谱总数。所有 CSV 均包含原网站链接和当前完整 ABC；fixed.csv 另有修改前 ABC。
+77 corrected settings still have other findings. Settings can appear in multiple categories. Each CSV gives the source link and current ABC. The corrected list also gives the ABC before the changes.
 
-## 已修正的类型
+## Corrections by type
 
-| 类型 | 处数 |
+| Type | Corrections |
 |---|---:|
-| 小节线错位 | 7 |
-| 漏写小节线 | 230 |
-| 音长数字或斜线手误 | 128 |
-| 误入的控制字符 | 19 |
+| Missing barline | 330 |
+| Incorrect note length | 157 |
+| Misplaced barline | 64 |
+| Stray control character | 19 |
+| Omitted note | 2 |
+| Incorrect broken-rhythm or tuplet mark | 2 |
 
-## 自动检查做了什么
+## How corrections are checked
 
-- 用有理数累计音长，避免浮点误差造成缺拍误报。
-- 小节线补写或移动，需要同曲、同调中独立存在的完整小节作佐证。
-- 音长修正只改一个音符的时值。跨版本复核要求修正后的小节匹配上游参照，并有相邻乐句支持。
-- 保留音高、连音、装饰、作者与其他元数据。不猜音符，不补休止符，不推断新拍号。
-- 用关闭自动修复的独立 ABC 播放解析器对比每个事件。意外的音高、休止、连音或时值变化会阻止写入。
-- 反复扫描直至没有新的可验证改动；最后核对全部三种导出格式及数据库完整性。
+- The scanner adds note lengths as exact fractions and compares neighboring written passages.
+- Complete measures in another passage support barline and timing corrections. A line break between two complete measures can also support a missing divider when one of those measures and its neighbor match a written reference.
+- A missing note requires the same completed phrase and both neighboring measures in settings from at least two other contributors.
+- Playback checks compare the original and corrected events with automatic repair disabled. Unexpected changes to pitch, duration, rests or ties block a correction.
+- After each round the scanner checks for further corrections. CSV, JSON and SQLite are compared record by record.
 
-独立播放检查保留了 4 个未通过的候选，见 [拒绝原因](../checks/rejected.json)。例如移动小节线可能重置临时升降号，因此时值凑齐本身不构成修改依据。
+Playback checks left candidates in 5 settings for review. See [rejected.json](../checks/rejected.json) for the recorded reasons.
 
-首尾连续播放相关的调整继续只作为 App 行为，不计入源谱修正。内部短小节也可能来自有意的曲式或混合拍号，缺少证据时保留。暂不支持并不表示原谱错误。
+## Examples for review
 
-## 待核对示例
-
-| 曲目 | Setting | 检查项 |
+| Tune | Setting | Finding |
 |---|---|---|
-| 'Ma' McNulty's Favourite | [55813](https://thesession.org/tunes/26102#setting55813) | 内部短小节候选; 内部小节时值不足 |
-| 101 To Dublin | [50416](https://thesession.org/tunes/19336#setting50416) | 内部小节时值超出 |
-| 101 To Dublin | [38079](https://thesession.org/tunes/19336#setting38079) | 内部小节时值超出 |
-| 10th Bat Crossing Rhine | [18649](https://thesession.org/tunes/7078#setting18649) | 内部小节时值超出 |
-| 1st Floor March | [42485](https://thesession.org/tunes/21293#setting42485) | 内部小节时值不足 |
-| 2-Rivisjenkka | [32371](https://thesession.org/tunes/16424#setting32371) | 短音符音长候选 |
-| 23 | [34482](https://thesession.org/tunes/17726#setting34482) | 拍号或曲式需要核对 |
-| 23 | [34317](https://thesession.org/tunes/17726#setting34317) | 内部短小节候选; 内部小节时值不足 |
-| 4 Minutes 33 Seconds | [15743](https://thesession.org/tunes/2399#setting15743) | 内部小节时值超出 |
-| 4 Minutes 33 Seconds | [55757](https://thesession.org/tunes/2399#setting55757) | 内部小节时值超出 |
-| 42nd Highlanders Farewell | [28873](https://thesession.org/tunes/15410#setting28873) | 拍号或曲式需要核对 |
-| 51st Highland Division, The | [38610](https://thesession.org/tunes/19573#setting38610) | 内部小节时值超出 |
-| 72nd Highlanders' Farewell To Aberdeen, The | [6970](https://thesession.org/tunes/6970#setting6970) | 内部小节时值不足 |
-| 78 Eatonwood Green | [43643](https://thesession.org/tunes/21785#setting43643) | 内部小节时值超出; 漏写小节线 |
-| 79th's Farewell To Gibraltar | [5318](https://thesession.org/tunes/5318#setting5318) | 内部小节时值不足 |
-| A Breton In Paris | [20892](https://thesession.org/tunes/12500#setting20892) | 内部短小节候选; 内部小节时值不足 |
-| A Builder Of Bridges | [39057](https://thesession.org/tunes/8602#setting39057) | 内部小节时值超出 |
-| A Chomaraigh Aoibhinn O | [48054](https://thesession.org/tunes/15714#setting48054) | 内部小节时值超出 |
-| A Day At The Carnival | [41510](https://thesession.org/tunes/20882#setting41510) | 内部小节时值不足 |
-| A Dram At The Wake | [23732](https://thesession.org/tunes/9105#setting23732) | 内部小节时值超出 |
-| A Farruquiña | [43829](https://thesession.org/tunes/21838#setting43829) | 内部小节时值超出 |
-| A Farruquiña | [43827](https://thesession.org/tunes/21838#setting43827) | 内部小节时值超出 |
-| A Happy Day In June | [43454](https://thesession.org/tunes/21532#setting43454) | 拍号或曲式需要核对 |
-| A Jig For Kim | [30014](https://thesession.org/tunes/15947#setting30014) | 内部小节时值不足 |
-| A L'envers | [26313](https://thesession.org/tunes/14361#setting26313) | 内部小节时值不足 |
+| 'Ma' McNulty's Favourite | [55813](https://thesession.org/tunes/26102#setting55813) | Possible short interior measure; Short interior measure |
+| 101 To Dublin | [50416](https://thesession.org/tunes/19336#setting50416) | Overfull interior measure |
+| 101 To Dublin | [38079](https://thesession.org/tunes/19336#setting38079) | Overfull interior measure |
+| 1st Floor March | [42485](https://thesession.org/tunes/21293#setting42485) | Short interior measure |
+| 2-Rivisjenkka | [32371](https://thesession.org/tunes/16424#setting32371) | Possible incorrect short-note duration |
+| 23 | [34482](https://thesession.org/tunes/17726#setting34482) | Meter or form to review |
+| 23 | [34317](https://thesession.org/tunes/17726#setting34317) | Possible short interior measure; Short interior measure |
+| 4 Minutes 33 Seconds | [15743](https://thesession.org/tunes/2399#setting15743) | Overfull interior measure |
+| 4 Minutes 33 Seconds | [55757](https://thesession.org/tunes/2399#setting55757) | Overfull interior measure |
+| 42nd Highlanders Farewell | [28873](https://thesession.org/tunes/15410#setting28873) | Meter or form to review |
+| 51st Highland Division, The | [38610](https://thesession.org/tunes/19573#setting38610) | Overfull interior measure |
+| 72nd Highlanders' Farewell To Aberdeen, The | [6970](https://thesession.org/tunes/6970#setting6970) | Short interior measure |
+| 78 Eatonwood Green | [43643](https://thesession.org/tunes/21785#setting43643) | Overfull interior measure; Missing barline |
+| 79th's Farewell To Gibraltar | [5318](https://thesession.org/tunes/5318#setting5318) | Short interior measure |
+| A Breton In Paris | [20892](https://thesession.org/tunes/12500#setting20892) | Possible short interior measure; Short interior measure |
+| A Builder Of Bridges | [39057](https://thesession.org/tunes/8602#setting39057) | Overfull interior measure |
+| A Chomaraigh Aoibhinn O | [48054](https://thesession.org/tunes/15714#setting48054) | Overfull interior measure |
+| A Day At The Carnival | [41510](https://thesession.org/tunes/20882#setting41510) | Short interior measure |
+| A Dram At The Wake | [23732](https://thesession.org/tunes/9105#setting23732) | Overfull interior measure |
+| A Farruquiña | [43829](https://thesession.org/tunes/21838#setting43829) | Overfull interior measure |
+| A Farruquiña | [43827](https://thesession.org/tunes/21838#setting43827) | Overfull interior measure |
+| A Happy Day In June | [43454](https://thesession.org/tunes/21532#setting43454) | Meter or form to review |
+| A Jig For Kim | [30014](https://thesession.org/tunes/15947#setting30014) | Short interior measure |
+| A L'envers | [26313](https://thesession.org/tunes/14361#setting26313) | Short interior measure |
+| A Lovely Madness | [35801](https://thesession.org/tunes/7609#setting35801) | Short interior measure |
 
-完整列表见上方 CSV。修正的完整补丁见 [changes](../changes/)，数据及播放检查结果见 [checks](../checks/)。
+For full details see the CSV files, [patches](../changes/) and [verification results](../checks/).

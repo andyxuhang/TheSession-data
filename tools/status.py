@@ -7,19 +7,30 @@ import csv
 import json
 from pathlib import Path
 
-from scan import ROOT, measures, rows, sha
+from scan import ROOT, measures, rows, sha, unique_settings
 
 
 LABELS = {
-    'missing_barline':'漏写小节线', 'misplaced_barline':'小节线错位',
-    'note_length':'音长数字或斜线手误', 'proven_long_note':'音长错误',
-    'stray_control':'误入的控制字符', 'missing_triplet':'三连音标记遗漏',
-    'missing_note_length_slash':'音长斜线遗漏', 'extra_note_length_digit':'多写音长数字',
-    'short_bar':'内部小节时值不足', 'long_bar':'内部小节时值超出',
-    'meter_signature':'拍号或曲式需要核对', 'interior_short_bar':'内部短小节候选',
-    'overfull_short_note_run':'短音符音长候选', 'shifted_barline':'小节线错位候选',
-    'witnessed_broken_tail':'附点节奏候选', 'source_specific_correction':'旧的指定曲谱候选',
-    'missing_short_triplet':'三连音候选', 'parser_rejected':'独立播放验证未通过',
+    'missing_barline': 'Missing barline',
+    'misplaced_barline': 'Misplaced barline',
+    'note_length': 'Incorrect note length',
+    'proven_long_note': 'Incorrect note length',
+    'rhythm_mark': 'Incorrect broken-rhythm or tuplet mark',
+    'missing_note': 'Omitted note',
+    'stray_control': 'Stray control character',
+    'missing_triplet': 'Omitted triplet mark',
+    'missing_note_length_slash': 'Missing duration slash',
+    'extra_note_length_digit': 'Extra duration digit',
+    'short_bar': 'Short interior measure',
+    'long_bar': 'Overfull interior measure',
+    'meter_signature': 'Meter or form to review',
+    'interior_short_bar': 'Possible short interior measure',
+    'overfull_short_note_run': 'Possible incorrect short-note duration',
+    'shifted_barline': 'Possible misplaced barline',
+    'witnessed_broken_tail': 'Possible broken-rhythm marking error',
+    'source_specific_correction': 'Earlier setting-specific finding',
+    'missing_short_triplet': 'Possible missing triplet mark',
+    'parser_rejected': 'Playback check failed',
 }
 
 
@@ -34,8 +45,9 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--findings',type=Path,default=ROOT/'reports/findings.jsonl')
     args=parser.parse_args()
-    data=list(rows(ROOT/'json/tunes.json'))
-    byid={r['setting_id']:r for r in data}
+    exported=list(rows(ROOT/'json/tunes.json'))
+    byid=unique_settings(exported)
+    data=list(byid.values())
     findings=defaultdict(list)
     for line in args.findings.read_text().splitlines():
         issue=json.loads(line);findings[issue['setting_id']].append(issue)
@@ -99,20 +111,20 @@ def main():
             groups['review'].append({**base,'types':'; '.join(LABELS.get(k,k) for k in sorted(kinds)),
                                       'details':json.dumps(detail,ensure_ascii=False)})
         if boundary:
-            groups['boundaries'].append({**base,'types':'弱起、段尾或反复边界；未按手误处理',
+            groups['boundaries'].append({**base,'types':'Pickup, ending or repeat boundary',
                                           'details':json.dumps(boundary,ensure_ascii=False)})
         if unsupported:
-            groups['unsupported'].append({**base,'types':'检查器不支持的语法或无旋律音符；未判错',
+            groups['unsupported'].append({**base,'types':'Unsupported syntax or empty melody',
                                            'details':json.dumps(unsupported,ensure_ascii=False)})
         compatibility=flags.get('app_rules',[])+[r for r in flags.get('source_rules',[]) if r in {'tie_spacing','ending_spacing'}]
         if compatibility:
             groups['playback'].append({**base,'types':'; '.join(sorted(set(compatibility))),
-                                        'details':'App 播放或解析兼容记录；不作为源谱错误。'})
+                                        'details':'Playback or parser compatibility observation.'})
     out=ROOT/'reports';out.mkdir(exist_ok=True)
     for name,records in groups.items():
         write_csv(out/(name+'.csv'),records,common+(['before_abc'] if name=='fixed' else []))
     flagged={r['setting_id'] for k,v in groups.items() if k!='fixed' for r in v}
-    summary={'settings_checked':len(data),'tunes_checked':len({r['tune_id'] for r in data}),
+    summary={'settings_checked':len(data),'exported_tune_rows':len(exported),'tunes_checked':len({r['tune_id'] for r in data}),
              'fixed_settings':len(groups['fixed']),'fixed_tunes':len({r['tune_id'] for r in groups['fixed']}),
              'fixed_edits_by_type':dict(types), 'categories':{k:len(v) for k,v in groups.items()},
              'no_current_findings':len(data)-len(flagged),'rejected_settings':len(rejected),
@@ -120,32 +132,50 @@ def main():
     review_ids={r['setting_id'] for r in groups['review']}
     summary['fixed_with_remaining_review']=len(set(fixed)&review_ids)
     (out/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
-    lines=['# 当前曲谱检查清单','',
-           f"检查范围：{summary['tunes_checked']:,} 首曲目，{len(data):,} 份 setting。数据文件为当前 fork 的 CSV、JSON 和 SQLite。",'',
-           '这里将确定修改、待核对项和不按源谱错误处理的情况分开。未修正的候选并不等于已经确认的人为手误。', '',
-           '| 分类 | Setting 数 | 完整明细 |','|---|---:|---|',
-           f"| 已修正 | {len(groups['fixed'])} | [fixed.csv](fixed.csv) |",
-           f"| 尚需核对 | {len(groups['review'])} | [review.csv](review.csv) |",
-           f"| 弱起、段尾与反复边界记录 | {len(groups['boundaries'])} | [boundaries.csv](boundaries.csv) |",
-           f"| 暂不支持的语法或空旋律 | {len(groups['unsupported'])} | [unsupported.csv](unsupported.csv) |",
-           f"| 播放或解析兼容记录 | {len(groups['playback'])} | [playback.csv](playback.csv) |",'',
-           f"已修正的 setting 中，有 {summary['fixed_with_remaining_review']} 份还包含其他待核对项。因此各类数量不能相加当作独立曲谱总数。所有 CSV 均包含原网站链接和当前完整 ABC；fixed.csv 另有修改前 ABC。", '',
-           '## 已修正的类型','', '| 类型 | 处数 |','|---|---:|']
-    lines += [f"| {LABELS.get(k,k)} | {v} |" for k,v in sorted(types.items())]
-    lines += ['', '## 自动检查做了什么','',
-              '- 用有理数累计音长，避免浮点误差造成缺拍误报。',
-              '- 小节线补写或移动，需要同曲、同调中独立存在的完整小节作佐证。',
-              '- 音长修正只改一个音符的时值。跨版本复核要求修正后的小节匹配上游参照，并有相邻乐句支持。',
-              '- 保留音高、连音、装饰、作者与其他元数据。不猜音符，不补休止符，不推断新拍号。',
-              '- 用关闭自动修复的独立 ABC 播放解析器对比每个事件。意外的音高、休止、连音或时值变化会阻止写入。',
-              '- 反复扫描直至没有新的可验证改动；最后核对全部三种导出格式及数据库完整性。', '',
-              f"独立播放检查保留了 {len(rejected)} 个未通过的候选，见 [拒绝原因](../checks/rejected.json)。例如移动小节线可能重置临时升降号，因此时值凑齐本身不构成修改依据。", '',
-              '首尾连续播放相关的调整继续只作为 App 行为，不计入源谱修正。内部短小节也可能来自有意的曲式或混合拍号，缺少证据时保留。暂不支持并不表示原谱错误。', '',
-              '## 待核对示例','', '| 曲目 | Setting | 检查项 |','|---|---|---|']
+    lines = [
+        '# Notation review', '',
+        f"Scanned {len(data):,} distinct settings of {summary['tunes_checked']:,} tunes. "
+        f"The exports contain {len(exported):,} tune rows, including separate composer rows for some settings.",
+        '',
+        '| Status | Settings | Details |',
+        '|---|---:|---|',
+        f"| Corrected | {len(groups['fixed'])} | [fixed.csv](fixed.csv) |",
+        f"| Needs review | {len(groups['review'])} | [review.csv](review.csv) |",
+        f"| Pickups, endings and repeats | {len(groups['boundaries'])} | [boundaries.csv](boundaries.csv) |",
+        f"| Unsupported syntax or empty melody | {len(groups['unsupported'])} | [unsupported.csv](unsupported.csv) |",
+        f"| Playback or parser compatibility | {len(groups['playback'])} | [playback.csv](playback.csv) |",
+        '',
+        f"{summary['fixed_with_remaining_review']} corrected settings still have other findings. "
+        "Settings can appear in multiple categories. Each CSV gives the source link and current ABC. "
+        "The corrected list also gives the ABC before the changes.",
+        '',
+        '## Corrections by type', '',
+        '| Type | Corrections |', '|---|---:|',
+    ]
+    for rule, count in types.most_common():
+        lines.append(f"| {LABELS.get(rule,rule)} | {count} |")
+    lines += [
+        '', '## How corrections are checked', '',
+        '- The scanner adds note lengths as exact fractions and compares neighboring written passages.',
+        '- Complete measures in another passage support barline and timing corrections. '
+        'A line break between two complete measures can also support a missing divider when '
+        'one of those measures and its neighbor match a written reference.',
+        '- A missing note requires the same completed phrase and both neighboring measures '
+        'in settings from at least two other contributors.',
+        '- Playback checks compare the original and corrected events with automatic repair disabled. '
+        'Unexpected changes to pitch, duration, rests or ties block a correction.',
+        '- After each round the scanner checks for further corrections. CSV, JSON and SQLite are compared record by record.',
+        '',
+        f"Playback checks left candidates in {len(rejected)} settings for review. "
+        "See [rejected.json](../checks/rejected.json) for the recorded reasons.",
+        '',
+        '## Examples for review', '',
+        '| Tune | Setting | Finding |', '|---|---|---|',
+    ]
     for r in groups['review'][:25]:
         name=r['name'].replace('|','\\|')
         lines.append(f"| {name} | [{r['setting_id']}]({r['source_url']}) | {r['types']} |")
-    lines += ['', '完整列表见上方 CSV。修正的完整补丁见 [changes](../changes/)，数据及播放检查结果见 [checks](../checks/)。', '']
+    lines += ['', 'For full details see the CSV files, [patches](../changes/) and [verification results](../checks/).', '']
     (out/'status.md').write_text('\n'.join(lines))
     print(json.dumps(summary,ensure_ascii=False,indent=2))
 

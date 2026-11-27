@@ -28,6 +28,14 @@ The tool checks every proposed suffix change alone, then checks the combined cha
 
 Use `--parallel-lengths` to check a written repetition in the same setting, including settings with no other transcriptions. The target is an internal bar between two plain dividers, surrounded by full bars. Its reference must be a full bar in the original upstream text, at least three written bars away. Neighbor comparisons stay on the same side of repeat or section boundaries. A full opening or closing bar can serve as a reference from the side with a matching phrase. Repeats produced by playback do not count as written evidence.
 
+## Compare whole phrases
+
+Run `tools/fix_notation.py --phrases` with the same compiler options. The scanner compares an irregular passage of up to four written measures with the original transcriptions of the same tune. An exact match in note order and timing can support new measure divisions. A matching passage can also establish one or two duration suffixes or a rhythm mark. The scanner requires a full matching neighbor, and uses both neighbors for less literal matches, multi-note timing changes and transposed versions. A line break within a double-length measure can support a missing divider when a complete half matches an adjacent written phrase. Each corrected passage and its references are recorded in [matching-phrases.json](../checks/matching-phrases.json).
+
+Run `--missing-notes` to check short interior measures for an omitted note. The entire reconstructed measure and both neighbors must match original transcriptions from at least two other contributors. Playback must contain the inserted note where the original sequence is short and preserve the pitches, rests, ties and durations of the original events.
+
+The reports count distinct settings. When an upstream setting appears in separate rows for different composers, the tools compare the ABC once and apply the same reviewed correction to each matching row. Composer fields are preserved.
+
 ## Other checks
 
 ```bash

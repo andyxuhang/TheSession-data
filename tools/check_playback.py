@@ -3,13 +3,14 @@
 
 from collections import defaultdict
 import argparse
+from fractions import Fraction
 import hashlib
 import json
 from pathlib import Path
 import re
 import subprocess
 import tempfile
-from scan import measures
+from scan import measures, rows as read_rows, unique_settings
 
 ROOT = Path(__file__).resolve().parents[1]
 REVISION = "823fbf4cb5941394d86b5dd476ba46cc6e891f47"
@@ -32,6 +33,42 @@ void require(bool value, String message) {
   if (!value) throw StateError(message);
 }
 
+Map verifyInsertion(Map row, List before, List after) {
+  final insertion = row['insertion'] as Map;
+  final duration = (insertion['duration_quarter'] as num).toDouble();
+  final token = insertion['token'];
+  var i = 0, j = 0;
+  var inserted = 0;
+  String? writtenBar;
+  while (j < after.length) {
+    final event = after[j];
+    final original = i < before.length ? before[i] : null;
+    final originalStart = original == null ? 0 : original['start_quarter'] as num;
+    final nextStart = event['start_quarter'] as num;
+    if (original != null &&
+        (nextStart - originalStart - duration * inserted).abs() < .00001 &&
+        ['midi_pitches', 'abc_text', 'duration_quarter', 'is_tie', 'is_rest']
+            .every((key) => jsonEncode(event[key]) == jsonEncode(original[key]))) {
+      i++;
+      j++;
+      continue;
+    }
+    final bar = (event['written_id'] as String).split(':').first;
+    require(event['abc_text'] == token && !event['is_rest'] && !event['is_tie'],
+        'Unexpected inserted playback event');
+    require(((event['duration_quarter'] as num) - duration).abs() < .00001,
+        'Unexpected inserted duration');
+    require(writtenBar == null || writtenBar == bar, 'Insertions at different written bars');
+    writtenBar = bar;
+    inserted++;
+    j++;
+  }
+  require(i == before.length && inserted > 0, 'Original notes did not align after insertion');
+  return {'setting_id': row['setting_id'], 'passed': true, 'event_count': after.length,
+    'inserted_playback_events': inserted, 'inserted_token': token,
+    'duration_delta_quarter': inserted * duration};
+}
+
 void main(List<String> args) {
   final rows = jsonDecode(File(args[0]).readAsStringSync()) as List;
   final result = <Map>[];
@@ -41,6 +78,10 @@ void main(List<String> args) {
     final after = compile(row, row['after_abc']);
     final a = before['events'] as List, b = after['events'] as List;
     final sid = row['setting_id'];
+    if (row.containsKey('insertion')) {
+      result.add(verifyInsertion(row, a, b));
+      continue;
+    }
     require(a.length == b.length, '$sid event count');
     final allowed = row['allowed_duration_changes'] as List;
     final barline = allowed.isEmpty;
@@ -110,24 +151,28 @@ def main():
         for patch in json.loads(path.read_text())["corrections"]:
             patches[patch['setting_id']].append(patch)
     rows = []
-    with (ROOT / "json/tunes.json").open() as stream:
-        for line in stream:
-            text = line.strip().rstrip(",")
-            if text and text not in ("[", "]"):
-                row = json.loads(text)
-                for patch in patches.get(row["setting_id"], ()):
-                    grouped = {}
-                    before = [e for b in measures(patch['before_abc'])[0] for e in b.events]
-                    after = [e for b in measures(patch['after_abc'])[0] for e in b.events]
-                    assert len(before) == len(after)
-                    for a, b in zip(before, after):
-                        assert a.pitch == b.pitch
-                        if a.duration != b.duration:
-                            key = a.pitch, float(a.duration/2), float(b.duration/2)
-                            grouped[key] = grouped.get(key, 0) + 1
-                    allowed = [{'pitch':p, 'before':a, 'after':b, 'written_occurrences':count}
-                               for (p,a,b),count in grouped.items()]
-                    rows.append({**row, **patch, 'allowed_duration_changes':allowed})
+    records = unique_settings(read_rows(ROOT / "json/tunes.json"))
+    for row in records.values():
+        for patch in patches.get(row["setting_id"], ()):
+            grouped = {}
+            before = [e for b in measures(patch['before_abc'])[0] for e in b.events]
+            after = [e for b in measures(patch['after_abc'])[0] for e in b.events]
+            insertions = [e for e in patch['evidence'] if e['rule'] == 'missing_note'] if isinstance(patch.get('evidence'), list) else []
+            if insertions:
+                assert len(insertions) == 1 and len(after) == len(before)+1
+                event = insertions[0]
+                rows.append({**row, **patch, 'insertion':{'token':event['token'],
+                    'duration_quarter':float(Fraction(event['duration_eighths'])/2)}})
+                continue
+            assert len(before) == len(after)
+            for a, b in zip(before, after):
+                assert a.pitch == b.pitch
+                if a.duration != b.duration:
+                    key = a.pitch, float(a.duration/2), float(b.duration/2)
+                    grouped[key] = grouped.get(key, 0) + 1
+            allowed = [{'pitch':p, 'before':a, 'after':b, 'written_occurrences':count}
+                       for (p,a,b),count in grouped.items()]
+            rows.append({**row, **patch, 'allowed_duration_changes':allowed})
     assert len(rows) == sum(map(len, patches.values()))
     with tempfile.TemporaryDirectory(prefix="session-playback-") as temporary:
         root = Path(temporary)

@@ -1,22 +1,222 @@
 {
-  "passes": [
-    {
-      "settings": 55838,
-      "settings_with_proposals": 35,
-      "note_length": 36,
-      "pass": 1,
-      "individual_rejections": 2,
-      "accepted": 34,
-      "rejected": 0
+  "rounds": {
+    "Matching written phrases": {
+      "scan": {
+        "passes": [
+          {
+            "interior_phrases_compared": 2467,
+            "no_matching_phrase": 2257,
+            "boundary_or_run_too_long": 20707,
+            "unsupported": 3311,
+            "note_length": 34,
+            "short_phrase": 259,
+            "no_supported_edit": 101,
+            "misplaced_barline": 57,
+            "conflicting_phrases": 8,
+            "missing_barline": 10,
+            "settings": 55821,
+            "settings_with_proposals": 81,
+            "pass": 1,
+            "individual_rejections": 5,
+            "accepted": 79,
+            "rejected": 0
+          },
+          {
+            "interior_phrases_compared": 2371,
+            "no_matching_phrase": 2257,
+            "boundary_or_run_too_long": 20707,
+            "unsupported": 3311,
+            "short_phrase": 259,
+            "no_supported_edit": 101,
+            "conflicting_phrases": 8,
+            "note_length": 5,
+            "settings": 55821,
+            "settings_with_proposals": 2,
+            "pass": 2,
+            "individual_rejections": 5,
+            "accepted": 0
+          }
+        ],
+        "corrected_settings": 79,
+        "remaining_proposals": 2,
+        "rejected_settings": 2
+      },
+      "data": {
+        "csv/tunes.csv": 79,
+        "json/tunes.json": 79,
+        "csv/sets.csv": 927,
+        "json/sets.json": 927,
+        "thesession.db": {
+          "tunes": 79,
+          "sets": 927
+        }
+      }
     },
-    {
-      "settings": 55838,
-      "settings_with_proposals": 1,
-      "note_length": 2,
-      "pass": 2,
-      "individual_rejections": 2,
-      "accepted": 0
+    "Line breaks and rhythm marks": {
+      "scan": {
+        "passes": [
+          {
+            "interior_phrases_compared": 2371,
+            "no_matching_phrase": 2164,
+            "boundary_or_run_too_long": 20707,
+            "unsupported": 3311,
+            "short_phrase": 259,
+            "no_supported_edit": 101,
+            "line_break_witness": 90,
+            "missing_barline": 91,
+            "rhythm_mark": 2,
+            "conflicting_phrases": 8,
+            "note_length": 5,
+            "settings": 55821,
+            "settings_with_proposals": 78,
+            "pass": 1,
+            "individual_rejections": 6,
+            "accepted": 75,
+            "rejected": 0
+          },
+          {
+            "interior_phrases_compared": 2279,
+            "no_matching_phrase": 2164,
+            "boundary_or_run_too_long": 20707,
+            "unsupported": 3311,
+            "short_phrase": 259,
+            "no_supported_edit": 101,
+            "conflicting_phrases": 8,
+            "note_length": 5,
+            "missing_barline": 1,
+            "settings": 55821,
+            "settings_with_proposals": 3,
+            "pass": 2,
+            "individual_rejections": 6,
+            "accepted": 0
+          }
+        ],
+        "corrected_settings": 75,
+        "remaining_proposals": 3,
+        "rejected_settings": 3
+      },
+      "data": {
+        "csv/tunes.csv": 75,
+        "json/tunes.json": 75,
+        "csv/sets.csv": 252,
+        "json/sets.json": 252,
+        "thesession.db": {
+          "tunes": 75,
+          "sets": 252
+        }
+      }
+    },
+    "Missing notes": {
+      "scan": {
+        "passes": [
+          {
+            "interior_bars_compared": 155,
+            "matching_insertions": 5,
+            "independently_confirmed_insertions": 2,
+            "settings": 55821,
+            "settings_with_proposals": 2,
+            "pass": 1,
+            "accepted": 2,
+            "rejected": 0
+          },
+          {
+            "interior_bars_compared": 153,
+            "matching_insertions": 3,
+            "independently_confirmed_insertions": 0,
+            "settings": 55821,
+            "settings_with_proposals": 0,
+            "pass": 2,
+            "accepted": 0
+          }
+        ],
+        "corrected_settings": 2,
+        "remaining_proposals": 0,
+        "rejected_settings": 0
+      },
+      "data": {
+        "csv/tunes.csv": 2,
+        "json/tunes.json": 2,
+        "csv/sets.csv": 15,
+        "json/sets.json": 15,
+        "thesession.db": {
+          "tunes": 2,
+          "sets": 15
+        }
+      }
     }
-  ],
-  "rejected_settings": 4
+  },
+  "accepted_locations": {
+    "misplaced_barline": 57,
+    "note_length": 29,
+    "missing_note": 2,
+    "missing_barline": 100,
+    "rhythm_mark": 2
+  },
+  "distinct_corrected_settings": 156,
+  "rejected_settings": 5,
+  "final_scan": {
+    "Exact phrase": {
+      "candidate_settings": 3,
+      "candidate_locations": 6,
+      "not_previously_rejected": [],
+      "candidate_types": {
+        "note_length": 5,
+        "missing_barline": 1
+      },
+      "scan_details": {
+        "interior_phrases_compared": 2277,
+        "no_matching_phrase": 2162,
+        "boundary_or_run_too_long": 20707,
+        "unsupported": 3311,
+        "short_phrase": 259,
+        "no_supported_edit": 101,
+        "conflicting_phrases": 8,
+        "note_length": 5,
+        "missing_barline": 1
+      }
+    },
+    "Missing note": {
+      "candidate_settings": 0,
+      "candidate_locations": 0,
+      "not_previously_rejected": [],
+      "candidate_types": {},
+      "scan_details": {
+        "interior_bars_compared": 153,
+        "matching_insertions": 3,
+        "independently_confirmed_insertions": 0
+      }
+    },
+    "Different setting": {
+      "candidate_settings": 0,
+      "candidate_locations": 0,
+      "not_previously_rejected": [],
+      "candidate_types": {},
+      "scan_details": {}
+    },
+    "Written repeat": {
+      "candidate_settings": 1,
+      "candidate_locations": 2,
+      "not_previously_rejected": [],
+      "candidate_types": {
+        "note_length": 2
+      },
+      "scan_details": {}
+    },
+    "Basic structure": {
+      "candidate_settings": 3,
+      "candidate_locations": 5,
+      "not_previously_rejected": [],
+      "candidate_types": {
+        "stray_control": 2,
+        "missing_barline": 3
+      },
+      "scan_details": {
+        "settings": 55821,
+        "bars": 1074957,
+        "settings_with_proposals": 3,
+        "stray_control": 2,
+        "missing_barline": 3
+      }
+    }
+  }
 }

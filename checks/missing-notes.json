@@ -1,0 +1,67 @@
+[
+  {
+    "tune_id": "42",
+    "setting_id": "44250",
+    "source_url": "https://thesession.org/tunes/42#setting44250",
+    "rule": "missing_note",
+    "bar": 19,
+    "before": "\"C\" gc acga",
+    "after": "\"C\" c2gc acga",
+    "token": "c2",
+    "duration_eighths": "2",
+    "method": "Identical phrase and both adjacent measures in independent transcriptions",
+    "reference_ranges": [
+      [
+        "51287",
+        19,
+        19
+      ],
+      [
+        "39424",
+        19,
+        19
+      ]
+    ],
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1855",
+    "setting_id": "49504",
+    "source_url": "https://thesession.org/tunes/1855#setting49504",
+    "rule": "missing_note",
+    "bar": 12,
+    "before": "gbb ba",
+    "after": "gbb bag",
+    "token": "g",
+    "duration_eighths": "1",
+    "method": "Identical phrase and both adjacent measures in independent transcriptions",
+    "reference_ranges": [
+      [
+        "53535",
+        12,
+        12
+      ],
+      [
+        "46651",
+        12,
+        12
+      ],
+      [
+        "1855",
+        12,
+        12
+      ],
+      [
+        "24596",
+        12,
+        12
+      ],
+      [
+        "24027",
+        14,
+        14
+      ]
+    ],
+    "scan_pass": 1
+  }
+]

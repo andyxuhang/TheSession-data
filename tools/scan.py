@@ -160,6 +160,17 @@ def rows(path):
                 yield json.loads(text)
 
 
+def unique_settings(records):
+    """Collapse rows duplicated by the upstream composer join for analysis."""
+    by_id = {}
+    for row in records:
+        sid = row['setting_id']
+        previous = by_id.setdefault(sid, row)
+        if previous != row and any(previous[key] != row[key] for key in row if key != 'composer'):
+            raise ValueError('Conflicting tune rows for setting ' + sid)
+    return by_id
+
+
 def meter_units(value):
     try:
         a, b = value.split("/")

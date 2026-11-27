@@ -1,0 +1,4376 @@
+[
+  {
+    "tune_id": "21",
+    "setting_id": "21",
+    "source_url": "https://thesession.org/tunes/21#setting21",
+    "rule": "misplaced_barline",
+    "bar": 10,
+    "last_bar": 11,
+    "before": "cAGE|G2 EG",
+    "after": "cAGE G2 EG",
+    "reference_ranges": [
+      [
+        "35442",
+        14,
+        14
+      ],
+      [
+        "55184",
+        14,
+        14
+      ],
+      [
+        "57234",
+        14,
+        14
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "21",
+    "setting_id": "45031",
+    "source_url": "https://thesession.org/tunes/21#setting45031",
+    "rule": "misplaced_barline",
+    "bar": 10,
+    "last_bar": 11,
+    "before": "cAGE|G2 EG",
+    "after": "cAGE G2 EG",
+    "reference_ranges": [
+      [
+        "39780",
+        16,
+        16
+      ],
+      [
+        "48792",
+        14,
+        14
+      ],
+      [
+        "35442",
+        14,
+        14
+      ],
+      [
+        "35225",
+        15,
+        15
+      ],
+      [
+        "55184",
+        14,
+        14
+      ],
+      [
+        "51998",
+        14,
+        14
+      ],
+      [
+        "57234",
+        14,
+        14
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "21",
+    "setting_id": "57853",
+    "source_url": "https://thesession.org/tunes/21#setting57853",
+    "rule": "misplaced_barline",
+    "bar": 10,
+    "last_bar": 11,
+    "before": "cAGE|G2 EG",
+    "after": "cAGE G2 EG",
+    "reference_ranges": [
+      [
+        "35442",
+        14,
+        14
+      ],
+      [
+        "55184",
+        14,
+        14
+      ],
+      [
+        "57234",
+        14,
+        14
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "21",
+    "setting_id": "58445",
+    "source_url": "https://thesession.org/tunes/21#setting58445",
+    "rule": "misplaced_barline",
+    "bar": 14,
+    "last_bar": 15,
+    "before": "cAGE|G2 EG",
+    "after": "cAGE G2 EG",
+    "reference_ranges": [
+      [
+        "35442",
+        14,
+        14
+      ],
+      [
+        "55184",
+        14,
+        14
+      ],
+      [
+        "57234",
+        14,
+        14
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "33",
+    "setting_id": "12432",
+    "source_url": "https://thesession.org/tunes/33#setting12432",
+    "rule": "note_length",
+    "bar": 16,
+    "last_bar": 16,
+    "before": "g2 (3Bcd g<a f3>d",
+    "after": "g2 (3Bcd g<a f>d",
+    "reference_ranges": [
+      [
+        "12432",
+        20,
+        20
+      ],
+      [
+        "12433",
+        16,
+        16
+      ],
+      [
+        "12433",
+        20,
+        20
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "36",
+    "setting_id": "47086",
+    "source_url": "https://thesession.org/tunes/36#setting47086",
+    "rule": "misplaced_barline",
+    "bar": 7,
+    "last_bar": 8,
+    "before": "(3ded ce|dBAF",
+    "after": "(3ded ce dBAF",
+    "reference_ranges": [
+      [
+        "47086",
+        16,
+        16
+      ],
+      [
+        "55660",
+        7,
+        7
+      ],
+      [
+        "55660",
+        15,
+        15
+      ],
+      [
+        "28702",
+        7,
+        7
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "50",
+    "setting_id": "57558",
+    "source_url": "https://thesession.org/tunes/50#setting57558",
+    "rule": "misplaced_barline",
+    "bar": 4,
+    "last_bar": 5,
+    "before": "E2 BE dFBF ABde |fedB ",
+    "after": "E2 BE dFBF| ABde  fedB ",
+    "reference_ranges": [
+      [
+        "48608",
+        4,
+        5
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "66",
+    "setting_id": "12515",
+    "source_url": "https://thesession.org/tunes/66#setting12515",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "Bdef gedc\r\nB2 Ac BG G2",
+    "after": "Bdef gedc|\r\nB2 Ac BG G2",
+    "reference_ranges": [
+      [
+        "12515",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "74",
+    "setting_id": "12549",
+    "source_url": "https://thesession.org/tunes/74#setting12549",
+    "rule": "misplaced_barline",
+    "bar": 9,
+    "last_bar": 10,
+    "before": "edcB A|\r\nefg",
+    "after": "edcB A \r\nefg",
+    "reference_ranges": [
+      [
+        "12550",
+        9,
+        9
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "74",
+    "setting_id": "12549",
+    "source_url": "https://thesession.org/tunes/74#setting12549",
+    "rule": "misplaced_barline",
+    "bar": 18,
+    "last_bar": 19,
+    "before": "edcB A|\r\nGAB",
+    "after": "edcB A \r\nGAB",
+    "reference_ranges": [
+      [
+        "12549",
+        27,
+        27
+      ],
+      [
+        "12550",
+        25,
+        25
+      ],
+      [
+        "12550",
+        41,
+        41
+      ],
+      [
+        "12550",
+        105,
+        105
+      ],
+      [
+        "12550",
+        185,
+        185
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "74",
+    "setting_id": "12549",
+    "source_url": "https://thesession.org/tunes/74#setting12549",
+    "rule": "misplaced_barline",
+    "bar": 43,
+    "last_bar": 44,
+    "before": "edcB A|\r\nGAB",
+    "after": "edcB A \r\nGAB",
+    "reference_ranges": [
+      [
+        "12550",
+        41,
+        41
+      ],
+      [
+        "12550",
+        105,
+        105
+      ],
+      [
+        "12550",
+        185,
+        185
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "74",
+    "setting_id": "12549",
+    "source_url": "https://thesession.org/tunes/74#setting12549",
+    "rule": "misplaced_barline",
+    "bar": 52,
+    "last_bar": 53,
+    "before": "edcB A|\r\nefg",
+    "after": "edcB A \r\nefg",
+    "reference_ranges": [
+      [
+        "12550",
+        9,
+        9
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "74",
+    "setting_id": "12549",
+    "source_url": "https://thesession.org/tunes/74#setting12549",
+    "rule": "misplaced_barline",
+    "bar": 95,
+    "last_bar": 96,
+    "before": "c'abg a2|\r\n=c'2",
+    "after": "c'abg a2 \r\n=c'2",
+    "reference_ranges": [
+      [
+        "12550",
+        89,
+        89
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "74",
+    "setting_id": "12549",
+    "source_url": "https://thesession.org/tunes/74#setting12549",
+    "rule": "misplaced_barline",
+    "bar": 113,
+    "last_bar": 114,
+    "before": "edcB A|\r\nGAB",
+    "after": "edcB A \r\nGAB",
+    "reference_ranges": [
+      [
+        "12550",
+        41,
+        41
+      ],
+      [
+        "12550",
+        105,
+        105
+      ],
+      [
+        "12550",
+        185,
+        185
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "74",
+    "setting_id": "12549",
+    "source_url": "https://thesession.org/tunes/74#setting12549",
+    "rule": "misplaced_barline",
+    "bar": 131,
+    "last_bar": 132,
+    "before": "edcB A|\r\nefg",
+    "after": "edcB A \r\nefg",
+    "reference_ranges": [
+      [
+        "12550",
+        121,
+        121
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "74",
+    "setting_id": "12549",
+    "source_url": "https://thesession.org/tunes/74#setting12549",
+    "rule": "misplaced_barline",
+    "bar": 165,
+    "last_bar": 166,
+    "before": "AEGB A|\r\nefg",
+    "after": "AEGB A \r\nefg",
+    "reference_ranges": [
+      [
+        "12550",
+        153,
+        153
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "74",
+    "setting_id": "12549",
+    "source_url": "https://thesession.org/tunes/74#setting12549",
+    "rule": "misplaced_barline",
+    "bar": 174,
+    "last_bar": 175,
+    "before": "edcB A|\r\nGAB",
+    "after": "edcB A \r\nGAB",
+    "reference_ranges": [
+      [
+        "12550",
+        41,
+        41
+      ],
+      [
+        "12550",
+        105,
+        105
+      ],
+      [
+        "12550",
+        169,
+        169
+      ],
+      [
+        "12550",
+        185,
+        185
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "74",
+    "setting_id": "12549",
+    "source_url": "https://thesession.org/tunes/74#setting12549",
+    "rule": "misplaced_barline",
+    "bar": 183,
+    "last_bar": 184,
+    "before": "edcB A|\r\nGAB",
+    "after": "edcB A \r\nGAB",
+    "reference_ranges": [
+      [
+        "12550",
+        169,
+        169
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "74",
+    "setting_id": "12549",
+    "source_url": "https://thesession.org/tunes/74#setting12549",
+    "rule": "misplaced_barline",
+    "bar": 192,
+    "last_bar": 193,
+    "before": "afec A|\r\nGAB",
+    "after": "afec A \r\nGAB",
+    "reference_ranges": [
+      [
+        "12549",
+        35,
+        35
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "74",
+    "setting_id": "12549",
+    "source_url": "https://thesession.org/tunes/74#setting12549",
+    "rule": "misplaced_barline",
+    "bar": 201,
+    "last_bar": 202,
+    "before": "edcB A|\r\nGAB",
+    "after": "edcB A \r\nGAB",
+    "reference_ranges": [
+      [
+        "12550",
+        41,
+        41
+      ],
+      [
+        "12550",
+        105,
+        105
+      ],
+      [
+        "12550",
+        185,
+        185
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "134",
+    "setting_id": "42386",
+    "source_url": "https://thesession.org/tunes/134#setting42386",
+    "rule": "missing_barline",
+    "bar": 35,
+    "last_bar": 35,
+    "before": "AGE D2c\r\nBAG ~E3",
+    "after": "AGE D2c|\r\nBAG ~E3",
+    "reference_ranges": [
+      [
+        "134",
+        34,
+        34
+      ],
+      [
+        "25594",
+        40,
+        40
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "135",
+    "setting_id": "27878",
+    "source_url": "https://thesession.org/tunes/135#setting27878",
+    "rule": "missing_barline",
+    "bar": 5,
+    "last_bar": 5,
+    "before": "BAG A2D\r\nBcB AGF",
+    "after": "BAG A2D|\r\nBcB AGF",
+    "reference_ranges": [
+      [
+        "12751",
+        5,
+        6
+      ],
+      [
+        "53954",
+        5,
+        6
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "135",
+    "setting_id": "27878",
+    "source_url": "https://thesession.org/tunes/135#setting27878",
+    "rule": "missing_barline",
+    "bar": 19,
+    "last_bar": 19,
+    "before": "EFG A2D\r\nBcB AGF",
+    "after": "EFG A2D|\r\nBcB AGF",
+    "reference_ranges": [
+      [
+        "12751",
+        22,
+        23
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "138",
+    "setting_id": "30134",
+    "source_url": "https://thesession.org/tunes/138#setting30134",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "Afed cAGE\r\nD2 ED ADED",
+    "after": "Afed cAGE|\r\nD2 ED ADED",
+    "reference_ranges": [
+      [
+        "50415",
+        5,
+        5
+      ],
+      [
+        "52644",
+        5,
+        5
+      ],
+      [
+        "58469",
+        1,
+        1
+      ],
+      [
+        "58469",
+        5,
+        5
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "231",
+    "setting_id": "37783",
+    "source_url": "https://thesession.org/tunes/231#setting37783",
+    "rule": "missing_barline",
+    "bar": 13,
+    "last_bar": 13,
+    "before": "dBg a3\r\nfdd ecc",
+    "after": "dBg a3|\r\nfdd ecc",
+    "reference_ranges": [
+      [
+        "12926",
+        2,
+        2
+      ],
+      [
+        "231",
+        11,
+        11
+      ],
+      [
+        "231",
+        15,
+        15
+      ],
+      [
+        "37783",
+        10,
+        10
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "368",
+    "setting_id": "13171",
+    "source_url": "https://thesession.org/tunes/368#setting13171",
+    "rule": "note_length",
+    "bar": 29,
+    "last_bar": 29,
+    "before": "eaag a(3aaa",
+    "after": "eaag a2(3aaa",
+    "reference_ranges": [
+      [
+        "368",
+        13,
+        13
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "373",
+    "setting_id": "13188",
+    "source_url": "https://thesession.org/tunes/373#setting13188",
+    "rule": "rhythm_mark",
+    "bar": 23,
+    "last_bar": 23,
+    "before": "\r\nEAA A (3B/c/d",
+    "after": "\r\nEAA A B/c/d",
+    "reference_ranges": [
+      [
+        "13191",
+        23,
+        23
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "454",
+    "setting_id": "454",
+    "source_url": "https://thesession.org/tunes/454#setting454",
+    "rule": "note_length",
+    "bar": 42,
+    "last_bar": 42,
+    "before": "\r\ne3 f2 (3gfe",
+    "after": "\r\ne2 f2 (3gfe",
+    "reference_ranges": [
+      [
+        "57835",
+        42,
+        42
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "483",
+    "setting_id": "58435",
+    "source_url": "https://thesession.org/tunes/483#setting58435",
+    "rule": "misplaced_barline",
+    "bar": 12,
+    "last_bar": 13,
+    "before": "a/g/f/e/ d/c/B/A/|Gc z c/d/",
+    "after": "a/g/f/e/ d/c/B/A/ Gc z c/d/",
+    "reference_ranges": [
+      [
+        "58435",
+        4,
+        4
+      ],
+      [
+        "58435",
+        20,
+        20
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "501",
+    "setting_id": "13421",
+    "source_url": "https://thesession.org/tunes/501#setting13421",
+    "rule": "misplaced_barline",
+    "bar": 5,
+    "last_bar": 6,
+    "before": "g2 fg|egfe",
+    "after": "g2 fg egfe",
+    "reference_ranges": [
+      [
+        "36771",
+        4,
+        4
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "501",
+    "setting_id": "13422",
+    "source_url": "https://thesession.org/tunes/501#setting13422",
+    "rule": "misplaced_barline",
+    "bar": 5,
+    "last_bar": 6,
+    "before": "g2 fg|egfe",
+    "after": "g2 fg egfe",
+    "reference_ranges": [
+      [
+        "36771",
+        4,
+        4
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "536",
+    "setting_id": "34815",
+    "source_url": "https://thesession.org/tunes/536#setting34815",
+    "rule": "missing_barline",
+    "bar": 5,
+    "last_bar": 5,
+    "before": "BdcA BAFA\r\nBG G2 d2 cA",
+    "after": "BdcA BAFA|\r\nBG G2 d2 cA",
+    "reference_ranges": [
+      [
+        "25385",
+        5,
+        5
+      ],
+      [
+        "32272",
+        5,
+        5
+      ],
+      [
+        "34815",
+        2,
+        2
+      ],
+      [
+        "39201",
+        5,
+        5
+      ],
+      [
+        "536",
+        6,
+        6
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "536",
+    "setting_id": "34815",
+    "source_url": "https://thesession.org/tunes/536#setting34815",
+    "rule": "missing_barline",
+    "bar": 13,
+    "last_bar": 13,
+    "before": "eaag agef\r\ng2 eg f2 df",
+    "after": "eaag agef|\r\ng2 eg f2 df",
+    "reference_ranges": [
+      [
+        "32440",
+        13,
+        13
+      ],
+      [
+        "42488",
+        13,
+        13
+      ],
+      [
+        "53818",
+        13,
+        13
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "676",
+    "setting_id": "676",
+    "source_url": "https://thesession.org/tunes/676#setting676",
+    "rule": "misplaced_barline",
+    "bar": 9,
+    "last_bar": 10,
+    "before": "\r\ndg~g2|agfg",
+    "after": "\r\ndg~g2 agfg",
+    "reference_ranges": [
+      [
+        "13724",
+        10,
+        10
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "676",
+    "setting_id": "13723",
+    "source_url": "https://thesession.org/tunes/676#setting13723",
+    "rule": "misplaced_barline",
+    "bar": 13,
+    "last_bar": 14,
+    "before": "\r\ndg~g2|ag~g2",
+    "after": "\r\ndg~g2 ag~g2",
+    "reference_ranges": [
+      [
+        "13723",
+        9,
+        9
+      ],
+      [
+        "25639",
+        13,
+        13
+      ],
+      [
+        "48873",
+        13,
+        13
+      ],
+      [
+        "40366",
+        13,
+        13
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "676",
+    "setting_id": "13725",
+    "source_url": "https://thesession.org/tunes/676#setting13725",
+    "rule": "misplaced_barline",
+    "bar": 9,
+    "last_bar": 10,
+    "before": "\r\ndg~g2|agfg",
+    "after": "\r\ndg~g2 agfg",
+    "reference_ranges": [
+      [
+        "13724",
+        10,
+        10
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "719",
+    "setting_id": "24983",
+    "source_url": "https://thesession.org/tunes/719#setting24983",
+    "rule": "misplaced_barline",
+    "bar": 23,
+    "last_bar": 24,
+    "before": "Bd d2|eBdB",
+    "after": "Bd d2 eBdB",
+    "reference_ranges": [
+      [
+        "25465",
+        23,
+        23
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "840",
+    "setting_id": "14002",
+    "source_url": "https://thesession.org/tunes/840#setting14002",
+    "rule": "missing_barline",
+    "bar": 12,
+    "last_bar": 12,
+    "before": "eaag aged\r\ncdef g2fe",
+    "after": "eaag aged|\r\ncdef g2fe",
+    "reference_ranges": [
+      [
+        "30435",
+        12,
+        12
+      ],
+      [
+        "840",
+        12,
+        12
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "881",
+    "setting_id": "44293",
+    "source_url": "https://thesession.org/tunes/881#setting44293",
+    "rule": "missing_barline",
+    "bar": 5,
+    "last_bar": 5,
+    "before": "dBB B2e\r\ncee efa",
+    "after": "dBB B2e|\r\ncee efa",
+    "reference_ranges": [
+      [
+        "44293",
+        2,
+        2
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "917",
+    "setting_id": "22912",
+    "source_url": "https://thesession.org/tunes/917#setting22912",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "cABG AGEF\r\nGABG ABGE",
+    "after": "cABG AGEF|\r\nGABG ABGE",
+    "reference_ranges": [
+      [
+        "22912",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "917",
+    "setting_id": "44144",
+    "source_url": "https://thesession.org/tunes/917#setting44144",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "ecdB cBGA\r\nBcdB cdBG",
+    "after": "ecdB cBGA|\r\nBcdB cdBG",
+    "reference_ranges": [
+      [
+        "44144",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "948",
+    "setting_id": "33883",
+    "source_url": "https://thesession.org/tunes/948#setting33883",
+    "rule": "missing_barline",
+    "bar": 14,
+    "last_bar": 14,
+    "before": "~g3 efg\r\nfed B2 d",
+    "after": "~g3 efg|\r\nfed B2 d",
+    "reference_ranges": [
+      [
+        "49849",
+        21,
+        22
+      ],
+      [
+        "49849",
+        29,
+        30
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "992",
+    "setting_id": "38437",
+    "source_url": "https://thesession.org/tunes/992#setting38437",
+    "rule": "missing_barline",
+    "bar": 12,
+    "last_bar": 12,
+    "before": "{g}fdB {gBd}BAG\r\nag{a}e gae",
+    "after": "{g}fdB {gBd}BAG|\r\nag{a}e gae",
+    "reference_ranges": [
+      [
+        "38437",
+        8,
+        8
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "992",
+    "setting_id": "38437",
+    "source_url": "https://thesession.org/tunes/992#setting38437",
+    "rule": "missing_barline",
+    "bar": 20,
+    "last_bar": 20,
+    "before": "{gef}ec{G}A aed\r\ne{g}e{A}e {gde}dB{G}A",
+    "after": "{gef}ec{G}A aed|\r\ne{g}e{A}e {gde}dB{G}A",
+    "reference_ranges": [
+      [
+        "38437",
+        1,
+        1
+      ],
+      [
+        "38437",
+        16,
+        16
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "992",
+    "setting_id": "38437",
+    "source_url": "https://thesession.org/tunes/992#setting38437",
+    "rule": "missing_barline",
+    "bar": 27,
+    "last_bar": 27,
+    "before": "{gde}dB{d}A {gde}dB{d}G\r\nag{a}e aA{d}A",
+    "after": "{gde}dB{d}A {gde}dB{d}G|\r\nag{a}e aA{d}A",
+    "reference_ranges": [
+      [
+        "38437",
+        23,
+        23
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1042",
+    "setting_id": "35274",
+    "source_url": "https://thesession.org/tunes/1042#setting35274",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "dBcA BGGE\r\nDGGBA2ge",
+    "after": "dBcA BGGE|\r\nDGGBA2ge",
+    "reference_ranges": [
+      [
+        "35274",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1061",
+    "setting_id": "37226",
+    "source_url": "https://thesession.org/tunes/1061#setting37226",
+    "rule": "note_length",
+    "bar": 3,
+    "last_bar": 3,
+    "before": "G2 GF G2 BAG",
+    "after": "G2 GF G BAG",
+    "reference_ranges": [
+      [
+        "6145",
+        3,
+        3
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1091",
+    "setting_id": "1091",
+    "source_url": "https://thesession.org/tunes/1091#setting1091",
+    "rule": "missing_barline",
+    "bar": 20,
+    "last_bar": 20,
+    "before": "fefe fedc\r\nBd~d2 ed~d2",
+    "after": "fefe fedc|\r\nBd~d2 ed~d2",
+    "reference_ranges": [
+      [
+        "1091",
+        16,
+        16
+      ],
+      [
+        "39063",
+        17,
+        17
+      ],
+      [
+        "45993",
+        17,
+        17
+      ],
+      [
+        "47361",
+        17,
+        17
+      ],
+      [
+        "52006",
+        17,
+        17
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1091",
+    "setting_id": "33612",
+    "source_url": "https://thesession.org/tunes/1091#setting33612",
+    "rule": "missing_barline",
+    "bar": 20,
+    "last_bar": 20,
+    "before": "fe^df e^d=dc\r\nBd d/d/d ed d/d/d",
+    "after": "fe^df e^d=dc|\r\nBd d/d/d ed d/d/d",
+    "reference_ranges": [
+      [
+        "33612",
+        16,
+        16
+      ],
+      [
+        "51869",
+        19,
+        19
+      ],
+      [
+        "51869",
+        23,
+        23
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1091",
+    "setting_id": "45993",
+    "source_url": "https://thesession.org/tunes/1091#setting45993",
+    "rule": "missing_barline",
+    "bar": 20,
+    "last_bar": 20,
+    "before": "fefe fedc\r\nBd d2 ed d2",
+    "after": "fefe fedc|\r\nBd d2 ed d2",
+    "reference_ranges": [
+      [
+        "1091",
+        16,
+        16
+      ],
+      [
+        "39063",
+        17,
+        17
+      ],
+      [
+        "45993",
+        17,
+        17
+      ],
+      [
+        "47361",
+        17,
+        17
+      ],
+      [
+        "52006",
+        17,
+        17
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1091",
+    "setting_id": "47361",
+    "source_url": "https://thesession.org/tunes/1091#setting47361",
+    "rule": "missing_barline",
+    "bar": 20,
+    "last_bar": 20,
+    "before": "fefe fedc\r\nBd d2 ed d2",
+    "after": "fefe fedc|\r\nBd d2 ed d2",
+    "reference_ranges": [
+      [
+        "1091",
+        16,
+        16
+      ],
+      [
+        "39063",
+        17,
+        17
+      ],
+      [
+        "45993",
+        17,
+        17
+      ],
+      [
+        "47361",
+        17,
+        17
+      ],
+      [
+        "52006",
+        17,
+        17
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1091",
+    "setting_id": "52006",
+    "source_url": "https://thesession.org/tunes/1091#setting52006",
+    "rule": "missing_barline",
+    "bar": 20,
+    "last_bar": 20,
+    "before": "fefe fedc\r\nBd d2 ed d2",
+    "after": "fefe fedc|\r\nBd d2 ed d2",
+    "reference_ranges": [
+      [
+        "1091",
+        16,
+        16
+      ],
+      [
+        "39063",
+        17,
+        17
+      ],
+      [
+        "45993",
+        17,
+        17
+      ],
+      [
+        "47361",
+        17,
+        17
+      ],
+      [
+        "52006",
+        17,
+        17
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1232",
+    "setting_id": "23663",
+    "source_url": "https://thesession.org/tunes/1232#setting23663",
+    "rule": "note_length",
+    "bar": 14,
+    "last_bar": 14,
+    "before": "B2 B B A/B",
+    "after": "B2 B B2 A/B/",
+    "reference_ranges": [
+      [
+        "23663",
+        5,
+        5
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1281",
+    "setting_id": "14592",
+    "source_url": "https://thesession.org/tunes/1281#setting14592",
+    "rule": "missing_barline",
+    "bar": 12,
+    "last_bar": 12,
+    "before": "dBGB A3 A\r\neAAA cdeg",
+    "after": "dBGB A3 A|\r\neAAA cdeg",
+    "reference_ranges": [
+      [
+        "14592",
+        9,
+        9
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1308",
+    "setting_id": "1308",
+    "source_url": "https://thesession.org/tunes/1308#setting1308",
+    "rule": "note_length",
+    "bar": 13,
+    "last_bar": 13,
+    "before": "\r\na2e2 efg",
+    "after": "\r\na2e2 e2fg",
+    "reference_ranges": [
+      [
+        "56432",
+        13,
+        13
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1314",
+    "setting_id": "21940",
+    "source_url": "https://thesession.org/tunes/1314#setting21940",
+    "rule": "note_length",
+    "bar": 10,
+    "last_bar": 10,
+    "before": "\"G\"g5 GA",
+    "after": "\"G\"g6 GA",
+    "reference_ranges": [
+      [
+        "14650",
+        10,
+        10
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1428",
+    "setting_id": "27991",
+    "source_url": "https://thesession.org/tunes/1428#setting27991",
+    "rule": "missing_barline",
+    "bar": 20,
+    "last_bar": 20,
+    "before": "fgef defg\r\na3f a3f",
+    "after": "fgef defg|\r\na3f a3f",
+    "reference_ranges": [
+      [
+        "27991",
+        17,
+        17
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1496",
+    "setting_id": "46386",
+    "source_url": "https://thesession.org/tunes/1496#setting46386",
+    "rule": "misplaced_barline",
+    "bar": 14,
+    "last_bar": 15,
+    "before": "ecA|G3",
+    "after": "ecA G3",
+    "reference_ranges": [
+      [
+        "46382",
+        8,
+        8
+      ],
+      [
+        "46382",
+        12,
+        12
+      ],
+      [
+        "14884",
+        8,
+        8
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1498",
+    "setting_id": "14889",
+    "source_url": "https://thesession.org/tunes/1498#setting14889",
+    "rule": "missing_barline",
+    "bar": 12,
+    "last_bar": 12,
+    "before": "gedB AEGE\r\nDEGA BGG,G",
+    "after": "gedB AEGE|\r\nDEGA BGG,G",
+    "reference_ranges": [
+      [
+        "14889",
+        4,
+        4
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1500",
+    "setting_id": "57952",
+    "source_url": "https://thesession.org/tunes/1500#setting57952",
+    "rule": "missing_barline",
+    "bar": 14,
+    "last_bar": 14,
+    "before": "EDEF GBAG\r\nFDFA dfaf",
+    "after": "EDEF GBAG|\r\nFDFA dfaf",
+    "reference_ranges": [
+      [
+        "57952",
+        5,
+        6
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1552",
+    "setting_id": "54840",
+    "source_url": "https://thesession.org/tunes/1552#setting54840",
+    "rule": "note_length",
+    "bar": 10,
+    "last_bar": 10,
+    "before": "dBAF ADD",
+    "after": "dBAF ADD2",
+    "reference_ranges": [
+      [
+        "36795",
+        12,
+        12
+      ],
+      [
+        "1552",
+        12,
+        12
+      ],
+      [
+        "44358",
+        12,
+        12
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1627",
+    "setting_id": "29100",
+    "source_url": "https://thesession.org/tunes/1627#setting29100",
+    "rule": "missing_barline",
+    "bar": 21,
+    "last_bar": 21,
+    "before": "GFDB, CCB,C\r\nA,DDE FF D/E/F",
+    "after": "GFDB, CCB,C|\r\nA,DDE FF D/E/F",
+    "reference_ranges": [
+      [
+        "29100",
+        5,
+        5
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1649",
+    "setting_id": "30012",
+    "source_url": "https://thesession.org/tunes/1649#setting30012",
+    "rule": "missing_barline",
+    "bar": 5,
+    "last_bar": 5,
+    "before": "B2A2A2Bc\r\ndG GA B2 AG",
+    "after": "B2A2A2Bc|\r\ndG GA B2 AG",
+    "reference_ranges": [
+      [
+        "53941",
+        5,
+        6
+      ],
+      [
+        "54091",
+        5,
+        6
+      ],
+      [
+        "22457",
+        5,
+        6
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1660",
+    "setting_id": "21036",
+    "source_url": "https://thesession.org/tunes/1660#setting21036",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "(3ccc BG AGFG\r\nA2 GF cFFG",
+    "after": "(3ccc BG AGFG|\r\nA2 GF cFFG",
+    "reference_ranges": [
+      [
+        "21036",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1853",
+    "setting_id": "1853",
+    "source_url": "https://thesession.org/tunes/1853#setting1853",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "cee e3\r\nDFA GBd",
+    "after": "cee e3|\r\nDFA GBd",
+    "reference_ranges": [
+      [
+        "1853",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "1853",
+    "setting_id": "1853",
+    "source_url": "https://thesession.org/tunes/1853#setting1853",
+    "rule": "missing_barline",
+    "bar": 20,
+    "last_bar": 20,
+    "before": "cee e3\r\nDFA GBd",
+    "after": "cee e3|\r\nDFA GBd",
+    "reference_ranges": [
+      [
+        "1853",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "2025",
+    "setting_id": "24275",
+    "source_url": "https://thesession.org/tunes/2025#setting24275",
+    "rule": "note_length",
+    "bar": 5,
+    "last_bar": 5,
+    "before": "FGF E2",
+    "after": "F3GF E",
+    "reference_ranges": [
+      [
+        "53497",
+        5,
+        5
+      ],
+      [
+        "2025",
+        5,
+        5
+      ],
+      [
+        "25917",
+        5,
+        5
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "2082",
+    "setting_id": "48508",
+    "source_url": "https://thesession.org/tunes/2082#setting48508",
+    "rule": "misplaced_barline",
+    "bar": 12,
+    "last_bar": 13,
+    "before": "c2Bc|A2GE",
+    "after": "c2Bc A2GE",
+    "reference_ranges": [
+      [
+        "46891",
+        5,
+        5
+      ],
+      [
+        "46891",
+        13,
+        13
+      ],
+      [
+        "48508",
+        4,
+        4
+      ],
+      [
+        "37965",
+        4,
+        4
+      ],
+      [
+        "37965",
+        12,
+        12
+      ],
+      [
+        "15474",
+        4,
+        4
+      ],
+      [
+        "15474",
+        12,
+        12
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "2254",
+    "setting_id": "27498",
+    "source_url": "https://thesession.org/tunes/2254#setting27498",
+    "rule": "missing_barline",
+    "bar": 32,
+    "last_bar": 32,
+    "before": "EFG ABc\r\nBAG AFD",
+    "after": "EFG ABc|\r\nBAG AFD",
+    "reference_ranges": [
+      [
+        "25872",
+        32,
+        33
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "2739",
+    "setting_id": "41333",
+    "source_url": "https://thesession.org/tunes/2739#setting41333",
+    "rule": "missing_barline",
+    "bar": 13,
+    "last_bar": 13,
+    "before": "cABG ABAG\r\nFDAG FGA=c",
+    "after": "cABG ABAG|\r\nFDAG FGA=c",
+    "reference_ranges": [
+      [
+        "41333",
+        5,
+        5
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "2765",
+    "setting_id": "15996",
+    "source_url": "https://thesession.org/tunes/2765#setting15996",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "ABd cAF\r\nGBd f2f",
+    "after": "ABd cAF|\r\nGBd f2f",
+    "reference_ranges": [
+      [
+        "15995",
+        4,
+        4
+      ],
+      [
+        "2765",
+        4,
+        4
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "2765",
+    "setting_id": "15996",
+    "source_url": "https://thesession.org/tunes/2765#setting15996",
+    "rule": "missing_barline",
+    "bar": 11,
+    "last_bar": 11,
+    "before": "EFG dcA\r\nzdc BBA",
+    "after": "EFG dcA|\r\nzdc BBA",
+    "reference_ranges": [
+      [
+        "15995",
+        12,
+        12
+      ],
+      [
+        "2765",
+        12,
+        12
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "2948",
+    "setting_id": "2948",
+    "source_url": "https://thesession.org/tunes/2948#setting2948",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "BdBG BdBG\r\nB2gf e2d2",
+    "after": "BdBG BdBG|\r\nB2gf e2d2",
+    "reference_ranges": [
+      [
+        "16116",
+        4,
+        5
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "2968",
+    "setting_id": "24287",
+    "source_url": "https://thesession.org/tunes/2968#setting24287",
+    "rule": "note_length",
+    "bar": 5,
+    "last_bar": 5,
+    "before": "\"D\"dBA \"Bm\"B2 ef",
+    "after": "\"D\"dBA \"Bm\"B ef",
+    "reference_ranges": [
+      [
+        "35419",
+        5,
+        5
+      ],
+      [
+        "51893",
+        5,
+        5
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "2968",
+    "setting_id": "24288",
+    "source_url": "https://thesession.org/tunes/2968#setting24288",
+    "rule": "note_length",
+    "bar": 5,
+    "last_bar": 5,
+    "before": "ecB c2 fg",
+    "after": "ecB c fg",
+    "reference_ranges": [
+      [
+        "35419",
+        5,
+        5
+      ],
+      [
+        "51893",
+        5,
+        5
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "3047",
+    "setting_id": "54118",
+    "source_url": "https://thesession.org/tunes/3047#setting54118",
+    "rule": "missing_barline",
+    "bar": 22,
+    "last_bar": 22,
+    "before": "_B/B/B AG =FDCF\r\nDE=FE DG G/G/G",
+    "after": "_B/B/B AG =FDCF|\r\nDE=FE DG G/G/G",
+    "reference_ranges": [
+      [
+        "54118",
+        15,
+        15
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "3050",
+    "setting_id": "27453",
+    "source_url": "https://thesession.org/tunes/3050#setting27453",
+    "rule": "missing_barline",
+    "bar": 11,
+    "last_bar": 11,
+    "before": "fdec d2 de\r\nf2 fa e2 eg",
+    "after": "fdec d2 de|\r\nf2 fa e2 eg",
+    "reference_ranges": [
+      [
+        "58554",
+        11,
+        12
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "3268",
+    "setting_id": "3268",
+    "source_url": "https://thesession.org/tunes/3268#setting3268",
+    "rule": "missing_barline",
+    "bar": 13,
+    "last_bar": 13,
+    "before": "fdBc dfed\r\nc/B/A eA fAec",
+    "after": "fdBc dfed|\r\nc/B/A eA fAec",
+    "reference_ranges": [
+      [
+        "3268",
+        10,
+        10
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "3352",
+    "setting_id": "16409",
+    "source_url": "https://thesession.org/tunes/3352#setting16409",
+    "rule": "note_length",
+    "bar": 7,
+    "last_bar": 7,
+    "before": "d2d2 B32G",
+    "after": "d2d2 B3G",
+    "reference_ranges": [
+      [
+        "16409",
+        3,
+        3
+      ],
+      [
+        "16410",
+        3,
+        3
+      ],
+      [
+        "16410",
+        7,
+        7
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "3395",
+    "setting_id": "16448",
+    "source_url": "https://thesession.org/tunes/3395#setting16448",
+    "rule": "misplaced_barline",
+    "bar": 18,
+    "last_bar": 19,
+    "before": "dff|cee",
+    "after": "dff cee",
+    "reference_ranges": [
+      [
+        "38876",
+        18,
+        18
+      ],
+      [
+        "38876",
+        22,
+        22
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "3395",
+    "setting_id": "16448",
+    "source_url": "https://thesession.org/tunes/3395#setting16448",
+    "rule": "misplaced_barline",
+    "bar": 23,
+    "last_bar": 24,
+    "before": "dff|cee",
+    "after": "dff cee",
+    "reference_ranges": [
+      [
+        "38876",
+        18,
+        18
+      ],
+      [
+        "38876",
+        22,
+        22
+      ],
+      [
+        "16449",
+        46,
+        46
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "3637",
+    "setting_id": "49785",
+    "source_url": "https://thesession.org/tunes/3637#setting49785",
+    "rule": "misplaced_barline",
+    "bar": 9,
+    "last_bar": 10,
+    "before": "\"G\" BG\"D\"AF \"G\" G3 |\r\nA ",
+    "after": "\"G\" BG\"D\"AF \"G\" G3  \r\nA ",
+    "reference_ranges": [
+      [
+        "49785",
+        14,
+        14
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "4241",
+    "setting_id": "4241",
+    "source_url": "https://thesession.org/tunes/4241#setting4241",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "GBAG EFGA\r\nBd(3ddd edBe",
+    "after": "GBAG EFGA|\r\nBd(3ddd edBe",
+    "reference_ranges": [
+      [
+        "4241",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "4320",
+    "setting_id": "57562",
+    "source_url": "https://thesession.org/tunes/4320#setting57562",
+    "rule": "note_length",
+    "bar": 5,
+    "last_bar": 5,
+    "before": "D5GF",
+    "after": "D6GF",
+    "reference_ranges": [
+      [
+        "57562",
+        14,
+        14
+      ],
+      [
+        "57562",
+        23,
+        23
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "4370",
+    "setting_id": "17046",
+    "source_url": "https://thesession.org/tunes/4370#setting17046",
+    "rule": "note_length",
+    "bar": 14,
+    "last_bar": 15,
+    "before": "\r\n~d c3 dcB|~c B3 cBA",
+    "after": "\r\n~d3 c3 dcB|~c3 B3 cBA",
+    "reference_ranges": [
+      [
+        "17047",
+        14,
+        15
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "4384",
+    "setting_id": "17053",
+    "source_url": "https://thesession.org/tunes/4384#setting17053",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "fdef dBAF\r\nD3F EDB,A,",
+    "after": "fdef dBAF|\r\nD3F EDB,A,",
+    "reference_ranges": [
+      [
+        "17053",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "4486",
+    "setting_id": "17090",
+    "source_url": "https://thesession.org/tunes/4486#setting17090",
+    "rule": "misplaced_barline",
+    "bar": 6,
+    "last_bar": 7,
+    "before": "fegf|ecBe",
+    "after": "fegf ecBe",
+    "reference_ranges": [
+      [
+        "29048",
+        6,
+        6
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "4730",
+    "setting_id": "17232",
+    "source_url": "https://thesession.org/tunes/4730#setting17232",
+    "rule": "missing_barline",
+    "bar": 26,
+    "last_bar": 26,
+    "before": "cBA Bce\r\nf2d fae-",
+    "after": "cBA Bce|\r\nf2d fae-",
+    "reference_ranges": [
+      [
+        "17232",
+        22,
+        22
+      ],
+      [
+        "17232",
+        29,
+        29
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "4740",
+    "setting_id": "31749",
+    "source_url": "https://thesession.org/tunes/4740#setting31749",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "(3Bcdce dcBA\r\nBcdB cdec",
+    "after": "(3Bcdce dcBA|\r\nBcdB cdec",
+    "reference_ranges": [
+      [
+        "31749",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "4785",
+    "setting_id": "28207",
+    "source_url": "https://thesession.org/tunes/4785#setting28207",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "cBc A2d\r\nDGB d2 e",
+    "after": "cBc A2d|\r\nDGB d2 e",
+    "reference_ranges": [
+      [
+        "28207",
+        19,
+        19
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "5100",
+    "setting_id": "32562",
+    "source_url": "https://thesession.org/tunes/5100#setting32562",
+    "rule": "misplaced_barline",
+    "bar": 41,
+    "last_bar": 42,
+    "before": "d4|\r\nDF",
+    "after": "d4 \r\nDF",
+    "reference_ranges": [
+      [
+        "5100",
+        41,
+        41
+      ],
+      [
+        "27624",
+        41,
+        41
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "5135",
+    "setting_id": "57905",
+    "source_url": "https://thesession.org/tunes/5135#setting57905",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "cAGE DCA,B,\r\nC2CD EGAB",
+    "after": "cAGE DCA,B,|\r\nC2CD EGAB",
+    "reference_ranges": [
+      [
+        "38167",
+        1,
+        1
+      ],
+      [
+        "38167",
+        5,
+        5
+      ],
+      [
+        "57842",
+        1,
+        1
+      ],
+      [
+        "57842",
+        5,
+        5
+      ],
+      [
+        "57905",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "5207",
+    "setting_id": "53945",
+    "source_url": "https://thesession.org/tunes/5207#setting53945",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": " cABc AF FG\r\nA2eA fAec ",
+    "after": " cABc AF FG|\r\nA2eA fAec ",
+    "reference_ranges": [
+      [
+        "53945",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "5680",
+    "setting_id": "5680",
+    "source_url": "https://thesession.org/tunes/5680#setting5680",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "BA BG\r\ndd GG",
+    "after": "BA BG|\r\ndd GG",
+    "reference_ranges": [
+      [
+        "5680",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "5891",
+    "setting_id": "22157",
+    "source_url": "https://thesession.org/tunes/5891#setting22157",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "ADF EDC\r\nDE FD GD",
+    "after": "ADF EDC|\r\nDE FD GD",
+    "reference_ranges": [
+      [
+        "22157",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "5961",
+    "setting_id": "54248",
+    "source_url": "https://thesession.org/tunes/5961#setting54248",
+    "rule": "note_length",
+    "bar": 20,
+    "last_bar": 20,
+    "before": "d>B d>e d2 e",
+    "after": "d>B d>e d3 e",
+    "reference_ranges": [
+      [
+        "51113",
+        3,
+        3
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "5989",
+    "setting_id": "17891",
+    "source_url": "https://thesession.org/tunes/5989#setting17891",
+    "rule": "note_length",
+    "bar": 13,
+    "last_bar": 13,
+    "before": "Bd e/f/e/",
+    "after": "Bd ef/e/",
+    "reference_ranges": [
+      [
+        "49947",
+        12,
+        12
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "6105",
+    "setting_id": "17992",
+    "source_url": "https://thesession.org/tunes/6105#setting17992",
+    "rule": "missing_barline",
+    "bar": 11,
+    "last_bar": 11,
+    "before": "GBed cBAG\r\nF3 G FB, B,2",
+    "after": "GBed cBAG|\r\nF3 G FB, B,2",
+    "reference_ranges": [
+      [
+        "17992",
+        8,
+        8
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "6456",
+    "setting_id": "18166",
+    "source_url": "https://thesession.org/tunes/6456#setting18166",
+    "rule": "note_length",
+    "bar": 14,
+    "last_bar": 14,
+    "before": "(3ABA (3GFE D2 B",
+    "after": "(3ABA (3GFE D3 B",
+    "reference_ranges": [
+      [
+        "18165",
+        14,
+        14
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "6536",
+    "setting_id": "6536",
+    "source_url": "https://thesession.org/tunes/6536#setting6536",
+    "rule": "missing_barline",
+    "bar": 32,
+    "last_bar": 32,
+    "before": "e2d2 d4\r\nAdfd Aege",
+    "after": "e2d2 d4|\r\nAdfd Aege",
+    "reference_ranges": [
+      [
+        "6536",
+        36,
+        36
+      ],
+      [
+        "6536",
+        40,
+        40
+      ],
+      [
+        "6536",
+        44,
+        44
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "7051",
+    "setting_id": "24404",
+    "source_url": "https://thesession.org/tunes/7051#setting24404",
+    "rule": "misplaced_barline",
+    "bar": 5,
+    "last_bar": 6,
+    "before": "a>f{g}d {gef}e2|\r\nf",
+    "after": "a>f{g}d {gef}e2 \r\nf",
+    "reference_ranges": [
+      [
+        "7051",
+        5,
+        5
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "7051",
+    "setting_id": "24404",
+    "source_url": "https://thesession.org/tunes/7051#setting24404",
+    "rule": "misplaced_barline",
+    "bar": 25,
+    "last_bar": 26,
+    "before": "{gef}e3 {A}e2|\r\nf",
+    "after": "{gef}e3 {A}e2 \r\nf",
+    "reference_ranges": [
+      [
+        "7051",
+        31,
+        31
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "7078",
+    "setting_id": "18649",
+    "source_url": "https://thesession.org/tunes/7078#setting18649",
+    "rule": "note_length",
+    "bar": 26,
+    "last_bar": 26,
+    "before": "f<a3f f>ed",
+    "after": "f<af f>ed",
+    "reference_ranges": [
+      [
+        "18649",
+        10,
+        10
+      ],
+      [
+        "18649",
+        14,
+        14
+      ],
+      [
+        "18649",
+        22,
+        22
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "7078",
+    "setting_id": "18649",
+    "source_url": "https://thesession.org/tunes/7078#setting18649",
+    "rule": "note_length",
+    "bar": 30,
+    "last_bar": 30,
+    "before": "f<a3f f>ed",
+    "after": "f<af f>ed",
+    "reference_ranges": [
+      [
+        "18649",
+        10,
+        10
+      ],
+      [
+        "18649",
+        14,
+        14
+      ],
+      [
+        "18649",
+        22,
+        22
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "7114",
+    "setting_id": "7114",
+    "source_url": "https://thesession.org/tunes/7114#setting7114",
+    "rule": "missing_barline",
+    "bar": 12,
+    "last_bar": 12,
+    "before": "edfd ed^cd\r\nBdd2 Bdd2",
+    "after": "edfd ed^cd|\r\nBdd2 Bdd2",
+    "reference_ranges": [
+      [
+        "7114",
+        4,
+        4
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "8145",
+    "setting_id": "19341",
+    "source_url": "https://thesession.org/tunes/8145#setting19341",
+    "rule": "note_length",
+    "bar": 2,
+    "last_bar": 2,
+    "before": "GE2 E2G2 FGA2",
+    "after": "G3E E2G2 FGA2",
+    "reference_ranges": [
+      [
+        "19342",
+        2,
+        2
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "8256",
+    "setting_id": "43442",
+    "source_url": "https://thesession.org/tunes/8256#setting43442",
+    "rule": "missing_barline",
+    "bar": 14,
+    "last_bar": 14,
+    "before": "BGE E2g\r\nf/g/af d2e",
+    "after": "BGE E2g|\r\nf/g/af d2e",
+    "reference_ranges": [
+      [
+        "43442",
+        11,
+        11
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "8433",
+    "setting_id": "19511",
+    "source_url": "https://thesession.org/tunes/8433#setting19511",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "BAA ABD\r\nged BcB",
+    "after": "BAA ABD|\r\nged BcB",
+    "reference_ranges": [
+      [
+        "19511",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "8491",
+    "setting_id": "19537",
+    "source_url": "https://thesession.org/tunes/8491#setting19537",
+    "rule": "note_length",
+    "bar": 18,
+    "last_bar": 19,
+    "before": "a^g/a ba|ff/f/ ff/f",
+    "after": "a^g/a/ ba|ff/f/ ff/f/",
+    "reference_ranges": [
+      [
+        "28091",
+        2,
+        3
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "8525",
+    "setting_id": "19550",
+    "source_url": "https://thesession.org/tunes/8525#setting19550",
+    "rule": "misplaced_barline",
+    "bar": 9,
+    "last_bar": 10,
+    "before": "{E}D2 D2 D2|\r\nF>G",
+    "after": "{E}D2 D2 D2 \r\nF>G",
+    "reference_ranges": [
+      [
+        "19550",
+        5,
+        5
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "9023",
+    "setting_id": "25159",
+    "source_url": "https://thesession.org/tunes/9023#setting25159",
+    "rule": "missing_barline",
+    "bar": 21,
+    "last_bar": 21,
+    "before": "AFA B2A\r\ndf/g/d cf/g/c",
+    "after": "AFA B2A|\r\ndf/g/d cf/g/c",
+    "reference_ranges": [
+      [
+        "25159",
+        13,
+        13
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "10423",
+    "setting_id": "20363",
+    "source_url": "https://thesession.org/tunes/10423#setting20363",
+    "rule": "misplaced_barline",
+    "bar": 17,
+    "last_bar": 18,
+    "before": "deed|{c}BABc",
+    "after": "deed {c}BABc",
+    "reference_ranges": [
+      [
+        "10423",
+        17,
+        17
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "10689",
+    "setting_id": "10689",
+    "source_url": "https://thesession.org/tunes/10689#setting10689",
+    "rule": "note_length",
+    "bar": 6,
+    "last_bar": 6,
+    "before": "\r\n~F CF AFCF",
+    "after": "\r\n~F2 CF AFCF",
+    "reference_ranges": [
+      [
+        "20478",
+        6,
+        6
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "12372",
+    "setting_id": "20623",
+    "source_url": "https://thesession.org/tunes/12372#setting20623",
+    "rule": "misplaced_barline",
+    "bar": 23,
+    "last_bar": 24,
+    "before": "GEE|cAA",
+    "after": "GEE cAA",
+    "reference_ranges": [
+      [
+        "20623",
+        7,
+        7
+      ],
+      [
+        "20623",
+        15,
+        15
+      ],
+      [
+        "20623",
+        37,
+        37
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "12372",
+    "setting_id": "20623",
+    "source_url": "https://thesession.org/tunes/12372#setting20623",
+    "rule": "misplaced_barline",
+    "bar": 28,
+    "last_bar": 29,
+    "before": "GEE|cAA",
+    "after": "GEE cAA",
+    "reference_ranges": [
+      [
+        "20623",
+        7,
+        7
+      ],
+      [
+        "20623",
+        15,
+        15
+      ],
+      [
+        "20623",
+        37,
+        37
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "12372",
+    "setting_id": "20623",
+    "source_url": "https://thesession.org/tunes/12372#setting20623",
+    "rule": "misplaced_barline",
+    "bar": 41,
+    "last_bar": 42,
+    "before": "GEE|cAA",
+    "after": "GEE cAA",
+    "reference_ranges": [
+      [
+        "20623",
+        7,
+        7
+      ],
+      [
+        "20623",
+        15,
+        15
+      ],
+      [
+        "20623",
+        37,
+        37
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "12770",
+    "setting_id": "21640",
+    "source_url": "https://thesession.org/tunes/12770#setting21640",
+    "rule": "misplaced_barline",
+    "bar": 5,
+    "last_bar": 6,
+    "before": "C4|\r\nB>c",
+    "after": "C4 \r\nB>c",
+    "reference_ranges": [
+      [
+        "21637",
+        5,
+        5
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "12802",
+    "setting_id": "27029",
+    "source_url": "https://thesession.org/tunes/12802#setting27029",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "BcdB G2G2\r\nB2dB c2ec",
+    "after": "BcdB G2G2|\r\nB2dB c2ec",
+    "reference_ranges": [
+      [
+        "27029",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "12802",
+    "setting_id": "27029",
+    "source_url": "https://thesession.org/tunes/12802#setting27029",
+    "rule": "missing_barline",
+    "bar": 11,
+    "last_bar": 11,
+    "before": "BcdB G2G2\r\ng2ge dBGA",
+    "after": "BcdB G2G2|\r\ng2ge dBGA",
+    "reference_ranges": [
+      [
+        "27029",
+        8,
+        8
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "12810",
+    "setting_id": "21821",
+    "source_url": "https://thesession.org/tunes/12810#setting21821",
+    "rule": "misplaced_barline",
+    "bar": 17,
+    "last_bar": 18,
+    "before": "Agfe d3|\r\nF",
+    "after": "Agfe d3 \r\nF",
+    "reference_ranges": [
+      [
+        "21821",
+        22,
+        22
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "13417",
+    "setting_id": "23620",
+    "source_url": "https://thesession.org/tunes/13417#setting23620",
+    "rule": "note_length",
+    "bar": 12,
+    "last_bar": 12,
+    "before": "e2c'2 (3ac'a e2>g2",
+    "after": "ec' (3ac'a e2>g2",
+    "reference_ranges": [
+      [
+        "23620",
+        16,
+        16
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "13439",
+    "setting_id": "23712",
+    "source_url": "https://thesession.org/tunes/13439#setting23712",
+    "rule": "misplaced_barline",
+    "bar": 9,
+    "last_bar": 10,
+    "before": "fdB^d e3|\r\n(f",
+    "after": "fdB^d e3 \r\n(f",
+    "reference_ranges": [
+      [
+        "23710",
+        9,
+        9
+      ],
+      [
+        "23711",
+        9,
+        9
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "14108",
+    "setting_id": "39212",
+    "source_url": "https://thesession.org/tunes/14108#setting39212",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "afeg fedA\r\nB2dB A2de",
+    "after": "afeg fedA|\r\nB2dB A2de",
+    "reference_ranges": [
+      [
+        "39212",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "14437",
+    "setting_id": "26520",
+    "source_url": "https://thesession.org/tunes/14437#setting26520",
+    "rule": "missing_barline",
+    "bar": 8,
+    "last_bar": 8,
+    "before": "GBA F3\r\nB2B E2F",
+    "after": "GBA F3|\r\nB2B E2F",
+    "reference_ranges": [
+      [
+        "26520",
+        5,
+        5
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "14603",
+    "setting_id": "26913",
+    "source_url": "https://thesession.org/tunes/14603#setting26913",
+    "rule": "missing_barline",
+    "bar": 20,
+    "last_bar": 20,
+    "before": "GAB deg\r\nage a2b",
+    "after": "GAB deg|\r\nage a2b",
+    "reference_ranges": [
+      [
+        "26913",
+        17,
+        17
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "14639",
+    "setting_id": "26992",
+    "source_url": "https://thesession.org/tunes/14639#setting26992",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "f2e2 e2fg\r\ngaa2 gfed",
+    "after": "f2e2 e2fg|\r\ngaa2 gfed",
+    "reference_ranges": [
+      [
+        "26992",
+        1,
+        1
+      ],
+      [
+        "26992",
+        18,
+        18
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "14639",
+    "setting_id": "26993",
+    "source_url": "https://thesession.org/tunes/14639#setting26993",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "c2B2 B2cd\r\ne4 dcBA",
+    "after": "c2B2 B2cd|\r\ne4 dcBA",
+    "reference_ranges": [
+      [
+        "26993",
+        1,
+        1
+      ],
+      [
+        "26993",
+        15,
+        15
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "14676",
+    "setting_id": "27080",
+    "source_url": "https://thesession.org/tunes/14676#setting27080",
+    "rule": "missing_barline",
+    "bar": 12,
+    "last_bar": 12,
+    "before": "afd e3\r\nBdf Bdf",
+    "after": "afd e3|\r\nBdf Bdf",
+    "reference_ranges": [
+      [
+        "27080",
+        9,
+        9
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "15062",
+    "setting_id": "27892",
+    "source_url": "https://thesession.org/tunes/15062#setting27892",
+    "rule": "missing_barline",
+    "bar": 23,
+    "last_bar": 23,
+    "before": "AceA fecA\r\nad (3ddd Gd (3ddd",
+    "after": "AceA fecA|\r\nad (3ddd Gd (3ddd",
+    "reference_ranges": [
+      [
+        "27892",
+        14,
+        14
+      ],
+      [
+        "27892",
+        38,
+        38
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "15062",
+    "setting_id": "27892",
+    "source_url": "https://thesession.org/tunes/15062#setting27892",
+    "rule": "missing_barline",
+    "bar": 30,
+    "last_bar": 30,
+    "before": "AceA fecA\r\nad (3ddd GB (3BBB",
+    "after": "AceA fecA|\r\nad (3ddd GB (3BBB",
+    "reference_ranges": [
+      [
+        "27892",
+        14,
+        14
+      ],
+      [
+        "27892",
+        38,
+        38
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "15275",
+    "setting_id": "28448",
+    "source_url": "https://thesession.org/tunes/15275#setting28448",
+    "rule": "missing_barline",
+    "bar": 13,
+    "last_bar": 13,
+    "before": "BABc BAEA\r\ne2ef eca2",
+    "after": "BABc BAEA|\r\ne2ef eca2",
+    "reference_ranges": [
+      [
+        "28448",
+        10,
+        10
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "15340",
+    "setting_id": "56490",
+    "source_url": "https://thesession.org/tunes/15340#setting56490",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "ABA GED\r\nC3 CEG",
+    "after": "ABA GED|\r\nC3 CEG",
+    "reference_ranges": [
+      [
+        "56490",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "15373",
+    "setting_id": "28725",
+    "source_url": "https://thesession.org/tunes/15373#setting28725",
+    "rule": "missing_barline",
+    "bar": 20,
+    "last_bar": 20,
+    "before": "Ace fec ecA\r\nEFF FGA AGF",
+    "after": "Ace fec ecA|\r\nEFF FGA AGF",
+    "reference_ranges": [
+      [
+        "28725",
+        3,
+        3
+      ],
+      [
+        "28725",
+        11,
+        11
+      ],
+      [
+        "28725",
+        13,
+        13
+      ],
+      [
+        "28725",
+        24,
+        24
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "15517",
+    "setting_id": "29085",
+    "source_url": "https://thesession.org/tunes/15517#setting29085",
+    "rule": "missing_barline",
+    "bar": 12,
+    "last_bar": 12,
+    "before": "cCCc CCcC\r\ncFFc dFFd",
+    "after": "cCCc CCcC|\r\ncFFc dFFd",
+    "reference_ranges": [
+      [
+        "29085",
+        9,
+        9
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "15625",
+    "setting_id": "29320",
+    "source_url": "https://thesession.org/tunes/15625#setting29320",
+    "rule": "missing_barline",
+    "bar": 5,
+    "last_bar": 5,
+    "before": "AFD DBA\r\nGEE E GA",
+    "after": "AFD DBA|\r\nGEE E GA",
+    "reference_ranges": [
+      [
+        "29320",
+        2,
+        2
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "15636",
+    "setting_id": "29342",
+    "source_url": "https://thesession.org/tunes/15636#setting29342",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "BAF EFE\r\nDFA AFD",
+    "after": "BAF EFE|\r\nDFA AFD",
+    "reference_ranges": [
+      [
+        "29342",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "15636",
+    "setting_id": "29342",
+    "source_url": "https://thesession.org/tunes/15636#setting29342",
+    "rule": "missing_barline",
+    "bar": 13,
+    "last_bar": 13,
+    "before": "edB ABc\r\ndef fed",
+    "after": "edB ABc|\r\ndef fed",
+    "reference_ranges": [
+      [
+        "29342",
+        10,
+        10
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "15636",
+    "setting_id": "29342",
+    "source_url": "https://thesession.org/tunes/15636#setting29342",
+    "rule": "missing_barline",
+    "bar": 16,
+    "last_bar": 16,
+    "before": "fdc d2A\r\ndef fed",
+    "after": "fdc d2A|\r\ndef fed",
+    "reference_ranges": [
+      [
+        "29342",
+        10,
+        10
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "15636",
+    "setting_id": "29342",
+    "source_url": "https://thesession.org/tunes/15636#setting29342",
+    "rule": "missing_barline",
+    "bar": 19,
+    "last_bar": 19,
+    "before": "edB AFE\r\nDFA AFD",
+    "after": "edB AFE|\r\nDFA AFD",
+    "reference_ranges": [
+      [
+        "29342",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "15939",
+    "setting_id": "30003",
+    "source_url": "https://thesession.org/tunes/15939#setting30003",
+    "rule": "note_length",
+    "bar": 22,
+    "last_bar": 23,
+    "before": "\r\ngf dg fd BF3/2|D5/f =ef ag",
+    "after": "\r\ngf dg fd BF|D5/f3/2 =ef ag",
+    "reference_ranges": [
+      [
+        "30003",
+        14,
+        15
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "16340",
+    "setting_id": "30951",
+    "source_url": "https://thesession.org/tunes/16340#setting30951",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "cBG GBc\r\nd2c BAG",
+    "after": "cBG GBc|\r\nd2c BAG",
+    "reference_ranges": [
+      [
+        "30951",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "16384",
+    "setting_id": "37200",
+    "source_url": "https://thesession.org/tunes/16384#setting37200",
+    "rule": "missing_barline",
+    "bar": 24,
+    "last_bar": 24,
+    "before": "AD FA FD\r\nB3 B AG",
+    "after": "AD FA FD|\r\nB3 B AG",
+    "reference_ranges": [
+      [
+        "31031",
+        24,
+        25
+      ],
+      [
+        "54416",
+        24,
+        25
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "16741",
+    "setting_id": "31885",
+    "source_url": "https://thesession.org/tunes/16741#setting31885",
+    "rule": "misplaced_barline",
+    "bar": 17,
+    "last_bar": 18,
+    "before": "\"D7\" dBA \"G\" G|\r\nFG",
+    "after": "\"D7\" dBA \"G\" G \r\nFG",
+    "reference_ranges": [
+      [
+        "31885",
+        9,
+        9
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "16912",
+    "setting_id": "32225",
+    "source_url": "https://thesession.org/tunes/16912#setting32225",
+    "rule": "misplaced_barline",
+    "bar": 10,
+    "last_bar": 11,
+    "before": "\r\nA2 EA|ABcB",
+    "after": "\r\nA2 EA ABcB",
+    "reference_ranges": [
+      [
+        "58591",
+        13,
+        13
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "16912",
+    "setting_id": "32253",
+    "source_url": "https://thesession.org/tunes/16912#setting32253",
+    "rule": "misplaced_barline",
+    "bar": 14,
+    "last_bar": 15,
+    "before": "\r\nA2 EA|ABcB",
+    "after": "\r\nA2 EA ABcB",
+    "reference_ranges": [
+      [
+        "58591",
+        9,
+        9
+      ],
+      [
+        "58591",
+        13,
+        13
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "16972",
+    "setting_id": "53143",
+    "source_url": "https://thesession.org/tunes/16972#setting53143",
+    "rule": "note_length",
+    "bar": 28,
+    "last_bar": 28,
+    "before": " e3e e3d//B",
+    "after": " e3e e3d/B/",
+    "reference_ranges": [
+      [
+        "53143",
+        11,
+        11
+      ],
+      [
+        "32393",
+        11,
+        11
+      ],
+      [
+        "32393",
+        29,
+        29
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "17364",
+    "setting_id": "33299",
+    "source_url": "https://thesession.org/tunes/17364#setting33299",
+    "rule": "missing_barline",
+    "bar": 14,
+    "last_bar": 14,
+    "before": "dfe dcB\r\nA3 G3",
+    "after": "dfe dcB|\r\nA3 G3",
+    "reference_ranges": [
+      [
+        "33299",
+        11,
+        11
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "17870",
+    "setting_id": "34637",
+    "source_url": "https://thesession.org/tunes/17870#setting34637",
+    "rule": "misplaced_barline",
+    "bar": 12,
+    "last_bar": 13,
+    "before": "EBe|gfe",
+    "after": "EBe gfe",
+    "reference_ranges": [
+      [
+        "34637",
+        21,
+        21
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "18052",
+    "setting_id": "35121",
+    "source_url": "https://thesession.org/tunes/18052#setting35121",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "dAG FAD\r\nEEE GAB",
+    "after": "dAG FAD|\r\nEEE GAB",
+    "reference_ranges": [
+      [
+        "35121",
+        1,
+        1
+      ],
+      [
+        "35121",
+        20,
+        20
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "18128",
+    "setting_id": "35276",
+    "source_url": "https://thesession.org/tunes/18128#setting35276",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "AFDA GAFA\r\neeBd eBdB",
+    "after": "AFDA GAFA|\r\neeBd eBdB",
+    "reference_ranges": [
+      [
+        "35276",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "18128",
+    "setting_id": "35276",
+    "source_url": "https://thesession.org/tunes/18128#setting35276",
+    "rule": "missing_barline",
+    "bar": 11,
+    "last_bar": 11,
+    "before": "AFDA GAFA\r\ngggd ABGF",
+    "after": "AFDA GAFA|\r\ngggd ABGF",
+    "reference_ranges": [
+      [
+        "35276",
+        8,
+        8
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "18170",
+    "setting_id": "35394",
+    "source_url": "https://thesession.org/tunes/18170#setting35394",
+    "rule": "misplaced_barline",
+    "bar": 16,
+    "last_bar": 17,
+    "before": "B>Gd>B A2|d>e",
+    "after": "B>Gd>B A2 d>e",
+    "reference_ranges": [
+      [
+        "35394",
+        7,
+        7
+      ],
+      [
+        "35394",
+        26,
+        26
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "18632",
+    "setting_id": "38646",
+    "source_url": "https://thesession.org/tunes/18632#setting38646",
+    "rule": "missing_barline",
+    "bar": 9,
+    "last_bar": 9,
+    "before": "A3D GA\r\nB3A Bc",
+    "after": "A3D GA|\r\nB3A Bc",
+    "reference_ranges": [
+      [
+        "36349",
+        9,
+        10
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "18804",
+    "setting_id": "36814",
+    "source_url": "https://thesession.org/tunes/18804#setting36814",
+    "rule": "note_length",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "D F2ABGA",
+    "after": "D F2ABGA2",
+    "reference_ranges": [
+      [
+        "40852",
+        8,
+        8
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "19199",
+    "setting_id": "53594",
+    "source_url": "https://thesession.org/tunes/19199#setting53594",
+    "rule": "rhythm_mark",
+    "bar": 63,
+    "last_bar": 63,
+    "before": " BdB A3 F ",
+    "after": " (3BdB A3 F ",
+    "reference_ranges": [
+      [
+        "53594",
+        47,
+        47
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "19400",
+    "setting_id": "38222",
+    "source_url": "https://thesession.org/tunes/19400#setting38222",
+    "rule": "missing_barline",
+    "bar": 18,
+    "last_bar": 18,
+    "before": "bge efg\r\nf2 f dfa",
+    "after": "bge efg|\r\nf2 f dfa",
+    "reference_ranges": [
+      [
+        "38222",
+        15,
+        15
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "19400",
+    "setting_id": "38222",
+    "source_url": "https://thesession.org/tunes/19400#setting38222",
+    "rule": "missing_barline",
+    "bar": 21,
+    "last_bar": 21,
+    "before": "fdc d3\r\nf2 f dfa",
+    "after": "fdc d3|\r\nf2 f dfa",
+    "reference_ranges": [
+      [
+        "38222",
+        15,
+        15
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "19411",
+    "setting_id": "38239",
+    "source_url": "https://thesession.org/tunes/19411#setting38239",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "AB c e2 c eg\r\nagfe fc c/c/c",
+    "after": "AB c e2 c eg|\r\nagfe fc c/c/c",
+    "reference_ranges": [
+      [
+        "38239",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "19411",
+    "setting_id": "38239",
+    "source_url": "https://thesession.org/tunes/19411#setting38239",
+    "rule": "missing_barline",
+    "bar": 11,
+    "last_bar": 11,
+    "before": "dBcA BAFA\r\nd3 c BAFA",
+    "after": "dBcA BAFA|\r\nd3 c BAFA",
+    "reference_ranges": [
+      [
+        "38239",
+        8,
+        8
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "19784",
+    "setting_id": "41395",
+    "source_url": "https://thesession.org/tunes/19784#setting41395",
+    "rule": "misplaced_barline",
+    "bar": 9,
+    "last_bar": 10,
+    "before": "BFAG E3|\r\ne",
+    "after": "BFAG E3 \r\ne",
+    "reference_ranges": [
+      [
+        "43567",
+        13,
+        13
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "19930",
+    "setting_id": "41859",
+    "source_url": "https://thesession.org/tunes/19930#setting41859",
+    "rule": "missing_barline",
+    "bar": 5,
+    "last_bar": 5,
+    "before": "AFDE FDDF\r\nDFEG EDDd",
+    "after": "AFDE FDDF|\r\nDFEG EDDd",
+    "reference_ranges": [
+      [
+        "41859",
+        2,
+        2
+      ],
+      [
+        "41859",
+        20,
+        20
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "19930",
+    "setting_id": "41859",
+    "source_url": "https://thesession.org/tunes/19930#setting41859",
+    "rule": "missing_barline",
+    "bar": 23,
+    "last_bar": 23,
+    "before": "AFDE FDDF\r\nDFEG EDDd",
+    "after": "AFDE FDDF|\r\nDFEG EDDd",
+    "reference_ranges": [
+      [
+        "41859",
+        2,
+        2
+      ],
+      [
+        "41859",
+        20,
+        20
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "20111",
+    "setting_id": "39793",
+    "source_url": "https://thesession.org/tunes/20111#setting39793",
+    "rule": "missing_barline",
+    "bar": 21,
+    "last_bar": 21,
+    "before": "cBA GFE\r\nFAA FAA",
+    "after": "cBA GFE|\r\nFAA FAA",
+    "reference_ranges": [
+      [
+        "39793",
+        5,
+        5
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "20746",
+    "setting_id": "41209",
+    "source_url": "https://thesession.org/tunes/20746#setting41209",
+    "rule": "missing_barline",
+    "bar": 5,
+    "last_bar": 5,
+    "before": "ecAc Bggg\r\nacc/c/c dcdf",
+    "after": "ecAc Bggg|\r\nacc/c/c dcdf",
+    "reference_ranges": [
+      [
+        "41209",
+        2,
+        2
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "20792",
+    "setting_id": "41296",
+    "source_url": "https://thesession.org/tunes/20792#setting41296",
+    "rule": "missing_barline",
+    "bar": 7,
+    "last_bar": 7,
+    "before": "cde AA/A/A\r\nGG/G/G Gdd",
+    "after": "cde AA/A/A|\r\nGG/G/G Gdd",
+    "reference_ranges": [
+      [
+        "50792",
+        5,
+        5
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "20900",
+    "setting_id": "41582",
+    "source_url": "https://thesession.org/tunes/20900#setting41582",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "GFG AFC\r\nA, (3A,A,A, C (3CCC",
+    "after": "GFG AFC|\r\nA, (3A,A,A, C (3CCC",
+    "reference_ranges": [
+      [
+        "41582",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "21294",
+    "setting_id": "42486",
+    "source_url": "https://thesession.org/tunes/21294#setting42486",
+    "rule": "missing_barline",
+    "bar": 20,
+    "last_bar": 20,
+    "before": "BABA G3B\r\nBAAB ceAe",
+    "after": "BABA G3B|\r\nBAAB ceAe",
+    "reference_ranges": [
+      [
+        "42486",
+        5,
+        5
+      ],
+      [
+        "42486",
+        13,
+        13
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "21585",
+    "setting_id": "43162",
+    "source_url": "https://thesession.org/tunes/21585#setting43162",
+    "rule": "misplaced_barline",
+    "bar": 13,
+    "last_bar": 14,
+    "before": "\r\nd>d (ef/g/)|(af)",
+    "after": "\r\nd>d (ef/g/) (af)",
+    "reference_ranges": [
+      [
+        "43162",
+        1,
+        1
+      ],
+      [
+        "43162",
+        5,
+        5
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "21585",
+    "setting_id": "43244",
+    "source_url": "https://thesession.org/tunes/21585#setting43244",
+    "rule": "misplaced_barline",
+    "bar": 13,
+    "last_bar": 14,
+    "before": "\r\nD>D (EF/G/)|(AF)",
+    "after": "\r\nD>D (EF/G/) (AF)",
+    "reference_ranges": [
+      [
+        "43244",
+        1,
+        1
+      ],
+      [
+        "43244",
+        5,
+        5
+      ],
+      [
+        "43246",
+        1,
+        1
+      ],
+      [
+        "43246",
+        5,
+        5
+      ],
+      [
+        "43246",
+        13,
+        13
+      ],
+      [
+        "43245",
+        13,
+        13
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "21985",
+    "setting_id": "53912",
+    "source_url": "https://thesession.org/tunes/21985#setting53912",
+    "rule": "missing_barline",
+    "bar": 12,
+    "last_bar": 12,
+    "before": "eBBB2e\r\nf3fec",
+    "after": "eBBB2e|\r\nf3fec",
+    "reference_ranges": [
+      [
+        "53912",
+        9,
+        9
+      ],
+      [
+        "56756",
+        10,
+        10
+      ],
+      [
+        "56756",
+        14,
+        14
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "21985",
+    "setting_id": "53912",
+    "source_url": "https://thesession.org/tunes/21985#setting53912",
+    "rule": "missing_barline",
+    "bar": 15,
+    "last_bar": 15,
+    "before": "cAAA2e\r\nf3fec",
+    "after": "cAAA2e|\r\nf3fec",
+    "reference_ranges": [
+      [
+        "53912",
+        9,
+        9
+      ],
+      [
+        "56756",
+        10,
+        10
+      ],
+      [
+        "56756",
+        14,
+        14
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "22096",
+    "setting_id": "44474",
+    "source_url": "https://thesession.org/tunes/22096#setting44474",
+    "rule": "misplaced_barline",
+    "bar": 16,
+    "last_bar": 17,
+    "before": "dAFA|BGEG",
+    "after": "dAFA BGEG",
+    "reference_ranges": [
+      [
+        "44474",
+        12,
+        12
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "22213",
+    "setting_id": "44714",
+    "source_url": "https://thesession.org/tunes/22213#setting44714",
+    "rule": "misplaced_barline",
+    "bar": 9,
+    "last_bar": 10,
+    "before": "G2 G G2|\r\nG/2A/2",
+    "after": "G2 G G2 \r\nG/2A/2",
+    "reference_ranges": [
+      [
+        "44714",
+        3,
+        3
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "22482",
+    "setting_id": "45394",
+    "source_url": "https://thesession.org/tunes/22482#setting45394",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "cAE BGD\r\nEcB Adc",
+    "after": "cAE BGD|\r\nEcB Adc",
+    "reference_ranges": [
+      [
+        "45394",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "22482",
+    "setting_id": "45394",
+    "source_url": "https://thesession.org/tunes/22482#setting45394",
+    "rule": "missing_barline",
+    "bar": 12,
+    "last_bar": 12,
+    "before": "cAE BGD\r\nEcB Adc",
+    "after": "cAE BGD|\r\nEcB Adc",
+    "reference_ranges": [
+      [
+        "45394",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "22768",
+    "setting_id": "46162",
+    "source_url": "https://thesession.org/tunes/22768#setting46162",
+    "rule": "misplaced_barline",
+    "bar": 25,
+    "last_bar": 26,
+    "before": "G4|\r\nGA",
+    "after": "G4 \r\nGA",
+    "reference_ranges": [
+      [
+        "46162",
+        13,
+        13
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "24225",
+    "setting_id": "50224",
+    "source_url": "https://thesession.org/tunes/24225#setting50224",
+    "rule": "missing_barline",
+    "bar": 12,
+    "last_bar": 12,
+    "before": "AFDE FEE2\r\nA2 df a/a/a fe",
+    "after": "AFDE FEE2|\r\nA2 df a/a/a fe",
+    "reference_ranges": [
+      [
+        "50224",
+        9,
+        9
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "24750",
+    "setting_id": "51685",
+    "source_url": "https://thesession.org/tunes/24750#setting51685",
+    "rule": "misplaced_barline",
+    "bar": 7,
+    "last_bar": 8,
+    "before": "ecGE | Gceg",
+    "after": "ecGE   Gceg",
+    "reference_ranges": [
+      [
+        "51685",
+        17,
+        17
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "24902",
+    "setting_id": "52143",
+    "source_url": "https://thesession.org/tunes/24902#setting52143",
+    "rule": "missing_barline",
+    "bar": 13,
+    "last_bar": 13,
+    "before": " dcBA GBEz\r\na2fa ~e2ce ",
+    "after": " dcBA GBEz|\r\na2fa ~e2ce ",
+    "reference_ranges": [
+      [
+        "52143",
+        10,
+        10
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "24929",
+    "setting_id": "52199",
+    "source_url": "https://thesession.org/tunes/24929#setting52199",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "EFE EDC\r\nDFF DFF",
+    "after": "EFE EDC|\r\nDFF DFF",
+    "reference_ranges": [
+      [
+        "52199",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "25032",
+    "setting_id": "52523",
+    "source_url": "https://thesession.org/tunes/25032#setting52523",
+    "rule": "missing_barline",
+    "bar": 4,
+    "last_bar": 4,
+    "before": "EGG/G/G FDEF\r\nG2 FG B,DG,B,",
+    "after": "EGG/G/G FDEF|\r\nG2 FG B,DG,B,",
+    "reference_ranges": [
+      [
+        "52523",
+        1,
+        1
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "25032",
+    "setting_id": "52523",
+    "source_url": "https://thesession.org/tunes/25032#setting52523",
+    "rule": "missing_barline",
+    "bar": 12,
+    "last_bar": 12,
+    "before": "GBA/B/c d/e/fg/a/b\r\nc'eec' acca",
+    "after": "GBA/B/c d/e/fg/a/b|\r\nc'eec' acca",
+    "reference_ranges": [
+      [
+        "52523",
+        9,
+        9
+      ]
+    ],
+    "transposed_references": [],
+    "method": "Line break and matching adjacent measure",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "25191",
+    "setting_id": "52951",
+    "source_url": "https://thesession.org/tunes/25191#setting52951",
+    "rule": "note_length",
+    "bar": 15,
+    "last_bar": 15,
+    "before": " fga ge d2^cd",
+    "after": " f/g/a ge d2^cd",
+    "reference_ranges": [
+      [
+        "54819",
+        15,
+        15
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "25792",
+    "setting_id": "54774",
+    "source_url": "https://thesession.org/tunes/25792#setting54774",
+    "rule": "note_length",
+    "bar": 24,
+    "last_bar": 24,
+    "before": "A>B A2",
+    "after": "A2>B2 A2",
+    "reference_ranges": [
+      [
+        "55098",
+        8,
+        8
+      ],
+      [
+        "55098",
+        24,
+        24
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "25950",
+    "setting_id": "55225",
+    "source_url": "https://thesession.org/tunes/25950#setting55225",
+    "rule": "misplaced_barline",
+    "bar": 15,
+    "last_bar": 16,
+    "before": "FD2 z1 |dc ",
+    "after": "FD2 z1  dc ",
+    "reference_ranges": [
+      [
+        "55225",
+        7,
+        7
+      ],
+      [
+        "55225",
+        32,
+        32
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "25950",
+    "setting_id": "56514",
+    "source_url": "https://thesession.org/tunes/25950#setting56514",
+    "rule": "misplaced_barline",
+    "bar": 15,
+    "last_bar": 16,
+    "before": "GE2 z1 |ed ",
+    "after": "GE2 z1  ed ",
+    "reference_ranges": [
+      [
+        "56514",
+        7,
+        7
+      ],
+      [
+        "56514",
+        32,
+        32
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "25950",
+    "setting_id": "56515",
+    "source_url": "https://thesession.org/tunes/25950#setting56515",
+    "rule": "misplaced_barline",
+    "bar": 23,
+    "last_bar": 24,
+    "before": "cA2 z1 |ag ",
+    "after": "cA2 z1  ag ",
+    "reference_ranges": [
+      [
+        "56515",
+        15,
+        15
+      ],
+      [
+        "56515",
+        40,
+        40
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  },
+  {
+    "tune_id": "26423",
+    "setting_id": "56869",
+    "source_url": "https://thesession.org/tunes/26423#setting56869",
+    "rule": "note_length",
+    "bar": 15,
+    "last_bar": 15,
+    "before": "\r\n\"G\" g3 a2 bagf \"Em\" gfed ",
+    "after": "\r\n\"G\" g3 a1 bagf \"Em\" gfed ",
+    "reference_ranges": [
+      [
+        "57959",
+        15,
+        15
+      ]
+    ],
+    "method": "Matching uninterrupted written phrase in the original exports",
+    "scan_pass": 1
+  }
+]
